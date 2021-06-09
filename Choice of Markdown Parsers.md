@@ -1,0 +1,47 @@
+Title:  Choice of Markdown Parsers
+
+Tags:   levels-outline.3 Markdown.1 Choice of Markdown Parsers
+
+Timestamp: 20210607232518
+
+Seq:    5.1
+
+Level:  3 - Section
+
+Index:  Markdown; Down; cmark; CommonMark; Ink; parsers; 
+
+Body: 
+
+Thanks to the generosity of other open-source developers, Notenik gives you a choice of Markdown parsers to use. Visit the app preferences to change your choice of parser. 
+
++ [Down][] - Blazing fast Markdown rendering in Swift, built upon cmark, which is in turn based on the [CommonMark][cm] spec.
+
++ [Ink][] - A fast and flexible Markdown parser written in Swift. 
+
++ [Mkdown][] - Notenik's own Markdown parser, allowing wiki-style inter-note linking within Notenik. 
+
+Feel free to follow the links above to consult the documentation for Down and/or Ink. 
+
+The rest of this article will describe Notenik's own parser. 
+
+[cite]: https://fletcher.github.io/MultiMarkdown-6/syntax/citation.html
+
+[ext]: https://www.markdownguide.org/extended-syntax/
+
+[mmd]: https://fletcher.github.io/MultiMarkdown-6/syntax/index.html#footnotes
+
+[cm]: https://commonmark.org
+
+[down]: https://github.com/johnxnguyen/Down
+
+[ink]: https://github.com/JohnSundell/Ink
+
+[md]: https://daringfireball.net/projects/markdown/
+
+[mkdown]: https://github.com/hbowie/NotenikMkdown
+
+[mmd]: https://fletcher.github.io/MultiMarkdown-6/syntax/index.html#footnotes
+
+[sp]: https://daringfireball.net/projects/smartypants/
+
+[syntax]: https://daringfireball.net/projects/markdown/syntax
