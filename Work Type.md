@@ -1,5 +1,7 @@
 Title:  Work Type
 
+Tags:   levels-outline.6 Field Labels and Types.8 Fields Useful for Reviews Citations and Quotations
+
 Timestamp: 20210609173612
 
 Seq:    6.8.5

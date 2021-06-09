@@ -1,5 +1,7 @@
 Title:  Recurs
 
+Tags:   levels-outline.6 Field Labels and Types.5 Task-Related Fields
+
 Timestamp: 20210609170857
 
 Seq:    6.5.3
@@ -38,4 +40,3 @@ All of the following are valid expressions of a recurs rule. Note that use of th
 * Every Year
 * The 15th of every month
 * 2nd Tuesday of every month
-

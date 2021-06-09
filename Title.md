@@ -1,5 +1,9 @@
 Title:  Title
 
+Tags:   levels-outline.6 Field Labels and Types.4 The Basic Set of Fields
+
+Timestamp: 20210609165701
+
 Seq:    6.4.1
 
 Level:  4 - Subsection
@@ -23,4 +27,3 @@ The title field for a Note serves as that Note's unique identifier within its Co
 2. In its lowest common denominator form (as described above), when used internally by Notenik;
 
 3. In a lightly transformed form, when creating a file name for the Note, to be used on disk.
-

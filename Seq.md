@@ -1,5 +1,9 @@
 Title:  Seq
 
+Tags:   levels-outline.6 Field Labels and Types.6 Fields for Sequencing and Outlining
+
+Timestamp: 20210609171702
+
 Seq:    6.6.1
 
 Level:  4 - Subsection
@@ -31,4 +35,3 @@ When displayed, the seq field will be displayed as entered.
 When used as a sort field, seq values will be padded to cause them to sort into a natural order, rather than a strict character-by-character alphanumeric order.  In other words, a value of `2` will sort before a value of `10`, a value of `b` will sort before `aa`, etc. 
 
 Each segment of this field, when separated by a dot or a dash, will be padded separately.
-
