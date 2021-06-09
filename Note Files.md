@@ -1,6 +1,6 @@
 Title:  Note Files
 
-Tags:   levels-outline.2 Note Files
+Tags:   levels-outline.3 Note Files
 
 Timestamp: 20210608175041
 
@@ -20,5 +20,4 @@ The Title field comes first, and specifies a unique name by which that Note shal
 
 The Body field comes last, and specifies the primary textual content of the Note. The Body can be formatted using [[Markdown]]. 
 
-Other fields may appear in between the Title and the Body. 
-
+Other fields may appear in between the Title and the Body.

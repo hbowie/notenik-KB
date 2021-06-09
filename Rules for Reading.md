@@ -1,5 +1,7 @@
 Title:  Rules for Reading
 
+Tags:   levels-outline.4 Existing Text Files
+
 Timestamp: 20210608235050
 
 Seq:    4.1
@@ -24,4 +26,4 @@ With that being said, here are some rules that Notenik will try to apply to inte
 
 7. If a file does not start with either metadata or a Markdown level 1 heading, then Notenik will use the file name (dropping the file extension) as the title of the note, and use the entire contents of the file as the body. 
 
-8. If a file does not start with metadata, but does start with a Markdown level 1 heading, then the second line of the file may use a '#', immediately followed by text (without any intervening spaces) to indicate that the text should be treated as tags for the note. I'm not quite sure where this convention originated, or how many people use it, but there it is. 
+8. If a file does not start with metadata, but does start with a Markdown level 1 heading, then the second line of the file may use a '#', immediately followed by text (without any intervening spaces) to indicate that the text should be treated as tags for the note. I'm not quite sure where this convention originated, or how many people use it, but there it is.

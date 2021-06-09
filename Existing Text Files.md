@@ -1,5 +1,7 @@
 Title:  Existing Text Files
 
+Tags:   levels-outline.4 Existing Text Files
+
 Timestamp: 20210608234629
 
 Seq:    4
@@ -14,4 +16,4 @@ First, philosophically, Notenik tries to follow [Postel's Law](https://en.wikipe
 
 > Be conservative in what you do, be liberal in what you accept from others. 
 
-Unfortunately, it is not possible for Notenik to be endlessly liberal in this regard, and there are certainly loosely formatted text files that may not be interpreted by Notenik according to the author's wishes. 
+Unfortunately, it is not possible for Notenik to be endlessly liberal in this regard, and there are certainly loosely formatted text files that may not be interpreted by Notenik according to the author's wishes.

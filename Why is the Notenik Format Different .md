@@ -1,6 +1,6 @@
 Title:  Why is the Notenik Format Different?
 
-Tags:   levels-outline.2 Note Files
+Tags:   levels-outline.3 Note Files
 
 Timestamp: 20210608191157
 
@@ -37,4 +37,3 @@ Which was exactly my intent when concocting this format.
 [md]: https://daringfireball.net/projects/markdown/syntax
 
 [meta]: https://fletcher.github.io/MultiMarkdown-4/metadata.html
-
