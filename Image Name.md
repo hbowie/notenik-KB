@@ -1,0 +1,14 @@
+Title:  Image Name
+
+Seq:    6.7.5
+
+Level:  4 - Subsection
+
+Body: 
+
+The phrase `Image Name` can be used as both a label and a type.
+
+Notenik will allow the user to select an image name from the list of attachments available for the currently selected Note. Only attachments with likely file extensions will be included.
+
+
+The following fields may be useful when using Notenik to record quotes from, or commentary about, or citations of, authors and artists. 
