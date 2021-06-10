@@ -1,6 +1,6 @@
-Title:  Other
+Title:  Other Names
 
-Tags:   levels-outline.1 Basics.8 Other
+Tags:   levels-outline.1 Basics.8 Other Names
 
 Timestamp: 20210607214520
 
