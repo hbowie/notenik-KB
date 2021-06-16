@@ -1,0 +1,15 @@
+Title:  Merge Variables
+
+Tags:   levels-outline.7 Merge Templates.2 Merge Variables
+
+Timestamp: 20210610152517
+
+Seq:    7.2
+
+Level:  3 - Section
+
+Body: 
+
+Variables will be replaced by values taken from the corresponding fields of the current Note, or from an internal table of global variables. Variables must be enclosed in the chosen delimiters. Each variable name must match a field label from the data source, or a global name specified in a SET command. The comparison ignores case (upper or lower), embedded spaces and embedded punctuation when looking for a matching field label. So a field label of "First Name" will match with a variable of "firstname", for example.
+
+A variable, unlike a command, can appear anywhere within the template file, and need not be isolated on a line by itself. More than one variable can appear on the same line. Variables can be used within template commands, as well as other places within the template file.

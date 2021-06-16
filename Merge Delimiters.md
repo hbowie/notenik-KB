@@ -1,0 +1,22 @@
+Title:  Merge Delimiters
+
+Tags:   levels-outline.7 Merge Templates.1 Merge Delimiters
+
+Timestamp: 20210610152220
+
+Seq:    7.1
+
+Level:  3 - Section
+
+Body: 
+
+Notenik will recognize either of two sets of command and variable delimiters automatically. The choice of delimiters will be triggered by the first command-beginning delimiters encountered. The new delimiters are generally recommended, since they are more likely to be treated kindly by various HTML editors when creating your template files.
+
+<table>
+<tr><th>Meaning</th><th>Original Delimiters</th><th>New Delimiters</th></tr>
+<tr><td>Start of Command</td><td>&lt;&lt;</td><td>&lt;?</td></tr>
+<tr><td>End of Command</td><td>&gt;&gt;</td><td>?&gt;</td></tr>
+<tr><td>Start of Variable</td><td>&lt;&lt;</td><td>=$</td></tr>
+<tr><td>End of Variable</td><td>&gt;&gt;</td><td>$=</td></tr>
+<tr><td>Start of Variable Modifiers</td><td>&amp;</td><td>&amp;</td></tr>
+</table>
