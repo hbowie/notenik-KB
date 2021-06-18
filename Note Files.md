@@ -4,7 +4,7 @@ Tags:   levels-outline.3 Note Files
 
 Timestamp: 20210608175041
 
-Seq:    3
+Seq:    4
 
 Level:  2 - Article
 
@@ -13,6 +13,8 @@ Index:  UTF-8;
 Body: 
 
 Notenik stores each Note as a separate text file, in the [UTF-8](https://en.wikipedia.org/wiki/UTF-8) format, capable of being read and modified by any text editor, on almost any computer system in the world.
+
+The file name is generally identical to the Note's title, with the exception of a few occasional tweaks to avoid running afoul of various common operating system limitations. 
 
 Each Note consists of one or more fields. 
 

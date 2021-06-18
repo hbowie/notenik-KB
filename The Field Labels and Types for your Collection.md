@@ -1,5 +1,7 @@
 Title:  The Field Labels and Types for your Collection
 
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.1 Decisions to be Made
+
 Timestamp: 20210618003507
 
 Seq:    2.1.3
@@ -26,4 +28,4 @@ Most commonly you might have the following sorts of Collections.
 
 7. [Commonplace book](https://en.wikipedia.org/wiki/Commonplace_book) -- Add Date, Work Title and Work Type to keep a Collection of your favorite quotations.  
 
-But you can build a Collection for any sort of purpose you like, and choose whichever fields would be most helpful for your particular intentions. 
+But you can build a Collection for any sort of purpose you like, and choose whichever fields would be most helpful for your particular intentions.

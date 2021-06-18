@@ -1,5 +1,7 @@
 Title:  Tailor Collection Preferences
 
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.3 Tailor Collection Preferences
+
 Timestamp: 20210618161656
 
 Seq:    2.3

@@ -1,5 +1,7 @@
 Title:  File Extension for your Notes
 
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.1 Decisions to be Made
+
 Timestamp: 20210618004649
 
 Seq:    2.1.4

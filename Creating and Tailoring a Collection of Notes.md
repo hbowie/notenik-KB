@@ -1,6 +1,6 @@
 Title:  Creating and Tailoring a Collection of Notes
 
-Tags:   levels-outline.2 Creating a New Collection of Notes
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes
 
 Timestamp: 20210609011250
 

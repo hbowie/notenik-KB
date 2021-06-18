@@ -4,7 +4,7 @@ Tags:   levels-outline.8 Script Files.2 Scripting Modules
 
 Timestamp: 20210617211315
 
-Seq:    8.2.1
+Seq:    9.2.1
 
 Level:  4 - Subsection
 
@@ -54,6 +54,4 @@ The following modifier values are valid:
 
 * notenik-split-tags - Reads a Notenik Collection, adds a "Tag" field, and returns one row for each tag (or one row with a blank tag, for Notes with no tags). 
 
-* xlsx - Reads the first table in the specified XLSX file. 
-
-
+* xlsx - Reads the first table in the specified XLSX file.

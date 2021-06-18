@@ -4,7 +4,7 @@ Tags:   levels-outline.8 Script Files.2 Scripting Modules
 
 Timestamp: 20210617211729
 
-Seq:    8.2.4
+Seq:    9.2.4
 
 Level:  4 - Subsection
 
@@ -23,7 +23,4 @@ The file pointed to by the path in the value column will be opened as a Template
 
 #### Generate
 
-The previously opened Template file will be processed according to the rules of [[Merge Templates]], generating one or more output files. 
-
-
-
+The previously opened Template file will be processed according to the rules of [[Merge Templates]], generating one or more output files.

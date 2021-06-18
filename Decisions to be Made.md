@@ -1,6 +1,6 @@
 Title:  Decisions to be Made
 
-Tags:   levels-outline.2 Creating a New Collection of Notes.1 Decisions to be Made
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.1 Decisions to be Made
 
 Timestamp: 20210609024753
 

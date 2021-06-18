@@ -4,7 +4,7 @@ Tags:   levels-outline.8 Script Files.2 Scripting Modules
 
 Timestamp: 20210617211954
 
-Seq:    8.2.3
+Seq:    9.2.3
 
 Level:  4 - Subsection
 
@@ -24,5 +24,4 @@ If the modifier field starts with a 'd', then the field values will be sorted in
 
 #### Set
 
-An action of set causes the previously added sort fields, specified since the last clear action, to be applied. 
-
+An action of set causes the previously added sort fields, specified since the last clear action, to be applied.

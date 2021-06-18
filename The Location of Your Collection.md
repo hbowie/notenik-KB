@@ -1,5 +1,7 @@
 Title:  The Location of Your Collection
 
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.1 Decisions to be Made
+
 Timestamp: 20210617222203
 
 Seq:    2.1.1
@@ -31,6 +33,4 @@ If you just want a quick and easy answer, then pick option 1. (You can always ch
 	+ If you want to share your Collection with someone else, then you may wish to store it in a shared folder;
 	+ If you want to access your Notes using another application, such as a text editor, then such access will be easier if your Collection is stored in a more neutral location.  
 
-If none of the advantages of Option 2 apply to your particular case, then you're probably better off selecting Option 1. 
-
-
+If none of the advantages of Option 2 apply to your particular case, then you're probably better off selecting Option 1.

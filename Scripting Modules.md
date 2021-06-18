@@ -4,7 +4,7 @@ Tags:   levels-outline.8 Script Files.2 Scripting Modules
 
 Timestamp: 20210617210924
 
-Seq:    8.2
+Seq:    9.2
 
 Level:  3 - Section
 
@@ -24,5 +24,4 @@ The module column may contain any of the following values.
 
 * browse - Open the specified URL in your preferred Web browser. 
 
-The associated parameters for each of these modules are described in detail below. 
-
+The associated parameters for each of these modules are described in detail below.
