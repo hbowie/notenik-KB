@@ -1,0 +1,21 @@
+Title:  Wiki-Style Links - W
+
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
+
+Timestamp: 20210616203521
+
+Seq:    7.3.30
+
+Level:  4 - Subsection
+
+Body: 
+
+If your input is coming from a Collection using wiki-style inter-note links (links to other Notes formed by placing the Title of the target note within double square brackets), then you will probably wish to convert these to functional links in your output. 
+
+You can accomplish this by using the letter "W" as a variable modifier to modify the Markdown code containing inter-note links. The "W" must then be followed by one of the following values. 
+
+* 1 - The digit '1' will cause the target Note title to be converted to a conventional, universal file name, changing spaces to dashes, removing any odd characters, making all letters lower-case, and converting white space to hyphens. The '.html' file extension will then be appended as a suffix. This option can be used when each note has its own page. 
+
+* 2 - The digit '2' will cause the Note title to be similarly converted, but then have a '#' prepended, with no suffix added. This option can be used when each note has its own heading within the same page.
+
+Note that the 'W1' / 'W2' option should be specified before the letter 'O' requesting the conversion from Markdown to HTML.

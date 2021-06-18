@@ -1,0 +1,27 @@
+Title:  definegroup command
+
+Tags:   levels-outline.7 Merge Templates.4 Merge Commands
+
+Timestamp: 20210616225100
+
+Seq:    7.4.5
+
+Level:  4 - Subsection
+
+Body: 
+
+This is the first of several commands that define key fields and then conditionally write output when there is a break on any of those fields. 
+
+Up to ten group break fields can be defined. Each must be assigned a number from 1 to 10. Numbers should be assigned sequentially beginning with 1. 
+
+Input data should normally be sorted by the same fields used in any definegroup commands. 
+
+A definegroup command should normally follow a [[nextrec command]]. Each time that a definegroup command is encountered, Notenik stores the value of the variable, and checks for a change in the value for the specified group number. 
+
+Definegroup commands should precede ifendgroup and ifnewgroup commands, and should generally be specified in ascending order by group number. 
+
+The definegroup command has two operands.
+
+* Group Number. This must be a number from 1 to 10. Numbers should be assigned sequentially beginning with 1. Lower-numbered groups are considered more major than higher-numbered groups, in the sense that lower-numbered group breaks will automatically trigger higher-numbered group breaks.
+
+* Variable Name. This is the name of the key field variable. The variable should be surrounded by the normal variable delimiters, so that Notenik will see, not the name of the variable, but its current value.

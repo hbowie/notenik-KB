@@ -1,0 +1,35 @@
+Title:  Word Demarcation - C
+
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
+
+Timestamp: 20210616201225
+
+Seq:    7.3.9
+
+Level:  4 - Subsection
+
+Body: 
+
+The letter "C" indicates that the variable consists of a series of words, and you wish to change or standardize the way in which the words are distinguished from one another.
+
+When parsing the variable, the beginning of a new word will be indicated by either whitespace or punctuation between words, or by a transition from lowercase to uppercase (as in CamelCase usage). In other words, "two words", "TWO_WORDS" or "twoWords" would all be parsed into two separate words. 
+
+What you want done with the word demarcation is defined by the characters following the "C" in the modifiers string. The letter "u" indicates a conversion to uppercase, the letter "l" indicates a conversion to lowercase, and the letter "a" indicates that the character should be left as-is. Anything other than these three characters (including a space) will be interpreted as a separator to be placed between the words. 
+
+Note that the u/l/a indicator can be specified three different times. 
+
+1. The first appearance will control the case of the first letter in the entire variable; 
+2. The second appearance will control the case of the first letter of each word;
+3. The third appearance will control the appearance of all other letters. 
+
+For example, if the template file contained the following:
+
+	=$name&cuul$=
+
+And the name variable was equal to:
+
+	HERB BOWIE
+
+Then the resulting name in the output text file would be:
+
+	Herb Bowie

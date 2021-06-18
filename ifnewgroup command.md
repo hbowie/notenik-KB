@@ -1,0 +1,20 @@
+Title:  ifnewgroup command
+
+Tags:   levels-outline.7 Merge Templates.4 Merge Commands
+
+Timestamp: 20210616225309
+
+Seq:    7.4.8
+
+Level:  4 - Subsection
+
+Body: 
+
+Lines following this command and preceding the next group or endif command will be written to the output file at the beginning of a group of records sharing a common value for this key field. 
+
+Ifnewgroup commands should follow all other group commands, and should generally be specified in *ascending* order by group number. 
+
+The ifnewgroup command has one operand.
+
+
++ Group Number. The group number whose group-beginning output lines follow.

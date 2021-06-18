@@ -16,15 +16,19 @@ Notenik is currently available as a Mac App. It can be downloaded from the [Mac 
 
 Each Note is stored in its own text file. 
 
-A folder full of Notes is referred to as a Collection, and a user may have as many Collections as desired, and Collections may be stored in a variety of locations. 
+A folder full of Notes is referred to as a Collection, and a user may have as many Collections as desired, and Collections may be stored in a variety of locations. Collections can be synced to the cloud, and/or to other devices, using services such as Dropbox and iCloud. You can use any text editor, on any platform, to view and edit your Notes. Notenik formats each text file in a simple, straightforward way that is easily read by humans. 
 
-One special feature of Notenik is the liberal and flexible use of Fields. In Notenik, a Note's Title and its Body are distinct fields. A Link field and a Tags field are available by default. Other field names, and field types, can be easily added. Each Collection can be tailored to have its own set of fields. 
 
-Markdown is supported in the Body field, as well as in other `longtext` fields. 
+One special feature of Notenik is the liberal and flexible use of Fields. In Notenik, a Note's Title and its Body are distinct fields. A Link field and a Tags field are available by default. Other field names, and field types, can be easily added. Each Collection can be tailored to have its own set of [[Field Labels and Types]]. For example, add a Date field, a Status field and a Recurs field, and you have a simple but very workable To Do list. 
 
-Notenik also has its own templating language. You can create merge templates, using your preferred text editor, and can then merge the Notes and their Fields into one or more templates in order to create output text files -- most typically, HTML files. 
+Each Collection can be sorted in a variety of different ways, and an outline view is always available to let you explore your collection via Tags. 
 
-Notenik also has its own scripting language, You can record, modify, and/or write a script that will filter and sort one or more Collections and then merge the resulting data into one or more template files, to create a variety of output files. 
+[[Markdown]] is supported in the Body field, as well as in other fields of type [[longtext]]. Several extensions to basic Markdown are supported, including [[wiki-style links]] from one Note to another. 
 
-By creatively combining different fields, scripting parameters, and merge templates, Notenik can be used as a static site generator to create an entire website. 
+Notenik offers several ways to get Note data into and out of Notenik, using a variety of different formats. 
 
+Notenik also has its own templating language. You can create [[Merge Templates]], using your preferred text editor, and can then merge the Notes and their Fields into one or more templates in order to create output text files -- most typically, HTML files. 
+
+Notenik also has its own scripting language, You can record, modify, and/or write [[Script Files]] that will filter and sort one or more Collections and then merge the resulting data into one or more template files, to create a variety of output files. 
+
+By creatively combining different fields, scripting parameters, and merge templates, Notenik can be used as a static site generator to create an entire website.

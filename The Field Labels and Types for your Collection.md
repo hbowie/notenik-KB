@@ -1,0 +1,29 @@
+Title:  The Field Labels and Types for your Collection
+
+Timestamp: 20210618003507
+
+Seq:    2.1.3
+
+Level:  4 - Subsection
+
+Body: 
+
+Each Collection can have its own combination of [[Field Labels and Types]]. The fields you choose will help to determine the particular functionality that may be available for your Collection. 
+
+Most commonly you might have the following sorts of Collections. 
+
+1. Basic Notes -- Such a Collection might have only a Title, Tags and Body fields. 
+
+2. Web Links -- Add a Link field to the ones defined for Basic Notes, and you can collect your web bookmarks. 
+
+3. To Do -- Add a Date field, a Status field and a Recurs field, and you have a basic task list. 
+
+4. Sequenced List -- Add a Seq field and you can sort your list by whatever identifiers are meaningful to you. 
+
+5. [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) -- Add a timestamp field to help prevent your wiki-stile links between Notes from breaking when you rename a Note. 
+
+6. Blog -- Add several other useful fields if you are interested in generating a blog from your Collection. 
+
+7. [Commonplace book](https://en.wikipedia.org/wiki/Commonplace_book) -- Add Date, Work Title and Work Type to keep a Collection of your favorite quotations.  
+
+But you can build a Collection for any sort of purpose you like, and choose whichever fields would be most helpful for your particular intentions. 

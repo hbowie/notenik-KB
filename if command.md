@@ -1,0 +1,34 @@
+Title:  if command
+
+Tags:   levels-outline.7 Merge Templates.4 Merge Commands
+
+Timestamp: 20210616225453
+
+Seq:    7.4.9
+
+Level:  4 - Subsection
+
+Body: 
+
+The if command can be used to test a variable to see if it is non-blank. If the variable is non-blank, then the following lines up to the closing endif command will be subject to normal output processing. If the variable is blank, then following lines will be skipped until the closing endif command is encountered. In this case, the first and only operand would be the variable to be tested.
+
+The if command can also be used to test a variable to compare it to a constant (or other variable). In this case, the command would have three or more operands: the name of the variable, a logical operator, and one or more values.
+
+In this second scenario, three operands are provided: the first value (variable or constant), a comparison operator, and the second value (variable or constant). 
+
+Any of the following comparisons may be performed, and each may be invoked with the appropriate symbols, abbreviation or words. Note that slashes are used in the following list to separate alternative representations for each operator. 
+
+1. = / == / eq / equals 
+2. &gt; / gt / greater than 
+3. &gt;= / !< | / ge / greater than or equal to
+4. < / lt / less than
+5. <= / !> / le / less than or equal to
+6. <&gt; / != / ne / not equal to
+7. () / [] / co / contains
+8. !() / ![] / nc / does not contain
+9. (<) / [<] / st / starts with 
+10. !(<) / ![<] / ns / does not start with
+11. (&gt;) / [&gt;] / fi / ends with
+12. !(&gt;) / ![&gt;] / ng / does not end with
+
+Note that, if both values appear to be integers, then a numeric comparison will be performed for operands 1 - 6. In all other cases, strings will be compared.

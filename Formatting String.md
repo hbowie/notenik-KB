@@ -1,0 +1,162 @@
+Title:  Formatting String
+
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
+
+Timestamp: 20210616220735
+
+Seq:    7.3.33
+
+Level:  4 - Subsection
+
+Body: 
+
+A formatting string consists of a sequence of characters indicating how the variable is to be formatted. The formatting string, if specified, should follow any other variable modifiers. Any character other than the modifiers listed above will cause the remainder of the variable modifiers to be treated as a formatting string. Currently, a formatting string is valid only for dates -- either for the special variable `today`, or for any variable date in "mm/dd/yy" format.
+
+A date formatting string follows the normal rules for date formatting. One or more occurrences of an upper-case "M" indicates a month, a lower-case "y" is used for a year, and a lower-case "d" is used for the day of the month. An upper-case "E" can be used for the day of the week. Generally, the number of occurrences of each letter you specify will be used to indicate the width of the field you want ("yyyy" for a 4-digit year, for example). Specifying more than two occurrences of "M" indicates you want the month represented by letters rather than numbers, with 4 or more occurrences indicating you want the month spelled out, and 3 occurrences indicating you want a three-letter abbreviation.
+
+See below for full definition of allowable characters and their meanings.
+
+<table>
+<tr>
+<th>Symbol</th>
+<th>Meaning</th>
+<th>Presentation</th>
+<th>Example</th>
+</tr>
+<tr>
+<td>G</td>
+<td>era designator</td>
+<td>Text</td>
+<td>AD</td>
+</tr>
+<tr>
+<td>y</td>
+<td>year</td>
+<td>Number</td>
+<td>1996</td>
+</tr>
+<tr>
+<td>M</td>
+<td>month in year</td>
+<td>Text &amp; Number</td>
+<td>July &amp; 07</td>
+</tr>
+<tr>
+<td>d</td>
+<td>day in month</td>
+<td>Number</td>
+<td>10</td>
+</tr>
+<tr>
+<td>h</td>
+<td>hour in am/pm</td>
+<td>1~12</td>
+<td>12</td>
+</tr>
+<tr>
+<td>H</td>
+<td>hour in day</td>
+<td>0~23</td>
+<td>0</td>
+</tr>
+<tr>
+<td>m</td>
+<td>minute in hour</td>
+<td>Number</td>
+<td>30</td>
+</tr>
+<tr>
+<td>s</td>
+<td>second in minute</td>
+<td>Number</td>
+<td>55</td>
+</tr>
+<tr>
+<td>S</td>
+<td>millisecond</td>
+<td>Number</td>
+<td>978</td>
+</tr>
+<tr>
+<td>E</td>
+<td>day in week</td>
+<td>Text</td>
+<td>Tuesday</td>
+</tr>
+<tr>
+<td>D</td>
+<td>day in year</td>
+<td>Number</td>
+<td>189</td>
+</tr>
+<tr>
+<td>F</td>
+<td>day of week in month</td>
+<td>Number</td>
+<td>2 (2nd Wed in July)</td>
+</tr>
+<tr>
+<td>w</td>
+<td>week in year</td>
+<td>Number</td>
+<td>27</td>
+</tr>
+<tr>
+<td>W</td>
+<td>week in month</td>
+<td>Number</td>
+<td>2</td>
+</tr>
+<tr>
+<td>a</td>
+<td>am/pm marker</td>
+<td>Text</td>
+<td>PM</td>
+</tr>
+<tr>
+<td>k</td>
+<td>hour in day</td>
+<td>Number</td>
+<td>24</td>
+</tr>
+<tr>
+<td>K</td>
+<td>hour in am/pm</td>
+<td>Number</td>
+<td>0</td>
+</tr>
+<tr>
+<td>z</td>
+<td>time zone</td>
+<td>Text</td>
+<td>Pacific Standard Time</td>
+</tr>
+<tr>
+<td>'</td>
+<td>escape for text</td>
+<td>Delimiter</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>single quote</td>
+<td>Literal</td>
+<td></td>
+</tr>
+</table>
+
+The count of pattern letters determine the format.
+
+<strong>(Text)</strong>: 4 or more pattern letters--use full form,
+&lt; 4--use short or abbreviated form if one exists.
+
+<strong>(Number)</strong>: the minimum number of digits. Shorter
+numbers are zero-padded to this amount. Year is handled specially;
+that is, if the count of 'y' is 2, the Year will be truncated to 2 digits.
+
+<strong>(Text &amp; Number)</strong>: 3 or over, use text, otherwise use number.
+
+Any characters in the pattern that are not in the ranges of ['a'..'z']
+and ['A'..'Z'] will be treated as quoted text. For instance, characters
+like ':', '.', ' ', '#' and '@' will appear in the resulting time text
+even they are not embraced within single quotes.

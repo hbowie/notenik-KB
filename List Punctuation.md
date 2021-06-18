@@ -1,0 +1,13 @@
+Title:  List Punctuation
+
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
+
+Timestamp: 20210616194739
+
+Seq:    7.3.2
+
+Level:  4 - Subsection
+
+Body: 
+
+Any punctuation character, other than ones specificaly called out in this list for other purposes, will be interpreted as a separator that will be placed before the current variable, if the variable is non-blank, and if the preceding variable was also non-blank and also marked by the same variable modifier. A space will be added after the separator, and before the current variable, if the punctuation is not a forwards or backwards slash ("/" or "\\"). This is an easy way to list several variables on a single line, separating non-blank ones from others with commas (or other punctuation).

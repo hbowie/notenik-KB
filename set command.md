@@ -1,0 +1,33 @@
+Title:  set command
+
+Tags:   levels-outline.7 Merge Templates.4 Merge Commands
+
+Timestamp: 20210616224302
+
+Seq:    7.4.2
+
+Level:  4 - Subsection
+
+Body: 
+
+This command can define a global variable and set its value. This command would normally have three operands: the name of the global variable, an operator, and a value.
+
+- Global variable name. This should not be the same as the name of any variable name specified by the input data file. The global variable name, when used as the object of a set command, should not be enclosed within the normal variable delimiters, since this would cause the variable name to be replaced by its current value.
+
+- Operator. Any of the following operators can be used.
+
+	+ =  — This will cause the global variable to be set equal to the following value.
+
+	+ += or simply + — This will cause the value to be added to the current value of the global variable.
+
+	+ ++ — This can be used to add a value of 1 to the current value of the global variable, without having to specify the following value of 1. (In this case, the set command only takes two operands.)
+
+	+ -= or simply - — This will cause the value to be subtracted from the current value of the global variable.
+
+	+ \-\- Two minus signs in a row can be used to subtract a value of 1 from the current value of the global variable, without having to specify the following value of 1. (In this case, the set command only requires two operands.)
+
+- Value. This can be a literal or a variable (in which case it should be surrounded by the normal variable delimiters). The value can be a text string or an integer.
+
+One intended use for the set command is to support a line counter. By initializing the value to 0, and then adding to it whenever an output line is generated, the IF command can be used to check for page overflow (in a table column, for example), and then start a new page or column, resetting the counter to 0 again.
+
+Another common use for the set command is to preserve record variables in global variables so that they will be available within an ifendgroup block.

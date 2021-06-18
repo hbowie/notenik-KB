@@ -12,5 +12,35 @@ Index:  about; author; Bowie, Herb;
 
 Body: 
 
-Code and concepts for Notenik developed by [Herb Bowie](https://hbowie.net/about.html).
+I'm [Herb Bowie](https://hbowie.net/about.html), and I'm the author of Notenik. 
+
+I've been programming for quite some time now, and I've also been an avid Mac user for many years. 
+
+My first foray into object-oriented programming was through Java. I wrote several different desktop programs in that language, and over time most of them morphed into a single application, which I ended up calling Notenik. 
+
+A few years ago now, several things happened that together convinced me to rewrite Notenik in a new language. 
+
+1. I retired from my corporate job, which meant I no longer had a personal interest in writing software that I could use on Windows, as well as on a Mac. 
+
+2. Apple's support for Java became less and less enthusiastic. 
+
+3. Oracle became less supportive of desktop applications written in Java.
+
+4. Apple introduced a new programming language, Swift, that gradually matured into a stable, useful programming tool. 
+
+And so the current version of Notenik that I'm describing in this Knowledge Base is written entirely in Swift, and runs solely on the Mac. 
+
+My motivations for writing Notenik are three-fold:
+
+1. For my own personal use.  
+2. For my own enjoyment -- the truth is, I really like programming. 
+3. I want to make something that other people find useful. 
+
+Based on these motivations, Notenik is available for free, and is available as open-source software. 
+
+Notenik is available exclusively through the Mac App Store. And although I realize that many developers have had lots of problems using that distribution channel, my experiences with it have all been positive, and I'm grateful to have something available to me and my users that is relatively safe and painless, and that requires no payments from users. 
+
+I hope you enjoy using Notenik, and I'd be happy to [hear from you](mailto:support@notenik.net) if you have any comments or suggestions for improvement. 
+
+
 

@@ -1,0 +1,28 @@
+Title:  Sort Module Parameters
+
+Tags:   levels-outline.8 Script Files.2 Scripting Modules
+
+Timestamp: 20210617211954
+
+Seq:    8.2.3
+
+Level:  4 - Subsection
+
+Body: 
+
+Just as with the Filter module, the Sort module uses actions of 'clear', 'add' and 'set'.
+
+#### Clear
+
+Clears any sort fields that might have previously been set, so that new ones can be added. 
+
+#### Add
+
+Adds a new sort field, with major ones coming first, and minor ones following. The object would name the field to be used as part of a sort key. 
+
+If the modifier field starts with a 'd', then the field values will be sorted into descending sequence; anything else will result in an ascending sequence. 
+
+#### Set
+
+An action of set causes the previously added sort fields, specified since the last clear action, to be applied. 
+

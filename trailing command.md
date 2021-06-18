@@ -1,0 +1,21 @@
+Title:  trailing command
+
+Tags:   levels-outline.7 Merge Templates.4 Merge Commands
+
+Timestamp: 20210616230025
+
+Seq:    7.4.7
+
+Level:  4 - Subsection
+
+Body: 
+
+The trailing command can be used to eliminate a trailing delimiter, or replace it with another character. 
+
+For example, if previous lines have been written out with a series of names, each followed by a comma, then a trailing command could be used after an ifendgroup command to eliminate the last comma written out (or replace it with a closing parenthesis). 
+
+The trailing command requires one operand, and allows a second operand. 
+
++ The first operand specifies a trailing character to be removed or replaced. A backwards search from the end of the output already produced will look for the the specified character. Whitespace and newline characters will be ignored. Any other character will terminate the search. If the specified character is found in a trailing position, then it will be removed. If a second operand is specified, then that character will serve as the first character's replacement. Note that the word "comma" may be spelled out as the first operand in order to search for a trailing comma. (Simply using the comma character will not work, since this will be interpreted as a delimiter between the operands of the command.) 
+
++ A second operand, if specified, will serve as a replacement for the character specified by the first position.
