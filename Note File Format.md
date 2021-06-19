@@ -1,10 +1,10 @@
 Title:  Note File Format
 
-Tags:   levels-outline.3 Note Files
+Tags:   levels-outline.4 Note Files
 
 Timestamp: 20210608185058
 
-Seq:    4.1
+Seq:    4.1.1
 
 Level:  4 - Subsection
 

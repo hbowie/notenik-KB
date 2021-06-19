@@ -1,10 +1,10 @@
 Title:  Heading auto-numbering
 
-Tags:   levels-outline.5 Markdown.2 The Notenik Markdown Parser
+Tags:   levels-outline.6 Markdown.1 Choice of Markdown Parsers
 
 Timestamp: 20210607233103
 
-Seq:    6.2.2
+Seq:    6.1.2
 
 Level:  4 - Subsection
 

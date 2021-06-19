@@ -1,10 +1,10 @@
 Title:  Definition Lists
 
-Tags:   levels-outline.5 Markdown.2 The Notenik Markdown Parser
+Tags:   levels-outline.6 Markdown.1 Choice of Markdown Parsers
 
 Timestamp: 20210616172636
 
-Seq:    6.2.8
+Seq:    6.1.8
 
 Level:  4 - Subsection
 

@@ -1,12 +1,12 @@
 Title:  Note Files
 
-Tags:   levels-outline.3 Note Files
+Tags:   levels-outline.4 Note Files
 
 Timestamp: 20210608175041
 
-Seq:    4
+Seq:    4.1
 
-Level:  2 - Article
+Level:  3 - Section
 
 Index:  UTF-8; 
 

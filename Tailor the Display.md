@@ -1,5 +1,7 @@
 Title:  Tailor the Display
 
+Tags:   levels-outline.3 Common Tasks.1 Display a Note
+
 Timestamp: 20210618164350
 
 Seq:    3.1.1
@@ -22,5 +24,4 @@ The layout and appearance of the Display tab for a particular Collection can be 
 
 + `display.html` -- Enter a Merge Template (following the rules for [[Merge Templates]]) to alter the layout of the Display tab in any way you would like. If this file is present, then it should contain the CSS to be used (rather than putting it into the separate file mentioned above). This file should start with a `<?nextrec?>` command and end with a `<?loop?>` command, and should not include an `<?output?>` command. 
 
-Note that you may use the `Generate Sample Display Template` command beneath the `Collection` menu to have Notenik generate samples of both of these files. You may then delete one or the other, and modify the remaining file, to achieve your desired effects. 
-
+Note that you may use the `Generate Sample Display Template` command beneath the `Collection` menu to have Notenik generate samples of both of these files. You may then delete one or the other, and modify the remaining file, to achieve your desired effects.

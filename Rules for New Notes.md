@@ -1,10 +1,10 @@
 Title:  Rules for New Notes
 
-Tags:   levels-outline.4 Existing Text Files
+Tags:   levels-outline.5 Existing Text Files
 
 Timestamp: 20210608235523
 
-Seq:    5.3
+Seq:    4.7.3
 
 Level:  4 - Subsection
 

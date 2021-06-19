@@ -1,5 +1,7 @@
 Title:  Display a Note
 
+Tags:   levels-outline.3 Common Tasks.1 Display a Note
+
 Timestamp: 20210618164008
 
 Seq:    3.1

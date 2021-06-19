@@ -1,10 +1,10 @@
 Title:  Rules for Updating
 
-Tags:   levels-outline.4 Existing Text Files
+Tags:   levels-outline.5 Existing Text Files
 
 Timestamp: 20210608235444
 
-Seq:    5.2
+Seq:    4.7.2
 
 Level:  4 - Subsection
 

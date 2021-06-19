@@ -1,5 +1,7 @@
 Title:  Add, Delete and Edit Your Notes
 
+Tags:   levels-outline.3 Common Tasks.2 Add Delete and Edit Your Notes
+
 Timestamp: 20210618170924
 
 Seq:    3.2

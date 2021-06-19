@@ -1,5 +1,7 @@
 Title:  View Your Notes as a List
 
+Tags:   levels-outline.3 Common Tasks.3 View Your Notes as a List
+
 Timestamp: 20210618171450
 
 Seq:    3.3

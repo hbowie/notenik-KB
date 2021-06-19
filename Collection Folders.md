@@ -1,0 +1,23 @@
+Title:  Collection Folders
+
+Timestamp: 20210619163521
+
+Seq:    4.2
+
+Level:  3 - Section
+
+Body: 
+
+Each Note is part of a Collection, and each Collection is stored in its own folder (aka directory). Each Note within a Collection must have its own unique Title. 
+
+You can organize your Notes into as many Collections as you would like, and store each Collection wherever you would like. 
+
+The Notenik application can open multiple Collections at a time, each in its own window. The Open Recent command under the File menu provides easy access to recently opened Collections. 
+
+The Notenik folder within your iCloud drive is intended specifically for use by the Notenik application, so any Collection created here can easily be opened later, by selecting it from the `Open from iCloud` submenu located beneath the File menu. 
+
+You may use a command under the File menu to designate the current Collection as your Essential Collection. Once identified, this will be the first Collection opened each time the application launches.  
+
+The Save As command under the File menu allows you to save an entire Collection in a new location, with the option to either keep the current location (effectively making a copy) or to delete it (effectively moving the Collection to a new location). 
+
+Note that Notenik does not make any assumptions about how you wish to name your Notenik folders. When creating a new Collection, or using Save As to save your current Collection to a new location, Notenik expects you to create and appropriately name a new folder that will contain your Collection. In other words, you should not simply select an existing folder with the expectation that Notenik will then create a subfolder to store your Collection.

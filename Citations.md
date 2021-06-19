@@ -1,10 +1,10 @@
 Title:  Citations
 
-Tags:   levels-outline.5 Markdown.2 The Notenik Markdown Parser
+Tags:   levels-outline.6 Markdown.1 Choice of Markdown Parsers
 
 Timestamp: 20210607233423
 
-Seq:    6.2.6
+Seq:    6.1.6
 
 Level:  4 - Subsection
 

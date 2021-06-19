@@ -1,19 +1,35 @@
 Title:  Existing Text Files
 
-Tags:   levels-outline.4 Existing Text Files
+Tags:   levels-outline.5 Existing Text Files
 
 Timestamp: 20210608234629
 
-Seq:    5
+Seq:    4.7
 
-Level:  2 - Article
+Level:  3 - Section
 
 Body: 
 
-As I've noted in another article, Notenik uses its own unique [[Note File Format]]. However, since Notenik is rather late to the game of managing text files, and since those already using similar sorts of files are probably among those interested in my app, I wanted to talk a bit about how Notenik can be used with existing folders full of text files. 
+To better support users with existing collections of notes stored in text files, Notenik makes its best effort to recognize and appropriately handle the following variations on the normal Notenik format. 
 
-First, philosophically, Notenik tries to follow [Postel's Law](https://en.wikipedia.org/wiki/Robustness_principle):
+1. Markdown - The first line of the file contains a Markdown level 1 heading, which is to be used as the Note's title. The remainder of the file makes up the body. No metadata, and no field labels. 
 
-> Be conservative in what you do, be liberal in what you accept from others. 
+2. MultiMarkdown - The file may start with metadata, including a title, but there is no explicit label identifying the start of the body; instead, the first blank line indicates the end of the metadata and the start of the body. 
 
-Unfortunately, it is not possible for Notenik to be endlessly liberal in this regard, and there are certainly loosely formatted text files that may not be interpreted by Notenik according to the author's wishes.
+3. Plain Text - The title is taken from the file name, and the entire contents of the file makes up the body. No metadata, and no field labels.  
+
+Note that these three formats differ from the normal Notenik format in one or more of the following ways:
+
+* While Notenik will create a Note's file name from its title, Notenik expects the title of the note to be explicitly identified in the first line of the file, as in the following example:
+
+		Title: Supported Variations in Text File Formats
+
+* Notenik will generally write out a blank line between fields, to aid in readability, which means that the beginning of the body is not triggered by the first blank line. 
+
+* Notenik will explicitly identify the start of the Note's body with a body label, as in the following example:
+
+		Body: 
+
+Notenik will generally be able to determine which of these variations is being used based on the contents of the first few lines of the text file. 
+
+Notenik will also attempt to respect these variations when modifying an existing Note, keeping each Note in its original format.

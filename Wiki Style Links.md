@@ -1,10 +1,10 @@
 Title:  Wiki Style Links
 
-Tags:   levels-outline.5 Markdown.2 The Notenik Markdown Parser
+Tags:   levels-outline.6 Markdown.1 Choice of Markdown Parsers
 
 Timestamp: 20210607233023
 
-Seq:    6.2.1
+Seq:    6.1.1
 
 Level:  4 - Subsection
 
