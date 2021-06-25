@@ -14,11 +14,7 @@ Navigating around to all of these Collections in all of these locations can be a
 
 Each Collection can be assigned a shortcut in its Collection Preferences window. You can enter any brief, unique identifier for a Collection in this field. Upper-case characters will be converted to lower-case, and any spacing and punctuation will be removed. The idea is to make a shortcut easy and quick to type. 
 
-![Collection Prefs Window](../images/collection-prefs.jpg)
-
 Once you've entered some shortcuts, you can make use of them through the new Quick Action menu item, found beneath the Files menu, and easily accessed by pressing Ctrl-Q. This menu item will then bring up the new Quick Action window. 
-
-![Collection Prefs Window](../images/quick-action.jpg)
 
 At its most basic, the Quick Action window can be used to open, or to navigate to, a Collection via its shortcut. Just enter the first few letters of a shortcut in the Collection Shortcut field, and then press return when you see your desired shortcut selected. The desired Collection will be opened, if it's not already, and its window will be moved to the front. 
 
