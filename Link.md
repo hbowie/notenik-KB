@@ -1,10 +1,10 @@
 Title:  Link
 
-Tags:   levels-outline.7 Field Labels and Types.4 The Basic Set of Fields
+Tags:   levels-outline.6 Field Labels and Types.4 The Basic Set of Fields
 
 Timestamp: 20210609165842
 
-Seq:    7.4.3
+Seq:    6.4.3
 
 Level:  4 - Subsection
 
@@ -23,5 +23,17 @@ When editing, a link field will appear as a three-line text field.
 For display purposes, links will generally be styled as a link, and will be clickable. 
 
 The first link field encountered within a Note will be considered the Note's primary link field, and will be acted upon by any special buttons/commands designed to open that Note's link. These actions will typically open the link within the user's preferred Web browser (such as Safari or Chrome). 
+
+You can easily Launch a link from within the Notenik Mac App by clicking on the Launch Link button in the Toolbar, or by selecting Launch Link under the Note menu, or by using the keyboard shortcut CMD-L, or by double-clicking on the Note's line in the List view or the Tags view. 
+
+Adding a Link to a Note doesn't necessarily reduce the Note to a simple Bookmark, but this is certainly one way to use a Collection of Notes. 
+
+Note that if you use a Link to point to a local folder containing another Notenik Collection, then Launching that Link will result in opening the linked Collection within Notenik (so long as you have given Notenik permission to access that folder).
+
+You may use the Set Local Link command under the Note menu to choose a file or folder to be linked; the resulting 'file:///' style of URL will then replace any value previously stored in the Link field for the current Note.
+
+Note that you can drag a bookmark from a Web browser (such as Safari or Chrome) and drop it into an open Collection's List view in order to add that bookmark to the Collection as a new Note. A bookmark can typically be dragged either from the browser's URL field, at the top of the screen, or from a link within a page. The result of such a drag and drop operation will be a new Note with its Title and Link fields populated.
+
+If you add a Link value without any URL scheme, then the implicit scheme of 'https://' will be assumed. In other words, you need only enter 'Notenik.net' in the link field, but 'https://Notenik.net' is what will be passed to your Web browser when requesting Notenik to open the Link. 
 
 Remember that a link stored in its own field is a somewhat different animal from a link coded using Markdown syntax within a Note's body.

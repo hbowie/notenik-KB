@@ -1,0 +1,28 @@
+Title:  The Collection Template File
+
+Timestamp: 20210626204820
+
+Seq:    4.1.5
+
+Level:  4 - Subsection
+
+Body: 
+
+Within each Collection folder Notenik stores a special file that it uses as a template for creating Notes within that Collection.
+
+The file name is always `template`. The file extension of the template file is used as an indicator of the file extension that should be used when creating new Notes within that Collection. 
+
+The contents of the Collection template are generally similar to the usual [[Note File Format]]. The Collection template should contain a field label for every field that the user will be allowed to add or edit within the Collection. 
+
+You may leave the value (the text following the colon) blank, in which case the field type will be inferred from the label. Alternatively, you may specify the desired type for the field within less than/greater than signs, as in the following example:
+
+```
+Author Info: <longtext>
+```
+
+For some field types, a list of allowable values may also accompany the type itself. 
+
+Notenik will create and edit a Collection's template file for you, in most cases, but for very complex or specialized sets of [[field labels and types]], you may wish to make [[use of a text editor]] to modify the file directly. 
+
+Note that Collection templates are very different from [[Merge Templates]], so you should not confuse the two. 
+

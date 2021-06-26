@@ -1,10 +1,10 @@
 Title:  delims command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands
+Tags:   levels-outline.7 Merge Templates.4 Merge Commands
 
 Timestamp: 20210616221450
 
-Seq:    8.4.1
+Seq:    7.4.1
 
 Level:  4 - Subsection
 

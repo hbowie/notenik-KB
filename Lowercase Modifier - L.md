@@ -1,10 +1,10 @@
 Title:  Lowercase Modifier - L
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616201852
 
-Seq:    8.3.19
+Seq:    7.3.19
 
 Level:  4 - Subsection
 

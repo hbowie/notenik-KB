@@ -1,10 +1,10 @@
 Title:  Word Demarcation - C
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616201225
 
-Seq:    8.3.9
+Seq:    7.3.9
 
 Level:  4 - Subsection
 

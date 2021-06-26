@@ -1,14 +1,23 @@
 Title:  Task-Related Fields
 
-Tags:   levels-outline.7 Field Labels and Types.5 Task-Related Fields
+Tags:   levels-outline.6 Field Labels and Types.5 Task-Related Fields
 
 Timestamp: 20210609170103
 
-Seq:    7.5
+Seq:    6.6
 
 Level:  3 - Section
 
 Body: 
 
-The following field types are typically used as part of a Notenik Collection serving as a *To-Do* list, in which each Note represents a task to be completed. 
+Add a Status field, a Seq field, a Date field and a Recurs field to a Collection, and you have all the elements of a personal task management system. 
+
+A Collection such as this can use the Date field to track due dates, and/or the Seq field to track priorities. If desired, use the Tags field to group tasks by context and/or by project. 
+
+If you use the Close Note option under the Note menu, then you can cause the Due Date to recur (if a Recurs field is available), or the Status field to show the task as Completed, if it is not eligible to recur. 
+
+The Sort menu contains two options specific to task tracking. The first option sorts all the Notes in a list by Date and then Seq, while the second option sorts all tasks by Seq and then Date. In both cases, completed tasks sort to the bottom of the list. 
+
+And don't forget the Purge Option under the File menu, which will allow you to purge Cancelled and Completed Notes from a Collection.
+
 

@@ -1,10 +1,10 @@
 Title:  Lists of Labels and Types
 
-Tags:   levels-outline.7 Field Labels and Types.3 Lists of Labels and Types
+Tags:   levels-outline.6 Field Labels and Types.3 Lists of Labels and Types
 
 Timestamp: 20210609165506
 
-Seq:    7.3
+Seq:    6.3
 
 Level:  3 - Section
 

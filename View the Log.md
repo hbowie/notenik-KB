@@ -1,6 +1,10 @@
 Title:  View the Log
 
-Seq:    10.1
+Tags:   levels-outline.9 Miscellany.1 View the Log
+
+Timestamp: 20210619161531
+
+Seq:    9.1
 
 Level:  3 - Section
 

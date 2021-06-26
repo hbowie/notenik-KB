@@ -1,12 +1,14 @@
 Title:  Timestamp
 
-Tags:   levels-outline.7 Field Labels and Types.10 System-Assigned Dates and Times
+Tags:   levels-outline.6 Field Labels and Types.10 System-Assigned Dates and Times
 
 Timestamp: 20210609175521
 
-Seq:    7.10.3
+Seq:    6.10.3
 
 Level:  4 - Subsection
+
+Index:  zettelkasten; 
 
 Body: 
 
@@ -32,6 +34,8 @@ This field is system-maintained, and is not editable by the user.
 The field is generally displayed below all user-editable fields, and may be separated from these other fields by a divider. 
 
 The values for this field can be exported and imported, and will then serve the purpose of preserving an original value for this field, rather than reflecting the date and time of the import.
+
+Timestamps such as these are often used when creating a *[zettelkasten](https://zettelkasten.de)*.
 
 A timestamp field is particularly important when you are using [[Wiki Style Links]] within a Collection. 
 

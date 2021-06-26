@@ -1,5 +1,7 @@
 Title:  Collection Folders
 
+Tags:   levels-outline.4 Files and Folders.2 Collection Folders
+
 Timestamp: 20210619163521
 
 Seq:    4.2

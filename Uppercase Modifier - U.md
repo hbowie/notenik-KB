@@ -1,10 +1,10 @@
 Title:  Uppercase Modifier - U
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616202857
 
-Seq:    8.3.28
+Seq:    7.3.28
 
 Level:  4 - Subsection
 

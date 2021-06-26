@@ -1,10 +1,10 @@
 Title:  Merge Templates
 
-Tags:   levels-outline.8 Merge Templates
+Tags:   levels-outline.7 Merge Templates
 
 Timestamp: 20210610152037
 
-Seq:    8
+Seq:    7
 
 Level:  2 - Article
 

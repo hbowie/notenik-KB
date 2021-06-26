@@ -1,10 +1,10 @@
 Title:  Markdown
 
-Tags:   levels-outline.6 Markdown
+Tags:   levels-outline.5 Markdown
 
 Timestamp: 20210607222053
 
-Seq:    6
+Seq:    5
 
 Level:  2 - Article
 
@@ -12,7 +12,7 @@ Index:  Markdown; Gruber, John; longtext; body;
 
 Body: 
 
-Notenik offers extensive support for [Markdown][md], John Gruber's text-to-HTML conversion tool for web writers. 
+[Markdown](http://daringfireball.net/projects/markdown/) is a simple syntax for formatting plain text files so that they can be easily read and written by humans, but also can easily be converted into HTML for use on the Web. If you'd like, you can use the Markdown syntax for formatting the body of each note.  
 
 If you're new to Markdown, and would like to read about some of its advantages, feel free to consult my blog post titled [Why I Use Markdown (And Why You Should Too)](https://practopian.org/blog/hbowie/why-i-use-markdown-and-why-you-should-too.html).
 

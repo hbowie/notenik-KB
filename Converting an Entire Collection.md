@@ -1,10 +1,10 @@
 Title:  Converting an Entire Collection
 
-Tags:   levels-outline.5 Existing Text Files
+Tags:   levels-outline.4 Files and Folders.8 Existing Text Files
 
 Timestamp: 20210608235539
 
-Seq:    4.9.4
+Seq:    4.8.4
 
 Level:  4 - Subsection
 

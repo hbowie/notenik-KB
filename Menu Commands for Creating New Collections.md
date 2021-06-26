@@ -1,6 +1,6 @@
 Title:  Menu Commands for Creating New Collections
 
-Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.2 New Collection Menu Commands
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.2 Menu Commands for Creating New Collections
 
 Timestamp: 20210618014454
 

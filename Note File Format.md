@@ -1,6 +1,6 @@
 Title:  Note File Format
 
-Tags:   levels-outline.4 Note Files
+Tags:   levels-outline.4 Files and Folders.1 Note Files
 
 Timestamp: 20210608185058
 
@@ -12,7 +12,15 @@ Body:
 
 The contents of each Notenik Note file are formatted in a way that is easy to read and write, for both humans and computers, but is somewhat special, and unique to Notenik. 
 
-Here are the general formattng rules:
+Each Field in a Note consists of the Field's Label, followed by a colon and one or more spaces, followed by the Field's Value.
+
+In other words, something like this:
+
+	Title: This is a Sample Note
+
+The Notenik approach to identifying fields within a Note is very similar to the [Multimarkdown metadata syntax](http://fletcher.github.io/MultiMarkdown-4/metadata.html), and also similar to [YAML](https://en.wikipedia.org/wiki/YAML).
+
+Here are the general formattng rules for Note files within Notenik:
 
 + A Note consists of a series of Fields. 
 

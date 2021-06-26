@@ -1,8 +1,10 @@
 Title:  Index to the Knowledge Base
 
+Tags:   levels-outline.9 Miscellany.2 Index to the Knowledge Base
+
 Timestamp: 20210626012426
 
-Seq:    10.2
+Seq:    9.2
 
 Level:  3 - Section
 

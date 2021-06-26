@@ -1,8 +1,10 @@
 Title:  Sync Your Notes
 
+Tags:   levels-outline.4 Files and Folders.7 Sync Your Notes
+
 Timestamp: 20210620171947
 
-Seq:    4.8
+Seq:    4.7
 
 Level:  3 - Section
 

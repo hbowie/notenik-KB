@@ -1,10 +1,10 @@
 Title:  Merge Commands
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands
+Tags:   levels-outline.7 Merge Templates.4 Merge Commands
 
 Timestamp: 20210616221125
 
-Seq:    8.4
+Seq:    7.4
 
 Level:  3 - Section
 

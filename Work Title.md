@@ -1,10 +1,10 @@
 Title:  Work Title
 
-Tags:   levels-outline.7 Field Labels and Types.8 Fields Useful for Reviews Citations and Quotations
+Tags:   levels-outline.6 Field Labels and Types.8 Fields Useful for Reviews Citations and Quotations
 
 Timestamp: 20210609173441
 
-Seq:    7.8.4
+Seq:    6.8.4
 
 Level:  4 - Subsection
 

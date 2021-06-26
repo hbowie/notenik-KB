@@ -1,8 +1,10 @@
 Title:  Take Quick Action
 
+Tags:   levels-outline.4 Files and Folders.5 Managing a Bunch of Collections
+
 Timestamp: 20210621221706
 
-Seq:    4.6.3
+Seq:    4.5.3
 
 Level:  4 - Subsection
 

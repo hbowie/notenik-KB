@@ -1,10 +1,10 @@
 Title:  Type
 
-Tags:   levels-outline.7 Field Labels and Types.9 General-Purpose Fields
+Tags:   levels-outline.6 Field Labels and Types.9 General-Purpose Fields
 
 Timestamp: 20210609175110
 
-Seq:    7.9.6
+Seq:    6.9.6
 
 Level:  4 - Subsection
 

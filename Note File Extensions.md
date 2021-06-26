@@ -1,6 +1,6 @@
 Title:  Note File Extensions
 
-Tags:   levels-outline.4 Note Files
+Tags:   levels-outline.4 Files and Folders.1 Note Files
 
 Timestamp: 20210608181723
 

@@ -1,10 +1,10 @@
 Title:  Day of Week - EEEE
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616220338
 
-Seq:    8.3.12
+Seq:    7.3.12
 
 Level:  4 - Subsection
 

@@ -1,10 +1,10 @@
 Title:  Functionality Associated with Field Types
 
-Tags:   levels-outline.7 Field Labels and Types.2 Functionality Associated with Field Types
+Tags:   levels-outline.6 Field Labels and Types.2 Functionality Associated with Field Types
 
 Timestamp: 20210609163443
 
-Seq:    7.2
+Seq:    6.2
 
 Level:  3 - Section
 

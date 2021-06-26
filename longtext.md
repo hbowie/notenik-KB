@@ -1,10 +1,10 @@
 Title:  longtext
 
-Tags:   levels-outline.7 Field Labels and Types.9 General-Purpose Fields
+Tags:   levels-outline.6 Field Labels and Types.9 General-Purpose Fields
 
 Timestamp: 20210609174551
 
-Seq:    7.9.3
+Seq:    6.9.3
 
 Level:  4 - Subsection
 

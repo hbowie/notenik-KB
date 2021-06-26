@@ -1,10 +1,10 @@
 Title:  Status
 
-Tags:   levels-outline.7 Field Labels and Types.5 Task-Related Fields
+Tags:   levels-outline.6 Field Labels and Types.5 Task-Related Fields
 
 Timestamp: 20210609170808
 
-Seq:    7.5.2
+Seq:    6.6.2
 
 Level:  4 - Subsection
 
@@ -40,3 +40,12 @@ Notenik will default to the following standard list of status values.
 The text values may be modified by placing a series of integer + label pairs in the Value area of the relevant template file, with separating punctuation. Such a template line might look something like this:
 
 	Status: 1 - Idea; 4 - In Work; 9 - Published;
+
+See these commands beneath the Note menu. Note that these are designed to be used in Display mode, not in Edit mode. 
+
+* Toggle Status - Switches from least complete to most, and back again. 
+* Increment Status - Bump to the next stage in the Collection's lifecycle. 
+
+There's also a command beneath the Collection menu to Close all Completed Tasks, which will look for all tasks with a status of Completed and change them to Closed. 
+
+Look under the File menu for an option to Purge Notes that have been Canceled or Completed. You'll be given the option of discarding the purged Notes, or of copying them to another location.

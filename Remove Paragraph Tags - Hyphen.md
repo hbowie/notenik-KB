@@ -1,10 +1,10 @@
 Title:  Remove Paragraph Tags - Hyphen
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616220149
 
-Seq:    8.3.4
+Seq:    7.3.4
 
 Level:  4 - Subsection
 

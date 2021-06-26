@@ -1,10 +1,10 @@
 Title:  trailing command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands
+Tags:   levels-outline.7 Merge Templates.4 Merge Commands
 
 Timestamp: 20210616230025
 
-Seq:    8.4.7
+Seq:    7.4.7
 
 Level:  4 - Subsection
 

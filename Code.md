@@ -1,16 +1,18 @@
 Title:  Code
 
-Tags:   levels-outline.7 Field Labels and Types.7 Web-Making Fields
+Tags:   levels-outline.6 Field Labels and Types.7 Web-Making Fields
 
 Timestamp: 20210609172054
 
-Seq:    7.7.1
+Seq:    6.7.1
 
 Level:  4 - Subsection
 
 Body: 
 
 The word `Code` can be used as both a label and a type. 
+
+Add a Code field to a Collection in order to store a code snippet as part of each Note in that Collection.
 
 This field type will be inferred for a label of `Code`.
 

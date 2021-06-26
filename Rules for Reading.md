@@ -1,10 +1,10 @@
 Title:  Rules for Reading
 
-Tags:   levels-outline.5 Existing Text Files
+Tags:   levels-outline.4 Files and Folders.8 Existing Text Files
 
 Timestamp: 20210608235050
 
-Seq:    4.9.1
+Seq:    4.8.1
 
 Level:  4 - Subsection
 

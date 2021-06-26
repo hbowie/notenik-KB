@@ -1,10 +1,10 @@
 Title:  Why is the Notenik Format Different?
 
-Tags:   levels-outline.4 Note Files
+Tags:   levels-outline.4 Files and Folders.1 Note Files
 
 Timestamp: 20210608191157
 
-Seq:    4.1.5
+Seq:    4.1.6
 
 Level:  4 - Subsection
 

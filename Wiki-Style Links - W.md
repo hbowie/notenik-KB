@@ -1,10 +1,10 @@
 Title:  Wiki-Style Links - W
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616203521
 
-Seq:    8.3.30
+Seq:    7.3.30
 
 Level:  4 - Subsection
 

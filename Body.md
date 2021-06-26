@@ -1,16 +1,18 @@
 Title:  Body
 
-Tags:   levels-outline.7 Field Labels and Types.4 The Basic Set of Fields
+Tags:   levels-outline.6 Field Labels and Types.4 The Basic Set of Fields
 
 Timestamp: 20210609165933
 
-Seq:    7.4.4
+Seq:    6.4.5
 
 Level:  4 - Subsection
 
 Body: 
 
 The word `body` can be used as both a label and a type. 
+
+The Body consists of the text of the Note, containing as many words as you like.
 
 A Collection must have one and only one field of type `body`, and it should be the *last* field within a Collection. 
 

@@ -1,10 +1,10 @@
 Title:  Hour of Day - K
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616201836
 
-Seq:    8.3.18
+Seq:    7.3.18
 
 Level:  4 - Subsection
 

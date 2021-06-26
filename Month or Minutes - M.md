@@ -1,10 +1,10 @@
 Title:  Month or Minutes - M
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616201933
 
-Seq:    8.3.20
+Seq:    7.3.20
 
 Level:  4 - Subsection
 

@@ -1,10 +1,10 @@
 Title:  Date
 
-Tags:   levels-outline.7 Field Labels and Types.5 Task-Related Fields
+Tags:   levels-outline.6 Field Labels and Types.5 Task-Related Fields
 
 Timestamp: 20210609170636
 
-Seq:    7.5.1
+Seq:    6.6.1
 
 Level:  4 - Subsection
 
@@ -13,6 +13,8 @@ Body:
 The word `date` can be used as both a label and a type. 
 
 In addition to `date` itself, this field type will be inferred for any label containing the consecutive letters `date`.
+
+Add a Date field to a Collection in order to track the date each note was officially published, or a due date for each note. A date may be expressed in any of a number of common formats. It may also be a partial date, such as a year, or a year and a month. It may or may not contain a specific time of day.
 
 A Collection may have one or more fields of type `date`. The first such field will be used as the primary date field for the Note when it comes to any operations (sorting, recurrence, etc.) that assume a single date field. 
 
@@ -23,3 +25,7 @@ When editing, a date field can be entered as free-form text. Notenik will attemp
 For Display purposes, the day of the week will generally be shown alongside the year, month and day of month. 
 
 When used as a sort field, date values will be sorted by year, month and day, no matter how they were originally entered.
+
+Note that the Date field has several helpful editing tools. You can enter a free-form date yourself, or you can use a Calendar widget to pick dates from a Calendar. You can use the Today button to set the date to Today's date, and you can use the Recurs button to apply the Recurs rule, if one has been supplied. 
+
+If you need to export a Collection in a format suitable for sorting by Date, then you may wish to use the Standardize Dates to YMD command under the Collection menu to make sure that all dates are stored in a yyyy-mm-dd format suitable for sorting.

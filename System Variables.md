@@ -1,10 +1,10 @@
 Title:  System Variables
 
-Tags:   levels-outline.8 Merge Templates.2 Merge Variables
+Tags:   levels-outline.7 Merge Templates.2 Merge Variables
 
 Timestamp: 20210610152725
 
-Seq:    8.2.1
+Seq:    7.2.1
 
 Level:  4 - Subsection
 

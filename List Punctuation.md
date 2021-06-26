@@ -1,10 +1,10 @@
 Title:  List Punctuation
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.7 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616194739
 
-Seq:    8.3.2
+Seq:    7.3.2
 
 Level:  4 - Subsection
 

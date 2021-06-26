@@ -1,10 +1,10 @@
 Title:  copyfile command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands
+Tags:   levels-outline.7 Merge Templates.4 Merge Commands
 
 Timestamp: 20210616230136
 
-Seq:    8.4.12
+Seq:    7.4.12
 
 Level:  4 - Subsection
 

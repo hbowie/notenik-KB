@@ -1,10 +1,10 @@
 Title:  New Collection Menu Commands
 
-Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.2 New Collection Menu Commands
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.3 New Collection Menu Commands
 
 Timestamp: 20210618014454
 
-Seq:    2.2
+Seq:    2.3
 
 Level:  3 - Section
 
