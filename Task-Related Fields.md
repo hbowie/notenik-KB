@@ -4,7 +4,7 @@ Tags:   levels-outline.6 Field Labels and Types.5 Task-Related Fields
 
 Timestamp: 20210609170103
 
-Seq:    6.6
+Seq:    7.6
 
 Level:  3 - Section
 
@@ -19,5 +19,3 @@ If you use the Close Note option under the Note menu, then you can cause the Due
 The Sort menu contains two options specific to task tracking. The first option sorts all the Notes in a list by Date and then Seq, while the second option sorts all tasks by Seq and then Date. In both cases, completed tasks sort to the bottom of the list. 
 
 And don't forget the Purge Option under the File menu, which will allow you to purge Cancelled and Completed Notes from a Collection.
-
-

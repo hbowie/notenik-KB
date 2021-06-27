@@ -4,12 +4,11 @@ Tags:   levels-outline.9 Miscellany.2 Index to the Knowledge Base
 
 Timestamp: 20210626012426
 
-Seq:    9.2
+Seq:    10.3
 
 Level:  3 - Section
 
 Body: 
-
 
 about
 : [[About]]
@@ -134,4 +133,3 @@ UTF-8
 
 wiki-style links
 : [[Wiki Style Links]]
-

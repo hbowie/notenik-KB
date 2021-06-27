@@ -4,7 +4,7 @@ Tags:   levels-outline.6 Field Labels and Types.6 Fields for Sequencing and Outl
 
 Timestamp: 20210609171702
 
-Seq:    6.5.1
+Seq:    7.5.1
 
 Level:  4 - Subsection
 
@@ -40,5 +40,4 @@ When adding a new Note, if the currently selected Note has a seq value, then the
 
 If you want to insert a new note with a Seq Value already assigned to another Note, then first select the other Note, then use the Increment command under the Note menu to increment the Seq field of the existing note, as well as following notes that might otherwise cause duplicate Seq values. 
 
-If your Notes have a two-part Seq field (i.e., 1.00), then use the `Increment Major Seq` command beneath the `Note` menu to force the numbers to the left of the decimal point to be incremented, rather than incrementing the numbers on the right.  
-
+If your Notes have a two-part Seq field (i.e., 1.00), then use the `Increment Major Seq` command beneath the `Note` menu to force the numbers to the left of the decimal point to be incremented, rather than incrementing the numbers on the right.

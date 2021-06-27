@@ -4,7 +4,7 @@ Tags:   levels-outline.6 Field Labels and Types.4 The Basic Set of Fields
 
 Timestamp: 20210609165802
 
-Seq:    6.4.2
+Seq:    7.4.2
 
 Level:  4 - Subsection
 
@@ -32,5 +32,3 @@ Click on the Tags tab to see your Notes organized by tags, instead of appearing 
 There is an option beneath the Sort menu to sort your list of Notes by Tags plus Title fields. 
 
 Beneath the Collection menu you will find an option to perform a Tags Mass Change. The user will be prompted to specify *from* tags and *to* tags, and Notenik will then replace the from tags (in combination, if more than one is specified) with the to tags.
-
-

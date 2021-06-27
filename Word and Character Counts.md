@@ -2,7 +2,7 @@ Title:  Word and Character Counts
 
 Timestamp: 20210626220805
 
-Seq:    5.1.11
+Seq:    6.1.11
 
 Level:  4 - Subsection
 
