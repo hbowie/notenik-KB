@@ -1,5 +1,7 @@
 Title:  The Collection Template File
 
+Tags:   levels-outline.4 Files and Folders.1 Note Files
+
 Timestamp: 20210626204820
 
 Seq:    4.1.5
@@ -24,5 +26,4 @@ For some field types, a list of allowable values may also accompany the type its
 
 Notenik will create and edit a Collection's template file for you, in most cases, but for very complex or specialized sets of [[field labels and types]], you may wish to make [[use of a text editor]] to modify the file directly. 
 
-Note that Collection templates are very different from [[Merge Templates]], so you should not confuse the two. 
-
+Note that Collection templates are very different from [[Merge Templates]], so you should not confuse the two.

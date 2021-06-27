@@ -1,5 +1,7 @@
 Title:  Export to Notenik vs. Save As vs. Move
 
+Tags:   levels-outline.5 Getting Data Into and Out of Notenik.3 Export to Notenik vs Save As vs Move
+
 Timestamp: 20210627002611
 
 Seq:    5.3

@@ -1,5 +1,9 @@
 Title:  Copy, Cut, Paste and Share your Notes
 
+Tags:   levels-outline.5 Getting Data Into and Out of Notenik.1 Copy Cut Paste and Share your Notes
+
+Timestamp: 20210626225711
+
 Seq:    5.1
 
 Level:  3 - Section

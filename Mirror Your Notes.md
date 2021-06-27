@@ -1,5 +1,7 @@
 Title:  Mirror Your Notes
 
+Tags:   levels-outline.5 Getting Data Into and Out of Notenik.8 Mirror Your Notes
+
 Timestamp: 20210627004327
 
 Seq:    5.8

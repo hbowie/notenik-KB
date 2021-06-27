@@ -1,6 +1,6 @@
 Title:  Index to the Knowledge Base
 
-Tags:   levels-outline.9 Miscellany.2 Index to the Knowledge Base
+Tags:   levels-outline.10 Miscellany.3 Index to the Knowledge Base
 
 Timestamp: 20210626012426
 
@@ -9,6 +9,7 @@ Seq:    10.3
 Level:  3 - Section
 
 Body: 
+
 
 about
 : [[About]]
@@ -21,6 +22,9 @@ backticks-style quotes
 
 body
 : [[Markdown]]
+
+bookmarks
+: [[Favorites to HTML]]
 
 Bowie, Herb
 : [[About]]
@@ -48,6 +52,9 @@ Down
 
 email obfuscation
 : [[No Email Obfuscation]]
+
+favorites
+: [[Favorites to HTML]]
 
 fenced code blocks
 : [[Fenced Code Blocks]]
@@ -92,6 +99,9 @@ Markdown
 : [[Choice of Markdown Parsers]]
 : [[Markdown]]
 
+Medium
+: [[Publish to Medium]]
+
 MIT
 : [[License]]
 
@@ -122,6 +132,9 @@ support
 Table of Contents generation
 : [[Table of Contents Generation]]
 
+tags
+: [[Favorites to HTML]]
+
 Two Due
 : [[Other Names]]
 
@@ -133,3 +146,7 @@ UTF-8
 
 wiki-style links
 : [[Wiki Style Links]]
+
+zettelkasten
+: [[Timestamp]]
+

@@ -1,5 +1,7 @@
 Title:  Publish to Medium
 
+Tags:   levels-outline.5 Getting Data Into and Out of Notenik.4 Publish to Medium
+
 Timestamp: 20210627003010
 
 Seq:    5.4

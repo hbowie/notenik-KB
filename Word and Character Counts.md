@@ -1,5 +1,7 @@
 Title:  Word and Character Counts
 
+Tags:   levels-outline.6 Markdown.1 Choice of Markdown Parsers
+
 Timestamp: 20210626220805
 
 Seq:    6.1.11
