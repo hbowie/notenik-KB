@@ -1,0 +1,32 @@
+Title: Version 3.3.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.33 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 29 Mar 2020
+ 
+##### Modified Duplicate Handling
+
+Changed the handling of duplicates so that Notenik will automatically add a numeric suffix, or increment one if already present, in order to allow a Note to be added that would otherwise be a duplicate. 
+
+ 
+##### Fixed HTML Block parsing for Comments
+
+Updated the new internal Markdown parser to recognize HTML comments. 
+
+ 
+##### Fixed Blockquote Parsing Bug
+
+When a blockquote was continued to a second paragraph, the second paragraph ended up being a blockquote within a blockquote. This has now been fixed. 
+

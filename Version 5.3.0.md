@@ -1,0 +1,42 @@
+Title: Version 5.3.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.13 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 14 Jan 2021
+ 
+##### Code Refactoring for generation of a unique ID for each Note
+
+Made some internal code changes in preparation for greater flexibility around use of a variety of fields as the basis for a unique ID for each Note within a Collection. 
+
+ 
+##### Added Convenience Function to Edit Collection's Template file
+
+Beneath the Collection menu the user will now find an item to Text Edit the Collection's Template file. If any changes are made to this file, then the following menu item, to Reload the Collection, should be executed next in order to pull in the modified template file. 
+
+ 
+##### Added regular refresh to today's date
+
+For those who leave Notenik running overnight, added a regular refresh of the date considered to be 'today'. 
+
+ 
+##### Added Folder Picker to Navigation Board
+
+Added a Combo Box at the top left of the Navigation Board, allowing the user to type the first few letters of a Collection's folder name, and then hit enter/return to select an available folder. 
+
+ 
+##### Added What's New? display
+
+Immediately beneath the Help menu the user can now find a request to answer the question of What's New? Selecting this item will display a window showing the latest Notenik news, including both version releases and blog posts. This window will be shown to the user automatically once for each new release. 
+

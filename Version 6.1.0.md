@@ -1,0 +1,27 @@
+Title: Version 6.1.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.4 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 19 May 2021
+ 
+##### Browse Command added to Scripting Engine
+
+The new Browse command can be placed at the end of a web generation script, and then set to open the `localhost` url pointing to the website just generated. 
+
+ 
+##### Script Execution Now Runs Asynchronously
+
+Script execution in the Scripter window now runs asynchronously, with an indeterminate progress bar animated to show that something is happening. No more spinning beach ball!
+

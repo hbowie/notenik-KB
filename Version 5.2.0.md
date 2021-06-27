@@ -1,0 +1,32 @@
+Title: Version 5.2.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.14 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 04 Jan 2021
+ 
+##### Fixed an Import Bug
+
+Fixed a bug affecting data import into Notenik. 
+
+ 
+##### Added Options to Import data from OmniFocus
+
+You can import either CSV data or Plain Text data, but you will probably want to pick the Plain Text option. See the latest version of the User Guide, the Notenik Help, or the Help Notes for a new section on Importing from OmniFocus. 
+
+ 
+##### Added Ability to Publish to Medium
+
+See the Publish to Medium command beneath the Note menu. 
+

@@ -1,0 +1,37 @@
+Title: Version 3.7.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.29 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 12 May 2020
+ 
+##### New Template Option to specify Field values to Pick From
+
+In a template file, users can now specify a series of 'pick-from' values for a field. 
+
+ 
+##### Double-Clicking in the List View now launches the Note's Link
+
+Double-clicking on a Note from the List tab will now attempt to launch whatever Link the Note may have. 
+
+ 
+##### Added Command to Discard Edits
+
+Beneath the Note menu the user can now find a command (with suitable shortcut) to discard the edits that are currently in work. This can be used to do away with an attempt to add a new Note, or with in-progress changes to an existing Note. 
+
+ 
+##### Notenik iCloud Container
+
+Notenik now has its own iCloud Container, and the Collections Board (originally the Bookmarks Board) has been reconfigured a bit to make special use of it. 
+

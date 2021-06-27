@@ -1,0 +1,42 @@
+Title: Version 1.9.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.47 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 11 Nov 2019
+ 
+##### Fixed a Note Delete Bug
+
+A note that was being deleted would sometimes be immediately re-added. This has been corrected. 
+
+ 
+##### Fixed an Attachments Bug
+
+Attachments were being deleted when the parent Note's title was changed. This has now been corrected. 
+
+ 
+##### Added Option to Reverse the Sort
+
+An option has been added to the Sort menu that will allow the user to reverse the current sequence of the list (from ascending to descending, or vice-versa).
+
+ 
+##### Scripter Can Now Read Markdown Headers
+
+Added a new input format to read a Markdown file and chunk it up into sections, based on its headers. Each resulting row of data will consist of fhe following fields:
+
+* Title - The text content of the header
+* Level - The level of the header (1 - 6)
+* Body - All of the text following the header, up to the next header. 
+
+Note that the resulting data can be used to generate a Table of Contents for the Markdown file, using an appropriately formatted template.

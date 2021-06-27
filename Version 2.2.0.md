@@ -1,0 +1,47 @@
+Title: Version 2.2.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.44 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 04 Dec 2019
+ 
+##### Fixed Bug in Persisting the Sort Reverse Setting
+
+Notenik had been resetting the Reverse setting each time a Collection was opened. 
+
+ 
+##### Eliminated Option to Generate Sample Reports for Help Notes
+
+App Store testers correctly pointed out that selecting this option for the Help Notes would cause a crash. 
+
+ 
+##### Suppressed Empty Tags from Favorites to HTML Export
+
+You can sometimes end up with empty tags in a collection, as a result of deleting notes or changing tags. Previously these would be included when creating a Favorites page, but they are now suppressed. 
+
+ 
+##### Moved Reload Collection Command from File Menu to Collection Menu
+
+The Reload Collection command will hopefully be easier to find beneath the Collection menu. 
+
+ 
+##### Added Support for 'Favourites' in addition to 'Favorites'
+
+Based on feedback from a user in Australia, added support for the British spelling of 'Favourites'. 
+
+ 
+##### Added Cut, Copy and Paste Support for Notes
+
+The Cut, Copy and Paste commands — along with their corresponding keyboard shortcuts — are now enabled on the Edit menu for Notes. After selecting a Note, the Cut or Copy commands may be used to cut/copy the entire note. The note is copied to the clipboard as text, so that it can then be pasted into any application where text is accepted — including, but not limited to, Notenik itself. Be aware that the user should be on the Display Tab, and not the Edit tab, in order to perform these note-based functions since, when on the Edit tab, cut/copy/paste will typically apply to the text within a field, and not to the entire note. 
+

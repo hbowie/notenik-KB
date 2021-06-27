@@ -1,0 +1,44 @@
+Title: Version 4.5.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.21 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 01 Sep 2020
+ 
+##### Tags now Disappear when they are No Longer Used
+
+When the last Note referencing a Tag is deleted, the tag now disappears from the Tags view. 
+
+This closes issue # 33.
+ 
+##### Saving Divider Position
+
+The last position of the divider between the list view and the note view is now being saved between executions. 
+
+This closes Issue # 21.
+ 
+##### Ignore Internal Resources folder when offering parent folder for new collection
+
+Notenik was previously offering the parent folder for the app's Help Notes as the possible parent for a new collection to be created by the user. This has been fixed, closing Issue # 32.
+
+ 
+##### Removed Collections Board
+
+Removed the Collections Board, since it was just a bad idea poorly executed. 
+
+ 
+##### Improved Scrolling Behavior
+
+List view now scrolls to a selected note after a Find command. 
+

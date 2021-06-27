@@ -1,0 +1,32 @@
+Title: Version 3.9.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.27 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 29 May 2020
+ 
+##### Added a Counts Window
+
+The new Counts window will show various character, line and word counts for the body field of the currently selected Note. 
+
+ 
+##### Added Undo to Long Text Fields
+
+Enabled Undo on long text fields. This had previously been overlooked. 
+
+ 
+##### Added Menu Command and Keyboard Shortcut to Edit the Selected Note
+
+Added a new menu command beneath the Note menu to switch to the Edit tab, in order to edit the selected Note. 
+

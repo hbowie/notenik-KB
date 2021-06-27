@@ -1,0 +1,52 @@
+Title: Version 2.3.0 
+
+Tags:  
+
+Link: 
+
+Timestamp:  
+
+Seq: 10.43 
+
+Level: 3 - Section 
+
+Index:  
+
+Body: 
+
+Released on 10 Dec 2019
+ 
+##### Fixed Treatment of Teaser Field
+
+Modified to treat the Teaser field as longtext.
+
+ 
+##### Increased Tolerance for Notes with Alternative Formatting
+
+Some note-takers start their text files with lines such as the following. 
+
+	# Note Title
+	#tag
+	Body starts here. 
+
+Notenik will now recognize the first line of such a file as containing the Note's title, and will recognize the second line as containing a tag for the Note. 
+
+Also, bracket characters and parentheses preceding a colon will now indicate to Notenik that such text should not be treated as a field label.
+ 
+##### Added Timestamp Field
+
+A Timestamp field can be used to generate a timestamp for each note, in a "yyyyMMddkkmmss" format, consisting of:
+
+* 4-digit year
+* 2-digit month
+* 2-digit day of month
+* hour of day, using a 24-hour range
+* minute of hour
+* second of minute
+
+All of this is normalized to Greenwich Mean Time, and formatted without spaces or punctuation.
+ 
+##### Ink Added as another Markdown Parser Option
+
+Down is the default, but you can switch to Ink on the new Markdown tab within the Application Preferences. 
+
