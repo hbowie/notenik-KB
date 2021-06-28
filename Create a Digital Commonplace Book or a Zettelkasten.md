@@ -1,8 +1,8 @@
-Title:  Creating a Digital Commonplace Book or a Zettelkasten
+Title:  Create a Digital Commonplace Book or a Zettelkasten
 
 Timestamp: 20210628164307
 
-Seq:    10.2
+Seq:    10.5
 
 Level:  3 - Section
 
@@ -96,5 +96,3 @@ Now that I've talked about the *why*, let's talk about the how: the Notenik capa
 [r2r]: https://www.reasontorock.com
 
 [sdev]: https://www.softdevbigideas.com
-
-

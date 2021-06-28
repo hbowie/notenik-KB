@@ -10,4 +10,8 @@ Body:
 
 This section provides focused examples of how to put together Notenik's various capabilities in pursuit of specific goals. 
 
-The following articles generally assume that, when reviewing your [[choice of Markdown parsers]], you have chosen the Notenik parser. 
+These articles generally assume that you have already downloaded and installed Notenik from the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984).
+
+They also assume that you have read and understood the basics of [[creating and tailoring a Collection of Notes]], as well as how to perform [[common tasks]].
+
+And, finally, they generally assume that, when reviewing your [[choice of Markdown parsers]], you have chosen the Notenik parser. 

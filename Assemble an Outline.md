@@ -1,10 +1,10 @@
-Title:  Assembling an Outline
+Title:  Assemble an Outline
 
 Tags:   fields.index, fields.level, fields.seq
 
 Timestamp: 20210628023650
 
-Seq:    10.1
+Seq:    10.4
 
 Level:  3 - Section
 
