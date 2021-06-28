@@ -1,0 +1,33 @@
+Title:  Version 4.1.0
+
+Tags:   levels-outline.10 Version History.25 Version 410
+
+Timestamp: 20210627222923
+
+Seq:    10.25
+
+Level:  3 - Section
+
+Body: 
+
+Released on 26 Jun 2020
+ 
+##### Fixed Body Field Expansion Bug
+
+Fixed a bug that sometimes prevented the Body field from expanding to use all available space on the Edit Tab
+
+ 
+##### Added Collection Pref for displaying a Body field label
+
+Added a check box to the Collection preferences to control display of an explicit Body field label on the Display tab. 
+
+This closes issue #20.
+ 
+##### Added a new Sort Option for Tags Plus Seq Fields
+
+The Sort menu now has a new option, allowing you to sort a Collection by the Tags field plus the Seq field. 
+
+ 
+##### Fixed a Template Bug
+
+The longtext and pick-from values were not being included in the template file when it was rewritten.

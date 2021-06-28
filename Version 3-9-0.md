@@ -1,0 +1,27 @@
+Title:  Version 3.9.0
+
+Tags:   levels-outline.10 Version History.27 Version 390
+
+Timestamp: 20210627222923
+
+Seq:    10.27
+
+Level:  3 - Section
+
+Body: 
+
+Released on 29 May 2020
+ 
+##### Added a Counts Window
+
+The new Counts window will show various character, line and word counts for the body field of the currently selected Note. 
+
+ 
+##### Added Undo to Long Text Fields
+
+Enabled Undo on long text fields. This had previously been overlooked. 
+
+ 
+##### Added Menu Command and Keyboard Shortcut to Edit the Selected Note
+
+Added a new menu command beneath the Note menu to switch to the Edit tab, in order to edit the selected Note.

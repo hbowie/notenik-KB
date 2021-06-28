@@ -1,0 +1,17 @@
+Title:  Version 1.4.1
+
+Tags:   levels-outline.10 Version History.52 Version 141
+
+Timestamp: 20210627222923
+
+Seq:    10.52
+
+Level:  3 - Section
+
+Body: 
+
+Released on 08 Sep 2019
+ 
+##### Added Checks Before Completing Save As
+
+The Save As command relies on the user creating a new folder to receive the copied contents of the current Collection. It then deletes the folder in order to take advantage of a native macOS command to copy the existing folder to the new location. However, this logic would allow the user to select an existing folder, containing other contents, and would then delete it. Notenik has been modified to make sure that the requested recipient of a Save As command is actually empty, before copying the old Collection to that (presumed new) location. The program is also now making an additional check to ensure the user doesn't try to make his entire Desktop folder a Notenik Collection (even if it is empty).

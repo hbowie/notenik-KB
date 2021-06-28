@@ -1,0 +1,27 @@
+Title:  Version 2.7.0
+
+Tags:   levels-outline.10 Version History.39 Version 270
+
+Timestamp: 20210627222923
+
+Seq:    10.39
+
+Level:  3 - Section
+
+Body: 
+
+Released on 10 Jan 2020
+ 
+##### Improved MultiMarkdown Metadata Support
+
+Improved support for opening existing files using MultiMarkdown Metadata; in particular, now looking for triple-dash lines before and after the metadata, and treating those lines appropriately. A line with four periods is also accepted following the metadata. 
+
+ 
+##### Bug Fixes
+
+Fixed a few bugs. 
+
+ 
+##### Added Notenik Export
+
+Added an option to export a Collection to a new Notenik Collection; this is intended to be especially useful when opening an existing folder full of text files, not necessarily in the usual Notenik file format, and then exporting them to a new Collection in which the Notenik format is fully normalized.

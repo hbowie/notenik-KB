@@ -1,0 +1,36 @@
+Title:  Version 1.8.0
+
+Tags:   levels-outline.10 Version History.48 Version 180
+
+Timestamp: 20210627222923
+
+Seq:    10.48
+
+Level:  3 - Section
+
+Body: 
+
+Released on 06 Nov 2019
+ 
+##### Folder Open thru Finder Drag-and-Drop Enabled
+
+Folder(s) may now be opened by dragging them onto the Notenik icon in the Finder. Notenik will respond in one of four ways to each Finder item. 
+
+* If a folder contains an existing Notenik Collection, then that Collection will be opened in a new window. 
+* If a folder is empty, then it will be initialized as a new Notenik Collection, and opened in a new window. 
+* if the dragged item is not a folder at all, then an error message will be displayed. 
+* Any other folder will be treated as a parent realm, and the resulting window will show Collections and Scripts found within that realm.
+ 
+##### Changed Deployment Target Back to 10.14 to Allow Operation on Mojave
+
+The last release inadvertently made Notenik unavailable to Mojave users. 
+
+ 
+##### Reports Option Added to Generate Sample Report Templates
+
+When the user pulls down the Reports Action menu from the Toolbar, the first two items they see will now be:
+
+- Generate Report Sample in HTML
+- Generate Report Sample in Markdown
+
+Selecting one of these will then cause Notenik to create a reports folder for the collection, if one does not already exist, and then to create a report template containing all of the Collection's fields in a basic layout. The user may then modify this template in order to further customize the output formatting.

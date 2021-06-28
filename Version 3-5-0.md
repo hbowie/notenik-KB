@@ -1,0 +1,22 @@
+Title:  Version 3.5.0
+
+Tags:   levels-outline.10 Version History.31 Version 350
+
+Timestamp: 20210627222923
+
+Seq:    10.31
+
+Level:  3 - Section
+
+Body: 
+
+Released on 19 Apr 2020
+ 
+##### Create New Notes with Drag and Drop
+
+You can now drag a "bookmark" (consisting of a title and a link) into the list view of Notenik in order to add a new Note. Bookmarks can be dragged from the URL field at the top of a browser window, or from a hyperlink within a web page. 
+
+ 
+##### Broke Additional Reusable Code Out into NotenikLib
+
+This is an internal change only; it should have no impact on users.

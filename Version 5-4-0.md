@@ -1,0 +1,42 @@
+Title:  Version 5.4.0
+
+Tags:   levels-outline.10 Version History.12 Version 540
+
+Timestamp: 20210627222923
+
+Seq:    10.12
+
+Level:  3 - Section
+
+Body: 
+
+Released on 19 Jan 2021
+ 
+##### Added Notenik Introduction for new users
+
+Created a brief Introduction to Notenik to show new users, and re-identified the more complete document as the User Guide (which then matches the nomenclature on the website). 
+
+ 
+##### Added Support for Code Fencing
+
+Added support for code fencing in the Markdown parser. 
+
+ 
+##### Added Markdown Spec access beneath the Help menu
+
+A complete spec for the Notenik Markdown parser can now be opened as a read-only Notenik Collection, by selecting `Markdown Spec` beneath the `Help` menu. 
+
+ 
+##### Reworked Display Fonts Prefs to Make Updates More Intuitive
+
+Changed the logic a bit on the Display Prefs screen to make updating a bit more intuitive. 
+
+ 
+##### Adjusted Font Weight in What's New Display
+
+Headings were a bit too heavy. 
+
+ 
+##### Corrected Sharing of Entire Note in Markdown
+
+There were several problems with this option that should all have been corrected now.

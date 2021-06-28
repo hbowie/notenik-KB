@@ -1,0 +1,22 @@
+Title:  Version 2.0.0
+
+Tags:   levels-outline.10 Version History.46 Version 200
+
+Timestamp: 20210627222923
+
+Seq:    10.46
+
+Level:  3 - Section
+
+Body: 
+
+Released on 15 Nov 2019
+ 
+##### Added New Scripter Input Modifier to Split Tags for Notenik Input
+
+When reading input data via the Scripter window, the user may now specify a modifier of 'notenik-split-tags' to add a 'Tag' field, and then return one row for each tag assigned to each note (or one row with a blank tag, for notes with no tags). 
+
+ 
+##### Enabled Template Set Command operand of ++
+
+A Template Set command will now honor an operand of '++' and increment the indicated variable by a value of 1.

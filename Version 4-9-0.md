@@ -1,0 +1,37 @@
+Title:  Version 4.9.0
+
+Tags:   levels-outline.10 Version History.17 Version 490
+
+Timestamp: 20210627222923
+
+Seq:    10.17
+
+Level:  3 - Section
+
+Body: 
+
+Released on 30 Nov 2020
+ 
+##### Added new File Command to create a New Collection in iCloud
+
+The user will not need to pick a parent folder when using this option. The new Collection will be located in Notenik's special iCloud container. 
+
+ 
+##### Added New Command to Stash Notes in Subfolder
+
+This command can be found beneath the Transform menu. This command makes an existing Collection compliant with the new structure for a Web Collection by creating a subfolder named 'notes' and them moving the existing Notes into that subfolder. 
+
+ 
+##### Added New Command to Move a Collection
+
+The Move command can be found beneath the File menu. This command will copy an existing Collection to a new location, and then delete the original Collection. 
+
+ 
+##### Added Menu Option to Browse a Web Index
+
+This can be found beneath the Transform menu. 
+
+ 
+##### Added Support for Web Collections
+
+A Web Collection contains a website at the top level, and contains its notes within a subfolder named ‘notes’.

@@ -1,6 +1,6 @@
 Title:  Index to the Knowledge Base
 
-Tags:   levels-outline.10 Miscellany.3 Index to the Knowledge Base
+Tags:   levels-outline.11 Miscellany.3 Index to the Knowledge Base
 
 Timestamp: 20210626012426
 
@@ -9,6 +9,7 @@ Seq:    11.3
 Level:  3 - Section
 
 Body: 
+
 
 about
 : [[About]]
@@ -27,6 +28,9 @@ bookmarks
 
 Bowie, Herb
 : [[About]]
+
+change log
+: [[Version History]]
 
 citations
 : [[Citations]]
@@ -143,8 +147,12 @@ URL Union
 UTF-8
 : [[Note Files]]
 
+versions
+: [[Version History]]
+
 wiki-style links
 : [[Wiki Style Links]]
 
 zettelkasten
 : [[Timestamp]]
+

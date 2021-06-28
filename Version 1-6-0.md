@@ -1,0 +1,32 @@
+Title:  Version 1.6.0
+
+Tags:   levels-outline.10 Version History.50 Version 160
+
+Timestamp: 20210627222923
+
+Seq:    10.50
+
+Level:  3 - Section
+
+Body: 
+
+Released on 15 Oct 2019
+ 
+##### Various Minor Tweaks
+
+Made a number of tweaks to fix bugs and/or improve operation. 
+
+ 
+##### Textile Parser Added
+
+A homegrown "good enough" Textile Parser has been added to Notenik. It can be invoked by including a file with a '.textile' file extension when generating HTML output. 
+
+ 
+##### Template Include File Conversion Honored
+
+When using the Include command within a Scripting Template file to include another file, automatic conversion will now be done when the included file extension differs from the output file extension. In particular, Markdown and Textile documents will be converted to HTML, when appropriate. Note that the Textile parser used is one internal to Notenik, and is at best a "good enough" tool, but one that is far from comprehensive. 
+
+ 
+##### Seq Field Prefix Now Honored
+
+Field names beginning with "Seq" will now be treated as Seq fields for the purpose of sorting when using the Scripting Engine. This will cause numeric fields, for example, to sort into their proper numeric sequence, instead of treating them as alphanumeric fields.

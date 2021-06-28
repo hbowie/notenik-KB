@@ -1,0 +1,33 @@
+Title:  Version 1.2.0
+
+Tags:   levels-outline.10 Version History.55 Version 120
+
+Timestamp: 20210627222923
+
+Seq:    10.55
+
+Level:  3 - Section
+
+Body: 
+
+Released on 11 Jul 2019
+ 
+##### Tokenized the Tags Field on the Edit Screen
+
+Users can now pick from previously identified tags when entering a new one. 
+
+ 
+##### Bug Fixes and Improvements
+
+Markdown conversion now renders embedded HTML and does a smart typographic conversion.
+
+Occasional problem with erroneous blanks in the ‘X’ column (indicating done or not) is now fixed.
+ 
+##### Added Standardize Dates to YMD to the Collection Menu
+
+Execution of this command will change all the dates in all the Notes for the current Collection so that they are stored in yyyy-mm-dd format, which can be useful to ensure than an export file sorts correctly on date. 
+
+ 
+##### Added Split Tags Export to the File Menu
+
+The Split Tags command under the File menu will split the tags for each Note, and write one output row for each Tag for each Note. Notes without tags will be written out only once; Notes with multiple tags will be written out once for each Tag. In addition to the Tags column, a Tag (singular) column will be added to the front of each row, containing one particular Tag for the Note. This export file can be used, for example, to create an index page for each Tag.
