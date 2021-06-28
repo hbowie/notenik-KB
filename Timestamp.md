@@ -8,7 +8,7 @@ Seq:    7.10.3
 
 Level:  4 - Subsection
 
-Index:  zettelkasten; 
+Index:  zettelkasten; wiki-style links; 
 
 Body: 
 

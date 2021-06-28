@@ -4,13 +4,21 @@ Tags:   levels-outline.10 Version History.1 Version 640
 
 Timestamp: 20210627222923
 
-Seq:    10.1
+Seq:    11.1
 
 Level:  3 - Section
 
 Body: 
 
-Released on 19 Jun 2021
+*In Work*
+
+##### Level Navigation
+
+When Notenik finds a Collection with both [[Seq]] and [[Level]] fields, and when sorted by Seq + Title, and when Streamlined Reading is chosen, then additional navigation elements will be added to the Display tab. 
+
++ At the top of the Note's display there will appear a link to the parent of the current item. 
++ At the bottom of the Note's display there will appear a link to the next Note in the list. 
++ For parent Notes, there will also appear a list of the child Notes at the next level. 
  
 ##### Added Collection Pref for Streamlined Reading
 

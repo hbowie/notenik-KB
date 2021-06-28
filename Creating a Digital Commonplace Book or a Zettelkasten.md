@@ -1,0 +1,100 @@
+Title:  Creating a Digital Commonplace Book or a Zettelkasten
+
+Timestamp: 20210628164307
+
+Seq:    10.2
+
+Level:  3 - Section
+
+Index:  commonplace book; PKM; personal knowledge management; Zettelkasten; 
+
+Body: 
+
+A [commonplace book][cmn] is "a book into which notable extracts from other works are copied for personal use," according to the *New Oxford American Dictionary*.  
+
+In other words, it's a personal collection of quotations that you have found to be meaningful.
+
+A [*Zettelkasten*][zetdef] is something a little different, but closely related: a collection of "notes with ideas and other short pieces of information that are taken down as they occur or are acquired."
+
+A *Zettelkasten* is usually considered to be an example of [Personal Knowledge Management][pkm] (PKM). 
+
+##### Why Create Such a Thing?
+
+While these are all theoretically separate beasts, I think they are all attempts to address some common problems for anyone interested in constructive thinking. 
+
+Consider:
+
+1. If we read/watch/listen broadly, and with intention, then we turn our attention successively to many sources of information. This seems a particular problem today, with so many digital sources of information clamoring for our attention (but then it turns out that people have been keeping commonplace books for centuries).   
+
+2. Some of the information we encounter is immediately useful -- and some seems perfectly useless. Of what remains, some may be easily retrievable from the original (or an equivalent) source when needed. But once we eliminate this sort of detritus, then there are some few nuggets left that seem worth capturing, both because they appear to have some likely future value, and because they appear to be difficult to rediscover or recreate when needed.  
+
+3. These nuggets judged to be worth keeping may be of three different sorts:
+
+	* Pure facts and information; 
+	* Interesting ideas; 
+	* Quotations -- generally pithy expressions that are worth hanging onto because they express some meaningful idea in a particularly forceful and/or memorable fashion. 
+
+4. If we simply jot down these nuggets, and then toss them onto a growing pile of similar notes, then it is unlikely that we will be able to find what is needed when it is needed.  
+
+5. It follows, then, that if something is worth capturing at all in this manner, it is worth spending a little time on, in order to usefully categorize it, and perhaps connect it to other related bits of info. 
+
+6. Ideally, then, your collection of notes is something you usefully refer to in the future. 
+
+7. And equally ideally, the value derived from your collection comes not only from the various notes, considered individually, but from the growing connections between them, as you build your collection over time. 
+
+In my own case, I've used collections of quotations (aka Commonplace Books) as important source material for three different publications, all available on the Web:
+
++ [Reason To Rock][r2r] -- A book about rock music that describes it in terms of an artistic movement. 
++ [Big Ideas in Software Development][sdev] -- A compendium of the biggest and most important ideas useful to software developers. 
++ [The Practical Utopian][put] -- An evolving collection of writings about philosophy and culture. 
+
+##### How to Create Such a Thing
+
+Now that I've talked about the *why*, let's talk about the how: the Notenik capabilities you can draw upon if you're interested in creating such a Collection.
+
+1. Assign a brief and unique [[Title]] for each addition to your Collection. 
+
+2. You will probably want to use the [[Tags]] field to provide some meaningful organization for your Notes. Keep in mind that each Note can have multiple tags, and each tag can have multiple levels. Use the Tags tab to see your Collection organized by Tag. 
+
+3. You may also want to use the [[Seq]] field, if the sequence of the Notes is important to you. 
+
+4. Add a [[Timestamp]] field to prevent wiki-style links from breaking if you rename a Note. 
+
+5. Use [[wiki-style links]] within the bodies of your Notes to create relationships between Notes. 
+ 
+5. Use the [[Author]], [[Date]], [[Work Title]], [[Work Type]] and [[Work Link]] fields to keep track of the sources of ideas and quotations stored in your Notes. 
+
+6. You easily Sort by Author if you'd like. 
+
+7. Add other [[field labels and types]] as needed to track any other information that's important to you. 
+
+8. Use the `Note -> Share` menu item, with appropriate options, to copy a formatted quotation, in either HTML or Markdown, to your clipboard, ready to be pasted anywhere else where it might be pertinent.
+
+
+##### Reference
+
+"[Create a Digital Commonplace Book][nytimes]" by J. D. Biersdorfer in the *New York Times*
+
+"[PKM Primer: An Introduction to Personal Knowledge Management for Creatives][tss]" at *The Sweet Setup*
+
+"[Stop Taking Regular Notes; Use a Zettelkasten Instead][zet]" by Eugene Yan
+
+[cmn]: https://en.wikipedia.org/wiki/Commonplace_book
+
+[zetdef]: https://en.wikipedia.org/wiki/Zettelkasten
+
+[nytimes]: https://www.nytimes.com/2021/02/10/technology/personaltech/make-digital-commonplace-book.html
+
+[pkm]: https://en.wikipedia.org/wiki/Personal_knowledge_management
+
+[tss]: https://thesweetsetup.com/pkm-intro-for-creatives/
+
+[zet]: https://eugeneyan.com/writing/note-taking-zettelkasten/ 
+
+[put]: https://practopian.org
+
+[r2r]: https://www.reasontorock.com
+
+[sdev]: https://www.softdevbigideas.com
+
+
