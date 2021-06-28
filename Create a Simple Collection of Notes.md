@@ -1,5 +1,7 @@
 Title:  Create a Simple Collection of Notes
 
+Tags:   levels-outline.10 Putting It All Together.1 Create a Simple Collection of Notes
+
 Timestamp: 20210628183617
 
 Seq:    10.1

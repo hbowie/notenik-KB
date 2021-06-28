@@ -1,6 +1,6 @@
 Title:  Index to the Knowledge Base
 
-Tags:   levels-outline.11 Miscellany.3 Index to the Knowledge Base
+Tags:   levels-outline.12 Miscellany.3 Index to the Knowledge Base
 
 Timestamp: 20210626012426
 
@@ -9,6 +9,7 @@ Seq:    12.3
 Level:  3 - Section
 
 Body: 
+
 
 about
 : [[About]]
@@ -23,6 +24,7 @@ body
 : [[Markdown]]
 
 bookmarks
+: [[Create a Collection of Web Bookmarks]]
 : [[Favorites to HTML]]
 
 Bowie, Herb
@@ -43,6 +45,9 @@ code blocks
 CommonMark
 : [[Choice of Markdown Parsers]]
 
+commonplace book
+: [[Create a Digital Commonplace Book or a Zettelkasten]]
+
 copyright
 : [[License]]
 
@@ -56,6 +61,7 @@ email obfuscation
 : [[No Email Obfuscation]]
 
 favorites
+: [[Create a Collection of Web Bookmarks]]
 : [[Favorites to HTML]]
 
 fenced code blocks
@@ -116,6 +122,12 @@ open source
 parsers
 : [[Choice of Markdown Parsers]]
 
+personal knowledge management
+: [[Create a Digital Commonplace Book or a Zettelkasten]]
+
+PKM
+: [[Create a Digital Commonplace Book or a Zettelkasten]]
+
 PowerSurge Publishing
 : [[Other Names]]
 
@@ -127,6 +139,9 @@ PSTextMerge
 
 rights
 : [[License]]
+
+streamlined reading
+: [[Assemble an Outline]]
 
 support
 : [[Support]]
@@ -150,7 +165,12 @@ versions
 : [[Version History]]
 
 wiki-style links
+: [[Timestamp]]
 : [[Wiki Style Links]]
+
+Zettelkasten
+: [[Create a Digital Commonplace Book or a Zettelkasten]]
 
 zettelkasten
 : [[Timestamp]]
+

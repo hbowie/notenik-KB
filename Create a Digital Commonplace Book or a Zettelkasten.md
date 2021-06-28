@@ -1,5 +1,7 @@
 Title:  Create a Digital Commonplace Book or a Zettelkasten
 
+Tags:   levels-outline.10 Putting It All Together.5 Create a Digital Commonplace Book or a Zettelkasten
+
 Timestamp: 20210628164307
 
 Seq:    10.5

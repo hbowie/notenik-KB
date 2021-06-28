@@ -12,5 +12,4 @@ Index:  privacy;
 
 Body: 
 
-We respect the privacy of our users. We do not collect any information about or from our users.
-
+Neither the Notenik app nor the Notenik website collect any information from or about users. Feel free to use Notenik without any privacy concerns. 

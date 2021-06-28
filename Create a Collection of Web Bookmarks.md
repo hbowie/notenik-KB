@@ -1,5 +1,7 @@
 Title:  Create a Collection of Web Bookmarks
 
+Tags:   levels-outline.10 Putting It All Together.2 Create a Collection of Web Bookmarks
+
 Timestamp: 20210628193203
 
 Seq:    10.2
@@ -71,6 +73,3 @@ When you want to add, remove or change the contents of this page, then all you h
 [apache]: https://tech-cookbook.com/2020/11/14/setting-up-your-local-web-server-on-macos-big-sur-11-0-1-2020-mamp-macos-apache-mysql-php/
 
 [appstore]: https://apps.apple.com/us/app/notenik/id1465997984
-
-
-

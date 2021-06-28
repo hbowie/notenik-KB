@@ -1,5 +1,7 @@
 Title:  Make a To-Do List
 
+Tags:   levels-outline.10 Putting It All Together.3 Make a To-Do List
+
 Timestamp: 20210628194620
 
 Seq:    10.3
@@ -67,4 +69,3 @@ Notenik has a few keyboard shortcuts that can prove particularly handy when mana
 [proj2]: https://notenik.net/blog/notenik-project-2-create-a-collection-of-bookmarks.html
 
 [ug-status]: https://notenik.net/swift.html#track-the-status-of-your-notes
-
