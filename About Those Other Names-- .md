@@ -1,10 +1,10 @@
-Title:  Other Names
+Title:  About Those Other Names...
 
 Tags:   levels-outline.1 Basics.8 Other Names
 
 Timestamp: 20210607214520
 
-Seq:    1.8
+Seq:    12.2
 
 Level:  3 - Section
 
@@ -30,6 +30,6 @@ In the past I operated PowerSurgePub.com as its own website, where you could fin
 
 In 2019 I switched from Java to Swift as my primary programming language. 
 
-The functionality of many of the Java programs listed above has been folded into the new Notenik, now written in Swift, and described in detail within this knowledge basis. 
+The functionality of many of the Java programs listed above has been folded into the new Notenik, now written in Swift, and described in detail within this knowledge base. 
 
 At this point I am no longer maintaining any of the Java apps listed above, and am no longer maintaining PowerSurgePub.com as its own website. This URL should now redirect to Notenik.net.

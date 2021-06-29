@@ -10,5 +10,5 @@ Level:  2 - Article
 
 Body: 
 
-This section contains some basic info about Notenik. 
+Let's start with some introductory material about Notenik.
 

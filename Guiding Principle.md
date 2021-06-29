@@ -1,4 +1,4 @@
-Title:  Inspiration
+Title:  Guiding Principle
 
 Tags:   levels-outline.1 Basics.1 Inspiration
 

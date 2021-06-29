@@ -12,7 +12,7 @@ Body:
 
 Notenik is a system for recording, storing, organizing, viewing and publishing Notes. 
 
-Notenik is currently available as a Mac App that can be downloaded from the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984?mt=12). There is no up-front cost, nor any in-app purchases necessary, in order to download and use Notenik.
+Notenik is available as a Mac App that can be downloaded from the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984?mt=12). There is no up-front cost, nor any in-app purchases necessary, in order to download and use Notenik.
 
 Each Note is stored in its own text file. 
 
@@ -25,7 +25,7 @@ Each Collection can be sorted in a variety of different ways, and an outline vie
 
 [[Markdown]] is supported in the Body field, as well as in other fields of type [[longtext]]. Several extensions to basic Markdown are supported, including [[wiki-style links]] from one Note to another. 
 
-Notenik offers several ways to get Note data into and out of Notenik, using a variety of different formats. 
+Notenik offers several ways to get Note data into and out of Notenik, in a variety of different formats. 
 
 Notenik also has its own templating language. You can create [[Merge Templates]], using your preferred text editor, and can then merge the Notes and their Fields into one or more templates in order to create output text files -- most typically, HTML files. 
 

@@ -4,12 +4,11 @@ Tags:   levels-outline.12 Miscellany.3 Index to the Knowledge Base
 
 Timestamp: 20210626012426
 
-Seq:    12.3
+Seq:    12.8
 
 Level:  3 - Section
 
 Body: 
-
 
 about
 : [[About]]
@@ -173,4 +172,3 @@ Zettelkasten
 
 zettelkasten
 : [[Timestamp]]
-

@@ -12,6 +12,10 @@ Body:
 
 *In Work*
 
+##### New Documentation
+
+Following the DRY principle (Don't Repeat Yourself), all Notenik information and documentation has been consolidated into a single Knowledge Base, accessible from the Help menu. The Knowledge Base is itself a Notenik Collection, and it takes advantage of a number of recently added features.
+
 ##### Level Navigation
 
 When Notenik finds a Collection with both [[Seq]] and [[Level]] fields, and when sorted by Seq + Title, and when Streamlined Reading is chosen, then additional navigation elements will be added to the Display tab. 

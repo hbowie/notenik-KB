@@ -12,5 +12,5 @@ Index:  change log; versions;
 
 Body: 
 
-Following is a complete list of all the Notenik versions released, with the latest ones on top. 
+Following is a complete list of all the Notenik versions released, with the latest ones appearing first. 
 

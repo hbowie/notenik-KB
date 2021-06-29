@@ -4,7 +4,7 @@ Tags:   levels-outline.1 Basics.7 About
 
 Timestamp: 20210607213834
 
-Seq:    1.7
+Seq:    12.1
 
 Level:  3 - Section
 
@@ -40,7 +40,4 @@ Based on these motivations, Notenik is available for free, and is available as o
 
 Notenik is available exclusively through the Mac App Store. And although I realize that many developers have had lots of problems using that distribution channel, my experiences with it have all been positive, and I'm grateful to have something available to me and my users that is relatively safe and painless, and that requires no payments from users. 
 
-I hope you enjoy using Notenik, and I'd be happy to [hear from you](mailto:support@notenik.net) if you have any comments or suggestions for improvement. 
-
-
-
+I hope you enjoy using Notenik, and I'd be happy to [hear from you](mailto:support@notenik.net) if you have any comments or suggestions for improvement.

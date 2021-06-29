@@ -1,4 +1,4 @@
-Title:  Miscellany
+Title:  Reference
 
 Tags:   levels-outline.12 Miscellany
 
@@ -10,5 +10,5 @@ Level:  2 - Article
 
 Body: 
 
-This sections primarily contains reference information.
+The following information is available when needed. 
 
