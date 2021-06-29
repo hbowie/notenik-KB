@@ -1,5 +1,7 @@
 Title:  Introduction to the Mac User Interface
 
+Tags:   levels-outline.1 Basics.3 Introduction to the Mac User Interface
+
 Timestamp: 20210629151831
 
 Seq:    1.3

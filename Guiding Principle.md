@@ -1,6 +1,6 @@
 Title:  Guiding Principle
 
-Tags:   levels-outline.1 Basics.1 Inspiration
+Tags:   levels-outline.1 Basics.1 Guiding Principle
 
 Timestamp: 20210607203902
 

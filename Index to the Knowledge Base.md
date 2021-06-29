@@ -1,6 +1,6 @@
 Title:  Index to the Knowledge Base
 
-Tags:   levels-outline.12 Miscellany.3 Index to the Knowledge Base
+Tags:   levels-outline.12 Reference.8 Index to the Knowledge Base
 
 Timestamp: 20210626012426
 
@@ -9,6 +9,7 @@ Seq:    12.8
 Level:  3 - Section
 
 Body: 
+
 
 about
 : [[About]]
@@ -88,10 +89,10 @@ Ink
 : [[Choice of Markdown Parsers]]
 
 iWisdom
-: [[Other Names]]
+: [[About Those Other Names...]]
 
 Kay, Alan
-: [[Inspiration]]
+: [[Guiding Principle]]
 
 license
 : [[License]]
@@ -128,13 +129,13 @@ PKM
 : [[Create a Digital Commonplace Book or a Zettelkasten]]
 
 PowerSurge Publishing
-: [[Other Names]]
+: [[About Those Other Names...]]
 
 privacy
 : [[Privacy]]
 
 PSTextMerge
-: [[Other Names]]
+: [[About Those Other Names...]]
 
 rights
 : [[License]]
@@ -152,10 +153,10 @@ tags
 : [[Favorites to HTML]]
 
 Two Due
-: [[Other Names]]
+: [[About Those Other Names...]]
 
 URL Union
-: [[Other Names]]
+: [[About Those Other Names...]]
 
 UTF-8
 : [[Note Files]]
@@ -172,3 +173,4 @@ Zettelkasten
 
 zettelkasten
 : [[Timestamp]]
+

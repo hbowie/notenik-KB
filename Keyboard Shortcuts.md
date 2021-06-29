@@ -1,6 +1,6 @@
 Title:  Keyboard Shortcuts
 
-Tags:   levels-outline.12 Miscellany.1 Keyboard Shortcuts
+Tags:   levels-outline.12 Reference.6 Keyboard Shortcuts
 
 Timestamp: 20210627005215
 
