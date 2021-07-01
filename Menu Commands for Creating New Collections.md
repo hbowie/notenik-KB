@@ -8,7 +8,7 @@ Seq:    2.2
 
 Level:  3 - Section
 
-Index:  new collection; 
+Index:  new collection; icloud; web collection; 
 
 Body: 
 

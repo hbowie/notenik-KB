@@ -8,6 +8,8 @@ Seq:    3.4
 
 Level:  3 - Section
 
+Index:  search; 
+
 Body: 
 
 The Search field on the Toolbar allows you to search for the entered text, and display the first Note containing this text in any field being searched. After finding the first occurrence, you may use the Find Again command under the Note menu to search for the next Note containing the specified text.

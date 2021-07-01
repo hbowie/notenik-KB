@@ -8,7 +8,7 @@ Seq:    2.1.1
 
 Level:  4 - Subsection
 
-Index:  sandbox; Dropbox; Sites folder; cloud; 
+Index:  sandbox; Dropbox; Sites folder; cloud; collection location; 
 
 Body: 
 

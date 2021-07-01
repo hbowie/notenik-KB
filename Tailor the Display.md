@@ -1,12 +1,14 @@
 Title:  Tailor the Display
 
-Tags:   levels-outline.3 Common Tasks.1 Display a Note
+Tags:   fields.title, levels-outline.3 Common Tasks.1 Display a Note
 
 Timestamp: 20210618164350
 
 Seq:    3.1.1
 
 Level:  4 - Subsection
+
+Index:  display tab; fonts; typeface; css; body field label; title field; 
 
 Body: 
 

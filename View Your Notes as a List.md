@@ -8,6 +8,8 @@ Seq:    3.3
 
 Level:  3 - Section
 
+Index:  list tab; next; prior; 
+
 Body: 
 
 The left side of a Collection Window shows all the Notes in your current Collection as a simple list, initially sorted by Title.
