@@ -8,6 +8,8 @@ Seq:    2.1.1
 
 Level:  4 - Subsection
 
+Index:  sandbox; Dropbox; Sites folder; cloud; 
+
 Body: 
 
 When it comes to the location of your Collection(s), you have two primary options.

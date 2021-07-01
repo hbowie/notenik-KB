@@ -36,6 +36,9 @@ change log
 citations
 : [[Citations]]
 
+cloud
+: [[The Location of Your Collection]]
+
 cmark
 : [[Choice of Markdown Parsers]]
 
@@ -47,6 +50,7 @@ CommonMark
 
 commonplace book
 : [[Create a Digital Commonplace Book or a Zettelkasten]]
+: [[The Field Labels and Types for your Collection]]
 
 copyright
 : [[License]]
@@ -56,6 +60,9 @@ double-bracket links
 
 Down
 : [[Choice of Markdown Parsers]]
+
+Dropbox
+: [[The Location of Your Collection]]
 
 email obfuscation
 : [[No Email Obfuscation]]
@@ -68,6 +75,7 @@ fenced code blocks
 : [[Fenced Code Blocks]]
 
 file extensions
+: [[File Extension for your Notes]]
 : [[Note File Extensions]]
 
 file names
@@ -113,11 +121,17 @@ Medium
 MIT
 : [[License]]
 
+new collection
+: [[Creating and Tailoring a Collection of Notes]]
+
 note-to-note links
 : [[Wiki Style Links]]
 
 open source
 : [[License]]
+
+overview
+: [[Overview]]
 
 parsers
 : [[Choice of Markdown Parsers]]
@@ -140,6 +154,12 @@ PSTextMerge
 rights
 : [[License]]
 
+sandbox
+: [[The Location of Your Collection]]
+
+Sites folder
+: [[The Location of Your Collection]]
+
 streamlined reading
 : [[Assemble an Outline]]
 
@@ -151,6 +171,9 @@ Table of Contents generation
 
 tags
 : [[Favorites to HTML]]
+
+text editors
+: [[File Extension for your Notes]]
 
 Two Due
 : [[About Those Other Names...]]
@@ -170,6 +193,7 @@ wiki-style links
 
 Zettelkasten
 : [[Create a Digital Commonplace Book or a Zettelkasten]]
+: [[The Field Labels and Types for your Collection]]
 
 zettelkasten
 : [[Timestamp]]

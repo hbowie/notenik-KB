@@ -8,6 +8,8 @@ Seq:    2.1.4
 
 Level:  4 - Subsection
 
+Index:  file extensions; text editors; 
+
 Body: 
 
 The Notes within your Collection will be ordinary text files, but you can choose from a number of possible file extensions. 

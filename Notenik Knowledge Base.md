@@ -11,3 +11,5 @@ Body:
 Everything I know about Notenik has been placed into this Knowledge Base, which is, itself, a Notenik Collection. 
 
 This Knowledge Base is organized into a series of articles and reference sections that are generally meant to be read sequentially, but feel free to browse around and read them in whatever order you find most useful, and to read as much of each article as seems to be pertinent to your interests at the moment.
+
+If you're looking for something in particular, you can always explore via the Tags tab, or search the Collection, or refer to the [[Index to the Knowledge Base]].

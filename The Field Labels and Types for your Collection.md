@@ -8,6 +8,8 @@ Seq:    2.1.3
 
 Level:  4 - Subsection
 
+Index:  Zettelkasten; commonplace book; 
+
 Body: 
 
 Each Collection can have its own combination of [[Field Labels and Types]]. The fields you choose will help to determine the particular functionality that may be available for your Collection. 

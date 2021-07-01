@@ -8,6 +8,8 @@ Seq:    2.2
 
 Level:  3 - Section
 
+Index:  new collection; 
+
 Body: 
 
 Beneath the File menu you will find several different options for creating a New Notenik Collection. 

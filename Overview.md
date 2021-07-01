@@ -8,11 +8,14 @@ Seq:    1.2
 
 Level:  3 - Section
 
+Index:  overview; 
+
 Body: 
 
 Notenik is a system for recording, storing, organizing, viewing and publishing Notes. 
 
-Notenik is available as a Mac App that can be downloaded from the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984?mt=12). There is no up-front cost, nor any in-app purchases necessary, in order to download and use Notenik.
+Notenik is available as a Mac App that can be downloaded from the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984?mt=12). There is no up-front cost, nor any in-app purchases, nor any subscription required, in order to download and fully use all of Notenik's features.
+
 
 Each Note is stored in its own text file. 
 
