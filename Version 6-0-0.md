@@ -4,9 +4,16 @@ Tags:   levels-outline.11 Version History.5 Version 600
 
 Timestamp: 20210627222923
 
-Seq:    11.5
+Seq:    11.6
+
+Date:   14 May 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+Collection Shortcuts and a new Quick Action window.
+
 
 Body: 
 

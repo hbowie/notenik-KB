@@ -4,9 +4,16 @@ Tags:   levels-outline.11 Version History.2 Version 630
 
 Timestamp: 20210627222923
 
-Seq:    11.2
+Seq:    11.3
+
+Date:   10 Jun 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+Updated the Work List field type to allow entries for 'Novel' and 'Podcast' (and to make it easier to enter using all lowercase letters); added a new field type of Level, to indicate the depth of a Note within the structure of a Collection; added a new command to renumber the Seq field based on sequence and Level; added a new command to generate tags that will mirror the outline structure implied by the combination of Seq and Level fields.
+
 
 Body: 
 

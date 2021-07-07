@@ -4,9 +4,16 @@ Tags:   levels-outline.11 Version History.6 Version 590
 
 Timestamp: 20210627222923
 
-Seq:    11.6
+Seq:    11.7
+
+Date:   10 May 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+Merge templates no longer write unmodified files; customization of the display tab for a specific collection can now be done via a display.css file or a display.html file; added an allfields command for merge templates.
+
 
 Body: 
 

@@ -29,6 +29,8 @@ Notenik makes use of [Down](https://github.com/iwasrobbed/Down) and [cmark](http
 
 Notenik also makes use of [CoreXLSX](https://github.com/MaxDesiatov/CoreXLSX) to read XLSX files. CoreXLSX is also separately licensed.
 
+Additionally, Notenik makes use of [ZipArchive](https://github.com/ZipArchive/ZipArchive) to create backup Zip files. ZipArchive is separately licensed. 
+
 #### License Text
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of the Notenik software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

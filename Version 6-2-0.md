@@ -4,9 +4,16 @@ Tags:   levels-outline.11 Version History.3 Version 620
 
 Timestamp: 20210627222923
 
-Seq:    11.3
+Seq:    11.4
+
+Date:   27 May 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+Added Custom URL Scheme for Notenik, with open and add commands.
+
 
 Body: 
 

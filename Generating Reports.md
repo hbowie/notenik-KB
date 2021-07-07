@@ -4,7 +4,7 @@ Tags:   levels-outline.5 Getting Data Into and Out of Notenik.6 Generating Repor
 
 Timestamp: 20210627003718
 
-Seq:    5.6
+Seq:    5.7
 
 Level:  3 - Section
 

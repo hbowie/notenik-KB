@@ -1,0 +1,24 @@
+<?output "../../notenik-site/rss.xml"?>
+<rss version="2.0">
+  <channel>
+    <title>Notenik News</title>
+    <link>https://apps.apple.com/us/app/notenik/id1465997984</link>
+    <description>What's New with Notenik</description>
+    <language>en</language>
+<?set item-count = 0 ?>
+<?nextrec?>
+<?set item-count += 1 ?>
+<?if =$item-count$= le 10 ?>
+	<item>
+	  <title>=$title&x$=</title>
+	  <link>notenik://help?id==$title&clll$=</link>
+	  <guid>notenik://help?id==$title&clll$=</guid>
+	  <pubDate>=$date&EEE, dd MMM yyyy$= 12:00:00 -0700</pubDate>
+	  <description>
+	  	=$teaser&xo-$=
+	  </description>
+	</item>
+<?endif?>
+<?loop?>
+  </channel>
+</rss>

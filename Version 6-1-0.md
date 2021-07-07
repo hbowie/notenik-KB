@@ -4,9 +4,16 @@ Tags:   levels-outline.11 Version History.4 Version 610
 
 Timestamp: 20210627222923
 
-Seq:    11.4
+Seq:    11.5
+
+Date:   23 May 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+Script execution now runs asynchronously, so as not to block the main UI (no more spinning beach balls!); an animated indeterminate progress bar was added to the scripter window to let the user know that the script is still running; a browse command was also added to the scripting engine, so that the user can optionally open a local URL at the end of a script, both to let the user know the script is done, and also to allow the user to review the results (assuming the user was creating or updating a website or some collection of web pages).
+
 
 Body: 
 

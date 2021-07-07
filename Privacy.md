@@ -12,5 +12,5 @@ Index:  privacy;
 
 Body: 
 
-Neither the Notenik app nor the Notenik website collect any information from or about users. Feel free to use Notenik without any privacy concerns. 
+Neither the Notenik app nor the Notenik website collects any information from or about users. Feel free to use Notenik without any privacy concerns. 
 

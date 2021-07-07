@@ -8,9 +8,13 @@ Timestamp:
 
 Seq: <seq> 
 
+Date:  
+
 Level: <level: 1 - Collection; 2 - Article; 3 - Section; 4 - Subsection; > 
 
 Index: <index> 
+
+Teaser: 
 
 Body:  
 

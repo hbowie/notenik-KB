@@ -4,9 +4,16 @@ Tags:   levels-outline.11 Version History.9 Version 570
 
 Timestamp: 20210627222923
 
-Seq:    11.9
+Seq:    11.10
+
+Date:   23 Feb 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+The user can now drag a file onto a Note's row on the List tab in order to add the file as an attachment to that note; Notenik will now retain the index to the last note selected in a Collection, and re-position the user on that same Note the next time that Collection is opened; fixed a bug that would crash the app if trying to duplicate a Note from the menu.
+
 
 Body: 
 

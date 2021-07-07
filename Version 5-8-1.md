@@ -4,9 +4,16 @@ Tags:   levels-outline.11 Version History.7 Version 581
 
 Timestamp: 20210627222923
 
-Seq:    11.7
+Seq:    11.8
+
+Date:   07 Apr 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+Fixed a bug that caused a crash when the user attempted to run a script.
+
 
 Body: 
 

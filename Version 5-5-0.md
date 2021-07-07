@@ -4,9 +4,16 @@ Tags:   levels-outline.11 Version History.11 Version 550
 
 Timestamp: 20210627222923
 
-Seq:    11.11
+Seq:    11.12
+
+Date:   04 Feb 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+Added extensive support for field renaming and custom field labels, along with defined field types; enabled a secondary click for rows on the Display tab; enabled Open Link in New Window for links on the Display tab, resulting in opening the links in your Web browser.
+
 
 Body: 
 

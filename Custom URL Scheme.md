@@ -4,7 +4,7 @@ Tags:   levels-outline.5 Getting Data Into and Out of Notenik.10 Custom URL Sche
 
 Timestamp: 20210627004934
 
-Seq:    5.10
+Seq:    5.11
 
 Level:  3 - Section
 
@@ -53,3 +53,18 @@ Again, let's break this down.
 +  `body=You%20gotta` - The body of the new Note. Again, this will almost always require percent encoding. 
 
 Other fields may also be specified for a new Note, using a similar *label=value* convention.
+
+### Help
+
+Following is a sample URL:
+
+	notenik://help?id=versionhistory
+	
+Once more, let's break this down:
+
++ `notenik://` - The custom scheme that will invoke the Notenik app. 
++ `help` - The Notenik command to open the Notenik Knowledge Base supplied with Notenik. 
++ `?` - A question mark indicates the end of the command and the beginning of the query string.  
++ `id=versionhistory` - The ID identifying the Note to be selected for Display. 
+
+The query string is optional. If it is not supplied, then the Knowledge Base will be opened at the first Note in the Collection.

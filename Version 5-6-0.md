@@ -4,9 +4,16 @@ Tags:   levels-outline.11 Version History.10 Version 560
 
 Timestamp: 20210627222923
 
-Seq:    11.10
+Seq:    11.11
+
+Date:   12 Feb 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+Added an option to sort a Collection by Date Added; added a streamlined method for creating a new collection; enabled updating of all file extensions for all notes when the preferred file extension is changed in the collection preferences.
+
 
 Body: 
 
