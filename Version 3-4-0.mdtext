@@ -1,0 +1,44 @@
+Title:  Version 3.4.0
+
+Tags:   levels-outline.11 Version History.34 Version 340
+
+Timestamp: 20210627222923
+
+Seq:    11.34
+
+Level:  3 - Section
+
+Body: 
+
+Released on 08 Apr 2020
+ 
+##### Fixed Additional Bugs in new Markdown Parser
+
+There were some edge cases that popped up. 
+
+ 
+##### Broke Reusable Code out into Separate Libraries
+
+Created the following separate Swift packages. 
+
+* NotenikUtils
+* NotenikTextile
+* NotenikMkdown
+
+Users should not see any impact from this change.
+ 
+##### Added Sort by Tags Option
+
+Added a new Sort option to allow sorting by the Tags field, plus Title. 
+
+ 
+##### Added New Note Shortcuts for Status Updates
+
+See these new commands beneath the Note menu:
+
+* Toggle Status - Switches from least complete to most, and back again. 
+* Increment Status - Bump to the next stage in the Collection's lifecycle. 
+
+There are keyboard shortcuts available for both of these. 
+
+Note that these are designed to be used in Display mode, not in Edit mode.

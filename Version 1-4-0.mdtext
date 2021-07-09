@@ -1,0 +1,32 @@
+Title:  Version 1.4.0
+
+Tags:   levels-outline.11 Version History.55 Version 140
+
+Timestamp: 20210627222923
+
+Seq:    11.55
+
+Level:  3 - Section
+
+Body: 
+
+Released on 03 Sep 2019
+ 
+##### Work Type now uses a Combo Box
+
+When a Collection (typically, of quotations) has a 'Work Type' field, then Notenik will now present a standard, selectable list of options to choose from using what is known as a "Combo Box" control for editing. 
+
+ 
+##### Improved Collection Load Speed
+
+Improved the speed of opening a new Collection by optimizing the sorting of Notes as they are loaded into memory. 
+
+ 
+##### Miscellaneous Improvements
+
+A few minor bug fixes and minor improvements. 
+
+ 
+##### Added Script File Recording
+
+Notenik can now be used to record script files, as well as play them back.

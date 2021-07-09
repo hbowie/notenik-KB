@@ -1,0 +1,30 @@
+Title:  Generating Reports
+
+Tags:   levels-outline.5 Getting Data Into and Out of Notenik.8 Generating Reports
+
+Timestamp: 20210627003718
+
+Seq:    5.8
+
+Level:  3 - Section
+
+Body: 
+
+Notenik provides a function for merging data from Notes (or other data sources) into a template file in order to create one or more output text files. 
+
+The text files created may be of any type, but certainly one of the most useful formats is HTML, allowing users to generate one or more Web pages from their notes. 
+
+See the article on [[Merge Templates]] for complete information on the expected format of a Merge Template file. 
+
+Template files can be placed in a folder named 'reports' within the Collection folder where the reports are to be used. Each template file should include the word 'template' somewhere within its file name. 
+
+Once a template file is created, suitably named and placed, it will become available as a report that can be selected from a drop-down (identified with a gear icon) on the Collection's toolbar. 
+
+Selecting a report will then cause the Collection's notes to be merged into the corresponding template file, creating whatever ouput is identified in the template file. 
+
+Two other options appear on the Reports Action drop-down (identified with the gear icon). 
+
+- Generate Report Sample in HTML
+- Generate Report Sample in Markdown
+
+Selecting one of these will then cause Notenik to create a reports folder for the collection, if one does not already exist, and then to create a report template containing all of the Collection's fields in a basic layout. The user may then modify this template in order to further customize the output formatting.  Once the user reloads the Collection, those reports will then become available to run.

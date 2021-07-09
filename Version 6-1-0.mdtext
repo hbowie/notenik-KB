@@ -1,0 +1,29 @@
+Title:  Version 6.1.0
+
+Tags:   levels-outline.11 Version History.6 Version 610
+
+Timestamp: 20210627222923
+
+Seq:    11.6
+
+Date:   23 May 2021
+
+Level:  3 - Section
+
+Teaser: 
+
+Script execution now runs asynchronously, so as not to block the main UI (no more spinning beach balls!); an animated indeterminate progress bar was added to the scripter window to let the user know that the script is still running; a browse command was also added to the scripting engine, so that the user can optionally open a local URL at the end of a script, both to let the user know the script is done, and also to allow the user to review the results (assuming the user was creating or updating a website or some collection of web pages).
+
+
+Body: 
+
+Released on 19 May 2021
+ 
+##### Browse Command added to Scripting Engine
+
+The new Browse command can be placed at the end of a web generation script, and then set to open the `localhost` url pointing to the website just generated. 
+
+ 
+##### Script Execution Now Runs Asynchronously
+
+Script execution in the Scripter window now runs asynchronously, with an indeterminate progress bar animated to show that something is happening. No more spinning beach ball!

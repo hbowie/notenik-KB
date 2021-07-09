@@ -1,0 +1,45 @@
+Title:  Generate Web Book
+
+Tags:   fields.level, fields.seq, levels-outline.5 Getting Data Into and Out of Notenik.7 Generate Web Book
+
+Timestamp: 20210709202731
+
+Seq:    5.7
+
+Level:  3 - Section
+
+Index:  web book; 
+
+Body: 
+
+This command, found beneath the `File` menu, will transform an entire Collection into a series of HTML pages that can be read as if they were chapters in a book. 
+
+Here's the way this feature works. 
+
+1. Your Collection should have both [[Seq]] and [[Level]] fields, in addition to the usual [[Title]] and [[Body]] fields. See [[Assemble an Outline]] for further useful info on how these two fields can be used together. 
+
+2. All of the Notes in your Collection should be numbered sequentially using the Seq field, and the Level field should be used to indicate the depth of each Note within the overall hierarchy. 
+
+3. The first Note in the Collection should be given a Seq value of zero, or blank. The Title of this first Note should reflect the overall title for the resulting Web Book, and its Level field should have a value of 1. 
+
+4. When the command is invoked, the user will be prompted to specify an output folder into which the generated files will be placed.
+
+5. All of the Web material will be placed in a subfolder named 'EPUB'. 
+
+6. One output HTML page will be generated for each Note in the Collection, and these files will be placed in an EPUB sub-folder named 'html'. File names will be created by taking each Note's title, changing all letters to lower-case, and replacing spaces and punctuation with dashes. A file extension of '.html' will be appended to each file name.
+
+7. [[Wiki Style Links]] will be converted to relative web links, so that the intent of the original links will be preserved. (In other words, note-to-note links will still work.)
+
+8. Each Note will be formatted for streamlined reading. (You are again referred to the instructions on how to [[Assemble an Outline]] for further explanation of what this means.)
+
+9. As with Streamlined Reading within Notenik, each page will have a link to its parent in the hierarchy, as well as links to any children. Each page will also end with a link to the next page in the Collection. 
+
+10. The first time a Web Book folder is populated, Notenik will create another EPUB sub-folder, this one named 'css', into which a file named 'styles.css' will be placed, containing body formatting reflecting the current Display Fonts chosen within Notenik. Once this file has been created, though, Notenik will not replace it, so you are free to modify this CSS stylesheet in any way you would like. Each HTML page generated will link to this stylesheet for its formatting. 
+
+11. You may find other files within the output folder. These are generally intended to make it easier to publish the resulting output in the [EPUB](https://en.wikipedia.org/wiki/EPUB) format, although the ability to generate such output from Notenik is still largely aspirational at this point. 
+
+12. A user may now load the Title page of the book into a Web browser -- either from a location on their local drive, or from a site on the Web -- and then navigate from there through the entire Web Book.
+
+For an example of a Web Book, see the [one on the Notenik.net website](https://notenik.net/knowledge-base/EPUB/html/notenik-knowledge-base.html) that was generated from this Notenik Knowledge Base itself. 
+
+Happy Web Book publishing!

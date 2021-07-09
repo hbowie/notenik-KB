@@ -1,0 +1,36 @@
+Title:  Version 6.5.0
+
+Tags:   levels-outline.11 Version History.2 Version 650
+
+Timestamp: 20210703232615
+
+Seq:    11.2
+
+Date:   07 Jul 2021
+
+Level:  3 - Section
+
+Teaser: 
+
+Added an option to backup an entire Collection to a compressed Zip file; made improvements to Streamlined Reading, to focus only on Seq, Title and Body fields; expanded the custom URL help command to allow an ID to be included, to point to a specific Note to be initially displayed; added a What's New command beneath the Help menu to show the user the latest changes to the app. 
+
+
+Body: 
+
+Released on 7 July 2021
+
+##### Added What's New Command beneath the Help Menu
+
+Selecting `What's New` beneath the `Help` menu will open the Notenik Knowledge Base and position it on the Note showing Notenik's latest changes. 
+
+##### Added Backup to Zip option
+
+A new option beneath the File menu will create a Zip file containing a compressed backup of the entire current Collection. 
+
+##### Improvements to Streamlined Reading
+
+Only the Seq, Title and Body fields are now included on the Display tab, when Streamlined Reading is chosen for the Collection. 
+
+##### Help Command Expanded
+
+A notenik Custom URL invoking the help command can now optionally specify the ID of a specific Note to be displayed, after opening the Knowledge Base.

@@ -1,0 +1,27 @@
+Title:  Version 4.4.0
+
+Tags:   levels-outline.11 Version History.24 Version 440
+
+Timestamp: 20210627222923
+
+Seq:    11.24
+
+Level:  3 - Section
+
+Body: 
+
+Released on 17 Aug 2020
+ 
+##### Modified to run under macOS 10.12 Sierra
+
+Modified to run on an earlier version of the Mac Operating System. 
+
+ 
+##### Fixed a possible Launch Bug
+
+Made a code change that might have been causing a crash during the application launch. 
+
+ 
+##### Added Ability to Increment Major Portion of Seq Field
+
+The Note menu has a new command, with its own keyboard shortcut, allowing a two-part Seq field (i.e., 1.00) to be incremented on the left, rather than on the right. In other words, the major portion of the Seq number is incremented, rather than the minor portion.

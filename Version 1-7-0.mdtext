@@ -1,0 +1,32 @@
+Title:  Version 1.7.0
+
+Tags:   levels-outline.11 Version History.51 Version 170
+
+Timestamp: 20210627222923
+
+Seq:    11.51
+
+Level:  3 - Section
+
+Body: 
+
+Released on 31 Oct 2019
+ 
+##### Markdown Applied to all Long Text fields
+
+Markdown is now used to format all longtext fields as they appear on the Display tab.
+
+ 
+##### Internal Refactoring
+
+Made some internal changes to handle field types in a way that will better lend itself to future growth. 
+
+ 
+##### Additional Minor Improvements
+
+Made a few more minor improvements. 
+
+ 
+##### Added Notenik Rate/Review Reminder
+
+Added code to remind users to rate and review Notenik on the Mac App Store.

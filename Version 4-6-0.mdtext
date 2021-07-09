@@ -1,0 +1,32 @@
+Title:  Version 4.6.0
+
+Tags:   levels-outline.11 Version History.22 Version 460
+
+Timestamp: 20210627222923
+
+Seq:    11.22
+
+Level:  3 - Section
+
+Body: 
+
+Released on 03 Nov 2020
+ 
+##### Added support for Markdown footnotes
+
+This should address issue # 36. 
+
+ 
+##### Added Collection Prefs Option to Display Titles as Level 1 Headings
+
+This should close Issue # 35. 
+
+ 
+##### Added a Share Option for HTML Blockquotes
+
+When sharing a Note via the Share option beneath the Note menu, there is now an option to format the Body of the selected Note as an HTML fragment enclosed in `blockquote` tags. 
+
+ 
+##### Added a Navigation Board
+
+The Navigation Board can be summoned via the File menu. It will also appear if the user closes the last open Collection (thus providing a resolution for Issue # 19). The Nav Board shows all easily accessible Collections in an outline, and also offers a series of buttons allowing the user to perform other actions with selected Collections.

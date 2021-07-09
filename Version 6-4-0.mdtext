@@ -1,0 +1,42 @@
+Title:  Version 6.4.0
+
+Tags:   levels-outline.11 Version History.3 Version 640
+
+Timestamp: 20210627222923
+
+Seq:    11.3
+
+Date:   02 Jul 2021
+
+Level:  3 - Section
+
+Teaser: 
+
+Markdown parser support for definition lists; new Collection pref for Streamlined Reading, increasing focus on Body content on the Display tab; new Display navigation elements added when using Streamlined Reading, especially useful when using Seq and Level fields and sorting by Seq; new Notenik Knowledge Base, available from the Help menu (replacing all prior Help documentation).
+
+
+Body: 
+
+Released on 02 July 2021
+
+##### New Documentation
+
+Following the DRY principle (Don't Repeat Yourself), all Notenik information and documentation has been consolidated into a single Knowledge Base, accessible from the Help menu. The Knowledge Base is itself a Notenik Collection, and it takes advantage of a number of recently added features.
+
+##### Level Navigation
+
+When Notenik finds a Collection with both [[Seq]] and [[Level]] fields, and when sorted by Seq + Title, and when Streamlined Reading is chosen, then additional navigation elements will be added to the Display tab. 
+
++ At the top of the Note's display there will appear a link to the parent of the current item. 
++ At the bottom of the Note's display there will appear a link to the next Note in the list. 
++ For parent Notes, there will also appear a list of the child Notes at the next level. 
+ 
+##### Added Collection Pref for Streamlined Reading
+
+As part of the Collection Preferences, a user may now check a box to Format Display for Streamlined Reading.
+
+Checking this option will cause the Display tab to focus on the Body of each Note, while minimizing the appearance of metadata. The net effect -- especially if one declines to Include an Explicity Body Field Label on the Display tab -- is to make it easier for a user to focus on the content of each Note.
+ 
+##### Added Markdown Support for Definition Lists
+
+Markdown definition lists are now supported by the standard Notenik parser.

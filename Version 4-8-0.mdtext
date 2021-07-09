@@ -1,0 +1,39 @@
+Title:  Version 4.8.0
+
+Tags:   levels-outline.11 Version History.20 Version 480
+
+Timestamp: 20210627222923
+
+Seq:    11.20
+
+Level:  3 - Section
+
+Body: 
+
+Released on 13 Nov 2020
+ 
+##### Other Adjustments for Big Sur
+
+Made a few other tweaks for enhanced compatibility with Big Sur. 
+
+ 
+##### Updated App Icon for Big Sur
+
+Updated app icon shape and background for improved consistency with Big Sur. 
+
+ 
+##### Show/Hide List Command implemented
+
+This allows the left side of the window, containing the Note list, to be collapsed and restored. 
+
+This should resolve Issue # 39.
+ 
+##### Display Font Selection List Can Now Include all Available Fonts
+
+A checkbox has been added to the Display Fonts window that, when checked, will result in the list of available fonts being expanded to include all font families available on the user's Mac. If unchecked, the user will only be able to select from a relatively short list of common fonts. 
+
+This should close Issue # 38.
+ 
+##### Launch at Startup tag enabled
+
+Adding a 'Launch at Startup' tag to a Note will now cause the Note's link to be launched when Notenik starts up.

@@ -1,0 +1,17 @@
+Title:  Version 6.6.0
+
+Tags:   levels-outline.11 Version History.1 Version 660
+
+Timestamp: 20210709201525
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Body: 
+
+*In Work -- Not Yet Released*
+
+##### Added Generate Web Book Command
+
+Added a new command beneath the `File` menu. to Generate a Web Book.
