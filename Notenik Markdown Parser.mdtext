@@ -1,0 +1,14 @@
+Title:  Notenik Markdown Parser
+
+Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser
+
+Timestamp: 20210713200028
+
+Seq:    6.2
+
+Level:  3 - Section
+
+Body: 
+
+The Markdown parser that is native to Notenik generally follows the original [Markdown Syntax Specification](https://daringfireball.net/projects/markdown/syntax) written by John Gruber, with the following exceptions. 
+

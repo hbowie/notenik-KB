@@ -1,0 +1,25 @@
+Title:  Generate a Collection Table of Contents
+
+Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser
+
+Timestamp: 20210713204211
+
+Seq:    6.2.9
+
+Level:  4 - Subsection
+
+Body: 
+
+As an extension to the original Markdown spec from John Gruber, a Table of Contents may be generated for an entire Collection. 
+
+This feature may be invoked with a line like the following:
+
+```
+{:collection-toc}
+```
+
+If the Collection has a [[Level]] field, then the contents of the level field will be used to control indentation and the nesting of lists, so that the table of contents will appear in an indented outline format. 
+
+The generated Table of Contents will support direct linking from any ToC entry to the represented Note itself. 
+
+See this Collection's [[Complete Table of Contents]] for an example.
