@@ -1,0 +1,17 @@
+Title:  Version 6.7.0
+
+Timestamp: 20210716220208
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Body: 
+
+*In Work - Not Yet Released*
+
+##### Added MathJax Support
+
+Added an option to the Collection Preferences to enable [[MathJax Support]]. This will be disabled by default. A copy of MathJax is now included within the app, so that Internet access is not required in order for MathJax to work. 
+
+[MathJax]: https://www.mathjax.org

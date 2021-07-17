@@ -2,10 +2,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Notenik News</title>
-  <subtitle>The latest news about Notenik</subtitle>
+  <subtitle>The latest news about the Notenik app</subtitle>
   <link href="https://notenik.net/atom.xml" type="application/atom+xml" rel="self" />
   <link href="https://notenik.net/" type="text/html" rel="alternate"  />
-  <updated>=$today&yyyy-MM-ddT09:00:00Z$=</updated>
+  <updated>=$today&yyyy-MM-dd$=T09:00:00Z</updated>
   <rights>Copyright © =$today&yyyy$=, Herb Bowie</rights>
   <author>
     <name>Herb Bowie</name>
@@ -20,8 +20,8 @@
 <?if "=$link$=" ?>
 		<link rel="alternate" type="text/html" href="=$link$="/>
 <?endif?>
-	  <link rel="related" type="text/html" href="notenik://help?id==$title&clll$="/>
-	  <id>notenik://help?id==$title&clll$=</id>
+	  <link rel="related" type="text/html" href="https://notenik.net/knowledge-base/EPUB/html/=$title&f$=.html"/>
+	  <id>https://notenik.net/knowledge-base/EPUB/html/=$title&f$=.html</id>
 	  <published>=$date&yyyy-MM-dd$=T09:00:00Z</published>
 	  <updated>=$date&yyyy-MM-dd$=T12:00:00Z</updated>
 	  <author>

@@ -1,0 +1,78 @@
+Title:  MathJax Support
+
+Timestamp: 20210717023528
+
+Seq:    6.2.8
+
+Level:  4 - Subsection
+
+Body: 
+
+As an extension to the original Markdown spec from John Gruber, [MathJax][] Version 3 is supported.  
+
+MathJax is off by default. It must be enabled on the Collection Preferences before it can be used.
+
+Notenik uses an internal copy of MathJax, so it shouldn't require an active Internet connection to display properly. 
+
+Notenik generally follows the [MultiMarkdown][mmd] conventions in terms of syntax.  
+
+Here's one way to code math within a paragraph, starting with `\\(` and ending with `\\)`. 
+
+First the code:
+
+```
+Here's an example of math within a paragraph --- \\({e}^{i\pi }+1=0\\)
+--- easy enough. 
+```
+
+And then the result:
+
+Here's an example of math within a paragraph --- \\({e}^{i\pi }+1=0\\)
+--- easy enough. 
+
+And here's a second way to code math wihin a paragraph, using dollar sign delimiters. 
+
+First the code:
+
+```
+An example of math within a paragraph --- ${e}^{i\pi }+1=0$
+--- easy enough.
+```
+
+And then the result:
+
+An example of math within a paragraph --- ${e}^{i\pi }+1=0$
+--- easy enough.
+
+And here's the first way to code a line of math all on its own, starting with `\\[` and ending with `\\]`.
+
+First the code:
+
+```
+\\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\]
+```
+
+And then the result:
+
+\\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\]
+
+And here's the second way to code a line of math all on its own, using dollar signs.
+
+First the code:
+
+```
+$${x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a}$$
+```
+
+And then the result:
+
+$${x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a}$$
+
+You should know that Notenik depends on sensible and conventional spacing and punctuation to avoid confusing multiple dollar figures with a run of math -- as in the following example. 
+
+Add $50 to $150 and you get $200. 
+
+
+[MathJax]: https://www.mathjax.org
+
+[mmd]: https://fletcher.github.io/MultiMarkdown-6/MMD_Users_Guide.html#math
