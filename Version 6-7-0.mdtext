@@ -21,3 +21,7 @@ Added an option to the Collection Preferences to enable [[MathJax Support]]. Thi
 ##### Enhanced Table of Contents Generation
 
 Enhanced Notenik's ability to [[generate a Note Table of Contents]]. Multiple syntax variations are now supported. Also added the ability to limit both the upper and lower range of heading level numbers to be included in the ToC. Also enhanced/corrected the code generated for a multi-level table of contents.
+
+##### Enhanced Collection Table of Contents Generation
+
+Added lowest- and highest-level options to the [[generate a Collection Table of Contents]] command. 
