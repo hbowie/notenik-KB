@@ -4,11 +4,15 @@ Tags:   levels-outline.11 Version History.1 Version 670
 
 Timestamp: 20210716220208
 
-Seq:    11.1
+Seq:    11.2
 
 Date:   19 Jul 2021
 
 Level:  3 - Section
+
+Teaser: 
+
+Added support for Mathjax; enhanced Table of Contents generation for a single Note; enhanced Table of Contents generation for an entire Collection.
 
 Body: 
 
@@ -26,4 +30,4 @@ Enhanced Notenik's ability to [[generate a Note Table of Contents]]. Multiple sy
 
 ##### Enhanced Collection Table of Contents Generation
 
-Added lowest- and highest-level options to the [[generate a Collection Table of Contents]] command. 
+Added lowest- and highest-level options to the [[generate a Collection Table of Contents]] command.
