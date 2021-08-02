@@ -40,6 +40,10 @@ Following are the supported formats.
 * Export in OPML Format
 
 	Each Note will be represented as an outline object. 
+	
+* Export in Concatenated HTML or Markdown
+
+	A single file will be produced, with all Notes in the Collection appearing one after another, in the selected format (HTML or Markdown). Notes will appear in whatever Sort Sequence you have currently selected for the Collection. If you've selected the Streamlined Reading option in the Collection Preferences, then the focus of the content will be on the [[Seq]], Title and Body fields. The overall intent is to combine all of the Notes in your Collection into a single document. 
 
 When exporting the Notes in a Collection, you will be presented with a few options for the export. 
 

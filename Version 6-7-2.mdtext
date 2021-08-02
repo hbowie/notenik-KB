@@ -1,10 +1,10 @@
 Title:  Version 6.7.2
 
-Tags:   levels-outline.11 Version History.1 Version 672
+Tags:   levels-outline.11 Version History.4 Version 672
 
 Timestamp: 20210724211745
 
-Seq:    11.1
+Seq:    11.4
 
 Date:   24 Jul 2021
 
@@ -12,8 +12,10 @@ Level:  3 - Section
 
 Teaser: 
 
-Corrected a couple of significant deficiencies in the MathJax processing. 
+Corrected a couple of significant deficiencies in the MathJax support. 
+
 
 Body: 
 
-Corrected a couple of significant deficiencies in the MathJax processing. 
+Corrected a couple of significant deficiencies in the [[MathJax support]]. 
+

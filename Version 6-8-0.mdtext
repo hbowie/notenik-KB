@@ -1,0 +1,32 @@
+Title:  Version 6.8.0
+
+Tags:   levels-outline.11 Version History.1 Version 680
+
+Timestamp: 20210731170715
+
+Seq:    11.1
+
+Date:   02 Aug 2021
+
+Level:  3 - Section
+
+Teaser: 
+
+Added Short ID to the list of available field labels and types, to help with URL shortening; added new option to export an entire Collection into a single HTML or Markdown document; fixed a bug affecting automatic links in footnotes. 
+
+
+Body: 
+
+Released on August 2, 2021
+
+##### Added Short ID Field Label and Type
+
+Added [[Short ID]] to the list of available [[Field Labels and Types]]. One potential use for such a field, when creating a website, would be to perform your own homegrown [URL shortening](https://en.wikipedia.org/wiki/URL_shortening), rather than using a third-party service.  
+
+##### Added New Export Option to Concatenate HTML or Markdown
+
+The new options, described on the [[Import and Export Your Notes]] page, will write out a single file for an entire Collection, concatenating all of the Notes in the Collection. 
+
+##### Fixed a Footnote Bug
+
+[[Footnotes]] were not being properly handled when they contained an automatic link (contained within angle brackets). This has now been corrected.
