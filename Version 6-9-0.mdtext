@@ -1,5 +1,7 @@
 Title:  Version 6.9.0
 
+Tags:   levels-outline.11 Version History.1 Version 690
+
 Timestamp: 20210806000011
 
 Seq:    11.1
@@ -18,6 +20,10 @@ An OPML Outline file can now be imported into Notenik. See [[Assemble an Outline
 
 The export will now nest `outline` elements based on [[Level]] field values. 
 
-##### Added New Child Option to List tab Popup Menu
+##### Added `New Child` Option to List tab Popup Menu
 
-When using the Seq and Level fields, added an option to the Notes List popup menu to add a New Child to an existing Note, so that the Level field will be incremented by 1, and the Seq value will have a `.1` added to it. 
+When using the Seq and Level fields, added an option to the Notes List popup menu to add a New Child to an existing Note, so that the Level field will be incremented by 1, and the Seq value will have a `.1` added to it.
+
+##### Added Ability to Drag and Drop Within a Sequenced List
+
+If you have a Sequenced Collection, you can perform some basic resequencing by dragging and dropping a Note from one position to another on the List tab. Note that you must move the Drop indicator to a line above and/or below existing Notes in order to indicate a desired new position for an existing Note. Only the Note being dragged and dropped will have its Seq value changed. 

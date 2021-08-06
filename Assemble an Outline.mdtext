@@ -40,15 +40,17 @@ But in addition to these other organizational paradigms, Notenik has several rel
 
 10. In order to have the Seq value incremented automatically for a new Note, first select the preceding Note before adding the new one. 
 
-11. To add a child Note to an existing Note, ctrl-click on the row representing the existing Note, then select `New Child` from the popup menu. This will pre-populate both the Level and Seq fields with appropriate values. (If the intended parent already has other children, you may want to first increment the Seq value of the current first child, to avoid duplicate Seq values.)
+11. You can perform some basic resequencing by dragging and dropping a Note from one position to another on the List tab. Note that you must move the Drop indicator to a line above and/or below existing Notes in order to indicate a desired new position for an existing Note (in other words, not on top of an existing Note). Only the Note being dragged and dropped will have its Seq value changed. 
 
-12. As you continue building out your outline, you may wish to make use of a couple of helpful menu items beneath the `Collection` menu. 
+12. To add a child Note to an existing Note, ctrl-click on the row representing the existing Note, then select `New Child` from the popup menu. This will pre-populate both the Level and Seq fields with appropriate values. (If the intended parent already has other children, you may want to first increment the Seq value of the current first child, to avoid duplicate Seq values.)
+
+13. As you continue building out your outline, you may wish to make use of a couple of helpful menu items beneath the `Collection` menu. 
 
 	+ `Collection -> Level -> Renumber Seq based on Level` will renumber your entire Collection, preserving the current order, but regenerating Seq values so that each segment of each Seq value is numbered consecutively, without any gaps, and with the number of segments reflecting each Note's level. 
 
 	+ `Collection -> Level -> Replace Tags based on Seq and Level` will generate Tags with a top level of `levels-outline`, and with sub-tags mirroring the structure of your outline. The advantage of navigating your Collection this way is that you will have disclosure triangles, allowing you to drill down to a particular point in the outline, while hiding other branches not currently of interest. 
 
-13. Note that, if you have followed all the instructions above, including modifying your Collection preferences, your Display tab will now look a little different. 
+14. Note that, if you have followed all the instructions above, including modifying your Collection preferences, your Display tab will now look a little different. 
 
 	+ Fields other than Seq, Title and Body will not be shown. 
 	+ The Seq Value will be shown at the beginning of the Title line. 
@@ -62,12 +64,12 @@ But in addition to these other organizational paradigms, Notenik has several rel
 
 	The overall intent of all this is to provide a "streamlined reading" experience for your Collection, focusing on the outline structure and the content, much as you would when reading a book.
 	
-14. You have several useful options available for exporting an outline like this into some other format. 
+15. You have several useful options available for exporting an outline like this into some other format. 
 
 	+ Use `Export to OPML` (beneath the `File` menu) to put your data into a format that can be imported into a dedicated outlining app. 
 	+ Use `Generate Web Book` (also beneath the `File` menu) in order to create a set of web pages that are linked together. 
 	+ Concatenate all of the Notes in your Collection into a single file (in either HTML or Markdown formats), again by using the `Export` command beneath the `File` menu. 
 
-15. And one last tip for a project like this. If you add an [[Index]] field, and then use that to provide index terms for your pages, then you can use the `Collection -> Generate Index` menu item to generate an index for your Collection (as you might find at the end of a book). The index will be formatted using Markdown, and copied to the system clipboard. Simply create an index Note in your Collection, and use a normal paste command to place your index into the body of your index Note.
+16. And one last tip for a project like this. If you add an [[Index]] field, and then use that to provide index terms for your pages, then you can use the `Collection -> Generate Index` menu item to generate an index for your Collection (as you might find at the end of a book). The index will be formatted using Markdown, and copied to the system clipboard. Simply create an index Note in your Collection, and use a normal paste command to place your index into the body of your index Note.
 
 [opml]: https://en.wikipedia.org/wiki/OPML
