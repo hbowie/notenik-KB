@@ -1,0 +1,23 @@
+Title:  Version 6.9.0
+
+Timestamp: 20210806000011
+
+Seq:    11.1
+
+Date:   05 Aug 2021
+
+Level:  3 - Section
+
+Body: 
+
+##### Added OPML Import Function
+
+An OPML Outline file can now be imported into Notenik. See [[Assemble an Outline]] for more info. 
+
+##### Enhanced OPML Export Function
+
+The export will now nest `outline` elements based on [[Level]] field values. 
+
+##### Added New Child Option to List tab Popup Menu
+
+When using the Seq and Level fields, added an option to the Notes List popup menu to add a New Child to an existing Note, so that the Level field will be incremented by 1, and the Seq value will have a `.1` added to it. 
