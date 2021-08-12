@@ -6,11 +6,17 @@ Timestamp: 20210806000011
 
 Seq:    11.1
 
-Date:   05 Aug 2021
+Date:   12 Aug 2021
 
 Level:  3 - Section
 
+Teaser: 
+
+Added several new options to better support outlining: OPML Import and improved OPML Export, ability to add a new Child to an existing Note, plus ability to drag and drop within a sequenced list; fixed list scrolling so that the Note highlighted and visible on the left will generally match the Note currently selected on the right. 
+
 Body: 
+
+Released on August 12, 2021. 
 
 ##### Added OPML Import Function
 
@@ -26,4 +32,8 @@ When using the Seq and Level fields, added an option to the Notes List popup men
 
 ##### Added Ability to Drag and Drop Within a Sequenced List
 
-If you have a Sequenced Collection, you can perform some basic resequencing by dragging and dropping a Note from one position to another on the List tab. Note that you must move the Drop indicator to a line above and/or below existing Notes in order to indicate a desired new position for an existing Note. Only the Note being dragged and dropped will have its Seq value changed. 
+If you have a Sequenced Collection, you can perform some basic resequencing by dragging and dropping a Note from one position to another on the List tab. Note that you must move the Drop indicator to a line above and/or below existing Notes in order to indicate a desired new position for an existing Note. Only the Note being dragged and dropped will have its Seq value changed.
+
+##### Improved List Scrolling
+
+In most cases, the list view on the left should now scroll to show the selected Note displayed on the right.
