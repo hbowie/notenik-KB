@@ -4,7 +4,7 @@ Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser
 
 Timestamp: 20210607233233
 
-Seq:    6.2.9
+Seq:    6.2.10
 
 Level:  4 - Subsection
 
@@ -42,6 +42,4 @@ The following would be excluded:
 
 * Level 1 Headings,
 * Level 4 - 6 Headings,
-* Any Level 2 - 3 Headings *preceding* the `toc` line. 
-
-
+* Any Level 2 - 3 Headings *preceding* the `toc` line.

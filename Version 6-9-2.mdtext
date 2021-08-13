@@ -1,0 +1,28 @@
+Title:  Version 6.9.2
+
+Tags:   levels-outline.11 Version History.1 Version 692
+
+Timestamp: 20210813202014
+
+Seq:    11.1
+
+Date:   13 Aug 2021
+
+Level:  3 - Section
+
+Teaser: 
+
+Straightened out a couple of Markdown parsing problems. 
+
+
+Body: 
+
+Released on August 13, 2021. 
+
+##### Corrected Two Markdown Parsing Bugs
+
+Corrected a couple of bugs related to Markdown parsing. 
+
++ The App Preference setting to select the desired Markdown parser was not working -- Notenik's parser was always being used, no matter what the setting. This has been corrected to once again allow use of Down or Ink instead of Markdown's own parser. 
+
++ Hash characters (also called pound signs) were sometimes causing lines to be formatted as headings when they should not have been. A couple of changes were made to prevent this from happening. The first change was a straight-up bug fix. The second change was a matter of better [[heading identification]]. If a line starts with a single hash mark, and is immediately followed by a character representing a digit (with no intervening space), then the hash mark will be treated as ordinary text, rather than the beginning of a heading line.

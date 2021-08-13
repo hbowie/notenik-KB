@@ -1,0 +1,35 @@
+Title:  Heading Identification
+
+Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser
+
+Timestamp: 20210813203616
+
+Seq:    6.2.1
+
+Level:  4 - Subsection
+
+Body: 
+
+[John Gruber's description of Markdown syntax](https://daringfireball.net/projects/markdown/syntax#header) leaves room for some ambiguity surrounding two questions concerning the use of one or more hash characters to indicate a heading:
+
+1. Must a heading line be preceded by a blank line? 
+
+2. Must the string of hash characters be followed by a space, before beginning the text of the heading? 
+
+The [Markdown Guide](https://www.markdownguide.org/basic-syntax/#headings) makes note of this ambiguity, and the resulting differences in interpretation among various Markdown parsers, but does not provide a definitive resolution for either question. (See  *Heading Best Practices*.)
+
+Notenik's own parser answers the questions above in the following manner.
+
+1. A blank line before a heading is recommended (for readability, if nothing else), but is not required. 
+
+2. A space after the last hash character is also recommended, but not required. 
+	
+*However*, if there is no intervening space, and the first character following the only hash character is a digit, then the Notenik parser will assume that the author's intent was for the hash character to be read as 'number', rather than triggering a heading. 
+
+For example:
+
+#7 is a good bet in the next race. 
+
+But...
+
+#Number 7 is a good bet in the next race.
