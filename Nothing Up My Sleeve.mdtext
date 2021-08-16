@@ -1,0 +1,28 @@
+Title:  Nothing Up My Sleeve
+
+Timestamp: 20210816203814
+
+Seq:    12.1.3
+
+Level:  4 - Subsection
+
+Body: 
+
+My intent is for Notenik to be open in as many ways as possible. 
+
+This starts with the data storage. Everything is stored in plain text files that can be opened by any text editor. 
+
+It continues with the format of the text files. There is nothing obscure or proprietary about the Notenik format. 
+
+Notenik files make use of John Gruber's Markdown, which is itself free software, available under the terms of a BSD-style open source license.
+
+Notenik converts Markdown to HTML, which is an international standard available for use by anyone. And, again, HTML is expressed in plain text that can be easily inspected by anyone without any special tools. (The Web browser on your computer is probably the only app you use daily that has a `View Source` option somewhere in its menu structure.)
+
+And the Notenik application code is made available via an open source license, and can be easily found and inspected on GitHub. 
+
+And there's no cost to use Notenik. 
+
+My overall intent is to eliminate any artificial barriers between the development of the software and the use of the software. 
+
+
+
