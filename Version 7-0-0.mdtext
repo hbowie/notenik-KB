@@ -1,0 +1,11 @@
+Title:  Version 7.0.0
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Body: 
+
+##### Improved Web Book Generation
+
+Files are no longer overwritten if they haven't changed. 

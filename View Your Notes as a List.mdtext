@@ -14,6 +14,8 @@ Body:
 
 The left side of a Collection Window shows all the Notes in your current Collection as a simple list, initially sorted by Title.
 
+See the options available beneath the `Sort` menu to change the sort sequence. 
+
 You can navigate through this list using some of the buttons on the Toolbar:
 
 - The Home button takes you to the first Note.
