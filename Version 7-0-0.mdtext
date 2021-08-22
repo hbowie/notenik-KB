@@ -1,11 +1,15 @@
 Title:  Version 7.0.0
 
+Timestamp: 20210821181100
+
 Seq:    11.1
 
 Level:  3 - Section
 
 Body: 
 
+*Not yet published -- still in work*
+
 ##### Improved Web Book Generation
 
-Files are no longer overwritten if they haven't changed. 
+Files are no longer overwritten if they haven't changed.

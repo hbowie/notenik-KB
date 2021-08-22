@@ -1,0 +1,28 @@
+Title:  Lookup
+
+Tags:   fields.lookup
+
+Timestamp: 20210821192019
+
+Seq:    7.9.4
+
+Level:  4 - Subsection
+
+Body: 
+
+The word `lookup` can be used as a field type, but is not intended to be used as a field label. 
+
+The intent of a lookup field is to allow one Collection to reference Notes stored in a second Collection. 
+
+The second Collection must have had a shortcut assigned to it, which you can do when you [[tailor Collection preferences]]. 
+
+Here is an example of how a lookup field might be specified in [[the Collection template file]]. 
+
+```
+Author: <lookup: authors> 
+```
+
+The shortcut to the Collection to be referenced must be specified following the colon. In the example above, 'authors' is the shortcut assigned to the second Collection.
+
+One must be mindful of [[Disk Access Permissions]] when using a field with type `lookup`. This can probably best be handled by putting the second Collection alongside of the first, within the same parent folder. You can then use the [[Open Parent Realm]] command to first open the parent, and then from there open the primary Collection (the one that does the referencing). 
+
