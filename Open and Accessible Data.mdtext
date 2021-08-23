@@ -1,0 +1,33 @@
+Title:  Open and Accessible Data
+
+Timestamp: 20210823220833
+
+Seq:    12.4
+
+Level:  3 - Section
+
+Body: 
+
+The trend over the years has been to place an increasing number of barriers between the user and the data that he or she has created. 
+
++ Use of complex and proprietary formats for storing data. 
++ Storage in databases, which are generally impenetrable to non-technical users. 
++ Concealing the data in bundles, and in hidden directories. 
++ Storing the data on servers owned by a third party. 
+
+Now in some cases this sort of obfuscation is entirely justified. But it has numerous disadvantages. 
+
++ While it shields the user from possible mistakes, it also prevents the user from learning much about their own data. 
++ When the software goes out of date, the data may be left stranded in some format that can no longer be accessed. 
++ It becomes difficult for other potentially useful applications and tools to access and manipulate the data. 
++ Users are often persuaded to pay an annual license fee just to continue to have untrammeled access to the very data that they originally created. 
+
+So in Notenik, all of the following are true.
+
++ All data is stored in plain text files that can be opened and read by any text editor, on any platform. 
++ Notes are grouped together in ordinary folders, and the user can decide where they want the folders to be located. 
++ Notes can by synced to other platforms using iCloud or DropBox or any other file syncing service. 
++ While the Notenik [[Note file format]] is a little bit different, it's designed especially for human readability, and is open and non-proprietary. (See [[Why is the Notenik Format Different?]].
++ Note text uses nothing more complicated than [[Markdown]] for formatting, making the text easily readable by just about anyone, even without the use of Notenik, and without any special training. 
+
+
