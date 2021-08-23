@@ -27,7 +27,7 @@ So in Notenik, all of the following are true.
 + All data is stored in plain text files that can be opened and read by any text editor, on any platform. 
 + Notes are grouped together in ordinary folders, and the user can decide where they want the folders to be located. 
 + Notes can by synced to other platforms using iCloud or DropBox or any other file syncing service. 
-+ While the Notenik [[Note file format]] is a little bit different, it's designed especially for human readability, and is open and non-proprietary. (See [[Why is the Notenik Format Different?]].
++ While the Notenik [[Note file format]] is a little bit different, it's designed especially for human readability, and is open and non-proprietary. (See [[Why is the Notenik Format Different?]].)
 + Note text uses nothing more complicated than [[Markdown]] for formatting, making the text easily readable by just about anyone, even without the use of Notenik, and without any special training. 
 
 
