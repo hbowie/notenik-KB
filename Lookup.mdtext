@@ -26,3 +26,9 @@ The shortcut to the Collection to be referenced must be specified following the 
 
 One must be mindful of [[Disk Access Permissions]] when using a field with type `lookup`. This can probably best be handled by putting the second Collection alongside of the first, within the same parent folder. You can then use the [[Open Parent Realm]] command to first open the parent, and then from there open the primary Collection (the one that does the referencing). 
 
+When viewing a `lookup` field on the Display tab, you will notice a couple of special features. 
+
++ The value stored in the `lookup` field will be formatted as a link, using Notenik's own [[Custom URL Scheme]]. If that value already exists as a `Title` within the Collection identified by the referenced shortcut, then the link will be formatted to `open` the referenced Note within the second Collection; if the value does not yet exist within the second Collection, the the link will be formatted to `add` a Note titled with that value in the second Collection. 
+
++ If there are additional non-blank fields found on the referenced Note in the second Collection, then the lookup value will appear following a disclosure triangle, and clicking on the triangle will disclose the additional available fields from the second Collection. 
+
