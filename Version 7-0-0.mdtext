@@ -10,6 +10,10 @@ Body:
 
 *Not yet published -- still in work*
 
+##### Addition of a Lookup Field Type
+
+Users can now add [[Lookup]] fields to a Collection to reference information in another Collection. 
+
 ##### Improved Web Book Generation
 
 Files are no longer overwritten if they haven't changed.

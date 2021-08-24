@@ -1,0 +1,11 @@
+Title:  Frequent Incremental Improvements
+
+Timestamp: 20210816195427
+
+Seq:    12.8
+
+Level:  3 - Section
+
+Body: 
+
+The Swift version of Notenik was already pretty useful when I released verion 1.0 a couple of years ago. But I keep thinking of new features to add, and ways to make it better, or more useful, and I like to release improvements in small batches every couple of weeks. I think this sort of pace is better for me, and also better for users. Since the project is [[a labor of love]], I don't need to save things up for a major new release that can 

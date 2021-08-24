@@ -2,13 +2,13 @@ Title:  Open and Accessible Data
 
 Timestamp: 20210823220833
 
-Seq:    12.4
+Seq:    12.6
 
 Level:  3 - Section
 
 Body: 
 
-The trend over the years has been to place an increasing number of barriers between the user and the data that he or she has created. 
+The trend over the years has been to place an increasing number of barriers between the user and the data that he or she has created. This has been done in a number of ways. 
 
 + Use of complex and proprietary formats for storing data. 
 + Storage in databases, which are generally impenetrable to non-technical users. 
@@ -28,6 +28,4 @@ So in Notenik, all of the following are true.
 + Notes are grouped together in ordinary folders, and the user can decide where they want the folders to be located. 
 + Notes can by synced to other platforms using iCloud or DropBox or any other file syncing service. 
 + While the Notenik [[Note file format]] is a little bit different, it's designed especially for human readability, and is open and non-proprietary. (See [[Why is the Notenik Format Different?]].)
-+ Note text uses nothing more complicated than [[Markdown]] for formatting, making the text easily readable by just about anyone, even without the use of Notenik, and without any special training. 
-
-
++ Note text uses nothing more complicated than [[Markdown]] for formatting, making the text easily readable by just about anyone, even without the use of Notenik, and without any special training.
