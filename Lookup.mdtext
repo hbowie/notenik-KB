@@ -1,6 +1,6 @@
 Title:  Lookup
 
-Tags:   fields.lookup
+Tags:   fields.lookup, levels-outline.7 Field Labels and Types.9 General-Purpose Fields
 
 Timestamp: 20210821192019
 
@@ -30,5 +30,4 @@ When viewing a `lookup` field on the Display tab, you will notice a couple of sp
 
 + The value stored in the `lookup` field will be formatted as a link, using Notenik's own [[Custom URL Scheme]]. If that value already exists as a `Title` within the Collection identified by the referenced shortcut, then the link will be formatted to `open` the referenced Note within the second Collection; if the value does not yet exist within the second Collection, the the link will be formatted to `add` a Note titled with that value in the second Collection. 
 
-+ If there are additional non-blank fields found on the referenced Note in the second Collection, then the lookup value will appear following a disclosure triangle, and clicking on the triangle will disclose the additional available fields from the second Collection. 
-
++ If there are additional non-blank fields found on the referenced Note in the second Collection, then the lookup value will appear following a disclosure triangle, and clicking on the triangle will disclose the additional available fields from the second Collection.

@@ -1,5 +1,7 @@
 Title:  Designed First and Foremost for the Mac
 
+Tags:   levels-outline.12 The Philosophy behind Notenik.7 Designed First and Foremost for the Mac
+
 Timestamp: 20210823213944
 
 Seq:    12.7
@@ -12,7 +14,7 @@ When it was time to move on from the Osborne, I switched to the Mac, and have be
 
 I also own an iPhone, of course, and I have an iPad and an Apple watch, and I use all of these devices for different purposes. 
 
-I started work on Notenik in Java, but eventually chose to switch to a different programming language, due to the path that Java seemed to be on after Oracle had indicated its intentions for the language.
+I started work on Notenik in Java, but eventually chose to switch to a different programming language, due to the path that Java seemed to be on after Oracle had indicated its intentions for the language, and also due to declining levels of support for Java from Apple. 
 
 As luck would have it, this was about the same time that Swift seemed to be stabilizing, and so I rewrote Notenik in Swift, and I'm getting reasonably comfortable in the language now, after a couple of years. 
 
