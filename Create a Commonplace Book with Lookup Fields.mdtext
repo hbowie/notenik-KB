@@ -1,0 +1,140 @@
+Title:  Create a Commonplace Book with Lookup Fields
+
+Tags:   fields.lookup, levels-outline.10 Putting It All Together.6 Create a Commonplace Book with Lookup Fields
+
+Timestamp: 20210826164204
+
+Seq:    10.6
+
+Level:  3 - Section
+
+Body: 
+
+I've maintained my own [Commonplace Book][cmn] for years, and one of the problems with maintaining a file of notable quotations is the repetition of information from one Note to the next: the same author, and even the same work, along with accompanying information, may be repeated numerous times. It is annoying, tedious, time-consuming and error-prone to re-enter that information on each Note, but there is no workable alternative when dealing with only a single flat file (or single Collection of Notes, in our case). 
+
+[[Version 7.0.0]] of Notenik,however, introduced [[Lookup]] fields, which allow one Collection to reference Notes in other Collections, and we can use such fields to solve our repetition problem. 
+
+If at any point you'd like to see my particular implementation in more detail, feel free to look at my [Practopian V3 project][pv3] on GitHub. I'll be referring to pieces of this as I proceed. Feel free to download it and unzip it in order to make inspection easier. 
+
+Note that you will need to make [[use of a text editor]] in order to implement something like this. Unfortunately, at least at this time, you can't do all of this within the Notenik user interface. 
+
+##### Create a Collection Just for Authors
+
+The first step is to create a separate Collection just for Authors. I've called mine `author-notes`. Here's what [[the Collection Template file]] looks like for `author-notes`:
+
+```
+Author: <title> 
+
+Tags: <tags> 
+
+Author Info:  
+
+Author Years:  
+
+Author Link: <link> 
+
+Author Notes: <body> 
+
+```
+
+Let me comment on this a bit. 
+
+Every Collection needs to have a [[title]] field and a [[body field]], and it's generally good to have a [[Tags]] field as well. 
+
+Note, however, that with recent versions of Notenik, it's enough to have these field types, without having to use these exact labels. So here you can see we're taking advantage of this flexibility by labeling the first field 'Author', and the second field 'Author Notes'. 
+
+`Author Info`, `Author Years` and `Author Link` are just additional pieces of information I wanted to track. Your needs and interests may vary. 
+
+Note that you may need to edit the default `Notenik` note that gets added to your Collection automatically, in order to modify the field labels to conform to your choices for the `title` and `body` fields. If you skip doing this, then Notenik may have trouble loading this first Note, and bad things may happen.
+
+One more thought here: if you are starting, as I was, with an existing Collection of quotations, then you may wish to extract your author information into a new Collection by using Notenik's scripting and templating abilities. See my `author-notes-template.md` file, in the `templates` folder, to see how I accomplished this. You'll then need a script to sort your quotations by author, and then feed the sorted Collection into this template. 
+
+##### Create a Collection for Author's Works
+
+The next thing to do is to create a separate Collection for the works (books, etc.) from which the quotations are taken. I called mine `author-works`. Here's what [[the Collection Template file]] looks like for `author-works`:
+
+```
+Work Title: <title> 
+
+Tags: <tags> 
+
+Author: <lookup: authors> 
+
+Work Type: <worktype> 
+
+Work Minor Title:  
+
+Work Date: <date>
+
+Work Link: <link> 
+
+Work ID:  
+
+Work Rights:  
+
+Work Rights Holder:  
+
+Publisher:  
+
+Publisher City:  
+
+Work Notes: <body> 
+
+```
+
+The `title` field is the one that you will be referencing in order to access this note from your main Collection of quotations, so it is important to give some thought to how this field might be composed. In my case, I'm simply using the Title of the work, and trusting that each separate cited work will have a unique Title, at least for the purposes of my Commonplace book. You might choose to use some other coding system, involving the author's name and year of publication, for example. Whatever you decide upon, the field must still have a type of `title`, but you can label it however you would like. 
+
+Note that I'm including an `Author` field here, and making this a `lookup` field referring back to the `authors` Collection we just created (`authors` being the shortcut I assigned to this first Collection).
+
+I'm also using the special [[Work Type]] field, to indicate what sort of work (book, interview, essay, etc.) is being referenced. 
+
+You may have different informationa fields you wish to track about each work; these are just the ones I've chosen to use. 
+
+##### Create the Commonplace Book Itself
+
+And now, finally, we're ready to create the commonplace book itself. I've called mine `commonplace-book`, and here's its template file:
+
+```
+Title: <title> 
+
+Featured: <boolean> 
+
+Recommended: <boolean> 
+
+Author: <lookup: authors>
+
+Date: <date> 
+
+Tags: <tags> 
+
+Work Title: <lookup: works> 
+
+Work Pages:  
+
+Date Added: <dateadded> 
+
+Body:  
+
+```
+
+Note that I'm now using `lookup` fields for both `Author` and `Work Title`. I could have skipped the inclusion of `Author` here, and just pulled it from the `Work Title` lookup, but I've included it explicitly here for a few different reasons. 
+
++ I want to be able to sort the quotations by Author, and I wouldn't be able to do this if the Author's name was relegated to a secondary Collection;
+
++ I want the Author's name to be immediately visible, without having to click on a disclosure triangle to reveal it as part of the information about a particular work;
+
++ In some cases, the author of a quotation may be different from the author(s) of a work -- for example, if the author of a work chooses to quote or cite another author.
+
+I've also repeated the `Date` field here, for somewhat similar reasons.
+
+At first glance, the field `Work Pages` field may seem like information about a work that could be moved to the `works` Notes, but this is actually meant to call out the pages of the work on which this particular quotation was found, and so remains information about the quotation, and not about the work more generally.
+
+##### Summary 
+
+`Lookup` fields can be used for many more purposes, but this project should give you some idea about how to implement them in at least one practical, real-world example. 
+
+
+
+[cmn]: https://en.wikipedia.org/wiki/Commonplace_book
+
+[pv3]: https://github.com/hbowie/practopian-v3
