@@ -32,4 +32,4 @@ When viewing a `lookup` field on the Display tab, you will notice a couple of sp
 
 + If there are additional non-blank fields found on the referenced Note in the second Collection, then the lookup value will appear following a disclosure triangle, and clicking on the triangle will disclose the additional available fields from the second Collection.
 
-See [[Create a Commonplace Book with Lookup Fields]] for an example of how `lookup` fields might be used. 
+See [[Create a Commonplace Book with Lookup Fields]] for an example of how `lookup` fields might be used.

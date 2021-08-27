@@ -47,7 +47,7 @@ Note, however, that with recent versions of Notenik, it's enough to have these f
 
 Note that you may need to edit the default `Notenik` note that gets added to your Collection automatically, in order to modify the field labels to conform to your choices for the `title` and `body` fields. If you skip doing this, then Notenik may have trouble loading this first Note, and bad things may happen.
 
-One more thought here: if you are starting, as I was, with an existing Collection of quotations, then you may wish to extract your author information into a new Collection by using Notenik's scripting and templating abilities. See my `author-notes-template.md` file, in the `templates` folder, to see how I accomplished this. You'll then need a script to sort your quotations by author, and then feed the sorted Collection into this template. 
+One more thought here: if you are starting, as I was, with an existing Collection of quotations, then you may wish to extract your author information into a new Collection by using Notenik's scripting and templating abilities. See my `author-notes-template.md` file, in the `transforms/commonplace-lookups` folder, to see how I accomplished this. You'll then need a script to sort your quotations by author, and then feed the sorted Collection into this template. 
 
 ##### Create a Collection for Author's Works
 
