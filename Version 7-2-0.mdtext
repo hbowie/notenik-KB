@@ -1,0 +1,13 @@
+Title:  Version 7.2.0
+
+Timestamp: 20210914010654
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Body: 
+
+##### Merge Template Set Command Modified 
+
+The Merge Template [[Set Command]] has been modified to allow a variable to appear within the name of the global variable name. This may be useful in some cases to allow the first operand of the command to be varied based on he contents of another field. 

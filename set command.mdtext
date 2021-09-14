@@ -12,7 +12,7 @@ Body:
 
 This command can define a global variable and set its value. This command would normally have three operands: the name of the global variable, an operator, and a value.
 
-- Global variable name. This should not be the same as the name of any variable name specified by the input data file. The global variable name, when used as the object of a set command, should not be enclosed within the normal variable delimiters, since this would cause the variable name to be replaced by its current value.
+- Global variable name. This should not be the same as the name of any variable name specified by the input data file. The global variable name, when used as the object of a set command, should not be enclosed within the normal variable delimiters, since this would cause the variable name to be replaced by its current value. (On the other hand, you may include a variable name *within* the global variable name if you'd like to vary the global variable name based on another variable.)
 
 - Operator. Any of the following operators can be used.
 

@@ -32,6 +32,8 @@ Note that if you use a Link to point to a local folder containing another Noteni
 
 You may use the Set Local Link command under the Note menu to choose a file or folder to be linked; the resulting 'file:///' style of URL will then replace any value previously stored in the Link field for the current Note.
 
+You may use the Wikipedia Link command under the Note menu to populate the first (or only) Link field for a Note with the Note's title, converted to a link to that subject on Wikipedia. This command may be invoked while in Edit mode, or in Display mode. This conversion will not always result in a link to a valid Wikipedia page, so you should test the Link for accuracy and relevance after using this command. 
+
 Note that you can drag a bookmark from a Web browser (such as Safari or Chrome) and drop it into an open Collection's List view in order to add that bookmark to the Collection as a new Note. A bookmark can typically be dragged either from the browser's URL field, at the top of the screen, or from a link within a page. The result of such a drag and drop operation will be a new Note with its Title and Link fields populated.
 
 If you add a Link value without any URL scheme, then the implicit scheme of 'https://' will be assumed. In other words, you need only enter 'Notenik.net' in the link field, but 'https://Notenik.net' is what will be passed to your Web browser when requesting Notenik to open the Link. 
