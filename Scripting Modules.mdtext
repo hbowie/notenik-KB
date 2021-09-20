@@ -18,7 +18,7 @@ The module column may contain any of the following values.
 
 * sort - Specify one or more sort fields (major to minor) to be used to sort the data source. 
 
-* template - Specify the location of a [template file](https://www.notenik.net/merge-template.html) to be processed using the data source. 
+* template - Specify the location of a [[merge template]] to be processed using the data source. 
 
 * output - Write the filtered, sorted data to an output file in tab-delimited format. 
 

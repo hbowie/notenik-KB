@@ -63,4 +63,8 @@ When exporting the Notes in a Collection, you will be presented with a few optio
 
 * Add Web Extensions? Select 'Yes' to add a number of fields that can be useful for generating Web pages.
 
+##### Quick Export and Open
+
+An alternative export method is available at the bottom of the File menu, to perform a `Quick Export and Open`. This command will export the current Collection to a CSV (comma-separated values) file located within a sub-folder named `quick-export` and named `export.csv`. If the export was successful, then Notenik will ask the operating system to open the CSV file using the default app for handling '.csv' files (such as the Numbers app). 
+
 [opml]: https://en.wikipedia.org/wiki/OPML

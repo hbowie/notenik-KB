@@ -1,13 +1,39 @@
 Title:  Version 7.2.0
 
+Tags:   levels-outline.11 Version History.1 Version 720
+
 Timestamp: 20210914010654
 
 Seq:    11.1
 
+Date:   20 Sep 2021
+
 Level:  3 - Section
+
+Teaser: 
+
+Website address updated to point to Notenik.app; wiki links now will try to pluralize a reference, if it is not found in singular form; the Merge template Set command now allows a variable to be used as part or all of a global variable name; Markdown quote sharing corrected to respect lookup links; added a Quick Export and Open command. 
 
 Body: 
 
+Released on September 20, 2021. 
+
 ##### Merge Template Set Command Modified 
 
-The Merge Template [[Set Command]] has been modified to allow a variable to appear within the name of the global variable name. This may be useful in some cases to allow the first operand of the command to be varied based on he contents of another field. 
+The Merge Template [[Set Command]] has been modified to allow a variable to appear within the name of the global variable name. This may be useful in some cases to allow the first operand of the command to be varied based on he contents of another field.
+
+##### Wiki Links Now Look for an Optional Trailing 'S'
+
+Since it is often tempting to title a Note using the plural form of a word -- but also common to want to refer to that Note using the singular form -- if a [[wiki-style link]] does not immediately find its target, an 's' will be added to the link internally, and the resulting Note will be used as the target, if such a Note exists.
+
+##### New Notenik Website
+
+The Notenik website is now available at [Notenik.app](https://notenik.app), instead of Notenik.net (although the latter redirects to the former). Also, the website has been enhanced and redesigned.
+
+##### Added Quick Export and Open command
+
+A new command has been added to the bottom of the File menu, to perform a `Quick Export and Open`. This command will export the current Collection to a CSV (comma-separated values) file named `export.csv`, located within a sub-folder named `quick-export`. If the export was successful, then Notenik will ask the operating system to open the CSV file using the default app for handling '.csv' files (such as the Numbers app). 
+
+##### Updated Markdown Quote Sharing to Use Work Title Lookup Field
+
+When requesting a Share operation for a Note, and when selecting the Markdown Quote format for the entire Note, the Share logic will now successfully obtain info about the Work, if it is in a related Collection linked via the Work Title field.

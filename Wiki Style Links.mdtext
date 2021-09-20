@@ -20,4 +20,6 @@ The Notenik Markdown parser supports [double-bracket wiki-style links](https://e
 
 If you are using Notenik's parser, then a link to another Note may be coded by simply enclosing the title of the target Note within double square brackets, like this -- `[[Overview]]` -- and a click on the resulting link will take you to that note.
 
+Since it is often tempting to title a Note using the plural form of a word -- but also common to want to refer to that Note using the singular form -- if a wik-style link does not immediately find its target, an 's' will be added to the link internally, and the resulting Note will be used as the target, if such a Note exists. 
+
 If you also enable the [[timestamp]] field for a Collection, then you can change the title of a linked Note without changing the referencing wiki link text, and Notenik will remember the association between the old title and the new title, making use of the timestamp field to preserve a unique, unchanging identity for each Note. These associations will be saved in a special file named 'alias.txt', within the Collection folder. This functionality can be useful to make sure you don't end up with broken links between Notes.

@@ -15,7 +15,7 @@ Body:
 Use the following links to access the various code and information pertaining to Notenik. 
 
 + [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984)
-+ [Website: Notenik.net](https://notenik.net/)
++ [Website: Notenik.app](https://notenik.app/)
 + GitHub - all code written in Swift
 	+ [notenik-swift](https://github.com/hbowie/notenik-swift) - UI code using Cocoa
 	+ [NotenikLib](https://github.com/hbowie/NotenikLib) - Common code implementing core Notenik logic, not dependent on a particular UI
