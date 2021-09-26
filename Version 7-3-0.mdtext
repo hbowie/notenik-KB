@@ -18,4 +18,8 @@ When pasting an item (such as a URL) into a List sorted by Seq, and when the dro
 
 ##### Improved Recognition of Parent Realm Folders
 
-Notenik allows you to drag a folder to be opened onto its app icon in the dock. That folder can be either a Notenik Collection or a parent folder containing Notenik Collections. Before this change, if a folder contained a single text file named `robots.txt`, then that would be treated as a Note, and so the folder would be opened as a Collection. After this change, such a folder will be more productively treated as the object of an [[Open Parent Realm]] command. 
+Notenik allows you to drag a folder to be opened onto its app icon in the dock. That folder can be either a Notenik Collection or a parent folder containing Notenik Collections. Before this change, if a folder contained a single text file named `robots.txt`, then that would be treated as a Note, and so the folder would be opened as a Collection. After this change, such a folder will be more productively treated as the object of an [[Open Parent Realm]] command.
+
+##### Parent Realm Folders Now Appear on Open Recent Menu
+
+After you execute the [[Open Parent Realm]] command (either explicitly via the `File` menu, or implicitly by dragging a folder onto the app icon), the Parent Realm folder will now be added to the the `Open Recent` menu, making it available to be easily reopened later. 
