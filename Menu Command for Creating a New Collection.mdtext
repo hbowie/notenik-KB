@@ -1,0 +1,25 @@
+Title:  Menu Command for Creating a New Collection
+
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.2 Menu Commands for Creating New Collections
+
+Timestamp: 20210618014454
+
+Seq:    2.2
+
+Level:  3 - Section
+
+Index:  new collection; icloud; web collection; 
+
+Body: 
+
+Beneath the File menu you will find the `New Collection...` menu item. 
+
+You will then see a window that will walk you through three different tabs. 
+
++ `Location` - Here you can specify whether you'd like your new Collection to be stored within Notenik's special iCloud container, or somewhere else. If unsure, the first option is the easiest. 
+
++ `Name` - Here you get to specify the name of your new Collection. This will become the name of the folder in which your notes will be stored. 
+
++ `Fields` - Here you specify what sort of Notes Collection you would like. Different types of Collections will have different fields available for each Note. On this tab you can pick from one of several different options, starting with the simplest, and working towards more complex options. Pick the one that sounds closest to matching your intentions. Don't worry too much about making a mistake here, because you will be shown a couple of different ways of further customizing your Collection a little farther on. 
+
+When you're done with these three tabs, you will then be shown a window allowing you to [[Tailor Collection Preferences]] for your new Collection -- including the list of fields supported within your Collection.
