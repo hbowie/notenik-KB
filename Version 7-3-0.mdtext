@@ -6,11 +6,17 @@ Timestamp: 20210925232409
 
 Seq:    11.1
 
+Date:   30 Sep 2021
+
 Level:  3 - Section
+
+Teaser: 
+
+A grab bag of small improvements: Improved Seq and Level Defaults for Drag and Drop; Improved Recognition of Parent Realm Folders; Parent Realm Folders Now Appear on Open Recent Menu; Streamlined New Collection process; Saving Security-Scoped Bookmarks; and Undo Provided for Note Deletions.
 
 Body: 
 
-*In Work - Not Yet Released*
+Released on September 30, 2021
 
 ##### Improved Seq and Level Defaults for Drag and Drop
 
@@ -26,4 +32,12 @@ After you execute the [[Open Parent Realm]] command (either explicitly via the `
 
 ##### Streamlined New Collection process
 
-It seemed a bit confusing to have so many different options for creating a new Collection, so I've combined them. Now there is just one `File` menu option, that says `New Collection...`. This option walks you through several screens where you can pick a location, pick a name, and pick a Collection type, and then shows you the Collection Preferences screen where you can make any final adjustments to the configuration of your New Collection. 
+It seemed a bit confusing to have so many different options for creating a new Collection, so I've combined them. Now there is just one `File` menu option, that says `New Collection...`. This option walks you through several screens where you can pick a location, pick a name, and pick a Collection type, and then shows you the Collection Preferences screen where you can make any final adjustments to the configuration of your New Collection.
+
+##### Saving Security-Scoped Bookmarks
+
+Notenik has been enhanced to try to extend the life of access permissions for Collections assigned Shortcuts, so as to reduce the number of times a user has to re-authorize access to a folder. See [[Tailor Collection Preferences]] for info on assigning a Shortcut to a Collection. 
+
+##### Undo Provided for Note Deletions
+
+If you delete a Note by mistake, then you can use the Undo function (beneath the Edit menu) to undo the deletion, with the only caveat being that any note attachments will not be restored.
