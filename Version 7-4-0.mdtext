@@ -1,0 +1,15 @@
+Title:  Version 7.4.0
+
+Timestamp: 20211002180742
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Body: 
+
+*In Work - Not Yet Released*
+
+##### Automatic Creation of Wiki Link Targets
+
+If you create a [[Wiki Style Link]] to a target Note that does not yet exist, then Notenik will now create the targeted Note automatically. The creation will occur after the edited Note has been saved and redisplayed. 

@@ -4,7 +4,7 @@ Tags:   levels-outline.11 Version History.1 Version 730
 
 Timestamp: 20210925232409
 
-Seq:    11.1
+Seq:    11.2
 
 Date:   30 Sep 2021
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser: 
 
 A grab bag of small improvements: Improved Seq and Level Defaults for Drag and Drop; Improved Recognition of Parent Realm Folders; Parent Realm Folders Now Appear on Open Recent Menu; Streamlined New Collection process; Saving Security-Scoped Bookmarks; and Undo Provided for Note Deletions.
+
 
 Body: 
 
