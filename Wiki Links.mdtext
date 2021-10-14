@@ -1,0 +1,19 @@
+Title:  Wiki Links
+
+Tags:   levels-outline.7 Field Labels and Types.5 Fields to Assist with Note Linking
+
+Timestamp: 20211006004852
+
+Seq:    7.5.3
+
+Level:  4 - Subsection
+
+Body: 
+
+If you select the [[Back Links]] field for your Collection, then this field, the `Wiki Links` field, will also be selected. 
+
+In terms of user interaction, this field will simply provide a summarized list of all the [[Wiki Style Links]] found in the body of the Note. 
+
+However, this field also helps Notenik maintain the `Back Links` field. 
+
+For additional details, see the description of the [[Back Links]] field.

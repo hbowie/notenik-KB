@@ -1,0 +1,29 @@
+Title:  Back Links
+
+Tags:   levels-outline.7 Field Labels and Types.5 Fields to Assist with Note Linking
+
+Timestamp: 20211005234351
+
+Seq:    7.5.2
+
+Level:  4 - Subsection
+
+Body: 
+
+If you use [[Wiki Style Links]] to link from one Note to others, then we can think of these as forward links: they allow you to move forward from one Note to another following a chain of wiki style links. 
+
+But we can also think about traveling backwards through this chain of links -- not just backwards to the Note from which you just came, but backwards to any Note that links to the one you are currently viewing. 
+
+We can think of these as *backlinks*. 
+
+If Notenik stored your notes in a database, then establishing this bidirectional linkage -- linking in both directions -- would be fairly trivial, and would be done behind the scenes, so to speak. 
+
+But because Notenik stores all of your Notes in text files, the mechanism for providing backlinks is a little tricky, and is also more visible to you, the user. 
+
+The first step in making backlinks visible is to select `Backlinks` as a selected field for your Collection when you [[Tailor Collection Preferences]]. When you select the `Backlinks` field, you will also automatically enable the [[Wiki Links]] field. Neither of these fields are user-editable; in fact, these two fields will not show up on the Edit tab at all. Instead, they will be automatically maintained by Notenik. They will be visible as normal Notenik fields if you use a text editor to view the files for Notes with such links. 
+
+These fields will be visible on the Display tab. If you click on the disclosure triangle preceding the field label, then the related links will appear, and you may click on any of them in order to proceed to the linked Note. 
+
+If you're enabling the `Backlinks` field for an existing Collection that already has Wiki Style Links, then your next step should be to select `Generate Backlinks` beneath the `Collection` menu. Notenik will then traverse your entire Collection, generating Backlinks entries for all Notes that have such links. 
+
+Once the initial generation has been completed, then automatic maintenance should keep everything up-to-date from that point on.

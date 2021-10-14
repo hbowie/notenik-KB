@@ -1,0 +1,63 @@
+Title:  Write a Web Book
+
+Tags:   levels-outline.10 Putting It All Together.7 Write a Web Book
+
+Timestamp: 20211012231735
+
+Seq:    10.7
+
+Level:  3 - Section
+
+Body: 
+
+I majored in English in college, and have maintained a lifelong interest in reading and writing, even though I ended up forging a career in software development. 
+
+During the 1990's I edited, authored and published a couple of books printed and bound in the traditional fashion. I wrote and formatted these books using Microsoft Word and PageMaker running on my personal Mac. 
+
+But when the Web came along, I became fascinated by the new possibilities it offered for many sorts of writing and publishing, but especially for book-length compositions. My first exploration of these possibilities was done with [Reason To Rock](https://www.reasontorock.com) -- which I originally published in 2001 -- and I'm still pretty happy with the results. The tools were sort of clumsy at that early stage, but it was great to have a published work that could be updated at any time, with hyperlinks, with multiple navigation paths through the text, and with pages that could be indexed by search engines.
+
+I started out using Textile as a lightweight markup language, and writing with BBEdit.  I was learning Java around the same time, and wrote some software that would pull data from an Excel spreadsheet, or a tab-delimited file (TDF), and then fill in some HTML templates using the columns and rows of the spreadsheet.  And all of that worked pretty well. 
+
+I kept working on my Web publishing software, written in Java, and used it again when I published [The Big Ideas in Software Development](https://www.softdevbigideas.com) in 2016. My tools had advanced in the intervening years, and I now had a version of Notenik written in Java. 
+
+But then the Java language seemed to become less and less of a practical, enjoyable tool for writing desktop apps, so I rewrote all of the code using Swift. And since making the transition, the new Notenik has gradually acquired all of the functionality of the Java app, plus a lot more.
+
+Notenik can be readily used as an everyday note-taker, but in reality much of my motivation to continue with Notenik development has been to build a better and better tool for creating Web books -- book-length compositions that provide the rich depth of a traditional book, but also provide hyperlinks, both for navigating within a book as well as to outside reference sources, along with indexing, searching, and alternative navigation paths. 
+
+And so the latest Web book I've been working on is the Notenik Knowledge Base -- a book-length composition about Notenik, built using Notenik with all of its recent enhancements, and readable using Notenik. 
+
+The whole thing can be easily published in HTML form, and can be viewed on the [Notenik.app](https://notenik.app/knowledge-base/EPUB/html/notenik-knowledge-base.html) website. But if you'd like to see how it's produced, you can also view all the supporting files on [GitHub](https://github.com/hbowie/notenik-KB). And, if you have the Notenik app installed on your Mac, you can read the whole thing [within Notenik](notenik://help).
+
+So where should you start if you'd like to produce your own Web book using Notenik?
+
+Here's a list of some of the key features to explore:
+
++ Consider how you might want to break up your book-length text into sections, chapters, and/or subsections. 
+
++ Use the [[Seq]] and [[Level]] fields to organize your content into a neatly numbered outline. 
+
++ Use the `Seq + Title` option beneath the `Sort` menu to keep the content sorted using your numbering scheme. 
+
++ Use [[Wiki Style Links]] to allow your readers to easily navigate from one chunk of content to another, related, page. 
+
++ Use the [[Also Known As]] field to allow you to easily and naturally refer to related pages via an alternative name for some pages. 
+
++ [[Tailor Collection Preferences]] to `Format Display for Streamlined Reading` and to *not* `Include explicit Body field label on the Display tab`. This will help make for a more natural reading experience within Notenik, and will help you experience your Collection as a linear whole. 
+
++ [[Tailor the Display]] in order to change the font options used. These same options will be used as defaults if you later [[Generate a Web Book]] for your readers. 
+
++ Remember that you can look beneath the `Collection` menu to `Renumber Seq based on Level` in order to straighten out your Seq numbering from time to time. 
+
++ You can also look beneath the `Collection` menu to `Replace Tags based on Seq and Level`. This will produce special [[Tags]] that allow you to navigate through your content while opening and closing sections of your book using disclosure triangles. 
+
++ You can also [[Generate a Collection Table of Contents]] that allows readers to navigate easily through your content. 
+
++ You can also use the [[Index]] field to provide an index for your work, and [[generate a Collection Index]] wherever you like within your Collection. 
+
++ You can also [[generate a Tags Outline]] on any page within your Collection. 
+
++ Once you're ready to publish, you can use the [[Generate a Web Book]] command beneath the `Collection` menu to create folders of HTML and CSS files that will allow your creation to be read within any Web browser. 
+
++ For more control over your output, you can add additional [[Field Labels and Types]], design your own custom [[Merge Templates]], and sort and filter your content in endless ways using [[Script Files]].
+
+The evolution of the Web over the past several decades has been a reductive arc in many ways, with personal expression often being reduced to a series of blog posts, or even micro-blog posts. But if you have something more complex to say, intended to be of more enduring interest, then you probably want something more like a book. And Notenik can help you record and organize your book-length content, and then share it on the Web, leveraging all of the advantages that the Web has to offer, when compared to the printed page.
