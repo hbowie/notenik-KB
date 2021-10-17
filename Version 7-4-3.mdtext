@@ -1,0 +1,31 @@
+Title:  Version 7.4.3
+
+Tags:   levels-outline.11 Version History.1 Version 743
+
+Timestamp: 20211017002447
+
+Seq:    11.1
+
+Date:   16 Oct 2021
+
+Level:  3 - Section
+
+Body: 
+
+Released on 17 Oct 2021
+
+##### Notes without titles no longer disappear
+
+I recently noticed that, if I tried to add a new Note, but neglected to enter any kind of title, the new Note would simply vanish without a trace. Now, if this happens, one of two things will occur:
+
++ If the new Note has a body field, then the title will be taken from the start of that field;
+
++ If the body field is also blank, then a default title of "New Note without a title" will be used.
+
+##### New Child Contextual Menu Item is no longer Repeated
+
+I recently noticed that, if I reloaded a Collection that was eligible for a [[New Child]] menu item on the List tab, then the `New Child` menu item would be repeated. This has now been fixed, so it should never appear more than once.
+
+##### AKA Fields Now Immediately Available
+
+When adding a new [[AKA]] entry, the new identifier would not be available until the Collection was reloaded. New AKA identifiers should now be available as soon as the associated Note is saved.
