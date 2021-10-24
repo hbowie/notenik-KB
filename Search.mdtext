@@ -12,8 +12,18 @@ Index:  search;
 
 Body: 
 
-The Search field on the Toolbar allows you to search for the entered text, and display the first Note containing this text in any field being searched. After finding the first occurrence, you may use the Find Again command under the Note menu to search for the next Note containing the specified text.
+The `Nav` menu offers several options for searching through the frontmost Collection. 
 
-The Search function will search each Note's Title, Link, Tags and Body fields for matching text. The Author field will also be searched, if present. Case (upper- or lower-) will be ignored for the purposes of the Search.
+The `Advanced Search` option will bring up a new window, in which you may enter the text you wish to search for, and then select from a number of common fields to indicate which of these fields should be included in the search. You will also have an option to perform a case-sensitive search, or to perform a case-insensitive one. 
+
+The default search options are to search (if present) the Title, AKA, Link, Tags, Author (aka Creator) and Body fields, and to ignore case (e.g., a search for 'amazon' will match 'Amazon').
+
+Hit the `OK` button to initiate the Search and select the first Note in the Collection matching the search criteria. 
+
+A simpler option is to use the `Find` command to place your cursor in the `Search` field at the top of the frontmost Collection window, then type the text you wish to search for, and press `Enter` to start the search. 
+
+No matter how you initiated the Search, you can use the `Find Again` command to look for the next matching Note in the Collection following the last one found. 
+
+Note that, after using the Advanced Search Option, the options selected will persist until changed, or until the end of the Notenik session, even if you later initiate a search using the simpler method of specifying a new text string in the Search field at the top of the window. 
 
 Each visible occurrence of the search text will be highlighted on the Display tab, for each matching Note.

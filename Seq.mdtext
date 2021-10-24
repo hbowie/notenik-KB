@@ -32,7 +32,7 @@ When editing, the seq field will appear as a single line of editable text.
 
 When displayed, the seq field will be displayed as entered.   
 
-When used as a sort field, seq values will be padded to cause them to sort into a natural order, rather than a strict character-by-character alphanumeric order.  In other words, a value of `2` will sort before a value of `10`, a value of `b` will sort before `aa`, etc. Each segment of this field, when separated by a dot or a dash, will be padded separately.
+When used as a sort field, seq values will be padded to cause them to sort into a natural order, rather than a strict character-by-character alphanumeric order.  In other words, a value of `2` will sort before a value of `10`, a value of `b` will sort before `aa`, etc. Each segment of this field, when separated by a dot or a dash, will be padded separately, up to a maximum of six segments. (That is, you can include more than six segments, and they will be preserved, but the padding, and thus the sensible sorting, will only apply to the first six of the segments.)
 
 If you'd like to see your Notes listed in sequence by their assigned number, you can use the Sort Menu to change the sequence of the displayed list from Title to Seq + Title. Use the Reverse option to see them in descending sequence. 
 
