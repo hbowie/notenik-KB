@@ -2,6 +2,8 @@ Title:  Take Quick Action
 
 Tags:   levels-outline.4 Files and Folders.6 Managing a Bunch of Collections
 
+AKA:    Quick Action
+
 Timestamp: 20210621221706
 
 Seq:    4.6.3
@@ -37,4 +39,4 @@ Enter a Collection shortcut to quickly open the corresponding Collection.
 
 Enter the title of a Note within that Collection to select the corresponding Note, or to create a new Note. 
 
-Enter some Body Text to either be appended to the Body of an existing Note, or to be used as the complete Body for a new Note. 
+Enter some Body Text to either be appended to the Body of an existing Note, or to be used as the complete Body for a new Note.

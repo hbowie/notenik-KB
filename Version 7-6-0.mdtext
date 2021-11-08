@@ -6,11 +6,17 @@ Timestamp: 20211028210114
 
 Seq:    11.1
 
+Date:   08 Nov 2021
+
 Level:  3 - Section
+
+Teaser: 
+
+The optional Image Name field, when present, will be used to insert images into pages when generating a Web Book; an option to sort a Collection by Date Modified has been added; a handy shortcut key (CMD 0) has been added to reverse the current sort direction; when using the Quick Action screen, the last Collection Shortcut used will be recalled as a default value; when using the Collection Prefs screen to remove a field, Notenik will now purge any of the data associated with those fields from all Notes in the Collection; and available values for the new Class field can now be specified in a Collection Template file. 
 
 Body: 
 
-*Not Yet Released - Still in Work*
+Released on 8 Nov 2021
 
 ##### Class Pick List Mods Supported
 
@@ -27,6 +33,10 @@ The option to sort your collection by the Date each Note was last Modified is no
 ##### Shortcut Key added to Reverse Sort Direction
 
 A shortcut key is now available to allow you to quickly reverse the direction of the selected sort. 
+
+##### Last Quick Action Shortcut Now Retained as a Default
+
+When using the [[Quick Action]] screen, the Collection Shortcut field will now be initialized with the value of the last Collection Shortcut entered here -- potentially making your actions even quicker!
 
 ##### Field Removal Now Cleans Up Note Data
 
