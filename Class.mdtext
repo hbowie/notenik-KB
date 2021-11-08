@@ -16,6 +16,14 @@ A Collection is not expected to have more than one field of type `class`.
 
 The class field is meant to indicate each particular Note's role in terms of its relationship to other Notes in the Collection. 
 
-When editing, the user will be able to select a Class value from a predetermined list. 
+When editing, the user will be able to select a Class value from a list of values. 
 
-The usage for this new field is frankly experimental at this point, and will likely continue to evolve in future releases.
+To modify the default values, or the current values, modify the field's entry in [[the Collection Template file]].
+
+Here's an example of how you would do this: 
+
+```
+Class: <class: biblio, cover, def, quote, text, title>
+```
+
+In other words, enter the usual field label, followed by a colon, and then follow that with the possible values, separated using commas or semicolons.

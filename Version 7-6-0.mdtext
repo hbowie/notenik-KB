@@ -1,0 +1,33 @@
+Title:  Version 7.6.0
+
+Tags:   levels-outline.11 Version History.1 Version 760
+
+Timestamp: 20211028210114
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Body: 
+
+*Not Yet Released - Still in Work*
+
+##### Class Pick List Mods Supported
+
+The new [[Class]] field label and type now supports a list of custom values, supplied as a value for the field in [[the Collection Template file]].
+
+##### Image Name Now Used to Make Web Book
+
+When you [[Generate a Web Book]], if you are using the [[Image Name]] field, then an attached image will now show as part of your generated page, between the Title and the following fields. 
+
+##### Date Modified May Now be Used as a Sort Key
+
+The option to sort your collection by the Date each Note was last Modified is now available. You may use this option whether or not you have elected to use Date Modified as a field within your Collection. 
+
+##### Shortcut Key added to Reverse Sort Direction
+
+A shortcut key is now available to allow you to quickly reverse the direction of the selected sort. 
+
+##### Field Removal Now Cleans Up Note Data
+
+After creating a Collection and adding Notes, a user may further [[tailor Collection Preferences]] to add additional fields, and/or to delete some fields previously selected. In the case of deleting fields previously selected, the screen would allow the user to uncheck existing fields, and remove the unchecked fields from [[the Collection Template File]], but would not purge any data in that field from the Collection, which could sometimes result in old field labels and values ending up in the value of a remaining field. This release fixes this issue, by scouring the Collection looking for any Notes with data in the field(s) being deleted, and then removing that data from those Notes.
