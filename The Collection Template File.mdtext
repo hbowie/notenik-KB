@@ -8,6 +8,8 @@ Seq:    4.1.5
 
 Level:  4 - Subsection
 
+Class:  version
+
 Body: 
 
 Within each Collection folder Notenik stores a special file that it uses as a template for creating Notes within that Collection.

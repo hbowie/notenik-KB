@@ -1,12 +1,14 @@
 Title:  Class
 
-Tags:   levels-outline.7 Field Labels and Types.6 Fields for Sequencing and Outlining
+Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields
 
 Timestamp: 20211022212813
 
-Seq:    7.6.3
+Seq:    7.10.2
 
 Level:  4 - Subsection
+
+Class:  version
 
 Body: 
 
@@ -14,16 +16,44 @@ The word `class` can be used as both a label and a type.
 
 A Collection is not expected to have more than one field of type `class`. 
 
-The class field is meant to indicate each particular Note's role in terms of its relationship to other Notes in the Collection. 
+The class field is meant to identify a particular type of Note within the Collection. 
 
-When editing, the user will be able to select a Class value from a list of values. 
+Starting with [[Version 7.7.0]], the user may specify a special template file for each different class of Note within a Collection. 
 
-To modify the default values, or the current values, modify the field's entry in [[the Collection Template file]].
+A Class template file can serve two different purposes:
 
-Here's an example of how you would do this: 
++ A class template file may specify a subset of all fields within the Collection to be available when adding/editing a Note of the specified Class. This can be useful if the Collection identifies a long list of field labels and types, but only some of these are relevant to Notes of a certain class: the Edit tab then becomes a lot cleaner. 
 
-```
-Class: <class: biblio, cover, def, quote, text, title>
-```
++ A class template file may specify default values for one or more fields, to be presented on the Edit tab when adding a new Note of a given class. 
 
-In other words, enter the usual field label, followed by a colon, and then follow that with the possible values, separated using commas or semicolons.
+Here's how to make all of this work. 
+
+1. [[Tailor the Collection Preferences]]  and make sure the Class field has a check mark next to it. 
+
+2. Also make sure that all of the fields you might want for any class are specified for the overall Collection Preferences: this list of field labels should be a superset of any appearing for a particular class. 
+
+3. If you'd like, you can specify a list of possible values for the class field within [[the Collection Template file]]. 
+
+	Here's an example of how you would do this: 
+
+		Class: <class: biblio, cover, def, quote, text, title>
+	
+	In other words, enter the usual field label, followed by a colon, and then follow that with the possible values, separated using commas or semicolons.
+	
+	Be sure to Reload the Collection after making changes to the Collection template!
+	
+4. Once you've enabled a Class field, you can use the `New Class Template...` item beneath the `Note` menu to create a class template file. These files will be stored within a subfolder named `class`, within the folder holding your Collection's Notes. The name of the file should be in all lower-case letters, and this name will become the name of a class available for that Collection, irrespective of whether you've entered that class name as indicated above, within the Collection template file. 
+
+5. After creating the requested class template file, Notenik will ask macOS to open the file within your preferred text editor. 
+
+6. The new class template file will have all of the Collection's field labels called out, but without any following information. You can now make two sorts of changes to the generated file. 
+
+	+ You can delete the entries for any field labels that you do not plan to use with this class;
+	
+	+ You can specify default values for any of these field labels, to be provided whenever you create a new Note of this class. 
+	
+	When you're done making these changes, save the class template file within your text editor, and then Reload the Collection within Notenik. 
+	
+7. When creating a new Note, you can now use the `New Note w/Class` item beneath the `Note` menu to select a certain class value for your new Note. The Edit tab will then reflect the entries you have made in that class' template file. 
+
+8. If you change the class value for a Note, then you will need to save the change, then re-edit the Note, in order to see the limited set of fields that you may have specified for that class.

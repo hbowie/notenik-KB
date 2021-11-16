@@ -8,6 +8,8 @@ Seq:    4
 
 Level:  2 - Article
 
+Class:  version
+
 Body: 
 
 This article will tell you the details of how Notenik stores its information on disk. 
