@@ -15,6 +15,8 @@ Teaser:
 The optional Image Name field, when present, will be used to insert images into pages when generating a Web Book; an option to sort a Collection by Date Modified has been added; a handy shortcut key (CMD 0) has been added to reverse the current sort direction; when using the Quick Action screen, the last Collection Shortcut used will be recalled as a default value; when using the Collection Prefs screen to remove a field, Notenik will now purge any of the data associated with those fields from all Notes in the Collection; and available values for the new Class field can now be specified in a Collection Template file. 
 
 
+Class:  version
+
 Body: 
 
 Released on 8 Nov 2021

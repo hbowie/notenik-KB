@@ -6,19 +6,31 @@ Timestamp: 20211116184349
 
 Seq:    11.1
 
+Date:   30 Nov 2021
+
 Level:  3 - Section
+
+Teaser: 
+
+Added Class templates that can be used to prepopulate the Edit tab when creating new Notes; added a 'New Note w/Options' menu item, to allow users to select a Class template (as well as a few other fields) before showing the Edit tab; added a new Attribution field, to be used with Quotes; cleaned up the Edit tab a bit, to no longer show calculated fields; fixed a couple of annoyances. 
 
 Class:  version
 
 Body: 
 
-*Still in Work -- Not Yet Released*
-
-Released on d MMM, YYYY
+Released on 30 Nov, 2021
 
 ##### Added Class Templates
 
 The functionality of the [[Class]] field type has been expanded to include the use of a special template file for each different allowable class value within a Collection. These new Class Template files can be used for two different purposes: a) to limit the available field labels relevant to the Notes of a specified class; and b) to supply default values for some of the fields, when creating a new Note of the specified class.
+
+##### Added a `New Note w/Options` command
+
+Use the [[New Note with Options]] command, beneath the `Note` menu, to inteliigently prepopulate some of the fields on the Edit tab. 
+
+##### Added the Attribution Field
+
+The new [[Attribution]] field can be used to identify the source of a quote, and allows for Markdown formatting, including use of [[Wiki Style Links]].
 
 ##### Removed Calculated Fields from the Edit Tab
 
@@ -30,4 +42,8 @@ If you end up somehow creating two Collections that have the same Collection sho
 
 ##### Improvements to Class Formatting
 
-Some improvements have been made to the ways in which the default [[class]] values will be displayed.
+Some improvements have been made to the ways in which the [[special class values]] will be displayed.
+
+##### Improvements to Wikipedia Link Formatting
+
+If a Note's title contains a comma followed by a space (as in "Bowie, Herb"), then a request to format a Wikipedia Link from the title will result in the text preceding the comma being swapped with the text following the comma, and the comma being removed (as in "Herb Bowie").

@@ -10,6 +10,8 @@ Level:  3 - Section
 
 Index:  web book; 
 
+Class:  version
+
 Body: 
 
 The command `Generate Web Book`, found beneath the `File` menu, will transform an entire Collection into a series of HTML pages that can be read as if they were chapters in a book. 

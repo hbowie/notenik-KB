@@ -1,0 +1,31 @@
+Title:  Attribution
+
+Tags:   levels-outline.7 Field Labels and Types.9 Fields Useful for Reviews Citations and Quotations.2 Attribution
+
+Timestamp: 20211128195407
+
+Seq:    7.9.2
+
+Level:  4 - Subsection
+
+Class:  version
+
+Body: 
+
+The word `Attribution` can be used as both a label and a type. 
+
+This field type will be inferred for a label of `Attribution`.
+
+A Collection should have only one `Attribution` field. 
+
+When editing, an attribution field will appear as several lines of editable text.  
+
+An Attribution field is meant to be used with a [[class]] value of `quote`. The user may enter any text here to appear below the body of the quote to indicate, at a minimum, the quote's author, but also optionally the quote's date and name and type of the work from which the quotation was taken. 
+
+This field would typically be used as an alternative to breaking out the various components of an attribution as separate fields. There are pros and cons to each approach. By breaking out [[Author]], [[Work Title]], [[Date]] and [[Work Type]] as separate fields, you can have greater control over the way the Attribution is ultimately formatted when using [[Merge Templates]], and you can also sort by these individual fields. 
+
+On the other hand, if you are using the [[Streamlined Reading]] option for a Collection, and you identify some of your Notes in that Collection as quotes (through use of the [[Class]] field), Notenik has special logic to do two useful things:
+
++ You can use Markdown, including [[Wiki Style Links]], within the Attribution field, so that you can link from the Attribution to other Notes in your Collection -- such as entries in a Bibliography. 
+
++ The Attribution field will appear below the Body of the quote on the Display tab, as you would normally expect to find it.

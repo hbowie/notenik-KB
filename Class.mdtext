@@ -1,6 +1,6 @@
 Title:  Class
 
-Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields
+Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.2 Class
 
 Timestamp: 20211022212813
 
@@ -54,6 +54,6 @@ Here's how to make all of this work.
 	
 	When you're done making these changes, save the class template file within your text editor, and then Reload the Collection within Notenik. 
 	
-7. When creating a new Note, you can now use the `New Note w/Class` item beneath the `Note` menu to select a certain class value for your new Note. The Edit tab will then reflect the entries you have made in that class' template file. 
+7. When creating a new Note, you can now use the [[New Note with Options]] item beneath the `Note` menu to select a certain class value for your new Note. The Edit tab will then reflect the entries you have made in that class' template file. 
 
 8. If you change the class value for a Note, then you will need to save the change, then re-edit the Note, in order to see the limited set of fields that you may have specified for that class.

@@ -1,0 +1,31 @@
+Title:  Special Class Values
+
+Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.2 Class
+
+Timestamp: 20211130192217
+
+Seq:    7.10.2.1
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body: 
+
+You are free to use any `Class` values that make sense for you, but Notenik recognizes some values as having special significance, especially when using [[Streamlined Reading]] mode. 
+
++ `author` 
++ `front` 
++ `intro` 
++ `preface` 
++ `quote` 
++ `quotation` 
++ `work` 
+
+`front`, `intro` and `preface` are all treated as frontmatter, placed at the start of a book. 
+
+`author` and `work` are treated as bibliographic entries. 
+
+Frontmatter and bibliographic entries are often not shown with their sequence numbers, since these typically have less significance for this sort of content. 
+
+`quote` and `quotation` indicate that the entire body of the Note is to be treated as a quotation, and displayed with special `blockquote` formatting. Also, if the [[Attribution]] field is used, then the Attribution will be displayed beneath the Quotation.

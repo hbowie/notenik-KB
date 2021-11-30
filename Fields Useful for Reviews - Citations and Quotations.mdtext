@@ -8,6 +8,8 @@ Seq:    7.9
 
 Level:  3 - Section
 
+Class:  version
+
 Body: 
 
 You can specify an Author or an Artist field when using a Collection as some sort of catalog of works by others. For example, I have one Collection that I use to keep track of my favorite Quotations, and the Author field indicates the author of each quotation. I have another Collection where I maintain my thoughts about a series of albums, and use the Artist field to indicate the individual or group responsible for each album. 

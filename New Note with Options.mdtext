@@ -1,0 +1,31 @@
+Title:  New Note with Options
+
+Tags:   levels-outline.3 Common Tasks.2 Add Delete and Edit Your Notes.1 New Note with Options
+
+Timestamp: 20211130183231
+
+Seq:    3.2.1
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body: 
+
+If your Collection uses the [[Class]] field, the [[Seq]] field and/or the [[Level]] field, then you may be interested in the `New Note w/Options...` item beneath the `Note` menu. 
+
+Before selecting this option, if you are using the Seq field, and sorting by Seq, then you should select the existing Note after which the new Note should appear. 
+
+After selecting this option, you will be presented with a new Window containing the following controls.
+
++ Title -- If entered, this will become the Title of your new Note.
+
++ Class Name --  This will identify the [[Class]] value, and Class template you wish to use for your new Note. If you are using Class templates, then the great advantage of using this route to create a new Note is that you will see the specified fields, and specified default values, as soon as you enter the Edit tab. 
+
++ Level -- This will default to the same Level as the Note selected before you opened the `New Note w/Options` window. You can use the `+` button to increase the level for the new Note (creating a Child of the previous Note) or use the `-` button to decrease the level. 
+
++ Seq -- Depending on the Level value selected above, and the Seq value of the preceding Note, the Seq field will be updated dynamically to place the new Note following the selected existing Note, with the appropriate numbering level. 
+
++ Cancel -- Use this button to skip adding a new Note. 
+
++ OK -- Use this button to proceed to the Edit tab for your new Note, with the specified field values already populated for you on this screen.

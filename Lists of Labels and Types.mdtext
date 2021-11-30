@@ -8,6 +8,8 @@ Seq:    7.3
 
 Level:  3 - Section
 
+Class:  non-version
+
 Body: 
 
 Each field label/type is discussed below, grouped into logical collections.
@@ -26,6 +28,7 @@ For ease of reference, when looking for a specific field type, here's an alphabe
 
 + [[AKA]]
 + [[Artist]]
++ [[Attribution]]
 + [[Author]]
 + [[Back Links]]
 + [[Body]]
