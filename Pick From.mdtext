@@ -8,6 +8,8 @@ Seq:    7.10.6
 
 Level:  4 - Subsection
 
+Class:  version
+
 Body: 
 
 This field type, when accompanied by a series of starting values, can be used to offer the user a drop-down menu allowing a choice from a set of previously used values, or the entry of a new value, which will then be added to the list. (Such a user interface widget is often referred to as a *combo box*.)

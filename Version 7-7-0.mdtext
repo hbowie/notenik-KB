@@ -1,10 +1,10 @@
 Title:  Version 7.7.0
 
-Tags:   levels-outline.11 Version History.1 Version 770
+Tags:   levels-outline.11 Version History.2 Version 770
 
 Timestamp: 20211116184349
 
-Seq:    11.1
+Seq:    11.2
 
 Date:   30 Nov 2021
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser: 
 
 Added Class templates that can be used to prepopulate the Edit tab when creating new Notes; added a 'New Note w/Options' menu item, to allow users to select a Class template (as well as a few other fields) before showing the Edit tab; added a new Attribution field, to be used with Quotes; cleaned up the Edit tab a bit, to no longer show calculated fields; fixed a couple of annoyances. 
+
 
 Class:  version
 
