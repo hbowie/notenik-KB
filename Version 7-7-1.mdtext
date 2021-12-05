@@ -1,19 +1,27 @@
-Title:  Version 7.8.0
+Title:  Version 7.7.1
 
-Tags:   levels-outline.11 Version History.1 Version 780
+Tags:   levels-outline.11 Version History.1 Version 771
 
 Timestamp: 20211116184349
 
 Seq:    11.1
 
+Date:   05 Dec 2021
+
 Level:  3 - Section
+
+Teaser: 
+
+A couple of important bug fixes affecting usage of the new Class templates, and of the Wikilinks/Backlinks fields. 
 
 Class:  version
 
 Body: 
 
-Released on d MMM, YYYY
-
 ##### Straighted Out Class/Pick-From Conflicts
 
 I had originally implemented `Class` as a `pick-from` field, and it turned out that, whenever Collection Preferences were updated, Notenik was still writing out a field titled `Class` as a `pick-from` field when saving the Collection template file. I've fixed this error, and also implemented some self-healing code to coerce the field type, for a field titled `Class`, to `class`, if the `Class` / `pick-from` combination is detected on an existing Collection template file.
+
+##### Fixed a Wikilinks/Backlinks Crash
+
+Notenik was crashing because the Wikilinks field type was still marked as user editable. Fixed this problem, and also added code to prevent the index out of range crash that resulted. 
