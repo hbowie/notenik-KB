@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Create a Commonplace Book with Lookup Fields</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>10 <a href="putting-it-all-together.html">Putting It All Together</a>&nbsp;&#8593;</p>
+<p><strong>10.6 Create a Commonplace Book with Lookup Fields</strong></p>
+<p>I've maintained my own <a href="https://en.wikipedia.org/wiki/Commonplace_book">Commonplace Book</a> for years, and one of the problems with maintaining a file of notable quotations is the repetition of information from one Note to the next: the same author, and even the same work, along with accompanying information, may be repeated numerous times. It is annoying, tedious, time-consuming and error-prone to re-enter that information on each Note, but there is no workable alternative when dealing with only a single flat file (or single Collection of Notes, in our case). </p>
+<p><a href="version-7.0.0.html">Version 7.0.0</a> of Notenik,however, introduced <a href="lookup.html">Lookup</a> fields, which allow one Collection to reference Notes in other Collections, and we can use such fields to solve our repetition problem. </p>
+<p>If at any point you'd like to see my particular implementation in more detail, feel free to look at my <a href="https://github.com/hbowie/practopian-v3">Practopian V3 project</a> on GitHub. I'll be referring to pieces of this as I proceed. Feel free to download it and unzip it in order to make inspection easier. </p>
+<p>Note that you will need to make <a href="use-of-a-text-editor.html">use of a text editor</a> in order to implement something like this. Unfortunately, at least at this time, you can't do all of this within the Notenik user interface. </p>
+<h5 id="create-a-collection-just-for-authors">Create a Collection Just for Authors</h5>
+<p>The first step is to create a separate Collection just for Authors. I've called mine <code>author-notes</code>. Here's what <a href="the-collection-template-file.html">the Collection Template file</a> looks like for <code>author-notes</code>: </p>
+<pre>
+<code>Author: &lt;title> 
+
+Tags: &lt;tags> 
+
+Author Info:  
+
+Author Years:  
+
+Author Link: &lt;link> 
+
+Author Notes: &lt;body> 
+
+</code></pre>
+<p>Let me comment on this a bit. </p>
+<p>Every Collection needs to have a <a href="title.html">title</a> field and a <a href="body-field.html">body field</a>, and it's generally good to have a <a href="tags.html">Tags</a> field as well. </p>
+<p>Note, however, that with recent versions of Notenik, it's enough to have these field types, without having to use these exact labels. So here you can see we're taking advantage of this flexibility by labeling the first field &#8216;Author&#8217;, and the second field &#8216;Author Notes&#8217;. </p>
+<p><code>Author Info</code>, <code>Author Years</code> and <code>Author Link</code> are just additional pieces of information I wanted to track. Your needs and interests may vary. </p>
+<p>Note that you may need to edit the default <code>Notenik</code> note that gets added to your Collection automatically, in order to modify the field labels to conform to your choices for the <code>title</code> and <code>body</code> fields. If you skip doing this, then Notenik may have trouble loading this first Note, and bad things may happen. </p>
+<p>One more thought here: if you are starting, as I was, with an existing Collection of quotations, then you may wish to extract your author information into a new Collection by using Notenik's scripting and templating abilities. See my <code>author-notes-template.md</code> file, in the <code>transforms/commonplace-lookups</code> folder, to see how I accomplished this. You'll then need a script to sort your quotations by author, and then feed the sorted Collection into this template. </p>
+<h5 id="create-a-collection-for-authors-works">Create a Collection for Author's Works</h5>
+<p>The next thing to do is to create a separate Collection for the works (books, etc.) from which the quotations are taken. I called mine <code>author-works</code>. Here's what <a href="the-collection-template-file.html">the Collection Template file</a> looks like for <code>author-works</code>: </p>
+<pre>
+<code>Work Title: &lt;title> 
+
+Tags: &lt;tags> 
+
+Author: &lt;lookup: authors> 
+
+Work Type: &lt;worktype> 
+
+Work Minor Title:  
+
+Work Date: &lt;date>
+
+Work Link: &lt;link> 
+
+Work ID:  
+
+Work Rights:  
+
+Work Rights Holder:  
+
+Publisher:  
+
+Publisher City:  
+
+Work Notes: &lt;body> 
+
+</code></pre>
+<p>The <code>title</code> field is the one that you will be referencing in order to access this note from your main Collection of quotations, so it is important to give some thought to how this field might be composed. In my case, I'm simply using the Title of the work, and trusting that each separate cited work will have a unique Title, at least for the purposes of my Commonplace book. You might choose to use some other coding system, involving the author's name and year of publication, for example. Whatever you decide upon, the field must still have a type of <code>title</code>, but you can label it however you would like. </p>
+<p>Note that I'm including an <code>Author</code> field here, and making this a <code>lookup</code> field referring back to the <code>authors</code> Collection we just created (<code>authors</code> being the shortcut I assigned to this first Collection). </p>
+<p>I'm also using the special <a href="work-type.html">Work Type</a> field, to indicate what sort of work (book, interview, essay, etc.) is being referenced. </p>
+<p>You may have different informationa fields you wish to track about each work; these are just the ones I've chosen to use. </p>
+<h5 id="create-the-commonplace-book-itself">Create the Commonplace Book Itself</h5>
+<p>And now, finally, we're ready to create the commonplace book itself. I've called mine <code>commonplace-book</code>, and here's its template file: </p>
+<pre>
+<code>Title: &lt;title> 
+
+Featured: &lt;boolean> 
+
+Recommended: &lt;boolean> 
+
+Author: &lt;lookup: authors>
+
+Date: &lt;date> 
+
+Tags: &lt;tags> 
+
+Work Title: &lt;lookup: works> 
+
+Work Pages:  
+
+Date Added: &lt;dateadded> 
+
+Body:  
+
+</code></pre>
+<p>Note that I'm now using <code>lookup</code> fields for both <code>Author</code> and <code>Work Title</code>. I could have skipped the inclusion of <code>Author</code> here, and just pulled it from the <code>Work Title</code> lookup, but I've included it explicitly here for a few different reasons. </p>
+<ul>
+<li>
+<p>I want to be able to sort the quotations by Author, and I wouldn't be able to do this if the Author's name was relegated to a secondary Collection; </p>
+</li>
+<li>
+<p>I want the Author's name to be immediately visible, without having to click on a disclosure triangle to reveal it as part of the information about a particular work; </p>
+</li>
+<li>
+<p>In some cases, the author of a quotation may be different from the author(s) of a work &#8211; for example, if the author of a work chooses to quote or cite another author. </p>
+</li>
+</ul>
+<p>I've also repeated the <code>Date</code> field here, for somewhat similar reasons. </p>
+<p>At first glance, the field <code>Work Pages</code> field may seem like information about a work that could be moved to the <code>works</code> Notes, but this is actually meant to call out the pages of the work on which this particular quotation was found, and so remains information about the quotation, and not about the work more generally. </p>
+<h5 id="summary">Summary </h5>
+<p><code>Lookup</code> fields can be used for many more purposes, but this project should give you some idea about how to implement them in at least one practical, real-world example. </p>
+<hr>
+<p>Next: <a href="write-a-web-book.html">Write a Web Book</a></p>
+</body>
+</html>

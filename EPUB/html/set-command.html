@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>set command</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>8.4 <a href="merge-commands.html">Merge Commands</a>&nbsp;&#8593;</p>
+<p><strong>8.4.2 set command</strong></p>
+<p>This command can define a global variable and set its value. This command would normally have three operands: the name of the global variable, an operator, and a value. </p>
+<ul>
+<li>
+<p>Global variable name. This should not be the same as the name of any variable name specified by the input data file. The global variable name, when used as the object of a set command, should not be enclosed within the normal variable delimiters, since this would cause the variable name to be replaced by its current value. (On the other hand, you may include a variable name <em>within</em> the global variable name if you'd like to vary the global variable name based on another variable.) </p>
+</li>
+<li>
+<p>Operator. Any of the following operators can be used. </p>
+<ul>
+<li>
+<p>=  — This will cause the global variable to be set equal to the following value. </p>
+</li>
+<li>
+<p>+= or simply + — This will cause the value to be added to the current value of the global variable. </p>
+</li>
+<li>
+<p>++ — This can be used to add a value of 1 to the current value of the global variable, without having to specify the following value of 1. (In this case, the set command only takes two operands.) </p>
+</li>
+<li>
+<p>-= or simply - — This will cause the value to be subtracted from the current value of the global variable. </p>
+</li>
+<li>
+<p>-- Two minus signs in a row can be used to subtract a value of 1 from the current value of the global variable, without having to specify the following value of 1. (In this case, the set command only requires two operands.) </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Value. This can be a literal or a variable (in which case it should be surrounded by the normal variable delimiters). The value can be a text string or an integer. </p>
+</li>
+</ul>
+<p>One intended use for the set command is to support a line counter. By initializing the value to 0, and then adding to it whenever an output line is generated, the IF command can be used to check for page overflow (in a table column, for example), and then start a new page or column, resetting the counter to 0 again. </p>
+<p>Another common use for the set command is to preserve record variables in global variables so that they will be available within an ifendgroup block. </p>
+<hr>
+<p>Next: <a href="output-command.html">output command</a></p>
+</body>
+</html>

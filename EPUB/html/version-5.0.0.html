@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 5.0.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.37 Version 5.0.0</strong></p>
+<p>Released on 08 Dec 2020 </p>
+<h5 id="reworked-logic-for-navigating-forwards-and-backwards">Reworked Logic for Navigating forwards and backwards</h5>
+<p>This seems to work more intuitively now. </p>
+<h5 id="modified-to-allow-urls-linking-to-files">Modified to allow URLs linking to files</h5>
+<p>URLs starting with &#8216;file:&#8217; should now be recognized as valid URLs. </p>
+<p>However, permissions issues may still prevent such links from being usefully resolved, if they link outside of the sandbox to a file for which the app does not have access privileges. </p>
+<p>This should resolve Issue # 42. </p>
+<h5 id="fixed-bug-in-persisting-custom-css">Fixed Bug in Persisting Custom CSS</h5>
+<p>Notenik allows custom CSS to be entered in the Display Fonts Preferences, but these custom entries were being overwritten when Notenik was relaunched. This has now been corrected. This should close Issue # 41. </p>
+<h5 id="fixed-bug-handling-parentheses-within-link-text">Fixed bug handling parentheses within Link text</h5>
+<p>Parentheses within link text were not getting handled properly. </p>
+<h5 id="back-prior-now-relaunches-a-note-after-following-a-link">Back/Prior now relaunches a Note after following a link</h5>
+<p>After following a web link within a Note, the back button, or prior Note command, will now take the user back to the Note display. </p>
+<p>This should close Issue # 43. </p>
+<h5 id="fixed-bug-in-move-collection-logic">Fixed Bug in Move Collection Logic</h5>
+<p>The &#8216;alias.txt&#8217; file was not being copied. This has been corrected. </p>
+<hr>
+<p>Next: <a href="version-4.9.0.html">Version 4.9.0</a></p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 3.4.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.53 Version 3.4.0</strong></p>
+<p>Released on 08 Apr 2020 </p>
+<h5 id="fixed-additional-bugs-in-new-markdown-parser">Fixed Additional Bugs in new Markdown Parser</h5>
+<p>There were some edge cases that popped up. </p>
+<h5 id="broke-reusable-code-out-into-separate-libraries">Broke Reusable Code out into Separate Libraries</h5>
+<p>Created the following separate Swift packages. </p>
+<ul>
+<li>NotenikUtils </li>
+<li>NotenikTextile </li>
+<li>NotenikMkdown </li>
+</ul>
+<p>Users should not see any impact from this change. </p>
+<h5 id="added-sort-by-tags-option">Added Sort by Tags Option</h5>
+<p>Added a new Sort option to allow sorting by the Tags field, plus Title. </p>
+<h5 id="added-new-note-shortcuts-for-status-updates">Added New Note Shortcuts for Status Updates</h5>
+<p>See these new commands beneath the Note menu: </p>
+<ul>
+<li>Toggle Status - Switches from least complete to most, and back again. </li>
+<li>Increment Status - Bump to the next stage in the Collection's lifecycle. </li>
+</ul>
+<p>There are keyboard shortcuts available for both of these. </p>
+<p>Note that these are designed to be used in Display mode, not in Edit mode. </p>
+<hr>
+<p>Next: <a href="version-3.3.0.html">Version 3.3.0</a></p>
+</body>
+</html>

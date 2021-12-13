@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Template Module Parameters</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>9.2 <a href="scripting-modules.html">Scripting Modules</a>&nbsp;&#8593;</p>
+<p><strong>9.2.4 Template Module Parameters</strong></p>
+<p>A Template command may have an action of &#8216;webroot&#8217;, &#8216;open&#8217; or &#8216;generate&#8217;. </p>
+<h4 id="webroot">Webroot</h4>
+<p>A &#8216;webroot&#8217; action causes the value column to be used as a path to the top level of a website to be generated. Template variables of &#8216;relative&#8217; will then be replaced with a series of &#8216;../&#8217; strings taking a file reference back to the top of the website. </p>
+<h4 id="open">Open</h4>
+<p>The file pointed to by the path in the value column will be opened as a Template file. </p>
+<h4 id="generate">Generate</h4>
+<p>The previously opened Template file will be processed according to the rules of <a href="merge-templates.html">Merge Templates</a>, generating one or more output files. </p>
+<hr>
+<p>Next: <a href="output-module-parameters.html">Output Module Parameters</a></p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 7.2.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.8 Version 7.2.0</strong></p>
+<p>Date: 20 Sep 2021</p>
+<p>Released on September 20, 2021. </p>
+<h5 id="merge-template-set-command-modified">Merge Template Set Command Modified </h5>
+<p>The Merge Template <a href="set-command.html">Set Command</a> has been modified to allow a variable to appear within the name of the global variable name. This may be useful in some cases to allow the first operand of the command to be varied based on he contents of another field. </p>
+<h5 id="wiki-links-now-look-for-an-optional-trailing-s">Wiki Links Now Look for an Optional Trailing &#8216;S&#8217;</h5>
+<p>Since it is often tempting to title a Note using the plural form of a word &#8211; but also common to want to refer to that Note using the singular form &#8211; if a <a href="wiki-style-links.html">wiki-style link</a> does not immediately find its target, an &#8216;s&#8217; will be added to the link internally, and the resulting Note will be used as the target, if such a Note exists. </p>
+<h5 id="new-notenik-website">New Notenik Website</h5>
+<p>The Notenik website is now available at <a href="https://notenik.app">Notenik.app</a>, instead of Notenik.net (although the latter redirects to the former). Also, the website has been enhanced and redesigned. </p>
+<h5 id="added-quick-export-and-open-command">Added Quick Export and Open command</h5>
+<p>A new command has been added to the bottom of the File menu, to perform a <code>Quick Export and Open</code>. This command will export the current Collection to a CSV (comma-separated values) file named <code>export.csv</code>, located within a sub-folder named <code>quick-export</code>. If the export was successful, then Notenik will ask the operating system to open the CSV file using the default app for handling &#8216;.csv&#8217; files (such as the Numbers app). </p>
+<h5 id="updated-markdown-quote-sharing-to-use-work-title-lookup-field">Updated Markdown Quote Sharing to Use Work Title Lookup Field</h5>
+<p>When requesting a Share operation for a Note, and when selecting the Markdown Quote format for the entire Note, the Share logic will now successfully obtain info about the Work, if it is in a related Collection linked via the Work Title field. </p>
+<hr>
+<p>Next: <a href="version-7.1.0.html">Version 7.1.0</a></p>
+</body>
+</html>

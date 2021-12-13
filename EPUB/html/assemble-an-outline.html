@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Assemble an Outline</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>10 <a href="putting-it-all-together.html">Putting It All Together</a>&nbsp;&#8593;</p>
+<p><strong>10.4 Assemble an Outline</strong></p>
+<p><em>aka: new child</em></p>
+<p>Index: streamlined reading; </p>
+<p>In many cases, the Notes within a Collection will bear little relationshp to each other. </p>
+<p>In some cases, the <a href="tags.html">Tags</a> field may be used to group Notes together by topic. </p>
+<p>In other cases, Notes within a Collection may be organized by <a href="date.html">Date</a>. </p>
+<p>But in addition to these other organizational paradigms, Notenik has several related capabilites that allow the Notes within a Collection to be assembled into an <a href="https://en.wikipedia.org/wiki/Outline_(list)">outline</a>. The Notenik Knowledge Base (this document) is itself an example of how this can be done. </p>
+<ol>
+<li>
+<p>The first step is to add a <a href="seq.html">Seq</a> field to your Collection. This field can then be used to place your Notes into a meaningful sequence. </p>
+</li>
+<li>
+<p>Next, add a <a href="level.html">Level</a> field to the Collection. Make <a href="use-of-a-text-editor.html">use of a text editor</a> to modify <a href="the-collection-template-file.html">the Collection template file</a> to specify how many levels your outline will have, with the top level being 1. You can assign some meaningful bit of text to each number, to make it easier to keep things straight as you are adding Notes to your Collection. Level 1 can be used to represent the top level for the entire Collection.  </p>
+</li>
+<li>
+<p>At this point, if you have an existing outline you wish to import into Notenik, you can use the Import from OPML option to import the data (possibly after exporting it from another app into the neutral <a href="https://en.wikipedia.org/wiki/OPML">OPML</a> format). </p>
+</li>
+<li>
+<p>Then make a couple of adjustments to your Collection Preferences. Uncheck the box that says &#8220;Include explicit Body field label on the Display tab,&#8221; and check the box that says &#8220;Format Display for Streamlined Reading.&#8221; </p>
+</li>
+<li>
+<p>Now start populating your Collection. Set the Sort parm for the Collection to <code>Seq + Title</code>.  Your very first Note should probably represent the top level for the entire Collection, and be assigned a Level of 1, while setting the Seq to <code>0</code>, or simply leaving the Seq field blank. </p>
+</li>
+<li>
+<p>Now build out your outline, using the Level to indicate the depth of each Note within the outline, and using Seq plus Level to indicate the relationships between parents and children. </p>
+</li>
+<li>
+<p>Note that, on the List tab, your Note titles will be indented to indicate the Level of each Note. </p>
+</li>
+<li>
+<p>For an outline structure, it's usually handy to assign Seq values so that the numbers assigned indicate the outline structure. For example, a Note with a Seq value of 3.2.4 would be the fourth child of the Note with a Seq value of 3.2. </p>
+</li>
+<li>
+<p>If you need to insert a Note into the sequence you are building, you can use the <code>Note -&gt; Increment</code> menu item to increment the Seq value of the selected Note, as well as all following Notes, in order to preserve the existing order and make room for a new Note at the original Seq value of the incremented Note. </p>
+</li>
+<li>
+<p>In order to have the Seq value incremented automatically for a new Note, first select the preceding Note before adding the new one. </p>
+</li>
+<li>
+<p>You can perform some basic resequencing by dragging and dropping a Note from one position to another on the List tab. Note that you must move the Drop indicator to a line above and/or below existing Notes in order to indicate a desired new position for an existing Note (in other words, not on top of an existing Note). Only the Note being dragged and dropped will have its Seq value changed. </p>
+</li>
+<li>
+<p>To add a child Note to an existing Note, ctrl-click on the row representing the existing Note, then select <code>New Child</code> from the popup menu. This will pre-populate both the Level and Seq fields with appropriate values. (If the intended parent already has other children, you may want to first increment the Seq value of the current first child, to avoid duplicate Seq values.) </p>
+</li>
+<li>
+<p>As you continue building out your outline, you may wish to make use of a couple of helpful menu items beneath the <code>Collection</code> menu. </p>
+<ul>
+<li>
+<p><code>Collection -&gt; Level -&gt; Renumber Seq based on Level</code> will renumber your entire Collection, preserving the current order, but regenerating Seq values so that each segment of each Seq value is numbered consecutively, without any gaps, and with the number of segments reflecting each Note's level. </p>
+</li>
+<li>
+<p><code>Collection -&gt; Level -&gt; Replace Tags based on Seq and Level</code> will generate Tags with a top level of <code>levels-outline</code>, and with sub-tags mirroring the structure of your outline. The advantage of navigating your Collection this way is that you will have disclosure triangles, allowing you to drill down to a particular point in the outline, while hiding other branches not currently of interest. </p>
+</li>
+</ul>
+</li>
+<li>
+<p>Note that, if you have followed all the instructions above, including modifying your Collection preferences, your Display tab will now look a little different. </p>
+<ul>
+<li>Fields other than Seq, Title and Body will not be shown. </li>
+<li>The Seq Value will be shown at the beginning of the Title line. </li>
+<li>For Notes with a level greater than 1, a link to the implied parent Note will be shown at the top of the display. </li>
+<li>For Notes with two or more children, a &#8220;Contents&#8221; section will appear below the body of the selected Note, with links to each of that Note's children. </li>
+<li>At the very bottom of the display, for every Note other than the last, you will see a link to the next Note in the sequence. </li>
+</ul>
+<p>You will now find that, using the links described above, you can navigate through your entire Collection entirely within the Display tab. </p>
+<p>If you'd like, you can use the <code>View -&gt; Show/Hide List</code> menu item to completely hide the List and Tags tabs. </p>
+<p>The overall intent of all this is to provide a &#8220;streamlined reading&#8221; experience for your Collection, focusing on the outline structure and the content, much as you would when reading a book. </p>
+</li>
+<li>
+<p>You have several useful options available for exporting an outline like this into some other format. </p>
+<ul>
+<li>Use <code>Export to OPML</code> (beneath the <code>File</code> menu) to put your data into a format that can be imported into a dedicated outlining app. </li>
+<li>Use <code>Generate Web Book</code> (also beneath the <code>File</code> menu) in order to create a set of web pages that are linked together. </li>
+<li>Concatenate all of the Notes in your Collection into a single file (in either HTML or Markdown formats), again by using the <code>Export</code> command beneath the <code>File</code> menu. </li>
+</ul>
+</li>
+<li>
+<p>And one last tip for a project like this. If you add an <a href="index.html">Index</a> field, and then use that to provide index terms for your pages, then you can use the <code>Collection -&gt; Generate Index</code> menu item to generate an index for your Collection (as you might find at the end of a book). The index will be formatted using Markdown, and copied to the system clipboard. Simply create an index Note in your Collection, and use a normal paste command to place your index into the body of your index Note. </p>
+</li>
+</ol>
+<hr>
+<p>Next: <a href="create-a-digital-commonplace-book-or-a-zettelkasten.html">Create a Digital Commonplace Book or a Zettelkasten</a></p>
+</body>
+</html>

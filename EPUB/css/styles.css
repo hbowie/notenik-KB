@@ -1,0 +1,28 @@
+:root {
+    color-scheme: light dark;
+    --link-color: Blue;
+    --highlight-color: Gainsboro
+}
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --link-color: #93d5ff;
+    --highlight-color: DimGray
+  }
+}
+a {
+    color: var(--link-color);
+}
+.search-results {
+    background-color: var(--highlight-color);
+}
+body { 
+tab-size: 4; 
+margin: 1em; font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14pt }
+blockquote { 
+  border-left: 0.5em solid #999;
+  margin-left: 0;
+  padding-left: 1em;
+} 
+img { max-width: 100%; border: 4px solid gray; }
+body { max-width: 33em; margin: 0 auto; float: none; }

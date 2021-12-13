@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Rules for Reading</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>4.9 <a href="existing-text-files.html">Existing Text Files</a>&nbsp;&#8593;</p>
+<p><strong>4.9.1 Rules for Reading</strong></p>
+<p>With that being said, here are some rules that Notenik will try to apply to interpret existing text files in the best possible manner. (Many or even most of these rules involve recognition of the start of the note's body, even though the note lacks the explicit <code>Body:</code> field label found in the standard Notenik format.) </p>
+<ol>
+<li>
+<p>Notenik will respect a template file that it finds, but it does not insist on the presence of a template file. </p>
+</li>
+<li>
+<p>Notenik will place a file named `<code>- INFO.nnk</code> in any folder that it opens successfully. Notenik uses this file to track some basic info about the Collection. Notenik also uses the presence of this file to indicate that the folder contains a Notenik Collection. </p>
+</li>
+<li>
+<p>Notenik will generally respect whatever metadata tags are found at the top of the file, unless you have specified otherwise. In this respect, Notenik generally follows the same conventions as the <a href="https://fletcher.github.io/MultiMarkdown-4/metadata.html">MultiMarkdown Metadata</a> specification. </p>
+</li>
+<li>
+<p>In accordance with this same spec, Notenik will respect a line of three dashes before and after the metadata, to indicate the start and end of the metadata block. The line after the metadata can also be one to four periods. </p>
+</li>
+<li>
+<p>Notenik normally expects to see blank lines between metadata fields, for improved readability. However, if the first line contains a Title field, and is immediately followed by another metadata field, without an intervening blank line, then Notenik will assume that the first blank line encountered should end the metadata block and start the body of the note. </p>
+</li>
+<li>
+<p>If a file does not begin with any metadata, but starts with a normal <a href="https://daringfireball.net/projects/markdown/syntax#header">Markdown level 1 heading</a>, then Notenik will use the contents of that heading as the title of the note. </p>
+</li>
+<li>
+<p>If a file does not start with either metadata or a Markdown level 1 heading, then Notenik will use the file name (dropping the file extension) as the title of the note, and use the entire contents of the file as the body. </p>
+</li>
+<li>
+<p>If a file does not start with metadata, but does start with a Markdown level 1 heading, then the second line of the file may use a &#8216;#&#8217;, immediately followed by text (without any intervening spaces) to indicate that the text should be treated as tags for the note. I'm not quite sure where this convention originated, or how many people use it, but there it is. </p>
+</li>
+</ol>
+<hr>
+<p>Next: <a href="rules-for-updating.html">Rules for Updating</a></p>
+</body>
+</html>

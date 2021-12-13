@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Export to Notenik vs. Save As vs. Move</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>5 <a href="getting-data-into-and-out-of-notenik.html">Getting Data Into and Out of Notenik</a>&nbsp;&#8593;</p>
+<p><strong>5.3 Export to Notenik vs. Save As vs. Move</strong></p>
+<p>The careful observer may at some point wonder why Notenik includes both a &#8216;Save As&#8217; command as well as the ability to Export a Collection in the Notenik format (not to mention a &#8216;Move&#8217; option). Are these just different ways of accomplishing the same thing? Well, not quite. </p>
+<p>It's true that all three commands will copy your current Collection of Notes to a new location. However, there are some subtle differences between the three. </p>
+<p>With <code>Save As</code>: </p>
+<ul>
+<li>The command will finish with the new Collection becoming the one that is currently open. </li>
+<li>The current note files will be copied exactly as-is. </li>
+<li>Attachments will be copied as-is. </li>
+<li>The original starting Collection will still be available. </li>
+</ul>
+<p>With <code>Export to Notenik</code>: </p>
+<ul>
+<li>The command will finish with the old Collection remaining the one that is currently open. </li>
+<li>Each Note will be rewritten using the standard Notenik <a href="note-file-format.html">Note File format</a>. This can be especially useful if you're starting with a folder full of text files that were not created by Notenik, and you're ready to fully commit to the Notenik file format. </li>
+<li>You will have the chance to specify a new file extension to be used, and this will be used consistently for all Notes in the Collection. </li>
+<li>Not all Notes may be copied! If there are any Notes with duplicate Titles, then only one will make the move. Check the Log window carefully to see if this problem stranded any of your Notes in the old Collection. </li>
+<li>Attachments will be ignored. </li>
+</ul>
+<p>With <code>Move</code>: </p>
+<ul>
+<li>The command will finish with the new Collection becoming the one that is currently open. </li>
+<li>As with the Export command, each Note will be rewritten in the new location using the standard Notenik format. </li>
+<li>File attachments and other standard Notenik folders will be copied as-is. </li>
+<li>If the starting Collection contains any non-standard files or folders then they will be left in place within the original folder; if the original folder ends up empty (because all of its standard contents have been moved), then it will be deleted. </li>
+</ul>
+<p>In summary, these are different tools, and you should be careful to use whichever one is the best fit for your particular situation. </p>
+<hr>
+<p>Next: <a href="backup-to-zip.html">Backup to Zip</a></p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Why is the Notenik Format Different?</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>4.1 <a href="note-files.html">Note Files</a>&nbsp;&#8593;</p>
+<p><strong>4.1.6 Why is the Notenik Format Different?</strong></p>
+<p>People have been storing notes in text files long before Notenik came along. </p>
+<p>At their most basic, such a note might consist simply of a chunk of text, with the file name serving as the note's title. </p>
+<p>A slightly more sophisticated approach would be to use <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> to format a note, with a level 1 heading at the top of the file supplying a title for the note. </p>
+<p>The use of <a href="https://fletcher.github.io/MultiMarkdown-4/metadata.html">MultiMarkdown metadata</a> adds even more possibilities, allowing multiple keys and associated values to be specified at the top of a file. </p>
+<p>Although Notenik will read and respect all of these different sorts of text files, its own native format is a bit different from any of these. </p>
+<p>The Notenik format is very similar to the MultiMarkdown metadata format, but differs in that an explicit Body label is expected to indicate the start of the Note's body, rather than the body being assumed to start after the first blank line, or three hyphens, or four periods. </p>
+<p>So why is the Notenik format different? </p>
+<p>The answer, in general, is that I wanted Notenik files to have a bit more flexibility than any of these other formats, without sacrificing any of their simplicity or readability. </p>
+<p>So whereas these other formats are primarily for documents, with at most some ability to supply metadata describing the docs, a Notenik file is an object consisting of a number of fields, with one or more of those fields containing text formatted using Markdown. </p>
+<p>That being said, a Notenik file is not a completely general-purpose object: it's not intended to compete with JSON or YAML, for example. For one thing, each note must have a Title field and a Body field, in addition to other fields. Also, each field generally consists of a single value, without any convention for handling arbitrary lists, or any nesting of objects. </p>
+<p>So there you have it: a Notenik Note sits somewhere between a Markdown doc with metadata and a full-fledged  object with any number of complex fields. Which makes it simple enough to be read and written by ordinary humans using any text editor, and yet flexible enough to help such users keep track of any number of useful, everyday objects. </p>
+<p>Which was exactly my intent when concocting this format. </p>
+<hr>
+<p>Next: <a href="use-of-a-text-editor.html">Use of a Text Editor</a></p>
+</body>
+</html>

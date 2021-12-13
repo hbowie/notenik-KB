@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>if command</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>8.4 <a href="merge-commands.html">Merge Commands</a>&nbsp;&#8593;</p>
+<p><strong>8.4.9 if command</strong></p>
+<p>The if command can be used to test a variable to see if it is non-blank. If the variable is non-blank, then the following lines up to the closing endif command will be subject to normal output processing. If the variable is blank, then following lines will be skipped until the closing endif command is encountered. In this case, the first and only operand would be the variable to be tested. </p>
+<p>The if command can also be used to test a variable to compare it to a constant (or other variable). In this case, the command would have three or more operands: the name of the variable, a logical operator, and one or more values. </p>
+<p>In this second scenario, three operands are provided: the first value (variable or constant), a comparison operator, and the second value (variable or constant). </p>
+<p>Any of the following comparisons may be performed, and each may be invoked with the appropriate symbols, abbreviation or words. Note that slashes are used in the following list to separate alternative representations for each operator. </p>
+<ol>
+<li>= / == / eq / equals </li>
+<li>&gt; / gt / greater than </li>
+<li>&gt;= / !&lt; | / ge / greater than or equal to </li>
+<li>&lt; / lt / less than </li>
+<li><= / !> / le / less than or equal to </li>
+<li>&lt;&gt; / != / ne / not equal to </li>
+<li>() / [] / co / contains </li>
+<li>!() / ![] / nc / does not contain </li>
+<li>(&lt;) / [&lt;] / st / starts with </li>
+<li>!(&lt;) / ![&lt;] / ns / does not start with </li>
+<li>(&gt;) / [&gt;] / fi / ends with </li>
+<li>!(&gt;) / ![&gt;] / ng / does not end with </li>
+</ol>
+<p>Note that, if both values appear to be integers, then a numeric comparison will be performed for operands 1 - 6. In all other cases, strings will be compared. </p>
+<hr>
+<p>Next: <a href="else-command.html">else command</a></p>
+</body>
+</html>

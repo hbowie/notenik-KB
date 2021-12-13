@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Generating Reports</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>5 <a href="getting-data-into-and-out-of-notenik.html">Getting Data Into and Out of Notenik</a>&nbsp;&#8593;</p>
+<p><strong>5.8 Generating Reports</strong></p>
+<p>Notenik provides a function for merging data from Notes (or other data sources) into a template file in order to create one or more output text files. </p>
+<p>The text files created may be of any type, but certainly one of the most useful formats is HTML, allowing users to generate one or more Web pages from their notes. </p>
+<p>See the article on <a href="merge-templates.html">Merge Templates</a> for complete information on the expected format of a Merge Template file. </p>
+<p>Template files can be placed in a folder named &#8216;reports&#8217; within the Collection folder where the reports are to be used. Each template file should include the word &#8216;template&#8217; somewhere within its file name. </p>
+<p>Once a template file is created, suitably named and placed, it will become available as a report that can be selected from a drop-down (identified with a gear icon) on the Collection's toolbar. </p>
+<p>Selecting a report will then cause the Collection's notes to be merged into the corresponding template file, creating whatever ouput is identified in the template file. </p>
+<p>Two other options appear on the Reports Action drop-down (identified with the gear icon). </p>
+<ul>
+<li>Generate Report Sample in HTML </li>
+<li>Generate Report Sample in Markdown </li>
+</ul>
+<p>Selecting one of these will then cause Notenik to create a reports folder for the collection, if one does not already exist, and then to create a report template containing all of the Collection's fields in a basic layout. The user may then modify this template in order to further customize the output formatting.  Once the user reloads the Collection, those reports will then become available to run. </p>
+<hr>
+<p>Next: <a href="record-and-play-scripts.html">Record and Play Scripts</a></p>
+</body>
+</html>

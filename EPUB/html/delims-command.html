@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>delims command</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>8.4 <a href="merge-commands.html">Merge Commands</a>&nbsp;&#8593;</p>
+<p><strong>8.4.1 delims command</strong></p>
+<p>If used at all, this command should be the first command in the template file. This command overrides the standard <a href="merge-delimiters.html">Merge Delimiters</a> used to indicate the beginnings and ends of commands and variables, for the remainder of the current template file. The command can have one to five operands. Each operand will become a new delimiter. They should be specified in the following order. </p>
+<ul>
+<li>beginning of a command </li>
+<li>the end of a command </li>
+<li>the beginning of a variable </li>
+<li>the end of a variable </li>
+<li>the beginning of variable modifiers </li>
+</ul>
+<p>Note that, in addition to specification of the delims command, the first characters found on the first line of the template file can trigger the Notenik template processor to use an alternate set of delimiters. </p>
+<hr>
+<p>Next: <a href="set-command.html">set command</a></p>
+</body>
+</html>

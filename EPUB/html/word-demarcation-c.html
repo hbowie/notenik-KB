@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Word Demarcation - C</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>8.3 <a href="variable-modifiers.html">Variable Modifiers</a>&nbsp;&#8593;</p>
+<p><strong>8.3.9 Word Demarcation - C</strong></p>
+<p>The letter &#8220;C&#8221; indicates that the variable consists of a series of words, and you wish to change or standardize the way in which the words are distinguished from one another. </p>
+<p>When parsing the variable, the beginning of a new word will be indicated by either whitespace or punctuation between words, or by a transition from lowercase to uppercase (as in CamelCase usage). In other words, &#8220;two words&#8221;, &#8220;TWO_WORDS&#8221; or &#8220;twoWords&#8221; would all be parsed into two separate words. </p>
+<p>What you want done with the word demarcation is defined by the characters following the &#8220;C&#8221; in the modifiers string. The letter &#8220;u&#8221; indicates a conversion to uppercase, the letter &#8220;l&#8221; indicates a conversion to lowercase, and the letter &#8220;a&#8221; indicates that the character should be left as-is. Anything other than these three characters (including a space) will be interpreted as a separator to be placed between the words. </p>
+<p>Note that the u/l/a indicator can be specified three different times. </p>
+<ol>
+<li>The first appearance will control the case of the first letter in the entire variable; </li>
+<li>The second appearance will control the case of the first letter of each word; </li>
+<li>The third appearance will control the appearance of all other letters. </li>
+</ol>
+<p>For example, if the template file contained the following: </p>
+<pre>
+<code>=$name&amp;cuul$=
+</code></pre>
+<p>And the name variable was equal to: </p>
+<pre>
+<code>HERB BOWIE
+</code></pre>
+<p>Then the resulting name in the output text file would be: </p>
+<pre>
+<code>Herb Bowie
+</code></pre>
+<hr>
+<p>Next: <a href="day-of-month-dd.html">Day of Month - dd</a></p>
+</body>
+</html>

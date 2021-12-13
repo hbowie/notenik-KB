@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Heading Identification</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>6.2 <a href="notenik-markdown-parser.html">Notenik Markdown Parser</a>&nbsp;&#8593;</p>
+<p><strong>6.2.1 Heading Identification</strong></p>
+<p><a href="https://daringfireball.net/projects/markdown/syntax#header">John Gruber's description of Markdown syntax</a> leaves room for some ambiguity surrounding two questions concerning the use of one or more hash characters to indicate a heading: </p>
+<ol>
+<li>
+<p>Must a heading line be preceded by a blank line? </p>
+</li>
+<li>
+<p>Must the string of hash characters be followed by a space, before beginning the text of the heading? </p>
+</li>
+</ol>
+<p>The <a href="https://www.markdownguide.org/basic-syntax/#headings">Markdown Guide</a> makes note of this ambiguity, and the resulting differences in interpretation among various Markdown parsers, but does not provide a definitive resolution for either question. (See  <em>Heading Best Practices</em>.) </p>
+<p>Notenik's own parser answers the questions above in the following manner. </p>
+<ol>
+<li>
+<p>A blank line before a heading is recommended (for readability, if nothing else), but is not required. </p>
+</li>
+<li>
+<p>A space after the last hash character is also recommended, but not required. </p>
+</li>
+</ol>
+<p><em>However</em>, if there is no intervening space, and the first character following the only hash character is a digit, then the Notenik parser will assume that the author's intent was for the hash character to be read as &#8216;number&#8217;, rather than triggering a heading. </p>
+<p>For example: </p>
+<p>#7 is a good bet in the next race. </p>
+<p>But&#8230; </p>
+<h1 id="number-7-is-a-good-bet-in-the-next-race.">Number 7 is a good bet in the next race.</h1>
+<hr>
+<p>Next: <a href="wiki-style-links.html">Wiki Style Links</a></p>
+</body>
+</html>

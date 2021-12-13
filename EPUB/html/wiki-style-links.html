@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Wiki Style Links</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>6.2 <a href="notenik-markdown-parser.html">Notenik Markdown Parser</a>&nbsp;&#8593;</p>
+<p><strong>6.2.2 Wiki Style Links</strong></p>
+<p>Index: wiki-style links; double-bracket links; note-to-note links; </p>
+<p>Notenik allows the user to create a link from one Note to another Note within the same Collection. </p>
+<p>In order to enable this option, the user must be using Notenik's own internal Markdown parser. </p>
+<p>The Notenik Markdown parser supports <a href="https://en.wikipedia.org/wiki/Hyperlink#Wikis">double-bracket wiki-style links</a> as an extension to the original Markdown spec from John Gruber.  </p>
+<p>If you are using Notenik's parser, then a link to another Note may be coded by simply enclosing the title of the target Note within double square brackets, like this &#8211; <code>[[Overview]]</code> &#8211; and a click on the resulting link will take you to that note. </p>
+<p>Since it is often tempting to title a Note using the plural form of a word &#8211; but also common to want to refer to that Note using the singular form &#8211; if a wik-style link does not immediately find its target, an &#8216;s&#8217; will be added to the link internally, and the resulting Note will be used as the target, if such a Note exists. </p>
+<p>If you code a wiki style link, in double square brackets, to a Note that does not yet exist, then after saving the edits to the Note and redisplaying it, the new Note (the target of the link) will be created for you automatically. The new Note will have the targeted Title assigned, but with all other fields blank. </p>
+<p>If you also enable the <a href="timestamp.html">timestamp</a> field for a Collection, then you can change the title of a linked Note without changing the referencing wiki link text, and Notenik will remember the association between the old title and the new title, making use of the timestamp field to preserve a unique, unchanging identity for each Note. These associations will be saved in a special file named &#8216;alias.txt&#8217;, within the Collection folder. This functionality can be useful to make sure you don't end up with broken links between Notes. </p>
+<hr>
+<p>Next: <a href="heading-auto-numbering.html">Heading auto-numbering</a></p>
+</body>
+</html>

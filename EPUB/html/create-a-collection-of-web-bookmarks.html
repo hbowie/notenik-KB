@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Create a Collection of Web Bookmarks</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>10 <a href="putting-it-all-together.html">Putting It All Together</a>&nbsp;&#8593;</p>
+<p><strong>10.2 Create a Collection of Web Bookmarks</strong></p>
+<p>Index: bookmarks; favorites; </p>
+<p>All modern web browsers (Safari, Chrome, Firefox, etc.) have their own capabilities for storing frequently used web links (aka URLs) as a bunch of bookmarks, sometimes referred to as favorites. </p>
+<p>However, if you have a tendency to use different browsers for different purposes, or as the mood strikes you, then you might find it convenient to have your favorite web bookmarks stored independently, in a way that can be accessed equally well from any browser. </p>
+<p>This is where Notenik comes in. </p>
+<h5 id="step-1-create-a-new-collection">Step 1: Create a New Collection</h5>
+<p>Name the folder &#8216;Favorites&#8217; or &#8216;Bookmarks&#8217; or something similar.  If you have <a href="https://tech-cookbook.com/2020/11/14/setting-up-your-local-web-server-on-macos-big-sur-11-0-1-2020-mamp-macos-apache-mysql-php/">Apache enabled</a>, then you might wish to place it somewhere in your &#8216;Sites&#8217; folder. (If you have no idea what this means, then don't worry about it.) Another option would be to place the new Collection in your Dropbox folder or iCloud Drive, if you'd like it to be synced to the cloud and/or to other devices. Or just put it somewhere in your Documents folder. It's up to you! </p>
+<h5 id="step-2-configure-with-default-fields">Step 2: Configure with Default Fields</h5>
+<p>Title, Tags, Link and Body should be fine for our purposes in this article. </p>
+<h5 id="step-3-add-your-favorite-websites">Step 3: Add Your Favorite Websites</h5>
+<p>For each site, enter the Link field and the Title field. For a title, enter whatever is most meaningful to you &#8211; it doesn't have to exactly match any sort of official title on the site itself. If you wish to add some comments about a site in the body of its note, then that's ok too. You can also drag a website into the List tab of Notenik from the address field of your Web browser. </p>
+<h5 id="step-4-use-tags-to-categorize-the-sites">Step 4: Use Tags to Categorize the Sites</h5>
+<p>Here there's something specific you need to enter in order to enable a later step. </p>
+<p>Enter your tag in the format &#8216;Favorites.xxx&#8217; where &#8216;xxx&#8217; is the category you wish to assign to the note. The first part of the tag must be &#8216;favorites&#8217;, although the case (upper or lower) is not significant. </p>
+<p>If you have a lot of bookmarks you wish to track in Notenik, then they don't all need to have the &#8216;Favorites&#8217; tag. In fact, a maximum of about 60 is recommended. And all of your tags, including the ones tagged as a &#8216;favorite&#8217;, can have multiple tags. </p>
+<p>With or without the favorites tag, note that you can use the &#8216;Tags&#8217; tab to view your growing list of bookmarks in outline form, with the tags used to organize the outline. When a note has multiple tags, it will appear multiple times, so that it can show up under each different tag. </p>
+<h5 id="step-5-launch-links-from-within-notenik">Step 5: Launch Links from within Notenik</h5>
+<p>Once you have your bookmarks entered into Notenik, you can always open that collection, select the bookmark you are interested in, and then launch the link, either via the Toolbar command, or via the command beneath the Note menu, or by using the CMD-L keyboard shortcut. Launching the Link via any of these methods will result in the page opening in your default web browser (Safari, Chrome, etc.) </p>
+<p>But wait, there's more! </p>
+<h5 id="step-6-save-your-favorites-to-html">Step 6: Save your Favorites to HTML</h5>
+<p>Beneath the <code>File</code> menu, there is an option to save your <code>Favorites to HTML</code>. Once you select this command, you'll be prompted to specify a file name and location. Once you've completed this, Notenik will generate a web page for you, containing all of the bookmarks you have tagged as Favorites, grouped neatly into the categories you have specified.  </p>
+<p>After saving this web page for you, Notenik will ask that it be opened by your default web browser. Once this happens, if you look at the URL for the page, you'll see the location you specified expressed as a local file URL, starting with the &#8216;file://&#8217; protocol.  </p>
+<h5 id="step-7-adjust-settings">Step 7: Adjust Settings</h5>
+<p>The defaults are to arrange your favorite links into 4 columns, with each column a maximum of 32 lines long, and each column taking up a screen width of 250 pixels. I've found that these defaults work well for me but, if you'd like to adjust them, you can use the Favorites tab within Notenik's application Preferences to bump them up or down, to suit your tastes (and screen real estate). </p>
+<p>The other settings you might want to adjust are your Display Fonts. You can get to these by clicking on the appropriately named button on your toolbar, or by selecting Display Appearance beneath the Format menu. You can then change the Display font and the display size. These settings will primarily affect the appearance of your Notes on the Display tab (for all of your collections &#8211; these settings are not collection-specific), but these same values will also be used for the webpage generated when you select Favorites to HTML beneath the File menu. </p>
+<p>After making changes to any of these settings, you will need to repeat Step 6, overwriting the file you created previously, in order to see the effects of your changes. </p>
+<h5 id="step-8-set-as-your-browser-home-page">Step 8: Set As Your Browser Home Page</h5>
+<p>Once you have the generated HTML looking the way you would like,  you will want to select the generated page's URL from your browser and copy it. </p>
+<p>Now go into the Preferences for each web browser that you use, and paste this local file address into the field identifying your homepage, or your home button. You might also want to specify that new browser windows and/or tabs will open to your homepage. </p>
+<p>That's it! Now whenever you open your web browser, you'll see a nice clean page showing all of your favorite websites, without any advertising or tracking or animation or javascript or cookies or download delays. Just click on any of the titles to be taken to the corresponding website. And sites will be named and categorized and located in a way that makes sense to you, making it easy for you to find the site you are looking for and open it. </p>
+<p>When you want to add, remove or change the contents of this page, then all you have to do is re-open your Notenik collection of favorites, make the desired changes there, then repeat step # 6, making sure to overwrite the file you created before, by specifying the same location and file name. From that point on, the new page will appear in all of the browsers you have set to this homepage (understanding that you may sometimes have to ask the browser to reload the page, to replace any cached copies it might be holding on to).   </p>
+<hr>
+<p>Next: <a href="make-a-to-do-list.html">Make a To-Do List</a></p>
+</body>
+</html>

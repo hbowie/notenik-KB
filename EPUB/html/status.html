@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Status</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7.7 <a href="task-related-fields.html">Task-Related Fields</a>&nbsp;&#8593;</p>
+<p><strong>7.7.2 Status</strong></p>
+<p>The word <code>status</code> can be used as both a label and a type. </p>
+<p>A Collection should only have a single field of type <code>status</code>. </p>
+<p>The status field is meant to indicate a task's degree of completion, using a standard set of values. A single digit is used to place each status value into an approximate life cycle sequence. An accompanying bit of text is used to convey the human-readable meaning associated with that particular digit. </p>
+<p>When editing, the status field is presented as a pick list, with the user allowed to select from the list of standard values for that Collection. </p>
+<p>For Display purposes, the digit and text are usually shown side-by-side. </p>
+<p>When used as a general sort field, status values will be sorted by their digits. </p>
+<p>When used in a Task sort, status values will be converted to an <code>X</code>, for any numeric value greater than or equal to 6, or a space, for any value less than 6. The intent is to sort completed tasks to the bottom of a list sorted in this fashion. </p>
+<p>Notenik will default to the following standard list of status values.  </p>
+<ul>
+<li>0 - Suggested </li>
+<li>1 - Proposed </li>
+<li>2 - Approved </li>
+<li>3 - Planned </li>
+<li>4 - Active </li>
+<li>5 - Held </li>
+<li>6 - Completed </li>
+<li>7 - Pending Recurs </li>
+<li>8 - Canceled </li>
+<li>9 - Closed </li>
+</ul>
+<p>The text values may be modified by placing a series of integer + label pairs in the Value area of the relevant template file, with separating punctuation. Such a template line might look something like this: </p>
+<pre>
+<code>Status: 1 - Idea; 4 - In Work; 9 - Published;
+</code></pre>
+<p>See these commands beneath the Note menu. Note that these are designed to be used in Display mode, not in Edit mode. </p>
+<ul>
+<li>Toggle Status - Switches from least complete to most, and back again. </li>
+<li>Increment Status - Bump to the next stage in the Collection's lifecycle. </li>
+</ul>
+<p>There's also a command beneath the Collection menu to Close all Completed Tasks, which will look for all tasks with a status of Completed and change them to Closed. </p>
+<p>Look under the File menu for an option to Purge Notes that have been Canceled or Completed. You'll be given the option of discarding the purged Notes, or of copying them to another location. </p>
+<hr>
+<p>Next: <a href="recurs.html">Recurs</a></p>
+</body>
+</html>

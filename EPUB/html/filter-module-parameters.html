@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Filter Module Parameters</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>9.2 <a href="scripting-modules.html">Scripting Modules</a>&nbsp;&#8593;</p>
+<p><strong>9.2.2 Filter Module Parameters</strong></p>
+<p>A filter command may have an action of &#8216;clear&#8217;, &#8216;add&#8217; or &#8216;set&#8217;. </p>
+<h4 id="clear">Clear</h4>
+<p>Clears any filter parameters that might have previously been set, so that new ones can be added. A clear action must be followed by a set action in order to actually remove any previously specified filtering rules. </p>
+<h4 id="add">Add</h4>
+<p>Adds a new filter rule. The object would name the field to be compared as part of the filter. The value field would specify a value to which the object will be compared. And the modifier field specifies the nature of the comparison. </p>
+<p>The following modifiers are valid (with all of the different forms on a line producing identical results). </p>
+<ul>
+<li>
+<p>&#8220;=&#8221;, &#8220;==&#8221;, &#8220;eq&#8221; or &#8220;equals&#8221; </p>
+</li>
+<li>
+<p>&#8220;>&#8221;, &#8220;gt&#8221; or &#8220;greater than&#8221; </p>
+</li>
+<li>
+<p>&#8220;>=&#8221;, &#8220;!&lt;&#8221;, &#8220;ge&#8221; or &#8220;greater than or equal to&#8221; </p>
+</li>
+<li>
+<p>&#8220;&lt;&#8221;, &#8220;lt&#8221; or &#8220;less than&#8221; </p>
+</li>
+<li>
+<p>&#8220;<=&#8221;, "!>&#8220;, &#8221;le" or &#8220;less than or equal to&#8221; </p>
+</li>
+<li>
+<p>&#8220;<>&#8221;, &#8220;!=&#8221;, &#8220;ne&#8221; or &#8220;not equal to&#8221; </p>
+</li>
+<li>
+<p>&#8220;()&#8221;, &#8220;[]&#8221;, &#8220;co&#8221; or &#8220;contains&#8221; </p>
+</li>
+<li>
+<p>&#8220;!()&#8221;, &#8220;![]&#8221;, &#8220;nc&#8221; or &#8220;does not contain&#8221; </p>
+</li>
+<li>
+<p>&#8220;(&lt;)&#8221;, &#8220;[&lt;]&#8221;, &#8220;st&#8221; or &#8220;starts with&#8221; </p>
+</li>
+<li>
+<p>&#8220;!(&lt;)&#8221;, &#8220;![&lt;]&#8221;, &#8220;ns&#8221; or &#8220;does not start with&#8221; </p>
+</li>
+<li>
+<p>&#8220;(>)&#8221;, &#8220;[>]&#8221;, &#8220;fi&#8221; or &#8220;ends with&#8221; </p>
+</li>
+<li>
+<p>&#8220;!(>)&#8221;, &#8220;![>]&#8221;, &#8220;nf&#8221; or &#8220;does not end with&#8221; </p>
+</li>
+</ul>
+<h4 id="set">Set</h4>
+<p>An action of set causes the previously added filtering rules, specified since the last clear action, to be applied. </p>
+<hr>
+<p>Next: <a href="sort-module-parameters.html">Sort Module Parameters</a></p>
+</body>
+</html>

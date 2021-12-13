@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Input Module Parameters</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>9.2 <a href="scripting-modules.html">Scripting Modules</a>&nbsp;&#8593;</p>
+<p><strong>9.2.1 Input Module Parameters</strong></p>
+<p>The action for an input command may be either &#8216;set&#8217; or &#8216;open&#8217;. The set command(s) should precede the open command to which they will apply. </p>
+<h4 id="set">Set</h4>
+<p>When using &#8216;set&#8217;, the variable to be set would be named in the object column, and the value to which it should be set would be supplied in the value column. </p>
+<p>The following variables may be set. </p>
+<ul>
+<li>
+<p>xpltags - Set this variable to &#8216;true&#8217; to create a row for each tag included in the original row's Tags field. A field called &#8216;Tag&#8217; will be added to the data source. Set the variable to &#8216;false&#8217; to bypass tags explosion. </p>
+</li>
+<li>
+<p>dirdepth - The number of levels of folders to be considered, when reading from a data source that might drill down into multiple folders. The top level folder specified counts as 1. </p>
+</li>
+</ul>
+<h4 id="open">Open</h4>
+<p>When using &#8216;open&#8217;, the modifier field specifies the type of data source, and the value field specifies a path to the data source to be opened. </p>
+<p>The object field is normally left blank, but an object of &#8216;merge&#8217; can be used to cause the current data source to be merged with the prior data source, rather than replacing it. </p>
+<p>The following modifier values are valid: </p>
+<ul>
+<li>
+<p>dir - Reads the directory entries from the specified directory (including sub-directories, if the dirdepth variable has been set to a value greater than 1). </p>
+</li>
+<li>
+<p>file - Reads an input text file with columns separated by tabs or commas. </p>
+</li>
+<li>
+<p>markdown-with-headers - Reads a Markdown-formatted text file, and chunks it up into sections based on its headers. The content of each header will be placed in the Title field, the level of each header (1 - 6) will be placed in a Level field, and all text between this header and the next one will be placed into the Body field. </p>
+</li>
+<li>
+<p>notenik-defined - Reads a Notenik collection with its fields defined by a template file. </p>
+</li>
+<li>
+<p>notenik+ - Reads a Notenik collection with a broad set of standard fields. </p>
+</li>
+<li>
+<p>notenik-general - Reads a Notenik Collection with any set of fields. </p>
+</li>
+<li>
+<p>notenik-index - Reads a Notenik Collection using the Index field, and generates one row for each index term, containing the following columns. </p>
+<ul>
+<li>Initial Letter - The first letter of the index term. </li>
+<li>Term - The term being indexed. </li>
+<li>Lower Case Term - The same index term, but converted to lowercase. </li>
+<li>Term Link - A definitive link that has been supplied for this term. </li>
+<li>Page - The Title of the Note containing this index term. </li>
+<li>Page Type - The Type of the Note containing this index term. </li>
+<li>Anchor - </li>
+</ul>
+</li>
+<li>
+<p>notenik-split-tags - Reads a Notenik Collection, adds a &#8220;Tag&#8221; field, and returns one row for each tag (or one row with a blank tag, for Notes with no tags). </p>
+</li>
+<li>
+<p>xlsx - Reads the first table in the specified XLSX file. </p>
+</li>
+</ul>
+<hr>
+<p>Next: <a href="filter-module-parameters.html">Filter Module Parameters</a></p>
+</body>
+</html>

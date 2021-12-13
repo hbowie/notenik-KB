@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lookup</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7.10 <a href="general-purpose-fields.html">General-Purpose Fields</a>&nbsp;&#8593;</p>
+<p><strong>7.10.5 Lookup</strong></p>
+<p>The word <code>lookup</code> can be used as a field type, but is not intended to be used as a field label. </p>
+<p>The intent of a lookup field is to allow one Collection to reference Notes stored in a second Collection. </p>
+<p>The second Collection must have had a shortcut assigned to it, which you can do when you <a href="tailor-collection-preferences.html">tailor Collection preferences</a>. </p>
+<p>Here is an example of how a lookup field might be specified in <a href="the-collection-template-file.html">the Collection template file</a>. </p>
+<pre>
+<code>Author: &lt;lookup: authors> 
+</code></pre>
+<p>The shortcut to the Collection to be referenced must be specified following the colon. In the example above, &#8216;authors&#8217; is the shortcut assigned to the second Collection. </p>
+<p>One must be mindful of <a href="disk-access-permissions.html">Disk Access Permissions</a> when using a field with type <code>lookup</code>. This can probably best be handled by putting the second Collection alongside of the first, within the same parent folder. You can then use the <a href="open-parent-realm.html">Open Parent Realm</a> command to first open the parent, and then from there open the primary Collection (the one that does the referencing). </p>
+<p>When viewing a <code>lookup</code> field on the Display tab, you will notice a couple of special features. </p>
+<ul>
+<li>
+<p>The value stored in the <code>lookup</code> field will be formatted as a link, using Notenik's own <a href="custom-url-scheme.html">Custom URL Scheme</a>. If that value already exists as a <code>Title</code> within the Collection identified by the referenced shortcut, then the link will be formatted to <code>open</code> the referenced Note within the second Collection; if the value does not yet exist within the second Collection, the the link will be formatted to <code>add</code> a Note titled with that value in the second Collection. </p>
+</li>
+<li>
+<p>If there are additional non-blank fields found on the referenced Note in the second Collection, then the lookup value will appear following a disclosure triangle, and clicking on the triangle will disclose the additional available fields from the second Collection. </p>
+</li>
+</ul>
+<p>See <a href="create-a-commonplace-book-with-lookup-fields.html">Create a Commonplace Book with Lookup Fields</a> for an example of how <code>lookup</code> fields might be used. </p>
+<hr>
+<p>Next: <a href="pick-from.html">Pick From</a></p>
+</body>
+</html>

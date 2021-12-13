@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Body</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7.4 <a href="the-basic-set-of-fields.html">The Basic Set of Fields</a>&nbsp;&#8593;</p>
+<p><strong>7.4.5 Body</strong></p>
+<p>The word <code>body</code> can be used as both a label and a type. </p>
+<p>The Body consists of the text of the Note, containing as many words as you like. </p>
+<p>A Collection must have one and only one field of type <code>body</code>, and it should be the <em>last</em> field within a Collection. </p>
+<p>The body field consists of free-form text: in other words, this is the stuff that would colloquially be considered a <em>note</em>. </p>
+<p>When parsing a Notenik text file, the body field has the special distinction of allowing the inclusion of lines that might otherwise be interpreted as additional fields (since Notenik knows that no other legitimate field definitions are allowed to follow the body entry). </p>
+<p>When editing, the body field will appear as a multi-line text field, and will take up whatever available space is left after  the edit widgets for other fields have been presented. </p>
+<p>For Display purposes, the body field will be run through a Markdown parser before presentation. </p>
+<hr>
+<p>Next: <a href="fields-to-assist-with-note-linking.html">Fields to Assist with Note Linking</a></p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Generate a Note Table of Contents</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>6.2 <a href="notenik-markdown-parser.html">Notenik Markdown Parser</a>&nbsp;&#8593;</p>
+<p><strong>6.2.10 Generate a Note Table of Contents</strong></p>
+<p>Index: Table of Contents generation; </p>
+<p>As an extension to the original Markdown spec from John Gruber, a Table of Contents for a single Note's <a href="body.html">body</a> field can be generated dynamically. </p>
+<p>The generated HTML will display the ToC using unordered list tags, nesting where appropriate. Each ToC entry will link to its corresponding heading, relying on <a href="heading-id-generation.html">Heading ID Generation</a> to establish the targets for the links. </p>
+<p>Although dynamic Table of Contents generation for Markdown is a feature of great interest to many Markdown authors, there is unfortunately no standard syntax for extending Markdown to generate such a thing. </p>
+<p>Notenik currently recognizes several different ways of invoking this feature. </p>
+<ol>
+<li>
+<p>Place the literal <code>[toc]</code> on a line by itself. This follows the <a href="https://support.typora.io/Markdown-Reference/#table-of-contents-toc">Typora</a> precedent. </p>
+</li>
+<li>
+<p>Place the literal <code>{:toc}</code> on a line by itself. This follows the <a href="https://kramdown.gettalong.org">kramdown</a> precedent. </p>
+</li>
+<li>
+<p>Place the literal <code>{{toc}}</code> on a line by itself. This follows the <a href="https://fletcher.github.io/MultiMarkdown-6/MMD_Users_Guide.html">MultiMarkdown</a> precedent. </p>
+</li>
+</ol>
+<p>The resulting table will contain all of the headings found in the Markdown following the <code>toc</code> line itself. </p>
+<p>If you wish to limit the heading levels included in the table of contents, place one or two digits following the <code>toc</code> literal. The first digit will be used as the logically <em>highest</em> (but numerically lowest) heading level to be included in the table of contents. For example, the digit &#8216;2&#8217; will exclude level 1 headings from the table. The second digit will be used as the logically <em>lowest</em> (but numerically highest) heading level to be included. </p>
+<p>For an example, see the following line: </p>
+<pre>
+<code>{{toc:2-3}}
+</code></pre>
+<p>This line would generate a Table of Contents including heading levels 2 and 3. </p>
+<p>The following would be excluded: </p>
+<ul>
+<li>Level 1 Headings, </li>
+<li>Level 4 - 6 Headings, </li>
+<li>Any Level 2 - 3 Headings <em>preceding</em> the <code>toc</code> line. </li>
+</ul>
+<hr>
+<p>Next: <a href="generate-a-collection-table-of-contents.html">Generate a Collection Table of Contents</a></p>
+</body>
+</html>

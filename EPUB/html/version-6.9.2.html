@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 6.9.2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.12 Version 6.9.2</strong></p>
+<p>Date: 13 Aug 2021</p>
+<p>Released on August 13, 2021. </p>
+<h5 id="corrected-two-markdown-parsing-bugs">Corrected Two Markdown Parsing Bugs</h5>
+<p>Corrected a couple of bugs related to Markdown parsing. </p>
+<ul>
+<li>
+<p>The App Preference setting to select the desired Markdown parser was not working &#8211; Notenik's parser was always being used, no matter what the setting. This has been corrected to once again allow use of Down or Ink instead of Markdown's own parser. </p>
+</li>
+<li>
+<p>Hash characters (also called pound signs) were sometimes causing lines to be formatted as headings when they should not have been. A couple of changes were made to prevent this from happening. The first change was a straight-up bug fix. The second change was a matter of better <a href="heading-identification.html">heading identification</a>. If a line starts with a single hash mark, and is immediately followed by a character representing a digit (with no intervening space), then the hash mark will be treated as ordinary text, rather than the beginning of a heading line. </p>
+</li>
+</ul>
+<hr>
+<p>Next: <a href="version-6.9.0.html">Version 6.9.0</a></p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 3.2.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.55 Version 3.2.0</strong></p>
+<p>Released on 22 Mar 2020 </p>
+<h5 id="notenik-now-available-for-high-sierra">Notenik Now Available for High Sierra</h5>
+<p>The target version for macOS is now 10.13. It was previously set to 10.14. Early reports indicates it works just fine on the earlier version of macOS. </p>
+<h5 id="bug-fixes-for-3.2.0">Bug Fixes for 3.2.0</h5>
+<p>The following bugs were fixed in this release. </p>
+<ul>
+<li>The sharing function now respects a request to share the body only in HTML; previously, the entire Note was shared, disregarding the user's selection. </li>
+</ul>
+<h5 id="third-markdown-parser-added">Third Markdown Parser Added</h5>
+<p>Notenik now has its own internal Markdown parser. I tried to implement pretty much everything in the original <a href="https://daringfireball.net/projects/markdown/">Markdown</a> and <a href="https://daringfireball.net/projects/smartypants/">SmartyPants</a> specs from John Gruber. The other two parsers are still available as options, but the Notenik parser is now the default, since it is now the only way to add links between Notes. </p>
+<hr>
+<p>Next: <a href="version-3.1.0.html">Version 3.1.0</a></p>
+</body>
+</html>

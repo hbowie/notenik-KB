@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Short ID</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7.8 <a href="web-making-fields.html">Web-Making Fields</a>&nbsp;&#8593;</p>
+<p><strong>7.8.6 Short ID</strong></p>
+<p>The phrase <code>Short ID</code> can be used as both a label and a type. </p>
+<p>A Collection should only have one field of type <code>Short ID</code>. </p>
+<p>A Short ID value is assigned automatically by Notenik, and is not user-editable. </p>
+<p>The intent is to provide a string short enough to be easily shared, yet something that still provides a unique identifier for each Note in a Collection. </p>
+<p>The Short ID is formed by taking the first one or two letters from the beginning of each word in the Note's <a href="title.html">Title</a> field. </p>
+<p>Notenik's algorithm will try to form a Short ID between four and eight characters in length, but may create a longer value if that is necessary to achieve uniqueness. </p>
+<p>One potential use of a Short ID field could be the generation of HTML pages that redirect readers to the original page, with the Short ID being used to form a file name for the redirecting pages, and with the full title being used to form the file names for the pages containing the actual intended content.  </p>
+<p>Here is one such example: <a href="https://practopian.org/s/ckvcb.html">practopian.org/s/ckvcb.html</a>. </p>
+<hr>
+<p>Next: <a href="fields-useful-for-reviews-citations-and-quotations.html">Fields Useful for Reviews, Citations and Quotations</a></p>
+</body>
+</html>

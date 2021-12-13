@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>What We Mean by Label and Type</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7 <a href="field-labels-and-types.html">Field Labels and Types</a>&nbsp;&#8593;</p>
+<p><strong>7.1 What We Mean by Label and Type</strong></p>
+<p>The first thing to explain, when it comes to field labels and field types, is that Notenik sees these identifiers only through what we might call a lowest common denominator representation. Such a representation is formed by changing all letters to lower case, and removing all spacing and punctuation. </p>
+<p>So whether you type a field label, or see it referred to, as <code>Time Stamp</code>, <code>Timestamp</code>, <code>time-stamp</code> or <code>timestamp</code>, it makes no difference to Notenik: all of these boil down to the same internal representation of <code>timestamp</code>, and thus all will be treated identically. </p>
+<p>A field <em>label</em> is the thing you see identifying a particular field for each Note. </p>
+<p>A field <em>type</em> identifies a set of behaviors and representations that will be available for a particular field. </p>
+<p>To keep things simple, Notenik will typically infer a field type based on its label. And, in fact, many field types exactly match the labels typically used to invoke a field of that type. So, for example, a field with a label of <code>Link</code> will typically also have a field type of <code>link</code>.  </p>
+<p>Every field within a Collection must have its own unique label. However, you can often have multiple fields with different labels but of the same type. </p>
+<p>Both labels and types can be specified within a Collection's template file. For example, consider the following line appearing at the top of a Collection's template file: </p>
+<pre>
+<code>Name: &lt;title>
+</code></pre>
+<p>Such a line would be used to specify a field with the label <code>Name</code>, and of the type <a href="title.html">Title</a>. </p>
+<p>Notenik only supports a limited set of field types, and all fields, no matter how they are labeled, will be assigned one of these predetermined types. The default will be a simple <a href="string.html">String</a>. </p>
+<p>A label matching the desired type is the easiest way to create a field of that type; however, by specifying an explicit type within a Collection's template file (as in the example above), any type can be assigned to any label. </p>
+<p>You can make up your own field labels &#8211; you're not constrained by the default set offered by Notenik. You're only constrained by a couple of rules: </p>
+<ol>
+<li>A field label may not consist of more than 48 characters; </li>
+<li>A field label may not contain special characters, other than dashes and underscores. </li>
+</ol>
+<p>Each field label/type is discussed below, grouped into logical collections. </p>
+<hr>
+<p>Next: <a href="functionality-associated-with-field-types.html">Functionality Associated with Field Types</a></p>
+</body>
+</html>

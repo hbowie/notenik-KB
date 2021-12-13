@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 7.3.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.7 Version 7.3.0</strong></p>
+<p>Date: 30 Sep 2021</p>
+<p>Released on September 30, 2021 </p>
+<h5 id="improved-seq-and-level-defaults-for-drag-and-drop">Improved Seq and Level Defaults for Drag and Drop</h5>
+<p>When pasting an item (such as a URL) into a List sorted by Seq, and when the drop point is between existing rows, Notenik will now do a better job of setting reasonable defaults for both Seq and Level for the new Note. </p>
+<h5 id="improved-recognition-of-parent-realm-folders">Improved Recognition of Parent Realm Folders</h5>
+<p>Notenik allows you to drag a folder to be opened onto its app icon in the dock. That folder can be either a Notenik Collection or a parent folder containing Notenik Collections. Before this change, if a folder contained a single text file named <code>robots.txt</code>, then that would be treated as a Note, and so the folder would be opened as a Collection. After this change, such a folder will be more productively treated as the object of an <a href="open-parent-realm.html">Open Parent Realm</a> command. </p>
+<h5 id="parent-realm-folders-now-appear-on-open-recent-menu">Parent Realm Folders Now Appear on Open Recent Menu</h5>
+<p>After you execute the <a href="open-parent-realm.html">Open Parent Realm</a> command (either explicitly via the <code>File</code> menu, or implicitly by dragging a folder onto the app icon), the Parent Realm folder will now be added to the the <code>Open Recent</code> menu, making it available to be easily reopened later. </p>
+<h5 id="streamlined-new-collection-process">Streamlined New Collection process</h5>
+<p>It seemed a bit confusing to have so many different options for creating a new Collection, so I've combined them. Now there is just one <code>File</code> menu option, that says <code>New Collection&#8230;</code>. This option walks you through several screens where you can pick a location, pick a name, and pick a Collection type, and then shows you the Collection Preferences screen where you can make any final adjustments to the configuration of your New Collection. </p>
+<h5 id="saving-security-scoped-bookmarks">Saving Security-Scoped Bookmarks</h5>
+<p>Notenik has been enhanced to try to extend the life of access permissions for Collections assigned Shortcuts, so as to reduce the number of times a user has to re-authorize access to a folder. See <a href="tailor-collection-preferences.html">Tailor Collection Preferences</a> for info on assigning a Shortcut to a Collection. </p>
+<h5 id="undo-provided-for-note-deletions">Undo Provided for Note Deletions</h5>
+<p>If you delete a Note by mistake, then you can use the Undo function (beneath the Edit menu) to undo the deletion, with the only caveat being that any note attachments will not be restored. </p>
+<hr>
+<p>Next: <a href="version-7.2.0.html">Version 7.2.0</a></p>
+</body>
+</html>

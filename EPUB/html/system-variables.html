@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>System Variables</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>8.2 <a href="merge-variables.html">Merge Variables</a>&nbsp;&#8593;</p>
+<p><strong>8.2.1 System Variables</strong></p>
+<p>The following special variables are predefined and available for substitution, no matter what data source is being used. </p>
+<dl>
+<dt>datafilename </dt>
+<dd>The name of the data source being used. </dd>
+<dt>dataparent </dt>
+<dd>The path to the enclosing folder for the current data file. This can be used as part of an output command to specify an output file in the same folder as the data file. </dd>
+<dt>nobr </dt>
+<dd>Placing the variable &#8216;nobr&#8217; anywhere on a line will cause that line to be written out without a trailing line break. The nobr variable itself will be removed from the line, without being replaced. </dd>
+<dt>parentfolder </dt>
+<dd>The lowest-level folder immediately enclosing the data file. </dd>
+<dt>relative </dt>
+<dd>If a Web Root directory has been specified, then this variable will be replaced by the relative path from the output file being created back to the root directory. </dd>
+<dt>templatefilename </dt>
+<dd>The name of the template file (not including the path to the template file). </dd>
+<dt>templateparent </dt>
+<dd>The entire parent path to the template file, excluding the file name itself. </dd>
+<dt>today </dt>
+<dd>The current date, at the time that template output is being generated. </dd>
+</dl>
+<hr>
+<p>Next: <a href="variable-modifiers.html">Variable Modifiers</a></p>
+</body>
+</html>

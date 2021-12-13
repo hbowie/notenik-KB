@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Date</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7.7 <a href="task-related-fields.html">Task-Related Fields</a>&nbsp;&#8593;</p>
+<p><strong>7.7.1 Date</strong></p>
+<p>The word <code>date</code> can be used as both a label and a type. </p>
+<p>In addition to <code>date</code> itself, this field type will be inferred for any label containing the consecutive letters <code>date</code>. </p>
+<p>Add a Date field to a Collection in order to track the date each note was officially published, or a due date for each note. A date may be expressed in any of a number of common formats. It may also be a partial date, such as a year, or a year and a month. It may or may not contain a specific time of day. </p>
+<p>A Collection may have one or more fields of type <code>date</code>. The first such field will be used as the primary date field for the Note when it comes to any operations (sorting, recurrence, etc.) that assume a single date field. </p>
+<p>A field of type <code>date</code> typically contains a year, a month and a day of the month. A specific time of day is not meant to be included. If an approximate date is intended, then the day may be omitted, or the month and the day. </p>
+<p>When editing, a date field can be entered as free-form text. Notenik will attempt to parse any reasonable date expression into a year, month and day for internal manipulation. Other widgets may be available to set the field to Today's date, to allow the user to pick a date from a calendar, and/or to allow them to increment or decrement the individual date components (year, month and day). </p>
+<p>For Display purposes, the day of the week will generally be shown alongside the year, month and day of month. </p>
+<p>When used as a sort field, date values will be sorted by year, month and day, no matter how they were originally entered. </p>
+<p>Note that the Date field has several helpful editing tools. You can enter a free-form date yourself, or you can use a Calendar widget to pick dates from a Calendar. You can use the Today button to set the date to Today's date, and you can use the Recurs button to apply the Recurs rule, if one has been supplied. </p>
+<p>If you need to export a Collection in a format suitable for sorting by Date, then you may wish to use the Standardize Dates to YMD command under the Collection menu to make sure that all dates are stored in a yyyy-mm-dd format suitable for sorting. </p>
+<hr>
+<p>Next: <a href="status.html">Status</a></p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Wiki-Style Links - W</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>8.3 <a href="variable-modifiers.html">Variable Modifiers</a>&nbsp;&#8593;</p>
+<p><strong>8.3.30 Wiki-Style Links - W</strong></p>
+<p>If your input is coming from a Collection using wiki-style inter-note links (links to other Notes formed by placing the Title of the target note within double square brackets), then you will probably wish to convert these to functional links in your output. </p>
+<p>You can accomplish this by using the letter &#8220;W&#8221; as a variable modifier to modify the Markdown code containing inter-note links. The &#8220;W&#8221; must then be followed by one of the following values. </p>
+<ul>
+<li>
+<p>1 - The digit &#8216;1&#8217; will cause the target Note title to be converted to a conventional, universal file name, changing spaces to dashes, removing any odd characters, making all letters lower-case, and converting white space to hyphens. The &#8216;.html&#8217; file extension will then be appended as a suffix. This option can be used when each note has its own page. </p>
+</li>
+<li>
+<p>2 - The digit &#8216;2&#8217; will cause the Note title to be similarly converted, but then have a &#8216;#&#8217; prepended, with no suffix added. This option can be used when each note has its own heading within the same page. </p>
+</li>
+</ul>
+<p>Note that the &#8216;W1&#8217; / &#8216;W2&#8217; option should be specified before the letter &#8216;O&#8217; requesting the conversion from Markdown to HTML. </p>
+<hr>
+<p>Next: <a href="xml-x.html">XML - X</a></p>
+</body>
+</html>

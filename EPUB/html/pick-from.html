@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Pick From</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7.10 <a href="general-purpose-fields.html">General-Purpose Fields</a>&nbsp;&#8593;</p>
+<p><strong>7.10.6 Pick From</strong></p>
+<p>This field type, when accompanied by a series of starting values, can be used to offer the user a drop-down menu allowing a choice from a set of previously used values, or the entry of a new value, which will then be added to the list. (Such a user interface widget is often referred to as a <em>combo box</em>.) </p>
+<p>Here's an example of how you would do this in a Collection's template: </p>
+<pre>
+<code>Type: &lt;pick-from: static, post>
+</code></pre>
+<p>In other words, enter the usual field label, followed by a colon, and then follow that with the literal &#8216;pick-from: &#8217;, followed by the possible values, separated using commas or semicolons. </p>
+<hr>
+<p>Next: <a href="string.html">String</a></p>
+</body>
+</html>

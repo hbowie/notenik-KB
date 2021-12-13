@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Level</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7.6 <a href="fields-for-sequencing-and-outlining.html">Fields for Sequencing and Outlining</a>&nbsp;&#8593;</p>
+<p><strong>7.6.2 Level</strong></p>
+<p>The word <code>level</code> can be used as both a label and a type. </p>
+<p>In addition to <code>level</code> itself, this field type will be inferred for field labels equal to any of the following: </p>
+<ul>
+<li>depth </li>
+</ul>
+<p>A Collection is not expected to have more than one field of type <code>level</code>. </p>
+<p>The level field is meant to indicate each particular Note's depth within an implied tree structure made up of all the Notes in the Collection. </p>
+<p>A level value is represented by a single digit, and is typically restricted to the range 1 - 6. </p>
+<p>A level field is typically used in combination with a <a href="seq.html">Seq</a> field. </p>
+<p>When viewing a Collection containing a level field, and when viewing the List of Notes sorted by &#8216;Seq + Title&#8217;, the title of each Note will be indented to indicate the level of each particular Note within the implied outline. </p>
+<p>One way to use a level field, when generating HTML, is to generate a heading tag using the Note level as the numeric portion of the tag. </p>
+<p>A brief text label may also be associated with each possible numeric value. </p>
+<p>When editing, the level field is presented as a pick list, with the user allowed to select from the list of standard values for that Collection. </p>
+<p>For Display purposes, the digit and text are usually shown side-by-side. </p>
+<p>When used as a general sort field, level values will be sorted by their digits. </p>
+<p>The text values may be modified by placing a series of integer + label pairs in the Value area of the relevant template file, with separating punctuation. Such a template line might look something like this: </p>
+<pre>
+<code>Level: &lt;level: 1 - Book Title; 2 - Section; 3 - Chapter; >
+</code></pre>
+<hr>
+<p>Next: <a href="task-related-fields.html">Task-Related Fields</a></p>
+</body>
+</html>

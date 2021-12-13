@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>definegroup command</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>8.4 <a href="merge-commands.html">Merge Commands</a>&nbsp;&#8593;</p>
+<p><strong>8.4.5 definegroup command</strong></p>
+<p>This is the first of several commands that define key fields and then conditionally write output when there is a break on any of those fields. </p>
+<p>Up to ten group break fields can be defined. Each must be assigned a number from 1 to 10. Numbers should be assigned sequentially beginning with 1. </p>
+<p>Input data should normally be sorted by the same fields used in any definegroup commands. </p>
+<p>A definegroup command should normally follow a <a href="nextrec-command.html">nextrec command</a>. Each time that a definegroup command is encountered, Notenik stores the value of the variable, and checks for a change in the value for the specified group number. </p>
+<p>Definegroup commands should precede ifendgroup and ifnewgroup commands, and should generally be specified in ascending order by group number. </p>
+<p>The definegroup command has two operands. </p>
+<ul>
+<li>
+<p>Group Number. This must be a number from 1 to 10. Numbers should be assigned sequentially beginning with 1. Lower-numbered groups are considered more major than higher-numbered groups, in the sense that lower-numbered group breaks will automatically trigger higher-numbered group breaks. </p>
+</li>
+<li>
+<p>Variable Name. This is the name of the key field variable. The variable should be surrounded by the normal variable delimiters, so that Notenik will see, not the name of the variable, but its current value. </p>
+</li>
+</ul>
+<hr>
+<p>Next: <a href="ifendgroup-command.html">ifendgroup command</a></p>
+</body>
+</html>

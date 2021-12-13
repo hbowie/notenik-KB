@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 7.5.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.4 Version 7.5.0</strong></p>
+<p>Date: 23 Oct 2021</p>
+<p>Released on 23 Oct 2021 </p>
+<h5 id="advanced-search-option-added">Advanced Search Option Added</h5>
+<p>An Advanced <a href="search.html">Search</a> Option has been added. This allows the user to select which of several common fields should be searched, and whether the search is case-sensitive or not. This option can be found beneath the new <code>Nav</code> menu. </p>
+<h5 id="rearranged-menu-items">Rearranged Menu Items</h5>
+<p>The addition of the new Advanced Search option caused me to rethink the way Notenik's menus were evolving, resulting in the following changes. </p>
+<ul>
+<li>The <a href="view-your-notes-as-a-list.html">Sort Menu</a> can now be found as a submenu beneath the <code>Collection</code> menu. </li>
+<li>The new <code>Nav</code> menu now groups various options for navigating through a Collection, including the new Advanced <a href="search.html">Search</a> option. The existing options now found here were previously available beneath the <code>Note</code> menu. </li>
+<li>The <code>Format</code> menu was removed entirely, and its only entry, <code>Display Appearance</code> can now be found just below the application Preferences, within the <code>Notenik</code> menu. </li>
+</ul>
+<h5 id="added-a-new-field-label-and-type-of-class">Added a New Field Label and Type of Class</h5>
+<p>The <a href="class.html">class</a> field is meant to indicate each particular Note's role in terms of its relationship to other Notes in the Collection. When editing, the user will be able to select a Class value from a predetermined list. The usage for this new field is frankly experimental at this point, and will likely continue to evolve in future releases. </p>
+<h5 id="reconfigured-collection-preferences">Reconfigured Collection Preferences</h5>
+<p>The list of possible fields was getting too long to continue to display in one column. And the two tabs weren't really helping. So I eliminated the tabbed display, and arranged the field list into two adjacent columns. Hopefully this will be a bit easier to use. </p>
+<h5 id="closing-a-window-now-saves-edits">Closing a Window Now Saves Edits</h5>
+<p>Prior to this update, if you had the Edit tab open, and then quit the app, or closed the window, any edits you had made would be lost. They are now saved automatically. </p>
+<h5 id="increased-max-seq-segments-sorting-depth">Increased Max Seq Segments Sorting Depth</h5>
+<p>When you specify a <a href="seq.html">Seq</a> value containing periods (aka &#8220;dots&#8221;) or dashes, Notenik will separate each segment between such punctuation, and then pad each segment separately for up to 8 positions, to make sure that Seq values sort in a &#8220;natural&#8221; order. Previously Notenik performed this padding only on the first four segments of a multi-segment Seq value; Notenik now performs this padding for as many as six separate segments (resulting in sensible sorting when five or six such segments are used). </p>
+<hr>
+<p>Next: <a href="version-7.4.3.html">Version 7.4.3</a></p>
+</body>
+</html>

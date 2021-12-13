@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 7.7.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.2 Version 7.7.0</strong></p>
+<p>Date: 30 Nov 2021</p>
+<p>Released on 30 Nov, 2021 </p>
+<h5 id="added-class-templates">Added Class Templates</h5>
+<p>The functionality of the <a href="class.html">Class</a> field type has been expanded to include the use of a special template file for each different allowable class value within a Collection. These new Class Template files can be used for two different purposes: a) to limit the available field labels relevant to the Notes of a specified class; and b) to supply default values for some of the fields, when creating a new Note of the specified class. </p>
+<h5 id="added-a-new-note-w-options-command">Added a <code>New Note w/Options</code> command</h5>
+<p>Use the <a href="new-note-with-options.html">New Note with Options</a> command, beneath the <code>Note</code> menu, to inteliigently prepopulate some of the fields on the Edit tab. </p>
+<h5 id="added-the-attribution-field">Added the Attribution Field</h5>
+<p>The new <a href="attribution.html">Attribution</a> field can be used to identify the source of a quote, and allows for Markdown formatting, including use of <a href="wiki-style-links.html">Wiki Style Links</a>. </p>
+<h5 id="removed-calculated-fields-from-the-edit-tab">Removed Calculated Fields from the Edit Tab</h5>
+<p>The Edit Tab should no longer show fields that are not user-editable. This can make the Edit Tab a lot cleaner, even without using the new <a href="class.html">Class</a> Templates. </p>
+<h5 id="better-handling-of-collections-with-repeated-shortcuts">Better Handling of Collections with Repeated Shortcuts</h5>
+<p>If you end up somehow creating two Collections that have the same Collection shortcut, then Notenik should now do a better job of ensuring that Collections within the current parent realm are the ones used, rather than other Collection(s) opened earlier. </p>
+<h5 id="improvements-to-class-formatting">Improvements to Class Formatting</h5>
+<p>Some improvements have been made to the ways in which the <a href="special-class-values.html">special class values</a> will be displayed. </p>
+<h5 id="improvements-to-wikipedia-link-formatting">Improvements to Wikipedia Link Formatting</h5>
+<p>If a Note's title contains a comma followed by a space (as in &#8220;Bowie, Herb&#8221;), then a request to format a Wikipedia Link from the title will result in the text preceding the comma being swapped with the text following the comma, and the comma being removed (as in &#8220;Herb Bowie&#8221;). </p>
+<hr>
+<p>Next: <a href="version-7.6.0.html">Version 7.6.0</a></p>
+</body>
+</html>

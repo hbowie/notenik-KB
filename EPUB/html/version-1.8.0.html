@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 1.8.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.69 Version 1.8.0</strong></p>
+<p>Released on 06 Nov 2019 </p>
+<h5 id="folder-open-thru-finder-drag-and-drop-enabled">Folder Open thru Finder Drag-and-Drop Enabled</h5>
+<p>Folder(s) may now be opened by dragging them onto the Notenik icon in the Finder. Notenik will respond in one of four ways to each Finder item. </p>
+<ul>
+<li>If a folder contains an existing Notenik Collection, then that Collection will be opened in a new window. </li>
+<li>If a folder is empty, then it will be initialized as a new Notenik Collection, and opened in a new window. </li>
+<li>if the dragged item is not a folder at all, then an error message will be displayed. </li>
+<li>Any other folder will be treated as a parent realm, and the resulting window will show Collections and Scripts found within that realm. </li>
+</ul>
+<h5 id="changed-deployment-target-back-to-10.14-to-allow-operation-on-mojave">Changed Deployment Target Back to 10.14 to Allow Operation on Mojave</h5>
+<p>The last release inadvertently made Notenik unavailable to Mojave users. </p>
+<h5 id="reports-option-added-to-generate-sample-report-templates">Reports Option Added to Generate Sample Report Templates</h5>
+<p>When the user pulls down the Reports Action menu from the Toolbar, the first two items they see will now be: </p>
+<ul>
+<li>Generate Report Sample in HTML </li>
+<li>Generate Report Sample in Markdown </li>
+</ul>
+<p>Selecting one of these will then cause Notenik to create a reports folder for the collection, if one does not already exist, and then to create a report template containing all of the Collection's fields in a basic layout. The user may then modify this template in order to further customize the output formatting. </p>
+<hr>
+<p>Next: <a href="version-1.7.0.html">Version 1.7.0</a></p>
+</body>
+</html>

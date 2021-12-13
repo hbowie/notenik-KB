@@ -1,0 +1,27 @@
+Title:  Include Children
+
+Tags:   levels-outline.7 Field Labels and Types.6 Fields for Sequencing and Outlining.3 Include Children, streamlined reading
+
+Timestamp: 20211212222207
+
+Seq:    7.6.3
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body: 
+
+The phrase `Include Children` can be used as both a label and a type. 
+
+This field type is only meaningful when you have turned on [[streamlined reading]].
+
+When this field is set to a non-blank value for a parent Note, then that Note's children (following notes with a higher/deeper level) will be displayed on the parent Note's page, instead of appearing in the reading sequence as separate pages. The Next field at the bottom of the display will then point to the next Note following the children. 
+
+The value selected for the parent's `Include Children` field will determine how the children are displayed. 
+
++ `details` -- The title of each child Note will be listed, with a disclosure triangle next to it, and with the child Note's content revealed when the disclosure triangle is clicked. 
+
++ `h1` ... `h6` -- The title of each child Note will be displayed using the indicated heading level. 
+
++ `ol`, `ul` or `dl` -- The child Notes will be displayed as list items beneath the parent Note.

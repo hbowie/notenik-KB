@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Make a To-Do List</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>10 <a href="putting-it-all-together.html">Putting It All Together</a>&nbsp;&#8593;</p>
+<p><strong>10.3 Make a To-Do List</strong></p>
+<p>I like to keep a &#8220;to do&#8221; list to help remind me of various tasks I'd like to perform. However, I don't want to invest a great deal of time or money in a specialized tool that is overly fiddly. So I use Notenik to track these sorts of things. </p>
+<h3 id="step-1-create-a-new-collection">Step 1: Create a New Collection</h3>
+<p>Name the folder &#8216;To Do&#8217; or &#8216;Tasks&#8217; or something similar. Locate the new folder in your Dropbox folder or in iCloud drive if you'd like to sync this Collection to the cloud and/or to other devices. Or put it in your Documents folder: anyplace that makes sense to you is fine. </p>
+<h3 id="step-2-configure-with-additional-fields">Step 2: Configure with Additional Fields</h3>
+<p>Once you've selected the folder for the Collection, Notenik will present you with the Preferences for this Collection. In addition to the usual four fields (Title, Tags, Link and Body) you'll want to select the <a href="status.html">Status</a>, <a href="date.html">Date</a> and <a href="recurs.html">Recurs</a> fields by checking the boxes next to these Field names. You might also wish to include the <a href="seq.html">Seq</a> field if you'd like to identify a priority for each item. Click OK once you're done. </p>
+<h3 id="step-3-start-adding-some-tasks">Step 3: Start Adding Some Tasks</h3>
+<p>Enter a unique title for each task: something brief that will serve to identify the action.  </p>
+<p>Use the Link field if there's a website involved in completing this task; leave it blank otherwise. </p>
+<p>Use the Tags field if you'd like to categorize your actions; this will allow you to see them grouped by category on the Tags tab. </p>
+<p>Enter any details about the task in the Body field. Feel free to use the <a href="https://daringfireball.net/projects/markdown/syntax">Markdown syntax</a> to format these details. </p>
+<h3 id="step-4-enter-target-dates-for-completion">Step 4: Enter Target Dates for Completion</h3>
+<p>You may use the Date field to enter the date on which you wish to complete this task, or on which you wish to be reminded about it. You can enter a complete or partial date (just the year, or the year and month) in pretty much any recognizable format. Hit the Calendar button to be presented with an easily navigable calendar you can use to select your desired date. Hit OK when done. </p>
+<h3 id="step-5-sort-the-list-in-tasks-by-date-sequence">Step 5: Sort the List in Tasks by Date Sequence</h3>
+<p>Select the Tasks by Date option from the Sort menu, or use the handy keyboard shortcut displayed in the menu dropdown. The earliest dates will now sort to the top of the list. Note that you can change the sort sequence to another option whenever you find it useful: it's not a permanent selection, though your last choice for a Collection will be remembered the next time you open it. </p>
+<h3 id="step-6-enter-recurs-info">Step 6: Enter Recurs Info</h3>
+<p>If a task is something to be done on a regular basis, then you can enter the frequency of occurrence in the Recurs field. You can use most simple natural language constructs in this field: things like &#8216;every week&#8217; or &#8216;every month&#8217; should work as expected. </p>
+<h3 id="step-7-keep-the-status-field-up-to-date">Step 7: Keep the Status field Up-To-Date</h3>
+<p>Each item's status can be set via the available dropdown menu on the Edit tab. The default status values run from &#8216;Idea&#8217; through &#8216;Closed&#8217; in what is meant to be an approximate lifecycle sequence. Status values of &#8216;Completed&#8217; on up will sort to the bottom of the Tasks by Date sequence, and will be marked with an &#8216;X&#8217; on the List to indicate their completion. If you'd like to modify the values available on the Status dropdown, then make <a href="use-of-a-text-editor.html">use of a text editor</a> to supply your desired values as indicated in the description of the <a href="status.html">status</a> field. </p>
+<h3 id="step-8-make-it-essential">Step 8: Make It Essential</h3>
+<p>You may wish to use the option under the File menu to Make This Collection Essential. This means that it will open automatically whenever you launch Notenik, and that you can always get back to it via a quick keyboard shortcut. </p>
+<h3 id="step-9-memorize-a-few-handy-shortcuts">Step 9: Memorize a Few Handy Shortcuts</h3>
+<p>Notenik has a few keyboard shortcuts that can prove particularly handy when managing a list of tasks. </p>
+<ul>
+<li>CMD-E &#8211; Open Essential Collection &#8211; This will open your Essential Collection, or take you back to its window (from another Notenik collection window) if it's already open. </li>
+<li>CMD-I &#8211; Increment &#8211; If the Note has a Date, and the List is sorted by Date, then this command will bump up the Date value by one day. </li>
+<li>CMD-K &#8211; Close Note &#8211; If the selected Note has a Recurs value, then this command will execute the Recurs logic for the Note, bumping up the Date by one cycle. If the selected Note does not have a Recurs value, then the Note's Status field will be set to Completed. </li>
+<li>CMD-U &#8211; Catch Up Daily Tasks &#8211; If you have one or more tasks with Recurs values of &#8216;Daily&#8217;, then this command will bring all of their Date values up to the current date. </li>
+</ul>
+<hr>
+<p>Next: <a href="assemble-an-outline.html">Assemble an Outline</a></p>
+</body>
+</html>

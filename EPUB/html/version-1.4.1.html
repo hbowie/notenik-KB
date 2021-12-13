@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 1.4.1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.73 Version 1.4.1</strong></p>
+<p>Released on 08 Sep 2019 </p>
+<h5 id="added-checks-before-completing-save-as">Added Checks Before Completing Save As</h5>
+<p>The Save As command relies on the user creating a new folder to receive the copied contents of the current Collection. It then deletes the folder in order to take advantage of a native macOS command to copy the existing folder to the new location. However, this logic would allow the user to select an existing folder, containing other contents, and would then delete it. Notenik has been modified to make sure that the requested recipient of a Save As command is actually empty, before copying the old Collection to that (presumed new) location. The program is also now making an additional check to ensure the user doesn't try to make his entire Desktop folder a Notenik Collection (even if it is empty). </p>
+<hr>
+<p>Next: <a href="version-1.4.0.html">Version 1.4.0</a></p>
+</body>
+</html>

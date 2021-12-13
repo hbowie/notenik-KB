@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 2.3.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.64 Version 2.3.0</strong></p>
+<p>Released on 10 Dec 2019 </p>
+<h5 id="fixed-treatment-of-teaser-field">Fixed Treatment of Teaser Field</h5>
+<p>Modified to treat the Teaser field as longtext. </p>
+<h5 id="increased-tolerance-for-notes-with-alternative-formatting">Increased Tolerance for Notes with Alternative Formatting</h5>
+<p>Some note-takers start their text files with lines such as the following. </p>
+<pre>
+<code># Note Title
+#tag
+Body starts here. 
+</code></pre>
+<p>Notenik will now recognize the first line of such a file as containing the Note's title, and will recognize the second line as containing a tag for the Note. </p>
+<p>Also, bracket characters and parentheses preceding a colon will now indicate to Notenik that such text should not be treated as a field label. </p>
+<h5 id="added-timestamp-field">Added Timestamp Field</h5>
+<p>A Timestamp field can be used to generate a timestamp for each note, in a &#8220;yyyyMMddkkmmss&#8221; format, consisting of: </p>
+<ul>
+<li>4-digit year </li>
+<li>2-digit month </li>
+<li>2-digit day of month </li>
+<li>hour of day, using a 24-hour range </li>
+<li>minute of hour </li>
+<li>second of minute </li>
+</ul>
+<p>All of this is normalized to Greenwich Mean Time, and formatted without spaces or punctuation. </p>
+<h5 id="ink-added-as-another-markdown-parser-option">Ink Added as another Markdown Parser Option</h5>
+<p>Down is the default, but you can switch to Ink on the new Markdown tab within the Application Preferences. </p>
+<hr>
+<p>Next: <a href="version-2.2.0.html">Version 2.2.0</a></p>
+</body>
+</html>

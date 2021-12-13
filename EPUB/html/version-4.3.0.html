@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 4.3.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.44 Version 4.3.0</strong></p>
+<p>Released on 02 Aug 2020 </p>
+<h5 id="added-the-ability-to-specify-a-boolean-field">Added the Ability to Specify a Boolean Field</h5>
+<p>Supplying a value of <code>&lt;bool&gt;</code> or <code>&lt;boolean&gt;</code> for a field in a Collection's template file will produce a field that can have a value of <code>true</code> or <code>false</code>, and that will be represented on the Edit tab as a checkbox. </p>
+<h5 id="included-the-author-field-in-the-search-function">Included the Author Field in the Search function</h5>
+<p>The Author field, if present, will now be included in the fields being searched. </p>
+<h5 id="added-template-trailing-command">Added Template Trailing Command</h5>
+<p>Added a new <code>trailing</code> command to the merge template spec. </p>
+<h5 id="fixed-an-end-of-group-bug">Fixed an End-of-Group bug</h5>
+<p>A bug in processing the end of a group was preventing the major (or only) end-of-group processing from happening at the end of the input data file. </p>
+<h5 id="eliminated-trimming-of-merge-template-lines">Eliminated trimming of Merge Template Lines</h5>
+<p>Merge template lines were being trimmed &#8211; that is, leading and trailing spaces and tabs were being removed. That should no longer be occurring. </p>
+<hr>
+<p>Next: <a href="version-4.2.0.html">Version 4.2.0</a></p>
+</body>
+</html>

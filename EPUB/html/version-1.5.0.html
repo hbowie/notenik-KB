@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 1.5.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.72 Version 1.5.0</strong></p>
+<p>Released on 20 Sep 2019 </p>
+<h5 id="enhanced-logic-for-incrementing-the-seq-field">Enhanced Logic for Incrementing the Seq Field</h5>
+<p>Made some improvements in the logic for incrementing the Seq field to properly increment following Notes to prevent overlap. </p>
+<h5 id="additional-refinements">Additional Refinements</h5>
+<p>Fixed a bug that sometimes caused newline characters to be ignored when trying to load a Note from disk. </p>
+<h5 id="added-a-dash-as-a-new-variable-modifier">Added a Dash as a New Variable Modifier</h5>
+<p>A dash may now optionally follow the letter O, which will result in the html string produced by the Markdown conversion having opening and closing paragraph tags stripped from the resulting string. </p>
+<h5 id="added-special-treatment-for-artist-field">Added Special Treatment for Artist Field</h5>
+<p>A field name of Artist will now be used as an alternate to Author when sorting by Author. A leading &#8216;The&#8217; will be ignored, and values will be sorted as if they were all lower case. </p>
+<h5 id="added-longtext-option-to-template-file">Added <longtext> option to Template file</h5>
+<p>By specifying the value \<longtext\> as the value for a field in a template file, the user can now indicate that a field is to be a long text field, rather than a one-line text field. </p>
+<hr>
+<p>Next: <a href="version-1.4.1.html">Version 1.4.1</a></p>
+</body>
+</html>

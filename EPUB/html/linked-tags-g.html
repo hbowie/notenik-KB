@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Linked Tags - G</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>8.3 <a href="variable-modifiers.html">Variable Modifiers</a>&nbsp;&#8593;</p>
+<p><strong>8.3.14 Linked Tags - G</strong></p>
+<p>Each tag found in the variable will be made into a link, linking to &#8216;=$relative$=yypathyy/xxtagxx.html&#8217;, where &#8216;xxtagxx&#8217; is the tag, and &#8216;yypathyy&#8217; is the string of characters following the &#8216;g&#8217;. </p>
+<p>The contents of the class attribute for the anchor tag generated for each link can be supplied following the path, with an intervening semicolon to separate the two. </p>
+<p>Consider the following example. </p>
+<pre>
+<code>=$tags&amp;gtags/;btn btn-secondary mx-1 pr-topic$=
+</code></pre>
+<p>Where: </p>
+<ul>
+<li><code>tags</code> is the variable name; </li>
+<li><code>tags/</code> is the path, starting from the web root; </li>
+<li><code>btn btn-secondary mx-1 pr-topic</code> are classes to be applied to each link (<code>&lt;a </code>) HTML tag. </li>
+</ul>
+<hr>
+<p>Next: <a href="html-h.html">HTML - H</a></p>
+</body>
+</html>

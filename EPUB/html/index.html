@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7.8 <a href="web-making-fields.html">Web-Making Fields</a>&nbsp;&#8593;</p>
+<p><strong>7.8.2 Index</strong></p>
+<p>The word <code>Index</code> can be used as both a label and a type. </p>
+<p>A Collection should only have one field of type <code>index</code>. </p>
+<p>This field type allows the user to assign one or more index terms to each Note in a Collection. </p>
+<p>There is little visible functionality associated with an <code>index</code> field in the main Notenik user interface. </p>
+<p>The purpose of including such a field in a Collection is to allow use of <code>notenik-index</code> as an input type in a script. See the <a href="scripting.html">Scripting</a> article for further info. Use of a Collection in this mode results in one input row being generated for each index term, to make it easy to generate a website index. See the <a href="https://www.softdevbigideas.com/alphabetical-index.html">Alphabetical Index for the Big Ideas in Software Development</a> for an example of such an page. </p>
+<p>Rather than using the Notenik UI, the easiest way to add index entries to a series of Notes is though direct editing of the underlying text files. When working in this mode, a separate <code>Index</code> line can be entered for each index term; multiple Index lines should be placed one after the other, without any intervening blank lines. </p>
+<p>When combining multiple terms on a single line, they should be separated by semicolons. </p>
+<p>A reference link for a term may also be included, within parentheses, following the term itself, and before any semicolon separator. </p>
+<p>When editing, the index field will appear as a single line of editable text. </p>
+<hr>
+<p>Next: <a href="teaser.html">Teaser</a></p>
+</body>
+</html>

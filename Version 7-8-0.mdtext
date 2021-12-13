@@ -1,0 +1,35 @@
+Title:  Version 7.8.0
+
+Tags:   levels-outline.11 Version History.1 Version 780
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Date:   13 Dec 2021
+
+Level:  3 - Section
+
+Teaser: 
+
+Created a new Intro to Notenik, with screenshots; improved Web Book publishing to enable a header line to be added at the top of every page; added a new field to include how (or if) to include children on a Note's display, in Streamlined Reading mode; added another sort Option, to sort by Date without respect to Status. 
+
+Class:  version
+
+Body: 
+
+##### Improvements to Web Book Publishing
+
+When you [[generate a Web Book]], you can now provide a file named `header.html`, to specify HTML code to be placed at the top of each generated web page. The process has also been modified so that a `Level` field need not be used.
+
+##### New Notenik Intro Provided
+
+A new Introduction to Notenik is available. New users will see a copy of this in their iCloud Drive when they first launch Notenik. It can also be found on the [Notenik.app](https://notenik.app/intro/EPUB/html/welcome-to-notenik.html) website. The copy on the website includes screenshots, for those who'd like to see what the app looks like before downloading it.
+
+##### New `Include Children` Field Type Added
+
+When using Streamlined Reading mode, the new [[Include Children]] field can be used to pull child elements of a Note into the parent Note's display.
+
+##### Added a Date Sort Option
+
+You can now sort a Collection by its primary (or only) Date field, irrespective of its Status value. The Seq field will be included in the sort, following Date, if a Seq field is defined for the Collection. The Title field will be the final field included in the sort key for this option.

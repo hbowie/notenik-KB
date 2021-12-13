@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 2.4.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>11 <a href="version-history.html">Version History</a>&nbsp;&#8593;</p>
+<p><strong>11.63 Version 2.4.0</strong></p>
+<p>Released on 13 Dec 2019 </p>
+<h5 id="added-startup-check">Added Startup Check</h5>
+<p>Added a logic check to see if the app completed a successful launch the last time it was run. If not, then the application resets the user preferences to avoid a recurring crash. </p>
+<h5 id="added-note-to-note-linking">Added Note-to-Note Linking</h5>
+<p>Wiki-style links between Notes within a Collection are now supported. Several related pieces of functionality work together to enable this capability. </p>
+<ul>
+<li>
+<p>The Collection Preferences pane now includes a checkbox for &#8220;Double Bracket Parsing for Inter-Note Links&#8221;. Turning this option on for a particular Collection allows the user to begin adding links between Notes. </p>
+</li>
+<li>
+<p>Once this option is enabled, the body of a Note may include a link to another Note by enclosing the title of that other Note within double square brackets. </p>
+</li>
+<li>
+<p>A new Variable Modifier of &#8216;W&#8217; available in Merge Templates allows these inter-note pointers to be converted to usable links when generating HTML. </p>
+</li>
+</ul>
+<hr>
+<p>Next: <a href="version-2.3.0.html">Version 2.3.0</a></p>
+</body>
+</html>

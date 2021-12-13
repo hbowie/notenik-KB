@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Link</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>7.4 <a href="the-basic-set-of-fields.html">The Basic Set of Fields</a>&nbsp;&#8593;</p>
+<p><strong>7.4.3 Link</strong></p>
+<p>The word <code>link</code> can be used as both a label and a type. </p>
+<p>In addition to <code>link</code> itself, this field type will be inferred for a label of <code>URL</code>, or for any label containing the consecutive letters <code>link</code>. </p>
+<p>A Collection may have multiple fields of type <code>link</code>. </p>
+<p>A link field is expected to hold a single <a href="https://en.wikipedia.org/wiki/URL">URL</a>. Notenik will attempt to honor as many different URL schemes (<code>https</code>, <code>mailto</code>, etc.) as might usefully be referenced, and will attempt to handle each according to its type. </p>
+<p>When editing, a link field will appear as a three-line text field. </p>
+<p>For display purposes, links will generally be styled as a link, and will be clickable. </p>
+<p>The first link field encountered within a Note will be considered the Note's primary link field, and will be acted upon by any special buttons/commands designed to open that Note's link. These actions will typically open the link within the user's preferred Web browser (such as Safari or Chrome). </p>
+<p>You can easily Launch a link from within the Notenik Mac App by clicking on the Launch Link button in the Toolbar, or by selecting Launch Link under the Note menu, or by using the keyboard shortcut CMD-L, or by double-clicking on the Note's line in the List view or the Tags view. </p>
+<p>Adding a Link to a Note doesn't necessarily reduce the Note to a simple Bookmark, but this is certainly one way to use a Collection of Notes. </p>
+<p>Note that if you use a Link to point to a local folder containing another Notenik Collection, then Launching that Link will result in opening the linked Collection within Notenik (so long as you have given Notenik permission to access that folder). </p>
+<p>You may use the Set Local Link command under the Note menu to choose a file or folder to be linked; the resulting &#8216;file:///&#8217; style of URL will then replace any value previously stored in the Link field for the current Note. </p>
+<p>You may use the Wikipedia Link command under the Note menu to populate the first (or only) Link field for a Note with the Note's title, converted to a link to that subject on Wikipedia. This command may be invoked while in Edit mode, or in Display mode. This conversion will not always result in a link to a valid Wikipedia page, so you should test the Link for accuracy and relevance after using this command. </p>
+<p>Note that you can drag a bookmark from a Web browser (such as Safari or Chrome) and drop it into an open Collection's List view in order to add that bookmark to the Collection as a new Note. A bookmark can typically be dragged either from the browser's URL field, at the top of the screen, or from a link within a page. The result of such a drag and drop operation will be a new Note with its Title and Link fields populated. </p>
+<p>If you add a Link value without any URL scheme, then the implicit scheme of &#8216;https://&#8217; will be assumed. In other words, you need only enter &#8216;Notenik.app&#8217; in the link field, but &#8216;https://Notenik.app&#8217; is what will be passed to your Web browser when requesting Notenik to open the Link. </p>
+<p>Remember that a link stored in its own field is a somewhat different animal from a link coded using Markdown syntax within a Note's body. </p>
+<hr>
+<p>Next: <a href="launch-at-startup-tags.html">Launch at Startup Tags</a></p>
+</body>
+</html>

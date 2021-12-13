@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Write a Web Book</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+<script> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+<p>10 <a href="putting-it-all-together.html">Putting It All Together</a>&nbsp;&#8593;</p>
+<p><strong>10.7 Write a Web Book</strong></p>
+<p>I majored in English in college, and have maintained a lifelong interest in reading and writing, even though I ended up forging a career in software development. </p>
+<p>During the 1990's I edited, authored and published a couple of books printed and bound in the traditional fashion. I wrote and formatted these books using Microsoft Word and PageMaker running on my personal Mac. </p>
+<p>But when the Web came along, I became fascinated by the new possibilities it offered for many sorts of writing and publishing, but especially for book-length compositions. My first exploration of these possibilities was done with <a href="https://www.reasontorock.com">Reason To Rock</a> &#8211; which I originally published in 2001 &#8211; and I'm still pretty happy with the results. The tools were sort of clumsy at that early stage, but it was great to have a published work that could be updated at any time, with hyperlinks, with multiple navigation paths through the text, and with pages that could be indexed by search engines. </p>
+<p>I started out using Textile as a lightweight markup language, and writing with BBEdit.  I was learning Java around the same time, and wrote some software that would pull data from an Excel spreadsheet, or a tab-delimited file (TDF), and then fill in some HTML templates using the columns and rows of the spreadsheet.  And all of that worked pretty well. </p>
+<p>I kept working on my Web publishing software, written in Java, and used it again when I published <a href="https://www.softdevbigideas.com">The Big Ideas in Software Development</a> in 2016. My tools had advanced in the intervening years, and I now had a version of Notenik written in Java. </p>
+<p>But then the Java language seemed to become less and less of a practical, enjoyable tool for writing desktop apps, so I rewrote all of the code using Swift. And since making the transition, the new Notenik has gradually acquired all of the functionality of the Java app, plus a lot more. </p>
+<p>Notenik can be readily used as an everyday note-taker, but in reality much of my motivation to continue with Notenik development has been to build a better and better tool for creating Web books &#8211; book-length compositions that provide the rich depth of a traditional book, but also provide hyperlinks, both for navigating within a book as well as to outside reference sources, along with indexing, searching, and alternative navigation paths. </p>
+<p>And so the latest Web book I've been working on is the Notenik Knowledge Base &#8211; a book-length composition about Notenik, built using Notenik with all of its recent enhancements, and readable using Notenik. </p>
+<p>The whole thing can be easily published in HTML form, and can be viewed on the <a href="https://notenik.app/knowledge-base/EPUB/html/notenik-knowledge-base.html">Notenik.app</a> website. But if you'd like to see how it's produced, you can also view all the supporting files on <a href="https://github.com/hbowie/notenik-KB">GitHub</a>. And, if you have the Notenik app installed on your Mac, you can read the whole thing <a href="notenik://help">within Notenik</a>. </p>
+<p>So where should you start if you'd like to produce your own Web book using Notenik? </p>
+<p>Here's a list of some of the key features to explore: </p>
+<ul>
+<li>
+<p>Consider how you might want to break up your book-length text into sections, chapters, and/or subsections. </p>
+</li>
+<li>
+<p>Use the <a href="seq.html">Seq</a> and <a href="level.html">Level</a> fields to organize your content into a neatly numbered outline. </p>
+</li>
+<li>
+<p>Use the <code>Seq + Title</code> option beneath the <code>Sort</code> menu to keep the content sorted using your numbering scheme. </p>
+</li>
+<li>
+<p>Use <a href="wiki-style-links.html">Wiki Style Links</a> to allow your readers to easily navigate from one chunk of content to another, related, page. </p>
+</li>
+<li>
+<p>Use the <a href="also-known-as.html">Also Known As</a> field to allow you to easily and naturally refer to related pages via an alternative name for some pages. </p>
+</li>
+<li>
+<p><a href="tailor-collection-preferences.html">Tailor Collection Preferences</a> to <code>Format Display for Streamlined Reading</code> and to <em>not</em> <code>Include explicit Body field label on the Display tab</code>. This will help make for a more natural reading experience within Notenik, and will help you experience your Collection as a linear whole. </p>
+</li>
+<li>
+<p><a href="tailor-the-display.html">Tailor the Display</a> in order to change the font options used. These same options will be used as defaults if you later <a href="generate-a-web-book.html">Generate a Web Book</a> for your readers. </p>
+</li>
+<li>
+<p>Remember that you can look beneath the <code>Collection</code> menu to <code>Renumber Seq based on Level</code> in order to straighten out your Seq numbering from time to time. </p>
+</li>
+<li>
+<p>You can also look beneath the <code>Collection</code> menu to <code>Replace Tags based on Seq and Level</code>. This will produce special <a href="tags.html">Tags</a> that allow you to navigate through your content while opening and closing sections of your book using disclosure triangles. </p>
+</li>
+<li>
+<p>You can also <a href="generate-a-collection-table-of-contents.html">Generate a Collection Table of Contents</a> that allows readers to navigate easily through your content. </p>
+</li>
+<li>
+<p>You can also use the <a href="index.html">Index</a> field to provide an index for your work, and <a href="generate-a-collection-index.html">generate a Collection Index</a> wherever you like within your Collection. </p>
+</li>
+<li>
+<p>You can also <a href="generate-a-tags-outline.html">generate a Tags Outline</a> on any page within your Collection. </p>
+</li>
+<li>
+<p>Once you're ready to publish, you can use the <a href="generate-a-web-book.html">Generate a Web Book</a> command beneath the <code>Collection</code> menu to create folders of HTML and CSS files that will allow your creation to be read within any Web browser. </p>
+</li>
+<li>
+<p>For more control over your output, you can add additional <a href="field-labels-and-types.html">Field Labels and Types</a>, design your own custom <a href="merge-templates.html">Merge Templates</a>, and sort and filter your content in endless ways using <a href="script-files.html">Script Files</a>. </p>
+</li>
+</ul>
+<p>The evolution of the Web over the past several decades has been a reductive arc in many ways, with personal expression often being reduced to a series of blog posts, or even micro-blog posts. But if you have something more complex to say, intended to be of more enduring interest, then you probably want something more like a book. And Notenik can help you record and organize your book-length content, and then share it on the Web, leveraging all of the advantages that the Web has to offer, when compared to the printed page. </p>
+<hr>
+<p>Next: <a href="version-history.html">Version History</a></p>
+</body>
+</html>
