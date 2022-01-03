@@ -26,7 +26,7 @@ A Collection is not expected to have more than one field of type `seq`.
 
 A seq field is meant to contain some sort of sequence number, revision letter, version number or priority that can be used to put the Notes of a Collection into some meaningful order. 
 
-A Seq field may contain letters, digits and one or more periods (aka decimal points) or hyphens or a dollar sign (‘$’).
+A Seq field may contain letters, digits and one or more periods (aka decimal points, or dots) or hyphens or a dollar sign (‘$’).
 
 You may wish to assign a unique Seq value to each Note in a Collection, but Notenik does not require this (in other words, it does allow duplicate Seq values to be assigned to different Notes).
 
@@ -36,12 +36,14 @@ When displayed, the seq field will be displayed as entered.
 
 When used as a sort field, seq values will be padded to cause them to sort into a natural order, rather than a strict character-by-character alphanumeric order.  In other words, a value of `2` will sort before a value of `10`, a value of `b` will sort before `aa`, etc. Each segment of this field, when separated by a dot or a dash, will be padded separately, up to a maximum of six segments. (That is, you can include more than six segments, and they will be preserved, but the padding, and thus the sensible sorting, will only apply to the first six of the segments.)
 
-If you'd like to see your Notes listed in sequence by their assigned number, you can use the Sort Menu to change the sequence of the displayed list from Title to Seq + Title. Use the Reverse option to see them in descending sequence. 
+If you'd like to see your Notes listed in sequence by their assigned number, you can use the Sort Menu to change the sequence of the displayed list from `Title` to `Seq + Title`. Use the `Reverse` option to see them in descending sequence. 
 
 When adding a new Note, if the currently selected Note has a seq value, then the new Note's seq will be initialized by incrementing the selected Note's seq value. In other words, if you have your list sorted by Seq, then a new Note will be inserted immediately following the selected Note. 
 
-If you want to insert a new note with a Seq Value already assigned to another Note, then first select the other Note, then use the Increment command under the Note menu to increment the Seq field of the existing note, as well as following notes that might otherwise cause duplicate Seq values. 
+If you want to insert a new note with a Seq Value already assigned to another Note, then first select the other Note, then use the `Increment` command under the `Note` menu to increment the Seq field of the existing note, as well as following notes that might otherwise cause duplicate Seq values. 
 
 If your Notes have a two-part Seq field (i.e., 1.00), then use the `Increment Major Seq` command beneath the `Note` menu to force the numbers to the left of the decimal point to be incremented, rather than incrementing the numbers on the right.
 
 You can perform some basic resequencing by dragging and dropping a Note from one position to another on the List tab. Note that you must move the Drop indicator to a line above and/or below existing Notes in order to indicate a desired new position for an existing Note (in other words, not on top of an existing Note). Only the Note being dragged and dropped will have its Seq value changed.
+
+Starting with [[Version 7.9.0]], you can also modify the Seq values for an entire range of Notes. The first step is to select the range to be renumbered on the List tab. Then use Ctrl-Clck, or right-click, to obtain the contextual menu, then select `Modify Seq...` from the menu. You will be presented with a new window showing the range you have selected, and then allowing you to enter a new Seq value for the first Note in the range. Once you've entered that new value, and hit the `OK` button, the entire range will be renumbered. This command doesn't make use of, or modify, the Level values, if present, but the structure of the range, as represented by the levels of numbering for each Note, will be preserved. The Seq value for following Notes will not be modified, so if you're moving a block of Notes into an existing sequence, then you may wish to increment the Seq value for the new following Notes, before initiating the `Modify Seq` operation.

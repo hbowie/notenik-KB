@@ -8,6 +8,8 @@ Seq:    9.2.2
 
 Level:  4 - Subsection
 
+Class:  non-version
+
 Body: 
 
 A filter command may have an action of 'clear', 'add' or 'set'.

@@ -4,7 +4,7 @@ Tags:   levels-outline.11 Version History.15 Version 680
 
 Timestamp: 20210731170715
 
-Seq:    11.15
+Seq:    11.16
 
 Date:   02 Aug 2021
 
@@ -14,6 +14,8 @@ Teaser:
 
 Added Short ID to the list of available field labels and types, to help with URL shortening; added new option to export an entire Collection into a single HTML or Markdown document; fixed a bug affecting automatic links in footnotes. 
 
+
+Class:  version
 
 Body: 
 

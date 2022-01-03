@@ -1,0 +1,25 @@
+Title:  Version 7.9.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body: 
+
+Released on d MMM, YYYY
+
+##### Added Modify Seq Action
+
+Added a new command to allow a user to modify the Seq values for an entire range of Notes. The first step is to select the range to be renumbered on the List tab. Then use Ctrl-Clck, or right-click, to obtain the contextual menu, then select `Modify Seq...` from the menu. You will be presented with a new window showing the range you have selected, and then allowing you to enter a new Seq value for the first Note in the range. Once you've entered that new value, and hit the `OK` button, the entire range will be renumbered. This command doesn't make use of the Level values, if present, but the structure of the range, as represented by the number of levels of numbering provided for each Note, will be preserved.
+
+##### Added Indent/Outdent Commands
+
+If you are using the Seq and/or Level fields, then you can use the new Indent command beneath the Note menu to increase the Level and/or renumber the selected Note(s) appropriately. The Outdent command will perform the opposite function, pulling your Note(s) to the left in an outline hierarchy.
+
+##### Reworked Web Book Publication
+
+Made a couple of changes to the way Web Books are published. First, this option can now be accessed through the `File -> Export` function, and no longer has a separate `Web Book` option beneath the `File` menu. Second, when choosing the option to export a Web Book as a Site, the first Note of the site will be written out twice, once with its usual file name, formed from the Note's title, and a second time, with the file name `index.html`. This function now replaces the option to create an Index Redirect file.

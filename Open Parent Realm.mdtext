@@ -8,6 +8,8 @@ Seq:    4.6.1
 
 Level:  4 - Subsection
 
+Class:  version
+
 Body: 
 
 In addition to the normal Open and Open Recent commands under the File menu, Notenik also has an Open Parent Realm command. 

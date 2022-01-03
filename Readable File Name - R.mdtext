@@ -8,6 +8,8 @@ Seq:    8.3.26
 
 Level:  4 - Subsection
 
+Class:  version
+
 Body: 
 
 The letter "R", following a [[File Name - F]] modifier, will cause the variable to be converted to a safe file name, but preserving as much human readability as possible. 

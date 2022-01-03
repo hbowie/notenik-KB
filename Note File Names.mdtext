@@ -10,6 +10,8 @@ Level:  4 - Subsection
 
 Index:  file names; 
 
+Class:  version
+
 Body: 
 
 A Notenik file name is generally identical to the Note's title, with the exception of a few occasional tweaks to avoid running afoul of various common operating system limitations. Spaces and capitalization are preserved. 

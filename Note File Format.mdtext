@@ -8,6 +8,8 @@ Seq:    4.1.1
 
 Level:  4 - Subsection
 
+Class:  version
+
 Body: 
 
 The contents of each Notenik Note file are formatted in a way that is easy to read and write, for both humans and computers, but is somewhat special, and unique to Notenik. 

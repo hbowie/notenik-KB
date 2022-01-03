@@ -8,6 +8,8 @@ Seq:    5.12
 
 Level:  3 - Section
 
+Class:  version
+
 Body: 
 
 Notenik has its own custom URL scheme, which can be invoked by other apps as a means of integrating Notenik with these other applications. 

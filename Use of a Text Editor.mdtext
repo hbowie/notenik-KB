@@ -8,6 +8,8 @@ Seq:    4.1.7
 
 Level:  4 - Subsection
 
+Class:  version
+
 Body: 
 
 All of your Notenik files are plain text files that can be opened, viewed and edited with a text editor. [BBEdit](https://www.barebones.com/products/bbedit/) is one such product, and a basic version is available for free. 
