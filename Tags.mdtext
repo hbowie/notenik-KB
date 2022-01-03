@@ -8,6 +8,8 @@ Seq:    7.4.2
 
 Level:  4 - Subsection
 
+Class:  non-version
+
 Body: 
 
 The word `tags` can be used as both a label and a type. 

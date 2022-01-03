@@ -41,7 +41,7 @@ Following are the supported formats.
 
 * Import/Export in [OPML][] Format
 
-	Each Note will be represented as an outline object. See how to [[Assemble an Outline]] for more info on outlining. 
+	Each Note will be represented as an outline object. See how to [[Using Notenik as an Outliner]] for more info on outlining. 
 	
 * Export in Concatenated HTML or Markdown
 

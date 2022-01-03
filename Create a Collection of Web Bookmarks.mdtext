@@ -10,6 +10,8 @@ Level:  3 - Section
 
 Index:  bookmarks; favorites; 
 
+Class:  non-version
+
 Body: 
 
 All modern web browsers (Safari, Chrome, Firefox, etc.) have their own capabilities for storing frequently used web links (aka URLs) as a bunch of bookmarks, sometimes referred to as favorites. 

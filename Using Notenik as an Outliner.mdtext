@@ -1,0 +1,246 @@
+Title:  Using Notenik as an Outliner
+
+Tags:   fields.index, fields.level, fields.seq, levels-outline.10 Putting It All Together.4 Using Notenik as an Outliner, streamlined reading
+
+AKA:    new child
+
+Timestamp: 20210628023650
+
+Seq:    10.4
+
+Level:  3 - Section
+
+Index:  streamlined reading; 
+
+Class:  version
+
+Body: 
+
+My little Mac App [Notenik][store] falls into the general category of note-taking software.
+
+And it certainly lacks many of the features to be found in a sophisticated outlining app such as [OmniOutliner][oo].
+
+And creating any kind of [outliner][ol] was never any part of my original intent when starting out to develop Notenik.
+
+But then some stuff happened along the way....
+
+Which, in retrospect, should not have been too surprising.
+
+You see, the whole concept of Notenik has always been based on three premises:
+
+1. A Note is a chunk of text written using [Markdown][md], identified by a title, ready to be transformed into HTML;
+
+2. Each Note can also have a custom set of fields associated with it -- additional descriptive data that can be used for sorting, filtering, categorization, display, and whatever else you might want to do with it;
+
+3. Notes are grouped into Collections, and the Notes within a Collection can be arranged and connected in various meaningful ways, so that a Collection can become a thing unto itself -- a website, a book -- and be more than just a repository for Notes.
+
+ Pretty straightforward, wouldn't you say?
+
+ But, given this starting point, I guess it was only a matter of time before outlining crept into Notenik.
+
+ Especially if, as I do, you tend to build an outline not just with heading rows, but with some substantial content beneath each heading.
+
+ So, with the idea of outlining in mind, let's take a second look at the three premises listed above.
+
+ 1. Each Note in the Collection becomes a node in the outline. The title of each Note becomes a line/row, with any associated text being written in Markdown, and tucked into the body of the Note.
+
+ 2. We need only add two special fields to transform a Collection of Notes into an outline.
+	- A sequence field, to allow the Notes to be placed into the desired order;
+	- A level field, indicating each Note's relationship to surrounding Notes, as a parent and/or a child.
+
+3. A Collection of Notes then becomes an outline!
+
+A field type of `Level` was added to Notenik as part of Version 6.3.0, released on June 10, 2021, and this was the initial change that made outlining possible. But lots of little things have been added since then to make outlining easier, so this seems like a good time to call out all of those goodies in one place, for others who may be interested, but also for my own future reference.
+
+Most of these features are available via various menu options within Notenik, so I'll provide the menu path wherever appropriate (and the keyboard shortcut, when one is available).
+
+Unless specifically described otherwise, these commands will affect the Note appearing on the currently selected row of the List tab.
+
+## A Sample Outline
+
+Once you've downloaded and installed a copy of Notenik onto your Mac, you can access the complete documentation by using `Help -> Notenik Knowledge Base` (or by simply clicking on [this link][help].)
+
+You'll see that the Notenik Knowledge Base is organized using an outline structure, so you'll be able to see how some of the features I describe below appear within the app.
+
+The Knowledge Base will be opened in a read-only mode, though, so you'll have to create your own Collection in order to experiment with the updating features described below.
+
+## Creating a Collection for Outlining
+
+If you're completely new to Notenik, then you might want to review the [Notenik Intro][intro].
+
+Once you've got the hang of the basics, you can create a new Collection with both Seq and Level fields (or just use the `Outline` starting point to create your new Collection). If different levels in your structure will have special meanings for you, then you can edit your Collection Template file to add labels reflective of those meanings. Then sort your Collection by Seq + Title, and start adding items to your outline.
+
+## Flexible Numbering with the Seq Field
+
+The Seq field itself offers a lot of flexibility. You can use numbers or letters, and you can separate different levels with either dots or dashes. Each level is padded appropriately for sorting, so everything should appear in the sequence you would expect. (Numbers and dots are generally preferred over letters and dashes, though.) You don't have to tell Notenik what sort of numbering you want: just assign one or more Seq values, and Notenik will follow your lead.
+
+Note that the number of levels, or segments, within your Seq values should generally parallel the values of the level field.
+
+## Tailoring the Level Field Values
+
+When you first specify a Level field for a Collection, the allowable range of values will default to 0 through 9, and will be displayed as simple integers.
+
+However you can edit the Collection Template file *(Opt-Cmd-T)* and make two sorts of helpful changes for Level values. First, you can constrain the available levels to what might be a more reasonable range (say, 1 - 6, for example); second, you can specify a descriptive label to accompany each integer, which might help as a reminder of what each level in your hierarchy would typically represent.
+
+Here's an example of an edited version of the relevant line in the Collection Template file:
+
+		Level: <level: 1 - Book Title; 2 - Section; 3 - Chapter; >
+
+(Note that the terms 'lower' and 'higher' can be confusing when talking about an outline level, since a *higher* integer value generally implies a *lower* level in the hierarchy. I'll generally use these terms in their strictly numerical sense, and will also occasionally use the term *deeper* to indicate that we're using a higher digit to go deeper into the outline structure.)
+
+## Import from OPML
+
+If you already have an outline that you've started someplace else, then you can probably export it into [OPML][], and then use `File -> Import -> OPML` to get that data into Notenik.
+
+## List Title Indentation
+
+As you build your outline, you'll notice that the titles on the List tab reflect the structure of your outline, with each deeper level appearing indented by an extra couple of spaces.
+
+This spacing gives you a visual indication of the relative levels within your outline.
+
+## Increment Seq
+
+Notenik doesn't insist that every Note have a unique Seq value, but if you're building an outline, then you probably want things in a particular sequence, and so each Note will need a unique Seq value in order to preserve your intended order.
+
+When you need to insert a new Note into an existing sequence, then you'll want to select the Note following the intended insertion point, and use `Note -> Increment` *(Cmd-I)* to increment the Seq value for that Note, as well as all following consecutively numbered Notes. Then select the preceding Note, and add the new Note using any of the methods below.
+
+## Increment Major Seq
+
+If you want to make room for a new Note/node at the top level, you can use `Note -> Increment Major Seq` *(Opt-Cmd-I)* to increment the Seq value of the selected Note at the top level of numbering.
+
+## Indent / Outdent
+
+You can use `Note -> Indent` *(Opt-Cmd-])* to further indent the selected Note, bumping the level up by 1, and renumbering the Seq to add a segment, while still keeping consecutive numbering following the prior Note.
+
+Similarly, you can use `Note -> Outdent` *(Opt-Cmd-[)* to decrease the level by 1, and to renumber the Seq to remove a segment, while still preserving consecutive numbering following the prior Note.
+
+If you wish to change the levels and numbering for a whole range of Notes, then select the range first, before invoking the `Indent` or `Outdent` commands.
+
+## New Notes in Sequence
+
+If you select a Note, then use `Note -> New Note` *(Cmd-N)*, the Edit tab for the new Note will be pre-populated with the same level, and the next Seq value. This makes it easy to continue adding additional Notes/nodes at the same level, and in a consecutive sequence.
+
+## New Child
+
+If you select a Note, then alt-click (or right-click) on it, you'll see a context menu offering you several options, and one of them will be `New Child`. This will pre-populate the Edit tab  for the new Note with a level one higher than the previous one, and with the previous Seq value being set to '1' at the next higher level.
+
+So if you've added a higher-level heading, and then want to start adding children beneath it, just use this `New Child` trick once, then add new Notes as usual to continue adding children at the deeper level.
+
+## New Note with Options
+
+If you'd like even more options for adding a new Note in sequence, choose `Note -> New Note w/Options` *(Opt-Cmd-N)*. You'll then be presented with a small window offering some useful outlining options.
+
+The initial Level value will be set to match the preceding Note, but you can choose a new Level from a drop-down list, or use the `+/-` buttons to increase/decrease the level. As you modify the level, the Seq value shown below will be modified appropriately. Click `OK` to pre-populate the Edit tab for your new Note with the chosen values.
+
+## Drag and Drop and Set Seq
+
+If you have a single Note you'd like to reposition within your outline, you can select it on the List tab, then drag and drop it to a new location before and/or after other Notes. The Note's Seq value will then be updated to follow the Note above.
+
+If such an action would cause a duplicate, then you would need to use the `Increment Seq` action described above on the following Note, before performing the drag and drop.
+
+You can also drag other eligible items from outside of the Collection (such as a URL from Safari) and drop them between existing Notes to indicate the Seq value to be assigned to the new Note.
+
+## Modify Seq Values for a Range of Notes
+
+You can also modify the Seq values for an entire range of Notes. The first step is to select the range to be renumbered on the List tab. Then use Ctrl-Clck, or right-click, to obtain the contextual menu, then select `Modify Seq...` from the menu.
+
+You will be presented with a new window showing the range you have selected, and then allowing you to enter a new Seq value for the first Note in the range. Once you've entered that new value, and hit the `OK` button, the entire range will be renumbered.
+
+This command doesn't make use of the Level values, if present, but the structure of the range, as represented by the levels of numbering for each Note, will be preserved. The Seq value for following Notes will not be modified, so if you're moving a block of Notes into an existing sequence, then you may wish to increment the Seq value for the new following Notes, before initiating the `Modify Seq` operation.
+
+## Renumber Seq Based on Level
+
+You'll find a couple of level-related functions beneath the `Collection` menu.
+
+The first is accessed by choosing `Collection -> Level -> Renumber Seq based on Level`.
+
+When you invoke this function, your entire Collection will be renumbered consecutively, with the Seq levels following the Level values specified for each Note.
+
+This can be useful if your Notes are already in your desired sequence, with their appropriate Level values, but you wish to close up gaps or otherwise rationalize the Seq values assigned.
+
+Note that if your very first Note has a blank Seq value (equivalent to a zero), and makes use of the first (numerically lowest) Level value, then following Notes will be sequenced starting with a value of `1` (not `0.1`), even if later Notes use the next higher Level value.
+
+## Add Tags based on Seq and Level
+
+This is the other level-related function you'll find beneath the `Collection` menu.
+
+You can access this function by choosing `Collection -> Level -> Add Tags based on Seq and Level`.
+
+When you invoke this function, Notenik will generate a special tag starting with `levels-outline`. You'll find this on the Tags tab. You can then click on disclosure triangles to inspect the various levels of your outline.
+
+This view just gives you another way to navigate your outline.
+
+## Opt for Streamlined Reading
+
+If you choose `Collection -> Preferences` *(Cmd-;)*, then you'll see a few helpful options for formatting the Display tab for your Collection. Changing these preferences is purely optional, but you might find some or all of them beneficial when viewing and navigating a Collection being used as an outline.
+
++ `Include explicit Body field label on Display?`
+
+	By default, Notenik displays the Body field of each Note in the same way it displays most other Note fields, with a field label preceding the value. If you find this `Body:` label to be superfluous, then you'll want to uncheck this option.
+
++ `Display Note Titles as Level 1 Headings?`
+
+	If you select this option, then the title of each Note will be displayed in a larger, bolder font than it would be otherwise.
+
++ `Format Display for Streamlined Reading?`
+
+	Checking this option produces a number of effects on the Display tab, generally simplifying the contents of the display, but also adding a link at the top of the display to facilitate navigation to the parent of the current Note, and links at the bottom to allow direct navigation to any of the children of the current Note. These effects can be very useful for navigating an outline structure.
+
+## Hide/Show Toolbar and List
+
+If you'd like an even cleaner look focused on reading, and using the `Streamlined Reading` navigational links to get around, then you can use `View -> Hide Toolbar` and `View -> Show Toolbar` to toggle the toolbar display at the top of the Collection window.
+
+You can also use `View -> Show/Hide List` *(Cmd-Y)* to toggle the display of the left hand side of the Collection window, containing the `List` and `Tags` tabs.
+
+## Include Children Field
+
+If you decide to use the Streamlined Reading mode, then there's an additional field you might want to consider for your Collection. The `Include Children` field can be used to pull the children of a Note up into the display for the parent Note. This is especially useful if you're preparing the Collection for publication as a Web Book. You can choose among several different options for formatting the display of the children. This can be useful if each of the children should really be represented as a separate node in your outline, but might be better read as bullets (for example) on the parent Note's page.
+
+## Generate a Collection Table of Contents
+
+Insert a line like the following into the Body field of any Note to generate a Table of Contents with indentation following the outline structure of your Collection.
+
+```
+{:collection-toc}
+```
+
+Insert a line like the following to limit the levels included in the Table of Contents.
+
+```
+{:collection-toc:2-3}
+```
+
+## Export Your Outline
+
+Notenik provides lots of options for getting your outline into alternate formats. The following options are most likely to be useful ways to export an outline.
+
++ Export as OPML
++ Export as Concatenated HTML
++ Export as Concatenated Markdown
++ Export as a Web Book
+
+## In Summary
+
+Whew... that's a lot of functionality available for maintaining a Collection of Notes as an outline!
+
+Again, there are certainly more powerful, dedicated outlining tools available, and I encourage you to check them out.
+
+Notenik's mission is to provide a free, flexible, open-source note-taking app for the Mac that stores all your notes in simple text files.
+
+And a big part of Notenik's flexibility comes from its ability to not only associate a set of custom fields with each Note, but to allow you to tailor the available custom fields by Collection, so that each new Collection can have a different set of fields, appropriate for its particular purpose.
+
+And if some of those Collections turn out to be outlines... then Notenik has a growing set of features that can help you out with this sort of structure.
+
+[help]: notenik://help
+
+[intro]: https://notenik.app/intro/EPUB/html/welcome-to-notenik.html
+
+[md]: https://daringfireball.net/projects/markdown/
+
+[ol]: https://en.wikipedia.org/wiki/Outliner
+
+[oo]: https://www.omnigroup.com/omnioutliner/
+
+[opml]: https://en.wikipedia.org/wiki/OPML
+
+[store]: https://apps.apple.com/us/app/notenik/id1465997984

@@ -8,6 +8,8 @@ Seq:    10.1
 
 Level:  3 - Section
 
+Class:  non-version
+
 Body: 
 
 Let's start by using Notenik just to create a basic Collection of Notes about anything that might interest you. 
@@ -99,4 +101,3 @@ In later articles we will move on to more sophisticated uses.
 [markdown]: https://daringfireball.net/projects/markdown/syntax
 [notenik]: https://notenik.app
 [texted]: https://en.wikipedia.org/wiki/Text_editor
-
