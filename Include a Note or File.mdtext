@@ -1,0 +1,47 @@
+Title:  Include a Note or File
+
+AKA:    transclusion
+
+Timestamp: 20220110210211
+
+Seq:    6.2.14
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body: 
+
+As an extension to the original Markdown spec from John Gruber, a second Note or file may be included by placing the literal ``{:include:xxx}`` on a line by itself (where 'xxx' is replaced by the identifier for the text to be included), as in the following example:
+
+```
+{:include:another-file.txt}
+```
+
+If the supplied identifier contains a period, then Notenik will first attempt to interpret the identifier as a file path, relative to the Collection folder. 
+
+Another Note within the same Collection may be included as follows:
+
+```
+{{include:A Second Note to be Included}}
+```
+
+When including a second Note, an optional style may be specified as follows:
+
+```
+{{include-quote:Title of a Quotation}}
+```
+
+The following styles are available at this time:
+
++ `text` - This is the default, and simply includes the entire contents of the Note as it would be saved to disk. 
+
++ `quote` - The body of the included Note will be placed within Blockquotes, and an attempt will be made to format a quote attribution block to follow the quote, using the [[Attribution]] field or the [[Artist]]/Author field, along with associated Work fields ([[Work Title]], [[Work Type]], [[Work Link]]). 
+
+Note includes may be nested; in other words, if Note B includes Note C, and Note A includes Note B, then Note C will appear within Note A as well. 
+
+Note that this format, and the intent of this Markdown extension, is slightly different from the [[Include Command]] as implemented for [[Merge Templates]]. 
+
++ The results of the Markdown extension described here will be visible within Notenik, when a Note is displayed; 
+
++ The results of the Merge Template Include command will only be visible when using the a Merge Template to generate some textual output outside of Notenik.

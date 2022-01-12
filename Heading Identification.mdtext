@@ -8,6 +8,8 @@ Seq:    6.2.1
 
 Level:  4 - Subsection
 
+Class:  version
+
 Body: 
 
 [John Gruber's description of Markdown syntax](https://daringfireball.net/projects/markdown/syntax#header) leaves room for some ambiguity surrounding two questions concerning the use of one or more hash characters to indicate a heading:

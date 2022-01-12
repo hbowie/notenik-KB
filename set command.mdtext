@@ -8,6 +8,8 @@ Seq:    8.4.2
 
 Level:  4 - Subsection
 
+Class:  version
+
 Body: 
 
 This command can define a global variable and set its value. This command would normally have three operands: the name of the global variable, an operator, and a value.

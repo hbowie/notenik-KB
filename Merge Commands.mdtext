@@ -8,6 +8,8 @@ Seq:    8.4
 
 Level:  3 - Section
 
+Class:  version
+
 Body: 
 
 All commands must be enclosed in the chosen [[Merge Delimiters]]. In addition, all commands must appear on lines by themselves. Command names can be in upper- or lower-case. Each command may have zero or more operands. Operands may be separated by any of the following delimiters: space, comma (','), semi-colon (';') or colon (':'). Operands that contain any of these delimiters must be enclosed in single or double-quotation marks.

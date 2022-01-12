@@ -1,0 +1,17 @@
+Title:  Version 8.0.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body: 
+
+Released on d MMM, YYYY
+
+##### Added New Include Command within Markdown Parser
+
+Add the ability to [[Include a Note or File]] within the body of a Note by means of a new Markdown extension.  
