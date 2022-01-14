@@ -8,9 +8,12 @@ Seq:    8.3.6
 
 Level:  4 - Subsection
 
+Class:  non-version
+
 Body: 
 
 The letter "A", followed by a "1" or a "2", will cause the value to be treated as a person's name, and to be reformatted as follows:
 
 + "1" - Extract the last name only
 + "2" - Place the last name first, followed by a comma, and then the rest of the name.
++ "3" - First name first, followed by last name, with no commas, 

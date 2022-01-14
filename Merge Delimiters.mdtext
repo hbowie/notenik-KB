@@ -8,6 +8,8 @@ Seq:    8.1
 
 Level:  3 - Section
 
+Class:  non-version
+
 Body: 
 
 Notenik will recognize either of two sets of command and variable delimiters automatically. The choice of delimiters will be triggered by the first command-beginning delimiters encountered. The new delimiters are generally recommended, since they are more likely to be treated kindly by various HTML editors when creating your template files.

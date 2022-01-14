@@ -34,7 +34,9 @@ When including a second Note, an optional style may be specified as follows:
 
 The following styles are available at this time:
 
-+ `text` - This is the default, and simply includes the entire contents of the Note as it would be saved to disk. 
++ `body` - This is the default, and simply includes the body of the second Note. 
+
++ `note` - This style includes the entire contents of the second Note as it would be saved to disk. 
 
 + `quote` - The body of the included Note will be placed within Blockquotes, and an attempt will be made to format a quote attribution block to follow the quote, using the [[Attribution]] field or the [[Artist]]/Author field, along with associated Work fields ([[Work Title]], [[Work Type]], [[Work Link]]). 
 

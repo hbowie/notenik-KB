@@ -8,6 +8,8 @@ Seq:    7.9.6
 
 Level:  4 - Subsection
 
+Class:  non-version
+
 Body: 
 
 This field type will be inferred for a field label of 'Work Type'.

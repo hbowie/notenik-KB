@@ -8,6 +8,8 @@ Seq:    5.9
 
 Level:  3 - Section
 
+Class:  version
+
 Body: 
 
 Notenik has the ability to automatically mirror all the Notes within a Collection to an alternate format (usually HTML), typically stored in the same folder. 

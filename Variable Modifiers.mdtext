@@ -8,6 +8,8 @@ Seq:    8.3
 
 Level:  3 - Section
 
+Class:  non-version
+
 Body: 
 
 A variable can be optionally followed (before the ending variable delimiters) by a modifier indicator and one or more modifiers. The default modifier indicator is the ampersand (&amp;).

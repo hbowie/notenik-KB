@@ -8,6 +8,8 @@ Seq:    8.3.13
 
 Level:  4 - Subsection
 
+Class:  non-version
+
 Body: 
 
 Converts a string to a conventional, universal file name, changing spaces to dashes, removing any odd characters, making all letters lower-case, and converting white space to hyphens.
