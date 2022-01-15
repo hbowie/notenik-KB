@@ -18,4 +18,8 @@ Add the ability to [[Include a Note or File]] within the body of a Note by means
 
 ##### Expanded Author Name Modifier
 
-Expanded capabilities of the [[Author Name Modifier - A]] to allow a name to be formatted with first name first, followed by last name. 
+Expanded capabilities of the [[Author Name Modifier - A]] to allow a name to be formatted with first name first, followed by last name.
+
+##### Quickly Toggle Streamlined Reading
+
+A new menu item beneath the `Collection` menu now allows a user to quickly Toggle [[Streamlined Reading]] on and off.

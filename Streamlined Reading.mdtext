@@ -19,3 +19,5 @@ When you check this option, it will trigger a number of different behaviors on t
 For further info, see the following entries:
 
 + The description of the [[Attribution]] field.
+
+Note that the `Collection` menu also contains a separate item to `Toggle Streamlined Reading`, to allow a user to quickly toggle the Display between one mode and another. When using this command, the option to explicitly display a `Body:` label will also be toggled on and off (off for streamlined reading). 
