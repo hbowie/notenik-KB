@@ -38,6 +38,7 @@ The following table summarizes the primary use of various letters and characters
 <tr><td>R</td><td>Keep characters on the right</td></tr>
 <tr><td>R</td><td>Readable File Name</td></tr>
 <tr><td>S</td><td>Summarize</td></tr>
+<tr><td>T</td><td>HTML to Markdown</td></tr>
 <tr><td>U</td><td>Uppercase Modifier</td></tr>
 <tr><td>V</td><td>Variance</td></tr>
 <tr><td>W</td><td>Wiki-Style Links</td></tr>

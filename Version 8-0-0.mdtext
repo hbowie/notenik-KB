@@ -23,3 +23,12 @@ Expanded capabilities of the [[Author Name Modifier - A]] to allow a name to be 
 ##### Quickly Toggle Streamlined Reading
 
 A new menu item beneath the `Collection` menu now allows a user to quickly Toggle [[Streamlined Reading]] on and off.
+
+##### Can Now Copy Notenik URL for Collection
+
+Look beneath the `Collection` menu for the new ability to `Copy Notenik URL for Collection`. This will use Notenik's [[Custom URL Scheme]] to fashion a URL to open the current Collection, and then stash that URL on the System Clipboard, ready to be pasted somewhere else. Invoking this URL later will then open the current Collection, if it is not already open, and if you have the appropriate permissions allowing you to open the Collection's folder.
+
+##### Convert HTML to Markdown
+
+Added a new [[Merge Template]] [[Variable Modifier]] to perform a very rudimentary conversion from [[HTML to Markdown (T)]]. 
+

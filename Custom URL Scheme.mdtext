@@ -36,6 +36,8 @@ Let's break this down:
 
 An easy way to obtain a complete URL that can be used to later open a specific Note is to right-click the Note's row on the List tab within Notenik, and then select `Copy Notenik URL` from the contextual menu that will pop up. This will copy a complete Notenik URL to the clipboard, from which it can then be pasted into another location. 
 
+To obtain a URL to open the Collection only, without specifying a specific Note, select `Copy Notenik URL for Collection` from beneath the `Collection` menu, then paste into the desired location. 
+
 ### Add
 
 Following is a sample URL:  
