@@ -1,5 +1,7 @@
 Title:  HTML to Markdown - T
 
+Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers.28 HTML to Markdown - T
+
 Timestamp: 20220116190548
 
 Seq:    8.3.28
@@ -10,4 +12,4 @@ Body:
 
 The letter "T" will cause the variable to be treated as HTML, and converted to Markdown.
 
-Note that this conversion is pretty rudimentary at this point, and not at all complete. 
+Note that this conversion is pretty rudimentary at this point, and not at all complete.

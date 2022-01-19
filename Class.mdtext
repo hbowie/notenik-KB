@@ -16,7 +16,21 @@ The word `class` can be used as both a label and a type.
 
 A Collection is not expected to have more than one field of type `class`. 
 
-The class field is meant to identify a particular type of Note within the Collection. 
+The class field is meant to identify a particular type of Note within a Collection. 
+
+Certain `class` values have special meaning to Notenik. These special values generally indicate how a Note would be used within a normal scheme of [book design][bkdsgn]. 
+
+[bkdsgn]: https://en.wikipedia.org/wiki/Book_design
+
++ author - The Note identifies the author of one or more works, as might be cited within a bibliography. 
++ back - back matter of a general nature.
++ biblio - bibliography, as part of the back matter.
++ front - front matter of a general nature.
++ intro - introduction, as part of the front matter.
++ preface - preface, as part of the front matter.
++ quote - quotation.
++ quotation - quotation.
++ work - a work that might be cited within a bibliography. 
 
 Starting with [[Version 7.7.0]], the user may specify a special template file for each different class of Note within a Collection. 
 

@@ -1,16 +1,23 @@
 Title:  Version 8.0.0
 
+Tags:   levels-outline.11 Version History.1 Version 800
+
 Timestamp: 20211116184349
 
-Seq:    11.1
+Seq:    11.2
+
+Date:   18 Jan 2022
 
 Level:  3 - Section
+
+Teaser: 
+
+Added new Include command within the Notenik Markdown parser, to include a file, or another Note; expanded the Author Name Variable Modifierer to allow first name first to be extracted; added a new command and keyboard shortcut to quickly toggle the Streamlined Reading mode; added a new command to format a special Notenik URL to open the current Collection at a later date; added a new Merge Template Variable Modifier to perform a very rudimentary conversion of HTML to Markdown. 
+
 
 Class:  version
 
 Body: 
-
-Released on d MMM, YYYY
 
 ##### Added New Include Command within Markdown Parser
 
@@ -30,5 +37,4 @@ Look beneath the `Collection` menu for the new ability to `Copy Notenik URL for 
 
 ##### Convert HTML to Markdown
 
-Added a new [[Merge Template]] [[Variable Modifier]] to perform a very rudimentary conversion from [[HTML to Markdown (T)]]. 
-
+Added a new [[Merge Template]] [[Variable Modifier]] to perform a very rudimentary conversion from [[HTML to Markdown (T)]].

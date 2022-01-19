@@ -1,0 +1,25 @@
+Title:  Version 8.1.0
+
+Tags:   levels-outline.11 Version History.1 Version 800
+
+Timestamp: 20220118223537
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body: 
+
+##### Added an Include-Quote-Body option for Markdown Inclusion
+
+When using the Markdown extension to [[Include a Note or File]] within the body of a Note, the style `quotebody` can now be used to pull in the body of a second Note, formatted as a blockquote, but without any attempt at attribution. 
+
+##### Exclude Included Notes from list of Included Children
+
+If you use a command to [[Include a Note or File]] within the body of a Note, then Notenik will now exclude that same Note from being displayed within a list of included children that might be displayed following the parent Note.
+
+##### Exclude ToC Page from Table of Contents
+
+When you [[Generate a Collection Table of Contents]], the page on which the ToC appears will no longer itself be included in the generated Table. 

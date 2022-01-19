@@ -1,5 +1,7 @@
 Title:  Include a Note or File
 
+Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.14 Include a Note or File
+
 AKA:    transclusion
 
 Timestamp: 20220110210211
@@ -40,7 +42,11 @@ The following styles are available at this time:
 
 + `quote` - The body of the included Note will be placed within Blockquotes, and an attempt will be made to format a quote attribution block to follow the quote, using the [[Attribution]] field or the [[Artist]]/Author field, along with associated Work fields ([[Work Title]], [[Work Type]], [[Work Link]]). 
 
-Note includes may be nested; in other words, if Note B includes Note C, and Note A includes Note B, then Note C will appear within Note A as well. 
++ `quotebody` - The body of the included Note will be placed within Blockquotes, without any attempt to include an attribution (this style effectively implies that the surrounding text will provide sufficient attribution for the quote).
+
+Note that includes may be nested; in other words, if Note B includes Note C, and Note A includes Note B, then Note C will appear within Note A as well. 
+
+Note also that, if a Note is included within the Body of a Note, via this Markdown extension, then that same Note will **not** be displayed at the bottom of the the parent Note's page as part of the [[Include Children]] display. 
 
 Note that this format, and the intent of this Markdown extension, is slightly different from the [[Include Command]] as implemented for [[Merge Templates]]. 
 
