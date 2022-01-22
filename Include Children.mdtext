@@ -26,4 +26,4 @@ The value selected for the parent's `Include Children` field will determine how 
 
 + `ol`, `ul` or `dl` -- The child Notes will be displayed as list items beneath the parent Note.
 
-Note that, if a Note is included within the Body of a Note, via the Markdown extension to [[Include a Note or File]], then that same Note will **not** be displayed at the bottom of the the parent Note's page as part of the Include Children display. 
+Note that, if a Note is included within the Body of a Note, via the Markdown extension to [[Include a Note or File]], then that same Note will **not** be displayed at the bottom of the the parent Note's page as part of the Include Children display.

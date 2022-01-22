@@ -1,12 +1,18 @@
 Title:  Version 8.1.0
 
-Tags:   levels-outline.11 Version History.1 Version 800
+Tags:   levels-outline.11 Version History.1 Version 810
 
 Timestamp: 20220118223537
 
 Seq:    11.1
 
+Date:   22 Jan 2022
+
 Level:  3 - Section
+
+Teaser: 
+
+Sorted out some problems with model Collections, including what happens when Notenik is launched for the first time; added an include-quote-body option for Markdown inclusion, to include only the body of the referenced Note, but place it within blockquote tags; excluded included Notes from list of Included Children; excluded the Table of Contents page itself when generating a Collection Table of Contents; for a Collection sorted by Seq, the Seq value will now precede the tile of a Note on the Tabs tab; 
 
 Class:  version
 
@@ -22,4 +28,12 @@ If you use a command to [[Include a Note or File]] within the body of a Note, th
 
 ##### Exclude ToC Page from Table of Contents
 
-When you [[Generate a Collection Table of Contents]], the page on which the ToC appears will no longer itself be included in the generated Table. 
+When you [[Generate a Collection Table of Contents]], the page on which the ToC appears will no longer itself be included in the generated Table.
+
+##### Enhanced Tags Display
+
+For a Collection sorted by Seq, the Seq value will now appear on the Tags tab, preceding each Note's title.
+
+##### Sorted Out Some Problems with Model Collections
+
+Straightened out some inconsistencies in how model Collections (including the Notenik Intro) are handled.
