@@ -1,0 +1,69 @@
+Title:  Tables
+
+Timestamp: 20220125174804
+
+Seq:    6.2.9
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body: 
+
+As an extension to the original Markdown spec from John Gruber, tables are supported.  
+
+This is an extension documented in the [Markdown Guide][mdguide].
+
+[mdguide]: https://www.markdownguide.org/extended-syntax/#tables
+
+To create a table, use the pipe character (`|`)  to form a vertical border before, after, and/or between the columns, and use three or more consecutive dashes in each column to form a horizontal border between the header row and the start of the data rows, as in the following example: 
+
+```
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+```
+
+...which will then display as follows:
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+You can control horizontal alignment within each column by placing a colon before, after, or before and after the string of dashes, for left-, right- or centering alignment. See the following example: 
+
+```
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | + more      |
+```
+
+...which will display as follows:
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | + more      |
+
+Note that the pipes do not need to be lined up, and the trailing pipes are optional. So the following code is valid.  
+
+```
+| Syntax      | Description | Test Text
+| :---        |    :----:   |          ---: 
+| Header      | Title       | Here's this   
+| Paragraph   | Text        | + more   
+```
+
+And will still display as desired:
+
+| Syntax      | Description | Test Text
+| :---        |    :----:   |          ---: 
+| Header      | Title       | Here's this   
+| Paragraph   | Text        | + more      
+
+Leading pipes are required, however. Each table line must start with a pipe character. 
+
+

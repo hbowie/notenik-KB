@@ -4,7 +4,7 @@ Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.11 Generate a Collec
 
 Timestamp: 20210713204211
 
-Seq:    6.2.11
+Seq:    6.2.12
 
 Level:  4 - Subsection
 
@@ -28,4 +28,4 @@ See this Collection's [[Complete Table of Contents]] for an example.
 
 With options similar to those available to [[generate a Note Table of Contents]], this command may be followed by one or two digits to indicate, respectively, the lowest level to be included in the ToC, and the highest level.
 
-The Note in which the ToC appears will not itself be included in the generated Table. 
+The Note in which the ToC appears will not itself be included in the generated Table.
