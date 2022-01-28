@@ -1,5 +1,7 @@
 Title:  Tables
 
+Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.9 Tables
+
 Timestamp: 20220125174804
 
 Seq:    6.2.9
@@ -64,6 +66,4 @@ And will still display as desired:
 | Header      | Title       | Here's this   
 | Paragraph   | Text        | + more      
 
-Leading pipes are required, however. Each table line must start with a pipe character. 
-
-
+Leading pipes are required, however. Each table line must start with a pipe character.

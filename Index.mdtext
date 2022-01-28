@@ -26,4 +26,4 @@ When combining multiple terms on a single line, they should be separated by semi
 
 A reference link for a term may also be included, within parentheses, following the term itself, and before any semicolon separator. 
 
-When editing, the index field will appear as a single line of editable text.
+When editing, the index field will appear as multiple lines of editable text.

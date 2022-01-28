@@ -1,0 +1,32 @@
+Title:  Markdown Cheat Sheet
+
+Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.19 Markdown Cheat Sheet
+
+Timestamp: 20220127213626
+
+Seq:    6.2.19
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body: 
+
+This Markdown cheat sheet provides a quick overview of the basic Markdown syntax elements. In order to make this page as compact as possible, I've used commas to indicate places where line breaks would normally occur. 
+
+| Element | Markdown Syntax |
+| ------- | --------------- |
+| Heading | `# H1`, `## H2`, `### H3`
+| Bold    | `**bold text**`
+| Italics | `*italicized text*`
+| Blockquote | `> blockquote`
+| Ordered List | `1. First item`, `2. Second item`
+| Unordered List | \- First item, \- Second item
+| Code    | \`code\`
+| Horizontal Rule | \-\-\- |
+| Link    | `[Notenik](https://notenik.app)`
+| Image   | `![alt text](https://notenik.app/images/notenik-logo.png)`
+
+For more information about any of these elements, refer to the [Daring Fireball site](https://daringfireball.net/projects/markdown/syntax) for basic syntax, or to the sections above for extensions provided by the [[Notenik Markdown Parser]].
+
+Thanks to [Matt Cone](https://www.mattcone.com/) for this cheat sheet I've adapted from his [Markdown Guide](https://www.markdownguide.org).

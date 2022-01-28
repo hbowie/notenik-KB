@@ -10,49 +10,62 @@ Level:  3 - Section
 
 Body: 
 
-Following are the keyboard shortcuts available within the app. Unless another modifier key is indicated, combine each key with the CMD key in order to invoke the indicated command. 
+Following are the keyboard shortcuts available within the app. 
 
-* A - Select All
-* B - Nav Board
-* C - Copy
-* D - Discard Edits
-* E - Edit Note
-* F - Find
-* G - Find Again
-* H - Hide Notenik
-* I - Increment Date or Seq
-* J - Reload Note
-* K - Close Note
-* L - Launch Link
-* M - Minimize
-* N - New Note
-* O - Open
-* Q - Quit Notenik
-* Ctrl-Q - Quick Action
-* R - View Scripter Window
-* Ctrl-R - Toggle Streamlined Reading
-* S - Save Note
-* T - Text Edit Note
-* U - Catch Up Daily Tasks
-* V - Paste
-* W - Close Window
-* X - Cut
-* Y - Show/Hide List
-* 1 - Sort by Title
-* 2 - Sort by Seq + Title
-* 3 - Sort Tasks by Date
-* 4 - Sort Tasks by Seq
-* 5 - Sort by Tags + Title  
-* 6 - Sort by Tags + Seq
-* 7 - Sort by Author
-* \[ - Prior Note
-* \]  - Next Note
-* Opt-Cmd-] - Indent Note
-* Opt-Cmd-[ - Outdent Note
-* → - Scroll to Selected Note
-* '=' - Increase Edit Font Size
-* '-' - Decrease Edit Font Size
-* ',' - Display Application Preferences
-* ';' - Display Collection Preferences
-* '\'' - Toggle Status
-* '.' - Increment Status
+| Ctrl | Shift | Opt | Cmd | Key | Command |
+| ---- | ----- | --- | --- | :---: | :------ |
+|      |       |     | Cmd |  A  | Select All ([Mac Standard][mkeys])
+|      |       |     | Cmd |  B  | [[Nav Board]] 
+|      |       |     | Cmd |  C  | Copy ([Mac Standard][mkeys])
+|      |       |     | Cmd |  D  | Discard Edits  
+|      |       |     | Cmd |  E  | Edit Note
+|      |       |     | Cmd |  F  | Find (aka [[Search]]) ([Mac Standard][mkeys]) 
+|      |       | Opt | Cmd |  F  | Advanced [[Search]]   
+|      |       |     | Cmd |  G  | Find Again ([Mac Standard][mkeys])
+|      |       |     | Cmd |  H  | Hide Notenik ([Mac Standard][mkeys])
+|      |       | Opt | Cmd |  H  | Hide Others ([Mac Standard][mkeys])
+|      |       |     | Cmd |  I  | Increment [[Date]] or [[Seq]]
+|      |       |     | Cmd |  J  | Reload Note (see [[Use of a Text Editor]])
+|      |       |     | Cmd |  K  | Close (i.e. *kill*) a Note (see [[Task-Related Fields]])
+|      |       |     | Cmd |  L  | Launch [[Link]]
+|      |       | Opt | Cmd |  L  | Generate Wikipedia [[Link]]
+|      | Shift | Opt | Cmd |  L  | Clean [[Link]]
+|      |       |     | Cmd |  M  | Minimize ([Mac Standard][mkeys])
+|      |       |     | Cmd |  N  | [[New Note]]
+|      |       |     | Cmd |  O  | Open a Collection ([Mac Standard][mkeys])
+|      |       | Opt | Cmd |  O  | Open a Parent Realm 
+|      | Shift | Opt | Cmd |  O  | Open Collection Folder in the Finder
+|      |       |     | Cmd |  Q  | Quit Notenik (Mac Standard)
+| Ctrl |       |     |     |  Q  | [[Take Quick Action]]
+|      |       |     | Cmd |  R  | Run a [[Script File]]
+| Ctrl |       |     |     |  R  | Toggle [[Streamlined Reading]]
+|      |       |     | Cmd |  S  | Save the Note ([Mac Standard][mkeys])
+|      |       |     | Cmd |  T  | [[Text Edit]] a Note
+|      |       |     | Cmd |  U  | Catch Up Daily Tasks (see [[Make a To-Do List]])
+|      |       |     | Cmd |  V  | Paste ([Mac Standard][mkeys])
+|      |       |     | Cmd |  W  | Close Window ([Mac Standard][mkeys])
+|      |       |     | Cmd |  X  | Cut ([Mac Standard][mkeys])
+|      |       |     | Cmd |  Y  | Toggle display of Left side of Window (List/Tags)
+|      |       |     | Cmd |  0  | Reverse Sort Sequence
+|      |       |     | Cmd |  1  | Sort by Title
+|      |       |     | Cmd |  2  | Sort by Seq + Title
+|      |       |     | Cmd |  3  | Sort Tasks by Date
+|      |       |     | Cmd |  4  | Sort Tasks by Seq
+|      |       |     | Cmd |  5  | Sort by Tags + Title  
+|      |       |     | Cmd |  6  | Sort by Tags + Seq
+|      |       |     | Cmd |  7  | Sort by Author
+|      |       |     | Cmd |  8  | Sort by Date Added
+|      |       |     | Cmd |  9  | Sort by Date Modified
+|      |       |     | Cmd | \[  | Prior Note
+|      |       |     | Cmd | \]  | Next Note
+|      |       | Opt | Cmd | \]  | Indent Note
+|      |       | Opt | Cmd | \[  | Outdent Note
+|      |       |     | Cmd |  →  | Scroll to Selected Note
+|      |       |     | Cmd |  =  | Increase Edit Font Size
+|      |       |     | Cmd |  -  | Decrease Edit Font Size
+|      |       |     | Cmd |  ,  | Display Application Preferences
+|      |       |     | Cmd |  ;  | Display Collection Preferences
+|      |       |     | Cmd |  '  | Toggle Status
+|      |       |     | Cmd |  .  | Increment Status
+
+[mkeys]: https://support.apple.com/en-us/HT201236
