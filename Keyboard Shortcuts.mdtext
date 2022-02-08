@@ -60,6 +60,7 @@ Following are the keyboard shortcuts available within the app.
 |      |       |     | Cmd | \]  | Next Note
 |      |       | Opt | Cmd | \]  | Indent Note
 |      |       | Opt | Cmd | \[  | Outdent Note
+|      | Shift |     | Cmd | \]  | Random Note
 |      |       |     | Cmd |  →  | Scroll to Selected Note
 |      |       |     | Cmd |  =  | Increase Edit Font Size
 |      |       |     | Cmd |  -  | Decrease Edit Font Size

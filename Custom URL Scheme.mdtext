@@ -72,3 +72,11 @@ Once more, let's break this down:
 + `id=versionhistory` - The ID identifying the Note to be selected for Display. 
 
 The query string is optional. If it is not supplied, then the Knowledge Base will be opened at the first Note in the Collection.
+
+### Prefs
+
+Following is a sample URL:
+
+	notenik://prefs
+
+This command simply brings up the overall Application Preferences window, to allow the user to adjust one or more of the global preferences. 

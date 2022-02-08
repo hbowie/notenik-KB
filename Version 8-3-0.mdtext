@@ -1,0 +1,31 @@
+Title:  Version 8.3.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Teaser: 
+
+Added Notenik Tips; added an option to go from the last Note back to the first Note, when using Streamlined Reading; positions and sizing of Collection Windows are now retained between sessions and restored when a Collection is next opened; random note navigation is now supported. 
+
+Class:  version
+
+Body: 
+
+##### Added Notenik Tips
+
+Created a set of short tips on Notenik usage. These will launch at startup, until the user sets this option off in the Notenik General Preferences. 
+
+##### Back to Top for Streamlined Reading
+
+In Streamlined Reading mode, the user normally sees a 'Next:' label at the bottom of the page, followed by a link to the next Note. When the user reaches the end of a Collection, this 'Next' link is now replaced by a 'Back to Top' link, to take the user back to the first Note in the Collection. 
+
+##### Collection Window Positions Now Recalled
+
+Notenik will now record the last window position and size, including the split view divider position, for each Collection window, and will then attempt to restore these values the next time the Collection is opened. These values are saved per Collection, so different Collections will have their windows restored to their own sizes and positions.
+
+##### Random Note Navigation
+
+A new option beneath the Nav menu allows the user to jump to a randomly selected Note in the Collection. 

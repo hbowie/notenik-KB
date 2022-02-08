@@ -36,4 +36,6 @@ Note that the next/prior logic can work in three somewhat different ways.
 
 3. If neither of the first two cases is applicable, then the next/prior buttons (or commands) will simply move through the list of Notes sequentially. 
 
+Note that there is also an option beneath the Nav menu to navigate to a new Note in the Collection via a random path.
+
 The View menu contains a 'Show/Hide List' command that will allow you to collapse the List/Tags view, so that you can see the right side of the window without any distractions. Use the same command again to show the list after it has been concealed. The left side of the window can also be collapsed by dragging the divider all the way to the left. Again, though, use the View command to restore it after it has been collapsed.
