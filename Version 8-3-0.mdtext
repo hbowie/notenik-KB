@@ -1,14 +1,19 @@
 Title:  Version 8.3.0
 
+Tags:   levels-outline.11 Version History.1 Version 830
+
 Timestamp: 20211116184349
 
 Seq:    11.1
+
+Date:   10 Feb 2022
 
 Level:  3 - Section
 
 Teaser: 
 
-Added Notenik Tips; added an option to go from the last Note back to the first Note, when using Streamlined Reading; positions and sizing of Collection Windows are now retained between sessions and restored when a Collection is next opened; random note navigation is now supported. 
+Added Notenik Tips; added an option to go from the last Note back to the first Note, when using Streamlined Reading; positions and sizing of Collection Windows are now retained between sessions and restored when a Collection is next opened; random note navigation is now supported; plus a couple of small fixes for Mathjax usage. 
+
 
 Class:  version
 
@@ -16,7 +21,7 @@ Body:
 
 ##### Added Notenik Tips
 
-Created a set of short tips on Notenik usage. These will launch at startup, until the user sets this option off in the Notenik General Preferences. 
+Created a set of short tips on Notenik usage. These will launch at startup, until the user sets this option off in the Notenik General Preferences. They can also be accessed using the Help menu. 
 
 ##### Back to Top for Streamlined Reading
 
@@ -28,4 +33,8 @@ Notenik will now record the last window position and size, including the split v
 
 ##### Random Note Navigation
 
-A new option beneath the Nav menu allows the user to jump to a randomly selected Note in the Collection. 
+A new option beneath the Nav menu allows the user to jump to a randomly selected Note in the Collection. Try this with the new Notenik Tips!
+
+##### A Couple of Additional Mathjax Issues Sorted
+
+A couple of additional issues that could surface when using Mathjax have been corrected.
