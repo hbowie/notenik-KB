@@ -18,7 +18,7 @@ With that being said, here are some rules that Notenik will try to apply to inte
 
 3. Notenik will generally respect whatever metadata tags are found at the top of the file, unless you have specified otherwise. In this respect, Notenik generally follows the same conventions as the [MultiMarkdown Metadata](https://fletcher.github.io/MultiMarkdown-4/metadata.html) specification. 
 
-4. In accordance with this same spec, Notenik will respect a line of three dashes before and after the metadata, to indicate the start and end of the metadata block. The line after the metadata can also be one to four periods. 
+4. In accordance with this same spec, Notenik will respect a line of three dashes before and after the metadata, to indicate the start and end of the metadata block. The line after the metadata can also be three periods. 
 
 5. Notenik normally expects to see blank lines between metadata fields, for improved readability. However, if the first line contains a Title field, and is immediately followed by another metadata field, without an intervening blank line, then Notenik will assume that the first blank line encountered should end the metadata block and start the body of the note. 
 

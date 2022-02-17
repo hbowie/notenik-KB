@@ -34,3 +34,5 @@ Click on the Tags tab to see your Notes organized by tags, instead of appearing 
 There is an option beneath the Sort menu to sort your list of Notes by Tags plus Title fields. 
 
 Beneath the Collection menu you will find an option to perform a Tags Mass Change. The user will be prompted to specify *from* tags and *to* tags, and Notenik will then replace the from tags (in combination, if more than one is specified) with the to tags.
+
+Some text file authors like to prepend their tags with hash marks, as is common with social media hashtags. Notenik will generally try to recognize and respect this preference, but the hash marks will generally not appear within Notenik. 
