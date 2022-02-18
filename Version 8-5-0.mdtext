@@ -8,10 +8,16 @@ Level:  3 - Section
 
 Class:  version
 
-Body: 
+Body:
 
 ##### Improved Handling of Hashtags
 
 Some text file authors like to prepend their tags with hash marks, as is common with social media hashtags: `#groovy`, for example. 
 
-Notenik now does a better job of handling these. 
+Notenik now does a better job of handling these.
+
+##### Added a YAML Export Option
+
+You can now export a Notenik Collection into a new folder, using YAML metadata rather than the Notenik format. See [[Import and Export your Notes]] for additional info. 
+
+

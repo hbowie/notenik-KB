@@ -18,6 +18,10 @@ Following are the supported formats.
 * Import/Export in Notenik Format  
 
 	You can import and export your Notes in the current collection from/to a folder in the same Notenik format.
+	
+* Export in YAML Format
+
+	You can export your Notes into a new folder, using YAML metadata rather than the Notenik format. The new folder will be formatted so that it can be opened by Notenik as a Collection, which means that it will have some 'extra' files: `- INFO.nnk`, `- README.txt` and `template.md`. Feel free to delete these if they are not needed. 
 
 * Import/Export in Tab-Delimited Format  
 
