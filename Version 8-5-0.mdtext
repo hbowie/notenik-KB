@@ -18,6 +18,14 @@ Notenik now does a better job of handling these.
 
 ##### Added a YAML Export Option
 
-You can now export a Notenik Collection into a new folder, using YAML metadata rather than the Notenik format. See [[Import and Export your Notes]] for additional info. 
+You can now export a Notenik Collection into a new folder, using YAML metadata rather than the Notenik format. See [[Import and Export your Notes]] for additional info.
+
+##### Status Field More Tolerant of Unexpected Input
+
+The Status field type has been updated to allow input values that are not part of the field's configured range of values, and also to ensure that Notes without status values don't have them gratuitously added with the default value for the Collection. 
+
+##### Local Image Display Now Possible
+
+A new checkbox labeled 'Enable Local Image References?' has been added to the Collection Preferences window. The default value for a Collection is off, or unchecked. Turning this option on, by checking the box and clicking 'OK', will enable local, relative paths to images located somewhere within the Collection folder. This is provided as an option because, in order to enable local image display, Notenik has to write the contents of the generated display HTML to disk, to a temporary file named 'temp_display.html'. If the local image display option is not needed, then Notenik can simply load the generated HTML from memory, without any disk writes, speeding up the process and making it more efficient. If this option is on, and the [[Image Name]] field is being used, then Notenik will automatically pull the image into the display, prior to the body of the Note. 
 
 
