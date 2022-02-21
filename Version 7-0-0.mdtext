@@ -1,6 +1,6 @@
 Title:  Version 7.0.0
 
-Tags:   levels-outline.11 Version History.19 Version 700
+Tags:   levels-outline.11 Version History.20 Version 700
 
 Timestamp: 20210821181100
 
@@ -10,14 +10,14 @@ Date:   27 Aug 2021
 
 Level:  3 - Section
 
-Teaser: 
+Teaser:
 
 Added a new lookup field type; improved web book generation. 
 
 
 Class:  version
 
-Body: 
+Body:
 
 Released on August 27, 2021
 

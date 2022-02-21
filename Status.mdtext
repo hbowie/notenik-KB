@@ -8,7 +8,7 @@ Seq:    7.7.2
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The word `status` can be used as both a label and a type. 
 
@@ -16,7 +16,7 @@ A Collection should only have a single field of type `status`.
 
 The status field is meant to indicate a task's degree of completion, using a standard set of values. A single digit is used to place each status value into an approximate life cycle sequence. An accompanying bit of text is used to convey the human-readable meaning associated with that particular digit. 
 
-When editing, the status field is presented as a pick list, with the user allowed to select from the list of standard values for that Collection. 
+When editing, the status field is presented as a combo box, allowing the user to select from the list of standard values for that Collection, or to enter a custom value. 
 
 For Display purposes, the digit and text are usually shown side-by-side. 
 

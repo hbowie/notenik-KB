@@ -8,7 +8,7 @@ Seq:    7.10.5
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The word `lookup` can be used as a field type, but is not intended to be used as a field label. 
 

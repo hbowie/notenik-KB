@@ -1,6 +1,6 @@
 Title:  Version 6.9.3
 
-Tags:   levels-outline.11 Version History.20 Version 693
+Tags:   levels-outline.11 Version History.21 Version 693
 
 Timestamp: 20210815174353
 
@@ -10,14 +10,14 @@ Date:   15 Aug 2021
 
 Level:  3 - Section
 
-Teaser: 
+Teaser:
 
 Fixed a bug affecting parsing of Math following a footnote definition. 
 
 
 Class:  version
 
-Body: 
+Body:
 
 Released on August 15, 2021. 
 

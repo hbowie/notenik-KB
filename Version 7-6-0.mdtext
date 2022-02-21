@@ -1,6 +1,6 @@
 Title:  Version 7.6.0
 
-Tags:   levels-outline.11 Version History.12 Version 760
+Tags:   levels-outline.11 Version History.13 Version 760
 
 Timestamp: 20211028210114
 
@@ -10,14 +10,14 @@ Date:   08 Nov 2021
 
 Level:  3 - Section
 
-Teaser: 
+Teaser:
 
 The optional Image Name field, when present, will be used to insert images into pages when generating a Web Book; an option to sort a Collection by Date Modified has been added; a handy shortcut key (CMD 0) has been added to reverse the current sort direction; when using the Quick Action screen, the last Collection Shortcut used will be recalled as a default value; when using the Collection Prefs screen to remove a field, Notenik will now purge any of the data associated with those fields from all Notes in the Collection; and available values for the new Class field can now be specified in a Collection Template file. 
 
 
 Class:  version
 
-Body: 
+Body:
 
 Released on 8 Nov 2021
 

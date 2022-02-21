@@ -1,6 +1,6 @@
 Title:  Version 6.9.0
 
-Tags:   levels-outline.11 Version History.22 Version 690
+Tags:   levels-outline.11 Version History.23 Version 690
 
 Timestamp: 20210806000011
 
@@ -10,14 +10,14 @@ Date:   12 Aug 2021
 
 Level:  3 - Section
 
-Teaser: 
+Teaser:
 
 Added several new options to better support outlining: OPML Import and improved OPML Export, ability to add a new Child to an existing Note, plus ability to drag and drop within a sequenced list; fixed list scrolling so that the Note highlighted and visible on the left will generally match the Note currently selected on the right. 
 
 
 Class:  version
 
-Body: 
+Body:
 
 Released on August 12, 2021. 
 

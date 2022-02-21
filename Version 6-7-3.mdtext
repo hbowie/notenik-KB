@@ -1,6 +1,6 @@
 Title:  Version 6.7.3
 
-Tags:   levels-outline.11 Version History.25 Version 673
+Tags:   levels-outline.11 Version History.26 Version 673
 
 Timestamp: 20210727000404
 
@@ -10,14 +10,14 @@ Date:   27 Jul 2021
 
 Level:  3 - Section
 
-Teaser: 
+Teaser:
 
 Additional fixes for MathJax support. 
 
 
 Class:  version
 
-Body: 
+Body:
 
 Further fixes to [[MathJax support]].
 

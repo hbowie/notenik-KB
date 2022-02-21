@@ -1,6 +1,6 @@
 Title:  Version 6.4.0
 
-Tags:   levels-outline.11 Version History.31 Version 640
+Tags:   levels-outline.11 Version History.32 Version 640
 
 Timestamp: 20210627222923
 
@@ -10,14 +10,14 @@ Date:   02 Jul 2021
 
 Level:  3 - Section
 
-Teaser: 
+Teaser:
 
 Markdown parser support for definition lists; new Collection pref for Streamlined Reading, increasing focus on Body content on the Display tab; new Display navigation elements added when using Streamlined Reading, especially useful when using Seq and Level fields and sorting by Seq; new Notenik Knowledge Base, available from the Help menu (replacing all prior Help documentation).
 
 
 Class:  version
 
-Body: 
+Body:
 
 Released on 02 July 2021
 

@@ -1,6 +1,6 @@
 Title:  Version 6.1.0
 
-Tags:   levels-outline.11 Version History.34 Version 610
+Tags:   levels-outline.11 Version History.35 Version 610
 
 Timestamp: 20210627222923
 
@@ -10,12 +10,12 @@ Date:   23 May 2021
 
 Level:  3 - Section
 
-Teaser: 
+Teaser:
 
 Script execution now runs asynchronously, so as not to block the main UI (no more spinning beach balls!); an animated indeterminate progress bar was added to the scripter window to let the user know that the script is still running; a browse command was also added to the scripting engine, so that the user can optionally open a local URL at the end of a script, both to let the user know the script is done, and also to allow the user to review the results (assuming the user was creating or updating a website or some collection of web pages).
 
 
-Body: 
+Body:
 
 Released on 19 May 2021
  
