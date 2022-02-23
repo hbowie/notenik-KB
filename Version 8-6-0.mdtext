@@ -1,0 +1,15 @@
+Title:  Version 8.6.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Auto-Creation of Missing Wiki-Link Targets Now Optional
+
+Another new Collection Preferences option has been added: the ability to automatically `Create Notes for Missing Wiki Link Targets`. This option is off by default. If you turn it on for a Collection, then whenever Notenik encounters a Note containing a wiki-style link to a second Note, and that Note does not yet exist, Notenik will create a Note with the targeted title, and with text in the body of the new note pointing back to the referencing Note. 

@@ -14,7 +14,7 @@ Index:  preferences; collection preferences;
 
 Class:  version
 
-Body: 
+Body:
 
 You will be presented with the Preferences for your Collection immediately after creating it. 
 
@@ -43,6 +43,8 @@ The following checkboxes are available and can be used to modify/augment the app
 + Enable Mathjax V3? -- Check this box to load the Mathjax javascript package, so that math symbols and equations will display properly. This is off by default. See the [[Mathjax Support]] page for more info. 
 
 + Enable Local Image References? -- This is off by default, because in order to enable local image file references, the HTML formatted for the Display tab must first be written to disk, instead of being loaded from memory. If you have stored images somewhere in your Collection folder, and you want them to appear on the Display tab, then check this box.
+
++ Create Notes for Missing Wiki Link Targets? -- This option is off by default. If you turn it on for a Collection, then whenever Notenik encounters a Note containing a wiki-style link to a second Note, and that Note does not yet exist, Notenik will create a Note with the targeted title, and with text in the body of the new Note pointing back to the referencing Note. 
 
 The right side of the window allows you to choose the fields you would like to include in the Collection. Feel free to check additional ones if they seem useful to you. 
 
