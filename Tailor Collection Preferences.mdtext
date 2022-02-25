@@ -30,11 +30,11 @@ Each Note file is an ordinary text file, and can be opened using any text editor
 
 Enter a shortcut for a Collection in order to easily identify and open it later. (See the article [[Take Quick Action]] for further info.)
 
+Select an option to tailor your [[Note Title Display]]. The default is a normal font size, with a bold style applied. See the separate page below for details. 
+
 The following checkboxes are available and can be used to modify/augment the appearance of Notes on the Display tab. 
 
-+ Include Explicit Body field label on Display? -- This is checked by default, but you can uncheck it if you'd prefer to see your Notes displayed without a leading 'Body:' label. 
-
-+ Display Note Titles as Level 1 Headings? -- This is unchecked by default, but you can check it if you'd like to see your Note titles displayed in an even bigger and bolder font.  
++ Include Explicit Body field label on Display? -- This is checked by default, but you can uncheck it if you'd prefer to see your Notes displayed without a leading 'Body:' label.  
 
 + Format Display for Streamlined Reading? -- This is unchecked by default. If you check it, then the Display of the Note will be streamlined so that users can focus on the reading experience. See the [[Streamlined Reading]] page for details. 
 

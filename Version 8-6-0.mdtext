@@ -12,4 +12,16 @@ Body:
 
 ##### Auto-Creation of Missing Wiki-Link Targets Now Optional
 
-Another new Collection Preferences option has been added: the ability to automatically `Create Notes for Missing Wiki Link Targets`. This option is off by default. If you turn it on for a Collection, then whenever Notenik encounters a Note containing a wiki-style link to a second Note, and that Note does not yet exist, Notenik will create a Note with the targeted title, and with text in the body of the new note pointing back to the referencing Note. 
+Another new Collection Preferences option has been added: the ability to automatically `Create Notes for Missing Wiki Link Targets`. This option is off by default. If you turn it on for a Collection, then whenever Notenik encounters a Note containing a wiki-style link to a second Note, and that Note does not yet exist, Notenik will create a Note with the targeted title, and with text in the body of the new note pointing back to the referencing Note.
+
+##### More Options for Formatting Note Titles
+
+When you [[Tailor Collection Preferences]], you previously saw a checkbox allowing you to display your Note Titles a level 1 headings, making them big and bold. This checkbox has now been replaced by a drop-down menu presenting you with additional options to tailor the [[Note Title Display]]. Any heading level can now be selected. 
+
+##### Default Styling for Headings Modified
+
+The default styling for headings (whether entered via [[Markdown]], or selected for the [[Note Title Display]]) has been altered. See [[Default Styling for Headings]] to see what they look like. 
+
+##### Rearranged File Menu Slightly
+
+Moved `Open Recent` to the bottom of the `Open` commands, and put `Close` in a separate grouping, with a divider above. This seems to make `Open Recent` easier to find, and the new arrangement seems more in line with that of other Mac apps. 

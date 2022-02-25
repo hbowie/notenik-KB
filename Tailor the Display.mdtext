@@ -20,7 +20,7 @@ The Collection Preferences contain a couple of options for changing the way a No
 
 + Include explicit Body field label on the Display tab? - This is checked by default, but you can uncheck this option if you'd prefer the body to just show up without any header label. 
 
-+ Display Note Titles as Level 1 Headings? - The default is to display note titles as paragraphs with strong emphasis, but check this box if you'd prefer them to be displayed within `h1` tags.
++ [[Note Title Display]] - Choose the styling you would like to see for Note titles as they appear on the Display tab. 
 
 The layout and appearance of the Display tab for a particular Collection can be further customized by the addition of either of the following special files to the folder containing a Collection's notes. 
 
