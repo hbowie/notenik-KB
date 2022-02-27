@@ -1,10 +1,10 @@
 Title:  No Email Obfuscation
 
-Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.16 No Email Obfuscation
+Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.17 No Email Obfuscation
 
 Timestamp: 20210607233631
 
-Seq:    6.2.16
+Seq:    6.2.17
 
 Level:  4 - Subsection
 
@@ -12,7 +12,7 @@ Index:  email obfuscation;
 
 Class:  version
 
-Body: 
+Body:
 
 Automatic links for email addresses do *not* perform any randomized decimal and hex entity-encoding of the email addresses.
 

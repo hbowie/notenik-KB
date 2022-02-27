@@ -1,5 +1,7 @@
 Title:  Note Title Display
 
+Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.3 Tailor Collection Preferences.1 Note Title Display
+
 Timestamp: 20220224220838
 
 Seq:    2.3.1
@@ -22,4 +24,4 @@ These are your options:
 + `level` -- If you're using a [[level]] field, and/or a [[seq]] field, then you can imply a heading level based on the depth of a Note's level, or seq depth. 
 + `level + n` -- Similar to `level`, as specified above, but adding a fixed value to each Note's level.
 
-See [[Default Styling for Headings]] to see what each heading level will look like. 
+See [[Default Styling for Headings]] to see what each heading level will look like.

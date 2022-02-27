@@ -1,14 +1,14 @@
 Title:  Word and Character Counts
 
-Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.18 Word and Character Counts
+Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.19 Word and Character Counts
 
 Timestamp: 20210626220805
 
-Seq:    6.2.18
+Seq:    6.2.19
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 Beneath the Note menu there is an option to Show Counts. If you are using the Notenik Markdown parser, then selecting this item will display a window showing five separate numbers pertaining to the Body field of the currently selected Note. 
 

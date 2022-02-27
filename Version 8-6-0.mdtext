@@ -1,14 +1,27 @@
 Title:  Version 8.6.0
 
+Tags:   levels-outline.11 Version History.1 Version 860
+
 Timestamp: 20211116184349
 
 Seq:    11.1
 
+Date:   26 Feb 2022
+
 Level:  3 - Section
+
+Teaser:
+
+Added support for Markdown task lists; auto-creation of missing wiki-link targets is now optional, and can be toggled within the Collection Preferences; added additional options for formatting Note Titles, so that they can be generated with varying heading levels; improved the default styling for heading levels; slight improvement in the arrangement of the File menu. 
+
 
 Class:  version
 
 Body:
+
+##### Added Support for Checklists
+
+Markdown [[Task Lists]] are now supported. Use dashes and square brackets and `X` characters to define a checklist. 
 
 ##### Auto-Creation of Missing Wiki-Link Targets Now Optional
 
@@ -24,4 +37,4 @@ The default styling for headings (whether entered via [[Markdown]], or selected 
 
 ##### Rearranged File Menu Slightly
 
-Moved `Open Recent` to the bottom of the `Open` commands, and put `Close` in a separate grouping, with a divider above. This seems to make `Open Recent` easier to find, and the new arrangement seems more in line with that of other Mac apps. 
+Moved `Open Recent` to the bottom of the `Open` commands, and put `Close` in a separate grouping, with a divider above. This seems to make `Open Recent` easier to find, and the new arrangement seems more in line with that of other Mac apps.
