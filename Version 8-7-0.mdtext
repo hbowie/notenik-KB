@@ -1,0 +1,15 @@
+Title:  Version 8.7.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Refined Rules for Opening Folders
+
+Refined the rules for opening folders, to distinguish between folders that should be opened by Notenik, vs. folders to be opened in the FInder. 
