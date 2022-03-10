@@ -22,12 +22,14 @@ These two Notenik traits can sometimes come into conflict, however. If you store
 
 Here's how this works. 
 
-1. Any Collection folder that you select through the Open command under the File menu will be available to you, because you have explicitly selected it for use by Notenik. (Note that you can also achieve these same results by using the macOS Finder to drag a folder and drop it onto the Notenik app icon.)
+1. Any Collection stored within the [[The Notenik iCloud Container]] will always be accessible by Notenik, and the [[Nav Board]] can be used to easily open any of the Collections within this special container, or to create a new Collection within this container.
 
-2. Any Collection folder that you select using the Open Recent command under the File menu will be available to you, because macOS remembers that you previously gave Notenik permission to access that Collection. 
+2. Any Collection folder that you select through the Open command under the File menu will be available to you, because you have explicitly selected it for use by Notenik. (Note that you can also achieve these same results by using the macOS Finder to drag a folder and drop it onto the Notenik app icon.)
 
-3. If you use the Open Parent Realm command under the File menu to have Notenik search for its Collections and Scripts within a parent folder, then those Collections and Scripts will be available to be opened, because you have explicitly given Notenik permission to access everything within that parent folder. 
+3. Any Collection folder that you select using the Open Recent command under the File menu will be available to you, because macOS remembers that you previously gave Notenik permission to access that Collection. 
 
-4. Any Collection stored within the [[The Notenik iCloud Container]] will always be accessible by Notenik, and the Collections Board can be used to easily open any of the Collections within this special container, or to create a new Collection within this container.  
+4. If you use the Open Parent Realm command under the File menu to have Notenik search for its Collections and Scripts within a parent folder, then those Collections and Scripts will be available to be opened, because you have explicitly given Notenik permission to access everything within that parent folder. 
+
+5. If you use the `Grant Folder Access...` command beneath the `File` menu to select a folder you wish to authorize for Notenik access, then Notenik will then have unfettered access to anything within that folder. 
 
 In general, the rules above will be enough to cover most situations. If they prove too restrictive, though, you can always grant Notenik full disk access in the Security & Privacy pane of System Preferences.

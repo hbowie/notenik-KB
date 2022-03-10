@@ -1,5 +1,9 @@
 Title:  Make a Project Launcher
 
+Tags:   levels-outline.10 Putting It All Together.8 Make a Project Launcher
+
+Timestamp: 20220309202856
+
 Seq:    10.8
 
 Level:  3 - Section
@@ -22,7 +26,7 @@ But at the same time, as the author of Notenik, I've had this nagging feeling th
 
 So I finally sat down the other day and tried to get all of this stuff organized, using Notenik. 
 
-The first thing I did was to create a new Collection, calling it `Project Notes`. The only fields I needed were the basic four: Title, Tags, Link and Body. 
+The first thing I did was to create a new Collection, calling it `Project Notes`. The only fields I needed were the basic four: [[Title]], [[Tags]], [[Link]] and [[Body]]. 
 
 Then I added a new Note for each different resource I needed to open, and assigned a project tag to each Note (just coming up with some unique tag for each project, and then using it consistently to tag associated Notes). 
 
@@ -42,4 +46,4 @@ Now I can select one (or more!) rows on either the List tab, or the Tags tab, an
 
 So far, it's working pretty well!
 
-
+P.S.: Something to be mindful of when using Notenik in this fashion are [[Disk Access Permissions]], especially if you're asking Notenik to open a lot of local files and folders that are spread out a bit. One way to prevent permissions problems during a Notenik session is to use the `Grant Folder Access` command beneath the `File` menu, and then select a folder at a high enough level to include all of the local resources of interest.)

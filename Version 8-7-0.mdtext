@@ -1,10 +1,19 @@
 Title:  Version 8.7.0
 
+Tags:   levels-outline.11 Version History.1 Version 870
+
 Timestamp: 20211116184349
 
 Seq:    11.1
 
+Date:   11 Mar 2022
+
 Level:  3 - Section
+
+Teaser:
+
+Improved handling of folders and packages; added option to exclude untagged Notes from a generated tags outline; added seq formatting options to exclude/format sequence numbers differently at different levels of numbering; added new App pref allowing Notenik to always use light mode, or always use dark mode, no matter how System appearance preferences are set; added ability to select multiple Notes whose links are to be launched, and to launch them from the Tags tab, as well as the List tab; added new File menu command to grant Notenik access to a selected folder. 
+
 
 Class:  version
 
@@ -36,6 +45,10 @@ The user may now select multiple rows on the List tab, then Ctrl-Click on any on
 
 A contextual menu has now been added to the Tags tab, containing the `Launch Link` option, and multiple rows may be launched at once, in the same way as described above for the List tab.
 
+##### Added New Command to Grant Folder Access
+
+The user may now use a command beneath the `File` menu to select a parent folder to which Notenik is to be granted access. After selecting such a folder, Notenik will have unfettered access to open files and folders within the chosen parent (which could, for example, be the user's home directory). 
+
 ##### Added Knowledge Base Chapter on using Notenik as a Project Launcher
 
-See [[Make a Project Launcher]] in the [[Putting It All Together]] section. 
+See [[Make a Project Launcher]] in the [[Putting It All Together]] section.
