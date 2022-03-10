@@ -10,7 +10,7 @@ Level:  4 - Subsection
 
 Class:  non-version
 
-Body: 
+Body:
 
 The word `seq` can be used as both a label and a type. 
 
@@ -46,4 +46,29 @@ If your Notes have a two-part Seq field (i.e., 1.00), then use the `Increment Ma
 
 You can perform some basic resequencing by dragging and dropping a Note from one position to another on the List tab. Note that you must move the Drop indicator to a line above and/or below existing Notes in order to indicate a desired new position for an existing Note (in other words, not on top of an existing Note). Only the Note being dragged and dropped will have its Seq value changed.
 
-Starting with [[Version 7.9.0]], you can also modify the Seq values for an entire range of Notes. The first step is to select the range to be renumbered on the List tab. Then use Ctrl-Clck, or right-click, to obtain the contextual menu, then select `Modify Seq...` from the menu. You will be presented with a new window showing the range you have selected, and then allowing you to enter a new Seq value for the first Note in the range. Once you've entered that new value, and hit the `OK` button, the entire range will be renumbered. This command doesn't make use of, or modify, the Level values, if present, but the structure of the range, as represented by the levels of numbering for each Note, will be preserved. The Seq value for following Notes will not be modified, so if you're moving a block of Notes into an existing sequence, then you may wish to increment the Seq value for the new following Notes, before initiating the `Modify Seq` operation.
+Starting with [[Version 7.9.0]], you can also modify the Seq values for an entire range of Notes. The first step is to select the range to be renumbered on the List tab. Then use Ctrl-Click, or right-click, to obtain the contextual menu, then select `Modify Seq...` from the menu. You will be presented with a new window showing the range you have selected, and then allowing you to enter a new Seq value for the first Note in the range. Once you've entered that new value, and hit the `OK` button, the entire range will be renumbered. This command doesn't make use of, or modify, the Level values, if present, but the structure of the range, as represented by the levels of numbering for each Note, will be preserved. The Seq value for following Notes will not be modified, so if you're moving a block of Notes into an existing sequence, then you may wish to increment the Seq value for the new following Notes, before initiating the `Modify Seq` operation.
+
+Starting with [[Version 8.7.0]], you may edit [[the Collection Template file]] and add codes to control the formatting of Seq values in secondary displays. 
+
+Primary displays of Seq values occur on the display of the Note in question. Primary displays always carry the full, unformatted Seq value. 
+
+Secondary displays of Seq values may arise when showing the contents of a higher-[[level]] Note. These are the sorts of displays that will be affected by formatting codes specified in the Collection template file. 
+
+Here is an example of such formatting codes:
+
+```
+Seq: <seq: x|n.|x|x > 
+```
+
+In this example...
+
++ The first `Seq` is the field label;
++ The next `seq` is the field type;
++ The `<` and `>` enclose the field type and its formatting codes;
++ The `:` separates the type from the following codes;
++ The pipe characters (`|`) separate the levels of a Seq field;
++ The `x` character indicates that the level should be excluded from the formatted display;
++ The `n` character represents a Seq level to be displayed;
++ The `.` is a suffix to be added to the Seq level.
+
+So, given the formatting codes in the example above, a Seq value of '7.3' would appear in a secondary display as '3.'.

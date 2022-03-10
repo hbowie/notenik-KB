@@ -8,7 +8,7 @@ Seq:    7.4.3
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The word `link` can be used as both a label and a type. 
 
@@ -16,7 +16,7 @@ In addition to `link` itself, this field type will be inferred for a label of `U
 
 A Collection may have multiple fields of type `link`.
 
-A link field is expected to hold a single [URL](https://en.wikipedia.org/wiki/URL). Notenik will attempt to honor as many different URL schemes (`https`, `mailto`, etc.) as might usefully be referenced, and will attempt to handle each according to its type. 
+A link field is expected to hold a single [URL](https://en.wikipedia.org/wiki/URL). Notenik will attempt to honor as many different URL schemes (`https`, `mailto`, etc.) as might usefully be referenced (including its own [[Custom URL Scheme]]), and will attempt to handle each according to its type. 
 
 When editing, a link field will appear as a three-line text field. 
 
@@ -25,6 +25,8 @@ For display purposes, links will generally be styled as a link, and will be clic
 The first link field encountered within a Note will be considered the Note's primary link field, and will be acted upon by any special buttons/commands designed to open that Note's link. These actions will typically open the link within the user's preferred Web browser (such as Safari or Chrome). 
 
 You can easily Launch a link from within the Notenik Mac App by clicking on the Launch Link button in the Toolbar, or by selecting Launch Link under the Note menu, or by using the keyboard shortcut CMD-L, or by double-clicking on the Note's line in the List view or the Tags view. 
+
+You may also Ctrl-Click (or right-click, etc.) on a row in the List tab, or the Tags tab, then select `Launch Link` from the contextual menu that appears, in order to launch a link. If you first select multiple rows, then Ctrl-Click on any one of those rows, and select `Launch Link`, then the links for all of the selected Notes will be launched. You may select multiple rows by Cmd-Clicking on each row to be selected, or by first clicking on a starting row, and then using shift-click on the last row in a range to be selected. Multiple Links may also be launched by using the `Launch Link` command beneath the `Note` menu. 
 
 Adding a Link to a Note doesn't necessarily reduce the Note to a simple Bookmark, but this is certainly one way to use a Collection of Notes. 
 

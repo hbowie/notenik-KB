@@ -12,4 +12,30 @@ Body:
 
 ##### Refined Rules for Opening Folders
 
-Refined the rules for opening folders, to distinguish between folders that should be opened by Notenik, vs. folders to be opened in the FInder. 
+Refined the rules for opening folders, to distinguish between folders that should be opened by Notenik, vs. folders to be opened in the FInder. Also added code to recognize [packages][] as different from ordinary folders. 
+
+[packages]: https://en.wikipedia.org/wiki/Package_(macOS)
+
+##### Added Option to Exclude Untagged Notes 
+
+When making use of the Markdown extension to [[generate a tags outline]], untagged Notes may now be excluded from the resulting display. 
+
+##### Added Seq Formatting Options
+
+When making use of a [[Seq]] field, the user may now edit [[the collection template file]] and add various codes to control how Seq values are formatted on secondary displays.
+
+##### Added Appearance Option in App Prefs
+
+Users can now override the System appearance preference and ask Notenik to always use a light appearance, or to always use a dark appearance. 
+
+##### Multiple Links Can Now Be Launched
+
+The user may now select multiple rows on the List tab, then Ctrl-Click on any one of those rows to pull up a contextual menu, then select `Launch Link` from the menu, in order to open the [[Link]] fields for all of the selected Notes.  Multiple Links may also be launched by using the `Launch Link` command beneath the `Note` menu. 
+
+##### Links May Now Be Launched from the Tags Tab
+
+A contextual menu has now been added to the Tags tab, containing the `Launch Link` option, and multiple rows may be launched at once, in the same way as described above for the List tab.
+
+##### Added Knowledge Base Chapter on using Notenik as a Project Launcher
+
+See [[Make a Project Launcher]] in the [[Putting It All Together]] section. 

@@ -27,3 +27,9 @@ When viewing a Collection within Notenik, the generated tags outline will genera
 However, when using the [[Generate Web Book]] feature, this Markdown extension can be used to generate a Web page visible in any Web browser, allowing the information to be read without any need for the Notenik application. 
 
 See this Collection's [[Tags Outline]] for an example.
+
+In the normal tags outline, all untagged Notes appear at the top of the outline. If you would rather not see/present untagged Notes, then add a modifier of `notags=false`, as in the following example:
+
+```
+{:tags-outline: notags=false}
+```

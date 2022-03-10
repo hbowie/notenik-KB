@@ -1,0 +1,45 @@
+Title:  Make a Project Launcher
+
+Seq:    10.8
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+# Using Notenik as a Project Launcher
+
+If you're like me, then you probably work on different tasks or different projects at different times. 
+
+And -- again, if you're like me -- each of these activities seems to require you to open up multiple resources, using multiple apps. 
+
+And so, when I'm switching from one project to another, it usually takes me some little while, and a bit of digging, before I get enough stuff open that I can just settle in and do some work. 
+
+Now, of course, I've been feeling somewhat embarrassed about my disorganized approach to task switching because I know there are lots of solutions available, and lots of much smarter ways to handle this. 
+
+But at the same time, as the author of Notenik, I've had this nagging feeling that I could probably use my own app for this -- I mean, couldn't I?
+
+So I finally sat down the other day and tried to get all of this stuff organized, using Notenik. 
+
+The first thing I did was to create a new Collection, calling it `Project Notes`. The only fields I needed were the basic four: Title, Tags, Link and Body. 
+
+Then I added a new Note for each different resource I needed to open, and assigned a project tag to each Note (just coming up with some unique tag for each project, and then using it consistently to tag associated Notes). 
+
+The magic happens, of course, in the Link field. Because you can use this single field for so many different *kinds* of links. 
+
++ First, and most obviously, you can use it to link to a site or page on the World-Wide Web, using the `https://` protocol. Just drag a URL into your list, or into the Link field, or copy and paste, and you're all set. 
+
++ Next, you can use Notenik's own custom URL scheme to open a Collection, or a parent realm folder, or a specific Note, within Notenik. 
+
+	(And, after opening a Collection, you can use the `Copy Notenik URL for Collection` beneath the `Collection` menu to construct the appropriate URL to re-open the Collection later and place it on the system clipboard; or, on the List tab, Ctrl-Click on a particular Note, then select `Copy Notenik URL` to construct a URL to re-select that specific Note, within that particular Collection, and place that Notenik URL on the system clipboard; in either case, you can then paste the resulting clipboard value into the Link field of another Note.)
+
++ And then, you can use any other app's custom URL scheme to have it do something useful. 
+
++ And then, finally, you can use the `Set Local Link` command beneath the `Note` menu to allow you to select a local application, file or folder to be opened upon your command. 
+
+Now I can select one (or more!) rows on either the List tab, or the Tags tab, and use the `Launch Link` command to open my desired resources for a particular project. 
+
+So far, it's working pretty well!
+
+
