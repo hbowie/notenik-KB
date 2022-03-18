@@ -1,0 +1,27 @@
+Title:  Version 8.8.0
+
+Tags:   levels-outline.11 Version History.1 Version 880
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Date:   18 Mar 2022
+
+Level:  3 - Section
+
+Teaser:
+
+Added a Note Selector window that allows a user, while remaining on Display or Edit of one Note, to look up the title of a second Note, for possible insertion into the text of the first Note; also expanded the width of the Body text editing field, and made inclusion of a 'Body:' field label optional, on the Edit tab as well as the Display tab. 
+
+Class:  version
+
+Body:
+
+##### Added Note Selector
+
+Added ability to [[Select a Note for Action]], allowing the user to enter any part of a Note's Title (or AKA value) in order to find and select it. Once selected, a number of different actions can be taken. One of the available actions is to format and paste the selected Note title as a wiki-style link into the Body of some other Note that you are currently editing. So Notenik now has an easy way to insert a [[wiki link]] into the body of a Note, without having to type the title of the target Note accurately and completely on your own.
+
+##### Expanded Width of Body Editing Field
+
+The Edit tab is generally split into two columns, with field labels on the left, and with values on the right. This arrangement generally works well, especially for fields with compact values, but makes less sense for the body of the Note itself, especially if the text is of any significant length. So the field for the body value now appears below any label field, and spreads out over both columns, allowing more room for text entry. Additionally, if the user has turned off the Collection Preferences option to include an explicit body field label, then the Body label will also be excluded on the Edit tab -- again providing more space for entry of body text.

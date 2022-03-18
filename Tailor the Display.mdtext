@@ -18,7 +18,7 @@ You can alter the typeface and font size used on the Display tab by selecting th
 
 The Collection Preferences contain a couple of options for changing the way a Note is formatted on the Display tab.
 
-+ Include explicit Body field label on the Display tab? - This is checked by default, but you can uncheck this option if you'd prefer the body to just show up without any header label. 
++ Include explicit Body field label for Note? - This is checked by default, but you can uncheck this option if you'd prefer the body to just show up without any header label. 
 
 + [[Note Title Display]] - Choose the styling you would like to see for Note titles as they appear on the Display tab. 
 

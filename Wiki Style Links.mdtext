@@ -2,6 +2,8 @@ Title:  Wiki Style Links
 
 Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.2 Wiki Style Links
 
+AKA:    wiki link
+
 Timestamp: 20210607233023
 
 Seq:    6.2.2
@@ -12,7 +14,7 @@ Index:  wiki-style links; double-bracket links; note-to-note links;
 
 Class:  version
 
-Body: 
+Body:
 
 Notenik allows the user to create a link from one Note to another Note within the same Collection. 
 
@@ -27,3 +29,5 @@ Since it is often tempting to title a Note using the plural form of a word -- bu
 If you code a wiki style link, in double square brackets, to a Note that does not yet exist, then after saving the edits to the Note and redisplaying it, the new Note (the target of the link) may be created for you automatically. The new Note will have the targeted Title assigned, and body text containing a link back to the referencing Note. This auto-creation behavior is optional, and can be enabled by checking a box in the Collection Preferences window. 
 
 If you also enable the [[timestamp]] field for a Collection, then you can change the title of a linked Note without changing the referencing wiki link text, and Notenik will remember the association between the old title and the new title, making use of the timestamp field to preserve a unique, unchanging identity for each Note. These associations will be saved in a special file named 'alias.txt', within the Collection folder. This functionality can be useful to make sure you don't end up with broken links between Notes.
+
+Be sure and check out the ability to [[Select a Note for Action]] for an easy way to select a target Note and insert a wiki link to that second Note. 

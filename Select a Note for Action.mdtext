@@ -1,0 +1,41 @@
+Title:  Select a Note for Action
+
+Tags:   levels-outline.3 Common Tasks.5 Select a Note for Action
+
+Timestamp: 20220312210837
+
+Seq:    3.5
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+Beneath the `Nav` menu you will see a command to `Select a Note...`.
+
+If you exercise this command, then you will see a new window titled `Note Selector`. 
+
+At the top of the window, you will see an invitation to `Enter 3 or more characters from a Note Title`.
+
+If you start typing in the field just below, then, once you've entered three characters or more, you will see a list of Notes appear a little farther below. This list will be updated dynamically as you type, showing any and all Notes whose Title values (or [[AKA]] values, if you're using that field) contain the characters you've entered, in the entered sequence. Case (upper- or lower-) will be ignored for the purpose of comparison. The first Note in the dynamic list will be selected by default, but you can use your pointer to select a different Note, if desired, or use the up and down arrows on your keyboard to move through the list. 
+
+Once you have selected your target Note, you can select any of the following actions from the menu at the bottom of the window. Alternatively, you can use the keyboard shortcut indicated below to select and then execute the desired action. Note that the normal actions associated with these shortcuts will be overridden by the ones below, so long as the `Note Selector` window is frontmost. 
+
++ `Copy Title` -- Simply copy the selected Title (or AKA value) to the System clipboard, ready to be pasted anywhere else you would like it to appear. (`CMD-C`)
+
++ `Copy and Paste Title` -- This action will copy the selected value to the clipboard, as above, but then will also attempt to paste that value into whatever text field you are currently editing. (`CMD-V`)
+
++ `Copy Wikilink` -- This action will copy the selected value to the clipboard, as above, but will enclose the value within double brackets, in order to form a [[wikilink]]. (`OPT-CMD-C`)
+
++ `Copy and Paste Wikilink` -- This action will copy the selected value to the clipboard, as above, but will enclose the value within double brackets, and then paste the resulting [[wikilink]] into whatever text field you are currently editing. (`OPT-CMD-V`)
+
+	If you are entering the Body of one Note, and wish to embed a [[wiki link]] from that Note to another, then this action will help you enter the correct value, without having to type it exactly and in full. 
+
++ `Go To` -- Navigate to the selected Note. (`CMD-G`)
+
++ `Launch Link` -- Launch the Link field of the selected Note. (`CMD-L`)
+
+After selecting your desired action, may then execute that action by pressing the `OK` button -- or by simply pressing Return on your keyboard. Or, as described above, you may use one of the indicated keyboard shortcuts to combine action selection and execution. 
+
+Notenik will try to remember what action you last selected, and make that the default action the next time you use the Note Selector.
