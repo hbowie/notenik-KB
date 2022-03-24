@@ -8,9 +8,9 @@ Seq:    5.11
 
 Level:  3 - Section
 
-Class:  version
+Class:  non-version
 
-Body: 
+Body:
 
 Notenik has its own custom URL scheme, which can be invoked by other apps as a means of integrating Notenik with these other applications. 
 
@@ -33,6 +33,14 @@ Let's break this down:
 + `path=Users/user1/Sites/site1` - Specifying the complete path would be an alternate way of identifying the Collection to be opened. Path values generally *will* require percent encoding. 
 + `&` - An ampersand is used to separate each `label=value` parameter from the next. 
 + `id=pickupmilk` - The ID identifying the Note to be selected for Display. Note than a Note ID is defined in such a way (removing spaces, etc.) that it will *not* need to be percent encoded. 
+
+The `open` command accepts the following parameters following the question mark:
+
++ `shortcut` - The shortcut for the Collection to be opened. 
++ `path` - The complete path to the Collection to be opened, with percent encoding. 
++ `id` - The ID identifying the Note to be selected for display, which is generally the Note's title, with spaces and punctuation removed, and converted to lowercase. 
++ `timestamp` - A [[timestamp]] for a Note can be supplied, as an alternate to `id`, as a means of identifying a specific Note to be selected for display. 
++ `notepath` - A complete file system path to a specific Note can be specified, as a means of specifying both a Collection and a Note within the Collection; again, the path will need to be percent encoded. 
 
 An easy way to obtain a complete URL that can be used to later open a specific Note is to right-click the Note's row on the List tab within Notenik, and then select `Copy Notenik URL` from the contextual menu that will pop up. This will copy a complete Notenik URL to the clipboard, from which it can then be pasted into another location. 
 
@@ -79,4 +87,4 @@ Following is a sample URL:
 
 	notenik://prefs
 
-This command simply brings up the overall Application Preferences window, to allow the user to adjust one or more of the global preferences. 
+This command simply brings up the overall Application Preferences window, to allow the user to adjust one or more of the global preferences.

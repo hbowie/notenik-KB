@@ -1,0 +1,44 @@
+Title:  APIs for Hook Integration
+
+Tags:   levels-outline.5 Getting Data Into and Out of Notenik.12 APIs for Hook Integration
+
+Timestamp: 20211116184349
+
+Seq:    5.12
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+Notenik now has some minimal AppleScript support, developed specifically for integration with the [Hook app][hook]. 
+
+#### Get Address
+
+The following script can be placed beneath the `Get Address` tab in the Scripts section of Hook Preferences. 
+
+```
+tell application "Notenik"	if HasSelectedNote then		set theTitle to GetSelectedNoteTitle		set theUrl to GetSelectedNoteBacklink		return "[" & theTitle & "](" & theUrl & ")"	end ifend tell
+```
+
+This script allows Hook to ask for the Title and the Backlink (see [[Custom URL Scheme]]) of the last Note to be selected. This information then allows Hook to later communicate with Notenik in order to pull up that same Note. 
+
+#### New Item
+
+The following script can be placed beneath the `New Item` tab in the Scripts section of Hook Preferences. 
+
+```
+tell application "Notenik"	return AddNote title "$title" link "$user_link" tags "hook"end tell
+```
+
+This script also returns the backlink to the Note of interest. 
+
+#### Tips for Hook Integration
+
+You will want to make sure the [[Timestamp]] field is included on any Collection you wish to use with Hook. This field allows Hook to reference a Note even if it has been renamed. 
+
+Also note that, when Hook communicates with Notenik, it will get info and add info to the frontmost Collection, if you have more than one open. 
+
+[hook]: https://hookproductivity.com
+
