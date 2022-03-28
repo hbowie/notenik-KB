@@ -2,6 +2,8 @@ Title:  Select a Note for Action
 
 Tags:   levels-outline.3 Common Tasks.5 Select a Note for Action
 
+AKA:    Note Selector
+
 Timestamp: 20220312210837
 
 Seq:    3.5
@@ -24,13 +26,17 @@ Once you have selected your target Note, you can select any of the following act
 
 + `Copy Title` -- Simply copy the selected Title (or AKA value) to the System clipboard, ready to be pasted anywhere else you would like it to appear. (`CMD-C`)
 
-+ `Copy and Paste Title` -- This action will copy the selected value to the clipboard, as above, but then will also attempt to paste that value into whatever text field you are currently editing. (`CMD-V`)
++ `Copy and Paste Title` -- This action will copy the selected value to the clipboard, as above, but then will also attempt to paste that value into whatever Notenik text field you are currently editing. (`CMD-V`)
 
 + `Copy Wikilink` -- This action will copy the selected value to the clipboard, as above, but will enclose the value within double brackets, in order to form a [[wikilink]]. (`OPT-CMD-C`)
 
 + `Copy and Paste Wikilink` -- This action will copy the selected value to the clipboard, as above, but will enclose the value within double brackets, and then paste the resulting [[wikilink]] into whatever text field you are currently editing. (`OPT-CMD-V`)
 
 	If you are entering the Body of one Note, and wish to embed a [[wiki link]] from that Note to another, then this action will help you enter the correct value, without having to type it exactly and in full. 
+	
++ `Copy Timestamp` -- This action will copy the timestamp of the indicated Note to the System clipboard (if the Collection enables the [[Timestamp]] field). (`CMD-T`)
+
++ `Copy and Paste Timestamp` -- This action will copy the timestamp of the selected Note to the clipboard, but then will also attempt to paste that value into whatever Notenik text field you are currently editing. 
 
 + `Go To` -- Navigate to the selected Note. (`CMD-G`)
 

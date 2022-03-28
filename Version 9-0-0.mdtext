@@ -39,3 +39,7 @@ When selecting the contextual menu from the List tab, two new options appear:
 + `Copy Timestamp`
 
 These appear in addition to, and just below, the existing option to `Copy Notenik URL`.
+
+##### Added Note Selector Action Options for Timestamp
+
+Added two new possible actions to the [[Note Selector]] window. The first is to copy a timestamp value to the clipboard, and the second to copy and paste a timestamp. 
