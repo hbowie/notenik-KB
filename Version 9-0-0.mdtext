@@ -1,0 +1,41 @@
+Title:  Version 9.0.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Teaser:
+
+Fixed a problem with saving the initial Timestamp value, when a new Note is created; enhanced to allow opening of a Note within its Collection when a Note file is dragged and dropped on the app. 
+
+
+Class:  version
+
+Body:
+
+##### Fixed Timestamp Problem
+
+Notenik was assigning the timestamp based on the file system creation date, which was not available until after the file had been saved. To make sure the timestamp is immediately saved within the Note's text file, such a file is now re-saved after assignment of the timestamp. 
+
+##### Allow a Note to be Opened within its Collection
+
+When a Note file is dragged and dropped onto the Notenik app icon -- or in other cases where Notenik receives an external request via macOS to open a specific file -- Notenik will now open the Collection, and then select the corresponding Note.
+
+##### Fixed Markdown Parser Problem Handling Numbers Alone on Lines
+
+The Notenik Markdown parser had a problem processing a line of text that consisted of only a single number, making up the entire line. This has now been fixed.
+
+##### Added Option to Render Curly Apostrophes
+
+Added a new Collection Preference to allow control over rendering of apparent apostrophes as straight or curly, with the default now being curly. See [[Curly Apostrophes]] for details.
+
+##### Added List Contextual Menu Copy Options
+
+When selecting the contextual menu from the List tab, two new options appear:
+
++ `Copy Title`
++ `Copy Timestamp`
+
+These appear in addition to, and just below, the existing option to `Copy Notenik URL`.

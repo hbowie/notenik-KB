@@ -10,7 +10,7 @@ Level:  3 - Section
 
 Class:  version
 
-Body: 
+Body:
 
-The Markdown parser that is native to Notenik generally follows the original [Markdown Syntax Specification](https://daringfireball.net/projects/markdown/syntax) written by John Gruber, with the following exceptions. 
+The Markdown parser that is native to Notenik generally follows the original [Markdown Syntax Specification](https://daringfireball.net/projects/markdown/syntax) written by John Gruber, plus the [SmartyPants](https://daringfireball.net/projects/smartypants/) typographic intentions, with the following exceptions. 
 

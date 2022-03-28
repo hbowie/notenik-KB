@@ -1,0 +1,31 @@
+Title:  Curly Apostrophes
+
+Timestamp: 20220328191252
+
+Seq:    6.2.1
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+Curly apostrophes, otherwise known as "smart" apostrophes, offer some surprisingly devilish choices, when it comes to implementation by a Markdown parser. 
+
+To start with, John Gruber's original write-up on his [SmartyPants](https://daringfireball.net/projects/smartypants/) project makes the following notes about apostrophes:
+
++ First, there is no explicit mention of apostrophes in describing the intentions of his project; they initially  appear to be just lumped in with the topic of curly quotes.
+ 
++ Second, he offers some sympathy for users who really don't care whether the apostrophe in "Joe's" appears as straight or curly. 
+
++ Third, he notes that, even for those who do care, converting normal ASCII characters to HTML entities may make it more difficult for others wanting to copy and paste text. 
+
++ Fourth, he notes some algorithmic shortcomings: cases in which it is just close to impossible for a parser to figure out whether a single quote character should be made curly. 
+
+But even when one wishes to identify a single quote character as an apostrophe, there is some ambiguity built into HTML itself: namely, there is a specific HTML entity hamed `&apost;`, which is provided to express the intention to display an apostrophe, but this entity reliably renders as simply a straight apostrophe, without any curliness; so if one wishes to show a curly apostrophe, one actually has to request a right single quote character. 
+
+This discussion concerning [straight and curly quotes](https://practicaltypography.com/straight-and-curly-quotes.html) from *Buttericks's Practical Typography* also notes that: "If you’re tempted to write your own straight-to-curly converter, reconsider --- the good ones cover tricky edge cases that you’re apt to miss on your own."
+
+So, taking all of this into consideration, the Notenik Markdown parser now defaults to curly apostrophes (starting with [[Version 9.0.0]]), but provides an option, on the Collection Preferences screen, to turn this off, in case it is producting results that seem less than useful in a particular context. 
+
+If there are edge cases I'm missing, I'm also always open to further user feedback on this topic. 

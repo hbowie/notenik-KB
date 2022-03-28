@@ -4,13 +4,13 @@ Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.1 Heading Identifica
 
 Timestamp: 20210813203616
 
-Seq:    6.2.1
+Seq:    6.2.2
 
 Level:  4 - Subsection
 
 Class:  version
 
-Body: 
+Body:
 
 [John Gruber's description of Markdown syntax](https://daringfireball.net/projects/markdown/syntax#header) leaves room for some ambiguity surrounding two questions concerning the use of one or more hash characters to indicate a heading:
 
