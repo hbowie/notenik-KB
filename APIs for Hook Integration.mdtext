@@ -12,11 +12,27 @@ Class:  non-version
 
 Body:
 
-Notenik now has some minimal AppleScript support, developed specifically for integration with the [Hook app][hook]. 
+Notenik now has some minimal AppleScript support, developed specifically to allow integration with the [Hook app][hook]. 
 
-#### Get Address
+#### AppleScript Commands
 
-The following script can be placed beneath the `Get Address` tab in the Scripts section of Hook Preferences. 
+The following AppleScript commands are available. 
+
++ **GetSelectedNoteTitle** -- Returns the title of the last selected Note, from the frontmost Collection. No input parameters needed. 
+
++ **GetSelectedNoteBacklink** -- Returns a Notenik [[Custom URL]] pointing to the last selected Note, from the frontmost Collection. If a [[timestamp]] field is available, the returned URL will make use of that. No input parameters needed. 
+
++ **GetSelectedNoteFilePath** -- Returns the file path pointing to the file containing the last selected Note, from the frontmost Collection. No input parameters needed. 
+
++ **AddNote** -- Adds a new Note to the frontmost Collection, using three input parameters: title, link and tags. Returns a backlink to the new Note, if it was added successfully. 
+
+#### Sample Scripts
+
+Following are examples of how these commands might be used to enable Hook integration. 
+
+##### Get Address
+
+The following script might be placed beneath the `Get Address` tab in the Scripts section of Hook Preferences. 
 
 ```
 tell application "Notenik"	if HasSelectedNote then		set theTitle to GetSelectedNoteTitle		set theUrl to GetSelectedNoteBacklink		return "[" & theTitle & "](" & theUrl & ")"	end ifend tell
@@ -26,7 +42,7 @@ This script allows Hook to ask for the Title and the Backlink (see [[Custom URL 
 
 #### New Item
 
-The following script can be placed beneath the `New Item` tab in the Scripts section of Hook Preferences. 
+The following script might be placed beneath the `New Item` tab in the Scripts section of Hook Preferences. 
 
 ```
 tell application "Notenik"	return AddNote title "$title" link "$user_link" tags "hook"end tell
@@ -41,4 +57,3 @@ You will want to make sure the [[Timestamp]] field is included on any Collection
 Also note that, when Hook communicates with Notenik, it will get info and add info to the frontmost Collection, if you have more than one open. 
 
 [hook]: https://hookproductivity.com
-

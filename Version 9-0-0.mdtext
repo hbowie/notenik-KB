@@ -19,7 +19,7 @@ Body:
 
 Notenik was assigning the timestamp based on the file system creation date, which was not available until after the file had been saved. To make sure the timestamp is immediately saved within the Note's text file, such a file is now re-saved after assignment of the timestamp. 
 
-##### Allow a Note to be Opened within its Collection
+##### Allow a Note to be Opened within its Collection from macOS
 
 When a Note file is dragged and dropped onto the Notenik app icon -- or in other cases where Notenik receives an external request via macOS to open a specific file -- Notenik will now open the Collection, and then select the corresponding Note.
 
@@ -42,4 +42,8 @@ These appear in addition to, and just below, the existing option to `Copy Noteni
 
 ##### Added Note Selector Action Options for Timestamp
 
-Added two new possible actions to the [[Note Selector]] window. The first is to copy a timestamp value to the clipboard, and the second to copy and paste a timestamp. 
+Added two new possible actions to the [[Note Selector]] window. The first is to copy a timestamp value to the clipboard, and the second to copy and paste a timestamp.
+
+##### Added Additional API to Return a File Path
+
+Added an additional AppleScript command, as part of [[APIs for Hook Integration]], to allow Hook to request the file path pointing to a Note's file. 
