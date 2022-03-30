@@ -1,14 +1,18 @@
 Title:  Version 9.0.0
 
+Tags:   levels-outline.11 Version History.2 Version 900
+
 Timestamp: 20211116184349
 
-Seq:    11.1
+Seq:    11.2
+
+Date:   29 Mar 2022
 
 Level:  3 - Section
 
 Teaser:
 
-Fixed a problem with saving the initial Timestamp value, when a new Note is created; enhanced to allow opening of a Note within its Collection when a Note file is dragged and dropped on the app. 
+Fixed a problem with saving the initial Timestamp value, when a new Note is created; enhanced to allow opening of a Note within its Collection when a Note file is dragged and dropped onto the app; fixed Markdown parser problem when handling a series of unadorned numbers, one per line; added an option to make apostrophes curly; added new Copy options to List tab contextual menu, for title and timestamp; added a Note Selector option to copy the timestamp for a Note; added additional AppleScript command to return a Note's file path; modified behavior of a Link field so that a tab character will skip to the next field. 
 
 
 Class:  version
@@ -47,3 +51,7 @@ Added two new possible actions to the [[Note Selector]] window. The first is to 
 ##### Added Additional API to Return a File Path
 
 Added an additional AppleScript command, as part of [[APIs for Hook Integration]], to allow Hook to request the file path pointing to a Note's file. 
+
+##### Tab Characters Now Skip to Next Field from a Link Field
+
+A Link field allows multiple lines of text to be entered, with scrolling. This sort of field normally allows a Tab character to be entered within the field. However, this makes no sense for a field intended to contain hyperlinks. So the behavior of a Link field has been modified, so that a Tab character will now cause the next field to be selected (as it does for most other other field types).

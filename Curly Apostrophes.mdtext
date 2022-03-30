@@ -1,5 +1,7 @@
 Title:  Curly Apostrophes
 
+Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.1 Curly Apostrophes
+
 Timestamp: 20220328191252
 
 Seq:    6.2.1
@@ -28,4 +30,4 @@ This discussion concerning [straight and curly quotes](https://practicaltypograp
 
 So, taking all of this into consideration, the Notenik Markdown parser now defaults to curly apostrophes (starting with [[Version 9.0.0]]), but provides an option, on the Collection Preferences screen, to turn this off, in case it is producting results that seem less than useful in a particular context. 
 
-If there are edge cases I'm missing, I'm also always open to further user feedback on this topic. 
+If there are edge cases I'm missing, I'm also always open to further user feedback on this topic.
