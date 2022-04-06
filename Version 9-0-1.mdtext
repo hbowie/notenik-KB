@@ -1,10 +1,10 @@
 Title:  Version 9.0.1
 
-Tags:   levels-outline.11 Version History.1 Version 901
+Tags:   levels-outline.11 Version History.2 Version 901
 
 Timestamp: 20211116184349
 
-Seq:    11.1
+Seq:    11.3
 
 Level:  3 - Section
 
@@ -14,4 +14,4 @@ Body:
 
 ##### Fixed Bug in New AppleScript Command
 
-The last release introduced a bug in the way that a back link is generated as part of the new [[APIs for Hook Integration]], such that a timestamp would not be used, even when available. This new release simply corrects that problem. 
+The last release introduced a bug in the way that a back link is generated as part of the new [[APIs for Hook Integration]], such that a timestamp would not be used, even when available. This new release simply corrects that problem.

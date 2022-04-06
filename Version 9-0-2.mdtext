@@ -1,0 +1,17 @@
+Title:  Version 9.0.2
+
+Tags:   levels-outline.11 Version History.1 Version 902
+
+Timestamp: 20211116184349
+
+Seq:    11.2
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Fixed a Couple of Author Lookup Bugs
+
+Turns out a couple of bugs had crept in to the handling of a lookup field, especially for an Author. These have been corrected.

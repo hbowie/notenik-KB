@@ -1,0 +1,15 @@
+Title:  Version 9.1.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Option to Remove Tags Based on Level
+
+Beneath the Collection menu, and then the Level menu, added an option to remove tags based on level that had been previously added. 
