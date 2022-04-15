@@ -33,3 +33,5 @@ In the normal tags outline, all untagged Notes appear at the top of the outline.
 ```
 {:tags-outline: notags=false}
 ```
+
+This command works particularly well for multi-level tags. If your Collection uses only single-level [[tags]], then it may be better to [[Generate a Tags Cloud]]. 

@@ -1,10 +1,18 @@
 Title:  Version 9.1.0
 
+Tags:   levels-outline.11 Version History.1 Version 910
+
 Timestamp: 20211116184349
 
 Seq:    11.1
 
+Date:   15 Apr 2022
+
 Level:  3 - Section
+
+Teaser:
+
+Added import option for a single text file (or simply drag and drop from the Finder); modified Discard of Edits to use a less common keyboard shortcut (Shift-CMD-D) and to provide a confirmation alert before proceeding; added a new Markdown command to produce a simple Tags Cloud; and added an option to remove all previously assigned tags based on level. 
 
 Class:  version
 
@@ -12,4 +20,16 @@ Body:
 
 ##### Added Option to Remove Tags Based on Level
 
-Beneath the Collection menu, and then the Level menu, added an option to remove tags based on level that had been previously added. 
+Beneath the Collection menu, and then the Level menu, added an option to remove tags based on level that had been previously added.
+
+##### Added Import of a Single Text File
+
+Beneath the File menu, and then the Import menu, added an option to import a text file. The same effect can be achieved by dragging a text file from the Finder onto a Collection's List.
+
+###### Modified Discard of Edits
+
+Changed the [[keyboard shortcut]] for the [[Discard Edits]] command from a simple CMD-D to Shift-CMD-D. Also added an alert asking the user to verify that they really want to discard their current edits.
+
+##### Added a Tags Cloud Command
+
+Added a new Markdown command to [[Generate a Tags Cloud]].

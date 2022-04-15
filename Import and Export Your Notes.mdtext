@@ -34,6 +34,10 @@ Following are the supported formats.
 * Import from OmniFocus
 
 	You can use either the plain text or csv exports from OmniFocus. See the next section, [[Import from OmniFocus]], for further info specific to this topic. 
+	
+* Import Text File
+
+	You can select a single text file to be imported. This can be in simple Markdown format, or in any format valid for [[Existing Text Files]]. (The same effect can be achieved from the Finder, by dragging the text file onto the List tab of the target Collection window.)
 
 * Import in XML format
 
