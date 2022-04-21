@@ -46,6 +46,18 @@ The following checkboxes are available and can be used to modify/augment the app
 
 + Create Notes for Missing Wiki Link Targets? -- This option is off by default. If you turn it on for a Collection, then whenever Notenik encounters a Note containing a wiki-style link to a second Note, and that Note does not yet exist, Notenik will create a Note with the targeted title, and with text in the body of the new Note pointing back to the referencing Note. 
 
+##### List of Fields
+
 The right side of the window allows you to choose the fields you would like to include in the Collection. Feel free to check additional ones if they seem useful to you. 
 
 If you would like to further customize the list of fields for a Collection, read about [[the Collection Template file]], consulting the section on [[Field Labels and Types]] as necessary.
+
+##### Other Fields Allowed?
+
+Note that the last checkbox on the right side is a bit different from the others. It asks if `Other Fields Allowed?'. This is unchecked by default, which means that Notenik will only recognize a field in a Note if it has been defined in advance for the Collection -- either by checking the field label here, on the Collection Preferences window, or by adding it to the template file directly, via an external text editor. 
+
+If you check this box, then anything in any of your Notes that looks like a separate field will be treated as such, whether or not it starts with one of your predefined field labels for the Collection. 
+
+In general, it is better to not allow other, random fields to be recognized as such, to prevent cases of misinterpretation of your Notes. On the other hand, there may be cases where the additional flexibility is worth the risk.  
+
+

@@ -1,0 +1,36 @@
+Title:  Version 9.2.0
+
+Tags:   levels-outline.11 Version History.2 Version 920
+
+Timestamp: 20211116184349
+
+Seq:    11.2
+
+Date:   20 Apr 2022
+
+Level:  3 - Section
+
+Teaser:
+
+Added a new model Collection -- a Commonplace Book using Lookup fields -- that can be used to initialize a new Collection; added automatic generation of initial backlinks when adding a Backlinks field; straightened out some issues that could affect capture of metadata when importing/pasting a new Note into a Collection; fixed some problems associated with moving/copying a Collection, including initial population of a new Collection.  
+
+
+Class:  version
+
+Body:
+
+##### Generate Backlinks when Field Added
+
+When adding the Backlinks field to a Collection, the initial set of backlinks will now be generated automatically for the user.
+
+##### Straighten out Import/Paste Logic
+
+There were some potential problems with importing a text file, or dragging and dropping it into a Collection. These have been corrected. 
+
+##### Fix Collection Relocation Problems
+
+Found several problems potentially affecting Notenik's ability to move or copy a Collection to a new location, including the copying of a model Collection to initialize a New Collection. These have been corrected. 
+
+##### Added New Collection Option for Commonplace with Lookup Fields
+
+When creating a New Collection, the user now has a new option to create a Commonplace Book with Lookups. See the article [[Create a Commonplace Book with Lookup Fields]] for complete info on this option.

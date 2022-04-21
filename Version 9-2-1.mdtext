@@ -1,0 +1,27 @@
+Title:  Version 9.2.1
+
+Tags:   levels-outline.11 Version History.1 Version 921
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Date:   21 Apr 2022
+
+Level:  3 - Section
+
+Teaser:
+
+Fixed a problem that arose when a text file has a starting character that is invisible. 
+
+Class:  version
+
+Body:
+
+##### Dropping Invisible Character at Start of Text File
+
+A user recently sent me a text file that wouldn't import properly into Notenik. After doing some digging, it turned out that the file in question had some sort of mysterious, invisible character at the very start of the file -- probably a Unicode BOM character -- and this was throwing off the import. So Notenik now explicitly looks for such a character and, if found, discards it. 
+
+##### Restoring File Name as Default Note Title
+
+Some recent changes inadvertently eliminated the option to simply use the filename of a text file as a Note's title. This has been fixed. 
