@@ -4,7 +4,7 @@ Tags:   levels-outline.11 Version History.3 Version 910
 
 Timestamp: 20211116184349
 
-Seq:    11.3
+Seq:    11.4
 
 Date:   15 Apr 2022
 
@@ -27,7 +27,7 @@ Beneath the Collection menu, and then the Level menu, added an option to remove 
 
 Beneath the File menu, and then the Import menu, added an option to import a text file. The same effect can be achieved by dragging a text file from the Finder onto a Collection's List.
 
-###### Modified Discard of Edits
+##### Modified Discard of Edits
 
 Changed the [[keyboard shortcut]] for the [[Discard Edits]] command from a simple CMD-D to Shift-CMD-D. Also added an alert asking the user to verify that they really want to discard their current edits.
 

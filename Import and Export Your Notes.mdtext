@@ -2,6 +2,8 @@ Title:  Import and Export Your Notes
 
 Tags:   levels-outline.5 Getting Data Into and Out of Notenik.2 Import and Export Your Notes, streamlined reading
 
+AKA:    import
+
 Timestamp: 20210627002314
 
 Seq:    5.2
@@ -37,7 +39,7 @@ Following are the supported formats.
 	
 * Import Text File
 
-	You can select a single text file to be imported. This can be in simple Markdown format, or in any format valid for [[Existing Text Files]]. (The same effect can be achieved from the Finder, by dragging the text file onto the List tab of the target Collection window.)
+	You can select a single text file to be imported. This can be in simple Markdown format, or in any format valid for [[Existing Text Files]]. (The same effect can be achieved from the Finder, by dragging the text file onto the List tab of the target Collection window.) You can also import a folder full of such files. 
 
 * Import in XML format
 

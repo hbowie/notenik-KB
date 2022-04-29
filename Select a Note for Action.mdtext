@@ -18,7 +18,9 @@ Beneath the `Nav` menu you will see a command to `Select a Note...`.
 
 If you exercise this command, then you will see a new window titled `Note Selector`. 
 
-At the top of the window, you will see an invitation to `Enter 3 or more characters from a Note Title`.
+At the very top of this window, you will see a dropdown menu from which you may select a Collection other than the one you are currently working in (using the [[Collection Shortcuts]] that have been assigned). Leave this blank (its initial state), and you will be selecting a Note from the current Collection. Select another Collection, however, and your subsequent Note selection will be applied to that second Collection. 
+
+Just below the `Collection Shortcut` field, you will see an invitation to `Enter 3 or more characters from a Note Title`.
 
 If you start typing in the field just below, then, once you've entered three characters or more, you will see a list of Notes appear a little farther below. This list will be updated dynamically as you type, showing any and all Notes whose Title values (or [[AKA]] values, if you're using that field) contain the characters you've entered, in the entered sequence. Case (upper- or lower-) will be ignored for the purpose of comparison. The first Note in the dynamic list will be selected by default, but you can use your pointer to select a different Note, if desired, or use the up and down arrows on your keyboard to move through the list. 
 
@@ -37,6 +39,10 @@ Once you have selected your target Note, you can select any of the following act
 + `Copy Timestamp` -- This action will copy the timestamp of the indicated Note to the System clipboard (if the Collection enables the [[Timestamp]] field). (`CMD-T`)
 
 + `Copy and Paste Timestamp` -- This action will copy the timestamp of the selected Note to the clipboard, but then will also attempt to paste that value into whatever Notenik text field you are currently editing. 
+
++ `Copy Notenik URL` -- This action will copy a Notenik [[Custom URL]] for the selected Note to the clipboard. 
+
++ `Copy and Paste Notenik URL` -- This action will copy a Notenik [[Custom URL]] for the selected Note to the clipboard, but then will also attempt to paste that value into whatever Notenik text field you are currently editing.. 
 
 + `Go To` -- Navigate to the selected Note. (`CMD-G`)
 

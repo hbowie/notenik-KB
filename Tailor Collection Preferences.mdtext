@@ -2,7 +2,7 @@ Title:  Tailor Collection Preferences
 
 Tags:   levels-outline.2 Creating and Tailoring a Collection of Notes.3 Tailor Collection Preferences
 
-AKA:    Tailor the Collection Preferences
+AKA:    Tailor the Collection Preferences, collection shortcuts
 
 Timestamp: 20210701202636
 
@@ -58,6 +58,4 @@ Note that the last checkbox on the right side is a bit different from the others
 
 If you check this box, then anything in any of your Notes that looks like a separate field will be treated as such, whether or not it starts with one of your predefined field labels for the Collection. 
 
-In general, it is better to not allow other, random fields to be recognized as such, to prevent cases of misinterpretation of your Notes. On the other hand, there may be cases where the additional flexibility is worth the risk.  
-
-
+In general, it is better to not allow other, random fields to be recognized as such, to prevent cases of misinterpretation of your Notes. On the other hand, there may be cases where the additional flexibility is worth the risk.

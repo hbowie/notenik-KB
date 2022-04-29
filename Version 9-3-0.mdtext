@@ -1,0 +1,25 @@
+Title:  Version 9.3.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Expand Note Selector to Include Other Collections
+
+The [[Note Selector]] (introduced in [[Version 8.8.0]]) allows the user to quickly and easily select another Note and then perform one of a number of actions on it -- including formatting a [[Wiki Link]] to reference that Note, ready for insertion into the body of the Note being edited. 
+
+A Wiki Link can only link to another Note within the same Collection. 
+
+However, one can construct something like a Wiki Link to another Note in a different Collection by using the Notenik [[Custom URL Scheme]] in combination with [[Collection Shortcuts]]. 
+
+So the Note Selector window now includes a Collection Shortcut field. It's initially blank, indicating that the current Collection is to be referenced. But you can use the dropdown to select a different Collection, and then perform similar/equivalent actions on a Note from the other Collection.
+
+##### Added Import Option for Folder of Text Files
+
+[[Version 9.1.0]] added an option to import a single text file that could be in any of a variety of formats. This new version adds an option to [[import]] a whole folder full of such files. 
