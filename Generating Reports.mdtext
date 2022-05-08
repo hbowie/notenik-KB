@@ -4,13 +4,13 @@ Tags:   levels-outline.5 Getting Data Into and Out of Notenik.7 Generating Repor
 
 Timestamp: 20210627003718
 
-Seq:    5.7
+Seq:    5.8
 
 Level:  3 - Section
 
 Class:  version
 
-Body: 
+Body:
 
 Notenik provides a function for merging data from Notes (or other data sources) into a template file in order to create one or more output text files. 
 

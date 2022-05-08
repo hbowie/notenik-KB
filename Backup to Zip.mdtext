@@ -4,13 +4,13 @@ Tags:   levels-outline.5 Getting Data Into and Out of Notenik.4 Backup to Zip
 
 Timestamp: 20210704203803
 
-Seq:    5.4
+Seq:    5.5
 
 Level:  3 - Section
 
 Index:  backup; Zip; 
 
-Body: 
+Body:
 
 A command beneath the `File` menu will backup a compressed version of the current Notenik Collection to an output Zip file. All files in the Collection folder will be included, and copied as-is. 
 

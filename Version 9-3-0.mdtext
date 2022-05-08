@@ -22,4 +22,12 @@ So the Note Selector window now includes a Collection Shortcut field. It's initi
 
 ##### Added Import Option for Folder of Text Files
 
-[[Version 9.1.0]] added an option to import a single text file that could be in any of a variety of formats. This new version adds an option to [[import]] a whole folder full of such files. 
+[[Version 9.1.0]] added an option to import a single text file that could be in any of a variety of formats. This new version adds an option to [[import]] a whole folder full of such files.
+
+##### Modified Defaults for New Level Field
+
+A new [[Level]] field now actually defaults to a range of 1 - 9. It would previously default to 0 - 9.
+
+##### Added Command to Populate App Catalog
+
+A new command to [[Populate App Catalog]] has been added. 

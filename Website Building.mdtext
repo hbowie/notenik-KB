@@ -4,11 +4,11 @@ Tags:   levels-outline.5 Getting Data Into and Out of Notenik.10 Website Buildin
 
 Timestamp: 20210627004746
 
-Seq:    5.10
+Seq:    5.11
 
 Level:  3 - Section
 
-Body: 
+Body:
 
 Note that many of the individual Notenik functions described above can be combined in order to build websites. Create a Collection, add appropriate fields, create template files, record a script, and you can easily generate a set of HTML files that will work together to present a unified website. 
 

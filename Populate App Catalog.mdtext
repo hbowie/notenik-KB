@@ -1,0 +1,25 @@
+Title:  Populate App Catalog
+
+Timestamp: 20220507190330
+
+Seq:    5.3
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+This command can be found beneath the `File` menu. 
+
+Before executing this command, the user should have opened an existing App Catalog Collection, or a new Collection with minimal content and field definitions. 
+
+After executing this command, the user will be prompted to select an input folder containing macOS Applications -- typically the Mac's primary `Applications` folder. 
+
+Notenik will then populate the frontmost Collection with information about the apps found in the specified input folder. 
+
+This is similar to an `Import` operation, but with some key differences:
+
++ If not already present, Notenik will add the normal App Catalog fields to the Collection Preferences. 
+
++ If a Note for an app does not yet exist, then one will be added; however, if such a Note already exists, then it will be updated as appropriate to reflect the latest information found in the input Applications folder. 
