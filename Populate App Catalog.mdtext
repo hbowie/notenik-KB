@@ -16,10 +16,28 @@ Before executing this command, the user should have opened an existing App Catal
 
 After executing this command, the user will be prompted to select an input folder containing macOS Applications -- typically the Mac's primary `Applications` folder. 
 
-Notenik will then populate the frontmost Collection with information about the apps found in the specified input folder. 
+Notenik will then populate the frontmost Collection with information about the apps found in the specified input folder, using info from the file system, as well as from the `Info.plist` files found within the application bundles. 
 
 This is similar to an `Import` operation, but with some key differences:
 
 + If not already present, Notenik will add the normal App Catalog fields to the Collection Preferences. 
 
-+ If a Note for an app does not yet exist, then one will be added; however, if such a Note already exists, then it will be updated as appropriate to reflect the latest information found in the input Applications folder. 
++ If a Note for an app does not yet exist, then one will be added; however, if such a Note already exists, then it will be updated as appropriate to reflect the latest information found in the input Applications folder.
+
+The following [[Field Labels and Types]] will be defined, if needed, and populated. 
+
++ `Title` ([[title]]) -- This will be populated with the name of the application. 
+
++ `Link to Launch` ([[link]]) - This will be populated with a `file://` URL pointing to the application. Launching this link will in turn launch the application (assuming that Notenik has the appropriate [[Disk Access Permissions]]). 
+
++ `Web Link` ([[link]]) -- This is intended to hold a link to a website with more information about the application. Notenik will attempt to populate this field, if it is blank, but the results may not be accurate and up-to-date in all cases. 
+
++ `App Date` ([[date]]) -- This will be populated with the last modified date for the application. 
+
++ `Minimum System Version ([[seq]]) -- This will be populated with the Minimum System (macOS) version required in order to run the application. 
+
++ `App Version` ([[seq]]) -- This will be populated with the version of the application. 
+
++ `License Key` ([[longtext]]) -- This field will be defined, but will not be populated. 
+
+

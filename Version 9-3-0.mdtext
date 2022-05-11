@@ -4,7 +4,13 @@ Timestamp: 20211116184349
 
 Seq:    11.1
 
+Date:   09 May 2022
+
 Level:  3 - Section
+
+Teaser:
+
+Expanded Note Selector to allow selection from other Collections; added an import option for a folder full of text files; modified the defaults for a new Level field to avoid values of zero; added a command to populate an app catalog; improved editing of the Status field. 
 
 Class:  version
 
@@ -31,3 +37,7 @@ A new [[Level]] field now actually defaults to a range of 1 - 9. It would previo
 ##### Added Command to Populate App Catalog
 
 A new command to [[Populate App Catalog]] has been added. 
+
+##### Souped Up the Status Field
+
+[[Version 8.5.0]] opened up the Status field to allow input that did not match any of the preset values, but also left a few problems behind. These [[Status]] field problems have now been cleaned up, to allow the user to more easily pick a value from a dropdown.
