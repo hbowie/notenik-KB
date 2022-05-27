@@ -4,11 +4,19 @@ Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.7 Stri
 
 Timestamp: 20210609174751
 
-Seq:    7.10.7
+Seq:    7.10.8
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 This is the default field type, if no other type is assigned or implied. 
+
+On the Edit tab, such a field appears as a single line of text. 
+
+On the Display tab, such a field is displayed without any special formatting. 
+
+For longer text fields, see the [[longtext]] field type. 
+
+For text fields likely to have recurring values, see the [[Combo]] field type. 
 

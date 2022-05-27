@@ -4,11 +4,11 @@ Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.4 long
 
 Timestamp: 20210609174551
 
-Seq:    7.10.4
+Seq:    7.10.5
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 A field type of 'longtext' implies a multi-line text field that may be formatted using Markdown. 
 

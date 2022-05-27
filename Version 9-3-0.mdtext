@@ -2,7 +2,7 @@ Title:  Version 9.3.0
 
 Timestamp: 20211116184349
 
-Seq:    11.1
+Seq:    11.2
 
 Date:   09 May 2022
 
@@ -11,6 +11,7 @@ Level:  3 - Section
 Teaser:
 
 Expanded Note Selector to allow selection from other Collections; added an import option for a folder full of text files; modified the defaults for a new Level field to avoid values of zero; added a command to populate an app catalog; improved editing of the Status field. 
+
 
 Class:  version
 

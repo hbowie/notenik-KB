@@ -47,7 +47,6 @@ Notenik is, rather unapologetically, a Mac App. It is available only on macOS. S
 
 Notenik does not offer any special synchronization mechanism. But see the next section for more info.
 
- 
 
 ## 4. Plain Text
 
@@ -87,6 +86,8 @@ The niceties of Markdown syntax are sometimes controversial. In general, I've tr
 Notenik supports wiki links. In other words, within the text of one note, you can type something like `[[another note]]` and then, once you view the formatted text, you will see a clickable link that will take you to the other note.
 
 When typing a wikilink, Notenik does not offer auto-completion of the target Note's title, but does offer easy keyboard access to a Note Selector that allows you to first select another Note's title by typing a few letters contained within, and then pasting that title (optionally formatted as a wikilink, with enclosing double brackets) back into the body of the Note you are editing.
+
+Notenik also supports the easy creation of wiki links from a note in one Collection to another note in a second Collection. 
  
 
 ## 8. Metadata
@@ -170,6 +171,8 @@ Some users like to prefix their tags with a hash mark, as is the common style wh
 
 Notenik has a very traditional user interface. If you have been using a Mac for any length of time, then it will probably seem quite straightforward to you. Unlike a lot of modern apps these days, it does not try to look like a Web app, or like something you might see on a phone or a tablet. It has menus and windows and toolbars and tabs and buttons and keyboard shortcuts, and all of these are nicely labeled and in plain sight (unless you choose to hide them). 
 
+One of the advantages of Notenik's use of a traditional Mac interface is that, unlike many of its competitors, Notenik is fully accessible to vision-impaired users via [VoiceOver][vo].
+
 The main window for a Collection is split into two sides. 
 
 The left side shows the complete set of Notes in the Collection. 
@@ -189,6 +192,8 @@ The first tab on the right displays the selected Note, with field labels and val
 The second tab on the right allows you to edit all of the fields for the selected Note.
 
 You can use either of the tabs on the left to select a particular Note to be displayed (and optionally edited) on the right.
+
+[vo]: https://www.apple.com/accessibility/vision/
  
 
 ## 12. Documentation
@@ -311,8 +316,6 @@ Notenik has its own custom URL scheme, meaning that you can type a URL starting 
 Notenik also has a special Link field, and you can use that to fire off custom URLs for other apps -- or, for Notenik itself, for that matter. 
 
 
- 
-
 ## 20. Customizing Appearance and Functionality
 
 Some comparable apps offer the ability to tailor the look, feel and/or functionality of their apps using plug-ins. These are sometimes written using the Javascript language. 
@@ -326,11 +329,13 @@ If you're interested, you can also write and supply your own custom CSS to chang
 
 ## 21. Templates
 
-Notenik offers two levels of templating.
+Notenik offers three levels of templating.
 
 At the Collection level, a special file named `template.txt` contains an overall template to be applied to every Note in that Collection. The Collection template file defines the field labels and types that will be available for the Collection, as well as allowing customization of values and formatting for some field types. This file is ordinarily updated through the Collection Preferences window, but details can be tweaked directly using your preferred text editor. 
 
 A second level of templating can be added by including the `Class` field for a Collection. You can then create a separate template file for each different Class of Note within a Collection. These Class template files define the particular fields to be used for that Class of Note, and can also supply any boilerplate content you wish to include for any of the fields. 
+
+A third level of templating can be used when generating output for usage outside of Notenik -- for generating a website, as an example. 
  
 
 ## 22. Import and Export
@@ -350,7 +355,6 @@ You can also export your data from Notenik into any of the following formats:
 + Concatenated Markdown
 + Web Book / Website
 
- 
 
 ## 23. Publish and Share
 
@@ -383,10 +387,6 @@ I use Notenik myself, and about half of the improvements to the app start with m
 The Mac-native version of Notenik had its first release a little over two years ago, and on average I've been releasing a new version, with some significant improvements, every couple of weeks. My intent is to maintain this sort of pace into the foreseeable future. 
 
 As mentioned earlier, Notenik is open-source and the code is freely available for others to view and improve upon. 
-
-
-
-
  
 
 ## 26. Bottom Line

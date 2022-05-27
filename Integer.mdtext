@@ -4,13 +4,13 @@ Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.3 Inte
 
 Timestamp: 20210609174445
 
-Seq:    7.10.3
+Seq:    7.10.4
 
 Level:  4 - Subsection
 
 Class:  version
 
-Body: 
+Body:
 
 This value is used to represent an integer. The type identifier may also be abbreviated  as `int`. 
 

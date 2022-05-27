@@ -1,0 +1,31 @@
+Title:  Version 9.4.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Improvements to App Population
+
+Made some minor improvements to the way the new [[Populate App Catalog]] function works. 
+
+##### Improved Combo Box for Lookup Fields
+
+Improved the way that the UI widget works when entering a [[Lookup]] field.
+
+##### Improved Wiki Link Support when Scripting
+
+When using [[Merge Templates]] as part of the [[scripting]] engine, [[AKA]] fields will now be honored when expanding [[Wiki Links]] according to the [[Wiki-Style Links - W]] variable modifier specified.
+
+##### Added a Combo Field Type
+
+The new [[combo]] field type can be used for fields with recurring values, and will appear on the Edit tab as a Combo Box, combining a simple text field with a dropdown list.
+
+##### Added a Teaser Field Type
+
+Set up [[teaser]] as a valid field type, so that such a field could be labeled with something other than `Teaser`.

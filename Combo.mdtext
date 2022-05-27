@@ -1,0 +1,19 @@
+Title:  Combo
+
+AKA:    Combo Box
+
+Timestamp: 20220526205936
+
+Seq:    7.10.3
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The word `combo` can be used as a field type, but is not intended to be used as a field label. 
+
+A `combo` field can be used much like a [[String]] field, but with improved editing features for fields likely to have values that recur across Notes within the same Collection. 
+
+On the Edit tab, such a field will appear as a [Combo Box](https://en.wikipedia.org/wiki/Combo_box), allowing the user to pick from a list of existing values, and select an existing value by typing a partial value. 

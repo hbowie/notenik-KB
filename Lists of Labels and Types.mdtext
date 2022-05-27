@@ -10,7 +10,7 @@ Level:  3 - Section
 
 Class:  non-version
 
-Body: 
+Body:
 
 Each field label/type is discussed below, grouped into logical collections.
 
@@ -35,6 +35,7 @@ For ease of reference, when looking for a specific field type, here's an alphabe
 + [[Boolean]]
 + [[Class]]
 + [[Code]]
++ [[Combo]]
 + [[Date]]
 + [[Date Added]]
 + [[Date Modified]]

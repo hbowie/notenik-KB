@@ -4,11 +4,11 @@ Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.8 Type
 
 Timestamp: 20210609175110
 
-Seq:    7.10.8
+Seq:    7.10.9
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The word `Type` can be used as a label, but is not a valid field type. 
 

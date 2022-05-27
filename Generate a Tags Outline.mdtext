@@ -4,7 +4,7 @@ Tags:   levels-outline.6 Markdown.2 Notenik Markdown Parser.16 Generate a Tags O
 
 Timestamp: 20210713175624
 
-Seq:    6.2.16
+Seq:    6.2.17
 
 Level:  4 - Subsection
 
@@ -34,4 +34,4 @@ In the normal tags outline, all untagged Notes appear at the top of the outline.
 {:tags-outline: notags=false}
 ```
 
-This command works particularly well for multi-level tags. If your Collection uses only single-level [[tags]], then it may be better to [[Generate a Tags Cloud]]. 
+This command works particularly well for multi-level tags. If your Collection uses only single-level [[tags]], then it may be better to [[Generate a Tags Cloud]].
