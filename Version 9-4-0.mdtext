@@ -2,9 +2,16 @@ Title:  Version 9.4.0
 
 Timestamp: 20211116184349
 
-Seq:    11.1
+Seq:    11.2
+
+Date:   31 May 2022
 
 Level:  3 - Section
+
+Teaser:
+
+Improved the new command to Populate an App Catalog; improved operation of the Combo Box for Lookup fields; improved Wiki Link Support when scripting, to honor AKA fields; added a new Combo field type, to populate the dropdown for a Combo Box with a dynamic list of current values; added a new Teaser field type, to allow a teaser field to be assigned some other sort of label; added a new Markdown command to display the teasers for the current Note's children; improved the Note Import functionality to ensure the same value didn't get assigned to more than one field. 
+
 
 Class:  version
 
@@ -29,3 +36,11 @@ The new [[combo]] field type can be used for fields with recurring values, and w
 ##### Added a Teaser Field Type
 
 Set up [[teaser]] as a valid field type, so that such a field could be labeled with something other than `Teaser`.
+
+##### Added a new Markdown Teasers Command
+
+Added a new Markdown extension to [[Display Teasers]] for the children of the current Note.
+
+##### Improved Note Import
+
+When importing a Note, via drag and drop or via some other means, Notenik will now ensure that the same field value does not end up populating more than one field in the imported Note. This is helpful when using Collections with large sets of defined custom fields.

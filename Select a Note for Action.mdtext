@@ -35,6 +35,8 @@ Once you have selected your target Note, you can select any of the following act
 + `Copy and Paste Wikilink` -- This action will copy the selected value to the clipboard, as above, but will enclose the value within double brackets, and then paste the resulting [[wikilink]] into whatever text field you are currently editing. (`OPT-CMD-V`)
 
 	If you are entering the Body of one Note, and wish to embed a [[wiki link]] from that Note to another, then this action will help you enter the correct value, without having to type it exactly and in full. 
+
++ `Copy and Paste Include Command` -- This action will copy the selected Note's title to the clipboard and enclose the value within a Markdown command to [[Include a Note or File]], and then paste the resulting command into whatever text field you are currently editing. If the selected Note has a class value of 'quote' or 'quotation', then the include command will be formatted as `include-quote`.
 	
 + `Copy Timestamp` -- This action will copy the timestamp of the indicated Note to the System clipboard (if the Collection enables the [[Timestamp]] field). (`CMD-T`)
 

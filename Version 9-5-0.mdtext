@@ -1,0 +1,15 @@
+Title:  Version 9.5.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Note Selector Option to format Include Command
+
+Added an option to the [[Note Selector]] to allow a selected Note's Title to be copied and pasted into a Markdown command to [[Include a Note or File]].

@@ -1,0 +1,34 @@
+Title:  Display Teasers
+
+Timestamp: 20220528173052
+
+Seq:    6.2.20
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+
+As an extension to the original Markdown spec from John Gruber, the `teasers` command will pull the teasers from the children of the current Note, and include them in the display of the current Note, below any other content for that Note. 
+
+This command is only meaningful for a Collection that has the following field types defined:
+
++ [[Level]]
++ [[Seq]]
++ [[Teaser]]
+
+Additionally, the command is only meaningful if the Collection is sorted by the `Seq` field. 
+
+Each teaser will be prefixed by the last level of the child Note's Seq field. 
+
+This command can be specified in the following way. 
+
+
+```
+{:teasers}
+```
+
+If the Collection is currently being viewed using [[Streamlined Reading]], then the usual Table of Contents showing the children of the current Note will be skipped, in deference to the display of the teasers. 
+

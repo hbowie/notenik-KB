@@ -19,6 +19,5 @@ The Notenik parser enables several single-line commands that are generally indic
 | `{:index}` | *[[Generate a Collection Index]]* |
 | `{:tags-cloud}` | *[[Generate a Tags Cloud]]* |
 | `{:tags-outline}` | *[[Generate a Tags Outline]]* |
+| `{:teasers}` | *[[Display Teasers]]* | 
 | `{:toc:2-3}` | *[[Generate a Note Table of Contents]]* |
-
-
