@@ -13,3 +13,7 @@ Body:
 ##### Added Note Selector Option to format Include Command
 
 Added an option to the [[Note Selector]] to allow a selected Note's Title to be copied and pasted into a Markdown command to [[Include a Note or File]].
+
+##### Improved Display Teasers Command
+
+When using the [[Display Teasers]] Markdown command, the list of teasers previously halted when encountering a Note at a higher level of indention (appearing farther to the right) than the first Note included in the list; the command will now skip over Notes at higher levels of indention than the first Note included in the list, but will continue building the list for all children of the parent Note that are at the same level. 
