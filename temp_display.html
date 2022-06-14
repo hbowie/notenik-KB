@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 9.5.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+:root {
+    color-scheme: light dark;
+    --link-color: Blue;
+    --highlight-color: Gainsboro
+}
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --link-color: #93d5ff;
+    --highlight-color: DimGray
+  }
+}
+a {
+    color: var(--link-color);
+}
+.search-results {
+    background-color: var(--highlight-color);
+}
+body { 
+tab-size: 4; 
+margin: 1em; font-family: "Verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12pt }
+blockquote { 
+  border-left: 0.4em solid #999;
+  margin-left: 0;
+  padding-left: 1em;
+} 
+figure { 
+  margin-left: 0.2em;
+  padding-left: 0.2em;
+} 
+table, th, td { 
+  border: 2px solid gray; 
+} 
+table { 
+  border-collapse: collapse; 
+} 
+th, td { 
+  padding: 6px; 
+} 
+img { 
+  max-width: 100%; 
+  height: auto; 
+} 
+h1 { font-size: 2.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h2 { font-size: 1.8em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h3 { font-size: 1.6em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h4 { font-size: 1.4em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h5 { font-size: 1.2em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h6 { font-size: 1.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+ul.checklist { list-style-type: none; }
+ul.tags-list { list-style-type: none; }
+ul.tags-cloud { 
+  list-style: none; 
+  padding-left: 0; 
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center; 
+  justify-content: center; 
+  line-height: 2.5rem; 
+} 
+ul.tags-cloud a { 
+  display: block; 
+  font-size: 1.1rem; 
+  font-weight: 600; 
+  text-decoration: none; 
+  position: relative; 
+  border-radius: 15px; 
+  background-color: var(--highlight-color); 
+  padding: 2px 12px 2px 12px; 
+  margin: 10px 10px 10px 10px; 
+  min-width: 40px; 
+  text-aligh: center; 
+} 
+</style>
+<script type="text/javascript"> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script type="text/javascript" id="MathJax-script" async src="file:///Users/hbowie/Library/Developer/Xcode/DerivedData/Notenik-ctzfexvhpuhyyjboiphcmbluggfp/Build/Products/Debug/Notenik.app/Contents/Resources/MathJax/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+
+<p>11 <a href="https://ntnk.app/versionhistory">Version History</a>&nbsp;&#8593;</p>
+<h3 id="version-9.5.0">11.1 Version 9.5.0</h3>
+<p>Date: 14 Jun 2022</p>
+<h5 id="added-note-selector-option-to-format-include-command">Added Note Selector Option to format Include Command</h5>
+<p>Added an option to the <a href="https://ntnk.app/selectanoteforaction">Note Selector</a> to allow a selected Note&#8217;s Title to be copied and pasted into a Markdown command to <a href="https://ntnk.app/includeanoteorfile">Include a Note or File</a>. </p>
+<h5 id="improved-display-teasers-command">Improved Display Teasers Command</h5>
+<p>When using the <a href="https://ntnk.app/displayteasers">Display Teasers</a> Markdown command, the list of teasers previously halted when encountering a Note at a higher level of indention (appearing farther to the right) than the first Note included in the list; the command will now skip over Notes at higher levels of indention than the first Note included in the list, but will continue building the list for all children of the parent Note that are at the same level. </p>
+<h5 id="corrected-bug-that-occurred-when-adjusting-edit-font-size">Corrected Bug That Occurred When Adjusting Edit Font Size</h5>
+<p>Attempts to adjust the edit font size could result in loss of data. This has been corrected. </p>
+<hr>
+<p>Next: <a href="https://ntnk.app/version940">Version 9.4.0</a></p>
+</body>
+</html>

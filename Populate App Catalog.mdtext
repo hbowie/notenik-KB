@@ -1,5 +1,7 @@
 Title:  Populate App Catalog
 
+Tags:   levels-outline.5 Getting Data Into and Out of Notenik.3 Populate App Catalog
+
 Timestamp: 20220507190330
 
 Seq:    5.3
@@ -38,6 +40,4 @@ The following [[Field Labels and Types]] will be defined, if needed, and populat
 
 + `App Version` ([[seq]]) -- This will be populated with the version of the application. 
 
-+ `License Key` ([[longtext]]) -- This field will be defined, but will not be populated. 
-
-
++ `License Key` ([[longtext]]) -- This field will be defined, but will not be populated.

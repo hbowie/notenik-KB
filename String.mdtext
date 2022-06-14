@@ -1,6 +1,6 @@
 Title:  String
 
-Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.7 String
+Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.8 String
 
 Timestamp: 20210609174751
 
@@ -18,5 +18,4 @@ On the Display tab, such a field is displayed without any special formatting.
 
 For longer text fields, see the [[longtext]] field type. 
 
-For text fields likely to have recurring values, see the [[Combo]] field type. 
-
+For text fields likely to have recurring values, see the [[Combo]] field type.
