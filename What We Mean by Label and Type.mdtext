@@ -2,17 +2,15 @@ Title:  What We Mean by Label and Type
 
 Tags:   levels-outline.7 Field Labels and Types.1 What We Mean by Label and Type
 
+AKA:    field label, field type
+
 Timestamp: 20210609153556
 
 Seq:    7.1
 
 Level:  3 - Section
 
-Body: 
-
-The first thing to explain, when it comes to field labels and field types, is that Notenik sees these identifiers only through what we might call a lowest common denominator representation. Such a representation is formed by changing all letters to lower case, and removing all spacing and punctuation. 
-
-So whether you type a field label, or see it referred to, as `Time Stamp`, `Timestamp`, `time-stamp` or `timestamp`, it makes no difference to Notenik: all of these boil down to the same internal representation of `timestamp`, and thus all will be treated identically.
+Body:
 
 A field *label* is the thing you see identifying a particular field for each Note. 
 
@@ -22,7 +20,7 @@ To keep things simple, Notenik will typically infer a field type based on its la
 
 Every field within a Collection must have its own unique label. However, you can often have multiple fields with different labels but of the same type. 
 
-Both labels and types can be specified within a Collection's template file. For example, consider the following line appearing at the top of a Collection's template file: 
+Both labels and types can be specified within [[the Collection template file]]. For example, consider the following line appearing at the top of a Collection's template file: 
 
 ```
 Name: <title>
@@ -38,5 +36,9 @@ You can make up your own field labels -- you're not constrained by the default s
 
 1. A field label may not consist of more than 48 characters; 
 2. A field label may not contain special characters, other than dashes and underscores.
+
+One think to keep in mind, when it comes to field labels and field types, is that Notenik sees these identifiers only through what we might call a lowest common denominator representation. Such a representation is formed by changing all letters to lower case, and removing all spacing and punctuation. 
+
+So whether you type a field label, or see it referred to, as `Time Stamp`, `Timestamp`, `time-stamp` or `timestamp`, it makes no difference to Notenik: all of these boil down to the same internal representation of `timestamp`, and thus all will be treated identically.
 
 Each field label/type is discussed below, grouped into logical collections.

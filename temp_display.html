@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Version 9.5.0</title>
+<title>Version 9.6.0</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 :root {
@@ -24,8 +24,8 @@ a {
 }
 body { 
 tab-size: 4; 
-margin: 1em; font-family: "Verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 12pt }
+margin: 1em; font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14pt }
 blockquote { 
   border-left: 0.4em solid #999;
   margin-left: 0;
@@ -92,15 +92,10 @@ window.MathJax = {
 <body>
 
 <p>11 <a href="https://ntnk.app/versionhistory">Version History</a>&nbsp;&#8593;</p>
-<h3 id="version-9.5.0">11.1 Version 9.5.0</h3>
-<p>Date: 14 Jun 2022</p>
-<h5 id="added-note-selector-option-to-format-include-command">Added Note Selector Option to format Include Command</h5>
-<p>Added an option to the <a href="https://ntnk.app/selectanoteforaction">Note Selector</a> to allow a selected Note&#8217;s Title to be copied and pasted into a Markdown command to <a href="https://ntnk.app/includeanoteorfile">Include a Note or File</a>. </p>
-<h5 id="improved-display-teasers-command">Improved Display Teasers Command</h5>
-<p>When using the <a href="https://ntnk.app/displayteasers">Display Teasers</a> Markdown command, the list of teasers previously halted when encountering a Note at a higher level of indention (appearing farther to the right) than the first Note included in the list; the command will now skip over Notes at higher levels of indention than the first Note included in the list, but will continue building the list for all children of the parent Note that are at the same level. </p>
-<h5 id="corrected-bug-that-occurred-when-adjusting-edit-font-size">Corrected Bug That Occurred When Adjusting Edit Font Size</h5>
-<p>Attempts to adjust the edit font size could result in loss of data. This has been corrected. </p>
+<h3 id="version-9.6.0">11.1 Version 9.6.0</h3>
+<h5 id="created-a-way-of-setting-default-field-values">Created a Way of Setting Default Field Values</h5>
+<p>In general, Notenik will leave a field blank unless a user explicitly specifies a field value. This works pretty well for most field types but, in some cases, it is desirable and convenient for Notenik to supply a non-blank default value for a field when creating a new Note. The <a href="https://ntnk.app/status">Status</a> field type is a good example. It is often desirable, when using a Status field, to have it default to some initial value. So now it is possible, even when not using a <a href="https://ntnk.app/class">Class</a> field, to create a <a href="https://ntnk.app/defaultsclasstemplate">defaults class template</a> to specify default values for one or more fields. </p>
 <hr>
-<p>Next: <a href="https://ntnk.app/version940">Version 9.4.0</a></p>
+<p>Next: <a href="https://ntnk.app/version950">Version 9.5.0</a></p>
 </body>
 </html>

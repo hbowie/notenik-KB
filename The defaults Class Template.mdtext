@@ -1,0 +1,28 @@
+Title:  The defaults Class Template
+
+Timestamp: 20220619181258
+
+Seq:    4.1.7
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+Even if a Collection does not make use of the [[class]] field, the user may create a special [[class template file]] with the name of `defaults`, which can then be used to specify a default value for any field in the Collection. 
+
+For example, it is often convenient to specify a default value for the [[status]] field, so that the field is not simply blank after creating a new Note. 
+
+Here's how to make this work. 
+	
+1. Use the `Generate New Class Template...` item beneath the `Collection` menu to create a class template file with the name of `defaults`. This file will be stored within a subfolder named `class`, within the folder holding your Collection's Notes. 
+
+2. After creating the requested class template file, Notenik will ask macOS to open the file within your preferred text editor. 
+
+3. The new defaults template file will have all of the Collection's field labels called out, but without any following information. You can now pecify default values for any of these field labels, to be provided whenever you create a new Note. 
+	
+	When you're done making these changes, save the class template file within your text editor, and then Reload the Collection within Notenik. 
+	
+
+

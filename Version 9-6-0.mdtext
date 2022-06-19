@@ -1,0 +1,15 @@
+Title:  Version 9.6.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Created a Way of Setting Default Field Values
+
+In general, Notenik will leave a field blank unless a user explicitly specifies a field value. This works pretty well for most field types but, in some cases, it is desirable and convenient for Notenik to supply a non-blank default value for a field when creating a new Note. The [[Status]] field type is a good example. It is often desirable, when using a Status field, to have it default to some initial value. So now it is possible, even when not using a [[Class]] field, to create a [[defaults class template]] to specify default values for one or more fields. 

@@ -12,20 +12,22 @@ Class:  non-version
 
 Body:
 
-You are free to use any `Class` values that make sense for you, but Notenik recognizes some values as having special significance, especially when using [[Streamlined Reading]] mode. 
+You are free to use any `Class` values that make sense for you, but Notenik recognizes some values as having special significanc (based on  a normal scheme of [book design][bkdsgn]), especially when using [[Streamlined Reading]] mode. 
 
-+ `author` 
-+ `front` 
-+ `intro` 
-+ `preface` 
-+ `quote` 
-+ `quotation` 
-+ `work` 
-
-`front`, `intro` and `preface` are all treated as frontmatter, placed at the start of a book. 
-
-`author` and `work` are treated as bibliographic entries. 
++ author - The Note identifies the author of one or more works, as might be cited within a bibliography. 
++ back - back matter of a general nature.
++ biblio - bibliography, as part of the back matter.
++ front - front matter of a general nature.
++ intro - introduction, as part of the front matter.
++ preface - preface, as part of the front matter.
++ quote - quotation.
++ quotation - quotation.
++ work - The Note identifies a particular work written by one or more authors, as might be cited within a bibliography.
 
 Frontmatter and bibliographic entries are often not shown with their sequence numbers, since these typically have less significance for this sort of content. 
 
-`quote` and `quotation` indicate that the entire body of the Note is to be treated as a quotation, and displayed with special `blockquote` formatting. Also, if the [[Attribution]] field is used, then the Attribution will be displayed beneath the Quotation.
+A class of `quote` or `quotation` indicate that the entire body of the Note is to be treated as a quotation, and displayed with special `blockquote` formatting. Also, if the [[Attribution]] field is used, then the Attribution will be displayed beneath the Quotation.
+
+[bkdsgn]: https://en.wikipedia.org/wiki/Book_design
+
+
