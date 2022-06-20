@@ -16,4 +16,8 @@ In general, Notenik will leave a field blank unless a user explicitly specifies 
 
 ##### Added Class Template Extension Changes
 
-When changing a Collection's preferred file extension, the file extension for any associated [[class template files]] will be changed as well, along with Note file extensions. 
+When changing a Collection's preferred file extension, the file extension for any associated [[class template files]] will be changed as well, along with Note file extensions.
+
+###### Added Help Menu Link to New DIscussion Forums
+
+Added a new item beneath the `Help` menu to provide a quick link to the new Notenik Discussion Forum.
