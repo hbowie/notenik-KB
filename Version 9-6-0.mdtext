@@ -21,3 +21,7 @@ When changing a Collection's preferred file extension, the file extension for an
 ###### Added Help Menu Link to New DIscussion Forums
 
 Added a new item beneath the `Help` menu to provide a quick link to the new Notenik Discussion Forum.
+
+##### Enabling Code Field to Display HTML
+
+When using a field of type [[Code]], Notenik will now convert any HTML to allow the code to be displayed as intended, rather than being interpreted as HTML. 
