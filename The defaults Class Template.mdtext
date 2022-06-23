@@ -1,5 +1,7 @@
 Title:  The defaults Class Template
 
+Tags:   levels-outline.4 Files and Folders.1 Note Files.7 The defaults Class Template
+
 Timestamp: 20220619181258
 
 Seq:    4.1.7
@@ -22,7 +24,4 @@ Here's how to make this work.
 
 3. The new defaults template file will have all of the Collection's field labels called out, but without any following information. You can now pecify default values for any of these field labels, to be provided whenever you create a new Note. 
 	
-	When you're done making these changes, save the class template file within your text editor, and then Reload the Collection within Notenik. 
-	
-
-
+	When you're done making these changes, save the class template file within your text editor, and then Reload the Collection within Notenik.

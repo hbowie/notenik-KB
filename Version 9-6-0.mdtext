@@ -1,10 +1,18 @@
 Title:  Version 9.6.0
 
+Tags:   levels-outline.11 Version History.1 Version 960
+
 Timestamp: 20211116184349
 
 Seq:    11.1
 
+Date:   23 Jun 2022
+
 Level:  3 - Section
+
+Teaser:
+
+Added a Help menu link to the new Notenik Discussion Forums, hosted by Discourse; added an option allowing tailoring of font(s) used on the Edit tab; created a way to set default values for fields; added logic to Code field display to convert HTML in such a way that it will display as code; updated file extension change logic to include class templates.
 
 Class:  version
 
@@ -24,4 +32,8 @@ Added a new item beneath the `Help` menu to provide a quick link to the new Note
 
 ##### Enabling Code Field to Display HTML
 
-When using a field of type [[Code]], Notenik will now convert any HTML to allow the code to be displayed as intended, rather than being interpreted as HTML. 
+When using a field of type [[Code]], Notenik will now convert any HTML to allow the code to be displayed as intended, rather than being interpreted as HTML.
+
+##### Allow Tailoring of the Edit Tab
+
+A new option to [[Tailor the Edit Tab]] has been added, allowing selection of font in addition to font size.

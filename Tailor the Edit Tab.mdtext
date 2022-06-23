@@ -1,0 +1,47 @@
+Title:  Tailor the Edit Tab
+
+Tags:   levels-outline.3 Common Tasks.2 Add Delete and Edit Your Notes.2 Tailor the Edit Tab
+
+AKA:    Adjust Edit Fonts, Edit Font Preferences
+
+Timestamp: 20220622180501
+
+Seq:    3.2.2
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+If you look beneath the `View` menu, you will find several options that will allow you to edit the appearance of the Edit Tab. 
+
+Note that any of these options may be exercised while editing a Note, and the changes will be reflected as soon as they are made (although only after saving any in-flight changes).
+
+These options allow apply to all Collections -- they are not Collection-specific.  
+
++ `Increase Edit Font Size` -- This option will increase the font size(s) used on the Edit Tab. 
+
++ `Decrease Edit Font Size` -- This option will decrease the font size(s) used on the Edit Tab. 
+
++ `Reset Edit Font Size` -- This option will reset the font size(s) used on the Edit tab to the default sizing. 
+
++ `Adjust Edit Fonts` -- This option, available starting with [[Version 9.6.0]], will display the `Edit Font Preferences` window, which will allow you to fine-tune the appearance of the Edit tab. 
+
+##### Adjust Edit Fonts via Edit Font Preferences
+
+The `Edit Font Preferences` window includes controls with the following labels. 
+
++ `Field Types` -- Notenik recognizes three different types of fields that can appear on the Edit Tab, and each type of field can be styled separately, by clicking on the corresponding radio button. The three types are: `Labels` (for field labels), `Code` (for field values of type [[code]] or [[link]], and `Text` (for all other types of value fields) .
+
++ `Show All Fonts?` -- The default is to include only a list of commonly used fonts in the drop-down list that follows. Checking this box, however, will include all the fonts found on your system for possible selection. 
+
++ `Edit Font` -- The font to be used for the currently selected field type (as chosen with the control described above). 
+
++ `Font Size` -- The font size to be used for the currently selected field type. 
+
++ `Sample` -- Sample text indicating the effects of the selections made above. 
+
++ `Cancel` -- Cancel the operation without saving any changes. 
+
++ `OK` -- Save the changes made and use them from now on, until the next change.

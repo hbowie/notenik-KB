@@ -29,5 +29,3 @@ Frontmatter and bibliographic entries are often not shown with their sequence nu
 A class of `quote` or `quotation` indicate that the entire body of the Note is to be treated as a quotation, and displayed with special `blockquote` formatting. Also, if the [[Attribution]] field is used, then the Attribution will be displayed beneath the Quotation.
 
 [bkdsgn]: https://en.wikipedia.org/wiki/Book_design
-
-

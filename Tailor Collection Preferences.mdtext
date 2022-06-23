@@ -28,6 +28,8 @@ The default Collections Title will be formed from the folder path containing thi
 
 Each Note file is an ordinary text file, and can be opened using any text editor, in addition to being editable within Notenik. Depending on what application you might wish to be the default text editor for your notes, you may wish to pick some special file extension to be used. (If you don't care about this, or this doesn't make any sense to you, then feel free to just ignore this whole paragraph and leave the Preferred File Extension set to the normal default of `txt`.) 
 
+(Note that, if you later decide to change the `Preferred File Extension` for a Collection, Notenik will automatically rename all of the existing files within that Collection to reflect your new choice.) 
+
 Enter a shortcut for a Collection in order to easily identify and open it later. (See the article [[Take Quick Action]] for further info.)
 
 Select an option to tailor your [[Note Title Display]]. The default is a normal font size, with a bold style applied. See the separate page below for details. 
