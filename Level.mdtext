@@ -10,7 +10,7 @@ Level:  4 - Subsection
 
 Class:  non-version
 
-Body: 
+Body:
 
 The word `level` can be used as both a label and a type. 
 
@@ -27,6 +27,8 @@ A level value is represented by a single digit, and is typically restricted to t
 A level field is typically used in combination with a [[Seq]] field. 
 
 When viewing a Collection containing a level field, and when viewing the List of Notes sorted by 'Seq + Title', the title of each Note will be indented to indicate the level of each particular Note within the implied outline. 
+
+The default is to indent one space per level, but this spacing can be adjusted on the **General** tab of the **Notenik Preferences**. 
 
 One way to use a level field, when generating HTML, is to generate a heading tag using the Note level as the numeric portion of the tag. 
 

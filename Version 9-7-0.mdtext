@@ -20,4 +20,10 @@ The **Share** option beneath the **Note** menu has been renamed to **Share w/Opt
 
 ##### Better-Looking HTML
 
-The HTML code produced by Notenik has been prettified a bit, with better spacing at the beginning of lines, and better line breaks and spacing before and after block tags. No syntax changes. 
+The HTML code produced by Notenik has been prettified a bit, with better spacing at the beginning of lines, and better line breaks and spacing before and after block tags. No changes were made that would affect the HTML syntax.
+
+##### Indent Spacing on the List Tab is Now Adjustable
+
+When viewing a Collection containing a [[level]] field, and when viewing the List of Notes sorted by 'Seq + Title', the title of each Note will be indented to indicate the level of each particular Note within the implied outline. 
+
+The default is to indent one space per level, but with this change the spacing can be adjusted on the **General** tab of the **Notenik Preferences**. 
