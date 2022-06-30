@@ -1,0 +1,23 @@
+Title:  Version 9.7.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### System Appearance Preserved in Generated CSS
+
+Beginning with [[Version 8.7.0]] the user has been able to explicitly set a light or dark appearance for Notenik, overriding whatever the System Setting might be. However, whenever Notenik was generating CSS for use outside of Notenik (or within a sample `display.css` file), that CSS would still default to the general System appearance. This change fixes that, so that the generated CSS will be based on the user's current wishes, as expressed by the **App Appearance** setting on the **General** tab of the **Notenik Preferences**. 
+
+##### Share Menu Item Renamed
+
+The **Share** option beneath the **Note** menu has been renamed to **Share w/Options**, to help distinguish it from the **Share** button on the Toolbar.
+
+##### Better-Looking HTML
+
+The HTML code produced by Notenik has been prettified a bit, with better spacing at the beginning of lines, and better line breaks and spacing before and after block tags. No syntax changes. 

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 9.7.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+:root {
+    color-scheme: light dark;
+    --link-color: Blue;
+    --highlight-color: Gainsboro
+}
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --link-color: #93d5ff;
+    --highlight-color: DimGray
+  }
+}
+a {
+    color: var(--link-color);
+}
+.search-results {
+    background-color: var(--highlight-color);
+}
+body { 
+tab-size: 4; 
+margin: 1em; font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14pt }
+blockquote { 
+  border-left: 0.4em solid #999;
+  margin-left: 0;
+  padding-left: 1em;
+} 
+figure { 
+  margin-left: 0.2em;
+  padding-left: 0.2em;
+} 
+table, th, td { 
+  border: 2px solid gray; 
+} 
+table { 
+  border-collapse: collapse; 
+} 
+th, td { 
+  padding: 6px; 
+} 
+img { 
+  max-width: 100%; 
+  height: auto; 
+} 
+h1 { font-size: 2.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h2 { font-size: 1.8em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h3 { font-size: 1.6em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h4 { font-size: 1.4em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h5 { font-size: 1.2em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h6 { font-size: 1.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+ul.checklist { list-style-type: none; }
+ul.tags-list { list-style-type: none; }
+ul.tags-cloud { 
+  list-style: none; 
+  padding-left: 0; 
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center; 
+  justify-content: center; 
+  line-height: 2.5rem; 
+} 
+ul.tags-cloud a { 
+  display: block; 
+  font-size: 1.1rem; 
+  font-weight: 600; 
+  text-decoration: none; 
+  position: relative; 
+  border-radius: 15px; 
+  background-color: var(--highlight-color); 
+  padding: 2px 12px 2px 12px; 
+  margin: 10px 10px 10px 10px; 
+  min-width: 40px; 
+  text-aligh: center; 
+} 
+</style>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Version 9.7.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+  :root {
+    --background-color: #000000;
+    --text-color: #F0F0F0;
+    --link-color: #93d5ff;
+    --highlight-color: DimGray
+  }
+a {
+    color: var(--link-color);
+}
+.search-results {
+    background-color: var(--highlight-color);
+}
+body { 
+  tab-size: 4; 
+  margin: 1em; 
+  background-color: var(--background-color);
+  color: var(--text-color); 
+font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14pt}
+blockquote { 
+  border-left: 0.4em solid #999;
+  margin-left: 0;
+  padding-left: 1em;
+} 
+figure { 
+  margin-left: 0.2em;
+  padding-left: 0.2em;
+} 
+table, th, td { 
+  border: 2px solid gray; 
+} 
+table { 
+  border-collapse: collapse; 
+} 
+th, td { 
+  padding: 6px; 
+} 
+img { 
+  max-width: 100%; 
+  height: auto; 
+} 
+h1 { font-size: 2.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h2 { font-size: 1.8em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h3 { font-size: 1.6em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h4 { font-size: 1.4em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h5 { font-size: 1.2em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h6 { font-size: 1.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+ul.checklist { list-style-type: none; }
+ul.tags-list { list-style-type: none; }
+ul.tags-cloud { 
+  list-style: none; 
+  padding-left: 0; 
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center; 
+  justify-content: center; 
+  line-height: 2.5rem; 
+} 
+ul.tags-cloud a { 
+  display: block; 
+  font-size: 1.1rem; 
+  font-weight: 600; 
+  text-decoration: none; 
+  position: relative; 
+  border-radius: 15px; 
+  background-color: var(--highlight-color); 
+  padding: 2px 12px 2px 12px; 
+  margin: 10px 10px 10px 10px; 
+  min-width: 40px; 
+  text-aligh: center; 
+} 
+</style>
+</head>
+<body>
+<h3 id="version-9.7.0">Version 9.7.0</h3>
+<p>Seq: 11.1</p><p>Level: 3 - Section</p><p>Class: version</p><h5 id="system-appearance-preserved-in-generated-css">System Appearance Preserved in Generated CSS</h5>
+
+<p>Beginning with <a href="https://ntnk.app/version870">Version 8.7.0</a> the user has been able to explicitly set a light or dark appearance for Notenik, overriding whatever the System Setting might be. However, whenever Notenik was generating CSS for use outside of Notenik (or within a sample <code>display.css</code> file), that CSS would still default to the general System appearance. This change fixes that, so that the generated CSS will be based on the user&#8217;s current wishes, as expressed by the <strong>App Appearance</strong> setting on the <strong>General</strong> tab of the <strong>Notenik Preferences</strong>. </p>
+
+<h5 id="share-menu-item-renamed">Share Menu Item Renamed</h5>
+
+<p>The <strong>Share</strong> option beneath the <strong>Note</strong> menu has been renamed to <strong>Share w/Options</strong>, to help distinguish it from the <strong>Share</strong> button on the Toolbar. </p>
+
+<h5 id="better-looking-html">Better-Looking HTML</h5>
+
+<p>The HTML code produced by Notenik has been prettified a bit, with better spacing at the beginning of lines, and better line breaks and spacing before and after block tags. No syntax changes. </p>
+
+<hr />
+<p>Timestamp: 20211116184349</p></body>
+</html>
