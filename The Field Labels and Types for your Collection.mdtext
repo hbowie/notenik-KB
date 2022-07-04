@@ -26,7 +26,7 @@ Most commonly you might have the following sorts of Collections.
 
 4. Sequenced List -- Add a Seq field and you can sort your list by whatever identifiers are meaningful to you. 
 
-5. [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) -- Add a timestamp field to help prevent your wiki-stile links between Notes from breaking when you rename a Note. 
+5. [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) -- Add a timestamp field to help prevent your wiki-style links between Notes from breaking when you rename a Note. 
 
 6. Blog -- Add several other useful fields if you are interested in generating a blog from your Collection. 
 

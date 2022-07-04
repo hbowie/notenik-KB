@@ -39,7 +39,11 @@ Following are the supported formats.
 	
 * Import Text File
 
-	You can select a single text file to be imported. This can be in simple Markdown format, or in any format valid for [[Existing Text Files]]. (The same effect can be achieved from the Finder, by dragging the text file onto the List tab of the target Collection window.) You can also import a folder full of such files. 
+	You can select a single text file to be imported. This can be in simple Markdown format, or in any format valid for [[Existing Text Files]]. (The same effect can be achieved from the Finder, by dragging the text file onto the List tab of the target Collection window.) 
+	
+* Import Folder of Text Files
+
+	When importing a folder of text files, Notenik will suspend its usual rule about respecting existing Collection field definitions, and will instead add all fields found in the input to the existing Collection, even if they are not already defined for the Collection. 
 
 * Import in XML format
 

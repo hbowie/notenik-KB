@@ -34,6 +34,6 @@ Notenik offers several ways to get Note data into and out of Notenik, in a varie
 
 Notenik also has its own templating language. You can create [[Merge Templates]], using your preferred text editor, and can then merge the Notes and their Fields into one or more templates in order to create output text files -- most typically, HTML files. 
 
-Notenik also has its own scripting language, You can record, modify, and/or write [[Script Files]] that will filter and sort one or more Collections and then merge the resulting data into one or more template files, to create a variety of output files. 
+Notenik also has its own scripting language. You can record, modify, and/or write [[Script Files]] that will filter and sort one or more Collections and then merge the resulting data into one or more template files, to create a variety of output files. 
 
 By creatively combining different fields, scripting parameters, and merge templates, Notenik can be used as a static site generator to create an entire website.

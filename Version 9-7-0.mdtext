@@ -1,10 +1,18 @@
 Title:  Version 9.7.0
 
+Tags:   levels-outline.11 Version History.1 Version 970
+
 Timestamp: 20211116184349
 
 Seq:    11.1
 
+Date:   05 Jul 2022
+
 Level:  3 - Section
+
+Teaser:
+
+Prettified the HTML produced by Notenik; opened up the spaces per level indentation for outlines so that this can be set as a preference; changed new Collection logic to set initial Collection name to match the folder name; when importing a folder full of Notes, addition of fields found is now more liberal, accepting whatever is present in the import folder; plus a few minor changes. 
 
 Class:  version
 
@@ -24,6 +32,18 @@ The HTML code produced by Notenik has been prettified a bit, with better spacing
 
 ##### Indent Spacing on the List Tab is Now Adjustable
 
-When viewing a Collection containing a [[level]] field, and when viewing the List of Notes sorted by 'Seq + Title', the title of each Note will be indented to indicate the level of each particular Note within the implied outline. 
+When viewing a Collection containing a [[level]] field, and when viewing the List of Notes sorted by **Seq + Title**, the title of each Note will be indented to indicate the level of each particular Note within the implied outline. 
 
-The default is to indent one space per level, but with this change the spacing can be adjusted on the **General** tab of the **Notenik Preferences**. 
+The default is to indent one space per level, but with this change the spacing can be adjusted on the **General** tab of the **Notenik Preferences**.
+
+##### New Collection Title Taken from Folder Name
+
+When creating a new Collection, the Collection title will be initially set to the folder name of the Collection. (It was previously being set to the name of the model Collection used to initialize the new Collection, but I had never intended to leave it this way.)
+
+##### Import Logic Modified Slightly
+
+When performing an [[import]] operation, and importing a folder of text files, Notenik will now suspend its usual requirement that all desired fields be already defined for the Collection, and will instead add any new fields found in the input source, but not already defined for the Collection. This is consistent with the general principle to "Be conservative in what you do, be liberal in what you accept from others" (often referred to as Postel's Law). 
+
+##### Several Knowledge Base Typos Corrected
+
+Thanks to J.G. for reporting these!

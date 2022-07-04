@@ -14,7 +14,7 @@ Body:
 
 This command can be found beneath the `File` menu. 
 
-Before executing this command, the user should have opened an existing App Catalog Collection, or a new Collection with minimal content and field definitions. 
+Before executing this command, the user should have opened an existing App Catalog Collection, or a new Collection with minimal content and field definitions. (The `Basic Notes` Collection template will work just fine.)
 
 After executing this command, the user will be prompted to select an input folder containing macOS Applications -- typically the Mac's primary `Applications` folder. 
 

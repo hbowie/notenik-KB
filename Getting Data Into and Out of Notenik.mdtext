@@ -10,7 +10,9 @@ Level:  2 - Article
 
 Class:  version
 
-Body: 
+Body:
 
 Notenik offers several different ways to get your Notenik data into Notenik, or out of it. 
+
+Note that, in general (but with some noted exceptions), attempts to add Notes to a Collection will respect the existing field definitions for the Collection, and will not add additional fields that may be found in the input. So, if your input has additional fields that you wish to capture, it is best to add those fields to your Collection before attempting to import/paste from another data source. 
 
