@@ -1,0 +1,19 @@
+Title:  Version 9.8.0
+
+Timestamp: 20220115163704
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Fixes to Sample Display Template
+
+When writing out a sample display template, using the command found beneath the **Collection** menu, line breaks were not always correct. These have been fixed, to ensure that template commands (such as `<?endif?>`) stand on their own.
+
+##### Changes to Toggle Streamlined Reading
+
+The **Toggle Streamlined Reading** command beneath the **Collection** menu no longer toggles the explicit **Body** field label display, instead leaving it as-is. 

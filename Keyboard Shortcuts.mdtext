@@ -10,17 +10,17 @@ Level:  3 - Section
 
 Body:
 
-Following are the keyboard shortcuts available within the app. 
+Following are the keyboard shortcuts available within the app.
 
 | Ctrl | Shift | Opt | Cmd | Key | Command |
 | ---- | ----- | --- | --- | :---: | :------ |
 |      |       |     | Cmd |  A  | Select All ([Mac Standard][mkeys])
-|      |       |     | Cmd |  B  | [[Nav Board]] 
+|      |       |     | Cmd |  B  | [[Nav Board]]
 |      |       |     | Cmd |  C  | Copy ([Mac Standard][mkeys])
-|      | Shift |     | Cmd |  D  | Discard Edits  
+|      | Shift |     | Cmd |  D  | Discard Edits
 |      |       |     | Cmd |  E  | Edit Note
-|      |       |     | Cmd |  F  | Find (aka [[Search]]) ([Mac Standard][mkeys]) 
-|      |       | Opt | Cmd |  F  | Advanced [[Search]]   
+|      |       |     | Cmd |  F  | Find (aka [[Search]]) ([Mac Standard][mkeys])
+|      |       | Opt | Cmd |  F  | Advanced [[Search]]
 |      |       |     | Cmd |  G  | Find Again ([Mac Standard][mkeys])
 |      |       |     | Cmd |  H  | Hide Notenik ([Mac Standard][mkeys])
 |      |       | Opt | Cmd |  H  | Hide Others ([Mac Standard][mkeys])
@@ -33,13 +33,14 @@ Following are the keyboard shortcuts available within the app.
 |      |       |     | Cmd |  M  | Minimize ([Mac Standard][mkeys])
 |      |       |     | Cmd |  N  | [[New Note]]
 |      |       |     | Cmd |  O  | Open a Collection ([Mac Standard][mkeys])
-|      |       | Opt | Cmd |  O  | Open a Parent Realm 
+|      |       | Opt | Cmd |  O  | Open a Parent Realm
 |      | Shift | Opt | Cmd |  O  | Open Collection Folder in the Finder
 |      |       |     | Cmd |  Q  | Quit Notenik (Mac Standard)
 | Ctrl |       |     |     |  Q  | [[Take Quick Action]]
 |      |       |     | Cmd |  R  | Run a [[Script File]]
 | Ctrl |       |     |     |  R  | Toggle [[Streamlined Reading]]
 |      |       |     | Cmd |  S  | Save the Note ([Mac Standard][mkeys])
+|      |       | Opt | Cmd | S | [[Share  with Options]]
 |      |       |     | Cmd |  T  | [[Text Edit]] a Note
 |      |       |     | Cmd |  U  | Catch Up Daily Tasks (see [[Make a To-Do List]])
 |      |       |     | Cmd |  V  | Paste ([Mac Standard][mkeys])
@@ -51,7 +52,7 @@ Following are the keyboard shortcuts available within the app.
 |      |       |     | Cmd |  2  | Sort by Seq + Title
 |      |       |     | Cmd |  3  | Sort Tasks by Date
 |      |       |     | Cmd |  4  | Sort Tasks by Seq
-|      |       |     | Cmd |  5  | Sort by Tags + Title  
+|      |       |     | Cmd |  5  | Sort by Tags + Title
 |      |       |     | Cmd |  6  | Sort by Tags + Seq
 |      |       |     | Cmd |  7  | Sort by Author
 |      |       |     | Cmd |  8  | Sort by Date Added
