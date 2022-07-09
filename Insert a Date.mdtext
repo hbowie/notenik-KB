@@ -1,0 +1,40 @@
+Title:  Insert a Date
+
+Timestamp: 20220709165752
+
+Seq:    3.6
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+Beneath the **Edit** menu the user will find an action titled **Paste a Date...**.
+
+When this action is invoked, the user will see a new window, titled **Paste Date**. 
+
+Two columns of radio buttons are presented. 
+
+The first column indicates the date content that is desired, allowing the user to select from the following options:
+
++ Today
++ Tomorrow
++ Next Week (one week from today)
++ Next Month (one month from today)
++ Next Year (one year from today)
+
+The second column indicates the date format that is desired, allowing the user to select from one of a number of predetermined options, or to specify a custom date formatting string. 
+
+See the [Unicode Standard](http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns) for supported Date Format Patterns. 
+
+As the user makes different selections with the radio buttons, the resulting text string will be shown at the bottom of the window, in the center. 
+
+Pressing **Cancel** will close the window without any further action. 
+
+Pressing **OK** will cause the formatted date string to be copied to the clipboard, and then pasted into whatever text field is currently being edited; this could be a Note's Title, or somewhere in its Body, or an actual Date field, or any other field that allows text entry. 
+
+Notenik will recall the user's last selections each time that this action is invoked. 
+
+Note that, at its simplest, the user need only use the keyboard shortcut `CTRL-D` followed by the `Return` key in order to insert a formatted date into any text field within a Note. 
+

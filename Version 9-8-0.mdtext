@@ -16,4 +16,10 @@ When writing out a sample display template, using the command found beneath the 
 
 ##### Changes to Toggle Streamlined Reading
 
-The **Toggle Streamlined Reading** command beneath the **Collection** menu no longer toggles the explicit **Body** field label display, instead leaving it as-is. 
+The **Toggle Streamlined Reading** command beneath the **Collection** menu no longer toggles the explicit **Body** field label display, instead leaving it as-is.
+
+##### Addition of Paste Date Function
+
+Adding a handy new function to [[Insert a Date]] into any text field being edited. 
+
+
