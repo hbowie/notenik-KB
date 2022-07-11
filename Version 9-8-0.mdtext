@@ -20,6 +20,8 @@ The **Toggle Streamlined Reading** command beneath the **Collection** menu no lo
 
 ##### Addition of Paste Date Function
 
-Adding a handy new function to [[Insert a Date]] into any text field being edited. 
+Adding a handy new function to [[Insert a Date]] into any text field being edited. The user can select the desired content (today, tomorrow, etc.) as well as the date format.
 
+##### Avoiding Seq Assignment When Not Sorted by Seq
 
+This change fixes the situation in which the currently selected Note has a Seq value, but the Collection is not sorted by Seq, and a new Note is being added. Previously in this situation the selected Note's Seq would be incremented and assigned to the new Note; with this change, the new Seq field will simply be left blank. 
