@@ -2,13 +2,15 @@ Title:  Linked Tags - G
 
 Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers.14 Linked Tags - G
 
+AKA:    Linked Tags
+
 Timestamp: 20210616201430
 
 Seq:    8.3.14
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 Each tag found in the variable will be made into a link, linking to '=$relative$=yypathyy/xxtagxx.html', where 'xxtagxx' is the tag, and 'yypathyy' is the string of characters following the 'g'.
 

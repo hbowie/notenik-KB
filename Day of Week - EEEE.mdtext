@@ -2,13 +2,15 @@ Title:  Day of Week - EEEE
 
 Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers.12 Day of Week - EEEE
 
+AKA:    Day of Week Full
+
 Timestamp: 20210616220338
 
 Seq:    8.3.12
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
-The letters "EEEE" represent a full day of week within a date formatting string.
+The letters "EEEE" represent a full day of week within a date [[formatting string]].
 

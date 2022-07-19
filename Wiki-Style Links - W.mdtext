@@ -2,9 +2,11 @@ Title:  Wiki-Style Links - W
 
 Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers.31 Wiki-Style Links - W
 
+AKA:    Wiki-Style Links Mod
+
 Timestamp: 20210616203521
 
-Seq:    8.3.31
+Seq:    8.3.32
 
 Level:  4 - Subsection
 
@@ -20,4 +22,4 @@ You can accomplish this by using the letter "W" as a variable modifier to modify
 
 Note that the 'W1' / 'W2' option should be specified before the letter 'O' requesting the conversion from Markdown to HTML.
 
-Note also that this modifier should *only* be used in a Merge Template intended to create HTML files *external* to Notenik; if you are using a Merge Template simply to style the *internal* representation of a Note within Notenik, on the Display tab, then this modifier is not needed, and will actually cause your wiki-style links to break. 
+Note also that this modifier should *only* be used in a Merge Template intended to create HTML files *external* to Notenik; if you are using a Merge Template simply to style the *internal* representation of a Note within Notenik, on the Display tab, then this modifier is not needed, and will actually cause your wiki-style links to break.

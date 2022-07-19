@@ -2,6 +2,8 @@ Title:  File Name - F
 
 Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers.13 File Name - F
 
+AKA:    File Name
+
 Timestamp: 20210616201349
 
 Seq:    8.3.13
@@ -10,7 +12,7 @@ Level:  4 - Subsection
 
 Class:  non-version
 
-Body: 
+Body:
 
 Converts a string to a conventional, universal file name, changing spaces to dashes, removing any odd characters, making all letters lower-case, and converting white space to hyphens.
 

@@ -2,13 +2,15 @@ Title:  Word Demarcation - C
 
 Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers.9 Word Demarcation - C
 
+AKA:    Word Demarcation
+
 Timestamp: 20210616201225
 
 Seq:    8.3.9
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The letter "C" indicates that the variable consists of a series of words, and you wish to change or standardize the way in which the words are distinguished from one another.
 

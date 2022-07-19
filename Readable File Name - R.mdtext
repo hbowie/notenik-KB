@@ -2,15 +2,17 @@ Title:  Readable File Name - R
 
 Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers.26 Readable File Name - R
 
+AKA:    Readable File Name
+
 Timestamp: 20210616202604
 
-Seq:    8.3.26
+Seq:    8.3.27
 
 Level:  4 - Subsection
 
 Class:  version
 
-Body: 
+Body:
 
 The letter "R", following a [[File Name - F]] modifier, will cause the variable to be converted to a safe file name, but preserving as much human readability as possible. 
 

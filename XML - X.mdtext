@@ -2,13 +2,15 @@ Title:  XML - X
 
 Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers.32 XML - X
 
+AKA:    XML Mod
+
 Timestamp: 20210616203555
 
-Seq:    8.3.32
+Seq:    8.3.33
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The letter "X" will cause selected special characters to be translated to their equivalent XML entities. This is recommended, for example, when publishing an RSS (Really Simple Syndication) feed.
 

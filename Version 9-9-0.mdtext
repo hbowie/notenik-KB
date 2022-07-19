@@ -20,4 +20,8 @@ Notenik will generally try to remember where a Collection window was last placed
 
 ##### Debut of Query Builder
 
-**[[Query Builder]]** is a new function available beneath the **Collection** menu. This is an easy way to generate a script and merge template to filter, sort and list your Notes. 
+**[[Query Builder]]** is a new function available beneath the **Collection** menu. This is an easy way to generate a script and merge template to filter, sort and list your Notes.
+
+##### Added Merge Variable Modifier to Convert a Title to a Note ID
+
+Added a new [[Merge Template]] [[Variable Modifier]] of [[To Identifier - I]], which will convert a Note Title to a valid ID that can be used as part of a Notenik [[Custom URL]]. This is used as part of the new [[Query Builder]]. 
