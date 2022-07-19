@@ -1,10 +1,19 @@
 Title:  Version 9.8.0
 
+Tags:   levels-outline.11 Version History.1 Version 980
+
 Timestamp: 20220115163704
 
-Seq:    11.1
+Seq:    11.2
+
+Date:   15 Jul 2022
 
 Level:  3 - Section
+
+Teaser:
+
+Added a new function to paste a date into any field currently being edited; Sample Display Template line breaks corrected; Toggle Streamlined Reading no longer toggles the explicit Body label field; next Seq value no longer being assigned to new Notes when Collection not sorted by Seq; added Obituary as a valid work type. 
+
 
 Class:  version
 

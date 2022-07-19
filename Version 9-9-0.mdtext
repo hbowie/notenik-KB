@@ -1,0 +1,23 @@
+Title:  Version 9.9.0
+
+Timestamp: 20211116184349
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Fixed Blog Creation Problem
+
+Fixed a problem that would throw an error message when trying to create a new Collection using the Blog Collection template.
+
+##### Fixed Window Placement
+
+Notenik will generally try to remember where a Collection window was last placed, and put it back in the same position the next time it is opened. However, when a window was placed in an extreme position (in a corner, or right up against an edge), it sometimes failed to reposition successfully. This has been corrected.
+
+##### Debut of Query Builder
+
+**[[Query Builder]]** is a new function available beneath the **Collection** menu. This is an easy way to generate a script and merge template to filter, sort and list your Notes. 

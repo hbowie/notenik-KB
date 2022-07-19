@@ -1,5 +1,7 @@
 Title:  Insert a Date
 
+Tags:   levels-outline.3 Common Tasks.6 Insert a Date
+
 Timestamp: 20220709165752
 
 Seq:    3.6
@@ -36,5 +38,4 @@ Pressing **OK** will cause the formatted date string to be copied to the clipboa
 
 Notenik will recall the user's last selections each time that this action is invoked. 
 
-Note that, at its simplest, the user need only use the keyboard shortcut `CTRL-D` followed by the `Return` key in order to insert a formatted date into any text field within a Note. 
-
+Note that, at its simplest, the user need only use the keyboard shortcut `CTRL-D` followed by the `Return` key in order to insert a formatted date into any text field within a Note.

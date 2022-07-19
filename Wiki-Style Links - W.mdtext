@@ -8,9 +8,9 @@ Seq:    8.3.31
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
-If your input is coming from a Collection using wiki-style inter-note links (links to other Notes formed by placing the Title of the target note within double square brackets), then you will probably wish to convert these to functional links in your output. 
+If your input is coming from a Collection using [[Wiki Style Links]] (links to other Notes formed by placing the Title of the target note within double square brackets), then you will probably wish to convert these to functional links in your output. 
 
 You can accomplish this by using the letter "W" as a variable modifier to modify the Markdown code containing inter-note links. The "W" must then be followed by one of the following values. 
 
@@ -19,3 +19,5 @@ You can accomplish this by using the letter "W" as a variable modifier to modify
 * 2 - The digit '2' will cause the Note title to be similarly converted, but then have a '#' prepended, with no suffix added. This option can be used when each note has its own heading within the same page.
 
 Note that the 'W1' / 'W2' option should be specified before the letter 'O' requesting the conversion from Markdown to HTML.
+
+Note also that this modifier should *only* be used in a Merge Template intended to create HTML files *external* to Notenik; if you are using a Merge Template simply to style the *internal* representation of a Note within Notenik, on the Display tab, then this modifier is not needed, and will actually cause your wiki-style links to break. 

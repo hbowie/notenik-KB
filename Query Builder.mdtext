@@ -1,0 +1,58 @@
+Title:  Query Builder
+
+Timestamp: 20220719173055
+
+Seq:    5.10
+
+Level:  3 - Section
+
+Body:
+
+Starting in [[Version 9.9.0]], a **Query Builder** function is available beneath the **Collection Menu**. Selecting this item will bring up a **Query Builder** window. 
+
+At the top of the window you will see a text field where you can enter a name for the query, if it is something you will want to be able to find and run later. 
+
+Beneath the name field you will see a list of all the fields defined for your Collection. For each field, you will see three accompanying fields to the right of the field label. 
+
+**Order** -- Select an appropriate value from the popup menu. A numeric value will set that field as a sort field, in the specified sequence. A value of '`X`' will cause the field to be included in the resulting list, but without being part of the sort key for the list. A blank value means that the field will not be included in the list, and will not participate in the sort. 
+
+**Filter** -- Select from this popup menu to indicate that you wish to filter the contents of the list to only include Notes that satisfy this matching operation. You may choose any of the following values:
+
+| Code | Meaning |
+| ---- | ------- |
+| `eq` | equal to
+| `gt` | greater than
+| `ge` | greater than or equal to
+| `lt` | less than
+| `le` | less than or equal to
+| `ne` | not equal to
+| `co` | contains
+| `nc` | does not contain
+| `st` | starts with
+| `ns` | does not start with
+| `fi` | finishes with
+| `nf` | does not finish with
+
+**Literal** -- This is the literal value that will participate in the comparison using the filter operator, as specified above. 
+
+After making your entries, press the **OK** button to cause the following actions to occur.
+
+1. Notenik will [[generate a report]] template for you, named using whatever **Report Name** you specified above, or the default of `query`. The template will use an HTML table to list your Notes, including whatever columns you requested. 
+
+2. Notenik will [[record a script]] for you that will sort and filter your Notes per your specification, and then use the just-created merge template to generate a list. Again, the script will be named per your request. 
+
+3. Notenik will open the **Scripter Window** for you, poised to execute your script. Hit the **Go** button to execute your script. 
+
+4. The script will then generate an HTML page containing the results of your query (your *report*, if you will), and will then ask your preferred Web browser (Safari, Chrome, etc.) to open that page.
+
+All of this can be done pretty quickly and easily, but the user may wish to be aware of the following going on under the hood. 
+
++ All three files -- merge template, script file, and output HTML file -- will be created in a Collection subfolder named `reports`, using the name you supplied for the query.
+
++ After generating a query, you may run it at any time, against the latest data in your Collection, by selecting the query beneath the **Reports** menu, found in the Collection window's toolbar, using the name you specified.  
+
++ You may also subsequently use a text editor to modify/enhance the [[Merge Template]] and/or the [[Script File]] following the documentation for those files. 
+
++ If you later rerun the Query Builder using the same Report Name, then the files previously generated (along with any custom edits you may have made) will be overwritten, without warning. 
+
++ The **Title** values that appear in the resulting query will be clickable links, and clicking one should cause the associated Note to be opened for you within Notenik. 
