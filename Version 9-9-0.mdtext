@@ -10,6 +10,18 @@ Class:  version
 
 Body:
 
+##### Added Several Notenik Custom Shortcuts Actions
+
+Added several Notenik custom [[Actions for Shortcuts]], ready for use with [Shortcuts on Mac](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac).
+
+##### Debut of Query Builder
+
+**[[Query Builder]]** is a new function available beneath the **Collection** menu. This is an easy way to generate a script and merge template to filter, sort and list your Notes.
+
+##### Added Startup Options to Prompt to Grant Access
+
+Added a new Notenik General Preference to request that the user be prompted to grant folder access to a location of their choice whenever Notenik launches. This is fully described under the topic of [[Disk Access Permissions]]. 
+
 ##### Fixed Blog Creation Problem
 
 Fixed a problem that would throw an error message when trying to create a new Collection using the Blog Collection template.
@@ -18,10 +30,6 @@ Fixed a problem that would throw an error message when trying to create a new Co
 
 Notenik will generally try to remember where a Collection window was last placed, and put it back in the same position the next time it is opened. However, when a window was placed in an extreme position (in a corner, or right up against an edge), it sometimes failed to reposition successfully. This has been corrected.
 
-##### Debut of Query Builder
-
-**[[Query Builder]]** is a new function available beneath the **Collection** menu. This is an easy way to generate a script and merge template to filter, sort and list your Notes.
-
 ##### Added Merge Variable Modifier to Convert a Title to a Note ID
 
-Added a new [[Merge Template]] [[Variable Modifier]] of [[To Identifier - I]], which will convert a Note Title to a valid ID that can be used as part of a Notenik [[Custom URL]]. This is used as part of the new [[Query Builder]]. 
+Added a new [[Merge Template]] [[Variable Modifier]] of [[To Identifier - I]], which will convert a Note Title to a valid ID that can be used as part of a Notenik [[Custom URL]]. This is used as part of the new [[Query Builder]].

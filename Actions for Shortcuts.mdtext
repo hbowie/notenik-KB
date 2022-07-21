@@ -1,0 +1,26 @@
+Title:  Actions for Shortcuts
+
+Timestamp: 20220720164915
+
+Seq:    5.15
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+Notenik provides a number of custom actions that you can use with [Shortcuts on Mac](https://support.apple.com/guide/shortcuts-mac/intro-to-shortcuts-apdf22b0444c/mac).
+
+Shortcuts are available for the Mac starting with macOS Big Sur (version 11). 
+
+Note that the shortcuts we're discussing in this context are different from the [[keyboard shortcuts]] that have been available on the Mac from the beginning. The shortcuts we're discussing here are Apple's latest take on user-friendly automation scripts that can be composed using a graphical user interface, without having to resort to coding. 
+
+The following Notenik custom actions are available for use.
+
++ **Get Note Title** -- Returns the title of the last selected Note, from the frontmost Collection. No input parameters needed. 
+
++ **Get Note Sharing Link** -- Returns a Notenik [[Custom URL]] pointing to the last selected Note, from the frontmost Collection. No input parameters needed.
+
++ **Get Note File Path** -- Returns the file path pointing to the file containing the last selected Note, from the frontmost Collection. No input parameters needed. 
+
