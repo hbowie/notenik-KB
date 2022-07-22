@@ -1,0 +1,35 @@
+Title:  Choosing Field Labels and Types
+
+Tags:   levels-outline.3 Is Notenik Right for You.10 Choosing Field Labels and Types
+
+Timestamp: 20220721223638
+
+Seq:    3.10
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+In Notenik, each Collection of Notes contains a template file. By customizing this file -- either through the Notenik Collection Preferences, or via your favorite text editor -- you can control the sorts of fields expected to be contained in a Collection: by modifying the list of expected field labels, as well as the expected *type* for each field. 
+
+Different field types present different sorts of editing widgets and varying kinds of displays, and also have different sets of functionality associated with them. 
+
+To a large extent you can mix and match these different field types to achieve your particular purpose for a Collection. 
+
+Notenik currently recognizes thirty-seven distinct field types. 
+
+Among the most common are:
+
++ Title - The Title of the Note
++ AKA - *Also Known As*, to provide an alias for wiki links
++ Body - The Note text itself
++ Date - A due date, or a publication date, as examples 
++ Recurs - A recurs rule for repeating a dated note
++ Status - Draft, Published, Canceled, etc.
++ Seq - An arbitrary sequence number, or priority level
++ Level - The intended indention level for a note within a sequenced Collection
++ Link - A link to a website, or to a local file or app
++ Tags - Custom labels implementing any sort of categorization scheme
++ Timestamp - A unique identifier that won't change if a Note is renamed

@@ -1,16 +1,16 @@
 Title:  Back Links
 
-Tags:   levels-outline.7 Field Labels and Types.5 Fields to Assist with Note Linking.2 Back Links
+Tags:   levels-outline.10 Field Labels and Types.5 Fields to Assist with Note Linking.2 Back Links
 
 Timestamp: 20211005234351
 
-Seq:    7.5.2
+Seq:    10.5.2
 
 Level:  4 - Subsection
 
 Class:  version
 
-Body: 
+Body:
 
 If you use [[Wiki Style Links]] to link from one Note to others, then we can think of these as forward links: they allow you to move forward from one Note to another following a chain of wiki style links. 
 

@@ -1,14 +1,14 @@
 Title:  System Variables
 
-Tags:   levels-outline.8 Merge Templates.2 Merge Variables.1 System Variables
+Tags:   levels-outline.11 Merge Templates.2 Merge Variables.1 System Variables
 
 Timestamp: 20210610152725
 
-Seq:    8.2.1
+Seq:    11.2.1
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The following special variables are predefined and available for substitution, no matter what data source is being used.
 

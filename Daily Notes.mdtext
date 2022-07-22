@@ -1,0 +1,21 @@
+Title:  Daily Notes
+
+Tags:   levels-outline.3 Is Notenik Right for You.16 Daily Notes
+
+Timestamp: 20220721224138
+
+Seq:    3.16
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Notenik has a [[Quick Action]] window that allows you to select a Collection, enter a Title, and enter a Body, and then hit OK to add a new Note to a Collection. 
+
+If you enter `today` in the Title field on the Quick Action window, then that word will be replaced by today's date, in `yyyy-mm-dd` format. 
+
+Another approach to maintaining a set of daily notes would be to add a separate Date field to your Collection. Notenik then allows you to sort your entries by Date, and provides an easy-to-use widget to set your date to today, or to adjust it to a specific date in the past or the future. 
+
+Notenik also offers a function to easily and quickly [[Insert a Date]] or Date and Time -- including the current date/time -- into a Note's title, or into any other field that allows text entry.

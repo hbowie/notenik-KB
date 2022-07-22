@@ -1,0 +1,21 @@
+Title:  Tasks
+
+Tags:   levels-outline.3 Is Notenik Right for You.17 Tasks
+
+Timestamp: 20220721224205
+
+Seq:    3.17
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Notenik supports the creation of a list of tasks within a Note, using the common Markdown extension for [Task Lists][tasks]. 
+
+More functionality is available, however, if each task is represented by a separate Note. You can then use a Date field to track a due date, or a completion date, and can use a Status field to track each task's status, and a Seq field, if you like, to track a task's priority. 
+
+You can also sort such a Task list by Date or by Priority, with completed tasks falling to the bottom of the list. 
+
+[tasks]: https://www.markdownguide.org/extended-syntax/#task-lists

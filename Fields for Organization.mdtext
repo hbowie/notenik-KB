@@ -1,0 +1,31 @@
+Title:  Fields for Organization
+
+Tags:   levels-outline.4 The Notenik Manifesto.5 Fields for Organization
+
+Timestamp: 20220722161233
+
+Seq:    4.5
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+A single Note, by itself, can be a very useful thing, as can a single web page. 
+
+But a well-organized Collection of Notes, much like a well-organized website, can be even more useful. 
+
+What does it take to turn a bucket of Notes into a well-organized Collection of Notes?
+
+First of all, perhaps, is the ability to hyperlink from one Note to another. 
+
+But then, closely following the ability to hyperlink, is the ability to sort and index a Collection in a variety of ways, using one or more distinct fields, and field types. 
+
+In fact, a single Note can have more than one field formatted using Markdown -- making it possible to have a separate Preview field, or Summary field, as examples. 
+
+Much of my career was spent in corporate software development, defining different fields, and field types, describing different sorts of business entities. 
+
+And I spent a few years building websites using sophisticated content management systems, including Drupal, which also allow the user to define different fields for different types of entities. 
+
+And so, when it came time to develop Notenik, it was only natural for me to allow it to be used to set up different sets of field definitions for different Collections of Notes.

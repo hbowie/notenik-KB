@@ -1,16 +1,16 @@
 Title:  Merge Variables
 
-Tags:   levels-outline.8 Merge Templates.2 Merge Variables
+Tags:   levels-outline.11 Merge Templates.2 Merge Variables
 
 Timestamp: 20210610152517
 
-Seq:    8.2
+Seq:    11.2
 
 Level:  3 - Section
 
 Class:  non-version
 
-Body: 
+Body:
 
 Variables will be replaced by values taken from the corresponding fields of the current Note, or from an internal table of global variables. Variables must be enclosed in the chosen delimiters. Each variable name must match a field label from the data source, or a global name specified in a SET command. The comparison ignores case (upper or lower), embedded spaces and embedded punctuation when looking for a matching field label. So a field label of "First Name" will match with a variable of "firstname", for example.
 

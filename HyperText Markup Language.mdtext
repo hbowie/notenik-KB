@@ -1,0 +1,49 @@
+Title:  HyperText Markup Language
+
+Tags:   levels-outline.4 The Notenik Manifesto.2 HyperText Markup Language
+
+Timestamp: 20220722153624
+
+Seq:    4.2
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+HTML and the World-Wide Web have become so ubiquitous in our modern world -- and have also been so debased through their usage for crass commercial purposes -- that it is hard now to remember the original miracle. 
+
+It may help to recount my own personal history of writing tools.
+
++ I started out with pen or pencil and paper, and cursive penmanship -- a subject in school that merited a barely passing grade for me. Nonetheless, I started writing early, and enjoyed the process. 
+
++ I started typing in college, using a typewriter with the hunt and peck approach, having never been taught how to use a keyboard in any sort of efficient or effective manner. 
+
++ I finally learned touch-typing in an adult education class that I took in the autumn following my graduation from college. 
+
++ When I started professional programming, I wrote things down -- again, using pen or pencil -- on paper coding sheets that were then given to a group of keypunch operators so that they could translate my hen scratchings onto punched cards. 
+
++ My first personal computer was an [Osborne 1](https://en.wikipedia.org/wiki/Osborne_1) that came with a copy of WordStar, my first Word Processor application. It was relatively primitive by today's standards but, when accompanied by an early dot-matrix printer, it actually allowed a user to make corrections and other changes, and to print out a copy to share with others whenever needed. 
+
++ And then further refinements followed, culminating in MS Word, laser printers and PDF documents. 
+
+But then, HTML and the Web came along, providing all of the following improvements. 
+
+1. HTML documents could be authored and edited and read using any of a number of different software applications, running on pretty much any computing platform. 
+
+2. HTML is written using plain text, so anyone could see how HTML documents were constructed, and could even write software to generate their own HTML docs. 
+
+3. HTML documents could be published on the Web, instead of on paper, providing access to anyone on the Internet. 
+
+4. HTML docs did not have to be formatted to be printed on a particular page size -- instead, they could reflow dynamically to fit whatever output size the reader preferred, even allowing the reader to adjust the font size dynamically. 
+
+5. HTML documents could be easily updated at any time -- even in their published form! -- making ongoing corrections and improvements a possibility. 
+
+6. Each HTML document published to the Web was assigned its own unique and unchanging address, making it easy for others to reference and share. 
+
+7. One HTML document could link to others!
+
+Probably any one or two of these would have been enough to convince me that HTML documents were an improvement over word processing files, but all seven...?! Why would anyone *not* use HTML, once it became available? 
+
+And so, Notenik uses HTML internally to format its display of a Note, and also makes it easy to use your Notes to generate HTML, and create web pages, and even an entire website.

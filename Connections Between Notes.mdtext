@@ -1,0 +1,29 @@
+Title:  Connections Between Notes
+
+Tags:   levels-outline.3 Is Notenik Right for You.12 Connections Between Notes
+
+Timestamp: 20220721223815
+
+Seq:    3.12
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+If you use [[Wiki-Style Links]] extensively, then over time you may wish to see a summary view of what *links* to what, and what *is linked to* from what. 
+
+Notenik provides these views via a couple of special fields. 
+
+The first field is called Wiki Links, and it provides a summarized list of all the forward links found within the body of each Note. 
+
+The second field is called Back Links, and it provides a summarized list of all the other Notes that link to the Note being viewed. 
+
+If you choose Back Links for a Collection, then the Wiki Links field will also be enabled. 
+
+Both of these fields, when present, are automatically maintained for you by Notenik. 
+
+You can include these fields on any Collection that you like, but they are not present by default. 
+
+Some comparable apps present this information via a *graph*, or a graphic view where lines represent connections, and dots represent connected notes. Notenik does not offer such a view.

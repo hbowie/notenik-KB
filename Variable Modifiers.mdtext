@@ -1,10 +1,10 @@
 Title:  Variable Modifiers
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers
+Tags:   levels-outline.11 Merge Templates.3 Variable Modifiers
 
 Timestamp: 20210616193633
 
-Seq:    8.3
+Seq:    11.3
 
 Level:  3 - Section
 
@@ -51,5 +51,4 @@ The following table summarizes the primary use of various letters and characters
 | dd | [[Day of Month Mod]] | 
 | EEE | [[Day of Week Abbreviated]] | 
 | EEEE | [[Day of Week Full]] |
-| Dash | [[Remove Paragraph Tags Mod]] | 
-
+| Dash | [[Remove Paragraph Tags Mod]] |

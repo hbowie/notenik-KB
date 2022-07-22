@@ -1,14 +1,14 @@
 Title:  Boolean
 
-Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.1 Boolean
+Tags:   levels-outline.10 Field Labels and Types.10 General-Purpose Fields.1 Boolean
 
 Timestamp: 20210609174345
 
-Seq:    7.10.1
+Seq:    10.10.1
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The word `boolean` can be used as a type. The word `bool` will be recognized as a shorthand identification for this type as well. 
 

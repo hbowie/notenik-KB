@@ -1,14 +1,14 @@
 Title:  Browse Module Parameters
 
-Tags:   levels-outline.9 Script Files.2 Scripting Modules.6 Browse Module Parameters
+Tags:   levels-outline.12 Script Files.2 Scripting Modules.6 Browse Module Parameters
 
 Timestamp: 20210617212102
 
-Seq:    9.2.6
+Seq:    12.2.6
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The value column should contain the URL to be opened. Note that this may usefully be set to a localhost address to open a local website as the last command in a script. 
 

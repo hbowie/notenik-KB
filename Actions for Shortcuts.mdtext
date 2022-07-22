@@ -1,8 +1,10 @@
 Title:  Actions for Shortcuts
 
+Tags:   levels-outline.8 Getting Data Into and Out of Notenik.15 Actions for Shortcuts
+
 Timestamp: 20220720164915
 
-Seq:    5.15
+Seq:    8.15
 
 Level:  3 - Section
 
@@ -22,5 +24,4 @@ The following Notenik custom actions are available for use.
 
 + **Get Note Sharing Link** -- Returns a Notenik [[Custom URL]] pointing to the last selected Note, from the frontmost Collection. No input parameters needed.
 
-+ **Get Note File Path** -- Returns the file path pointing to the file containing the last selected Note, from the frontmost Collection. No input parameters needed. 
-
++ **Get Note File Path** -- Returns the file path pointing to the file containing the last selected Note, from the frontmost Collection. No input parameters needed.

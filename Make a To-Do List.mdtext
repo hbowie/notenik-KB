@@ -1,14 +1,14 @@
 Title:  Make a To-Do List
 
-Tags:   levels-outline.10 Putting It All Together.3 Make a To-Do List
+Tags:   levels-outline.13 Putting It All Together.3 Make a To-Do List
 
 Timestamp: 20210628194620
 
-Seq:    10.3
+Seq:    13.3
 
 Level:  3 - Section
 
-Body: 
+Body:
 
 I like to keep a "to do" list to help remind me of various tasks I'd like to perform. However, I don't want to invest a great deal of time or money in a specialized tool that is overly fiddly. So I use Notenik to track these sorts of things. 
 
@@ -63,4 +63,3 @@ Notenik has a few keyboard shortcuts that can prove particularly handy when mana
 [appstore]: https://apps.apple.com/us/app/notenik/id1465997984?mt=12
 
 [markdown]: https://daringfireball.net/projects/markdown/syntax
-

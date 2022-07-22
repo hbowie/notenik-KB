@@ -1,0 +1,25 @@
+Title:  Integrating with Other Apps
+
+Tags:   levels-outline.3 Is Notenik Right for You.18 Integrating with Other Apps
+
+Timestamp: 20220721224310
+
+Seq:    3.18
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Notenik has its own custom URL scheme, meaning that you can type a URL starting with `notenik://`, followed by a valid Notenik command, and then, by following that link from another application, can get Notenik to do something for you: open a Collection, open a particular Note, add a new Note, etc. 
+
+Notenik also provides menu commands to easily generate custom URLs linking to selected Notes within a Notenik Collection. 
+
+Notenik also has a special Link field, and you can use that to fire off custom URLs for other apps -- or, for Notenik itself, for that matter.
+
+Although Notenik is not scriptable via AppleScript in the classic sense, it does implement a number of custom AppleScript commands designed to support integration with other apps -- most notably, [Hook][]. Hook integration scripts for Notenik are now available to Hook users via their official channels.  
+
+Notenik also offers some custom actions for use with Shortcuts for the Mac. 
+
+[hook]: https://hookproductivity.com

@@ -1,14 +1,14 @@
 Title:  Output Module Parameters
 
-Tags:   levels-outline.9 Script Files.2 Scripting Modules.5 Output Module Parameters
+Tags:   levels-outline.12 Script Files.2 Scripting Modules.5 Output Module Parameters
 
 Timestamp: 20210617211827
 
-Seq:    9.2.5
+Seq:    12.2.5
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 An Output command may only have an action of 'open'.
 

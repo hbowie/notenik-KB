@@ -1,0 +1,19 @@
+Title:  Search Capability
+
+Tags:   levels-outline.3 Is Notenik Right for You.14 Search Capability
+
+Timestamp: 20220721224032
+
+Seq:    3.14
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Notenik offers both a simple search and an advanced search, which allows you to select which fields should be included in the search. 
+
+In both cases -- simple and advanced -- one Note is shown at a time, allowing you to advance to the next matching Note whenever you are ready. Occurrences of the search term or phrase are highlighted in each note's display. 
+
+Notenik also offers a [[Query Builder]] for more advanced sorting and filtering.

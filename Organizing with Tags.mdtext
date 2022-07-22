@@ -1,0 +1,23 @@
+Title:  Organizing with Tags
+
+Tags:   levels-outline.3 Is Notenik Right for You.8 Organizing with Tags
+
+Timestamp: 20220721223321
+
+Seq:    3.8
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+One of the most popular pieces of metadata applied to notes consists of [tags][], which are just a series of short labels applied in any way that suits your own personal organizational needs. 
+
+Notenik recognizes Tags as its own field type, and allows multiple tags per Note, as well as nested tags. And the primary Collection window always offers an outline view showing all of the Notes in the Collection organized under their respective tags. 
+
+Some users like to prefix their tags with a hash mark, as is the common style when using [hashtags][hash] in social media. Notenik doesn't require these special characters, but it does recognize and preserve them, when found. 
+
+[hash]: https://en.wikipedia.org/wiki/Hashtag
+
+[tags]: https://en.wikipedia.org/wiki/Tag_(metadata)

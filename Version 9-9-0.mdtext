@@ -1,10 +1,18 @@
 Title:  Version 9.9.0
 
+Tags:   levels-outline.14 Version History.1 Version 990
+
 Timestamp: 20211116184349
 
-Seq:    11.1
+Seq:    14.1
+
+Date:   22 Jul 2022
 
 Level:  3 - Section
+
+Teaser:
+
+Added several custom actions for use with macOS Shortcuts; added a new Query Builder function; added a merge variable modifier to convert a Note title to its lowest-common denominator ID; added startup options to prompt user to grant folder access; fixed a problem with blog creation; fixed a problem with restoring window locations; made some content and structure changes in the Knowledge Base. 
 
 Class:  version
 
@@ -33,3 +41,7 @@ Notenik will generally try to remember where a Collection window was last placed
 ##### Added Merge Variable Modifier to Convert a Title to a Note ID
 
 Added a new [[Merge Template]] [[Variable Modifier]] of [[To Identifier - I]], which will convert a Note Title to a valid ID that can be used as part of a Notenik [[Custom URL]]. This is used as part of the new [[Query Builder]].
+
+##### Restructured the Knowledge Base
+
+Adding a couple of new sections in the front: "[[Is Notenik Right for You?]]" and "[[The Notenik Manifesto]]." These replace a couple of similar sections that were previously in the back: "How Notenik Stacks Up Against the Big Names" and "The Philosophy behind Notenik."

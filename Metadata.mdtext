@@ -1,0 +1,49 @@
+Title:  Metadata
+
+Tags:   levels-outline.3 Is Notenik Right for You.7 Metadata
+
+Timestamp: 20220721222411
+
+Seq:    3.7
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+The ability to smartly handle metadata (that is, data about a note, in addition to the note text itself) is a distinguishing feature of most advanced note-taking systems these days. 
+
+Somewhat unfortunately, perhaps, the ways in which this sort of data is specified can vary quite a bit from one implementation to another. 
+
+In general, though, metadata is specified at the top of a note file, via a series of [name-value pairs][nvp], as in the following example:
+
+```
+Title:  Notenik Wins Again!
+Date:   15 Mar 2022
+Author: Herb Bowie
+Tags:   unbiased, well-written
+
+And yes, this is another completely unbiased piece 
+about Notenik, written with scrupulous honesty by 
+its own author.
+```
+ 
+Given this starting point, though, there are a couple of significant variations. 
+
+The first is [MultiMarkdown Metadata][mmd-meta], which has been around quite a while. 
+
+Then, of more recent popularity, there is [YAML][] frontmatter. 
+
+And, if left to its own devices, Notenik will use yet a different variation on this same theme. 
+
+Notenik, however, will do its best to recognize, honor and respect any of these three slightly different systems. 
+
+The bottom line here is that you can enter metadata to your heart's content and, if you already have text files containing some sort of metadata as described above, there is a good chance Notenik will work just fine with your existing text files and metadata formats. 
+
+
+[mmd-meta]: https://fletcher.github.io/MultiMarkdown-4/metadata.html
+
+[nvp]: https://en.wikipedia.org/wiki/Name–value_pair
+
+[yaml]: https://en.wikipedia.org/wiki/YAML

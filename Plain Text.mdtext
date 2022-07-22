@@ -1,0 +1,19 @@
+Title:  Plain Text
+
+Tags:   levels-outline.3 Is Notenik Right for You.3 Plain Text
+
+Timestamp: 20220721215135
+
+Seq:    3.3
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+Notenik stores all of its data in plain text files that can be easily copied, synchronized, viewed and edited using a wide variety of computing platforms, services and applications. Use of plain text files maximizes the portability and longevity and usefulness of your data, and ensures that your valuable information will never be stranded in some misbegotten proprietary format.  
+
+What's more, Notenik makes it easy to edit any note using your favorite [text editor][txed], providing a special menu command to open the current note in an external editor. 
+
+[txed]: https://en.wikipedia.org/wiki/Text_editor

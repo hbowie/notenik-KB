@@ -1,10 +1,10 @@
 Title:  Getting Data Into and Out of Notenik
 
-Tags:   levels-outline.5 Getting Data Into and Out of Notenik
+Tags:   levels-outline.8 Getting Data Into and Out of Notenik
 
 Timestamp: 20210626225450
 
-Seq:    5
+Seq:    8
 
 Level:  2 - Article
 
@@ -14,5 +14,4 @@ Body:
 
 Notenik offers several different ways to get your Notenik data into Notenik, or out of it. 
 
-Note that, in general (but with some noted exceptions), attempts to add Notes to a Collection will respect the existing field definitions for the Collection, and will not add additional fields that may be found in the input. So, if your input has additional fields that you wish to capture, it is best to add those fields to your Collection before attempting to import/paste from another data source. 
-
+Note that, in general (but with some noted exceptions), attempts to add Notes to a Collection will respect the existing field definitions for the Collection, and will not add additional fields that may be found in the input. So, if your input has additional fields that you wish to capture, it is best to add those fields to your Collection before attempting to import/paste from another data source.

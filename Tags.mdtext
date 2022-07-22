@@ -1,16 +1,16 @@
 Title:  Tags
 
-Tags:   levels-outline.7 Field Labels and Types.4 The Basic Set of Fields.2 Tags
+Tags:   levels-outline.10 Field Labels and Types.4 The Basic Set of Fields.2 Tags
 
 Timestamp: 20210609165802
 
-Seq:    7.4.2
+Seq:    10.4.2
 
 Level:  4 - Subsection
 
 Class:  non-version
 
-Body: 
+Body:
 
 The word `tags` can be used as both a label and a type. 
 
@@ -35,4 +35,4 @@ There is an option beneath the Sort menu to sort your list of Notes by Tags plus
 
 Beneath the Collection menu you will find an option to perform a Tags Mass Change. The user will be prompted to specify *from* tags and *to* tags, and Notenik will then replace the from tags (in combination, if more than one is specified) with the to tags.
 
-Some text file authors like to prepend their tags with hash marks, as is common with social media hashtags. Notenik will generally try to recognize and respect this preference, but the hash marks will generally not appear within Notenik. 
+Some text file authors like to prepend their tags with hash marks, as is common with social media hashtags. Notenik will generally try to recognize and respect this preference, but the hash marks will generally not appear within Notenik.

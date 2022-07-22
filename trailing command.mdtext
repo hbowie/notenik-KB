@@ -1,14 +1,14 @@
 Title:  trailing command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands.7 trailing command
+Tags:   levels-outline.11 Merge Templates.4 Merge Commands.7 trailing command
 
 Timestamp: 20210616230025
 
-Seq:    8.4.7
+Seq:    11.4.7
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The trailing command can be used to eliminate a trailing delimiter, or replace it with another character. 
 

@@ -1,14 +1,14 @@
 Title:  Email Apostrophes
 
-Tags:   levels-outline.8 Merge Templates.3 Variable Modifiers.1 Email Apostrophes
+Tags:   levels-outline.11 Merge Templates.3 Variable Modifiers.1 Email Apostrophes
 
 Timestamp: 20210616194522
 
-Seq:    8.3.1
+Seq:    11.3.1
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 Placing a single apostrophe (`'`) as part of the variable modifiers string will cause any HTML entities representing an apostrophe to be converted back to a normal ASCII/UTF apostrophe character: '. This can be useful for generating HTML to use as e-mail content, since e-mail parsers seem to sometimes drop the HTML entities commonly used for apostrophes.
 

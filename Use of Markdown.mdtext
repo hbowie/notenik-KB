@@ -1,0 +1,27 @@
+Title:  Use of Markdown
+
+Tags:   levels-outline.3 Is Notenik Right for You.5 Use of Markdown
+
+Timestamp: 20220721222327
+
+Seq:    3.5
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+Notenik makes use of [Markdown][md], which is an easy-to-learn and easy-to-use plain-text format for styling your notes. Notenik actually makes three different open-source Markdown parsers available for use, including its own. 
+
+All three Markdown parsers support the standard Markdown syntax, as [formulated by author John Gruber][df]. In addition, Notenik's own parser supports a growing number of [popular extensions][mdg], including tables, fenced code blocks, footnotes, Heading IDs, definition lists, task lists, citations and math support via [MathJax][mj]. 
+
+The niceties of Markdown syntax are sometimes controversial. In general, I've tried to write the Notenik parser so as to conform to the most common and popular interpretations and implementations, to minimize any potential problems with usage of other tools for interpreting and formatting your writings.
+
+[df]: https://daringfireball.net/projects/markdown/syntax
+
+[md]: https://en.wikipedia.org/wiki/Markdown
+
+[mdg]: https://www.markdownguide.org/extended-syntax/
+
+[mj]: https://www.mathjax.org

@@ -1,14 +1,14 @@
 Title:  Input Module Parameters
 
-Tags:   levels-outline.9 Script Files.2 Scripting Modules.1 Input Module Parameters
+Tags:   levels-outline.12 Script Files.2 Scripting Modules.1 Input Module Parameters
 
 Timestamp: 20210617211315
 
-Seq:    9.2.1
+Seq:    12.2.1
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The action for an input command may be either 'set' or 'open'. The set command(s) should precede the open command to which they will apply. 
 

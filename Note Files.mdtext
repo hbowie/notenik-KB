@@ -1,10 +1,10 @@
 Title:  Note Files
 
-Tags:   levels-outline.4 Files and Folders.1 Note Files
+Tags:   levels-outline.7 Files and Folders.1 Note Files
 
 Timestamp: 20210608175041
 
-Seq:    4.1
+Seq:    7.1
 
 Level:  3 - Section
 
@@ -12,7 +12,7 @@ Index:  UTF-8;
 
 Class:  version
 
-Body: 
+Body:
 
 Notenik stores each Note as a separate text file, in the [UTF-8](https://en.wikipedia.org/wiki/UTF-8) format, capable of being read and modified by any text editor, on almost any computer system in the world.
 

@@ -1,0 +1,35 @@
+Title:  A Personal Content Management System
+
+Tags:   levels-outline.3 Is Notenik Right for You.9 A Personal Content Management System
+
+Timestamp: 20220721223412
+
+Seq:    3.9
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+This seems as good a time as any to make a small confession. I have a lot of history working with [database][db] systems, and also with web [content management systems][cms], such as [Drupal][]. So when I originally started writing Notenik, several things seemed very natural to me:
+
+1. Thinking of a Note as an object, or an entity, or a row in a table, or a record. 
+
+2. Thinking of every value associated with a Note as having its own field name (aka label, or column heading). 
+
+3. Having different types of fields available, each with its own intended usage and functionality. 
+
+4. Different Collections of Notes each having their own sets of associated field names and types. 
+
+And so, in some ways, Notenik is as much a small, text-based, personal database application (akin to the early versions of [FileMaker][fm]) as it is anything else. 
+
+Keeping this lineage in mind may help you understand some of the thinking behind Notenik, and some of its potential uses, as you continue with your exploration of the product. 
+
+[cms]: https://en.wikipedia.org/wiki/Content_management_system
+
+[db]: https://en.wikipedia.org/wiki/Database
+
+[drupal]: https://www.drupal.org
+
+[fm]: https://en.wikipedia.org/wiki/FileMaker

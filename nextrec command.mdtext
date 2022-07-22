@@ -1,14 +1,14 @@
 Title:  nextrec command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands.4 nextrec command
+Tags:   levels-outline.11 Merge Templates.4 Merge Commands.4 nextrec command
 
 Timestamp: 20210616224814
 
-Seq:    8.4.4
+Seq:    11.4.4
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 This command indicates the beginning of the code that will be processed/written out once per data row. Lines prior to the nextrec command will only be processed/written out once.
 

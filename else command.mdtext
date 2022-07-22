@@ -1,14 +1,14 @@
 Title:  else command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands.10 else command
+Tags:   levels-outline.11 Merge Templates.4 Merge Commands.10 else command
 
 Timestamp: 20210616225540
 
-Seq:    8.4.10
+Seq:    11.4.10
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The else command terminates the scope of its preceding if, ifchange, ifendgroup or ifnewgroup command, and applies the opposite logical condition to the following template lines.
 

@@ -1,16 +1,16 @@
 Title:  Merge Delimiters
 
-Tags:   levels-outline.8 Merge Templates.1 Merge Delimiters
+Tags:   levels-outline.11 Merge Templates.1 Merge Delimiters
 
 Timestamp: 20210610152220
 
-Seq:    8.1
+Seq:    11.1
 
 Level:  3 - Section
 
 Class:  non-version
 
-Body: 
+Body:
 
 Notenik will recognize either of two sets of command and variable delimiters automatically. The choice of delimiters will be triggered by the first command-beginning delimiters encountered. The new delimiters are generally recommended, since they are more likely to be treated kindly by various HTML editors when creating your template files.
 

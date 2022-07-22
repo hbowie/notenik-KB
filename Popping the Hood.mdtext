@@ -1,0 +1,37 @@
+Title:  Popping the Hood
+
+Tags:   levels-outline.4 The Notenik Manifesto.11 Popping the Hood
+
+Timestamp: 20220722161352
+
+Seq:    4.11
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+> Simple things should be simple, complex things should be possible.
+>  
+> -- Alan Kay, from [discussions held at the Palo Alto Research Center](https://www.quora.com/What-is-the-story-behind-Alan-Kay-s-adage-Simple-things-should-be-simple-complex-things-should-be-possible)
+
+My dad was a mechanical engineer. His first car was a Ford of some ancient vintage, and he grew up working on engines, knowing he could always "[pop the hood](https://www.phrasemix.com/phrases/pop-the-hood-of-a-car)" to see what was going on underneath, and adjust it if necessary. 
+
+Fast forward a few decades and I can remember talking to a Dean of Engineering at a major university, who was praising the current generation of mechanical engineering students as being smarter than ever, but being prone to occasional major blunders because they no longer had the sort of hands-on knowledge that came from working on their own cars as they grew up. Because, of course, whatever is going on under the hood of a modern car is something too complex for any of us to tinker with. 
+
+And so it goes with software. 
+
+The trend in most modern app development is to discourage "hood popping," to make simple things simple, and to make anything more complex impossible. 
+
+As a result, most pieces of software we use these days have this nice hard outer shell, known as its user interface, and it is designed to be absolutely impenetrable, so that we humans employing the software interact only with this carefully designed UI, and are thus trained to never even *think* about what might be going on beneath the surface. 
+
+And in many ways, of course, this sort of setup represents a nice division of labor: all of us technocrats on one side, building the guts of these apps, seeing what's going on inside, with all of us users on the other side, looking at the nice shiny outer shell, and never having to consider what makes it all tick. 
+
+So what's wrong with this picture? 
+
+Just this: human development, and human activities, generally don't work all that well when everyone is forced to spend all of their time in one silo or another. 
+
+Human affairs generally progress more effectively when our areas of interest, and areas of vision, and areas of knowledge, all overlap a bit -- when we can stretch our legs from time to time, walk away from our usual vantage points, and see what things look like from a different perspective. That's when we can learn from each other, and piece together our fragmented shards of perception into a more comprehensive, more inclusive whole. 
+
+And so, when I set out to build Notenik, I did so with the clear idea that the app should be capable of handling simple things directly through its traditional user interface, but should also allow users to "pop the hood" to see what's going on underneath, and to undertake more complex tasks.

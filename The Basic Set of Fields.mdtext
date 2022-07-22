@@ -1,14 +1,14 @@
 Title:  The Basic Set of Fields
 
-Tags:   levels-outline.7 Field Labels and Types.4 The Basic Set of Fields
+Tags:   levels-outline.10 Field Labels and Types.4 The Basic Set of Fields
 
 Timestamp: 20210609165607
 
-Seq:    7.4
+Seq:    10.4
 
 Level:  3 - Section
 
-Body: 
+Body:
 
 In its most basic form, a Note consists of a Title and a Body. A Tags field and a Link field are also present by default, when creating a new Collection. 
 

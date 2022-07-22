@@ -1,14 +1,14 @@
 Title:  System-Assigned Dates and Times
 
-Tags:   levels-outline.7 Field Labels and Types.11 System-Assigned Dates and Times
+Tags:   levels-outline.10 Field Labels and Types.11 System-Assigned Dates and Times
 
 Timestamp: 20210609175220
 
-Seq:    7.11
+Seq:    10.11
 
 Level:  3 - Section
 
-Body: 
+Body:
 
 These fields, unlike the [[Date]] field, are system-assigned, and consist of a time as well as a date. 
 

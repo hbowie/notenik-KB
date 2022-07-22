@@ -1,14 +1,14 @@
 Title:  if command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands.9 if command
+Tags:   levels-outline.11 Merge Templates.4 Merge Commands.9 if command
 
 Timestamp: 20210616225453
 
-Seq:    8.4.9
+Seq:    11.4.9
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 The if command can be used to test a variable to see if it is non-blank. If the variable is non-blank, then the following lines up to the closing endif command will be subject to normal output processing. If the variable is blank, then following lines will be skipped until the closing endif command is encountered. In this case, the first and only operand would be the variable to be tested.
 

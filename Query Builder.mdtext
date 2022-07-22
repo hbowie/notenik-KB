@@ -1,8 +1,10 @@
 Title:  Query Builder
 
+Tags:   levels-outline.8 Getting Data Into and Out of Notenik.10 Query Builder
+
 Timestamp: 20220719173055
 
-Seq:    5.10
+Seq:    8.10
 
 Level:  3 - Section
 
@@ -55,4 +57,4 @@ All of this can be done pretty quickly and easily, but the user may wish to be a
 
 + If you later rerun the Query Builder using the same Report Name, then the files previously generated (along with any custom edits you may have made) will be overwritten, without warning. 
 
-+ The **Title** values that appear in the resulting query will be clickable links, and clicking one should cause the associated Note to be opened for you within Notenik. 
++ The **Title** values that appear in the resulting query will be clickable links, and clicking one should cause the associated Note to be opened for you within Notenik.

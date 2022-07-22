@@ -1,16 +1,16 @@
 Title:  New Note with Options
 
-Tags:   levels-outline.3 Common Tasks.2 Add Delete and Edit Your Notes.1 New Note with Options
+Tags:   levels-outline.6 Common Tasks.2 Add Delete and Edit Your Notes.1 New Note with Options
 
 Timestamp: 20211130183231
 
-Seq:    3.2.1
+Seq:    6.2.1
 
 Level:  4 - Subsection
 
 Class:  non-version
 
-Body: 
+Body:
 
 If your Collection uses the [[Class]] field, the [[Seq]] field and/or the [[Level]] field, then you may be interested in the `New Note w/Options...` item beneath the `Note` menu. 
 

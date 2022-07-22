@@ -1,14 +1,14 @@
 Title:  Launch at Startup Tags
 
-Tags:   levels-outline.7 Field Labels and Types.4 The Basic Set of Fields.4 Launch at Startup Tags
+Tags:   levels-outline.10 Field Labels and Types.4 The Basic Set of Fields.4 Launch at Startup Tags
 
 Timestamp: 20210626181251
 
-Seq:    7.4.4
+Seq:    10.4.4
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 A special 'Launch at Startup' tag can be added to a Note with a Link if you would like that Note's Link to be launched whenever Notenik starts up. 
 

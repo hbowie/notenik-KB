@@ -1,0 +1,29 @@
+Title:  Blocks Within Notes
+
+Tags:   levels-outline.3 Is Notenik Right for You.13 Blocks Within Notes
+
+Timestamp: 20220721223832
+
+Seq:    3.13
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Some other apps in this space offer the ability to subdivide a note into component *blocks*, and then embed or reference a particular block within one Note from another Note. 
+
+One problem with doing something like this using plain text files is that there is no general convention within the greater Markdown community for identifying blocks, or for referencing them. Such mechanisms can be invented, but as soon as you begin to apply them, you start to lose one of the advantages of plain text in the first place: namely, the ability to take your text files with you and use them, as-is, with any one of a wide variety of other tools. 
+
+Notenik takes a different approach. It does not offer blocks within Notes. Instead, the user is encouraged to create smaller notes, and then embed or reference those, as you would any other Note. 
+
+At the same time, Notenik offers a number of different ways to pull a series of Notes together in order to display them beneath the heading of a parent Note. In many cases, this offers some of the same benefits attributed to blocks.
+
+For more info, see the following info within the Knowledge Base:
+
++ the [[include command]];
++ the [[Seq]] field;
++ the [[Level]] field;
++ the [[Streamlined Reading]] option;
++ the [[Include Children]] field.

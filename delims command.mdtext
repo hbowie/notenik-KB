@@ -1,14 +1,14 @@
 Title:  delims command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands.1 delims command
+Tags:   levels-outline.11 Merge Templates.4 Merge Commands.1 delims command
 
 Timestamp: 20210616221450
 
-Seq:    8.4.1
+Seq:    11.4.1
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 If used at all, this command should be the first command in the template file. This command overrides the standard [[Merge Delimiters]] used to indicate the beginnings and ends of commands and variables, for the remainder of the current template file. The command can have one to five operands. Each operand will become a new delimiter. They should be specified in the following order.
 

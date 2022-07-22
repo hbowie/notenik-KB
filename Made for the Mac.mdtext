@@ -1,0 +1,23 @@
+Title:  Made for the Mac
+
+Tags:   levels-outline.4 The Notenik Manifesto.9 Made for the Mac
+
+Timestamp: 20220722161318
+
+Seq:    4.9
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Steve Jobs said that the computer is "the equivalent of a bicycle for our minds." This was in 1990, after the creation of the Mac, before the iPhone and iPad. And while those later creations were more mobile, and more intuitive, responding directly to the human touch, the Mac is still the computer I think of when I want a "bicycle for my mind" (as opposed, I guess, to a treadmill for my fingers). 
+
+I still think that the Mac is an incredible achievement. It was an amazing personal computer when first launched, and even more impressive in the way it has grown and evolved over the years, including the changes in hardware, in operating systems, in development tools, in applications, and app sales and distribution systems. Everything about it has changed -- and yet, it is still the Mac, still carrying forward important ideas that were there when it was first launched. 
+
+And, of course, the latest generation of Macs, now running on Apple's own silicon, is better than ever, and offers more than adequate reasons for returning to the platform, for those who [might have strayed over the years](https://www.macstories.net/stories/rediscovering-the-mac/). 
+
+And so Notenik has been targeted from the beginning to run on the Mac. And it's been written completely in Swift, Apple's new and modern programming language, and using AppKit, the collection of UI widgets and APIs designed specifically for macOS. 
+
+And while it would no doubt be nice if it were available on other platforms as well, I've never considered any of those other platforms to be *essential* to what I would consider to be the Notenik mission.

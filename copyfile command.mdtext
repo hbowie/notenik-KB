@@ -1,14 +1,14 @@
 Title:  copyfile command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands.12 copyfile command
+Tags:   levels-outline.11 Merge Templates.4 Merge Commands.12 copyfile command
 
 Timestamp: 20210616230136
 
-Seq:    8.4.12
+Seq:    11.4.12
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 This command causes a file to be copied from the location specified by the first operand, to the location specified by the second operand. 
 

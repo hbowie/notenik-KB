@@ -1,14 +1,16 @@
 Title:  Better a Tool than an App
 
-Tags:   levels-outline.12 The Philosophy behind Notenik.3 Better a Tool than an App
+Tags:   levels-outline.4 The Notenik Manifesto.4 Better a Tool than an App
 
-Timestamp: 20210823183417
+Timestamp: 20220722160924
 
-Seq:    12.3
+Seq:    4.4
 
 Level:  3 - Section
 
-Body: 
+Class:  version
+
+Body:
 
 There's an important distinction here for me. 
 
@@ -20,7 +22,7 @@ A tool, by comparison, is more open-ended. It can be used for any number of thin
 
 For me, there's a certain sense of adventure associated with tools. Instead of offering the user predetermined answers, such a piece of software offers the user questions: What would you like to build? Where would you like to go? What possibilities would you like to explore?
 
-Part of my intention with Notenik was to build a tool, rather than an app. 
+Part of my intention with Notenik has been to build a tool, rather than an app. 
 
 In fact, I had built several apps conforming to the description offered above before coming up with the idea for Notenik. There was one specifically for managing a collection of quotations (iWisdom), another for corralling a set of URLs (URL Union), one for task management (Two Due), and one or two others.
 

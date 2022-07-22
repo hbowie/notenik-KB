@@ -1,0 +1,23 @@
+Title:  Customizing Appearance and Functionality
+
+Tags:   levels-outline.3 Is Notenik Right for You.19 Customizing Appearance and Functionality
+
+Timestamp: 20220721224415
+
+Seq:    3.19
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Some comparable apps offer the ability to tailor the look, feel and/or functionality of their apps using plug-ins. These are sometimes written using the Javascript language. 
+
+Notenik does not offer any ability to add plug-ins written in Javascript, or in any other language. 
+
+On the other hand, the look and feel of the app can be tailored somewhat via Application and Collection Preferences and Display preferences, and the functionality for a Collection can be modified through the inclusion of one or more of a variety of special field types.
+
+Both light and dark modes are supported. 
+
+If you're interested, you can also write and supply your own custom CSS to change the appearance of your Notes on the Display tab.

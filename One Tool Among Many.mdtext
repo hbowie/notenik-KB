@@ -1,0 +1,31 @@
+Title:  One Tool Among Many
+
+Tags:   levels-outline.4 The Notenik Manifesto.13 One Tool Among Many
+
+Timestamp: 20220722161415
+
+Seq:    4.13
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+It has never been my intent with Notenik to offer a data schema and user interface so unique that it would become a thing unto itself. 
+
+Quite the opposite, in fact. 
+
+My goal has been to create a useful tool that can be turned to when the need or desire arises, but one that can be used together with a set of other apps, so that the user is always free to add to his or her toolbox, and pick whatever tool strikes their fancy today, or is best suited to a particular task. 
+
+And so Notenik stores all of its data in plain text files, and my intent has always been to use and manipulate those files in such a way that they are still easily accessible through any number of other pieces of software.  
+
+Markdown files with some accompanying metadata, or frontmatter, as it's sometimes called, have become increasingly popular of late, and Notenik bends over backward to respect this sort of data, no matter which of a variety of similar formats might be used. 
+
+This is in line with [Postel's law](https://en.wikipedia.org/wiki/Robustness_principle), often stated as:
+
+> Be conservative in what you do, be liberal in what you accept from others.
+
+Notenik also offers the user the ability to import and export its data in a variety of common formats. 
+
+My goal with Notenik is explicitly to *avoid* any sort of lock-in.

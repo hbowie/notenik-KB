@@ -1,0 +1,16 @@
+Title:  Accessibility
+
+Tags:   levels-outline.3 Is Notenik Right for You.23 Accessibility
+
+Timestamp: 20220721224554
+
+Seq:    3.23
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Because Notenik uses a standard Mac [[User Interface]], and because the [[programming code]] uses Apple's own language and APIs, Notenik is "completely accessible" to visually impaired users, using the [VoiceOver](https://www.apple.com/accessibility/vision/) screen reader (as reported to the author by such a user).
+

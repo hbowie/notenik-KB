@@ -1,0 +1,35 @@
+Title:  User Interface
+
+Tags:   levels-outline.3 Is Notenik Right for You.11 User Interface
+
+Timestamp: 20220721223750
+
+Seq:    3.11
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Notenik has a very traditional user interface. If you have been using a Mac for any length of time, then it will probably seem quite straightforward to you. Unlike a lot of modern apps these days, it does not try to look like a Web app, or like something you might see on a phone or a tablet. It has menus and windows and toolbars and tabs and buttons and keyboard shortcuts, and all of these are nicely labeled and in plain sight (unless you choose to hide them). 
+
+The main window for a Collection is split into two sides. 
+
+The left side shows the complete set of Notes in the Collection. 
+
+The right side shows the single, currently selected Note. 
+
+The left side has two tabs. 
+
+The first tab on the left shows you a simple list of the Notes in your Collection. 
+
+The second tab on the left shows you an outline view, with your Notes grouped into the tags that have been assigned to them. 
+
+The right side also has two tabs. 
+
+The first tab on the right displays the selected Note, with field labels and values, and with the note itself nicely styled according to its Markdown formatting. 
+
+The second tab on the right allows you to edit all of the fields for the selected Note.
+
+You can use either of the tabs on the left to select a particular Note to be displayed (and optionally edited) on the right.

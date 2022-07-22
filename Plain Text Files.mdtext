@@ -1,0 +1,35 @@
+Title:  Plain Text Files
+
+Tags:   levels-outline.4 The Notenik Manifesto.12 Plain Text Files
+
+Timestamp: 20220722161405
+
+Seq:    4.12
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Notenik stores all of its data -- including your Notes, but also configuration info -- in plain text files stored on your Mac, in ordinary folders. 
+
+As a practical matter, this means that Notenik data:
+
++ Can be viewed and modified using any text editor;
+
++ Can be copied, synced and stored using pretty much any computing platform;
+
++ Can be easily read and written using just about any programming language; 
+
++ Will always be available and accessible, without having to worry about complex, proprietary and largely closed document or database formats, or mysterious storage locations. 
+
+In addition to these very sensible reasons, I'm also partial to plain text files based on these more personal preferences:
+
++ I dislike all the hard lines that modern computing tends to draw between developers and users, and am much more comfortable with a sort of middle ground that can be shared by both camps;
+
++ I tend to think of text file viewing and manipulation as the keys to the computing kingdom, and that everyone using a computer -- especially a device with a dedicated keyboard -- should be comfortable using a text editor;
+
++ Just as my father and engineers of his generation were comfortable "popping the hood" on their cars in order to tinker with the engines, I think Notenik users should be able to look under the hood to see what Notenik is doing, and tweak things if they desire. 
+
+Of course, the ability to open and edit Notenik data using a text editor can also get the user into a bit of hot water at times, but I like to think, as Jesse Winchester apparently did, that *[A Reasonable Amount of Trouble](https://music.apple.com/us/album/a-reasonable-amount-of-trouble/909295280)* is to be expected, and in fact can be part of the joy of the journey.

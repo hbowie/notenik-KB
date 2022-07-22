@@ -1,0 +1,33 @@
+Title:  Programming Code
+
+Tags:   levels-outline.3 Is Notenik Right for You.15 Programming Code
+
+Timestamp: 20220721224057
+
+Seq:    3.15
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+Notenik is written in [Swift][], and the User Interface (UI) code is written using [AppKit][]. Swift is a relatively new language introduced by Apple, and there is every reason to think it will be well supported for the foreseeable future. AppKit is the established set of UI controls for use on the Mac and, again, there is every reason to think that they will remain stable and available well into the future. 
+
+All of the Notenik source code has been published on [GitHub][] under the terms of the [MIT license][mit], so it is [open source software][os]. This means that anyone can view it and improve it. 
+
+Executable code for Notenik is readily available through the  [Mac App Store][store]. 
+
+All of these factors reduce the risk that the Notenik software will someday become inoperable, unavailable, unmaintained or corrupted. 
+
+[appkit]: https://en.wikipedia.org/wiki/Application_Kit
+
+[github]: https://github.com/hbowie/notenik-swift
+
+[mit]: https://opensource.org/licenses/MIT
+
+[os]: https://opensource.com/resources/what-open-source
+
+[store]: https://apps.apple.com/us/app/notenik/id1465997984
+
+[swift]: https://en.wikipedia.org/wiki/Swift_(programming_language)

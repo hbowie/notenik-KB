@@ -1,16 +1,16 @@
 Title:  Note File Format
 
-Tags:   levels-outline.4 Files and Folders.1 Note Files.1 Note File Format
+Tags:   levels-outline.7 Files and Folders.1 Note Files.1 Note File Format
 
 Timestamp: 20210608185058
 
-Seq:    4.1.1
+Seq:    7.1.1
 
 Level:  4 - Subsection
 
 Class:  version
 
-Body: 
+Body:
 
 The contents of each Notenik Note file are formatted in a way that is easy to read and write, for both humans and computers, but is somewhat special, and unique to Notenik. 
 

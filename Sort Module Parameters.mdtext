@@ -1,14 +1,14 @@
 Title:  Sort Module Parameters
 
-Tags:   levels-outline.9 Script Files.2 Scripting Modules.3 Sort Module Parameters
+Tags:   levels-outline.12 Script Files.2 Scripting Modules.3 Sort Module Parameters
 
 Timestamp: 20210617211954
 
-Seq:    9.2.3
+Seq:    12.2.3
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 Just as with the Filter module, the Sort module uses actions of 'clear', 'add' and 'set'.
 

@@ -1,10 +1,10 @@
 Title:  Class
 
-Tags:   levels-outline.7 Field Labels and Types.10 General-Purpose Fields.2 Class
+Tags:   levels-outline.10 Field Labels and Types.10 General-Purpose Fields.2 Class
 
 Timestamp: 20211022212813
 
-Seq:    7.10.2
+Seq:    10.10.2
 
 Level:  4 - Subsection
 
@@ -29,5 +29,3 @@ In other words, enter the usual field label, followed by a colon, and then follo
 As always, be sure to Reload the Collection after making changes to the Collection template!
 
 Each class value may have an associated [[Class Template File]].
-	
-

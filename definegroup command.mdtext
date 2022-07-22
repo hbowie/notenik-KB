@@ -1,14 +1,14 @@
 Title:  definegroup command
 
-Tags:   levels-outline.8 Merge Templates.4 Merge Commands.5 definegroup command
+Tags:   levels-outline.11 Merge Templates.4 Merge Commands.5 definegroup command
 
 Timestamp: 20210616225100
 
-Seq:    8.4.5
+Seq:    11.4.5
 
 Level:  4 - Subsection
 
-Body: 
+Body:
 
 This is the first of several commands that define key fields and then conditionally write output when there is a break on any of those fields. 
 

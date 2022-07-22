@@ -1,0 +1,24 @@
+Title:  Deliver Working Software Frequently
+
+Tags:   levels-outline.4 The Notenik Manifesto.15 Deliver Working Software Frequently
+
+Timestamp: 20220722161431
+
+Seq:    4.15
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+My software development career started early enough, and was long enough, to have seen the gradual rise of [agile practices](https://agilemanifesto.org), as well as the earlier dominance of a more rigidly structured approach that became associated with the [Capability Maturity Models](https://en.wikipedia.org/wiki/Capability_Maturity_Model). 
+
+I have documented my thoughts about software development pretty thoroughly at the [Software Development Big Ideas](https://www.softdevbigideas.com) site. 
+
+In the case of Notenik, I've very much embraced the [principle behind the Agile Manifesto](https://agilemanifesto.org/principles.html) that states:
+
+> Deliver working software frequently, from a couple of weeks to a couple of months, with a 
+preference to the shorter timescale.
+
+My general practice has been to release a significant new version of Notenik every couple of weeks, and that seems to be working well, both for me and for the Notenik user community.
