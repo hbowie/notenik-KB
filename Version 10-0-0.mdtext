@@ -1,0 +1,19 @@
+Title:  Version 10.0.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### New Shortcut Action to Add Note
+
+Added to the list of Notenik Custom [[Actions for Shortcuts]] with a new action to `Add Note From Text`. This can be used as part of a macOS Shortcut to collect one or more field values from the user, and then add a Note with those values to the last referenced Collection. Such a shortcut can be invoked while using an app other than Notenik, so as to quickly capture a new Note without interrupting other work the user might be engaged in.
+
+##### Removed Option to Grant Access w/o Confirmation
+
+Turns out (and I now remember I had discovered this once before) that granting access doesn't work without the confirmation dialog! So I've removed this option from the Collection Preferences, and updated the section on [[Disk Access Permissions]]. 
