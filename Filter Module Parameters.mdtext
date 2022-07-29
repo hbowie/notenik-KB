@@ -48,6 +48,8 @@ The following modifiers are valid (with all of the different forms on a line pro
 
 * "!(>)", "![>]", "nf" or "does not end with"
 
+Note that the last six operators listed above will perform a comparison without regards to case (upper- or lower-case). 
+
 #### Set
 
 An action of set causes the previously added filtering rules, specified since the last clear action, to be applied.

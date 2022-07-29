@@ -26,6 +26,8 @@ The following Notenik custom actions are available for use.
 
 + **Get Note File Path** -- Returns the file path pointing to the file containing the last selected Note, from the frontmost Collection. No input parameters needed.
 
++ **Run Script** -- Runs a [[Script File]] given a path to the file. 
+
 + **Add Note From Text** -- This action looks for a block of text as input, with the input text formatted following the usual [[Note File Format]]. Notenik will attempt to parse the text block in the same way that it would any Note file on disk, and create a new Note, and add it to the last referenced Collection. A useful example shortcut might be made with the following actions. 
 
 	1. Ask for `Text` with `Title:`
@@ -48,4 +50,4 @@ The following Notenik custom actions are available for use.
 
 	If successful, the `Add Note From Text` shortcut will return a Notenik [[Custom URL]] pointing to the just-added Note.
 
-(BTW, thanks to [MacSparky](https://www.macsparky.com/fieldguides/) for his *Shortcuts for Mac Field Guide*, and in particular his "Idea Capture" sample shortcut.) 
+(BTW, thanks to [MacSparky](https://www.macsparky.com/fieldguides/) for his *Shortcuts for Mac Field Guide*, and in particular his "Idea Capture" sample shortcut.)

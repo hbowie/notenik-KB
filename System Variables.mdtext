@@ -18,6 +18,9 @@ datafilename
 dataparent
 : The path to the enclosing folder for the current data file. This can be used as part of an output command to specify an output file in the same folder as the data file.
 
+exportpath
+: When the script is being run from the Export menu, this variable will contain the path to the folder selected by the user. See [[Export Using Script]] for additional details. 
+
 nobr
 : Placing the variable 'nobr' anywhere on a line will cause that line to be written out without a trailing line break. The nobr variable itself will be removed from the line, without being replaced.
 

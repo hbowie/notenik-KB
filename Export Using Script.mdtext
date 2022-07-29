@@ -1,0 +1,31 @@
+Title:  Export Using Script
+
+Tags:   levels-outline.8 Getting Data Into and Out of Notenik.2 Import and Export Your Notes.3 Export Using Script
+
+AKA:    Export Scripts
+
+Timestamp: 20220728181113
+
+Seq:    8.2.3
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+Starting with [[Version 10.0.0]] Notenik allows use of [[Script Files]] via the **Export** option. 
+
+Here's the way this works. 
+
+1. Within each Collection, Notenik will look for a subfolder named `export`. 
+
+2. If the `export` folder is found, then Notenik will look for script files (with file extension `.tcz`) within that folder. 
+
+3. The script files found within the `export` folder will be added to the list of available output formats found at the top of the **Export Options** window, invoked after choosing **Export** from the **File** menu. 
+
+4. When you choose to Export using one of the available scripts, you will be prompted to specify an output folder. 
+
+5. The path to that output folder will then be passed into the scripting engine. 
+
+6. The path to the output folder will then be made available to all Merge Templates generated, via the [[system variable]] `exportpath`.

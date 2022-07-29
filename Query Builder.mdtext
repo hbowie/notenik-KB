@@ -43,13 +43,11 @@ After making your entries, press the **OK** button to cause the following action
 
 2. Notenik will [[record a script]] for you that will sort and filter your Notes per your specification, and then use the just-created merge template to generate a list. Again, the script will be named per your request. 
 
-3. Notenik will open the **Scripter Window** for you, poised to execute your script. Hit the **Go** button to execute your script. 
-
-4. The script will then generate an HTML page containing the results of your query (your *report*, if you will), and will then ask your preferred Web browser (Safari, Chrome, etc.) to open that page.
+3. Notenik will run the script for you and display the results in a new window, titled **Query Output**. 
 
 All of this can be done pretty quickly and easily, but the user may wish to be aware of the following going on under the hood. 
 
-+ All three files -- merge template, script file, and output HTML file -- will be created in a Collection subfolder named `reports`, using the name you supplied for the query.
++ The merge template and script file will be created in a Collection subfolder named `reports`, using the name you supplied for the query.
 
 + After generating a query, you may run it at any time, against the latest data in your Collection, by selecting the query beneath the **Reports** menu, found in the Collection window's toolbar, using the name you specified.  
 

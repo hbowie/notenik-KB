@@ -1,0 +1,109 @@
+Title:  Script File Example
+
+Tags:   levels-outline.12 Script Files.3 Script File Example
+
+Timestamp: 20220728222200
+
+Seq:    12.3
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+In order to visualize how all of this works, it may help to review a sample script file. 
+
+This is the actual script used to generate the [Notenik.app](https://notenik.app) website, as of this writing. If you'd like to see more context, feel free to review additional code for the site on [GitHub](https://github.com/hbowie/notenik-web).
+
+As noted earlier, a script file is a text file formatted into five columns, using either tabs or commas as delimiters to separate the columns. 
+
+In order to make this example easier to read, I've formatted the columns as a table, and I've added the first column, containing a row number, so that I can refer back to specific rows in the notes that appear below the table. (This extra column is, as they say, only for illustrative purposes, and should not appear in an actual script file.)
+
+You'll see that this script consists of multiple steps. The general sequence for each step is as follows:
+
+1. Open the input data source. 
+2. Filter the data as needed, if you only want to use a subset of the data for this step. 
+3. Sort the data into the desired sequence. 
+4. Use one or more [[Merge Templates]] to generate your desired output. If you have multiple templates needing the same data in the same sort sequence, then you can specify one after the other, without needing to repeat the `input`, `filter` and `sort` bits for each template.
+
+One technique you'll see below is that earlier steps can sometimes generate output that is used in later steps. Later steps often make use of the output from earlier steps by way of the Merge Template [[include command]].  
+
+| #  | module   | action   | modifier        | object     | value                                                                   |
+| --- | -------- | -------- | --------------- | ---------- | ----------------------------------------------------------------------- |
+| 1  | input    | set      |                 | xpltags    | FALSE                                                                   |
+| 2  | input    | set      |                 | dirdepth   | 1                                                                       |
+| 3  | input    | open     | notenik-defined |            | /Users/hbowie/Sites/notenik-web/content                                 |
+| 4  | filter   | clear    |                 |            |                                                                         |
+| 5  | filter   | add      | eq              | Type       | include                                                                 |
+| 6  | filter   | set      |                 | params     |                                                                         |
+| 7  | sort     | clear    |                 |            |                                                                         |
+| 8  | sort     | add      | ascending       | Title      |                                                                         |
+| 9  | sort     | set      |                 | params     |                                                                         |
+| 10 | template | webroot  |                 |            | /Users/hbowie/Sites/notenik-web                                         |
+| 11 | template | open     |                 |            | /Users/hbowie/Sites/notenik-web/templates/include-template.html         |
+| 12 | template | generate |                 |            |                                                                         |
+| 13 | input    | set      |                 | xpltags    | FALSE                                                                   |
+| 14 | input    | set      |                 | dirdepth   | 1                                                                       |
+| 15 | input    | open     | notenik-defined |            | /Users/hbowie/Sites/notenik-web/content                                 |
+| 16 | filter   | clear    |                 |            |                                                                         |
+| 17 | filter   | add      | eq              | Type       | news                                                                    |
+| 18 | filter   | set      |                 | params     |                                                                         |
+| 19 | sort     | clear    |                 |            |                                                                         |
+| 20 | sort     | add      | descending      | Date       |                                                                         |
+| 21 | sort     | add      | ascending       | Page Title |                                                                         |
+| 22 | sort     | set      |                 | params     |                                                                         |
+| 23 | template | webroot  |                 |            | /Users/hbowie/Sites/notenik-web                                         |
+| 24 | template | open     |                 |            | /Users/hbowie/Sites/notenik-web/templates/news-page-template.html       |
+| 25 | template | generate |                 |            |                                                                         |
+| 26 | template | open     |                 |            | /Users/hbowie/Sites/notenik-web/templates/latest-news-template.html     |
+| 27 | template | generate |                 |            |                                                                         |
+| 28 | template | open     |                 |            | /Users/hbowie/Sites/notenik-web/templates/rss-template.xml              |
+| 29 | template | generate |                 |            |                                                                         |
+| 30 | template | open     |                 |            | /Users/hbowie/Sites/notenik-web/templates/atom-template.xml             |
+| 31 | template | generate |                 |            |                                                                         |
+| 32 | input    | set      |                 | xpltags    | FALSE                                                                   |
+| 33 | input    | set      |                 | dirdepth   | 1                                                                       |
+| 34 | input    | open     | notenik-defined |            | /Users/hbowie/Sites/notenik-web/content                                 |
+| 35 | filter   | clear    |                 |            |                                                                         |
+| 36 | filter   | add      | eq              | Type       | review                                                                  |
+| 37 | filter   | set      |                 | params     |                                                                         |
+| 38 | sort     | clear    |                 |            |                                                                         |
+| 39 | sort     | add      | descending      | Date       |                                                                         |
+| 40 | sort     | add      | ascending       | Page Title |                                                                         |
+| 41 | sort     | set      |                 | params     |                                                                         |
+| 42 | template | webroot  |                 |            | /Users/hbowie/Sites/notenik-web                                         |
+| 43 | template | open     |                 |            | /Users/hbowie/Sites/notenik-web/templates/reviews-include-template.html |
+| 44 | template | generate |                 |            |                                                                         |
+| 45 | input    | set      |                 | xpltags    | FALSE                                                                   |
+| 46 | input    | set      |                 | dirdepth   | 1                                                                       |
+| 47 | input    | open     | notenik-defined |            | /Users/hbowie/Sites/notenik-web/content                                 |
+| 48 | sort     | clear    |                 |            |                                                                         |
+| 49 | sort     | add      | ascending       | Date       |                                                                         |
+| 50 | sort     | add      | ascending       | Page Title |                                                                         |
+| 51 | sort     | set      |                 | params     |                                                                         |
+| 52 | template | webroot  |                 |            | /Users/hbowie/Sites/notenik-web                                         |
+| 53 | template | open     |                 |            | /Users/hbowie/Sites/notenik-web/templates/content-template.html         |
+| 54 | template | generate |                 |            |                                                                         |
+| 55 | browse   | open     | url             |            | http://localhost/~hbowie/notenik-web/                                   |
+
+Following are notes commenting on the rows above above. 
+
+|  #  | Description |
+| --- | ----------- |
+| #     | This heading row must appear as the first line in the script file (minus the `#` sign, of course.) |
+|  1  | Ensures that the option to explode the tags field is turned off. |
+|  2  | Ensures that subfolders won't be read. |
+|  3  | Opens the input data source as a Notenik Collection. |
+|  4  | Ensures that we have no residual filter parameters. |
+|  5  | Adds a filter parameter requiring that the Type field value is `include`. |
+|  6  | Since this is the only filter parameter needed at this point, we can go ahead and set the filter parameters. |
+|  7  | As with filtering, the first thing we do is to clear any residual sort parameters that might be hanging around. |
+|  8  | We want the output to be sorted in ascending sequence by the Title values. |
+|  9  | Since this is the only sort field needed at this point, we can go ahead and set the sort parameters. |
+| 10  | Now that our data is filtered and sorted the way we want it, we can use a merge template to generate our desired output for this step. The first step is to set the webroot: the path to the top level of the website to be generated. This allows relative links to be generated as needed within the website. |
+| 11  | Next we need to open the merge template we'd like to use. |
+| 12  | And then we generate output using the merge template we just opened. | 
+| 13-54 | These later steps generally repeat the same commands described above. |
+| 39-40 | An example specifying multiple sort fields, and with some in descending sequence, as well as ascending. |
+| 55 | Since this script places its output into my `Sites` folder, and since I have my `Apache` web server up and running, I can see the results in my web browser once the script has completed its work. |
