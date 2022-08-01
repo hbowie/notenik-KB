@@ -1,0 +1,15 @@
+Title:  Version 10.1.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Query Output Window Size and Location Now Restored
+
+The last size and position of the Query Output window will now be saved, and restored the next time the window is used. This window is used to show the results of a query, when using the [[Query Builder]].

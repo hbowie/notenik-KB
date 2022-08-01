@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>System Variables</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+  :root {
+    --background-color: #000000;
+    --text-color: #F0F0F0;
+    --link-color: #93d5ff;
+    --highlight-color: DimGray
+  }
+a {
+    color: var(--link-color);
+}
+.search-results {
+    background-color: var(--highlight-color);
+}
+body { 
+  tab-size: 4; 
+  margin: 1em; 
+  background-color: var(--background-color);
+  color: var(--text-color); 
+font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14pt}
+blockquote { 
+  border-left: 0.4em solid #999;
+  margin-left: 0;
+  padding-left: 1em;
+} 
+figure { 
+  margin-left: 0.2em;
+  padding-left: 0.2em;
+} 
+table, th, td { 
+  border: 2px solid gray; 
+} 
+table { 
+  border-collapse: collapse; 
+} 
+th, td { 
+  padding: 6px; 
+} 
+img { 
+  max-width: 100%; 
+  height: auto; 
+} 
+h1 { font-size: 2.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h2 { font-size: 1.8em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h3 { font-size: 1.6em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h4 { font-size: 1.4em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h5 { font-size: 1.2em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h6 { font-size: 1.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+ul.checklist { list-style-type: none; }
+ul.tags-list { list-style-type: none; }
+ul.tags-cloud { 
+  list-style: none; 
+  padding-left: 0; 
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center; 
+  justify-content: center; 
+  line-height: 2.5rem; 
+} 
+ul.tags-cloud a { 
+  display: block; 
+  font-size: 1.1rem; 
+  font-weight: 600; 
+  text-decoration: none; 
+  position: relative; 
+  border-radius: 15px; 
+  background-color: var(--highlight-color); 
+  padding: 2px 12px 2px 12px; 
+  margin: 10px 10px 10px 10px; 
+  min-width: 40px; 
+  text-aligh: center; 
+} 
+</style>
+<script type="text/javascript"> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script type="text/javascript" id="MathJax-script" async src="file:///Users/hbowie/Library/Developer/Xcode/DerivedData/Notenik-ctzfexvhpuhyyjboiphcmbluggfp/Build/Products/Debug/Notenik.app/Contents/Resources/MathJax/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+
+
+<p>11.2 <a href="https://ntnk.app/mergevariables">Merge Variables</a>&nbsp;&#8593;</p><h4 id="system-variables">11.2.1 System Variables</h4>
+<p>The following special variables are predefined and available for substitution, no matter what data source is being used. </p>
+
+<dl>
+<dt>datafilename </dt>
+<dd>The name of the data source being used. </dd>
+
+<dt>dataparent </dt>
+<dd>The path to the enclosing folder for the current data file. This can be used as part of an output command to specify an output file in the same folder as the data file. </dd>
+
+<dt>exportpath </dt>
+<dd>When the script is being run from the Export menu, this variable will contain the path to the folder selected by the user. See <a href="https://ntnk.app/exportusingscript">Export Using Script</a> for additional details. </dd>
+
+<dt>nobr </dt>
+<dd>Placing the variable &#8216;nobr&#8217; anywhere on a line will cause that line to be written out without a trailing line break. The nobr variable itself will be removed from the line, without being replaced. </dd>
+
+<dt>parentfolder </dt>
+<dd>The lowest-level folder immediately enclosing the data file. </dd>
+
+<dt>relative </dt>
+<dd>If a Web Root directory has been specified, then this variable will be replaced by the relative path from the output file being created back to the root directory. </dd>
+
+<dt>templatefilename </dt>
+<dd>The name of the template file (not including the path to the template file). </dd>
+
+<dt>templateparent </dt>
+<dd>The entire parent path to the template file, excluding the file name itself. </dd>
+
+<dt>today </dt>
+<dd>The current date, at the time that template output is being generated. </dd>
+</dl>
+
+
+<hr />
+<p>Next: <a href="https://ntnk.app/variablemodifiers">Variable Modifiers</a></p></body>
+</html>
