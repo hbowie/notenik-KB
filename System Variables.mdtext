@@ -18,6 +18,9 @@ datafilename
 dataparent
 : The path to the enclosing folder for the current data file. This can be used as part of an output command to specify an output file in the same folder as the data file.
 
+displaycss
+:  The default CSS used within Notenik for this Collection. This system variable can be placed in the `head` section of an HTML page, or copied into a stand-alone CSS file. 
+
 exportpath
 : When the script is being run from the Export menu, this variable will contain the path to the folder selected by the user. See [[Export Using Script]] for additional details. 
 

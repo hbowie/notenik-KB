@@ -13,3 +13,15 @@ Body:
 ##### Query Output Window Size and Location Now Restored
 
 The last size and position of the Query Output window will now be saved, and restored the next time the window is used. This window is used to show the results of a query, when using the [[Query Builder]].
+
+##### New Merge Variable for Default CSS
+
+The new [[Merge Templates]] [[System Variable]] `display-css` can be used to embed the CSS used within Notenik to style the Display tab. This new system variable might be used to populate the style section within the head of an HTML template, or might be used to populate a stand-alone CSS file.
+
+##### Added ifnew Option for Output Merge Command
+
+An optional second operand to the [[output command]] may now be provided. If this operand is the literal `ifnew`, then the designated output from the [[Merge Template]] will only be written if the file is new (if it doesn't already exist). 
+
+##### Added BBEdit Project Files to Parent Realm Collections
+
+[BBEdit Project Files](https://www.barebones.com/products/bbedit/benefitscommand.html) will now be included as launchable items when viewing a [[parent realm]]. The titles displayed for the items in a parent realm have also been simplified, and now only show the folder / file name. 
