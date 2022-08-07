@@ -20,8 +20,16 @@ The new [[Merge Templates]] [[System Variable]] `display-css` can be used to emb
 
 ##### Added ifnew Option for Output Merge Command
 
-An optional second operand to the [[output command]] may now be provided. If this operand is the literal `ifnew`, then the designated output from the [[Merge Template]] will only be written if the file is new (if it doesn't already exist). 
+An optional second operand to the [[output command]] may now be provided. If this operand is the literal `ifnew`, then the designated output from the [[Merge Template]] will only be written if the file is new (if it doesn't already exist). This could be used, for example, in conjunction with the new `display-css` Merge Variable, to create a new CSS file if one does not already exist, but to avoid overwriting one that does exist. 
 
 ##### Added BBEdit Project Files to Parent Realm Collections
 
-[BBEdit Project Files](https://www.barebones.com/products/bbedit/benefitscommand.html) will now be included as launchable items when viewing a [[parent realm]]. The titles displayed for the items in a parent realm have also been simplified, and now only show the folder / file name. 
+[BBEdit Project Files](https://www.barebones.com/products/bbedit/benefitscommand.html) will now be included as launchable items when viewing a [[parent realm]]. The titles displayed for the items in a parent realm have also been simplified, and now only show the folder / file name.
+
+##### Deleted Notes now Moved to Trash
+
+Deleted Notes are now moved to the Trash, instead of being permanently deleted. 
+
+##### Modified Notes No Longer Generate Deletes and Adds
+
+Notenik had previously been implementing a Note modification by first deleting the Note, and then adding it. This logic has been changed to avoid deleting the Note before rewriting it, and to rename the file when the generated file name changes. 
