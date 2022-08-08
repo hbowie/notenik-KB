@@ -32,4 +32,8 @@ Deleted Notes are now moved to the Trash, instead of being permanently deleted.
 
 ##### Modified Notes No Longer Generate Deletes and Adds
 
-Notenik had previously been implementing a Note modification by first deleting the Note, and then adding it. This logic has been changed to avoid deleting the Note before rewriting it, and to rename the file when the generated file name changes. 
+Notenik had previously been implementing a Note modification by first deleting the Note, and then adding it. This logic has been changed to avoid deleting the Note before rewriting it, and to rename the file when the generated file name changes.
+
+##### Now Possible to Delete a Range of Notes
+
+A contiguous range of Notes may now be deleted from a Collection in one fell swoop. First, select the range of Notes on the List tab, by clicking on the first Note, then shift-clicking on the last Note. Then right-click on one of the Notes in the range to bring up the Contextual menu. Then select the **Delete Range** option. You will always see a Confirmation Dialog before the Notes are deleted (whether or not this App Pref is set for the normal single-Note deletion). Click OK if everything looks good, and the entire range of Notes will be removed from the Collection, and the corresponding Note files will be moved to the Trash.  
