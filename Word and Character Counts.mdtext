@@ -17,6 +17,7 @@ Beneath the Note menu there is an option to Show Counts. If you are using the No
 * Number of Words -- The number of words contained in the Body field. 
 * The number of text characters (excluding spaces and punctuation) contained in the Body field. 
 * The average length of each word, calculated by dividing the Number of Text Characters by the Number of Words. 
+* Minutes to Read, calculated by dividing the number of words by 225. 
 
 Counts are only available if you are using the Notenik Markdown parser. 
 

@@ -35,3 +35,5 @@ In the normal tags outline, all untagged Notes appear at the top of the outline.
 ```
 
 This command works particularly well for multi-level tags. If your Collection uses only single-level [[tags]], then it may be better to [[Generate a Tags Cloud]].
+
+Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place. 

@@ -45,3 +45,6 @@ The following would be excluded:
 * Level 1 Headings,
 * Level 4 - 6 Headings,
 * Any Level 2 - 3 Headings *preceding* the `toc` line.
+
+Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w2`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place. 
+

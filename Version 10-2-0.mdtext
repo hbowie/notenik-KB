@@ -1,0 +1,43 @@
+Title:  Version 10.2.0
+
+Tags:   levels-outline.14 Version History.1 Version 1020
+
+Timestamp: 20220816134841
+
+Seq:    14.1
+
+Date:   21 Aug 2022
+
+Level:  3 - Section
+
+Teaser:
+
+The 'summarize' variable modifier now recognizes a semicolon, as well as a period, as an acceptable ending character for a generated summary; a missing reference link definition (which can happen when generating a summary) no longer results in the generation of a broken HTML link; some possible problems formatting wiki-style links during merge template processing have been corrected; corrected a problem that would sometimes show spurious duplicates on the List tab after a Note upedate; fixed a problem that would sometimes occur in the Markdown parser when encountering hard line breaks within a paragraph; changed the 'Minutes to Read' field to calculate based on 225 words per minute, instead of 200; made 'Minutes to Read' availabe in the Counts window. 
+
+Class:  version
+
+Body:
+
+##### Summarize Variable Modifier Now Recognizes Semicolons
+
+When applying the [[Summarize Mod]], Notenik will now accept either a semicolon or a period as a legitimate stopping point for a summary.
+
+##### Missing Ref Link Defs No Longer Generate Bad HTML
+
+If the Notenik Markdown parser finds a reference link that is missing its corresponding definition, then Notenik will now skip generation of the anchor element altogether, to avoid any possible confusion for a browser. 
+
+##### Wiki-Style Links Now Applied More Effectively
+
+When using the [[Wiki-Style Links Mod]] to request generation of HTML file names (option '1'), this option is now more effectively being applied. (In other words, there were some cases previously where it might not work, and now it does.)
+
+##### Minor List Bug Resolved
+
+Fixed a bug that sometimes would show a duplicate entry on the List tab after an update.
+
+##### Fixed Bug with Hard Line Breaks within Paragraphs
+
+I had a problem that would cause the beginning of one line to run up against the end of the prior line, without any intervening space. I believe this has been fixed.
+
+##### Changes to Minutes to Read Value
+
+Modified the [[Minutes to Read]] field to calculate its value based on a reading speed of 225 words per minute, instead of 200. Also modified the [[Word and Character Counts]] function to include `Minutes to Read`, based on the new number.

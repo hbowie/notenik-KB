@@ -12,5 +12,9 @@ Level:  4 - Subsection
 
 Body:
 
-The letter "S" will pull the first few sentences from the field, within the first 250 characters. Specifying a number immediately following the "S" will override the default of 250 with the specified number. 
+The letter "S" will pull the first few sentences from the field, within the first 250 characters. Specifying a number immediately following the "S" will override the default of 250 with the specified number. For the purposes of this operation, Notenik will recognize either a period or a semi-colon as the end of a sentence. 
+
+If a conversion from Markdown to HTML is also needed, then the Summarize mod is best applied before the [[Markdown to HTML]] mod. 
+
+Note that, if you are using [Reference-style Links](https://www.markdownguide.org/basic-syntax/#reference-style-links), and if you are placing the link definitions later in your text, then those definitions may be unavailable following a Summarize operation. In this case the reference links will be effectively ignored when the HTML is generated (which is often what you would like anyway, when Summarizing some text to be used as a teaser on an index page). 
 

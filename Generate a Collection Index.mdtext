@@ -25,3 +25,5 @@ The generated index will be in the form of a [Definition List](https://developer
 When using the [[Generate Web Book]] feature, this Markdown extension can be used to generate a Web page visible in any Web browser, as part of the generated web book. 
 
 See this Collection's [[Index to the Knowledge Base]] for an example.
+
+Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place.

@@ -25,3 +25,5 @@ The generated cloud will use an [unordered list](https://developer.mozilla.org/e
 Untagged Notes will not appear within the generated display.
 
 If your Collection uses multi-level [[tags]], then it may be better to [[Generate a Tags Outline]]. The Tags Cloud works well for single-level tags.
+
+Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place. 
