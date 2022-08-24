@@ -1,0 +1,15 @@
+Title:  Version 10.3.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Add Parent Realm Info File to Restore Window Size and Location
+
+When you close a [[parent realm]] window, Notenik will now save a file in the parent folder, with the name of `- INFO-parent-realm.nnk`. The file will contain the window size and location so that the next time that parent realm folder is opened, the window can be restored to its prior configuration. 

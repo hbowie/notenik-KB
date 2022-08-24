@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Open Parent Realm</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+:root {
+    color-scheme: light dark;
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --link-color: Blue;
+    --highlight-color: Gainsboro
+}
+@media screen and (prefers-color-scheme: dark) { 
+  :root {
+    --background-color: #000000;
+    --text-color: #F0F0F0;
+    --link-color: #93d5ff;
+    --highlight-color: DimGray
+  }
+}
+a {
+    color: var(--link-color);
+}
+.search-results {
+    background-color: var(--highlight-color);
+}
+body { 
+  tab-size: 4; 
+  margin: 1em; 
+  background-color: var(--background-color);
+  color: var(--text-color); 
+font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14pt}
+blockquote { 
+  border-left: 0.4em solid #999;
+  margin-left: 0;
+  padding-left: 1em;
+} 
+figure { 
+  margin-left: 0.2em;
+  padding-left: 0.2em;
+} 
+table, th, td { 
+  border: 2px solid gray; 
+} 
+table { 
+  border-collapse: collapse; 
+} 
+th, td { 
+  padding: 6px; 
+} 
+img { 
+  max-width: 100%; 
+  height: auto; 
+} 
+h1 { font-size: 2.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h2 { font-size: 1.8em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h3 { font-size: 1.6em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h4 { font-size: 1.4em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h5 { font-size: 1.2em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+h6 { font-size: 1.0em; margin-top: 0.7em; margin-bottom: 0.0em; font-weight: 600; font-style: normal;  }
+ul.checklist { list-style-type: none; }
+ul.tags-list { list-style-type: none; }
+ul.tags-cloud { 
+  list-style: none; 
+  padding-left: 0; 
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center; 
+  justify-content: center; 
+  line-height: 2.5rem; 
+} 
+ul.tags-cloud a { 
+  display: block; 
+  font-size: 1.1rem; 
+  font-weight: 600; 
+  text-decoration: none; 
+  position: relative; 
+  border-radius: 15px; 
+  background-color: var(--highlight-color); 
+  padding: 2px 12px 2px 12px; 
+  margin: 10px 10px 10px 10px; 
+  min-width: 40px; 
+  text-align: center; 
+} 
+</style>
+<script type="text/javascript"> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script type="text/javascript" id="MathJax-script" async src="file:///Users/hbowie/Library/Developer/Xcode/DerivedData/Notenik-ctzfexvhpuhyyjboiphcmbluggfp/Build/Products/Debug/Notenik.app/Contents/Resources/MathJax/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+
+
+<p>7.6 <a href="https://ntnk.app/managingabunchofcollections">Managing a Bunch of Collections</a>&nbsp;&#8593;</p><h4 id="open-parent-realm">7.6.1 Open Parent Realm</h4>
+<p><em>aka: parent realm</em></p><p>In addition to the normal <strong>Open</strong> and <strong>Open Recent</strong> commands beneath the <strong>File</strong> menu, Notenik also has an <strong>Open Parent Realm</strong> command. </p>
+
+<p>You may invoke this command to select a folder containing one or more items that Notenik can open individually. Subfolders avoiding certain common names (<code>css</code>, <code>files</code>, <code>fonts</code>, etc.) will also be scanned for eligible items. </p>
+
+<p>Notenik will then construct a pseudo-Collection from these items, and present it to the user. The Collection will be in read-only mode, but can be used to open / launch any of the items appearing on the list. </p>
+
+<p>The following types of items will be listed in a Parent Realm Pseudo-Collection: </p>
+
+<ul>
+<li>Notenik <a href="https://ntnk.app/collectionfolders">Collection Folders</a> </li>
+<li>Notenik <a href="https://ntnk.app/scriptfiles">Script Files</a> (with file extensions of <code>.tcz</code>) </li>
+<li><a href="https://www.barebones.com/products/bbedit/benefitscommand.html">BBEdit Project Files</a> </li>
+</ul>
+
+<p>Note that the Tags tab will organize these Collections and Scripts by folder, and also by item type. </p>
+
+<p>Note also that Notenik will store a file in the parent realm folder named &#8216;<code>- INFO-parent-realm.nnk</code>&#8217;, in order to preserve metadata about the pseudo-collection. </p>
+
+<hr />
+<p>Next: <a href="https://ntnk.app/navigateyourcollectionsviatheboard">Navigate Your Collections via the Board</a></p></body>
+</html>

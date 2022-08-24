@@ -4,7 +4,7 @@ Tags:   levels-outline.14 Version History.1 Version 1020
 
 Timestamp: 20220816134841
 
-Seq:    14.1
+Seq:    14.2
 
 Date:   21 Aug 2022
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 The 'summarize' variable modifier now recognizes a semicolon, as well as a period, as an acceptable ending character for a generated summary; a missing reference link definition (which can happen when generating a summary) no longer results in the generation of a broken HTML link; some possible problems formatting wiki-style links during merge template processing have been corrected; corrected a problem that would sometimes show spurious duplicates on the List tab after a Note upedate; fixed a problem that would sometimes occur in the Markdown parser when encountering hard line breaks within a paragraph; changed the 'Minutes to Read' field to calculate based on 225 words per minute, instead of 200; made 'Minutes to Read' availabe in the Counts window. 
+
 
 Class:  version
 
