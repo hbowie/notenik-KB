@@ -1,0 +1,43 @@
+Title:  Linked Tags - Z
+
+Timestamp: 20220904231122
+
+Seq:    11.3.35
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+This modifier is similar to [[Linked Tags - G]], but works slightly differently. 
+
+[[Linked Tags - G]] works well when each tag will have a separate page listing posts/notes containing that tag. 
+
+Linked Tags - Z works best when each tag will have a separate section within a single shared page. 
+
+As with [[Linked Tags - G]], this modifier takes a [[Tags]] field, and then breaks it down into its constituent tags, creating an HTML hyperlink (using the Anchor tag) for each separate tag within the field. 
+
+One to three strings may be specified after the 'z' variable modifier, separated as needed by semicolons. 
+
+1. The first string will be prepended to each tag value, within the generated `href` attribute. 
+
+2. The second string will be appended to each tag value, within the generated `href` attribute. 
+
+3. The third string can be used to supply an optional class value to be used within the generated anchor tags. 
+
+Here's an example of how this variable modifier might be used. 
+
+Let's suppose we have a post/note with a tags field containing '`god, religion`'. 
+
+Now, let's suppose we have the following variable within a [[Merge Template]].
+
+	=$tags&ztopics.html#tags.;;;$=
+
+When the tempate is generated, it would result in the following HTML:
+
+	<a href='topics.html#tags.god' rel='tag'>god</a>, <a href='topics.html#tags.religion' rel='tag'>religion</a>
+
+Then, when the tags are clicked within the resulting web page, the links will take the user to the appropriate section for each tag within the '`topics.html`' page. 
+
+

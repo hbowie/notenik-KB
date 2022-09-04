@@ -12,4 +12,14 @@ Body:
 
 ##### Add Parent Realm Info File to Restore Window Size and Location
 
-When you close a [[parent realm]] window, Notenik will now save a file in the parent folder, with the name of `- INFO-parent-realm.nnk`. The file will contain the window size and location so that the next time that parent realm folder is opened, the window can be restored to its prior configuration. 
+When you close a [[parent realm]] window, Notenik will now save a file in the parent folder, with the name of `- INFO-parent-realm.nnk`. The file will contain the window size and location so that the next time that parent realm folder is opened, the window can be restored to its prior configuration.
+
+##### Add `svg` to List of Valid Image Name File Extensions
+
+When using the [[Image Name]] field, files with an extension of `svg` will now be treated as potential image files.
+
+##### Add Variable Modifier of 'Z'
+
+The new [[Linked Tags - Z]] variable modifier provides an alternate way of generating an HTML link for each tag found within the variable. 
+
+
