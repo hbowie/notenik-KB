@@ -25,3 +25,5 @@ Where:
 + `tags` is the variable name;
 + `tags/` is the path, starting from the web root;
 + `btn btn-secondary mx-1 pr-topic` are classes to be applied to each link (`<a `) HTML tag.
+
+Also see [[Linked Tags - Z]]. 

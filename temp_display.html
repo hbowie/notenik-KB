@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Open Parent Realm</title>
+<title>Wiki Links Between Collections</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 :root {
@@ -99,25 +99,21 @@ window.MathJax = {
 <body>
 
 
-<p>7.6 <a href="https://ntnk.app/managingabunchofcollections">Managing a Bunch of Collections</a>&nbsp;&#8593;</p><h4 id="open-parent-realm">7.6.1 Open Parent Realm</h4>
-<p><em>aka: parent realm</em></p><p>In addition to the normal <strong>Open</strong> and <strong>Open Recent</strong> commands beneath the <strong>File</strong> menu, Notenik also has an <strong>Open Parent Realm</strong> command. </p>
+<p>9.2 <a href="https://ntnk.app/notenikmarkdownparser">Notenik Markdown Parser</a>&nbsp;&#8593;</p><h4 id="wiki-links-between-collections">9.2.4 Wiki Links Between Collections</h4>
+<p>In addition to <a href="https://ntnk.app/wikistylelinks">Wiki Style Links</a> <em>within</em> a Collection, the Notenik Markdown parser now supports Wiki links <em>between</em> Collections. </p>
 
-<p>You may invoke this command to select a folder containing one or more items that Notenik can open individually. Subfolders avoiding certain common names (<code>css</code>, <code>files</code>, <code>fonts</code>, etc.) will also be scanned for eligible items. </p>
+<p>In order to link to a Note in another Collection, prefix the usual Note Title with a Collection identifier, followed by a forward slash, as in the following example, where <code>authors</code> is a Collection identifier: </p>
 
-<p>Notenik will then construct a pseudo-Collection from these items, and present it to the user. The Collection will be in read-only mode, but can be used to open / launch any of the items appearing on the list. </p>
+<pre><code>
+Author: [[authors/Abraham Lincoln]]
+</code></pre>
 
-<p>The following types of items will be listed in a Parent Realm Pseudo-Collection: </p>
+<p>The Collection identifier can be a <a href="https://ntnk.app/tailorcollectionpreferences">collection shortcut</a>, or it can simply be the name of the folder containing the Collection. If you are simply using a folder name, then it&#8217;s best to make the folder name lowercase, without any spaces. </p>
 
-<ul>
-<li>Notenik <a href="https://ntnk.app/collectionfolders">Collection Folders</a> </li>
-<li>Notenik <a href="https://ntnk.app/scriptfiles">Script Files</a> (with file extensions of <code>.tcz</code>) </li>
-<li><a href="https://www.barebones.com/products/bbedit/benefitscommand.html">BBEdit Project Files</a> </li>
-</ul>
+<p>To ensure that a related Collection is accessible for wiki links between Collections, it&#8217;s best to place all related Collections within the same <a href="https://ntnk.app/openparentrealm">parent realm</a>, and to open the parent realm before opening any of the Collections. </p>
 
-<p>Note that the Tags tab will organize these Collections and Scripts by folder, and also by item type. </p>
-
-<p>Note also that Notenik will store a file in the parent realm folder named &#8216;<code>- INFO-parent-realm.nnk</code>&#8217;, in order to preserve metadata about the pseudo-collection. </p>
+<p>Note that each Collection will be opened in its own window, as is usual for Notenik. </p>
 
 <hr />
-<p>Next: <a href="https://ntnk.app/navigateyourcollectionsviatheboard">Navigate Your Collections via the Board</a></p></body>
+<p>Next: <a href="https://ntnk.app/headingautonumbering">Heading auto-numbering</a></p></body>
 </html>

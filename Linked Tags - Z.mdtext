@@ -1,5 +1,7 @@
 Title:  Linked Tags - Z
 
+Tags:   levels-outline.11 Merge Templates.3 Variable Modifiers.35 Linked Tags - Z
+
 Timestamp: 20220904231122
 
 Seq:    11.3.35
@@ -38,6 +40,4 @@ When the tempate is generated, it would result in the following HTML:
 
 	<a href='topics.html#tags.god' rel='tag'>god</a>, <a href='topics.html#tags.religion' rel='tag'>religion</a>
 
-Then, when the tags are clicked within the resulting web page, the links will take the user to the appropriate section for each tag within the '`topics.html`' page. 
-
-
+Then, when the tags are clicked within the resulting web page, the links will take the user to the appropriate section for each tag within the '`topics.html`' page.

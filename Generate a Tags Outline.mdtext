@@ -1,10 +1,10 @@
 Title:  Generate a Tags Outline
 
-Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.17 Generate a Tags Outline
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.18 Generate a Tags Outline
 
 Timestamp: 20210713175624
 
-Seq:    9.2.17
+Seq:    9.2.18
 
 Level:  4 - Subsection
 
@@ -36,4 +36,4 @@ In the normal tags outline, all untagged Notes appear at the top of the outline.
 
 This command works particularly well for multi-level tags. If your Collection uses only single-level [[tags]], then it may be better to [[Generate a Tags Cloud]].
 
-Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place. 
+Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place.

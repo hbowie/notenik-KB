@@ -1,0 +1,27 @@
+Title:  Wiki Links Between Collections
+
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.4 Wiki Links Between Collections
+
+Timestamp: 20220908213710
+
+Seq:    9.2.4
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+In addition to [[Wiki Style Links]] *within* a Collection, the Notenik Markdown parser now supports Wiki links *between* Collections. 
+
+In order to link to a Note in another Collection, prefix the usual Note Title with a Collection identifier, followed by a forward slash, as in the following example, where `authors` is a Collection identifier:
+
+```
+Author: [[authors/Abraham Lincoln]]
+```
+
+The Collection identifier can be a [[collection shortcut]], or it can simply be the name of the folder containing the Collection. If you are simply using a folder name, then it's best to make the folder name lowercase, without any spaces. 
+
+To ensure that a related Collection is accessible for wiki links between Collections, it's best to place all related Collections within the same [[parent realm]], and to open the parent realm before opening any of the Collections. 
+
+Note that each Collection will be opened in its own window, as is usual for Notenik.

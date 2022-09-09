@@ -1,14 +1,26 @@
 Title:  Version 10.3.0
 
+Tags:   levels-outline.14 Version History.1 Version 1030
+
 Timestamp: 20211116184349
 
 Seq:    14.1
 
+Date:   09 Sep 2022
+
 Level:  3 - Section
+
+Teaser:
+
+Added support for wikilinks between Collections; parent realm window size and position are now retained and restored, where possible; files with extensions of '.svg' are now recognized as valid image files; a new merge template variable modifier of 'Z' adds a new option for adding links to tags; fixed a potential problem with citation numbering. 
 
 Class:  version
 
 Body:
+
+##### Add Support for Wiki Links Between Collections
+
+[[Wiki Links Between Collections]] are now supported. 
 
 ##### Add Parent Realm Info File to Restore Window Size and Location
 
@@ -20,6 +32,8 @@ When using the [[Image Name]] field, files with an extension of `svg` will now b
 
 ##### Add Variable Modifier of 'Z'
 
-The new [[Linked Tags - Z]] variable modifier provides an alternate way of generating an HTML link for each tag found within the variable. 
+The new [[Linked Tags - Z]] variable modifier provides an alternate way of generating an HTML link for each tag found within the variable.
 
+##### Fixed Citation Numbering
 
+Corrected a minor numbering problem that could affect [[Citations]]. If you included a citation definition that had no referencing citation, then it would appear in the Citations section, but throw off the numbering of the citations. With this fix, such a citation simply will not appear in the list.
