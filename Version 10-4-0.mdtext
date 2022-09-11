@@ -1,0 +1,15 @@
+Title:  Version 10.4.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added a Table of Contents to a Generated Collection Index
+
+Added a one-line table of contents to the [[Generate a Collection Index]] Markdown command, providing an introductory line containing the starting letters of all terms appearing in the index, allowing the reader to click on a letter to be taken to that section of the generated index. 
