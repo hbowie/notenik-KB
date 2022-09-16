@@ -21,6 +21,7 @@ Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], y
 | `{:collection-toc:2-3}` | *[[Generate a Collection Table of Contents]]* |
 | `{:include:another-file.txt}` | *[[Include a Note or File]]* |
 | `{:index}` | *[[Generate a Collection Index]]* |
+| `{:search}` | *[[Generate a Collection Search Page]]* |
 | `{:tags-cloud}` | *[[Generate a Tags Cloud]]* |
 | `{:tags-outline}` | *[[Generate a Tags Outline]]* |
 | `{:teasers}` | *[[Display Teasers]]* | 

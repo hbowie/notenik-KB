@@ -1,0 +1,31 @@
+Title:  Collection Navigation Commands
+
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.15 Collection Navigation Commands
+
+Timestamp: 20220916192827
+
+Seq:    9.2.15
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The following commands can be used to provide navigation throughout a Collection. 
+
+When using Notenik to turn a Collection into a website (as with the [[Export as Web Book]] functionality), these commands can be used to create pages facilitating navigation through the entire site. 
+
+A note on performance: when Notenik displays a Note containing one of these commands, the app dynamically runs through the entire Collection in order to create the resulting HTML used to generate the view seen on the Display tab. This can take a while, especially for a large Collection, so don't be surprised if a page like this takes a bit longer to load than a normal Note would. 
+
+When a Collection is turned into a website, then this Notenik performance hit will be taken when the output HTML is generated, and not when the resulting page is loaded into a web browser. 
+
+On the other hand, if the command results in the generation of a large web page (as is especially true for the `search` command), then some delays can also be expected when loadint the output web page into a browser. 
+
+| Syntax | Function |
+| --------- | ------------ |
+| `{:collection-toc:2-3}` | *[[Generate a Collection Table of Contents]]* |
+| `{:index}` | *[[Generate a Collection Index]]* |
+| `{:search}` | *[[Generate a Collection Search Page]]* |
+| `{:tags-cloud}` | *[[Generate a Tags Cloud]]* |
+| `{:tags-outline}` | *[[Generate a Tags Outline]]* |

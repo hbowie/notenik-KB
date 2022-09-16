@@ -1,5 +1,7 @@
 Title:  Version 10.4.0
 
+Tags:   levels-outline.14 Version History.1 Version 1040
+
 Timestamp: 20211116184349
 
 Seq:    14.1
@@ -12,4 +14,8 @@ Body:
 
 ##### Added a Table of Contents to a Generated Collection Index
 
-Added a one-line table of contents to the [[Generate a Collection Index]] Markdown command, providing an introductory line containing the starting letters of all terms appearing in the index, allowing the reader to click on a letter to be taken to that section of the generated index. 
+Added a one-line table of contents to the [[Generate a Collection Index]] Markdown command, providing an introductory line containing the starting letters of all terms appearing in the index, allowing the reader to click on a letter to be taken to that section of the generated index.
+
+##### Added Markdown Command to Create a Search Page
+
+Added a new Markdown command to [[Generate a Collection Search Page]], using embedded JavaScript as well as HTML.
