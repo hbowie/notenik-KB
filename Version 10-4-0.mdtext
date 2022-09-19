@@ -6,7 +6,13 @@ Timestamp: 20211116184349
 
 Seq:    14.1
 
+Date:   19 Sep 2022
+
 Level:  3 - Section
+
+Teaser:
+
+Added a Move option (as opposed to a Copy) when adding file attachments; added a new Markdown command to create a site search page; added a one-line table of contents (based on initial letter) for a Collection Index, allowing user to click on a letter to see terms beginning with that letter; made some changes to the way window size and coordinate adjustments are made when opening a Collection. 
 
 Class:  version
 
@@ -19,3 +25,11 @@ Added a one-line table of contents to the [[Generate a Collection Index]] Markdo
 ##### Added Markdown Command to Create a Search Page
 
 Added a new Markdown command to [[Generate a Collection Search Page]], using embedded JavaScript as well as HTML.
+
+##### Added a Move Option for File Attachments
+
+When creating [[File Attachments]], the user now has the option to move the file (thus preserving its identity) rather than copying it. 
+
+##### Fixed Some Window Resizing Adjustments
+
+When resizing a window to fit onto a different display, some of the adjustments being made were a bit off kilter. The adjustments have been adjusted.
