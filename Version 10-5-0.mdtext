@@ -1,0 +1,23 @@
+Title:  Version 10.5.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Wiki Links Will Look for Singular Variation
+
+[[Wiki Style Links]] will now look for a singular version of the link text, if the text ends with the letter 's'.
+
+##### Slight Variations in AKA Values Suppressed 
+
+Notenik will sometimes show AKA values in a list of contents, if there is room. Notenik will now try to suppress AKA values that only represent slight variations in the Note's title. 
+
+##### Duplicate Parent Realm Windows No Longer Opened
+
+In general, if a user tries to open a Collection that is already open, Notenik will simply take the user to the existing window, rather than opening another copy of the Collection. This was not being done for [[Parent Realm]] Collections, though. Now, when a user tries to open a duplicate Parent Realm window, Notenik will close the currently open window, and then reload the Parent Realm into a new window, in the same location. 
