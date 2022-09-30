@@ -20,4 +20,12 @@ Notenik will sometimes show AKA values in a list of contents, if there is room. 
 
 ##### Duplicate Parent Realm Windows No Longer Opened
 
-In general, if a user tries to open a Collection that is already open, Notenik will simply take the user to the existing window, rather than opening another copy of the Collection. This was not being done for [[Parent Realm]] Collections, though. Now, when a user tries to open a duplicate Parent Realm window, Notenik will close the currently open window, and then reload the Parent Realm into a new window, in the same location. 
+In general, if a user tries to open a Collection that is already open, Notenik will simply take the user to the existing window, rather than opening another copy of the Collection. This was not being done for [[Parent Realm]] Collections, though. Now, when a user tries to open a duplicate Parent Realm window, Notenik will close the currently open window, and then reload the Parent Realm into a new window, in the same location.
+
+##### Added Prep for JSON Variable Modifier
+
+Added a new [[Merge Template]] [[Variable Modifier]] to [[Prep for JSON]], preparing a variable to be stored using JSON. 
+
+##### Added Work Rights Field Labels
+
+Added new field labels for [[Work RIghts]], [[Work Rights Holder]] and [[Work Rights Slug]].

@@ -1,0 +1,25 @@
+Title:  Prep for JSON
+
+Timestamp: 20220929165710
+
+Seq:    11.3.36
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+Use a backslash to indicate that the variable value is to prepared for JSON storage by escaping embedded backslashes and removing line breaks. 
+
+Note that this can be combined with other variable modifiers in useful ways. 
+
+For example:
+
+```
+=$body&so\$=
+```
+
+The line above would first use the [[Summarize mod]] to extract a meaningful summary from the beginning of the body field, then use the [[Markdown to HTML]] mod to convert the summary to HTML, and then use the Prep for JSON mod to prepare the HTML for storage using JSON notation. 
+
+This modifier can be helpful when generating JavaScript code. 

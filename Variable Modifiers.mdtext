@@ -20,6 +20,8 @@ The following table summarizes the primary use of various letters and characters
 | --- | ------- |
 | ' | [[Email Apostrophes]] | 
 | , | [[List Punctuation]] | 
+| _ | [[Underscore]] | 
+| \\ | [[Prep for JSON]] |
 | 1 | [[Length Modifier]] | 
 | A | [[Author Name Modifier]] | 
 | B | [[Base File Name]] | 
@@ -46,7 +48,6 @@ The following table summarizes the primary use of various letters and characters
 | W | [[Wiki-Style Links Mod]] | 
 | X | [[XML Mod]] | 
 | Z | [[Linked Tags - Z]] |
-| _ | [[Underscore]] | 
 | a | [[AM/PM Mod]] | 
 | y | [[Year Mod]] | 
 | dd | [[Day of Month Mod]] | 
