@@ -29,3 +29,8 @@ Added a new [[Merge Template]] [[Variable Modifier]] to [[Prep for JSON]], prepa
 ##### Added Work Rights Field Labels
 
 Added new field labels for [[Work RIghts]], [[Work Rights Holder]] and [[Work Rights Slug]].
+
+##### Added a Command to Forget All Shortcuts
+
+Added a command beneath the File menu to [[Forget All Shortcuts]].
+
