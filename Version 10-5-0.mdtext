@@ -34,3 +34,6 @@ Added new field labels for [[Work RIghts]], [[Work Rights Holder]] and [[Work Ri
 
 Added a command beneath the File menu to [[Forget All Shortcuts]].
 
+##### Expanded Page Type Field for Index Generation
+
+When specifying the [[Input Module Parameters]] for a [[Script File]], and specifying a modifier value of `notenik-index`, the population of the `Page Type` field has been expanded to optionally include a [[Class]] field value, if no [[Type]] field is present, and to include the folder name of the Collection, if neither Type nor Class is available. 

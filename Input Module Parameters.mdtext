@@ -49,7 +49,7 @@ The following modifier values are valid:
 	- Lower Case Term - The same index term, but converted to lowercase.
 	- Term Link - A definitive link that has been supplied for this term. 
 	- Page - The Title of the Note containing this index term. 
-	- Page Type - The Type of the Note containing this index term. 
+	- Page Type - The Type of the Note containing this index term. If the Collection has a field named `Type`, then the contents of this field will be used; if no such field exists, then a `Class` field will be used, if one exists for the Collection; if neither of these fields are present, then the name of the folder containing the Collection will be used. 
 	- Anchor - 
 
 * notenik-split-tags - Reads a Notenik Collection, adds a "Tag" field, and returns one row for each tag (or one row with a blank tag, for Notes with no tags). 
