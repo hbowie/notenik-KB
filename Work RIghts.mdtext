@@ -2,7 +2,7 @@ Title:  Work RIghts
 
 Timestamp: 20220929171740
 
-Seq:    10.9.8
+Seq:    10.9.9
 
 Level:  4 - Subsection
 
@@ -12,4 +12,4 @@ Body:
 
 A field label of `Work Rights` can be used to identify what sort of rights have been asserted for a creative work (book, song, essay, etc.) being referenced by the Note.
 
-This field would often be set to a value of `Copyright` in order to indicate that someone holds such a right to a referenced work. 
+This field would often be set to a value of `Copyright` in order to indicate that someone holds such a right to a referenced work.

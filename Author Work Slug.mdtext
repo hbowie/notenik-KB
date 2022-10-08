@@ -1,0 +1,18 @@
+Title:  Author Work Slug
+
+Timestamp: 20221008025603
+
+Seq:    10.9.4
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+When the [[Author]] and associated fields are available for a Collection, then a special variable name of `author-work-slug` can be used in a [[Merge Template]] in order to obtain a nicely formatted line identifying the author, the type of work, the work title, and the date of the work, with links for author and work title. 
+
+The slug will use whatever fields are available, skipping any fields that are missing, while still creating a nicely formatted line. 
+
+The output will include HTML tags, but will not be enclosed in any paragraph or other block tags. 
+

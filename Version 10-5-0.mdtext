@@ -30,10 +30,14 @@ Added a new [[Merge Template]] [[Variable Modifier]] to [[Prep for JSON]], prepa
 
 Added new field labels for [[Work RIghts]], [[Work Rights Holder]] and [[Work Rights Slug]].
 
+##### Added Author Work Slug 
+
+Added [[Author Work Slug]] as a special variable that can be used in a merge template. 
+
 ##### Added a Command to Forget All Shortcuts
 
 Added a command beneath the File menu to [[Forget All Shortcuts]].
 
 ##### Expanded Page Type Field for Index Generation
 
-When specifying the [[Input Module Parameters]] for a [[Script File]], and specifying a modifier value of `notenik-index`, the population of the `Page Type` field has been expanded to optionally include a [[Class]] field value, if no [[Type]] field is present, and to include the folder name of the Collection, if neither Type nor Class is available. 
+When specifying the [[Input Module Parameters]] for a [[Script File]], and specifying a modifier value of `notenik-index`, the population of the `Page Type` field has been expanded to optionally include a [[Class]] field value, if no [[Type]] field is present, and to include the folder name of the Collection, if neither Type nor Class is available.
