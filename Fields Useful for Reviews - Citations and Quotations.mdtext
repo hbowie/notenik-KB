@@ -19,3 +19,5 @@ In either case, you can use Sort Option # 7 (under the Sort menu) to sort a Coll
 When sorting by Author, the sort will be by first name first; if a Collection contains an Artist field, but no Author field, then the sort will be by Artist, and the word 'the' will be ignored when found as the first work in the Artist's name. (In other words, 'The Beatles' will be sorted under 'B', not under 'T'.)
 
 Following is the complete list of fields you may find useful when using Notenik to record quotes from, or commentary about, or citations of, authors and artists.
+
+See also the [[Merge Templates]] [[Derived Variables]], which can be used to aid in nicely formatting and combining some of these fields. 

@@ -1,0 +1,21 @@
+Title:  Major Work
+
+Tags:   levels-outline.11 Merge Templates.2 Merge Variables.2 Derived Variables
+
+Timestamp: 20221009214105
+
+Seq:    11.2.2.3
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+When a [[Work Type]] field is available for a Collection, then a special variable name of `major-work` can be used in a [[Merge Template]] in order to determine whether the work is a major one, that would normally be italicized (as with the title of a book or a film), or a minor one, whose title would normally appear within quotation marks. 
+
+The resulting value will either be '`true`', for a major work, or '`false`', for a minor work. 
+
+If the field is missing, or blank, or set to '`unknown`', then a major work will be assumed. 
+
+

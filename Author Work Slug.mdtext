@@ -1,10 +1,12 @@
 Title:  Author Work Slug
 
+Tags:   levels-outline.11 Merge Templates.2 Merge Variables.2 Derived Variables
+
 Timestamp: 20221008025603
 
-Seq:    10.9.4
+Seq:    11.2.2.1
 
-Level:  4 - Subsection
+Level:  5 - Details
 
 Class:  non-version
 
@@ -14,5 +16,4 @@ When the [[Author]] and associated fields are available for a Collection, then a
 
 The slug will use whatever fields are available, skipping any fields that are missing, while still creating a nicely formatted line. 
 
-The output will include HTML tags, but will not be enclosed in any paragraph or other block tags. 
-
+The output will include HTML tags, but will not be enclosed in any paragraph or other block tags.

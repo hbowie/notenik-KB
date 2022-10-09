@@ -1,5 +1,7 @@
 Title:  Prep for JSON
 
+Tags:   levels-outline.11 Merge Templates.3 Variable Modifiers.36 Prep for JSON
+
 Timestamp: 20220929165710
 
 Seq:    11.3.36
@@ -22,4 +24,4 @@ For example:
 
 The line above would first use the [[Summarize mod]] to extract a meaningful summary from the beginning of the body field, then use the [[Markdown to HTML]] mod to convert the summary to HTML, and then use the Prep for JSON mod to prepare the HTML for storage using JSON notation. 
 
-This modifier can be helpful when generating JavaScript code. 
+This modifier can be helpful when generating JavaScript code.

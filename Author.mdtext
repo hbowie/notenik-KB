@@ -24,3 +24,5 @@ A Collection should have only one `Artist` or `Author` field.
 When editing, an Author field will appear as a combo box, allowing the user to choose from a list of authors already entered, or to enter a new one.
 
 One or more author names should be entered in this field, with first names first.
+
+See also the [[Author Work Slug]] to aid in nicely formatting an Author field along with a [[Work Title]] field. 

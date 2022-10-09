@@ -1,0 +1,17 @@
+Title:  The Work Type Slug
+
+Tags:   levels-outline.11 Merge Templates.2 Merge Variables.2 Derived Variables
+
+Timestamp: 20221009212839
+
+Seq:    11.2.2.4
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+When a [[Work Type]] field is available for a Collection, then a special variable name of `the-work-type-slug` can be used in a [[Merge Template]] in order to obtain a nicely formatted phrase identifying the type of work. 
+
+If the [[Work Type]] field is missing, or blank, or has a value of '`unknown`', then this derived variable will be blank. Otherwise, it will consist of the literal " the " followed by the work type value, converted to lowercase letters

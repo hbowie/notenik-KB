@@ -1,5 +1,7 @@
 Title:  Forget All Shortcuts
 
+Tags:   levels-outline.7 Files and Folders.6 Managing a Bunch of Collections.4 Forget All Shortcuts
+
 Timestamp: 20221003222011
 
 Seq:    7.6.4
@@ -18,4 +20,4 @@ Over time, though, as Collections come and go, you may find that Notenik is reme
 
 That is when you may wish to exercise the **Forget All Shortcuts** command beneath the **File** menu. This will clear out Notenik's memory of Shortcuts from Collections opened in the past, and will allow Notenik to begin refilling its memory from Collections opened afterwards. 
 
-You can [[View the Log]] to see what Shortcuts are being loaded when Notenik launches, and also to verify the number of Shortcuts forgotten after executing this special command. 
+You can [[View the Log]] to see what Shortcuts are being loaded when Notenik launches, and also to verify the number of Shortcuts forgotten after executing this special command.
