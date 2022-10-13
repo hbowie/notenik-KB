@@ -20,6 +20,8 @@ Notenik will also attempt to respect these variations when modifying an existing
 
 And when adding new Notes to a Collection, Notenik will attempt to use whatever format is already found in the folder. 
 
+Note that, beginning with [[Version 10.6.0]], you may explicitly set/change a Collection's preferred file format when you [[Tailor Collection Preferences]].
+
 ## Plain Text
 
 The first line of the file contains neither a Title label nor a Markdown level 1 heading. The title is taken from the file name (minus the extension) and the entire file contents make up the body. No metadata, no field labels, and no tags. 

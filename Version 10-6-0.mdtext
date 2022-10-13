@@ -1,0 +1,15 @@
+Title:  Version 10.6.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Explicit Collection Pref for File Format
+
+The user can now select a file format and explicitly declare that for the Collection when they [[Tailor Collection Preferences]].

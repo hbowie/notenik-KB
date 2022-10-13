@@ -26,9 +26,13 @@ The left side of the Collection Preferences allows you to tweak the Collection T
 
 The default Collections Title will be formed from the folder path containing this Collection. Feel free to tweak this title, but understand that this will not change the actual name of the folder in which your Notes are stored. 
 
-Each Note file is an ordinary text file, and can be opened using any text editor, in addition to being editable within Notenik. Depending on what application you might wish to be the default text editor for your notes, you may wish to pick some special file extension to be used. (If you don't care about this, or this doesn't make any sense to you, then feel free to just ignore this whole paragraph and leave the Preferred File Extension set to the normal default of `txt`.) 
+Each Note file is an ordinary text file, and can be opened using any text editor, in addition to being editable within Notenik. Depending on what application you might wish to be the default text editor for your notes, you may wish to pick some special file extension to be used. The file extension of `.md` is often used for Markdown documents. (If you don't care about this, or this doesn't make any sense to you, then feel free to just ignore this whole paragraph and leave the Preferred File Extension set to the normal default of `txt`.) 
 
-(Note that, if you later decide to change the `Preferred File Extension` for a Collection, Notenik will automatically rename all of the existing files within that Collection to reflect your new choice.) 
+Note that, if you later decide to change the `Preferred File Extension` for a Collection, Notenik will automatically rename all of the existing files within that Collection to reflect your new choice. 
+
+Beginning with [[Version 10.6.0]], you may explicitly set the `Preferred File Format` to be used. This will change the way each Note is internally formatted on disk. The default is to use a special Notenik [[Note File Format]]. If you wish to make your Notes compatible with other software, however, you may wish to make a different choice. Both YAML and MultiMarkdown allow for metadata (fields other than [[Title]] and [[Body]]), but in a slightly different format than that preferred by Notenik. See [[Existing Text Files]] for more info on alternate formats. 
+
+Note that, if you change the `Preferred File Format`, then Notenik will reformat all of the Notes in your Collection to use the new format. Data loss is possible when doing this, so you may wish to backup your Notes before making such a change. 
 
 Enter a shortcut for a Collection in order to easily identify and open it later. (See the article [[Take Quick Action]] for further info.)
 
