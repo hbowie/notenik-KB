@@ -32,7 +32,9 @@ Note that, if you later decide to change the `Preferred File Extension` for a Co
 
 Beginning with [[Version 10.6.0]], you may explicitly set the `Preferred File Format` to be used. This will change the way each Note is internally formatted on disk. The default is to use a special Notenik [[Note File Format]]. If you wish to make your Notes compatible with other software, however, you may wish to make a different choice. Both YAML and MultiMarkdown allow for metadata (fields other than [[Title]] and [[Body]]), but in a slightly different format than that preferred by Notenik. See [[Existing Text Files]] for more info on alternate formats. 
 
-Note that, if you change the `Preferred File Format`, then Notenik will reformat all of the Notes in your Collection to use the new format. Data loss is possible when doing this, so you may wish to backup your Notes before making such a change. 
+Also beginning with [[Version 10.6.0]], you may explicitly set the option to save Tags with Hash signs. This will change the way each Note is internally formatted on disk. Again, this may increase interoperability of your Notes when using other software.  
+
+Note that, if you change the `Preferred File Format`, or the hash tags option, then Notenik will reformat all of the Notes in your Collection to use the new format. Data loss is possible when doing this, so you may wish to backup your Notes before making such a change. 
 
 Enter a shortcut for a Collection in order to easily identify and open it later. (See the article [[Take Quick Action]] for further info.)
 

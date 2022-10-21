@@ -1,0 +1,29 @@
+Title:  Image Slug
+
+Timestamp: 20221018181857
+
+Seq:    11.2.2.2
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+When the [[Image Name]] field is used, a special variable name of `image-slug` can be used in a [[Merge Template]] in order to obtain a string of HTML presenting the image, along with an optional caption. 
+
+When the `Image Name` field is used, one or more of the following associated fields may also be specified for the Collection. 
+
+```
+Image Alt:  
+
+Image Caption:  
+
+Image Credit:  
+
+Image Credit Link: <link> 
+```
+
+If an explicit `Image Caption` field is provided, then that will be used as the caption. Otherwise the `Image Credit` field and the `Image Credit Link` field will combined to create an Image Credit caption. In either case, the caption will be formatted using the HTML `<figure>` and `<figcaption>` tags. 
+
+The most reliable way for Notenik to determine the name and location of the image file is to obtain it from a previous [[copyfile command]], using the to location of the copy as the presumed image name. 
