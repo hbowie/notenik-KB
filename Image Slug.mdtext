@@ -1,5 +1,7 @@
 Title:  Image Slug
 
+Tags:   levels-outline.11 Merge Templates.2 Merge Variables.2 Derived Variables
+
 Timestamp: 20221018181857
 
 Seq:    11.2.2.2
@@ -26,4 +28,4 @@ Image Credit Link: <link>
 
 If an explicit `Image Caption` field is provided, then that will be used as the caption. Otherwise the `Image Credit` field and the `Image Credit Link` field will combined to create an Image Credit caption. In either case, the caption will be formatted using the HTML `<figure>` and `<figcaption>` tags. 
 
-The most reliable way for Notenik to determine the name and location of the image file is to obtain it from a previous [[copyfile command]], using the to location of the copy as the presumed image name. 
+The most reliable way for Notenik to determine the name and location of the image file is to obtain it from a previous [[copyfile command]], using the to location of the copy as the presumed image name.

@@ -1,0 +1,15 @@
+Title:  Take Text from Right
+
+AKA:    Take Text from Right Mod
+
+Timestamp: 20221026195454
+
+Seq:    11.3.5
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+A greater than sign ('`>`') will drop leading digits, spacing and punctuation, leaving whatever alphabetic content follows on the right. This can be useful when combined with the [[Rank]] field in particular. 

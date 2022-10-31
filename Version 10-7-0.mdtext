@@ -1,0 +1,24 @@
+Title:  Version 10.7.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Rank as New Field Type
+
+Added a new field type of [[Rank]], allowing the user to specify a list of allowable values, with each value consisting of both a numeric and an alphabetic portion, with the numeric portion being used for sorting.
+
+##### Added New Variable Modifier to Take Text From Right
+
+A new [[Take Text from Right Mod]] can be used to drop leading digits, spacing and punctuation, returning only the remaining alphabetic text from the right side of a field.
+
+##### Eliminated CMD Right Arrow as a Notenik Keyboard Shortcut
+
+When editing a text block, this special Notenik assignment of CMD Right Arrow as a keyboard shortcut was blocking the normal action, expected by some, to move the cursor to the end of the line. This has been fixed. 
+

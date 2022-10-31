@@ -20,6 +20,7 @@ Each field label/type is discussed below, grouped into logical collections.
 + [[Fields for Sequencing and Outlining]]
 + [[Web-Making Fields]]
 + [[Fields Useful for Reviews, Citations and Quotations]]
++ [[Fields Used to Identify Various Kinds of Notes]]
 + [[General-Purpose Fields]]
 + [[System-Assigned Dates and Times]]
 
@@ -49,6 +50,7 @@ For ease of reference, when looking for a specific field type, here's an alphabe
 + [[Lookup]]
 + [[Minutes to Read]]
 + [[Pick From]]
++ [[Rank]]
 + [[Rating]]
 + [[Recurs]]
 + [[Seq]]

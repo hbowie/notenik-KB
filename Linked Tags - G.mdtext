@@ -6,7 +6,7 @@ AKA:    Linked Tags
 
 Timestamp: 20210616201430
 
-Seq:    11.3.14
+Seq:    11.3.15
 
 Level:  4 - Subsection
 
@@ -26,4 +26,4 @@ Where:
 + `tags/` is the path, starting from the web root;
 + `btn btn-secondary mx-1 pr-topic` are classes to be applied to each link (`<a `) HTML tag.
 
-Also see [[Linked Tags - Z]]. 
+Also see [[Linked Tags - Z]].

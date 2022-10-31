@@ -1,0 +1,15 @@
+Title:  Fields Used to Identify Various Kinds of Notes
+
+Timestamp: 20221026200459
+
+Seq:    10.10
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+The following field labels and types can be useful when you want to distinguish between several distinctly different kinds of Notes that may be present in a single Collection. 
+
+Each one of these field types has some unique functionality associated with it, so choose the one (or more) that will be most useful to you in a particular situation.

@@ -1,0 +1,39 @@
+Title:  Rank
+
+Timestamp: 20221025163114
+
+Seq:    10.10.3
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The word `Rank` can be used as both a label and a type. 
+
+A Collection is not expected to have more than one field of type `rank`. 
+
+A `rank` value consists of both a number (an integer) and an alphabetic label, separated by spaces and a hyphen. 
+
+The numeric portion of the value will be used for sorting. 
+
+A `Rank` field is useful when you wish to assign meaningful labels to your Notes, but also wish to independently control the sequence in which these labels appear. 
+
+You must make [[use of a Text Editor]] to edit [[the Collection Template File]] in order to add a `Rank` field to a Collection, and you must specify all allowable values for the field in your template entry. 
+
+Here's an example of how you might do this: 
+
+```
+Category: <rank: 1 - Foundational; 2 - Canonical; 3 - Topical; >
+```
+	
+As always, be sure to Reload the Collection after making changes to the Collection template!
+
+When editing a Note containing a `Rank` field, the user may type either the numeric portion or the alphabetic portion in order to select a value. 
+
+Note that beneath the **Collection > Sort** menu, you will find an option to sort a Collection by **Rank + Seq + Title**. 
+
+A Rank field may also be specified as a Sort field within [[Script Files]].
+
+The [[Take Text from Right]] [[Variable Modifier]] can be used to extract just the label portion of the field when creating a [[Merge Template]].

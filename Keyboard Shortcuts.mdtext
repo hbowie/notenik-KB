@@ -42,7 +42,8 @@ Following are the keyboard shortcuts available within the app.
 |      |       |     | Cmd |  R  | Run a [[Script File]]
 | Ctrl |       |     |     |  R  | Toggle [[Streamlined Reading]]
 |      |       |     | Cmd |  S  | Save the Note ([Mac Standard][mkeys])
-|      |       | Opt | Cmd | S | [[Share  with Options]]
+|      |       | Opt | Cmd |  S  | [[Share  with Options]]
+| Ctrl |       |     |     |  S  |  [[Select a Note for Action]]
 |      |       |     | Cmd |  T  | [[Text Edit]] a Note
 |      |       |     | Cmd |  U  | Catch Up Daily Tasks (see [[Make a To-Do List]])
 |      |       |     | Cmd |  V  | Paste ([Mac Standard][mkeys])
@@ -65,7 +66,6 @@ Following are the keyboard shortcuts available within the app.
 |      |       | Opt | Cmd | \]  | Indent Note
 |      |       | Opt | Cmd | \[  | Outdent Note
 |      | Shift |     | Cmd | \]  | Random Note
-|      |       |     | Cmd |  →  | Scroll to Selected Note
 |      |       |     | Cmd |  =  | Increase Edit Font Size
 |      |       |     | Cmd |  -  | Decrease Edit Font Size
 |      |       |     | Cmd |  ,  | Display Application Preferences
