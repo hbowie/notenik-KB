@@ -20,5 +20,12 @@ A new [[Take Text from Right Mod]] can be used to drop leading digits, spacing a
 
 ##### Eliminated CMD Right Arrow as a Notenik Keyboard Shortcut
 
-When editing a text block, this special Notenik assignment of CMD Right Arrow as a keyboard shortcut was blocking the normal action, expected by some, to move the cursor to the end of the line. This has been fixed. 
+When editing a text block, this special Notenik assignment of CMD Right Arrow as a keyboard shortcut was blocking the normal action, expected by some, to move the cursor to the end of the line. This has been fixed.
 
+##### Pipe Symbols Now Introduce Wiki Link Titles
+
+A vertical bar ('`|`') may now be used within a [[Wiki Style Link]] to introduce the text that is to appear as the link, if different from the title of the target Note.
+
+##### Alternate Syntax Available for Note/File Inclusion
+
+In order to [[Include a Note or File]], the user may now use the `![[embedded note]]` syntax, in addition to the existing `{{include:embedded note}}` syntax. 

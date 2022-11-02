@@ -2,7 +2,7 @@ Title:  Include a Note or File
 
 Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.22 Include a Note or File
 
-AKA:    transclusion
+AKA:    transclusion, embed
 
 Timestamp: 20220110210211
 
@@ -53,3 +53,20 @@ Note that this format, and the intent of this Markdown extension, is slightly di
 + The results of the Markdown extension described here will be visible within Notenik, when a Note is displayed; 
 
 + The results of the Merge Template Include command will only be visible when using the a Merge Template to generate some textual output outside of Notenik.
+
+##### Alternate Syntax
+
+Some other note processing software [uses the terminology *embed*](https://help.obsidian.md/How+to/Embed+files) rather than *include*, and uses the following syntax to embed a file.
+
+```
+![[another-file.txt]]
+```
+
+The following syntax is used to embed a Note:
+
+```
+![[A Second Note to be embedded]]
+```
+
+Notenik will try to respect this alternate syntax, in addition to its native syntax, as described above. 
+
