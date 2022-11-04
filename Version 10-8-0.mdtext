@@ -1,0 +1,16 @@
+Title:  Version 10.8.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Improved Tags Explosion Logic
+
+Improved the handling of tags explosion when using this option as part of the [[Input Module Parameters]] available when playing a [[Script File]].
+

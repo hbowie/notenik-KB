@@ -1,10 +1,19 @@
 Title:  Version 10.7.0
 
+Tags:   levels-outline.14 Version History.1 Version 1070
+
 Timestamp: 20211116184349
 
-Seq:    14.1
+Seq:    14.2
+
+Date:   03 Nov 2022
 
 Level:  3 - Section
+
+Teaser:
+
+Added Rank as a new field type, combining a number for sorting with a label for understanding; added a new merge template variable modifier to extract the text from the right side of a field such as Rank; eliminated CMD Right Arrow as a Notenik-specific keyboard shortcut, freeing it up for its normal usage to move the cursor to the end of a line of text; vertical bars (aka pipe symbols) may now be used to supply visible text for a wiki link that is different from the title of the target note; enabled an alternate syntax for note/file inclusion, to increase note interoperability with other software packages; a field label of 'Category' no longer forces the field to a Tags type; implemented a fix for image paths that included note titles that included question marks, since these were no longer working in Ventura without percent sign URL encoding. 
+
 
 Class:  version
 
@@ -28,4 +37,12 @@ A vertical bar ('`|`') may now be used within a [[Wiki Style Link]] to introduce
 
 ##### Alternate Syntax Available for Note/File Inclusion
 
-In order to [[Include a Note or File]], the user may now use the `![[embedded note]]` syntax, in addition to the existing `{{include:embedded note}}` syntax. 
+In order to [[Include a Note or File]], the user may now use the `![[embedded note]]` syntax, in addition to the existing `{{include:embedded note}}` syntax.
+
+##### Category Label No Longer Defaults to Tags Type
+
+A field label of `category` or `categories` no longer defaults to a type of [[tags]], since the user may wish to use such a label for a field type of [[rank]].
+
+##### Image Paths with Question Marks Fixed
+
+Image paths with question marks were failing to locate local image files, so these are being specifically encoded for use in a URL.

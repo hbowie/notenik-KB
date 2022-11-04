@@ -8,7 +8,7 @@ Link: <link>
 
 Timestamp:  
 
-Seq: <seq: n.|n|n|n|n > 
+Seq: <seq: n.|n|n|n|n> 
 
 Date: <date> 
 
@@ -18,7 +18,7 @@ Index: <index>
 
 Teaser: <longtext> 
 
-Class: <class:  , non-version, version > 
+Class: <class:  non-version, version > 
 
 Body:  
 
