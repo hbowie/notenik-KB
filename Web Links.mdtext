@@ -1,0 +1,25 @@
+Title:  Web Links
+
+Tags:   levels-outline.5 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.3 Web Links
+
+Timestamp: 20221111184318
+
+Seq:    5.3.3
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+This is a Collection with the following [[Lists of Labels and Types|field definitions]] as provided in [[the Collection Template File]]. It is similar to the [[Basic Notes]], with the addition of a [[Link]] field. 
+
+```
+Title: <title> 
+
+Tags: <tags> 
+
+Link: <link> 
+
+Body:  
+```

@@ -1,0 +1,28 @@
+Title:  Web Book
+
+Tags:   levels-outline.5 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.10 Web Book
+
+Timestamp: 20221111191516
+
+Seq:    5.3.10
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+This is a Collection meant to be used to write a Web Book. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It is designed to make use of the [[Export as Web Book]] function. 
+
+```
+Title: <title> 
+
+Tags: <tags> 
+
+Seq: <seq> 
+
+Level: <level: 1 - Book Title; 2 - Section; 3 - Chapter; > 
+
+Body:  
+
+```

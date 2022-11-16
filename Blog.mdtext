@@ -1,0 +1,45 @@
+Title:  Blog
+
+Tags:   levels-outline.5 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.7 Blog
+
+Timestamp: 20221111190323
+
+Seq:    5.3.7
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+This is a Collection meant to be used as a simple blog. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. 
+
+This Collection makes use of the [[Mirror Your Notes|Mirroring]] feature of Notenik. 
+
+```
+Title: <title> 
+
+Type:  
+
+Tags: <tags> 
+
+Link: <link> 
+
+Seq: <seq> 
+
+Date: <date> 
+
+Status: 1 - Idea; 4 - In Work; 8 - Canceled; 9 - Published;  
+
+Date Added: <dateadded> 
+
+Timestamp:  
+
+Teaser: <longtext> 
+
+Author: <author> 
+
+Body:  
+
+
+```

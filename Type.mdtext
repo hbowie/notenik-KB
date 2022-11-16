@@ -15,3 +15,6 @@ The word `Type` can be used as a label, but is not a valid field type.
 A field called `Type` can often be a useful element of a Collection.
 
 The label `Type` can often be usefully combined with a type of [[Pick From]] in order to predefine allowable types that make sense within the context of a particular Collection.
+
+BTW, if you choose to sort your Collection by one of the options that includes [[Class]], then Notenik will use an available `Type` value in place of a `Class` value, if the Collection does not define a field of type `Class`. 
+

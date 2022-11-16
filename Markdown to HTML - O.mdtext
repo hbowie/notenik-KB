@@ -12,8 +12,12 @@ Level:  4 - Subsection
 
 Body:
 
-The letter "O" will cause the variable to be treated as Markdown, and converted to HTML.
+The letter "O" will cause the variable to be converted to HTML.
 
-Also see the modifier for [[Wiki-Style Links - W]].
+Most fields will be assumed to contain Markdown code. 
+
+[[Wiki Links]] and [[Back Links]] fields, on the other hand, will have special conversion logic applied. 
+
+Also see the modifier for [[Wiki-Style Links - W]]. When generating external web pages, you will generally want to precede the `o` with either `w1` or `w2`. 
 
 Following this letter with a minus sign ('-') will cause any opening and closing paragraph tags (`<p>` and `</p>` respectively) to be stripped from the resulting field (thus reducing the chance for possible conflicts with other tags).

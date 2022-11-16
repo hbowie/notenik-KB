@@ -1,16 +1,44 @@
 Title:  Version 10.8.0
 
+Tags:   levels-outline.14 Version History.1 Version 1080
+
 Timestamp: 20211116184349
 
 Seq:    14.1
 
+Date:   16 Nov 2022
+
 Level:  3 - Section
+
+Teaser:
+
+Added Knowledge Base documentation describing the available Collection Types that can be used to initialize a New Colection; added a new starting Collection Type to create a website, including sample merge templates and a sample script; added two new Collection Sort options to allow sorting by Class; added a Notenik Master Class to the Help menu, to assist in learning some of Notenik's more advanced features; added ability to convert back links fields to HTML. 
+
 
 Class:  version
 
 Body:
 
-##### Improved Tags Explosion Logic
+##### Provided Documentation for Starting Collection Types
 
-Improved the handling of tags explosion when using this option as part of the [[Input Module Parameters]] available when playing a [[Script File]].
+Added documentation about the [[Starting Collection Types]] that a user may choose from when creating a new Collection. 
 
+##### Added New Starting Collection Type to Create Website
+
+When choosing a [[Starting Collection Type]], the user may now select a new starter pack containing examples of how to generate a [[Website]]. 
+
+##### Added Sort Options by Class
+
+Added two new Collection Sort options: **Class + Title** and **Class + Date + Title**. (And if your Collection has a field named [[Type]], but not a field of type [[Class]], then these two sorts will use your `Type` values in place of the missing `Class` values.)
+
+##### Changed Collection Sort Reverse to Default
+
+Whenever the user selects a new Collection Sort option, the **Reverse** option will be reset to `false`, to ensure that Notes appear in their normal forward sequence, turning off the Reverse option, if it had previously been set on.
+
+##### Added Notenik Master Class to Help Menu
+
+A new Help Collection titled Notenik Master Class is now available from the Help menu. This provides an introduction to Notenik's most advanced features, especially useful for website creation.
+
+##### Added Ability to Convert Back Links to HTML
+
+The [[Markdown to HTML - O]] variable modifier has been enhanced so that, when applied to a [[Back Links]] field or a [[Wiki Links]] field, the values will be converted to appropriate HTML for inclusion in a Web page. 

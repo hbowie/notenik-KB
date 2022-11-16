@@ -1,0 +1,85 @@
+Title:  Commonplace with Lookups
+
+Tags:   levels-outline.5 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.11 Commonplace with Lookups
+
+Timestamp: 20221111192458
+
+Seq:    5.3.11
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+This is a more sophisticated version of a [[Commonplace Book]]. This starter pack actually consists of three different Collections that are tied together through the use of [[Lookup]] fields. 
+
+The first collection is designed to store quotations, and its template file looks like this:
+
+```
+Title: <title> 
+
+Author: <lookup: qauthors> 
+
+Date: <date> 
+
+Tags: <tags> 
+
+Work Title: <lookup: qworks> 
+
+Work Pages:  
+
+Date Added: <dateadded> 
+
+Body:  
+
+```
+
+Note that the `Work Title` field is configured to lookup the titles of books and such from the `qworks` Collection. This second Collection has a template file that looks like this:
+
+
+```
+Work Title: <title> 
+
+Tags: <tags> 
+
+Author: <lookup: qauthors> 
+
+Work Type: <worktype> 
+
+Work Minor Title:  
+
+Work Date: <date> 
+
+Work Link: <link> 
+
+Work ID:  
+
+Work Rights:  
+
+Work Rights Holder:  
+
+Publisher:  
+
+Publisher City:  
+
+Work Notes: <body> 
+
+```
+
+And both the first Collection and the second one are configured to lookup the names of authors from the `qauthors` Collection. This third Collection has a template file that looks like this:
+
+```
+Author: <title> 
+
+Tags: <tags> 
+
+Author Info:  
+
+Author Years:  
+
+Author Link: <link> 
+
+Author Notes: <body> 
+
+```

@@ -1,0 +1,36 @@
+Title:  Commonplace Book
+
+Tags:   levels-outline.5 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.8 Commonplace Book
+
+Timestamp: 20221111190757
+
+Seq:    5.3.8
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+This is a Collection meant to be used as a [Commonplace book](https://en.wikipedia.org/wiki/Commonplace_book). It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It makes use of [[Fields Useful for Reviews, Citations and Quotations]].
+
+```
+Title: <title> 
+
+Tags: <tags> 
+
+Link: <link> 
+
+Timestamp:  
+
+Author: <author> 
+
+Work Type: <worktype> 
+
+Work Title: <worktitle> 
+
+Date: <date> 
+
+Quote: <body> 
+
+```

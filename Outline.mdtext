@@ -1,0 +1,31 @@
+Title:  Outline
+
+Tags:   levels-outline.5 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.9 Outline
+
+Timestamp: 20221111191245
+
+Seq:    5.3.9
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+This is a Collection meant to be used as a simple outline. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It makes use of [[Fields for Sequencing and Outlining]].
+
+```
+Title: <title> 
+
+Tags: <tags> 
+
+Link: <link> 
+
+Seq: <seq> 
+
+Level: <level: 1 - Top; 2 - Section; 3 - Chapter; 4 - Subsection; > 
+
+Body:  
+
+
+```

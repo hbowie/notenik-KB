@@ -1,0 +1,29 @@
+Title:  Zettelkasten
+
+Tags:   levels-outline.5 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.6 Zettelkasten
+
+Timestamp: 20221111190122
+
+Seq:    5.3.6
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+This is a Collection meant to be used as a [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten). It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It is similar to the [[Web Links]] starter, with the addition of a [[Timestamp]] field. 
+
+```
+Title: <title> 
+
+Tags: <tags> 
+
+Link: <link> 
+
+Timestamp:  
+
+Body:  
+
+
+```
