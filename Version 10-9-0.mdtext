@@ -1,0 +1,17 @@
+Title:  Version 10.9.0
+
+Tags:   settings
+
+Timestamp: 20220115163704
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Fixed Collection Setting to Save Tags with Hash Signs
+
+The Collection Setting to Save Tags with a preceding `#` sign was no longer working. This has been corrected. 

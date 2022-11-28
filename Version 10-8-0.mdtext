@@ -4,7 +4,7 @@ Tags:   levels-outline.14 Version History.1 Version 1080
 
 Timestamp: 20211116184349
 
-Seq:    14.1
+Seq:    14.2
 
 Date:   16 Nov 2022
 
@@ -41,4 +41,4 @@ A new Help Collection titled Notenik Master Class is now available from the Help
 
 ##### Added Ability to Convert Back Links to HTML
 
-The [[Markdown to HTML - O]] variable modifier has been enhanced so that, when applied to a [[Back Links]] field or a [[Wiki Links]] field, the values will be converted to appropriate HTML for inclusion in a Web page. 
+The [[Markdown to HTML - O]] variable modifier has been enhanced so that, when applied to a [[Back Links]] field or a [[Wiki Links]] field, the values will be converted to appropriate HTML for inclusion in a Web page.
