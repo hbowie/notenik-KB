@@ -1,6 +1,6 @@
 Title:  Version 10.1.0
 
-Tags:   levels-outline.14 Version History.9 Version 1010
+Tags:   levels-outline.14 Version History.10 Version 1010
 
 Timestamp: 20211116184349
 
@@ -45,7 +45,7 @@ Notenik had previously been implementing a Note modification by first deleting t
 
 ##### Now Possible to Delete a Range of Notes
 
-A contiguous range of Notes may now be deleted from a Collection in one fell swoop. First, select the range of Notes on the List tab, by clicking on the first Note, then shift-clicking on the last Note. Then right-click on one of the Notes in the range to bring up the Contextual menu. Then select the **Delete Range** option. You will always see a Confirmation Dialog before the Notes are deleted (whether or not this App Pref is set for the normal single-Note deletion). Click OK if everything looks good, and the entire range of Notes will be removed from the Collection, and the corresponding Note files will be moved to the Trash.  
+A contiguous range of Notes may now be deleted from a Collection in one fell swoop. First, select the range of Notes on the List tab, by clicking on the first Note, then shift-clicking on the last Note. Then right-click on one of the Notes in the range to bring up the Contextual menu. Then select the **Delete Range** option. You will always see a Confirmation Dialog before the Notes are deleted (whether or not this App Setting is set for the normal single-Note deletion). Click OK if everything looks good, and the entire range of Notes will be removed from the Collection, and the corresponding Note files will be moved to the Trash.  
 
 ##### Changes to Loading of Shortcuts
 

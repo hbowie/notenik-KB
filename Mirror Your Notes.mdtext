@@ -36,7 +36,7 @@ Here's the way this works.
 
 	* More complex indexing can be done by creating one or more [[Script files]] and placing them within a 'mirror/scripts' folder. 
 
-	Whichever approach you choose, indexing will by default not be done automatically, but only when you explicitly request it from one of the relevant options under the Transform menu. This option can be overridden in the Collection Preferences window for a given Collection, allowing indexing to happen automatically whenever a Note is added or updated. 
+	Whichever approach you choose, indexing will by default not be done automatically, but only when you explicitly request it from one of the relevant options under the Transform menu. This option can be overridden in the Collection Settings window for a given Collection, allowing indexing to happen automatically whenever a Note is added or updated. 
 
 9. In all cases, mirroring will be performed in the background, in parallel with other Notenik actions, which has a few implications:
 

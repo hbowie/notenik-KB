@@ -14,7 +14,7 @@ Class:  version
 
 Body:
 
-Thanks to the generosity of other open-source developers, Notenik gives you a choice of Markdown parsers to use. Visit the app preferences to change your choice of parser. 
+Thanks to the generosity of other open-source developers, Notenik gives you a choice of Markdown parsers to use. Visit the app settings to change your choice of parser. 
 
 + [Down][] - Blazing fast Markdown rendering in Swift, built upon cmark, which is in turn based on the [CommonMark][cm] spec.
 

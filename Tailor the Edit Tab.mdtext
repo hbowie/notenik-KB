@@ -2,7 +2,7 @@ Title:  Tailor the Edit Tab
 
 Tags:   levels-outline.6 Common Tasks.2 Add Delete and Edit Your Notes.2 Tailor the Edit Tab
 
-AKA:    Adjust Edit Fonts, Edit Font Preferences
+AKA:    Adjust Edit Fonts, Edit Font Settings
 
 Timestamp: 20220622180501
 
@@ -26,11 +26,11 @@ These options allow apply to all Collections -- they are not Collection-specific
 
 + `Reset Edit Font Size` -- This option will reset the font size(s) used on the Edit tab to the default sizing. 
 
-+ `Adjust Edit Fonts` -- This option, available starting with [[Version 9.6.0]], will display the `Edit Font Preferences` window, which will allow you to fine-tune the appearance of the Edit tab. 
++ `Adjust Edit Fonts` -- This option, available starting with [[Version 9.6.0]], will display the `Edit Font Settings` window, which will allow you to fine-tune the appearance of the Edit tab. 
 
-##### Adjust Edit Fonts via Edit Font Preferences
+##### Adjust Edit Fonts via Edit Font Settings
 
-The `Edit Font Preferences` window includes controls with the following labels. 
+The `Edit Font Settings` window includes controls with the following labels. 
 
 + `Field Types` -- Notenik recognizes three different types of fields that can appear on the Edit Tab, and each type of field can be styled separately, by clicking on the corresponding radio button. The three types are: `Labels` (for field labels), `Code` (for field values of type [[code]] or [[link]], and `Text` (for all other types of value fields) .
 

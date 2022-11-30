@@ -1,6 +1,6 @@
 Title:  Version 8.3.0
 
-Tags:   levels-outline.14 Version History.31 Version 830
+Tags:   levels-outline.14 Version History.32 Version 830
 
 Timestamp: 20211116184349
 
@@ -21,7 +21,7 @@ Body:
 
 ##### Added Notenik Tips
 
-Created a set of short tips on Notenik usage. These will launch at startup, until the user sets this option off in the Notenik General Preferences. They can also be accessed using the Help menu. 
+Created a set of short tips on Notenik usage. These will launch at startup, until the user sets this option off in the Notenik General Settings. They can also be accessed using the Help menu. 
 
 ##### Back to Top for Streamlined Reading
 

@@ -68,8 +68,8 @@ Following are the keyboard shortcuts available within the app.
 |      | Shift |     | Cmd | \]  | Random Note
 |      |       |     | Cmd |  =  | Increase Edit Font Size
 |      |       |     | Cmd |  -  | Decrease Edit Font Size
-|      |       |     | Cmd |  ,  | Display Application Preferences
-|      |       |     | Cmd |  ;  | Display Collection Preferences
+|      |       |     | Cmd |  ,  | Display Application Settings
+|      |       |     | Cmd |  ;  | Display Collection Settings
 |      |       |     | Cmd |  '  | Toggle Status
 |      |       |     | Cmd |  .  | Increment Status
 

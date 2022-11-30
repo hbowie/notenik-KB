@@ -20,7 +20,7 @@ Notenik will also attempt to respect these variations when modifying an existing
 
 And when adding new Notes to a Collection, Notenik will attempt to use whatever format is already found in the folder. 
 
-Note that, beginning with [[Version 10.6.0]], you may explicitly set/change a Collection's preferred file format when you [[Tailor Collection Preferences]].
+Note that, beginning with [[Version 10.6.0]], you may explicitly set/change a Collection's preferred file format when you [[Tailor Collection Settings]].
 
 ## Plain Text
 

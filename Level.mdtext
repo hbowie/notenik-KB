@@ -28,7 +28,7 @@ A level field is typically used in combination with a [[Seq]] field.
 
 When viewing a Collection containing a level field, and when viewing the List of Notes sorted by 'Seq + Title', the title of each Note will be indented to indicate the level of each particular Note within the implied outline. 
 
-The default is to indent one space per level, but this spacing can be adjusted on the **General** tab of the **Notenik Preferences**. 
+The default is to indent one space per level, but this spacing can be adjusted on the **General** tab of the **Notenik Settings**. 
 
 One way to use a level field, when generating HTML, is to generate a heading tag using the Note level as the numeric portion of the tag. 
 

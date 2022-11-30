@@ -1,6 +1,6 @@
 Title:  Version 5.4.0
 
-Tags:   levels-outline.14 Version History.71 Version 540
+Tags:   levels-outline.14 Version History.72 Version 540
 
 Timestamp: 20210627222923
 
@@ -27,9 +27,9 @@ Added support for code fencing in the Markdown parser.
 A complete spec for the Notenik Markdown parser can now be opened as a read-only Notenik Collection, by selecting `Markdown Spec` beneath the `Help` menu. 
 
  
-##### Reworked Display Fonts Prefs to Make Updates More Intuitive
+##### Reworked Display Fonts Settings to Make Updates More Intuitive
 
-Changed the logic a bit on the Display Prefs screen to make updating a bit more intuitive. 
+Changed the logic a bit on the Display Settings screen to make updating a bit more intuitive. 
 
  
 ##### Adjusted Font Weight in What's New Display

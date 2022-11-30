@@ -1,6 +1,6 @@
 Title:  Version 7.7.1
 
-Tags:   levels-outline.14 Version History.39 Version 771
+Tags:   levels-outline.14 Version History.40 Version 771
 
 Timestamp: 20211116184349
 
@@ -21,7 +21,7 @@ Body:
 
 ##### Straighted Out Class/Pick-From Conflicts
 
-I had originally implemented `Class` as a `pick-from` field, and it turned out that, whenever Collection Preferences were updated, Notenik was still writing out a field titled `Class` as a `pick-from` field when saving the Collection template file. I've fixed this error, and also implemented some self-healing code to coerce the field type, for a field titled `Class`, to `class`, if the `Class` / `pick-from` combination is detected on an existing Collection template file.
+I had originally implemented `Class` as a `pick-from` field, and it turned out that, whenever Collection Settings were updated, Notenik was still writing out a field titled `Class` as a `pick-from` field when saving the Collection template file. I've fixed this error, and also implemented some self-healing code to coerce the field type, for a field titled `Class`, to `class`, if the `Class` / `pick-from` combination is detected on an existing Collection template file.
 
 ##### Fixed a Wikilinks/Backlinks Crash
 

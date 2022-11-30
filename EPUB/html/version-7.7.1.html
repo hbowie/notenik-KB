@@ -20,7 +20,7 @@ window.MathJax = {
 <p><strong>11.1 Version 7.7.1</strong></p>
 <p>Date: 05 Dec 2021</p>
 <h5 id="straighted-out-class-pick-from-conflicts">Straighted Out Class/Pick-From Conflicts</h5>
-<p>I had originally implemented <code>Class</code> as a <code>pick-from</code> field, and it turned out that, whenever Collection Preferences were updated, Notenik was still writing out a field titled <code>Class</code> as a <code>pick-from</code> field when saving the Collection template file. I've fixed this error, and also implemented some self-healing code to coerce the field type, for a field titled <code>Class</code>, to <code>class</code>, if the <code>Class</code> / <code>pick-from</code> combination is detected on an existing Collection template file. </p>
+<p>I had originally implemented <code>Class</code> as a <code>pick-from</code> field, and it turned out that, whenever Collection Settings were updated, Notenik was still writing out a field titled <code>Class</code> as a <code>pick-from</code> field when saving the Collection template file. I've fixed this error, and also implemented some self-healing code to coerce the field type, for a field titled <code>Class</code>, to <code>class</code>, if the <code>Class</code> / <code>pick-from</code> combination is detected on an existing Collection template file. </p>
 <h5 id="fixed-a-wikilinks-backlinks-crash">Fixed a Wikilinks/Backlinks Crash</h5>
 <p>Notenik was crashing because the Wikilinks field type was still marked as user editable. Fixed this problem, and also added code to prevent the index out of range crash that resulted. </p>
 <hr>

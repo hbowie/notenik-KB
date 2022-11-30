@@ -32,7 +32,7 @@ Following are examples of how these commands might be used to enable Hook integr
 
 ##### Get Address
 
-The following script might be placed beneath the `Get Address` tab in the Scripts section of Hook Preferences. 
+The following script might be placed beneath the `Get Address` tab in the Scripts section of Hook Settings. 
 
 ```
 tell application "Notenik"	if HasSelectedNote then		set theTitle to GetSelectedNoteTitle		set theUrl to GetSelectedNoteBacklink		return "[" & theTitle & "](" & theUrl & ")"	end ifend tell
@@ -42,7 +42,7 @@ This script allows Hook to ask for the Title and the Backlink (see [[Custom URL 
 
 #### New Item
 
-The following script might be placed beneath the `New Item` tab in the Scripts section of Hook Preferences. 
+The following script might be placed beneath the `New Item` tab in the Scripts section of Hook Settings. 
 
 ```
 tell application "Notenik"	return AddNote title "$title" link "$user_link" tags "hook"end tell

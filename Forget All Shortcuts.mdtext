@@ -12,9 +12,9 @@ Class:  non-version
 
 Body:
 
-When you [[Tailor Collection Preferences]] you will have an option to assign a shortcut code to your Collection. You can then use that shortcut on the [[Quick Action]] screen to quickly launch that Collection later. 
+When you [[Tailor Collection Settings]] you will have an option to assign a shortcut code to your Collection. You can then use that shortcut on the [[Quick Action]] screen to quickly launch that Collection later. 
 
-In order to facilitate use of assigned Collection Shortcuts, Notenik will save these assigned codes in its preferences so that they can be restored each time the application is launched. 
+In order to facilitate use of assigned Collection Shortcuts, Notenik will save these assigned codes in its settings so that they can be restored each time the application is launched. 
 
 Over time, though, as Collections come and go, you may find that Notenik is remembering Shortcuts that would better be left forgotten. 
 

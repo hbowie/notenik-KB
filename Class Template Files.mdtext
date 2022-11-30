@@ -22,9 +22,9 @@ A Class template file can serve two different purposes:
 
 Here's how to make all of this work. 
 
-1. [[Tailor the Collection Preferences]]  and make sure the Class field has a check mark next to it. 
+1. [[Tailor the Collection Settings]]  and make sure the Class field has a check mark next to it. 
 
-2. Also make sure that all of the fields you might want for any class are specified for the overall Collection Preferences: this list of field labels should be a superset of any appearing for a particular class. 
+2. Also make sure that all of the fields you might want for any class are specified for the overall Collection Settings: this list of field labels should be a superset of any appearing for a particular class. 
 
 3. If you'd like, you can specify a list of possible values for the class field within [[the Collection Template file]]. 
 

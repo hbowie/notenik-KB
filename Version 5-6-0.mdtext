@@ -1,6 +1,6 @@
 Title:  Version 5.6.0
 
-Tags:   levels-outline.14 Version History.69 Version 560
+Tags:   levels-outline.14 Version History.70 Version 560
 
 Timestamp: 20210627222923
 
@@ -12,7 +12,7 @@ Level:  3 - Section
 
 Teaser:
 
-Added an option to sort a Collection by Date Added; added a streamlined method for creating a new collection; enabled updating of all file extensions for all notes when the preferred file extension is changed in the collection preferences.
+Added an option to sort a Collection by Date Added; added a streamlined method for creating a new collection; enabled updating of all file extensions for all notes when the preferred file extension is changed in the collection settings.
 
 
 Body:
@@ -31,4 +31,4 @@ There is a new option beneath the File menu that simply prompts the user to crea
  
 ##### Changing of File Extensions Enabled
 
-When you change the Preferred File Extension for a Collection, by modifying the Collection Preferences, Notenik will now change the file extensions for all the Notes in the Collection to the new value, instead of only changing the extension of the template file.
+When you change the Preferred File Extension for a Collection, by modifying the Collection Settings, Notenik will now change the file extensions for all the Notes in the Collection to the new value, instead of only changing the extension of the template file.

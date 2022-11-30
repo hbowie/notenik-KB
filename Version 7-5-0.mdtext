@@ -1,6 +1,6 @@
 Title:  Version 7.5.0
 
-Tags:   levels-outline.14 Version History.42 Version 750
+Tags:   levels-outline.14 Version History.43 Version 750
 
 Timestamp: 20211019195505
 
@@ -26,13 +26,13 @@ The addition of the new Advanced Search option caused me to rethink the way Note
 
 + The [[Sort Menu]] can now be found as a submenu beneath the `Collection` menu. 
 + The new `Nav` menu now groups various options for navigating through a Collection, including the new Advanced [[Search]] option. The existing options now found here were previously available beneath the `Note` menu. 
-+ The `Format` menu was removed entirely, and its only entry, `Display Appearance` can now be found just below the application Preferences, within the `Notenik` menu. 
++ The `Format` menu was removed entirely, and its only entry, `Display Appearance` can now be found just below the application Settings, within the `Notenik` menu. 
 
 ##### Added a New Field Label and Type of Class
 
 The [[class]] field is meant to indicate each particular Note's role in terms of its relationship to other Notes in the Collection. When editing, the user will be able to select a Class value from a predetermined list. The usage for this new field is frankly experimental at this point, and will likely continue to evolve in future releases. 
 
-##### Reconfigured Collection Preferences
+##### Reconfigured Collection Settings
 
 The list of possible fields was getting too long to continue to display in one column. And the two tabs weren't really helping. So I eliminated the tabbed display, and arranged the field list into two adjacent columns. Hopefully this will be a bit easier to use. 
 

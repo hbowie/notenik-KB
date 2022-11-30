@@ -60,7 +60,7 @@ Note, however, that with recent versions of Notenik, it's enough to have these [
 
 BTW, you'll see that I'm entering the author names with first names first: in other words, 'Raymond Chandler', as opposed to 'Chandler, Raymond'. I recommend you do the same, and make this practice consistent. 
 
-One other important point is the shortcut assigned to the Collection on the Collection Preferences screen. It should be set to `qauthors`. This is the field that will allow your other Collections to lookup information in this Collection. 
+One other important point is the shortcut assigned to the Collection on the Collection Settings screen. It should be set to `qauthors`. This is the field that will allow your other Collections to lookup information in this Collection. 
 
 ##### Author Works
 
@@ -103,7 +103,7 @@ I'm also using the special [[Work Type]] field, to indicate what sort of work (b
 
 You may have different informational fields you wish to record about each work; these are just the ones I've chosen to use. 
 
-If you look at this Collection's Preferences, you should see that a shortcut of `qworks` has been assigned. 
+If you look at this Collection's Settings, you should see that a shortcut of `qworks` has been assigned. 
 
 ##### Commonplace Book
 

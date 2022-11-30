@@ -14,7 +14,7 @@ The word `lookup` can be used as a field type, but is not intended to be used as
 
 The intent of a lookup field is to allow one Collection to reference Notes stored in a second Collection. 
 
-The second Collection must have had a shortcut assigned to it, which you can do when you [[tailor Collection preferences]]. 
+The second Collection must have had a shortcut assigned to it, which you can do when you [[tailor Collection settings]]. 
 
 Here is an example of how a lookup field might be specified in [[the Collection template file]]. 
 

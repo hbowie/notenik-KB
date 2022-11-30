@@ -1,6 +1,6 @@
 Title:  Version 2.9.0
 
-Tags:   levels-outline.14 Version History.96 Version 290
+Tags:   levels-outline.14 Version History.97 Version 290
 
 Timestamp: 20210627222923
 
@@ -14,12 +14,12 @@ Released on 22 Jan 2020
  
 ##### Enabled the Preferred File Extension to be Changed
 
-The Collection Preferences window is shown when creating a new Collection, but can also be accessed after a Collection has been created. Previously, changing the preferred file extension after initial creation had no effect, but the file extension for the template file will now be changed to reflect the new preferred extension. Notes already created, however, will retain their existing extensions. This should close Issue # 31. 
+The Collection Settings window is shown when creating a new Collection, but can also be accessed after a Collection has been created. Previously, changing the preferred file extension after initial creation had no effect, but the file extension for the template file will now be changed to reflect the new preferred extension. Notes already created, however, will retain their existing extensions. This should close Issue # 31. 
 
  
-##### Collection Preferences Window Redesigned
+##### Collection Settings Window Redesigned
 
-The new Collection Preferences design now has two tabs, one for a scrollable list of fields, and the other for various other Collection Attributes. OK and Cancel buttons are positioned at the bottom of the window, outside of the tabs. A new file path has been added at the very bottom of the window, showing the file system path to the Collection whose preferences are being modified. This should close Issue # 30. 
+The new Collection Settings design now has two tabs, one for a scrollable list of fields, and the other for various other Collection Attributes. OK and Cancel buttons are positioned at the bottom of the window, outside of the tabs. A new file path has been added at the very bottom of the window, showing the file system path to the Collection whose settings are being modified. This should close Issue # 30. 
 
  
 ##### Various Performance Improvements
@@ -27,6 +27,6 @@ The new Collection Preferences design now has two tabs, one for a scrollable lis
 Made various changes intended to improve performance, especially when opening large collections. See Issue # 28. 
 
  
-##### Changes to Collection Preferences Menu
+##### Changes to Collection Settings Menu
 
 Added ellipsis to menu item to indicate that a new window will open before any action occurs. See Issue # 29. Also added a keyboard shortcut of CMD-; (Command semicolon).

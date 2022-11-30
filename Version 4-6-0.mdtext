@@ -1,6 +1,6 @@
 Title:  Version 4.6.0
 
-Tags:   levels-outline.14 Version History.79 Version 460
+Tags:   levels-outline.14 Version History.80 Version 460
 
 Timestamp: 20210627222923
 
@@ -17,7 +17,7 @@ Released on 03 Nov 2020
 This should address issue # 36. 
 
  
-##### Added Collection Prefs Option to Display Titles as Level 1 Headings
+##### Added Collection Settings Option to Display Titles as Level 1 Headings
 
 This should close Issue # 35. 
 

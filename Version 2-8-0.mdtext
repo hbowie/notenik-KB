@@ -1,6 +1,6 @@
 Title:  Version 2.8.0
 
-Tags:   levels-outline.14 Version History.97 Version 280
+Tags:   levels-outline.14 Version History.98 Version 280
 
 Timestamp: 20210627222923
 
@@ -12,9 +12,9 @@ Body:
 
 Released on 14 Jan 2020
  
-##### Made Collection Preferences Scrollable
+##### Made Collection Settings Scrollable
 
-Added vertical scrolling to the Collection Prefs window, to make sure all content is always accessible. This resolves Issue # 14. 
+Added vertical scrolling to the Collection Settings window, to make sure all content is always accessible. This resolves Issue # 14. 
 
  
 ##### Edit View Now Scrollable
@@ -22,9 +22,9 @@ Added vertical scrolling to the Collection Prefs window, to make sure all conten
 The entire Edit view is now scrollable, to ensure all fields are accessible, no matter what size the screen or window, and no matter how many fields a Collection has. This resolves Issue # 13. 
 
  
-##### Improved Display Refresh after Updates to Font Prefs
+##### Improved Display Refresh after Updates to Font Settings
 
-After updating the font info in the Display Prefs, all current Display panels should now be refreshed immediately to reflect the new choices. 
+After updating the font info in the Display Settings, all current Display panels should now be refreshed immediately to reflect the new choices. 
 
  
 ##### Decreased Tolerance for Special Characters in Field Labels

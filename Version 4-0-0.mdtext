@@ -1,6 +1,6 @@
 Title:  Version 4.0.0
 
-Tags:   levels-outline.14 Version History.85 Version 400
+Tags:   levels-outline.14 Version History.86 Version 400
 
 Timestamp: 20210627222923
 
@@ -26,7 +26,7 @@ Double-clicking on a row in the Tags tab will now cause one of two actions:
  
 ##### Table of Contents Generation for Markdown
 
-Adding a line containing only '[toc]' within the body field will now cause that line to be replaced by a table of contents containing links to all of the headings following the '[toc]' line. This will only happen if you have chosen to use the Notenik Markdown parser in the Notenik preferences. 
+Adding a line containing only '[toc]' within the body field will now cause that line to be replaced by a table of contents containing links to all of the headings following the '[toc]' line. This will only happen if you have chosen to use the Notenik Markdown parser in the Notenik settings. 
 
  
 ##### Additional Support for Link field variants

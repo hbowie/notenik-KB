@@ -1,6 +1,6 @@
 Title:  Version 10.5.0
 
-Tags:   levels-outline.14 Version History.5 Version 1050
+Tags:   levels-outline.14 Version History.6 Version 1050
 
 Timestamp: 20211116184349
 
@@ -53,4 +53,4 @@ When looking for a period that ends a sentence, the [[Summarize Mod]] will now t
 
 ##### Other Small Improvements
 
-Also made a few other small improvements, including a fix to the Collection Prefs screen to retain the option to Create Notes for Missing Wiki Link Targets.
+Also made a few other small improvements, including a fix to the Collection Settings screen to retain the option to Create Notes for Missing Wiki Link Targets.

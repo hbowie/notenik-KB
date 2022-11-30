@@ -12,7 +12,7 @@ Class:  version
 
 Body:
 
-In Notenik, each Collection of Notes contains a template file. By customizing this file -- either through the Notenik Collection Preferences, or via your favorite text editor -- you can control the sorts of fields expected to be contained in a Collection: by modifying the list of expected field labels, as well as the expected *type* for each field. 
+In Notenik, each Collection of Notes contains a template file. By customizing this file -- either through the Notenik Collection Settings, or via your favorite text editor -- you can control the sorts of fields expected to be contained in a Collection: by modifying the list of expected field labels, as well as the expected *type* for each field. 
 
 Different field types present different sorts of editing widgets and varying kinds of displays, and also have different sets of functionality associated with them. 
 

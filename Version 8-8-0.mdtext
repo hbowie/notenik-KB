@@ -1,6 +1,6 @@
 Title:  Version 8.8.0
 
-Tags:   levels-outline.14 Version History.25 Version 880
+Tags:   levels-outline.14 Version History.26 Version 880
 
 Timestamp: 20211116184349
 
@@ -25,4 +25,4 @@ Added ability to [[Select a Note for Action]], allowing the user to enter any pa
 
 ##### Expanded Width of Body Editing Field
 
-The Edit tab is generally split into two columns, with field labels on the left, and with values on the right. This arrangement generally works well, especially for fields with compact values, but makes less sense for the body of the Note itself, especially if the text is of any significant length. So the field for the body value now appears below any label field, and spreads out over both columns, allowing more room for text entry. Additionally, if the user has turned off the Collection Preferences option to include an explicit body field label, then the Body label will also be excluded on the Edit tab -- again providing more space for entry of body text.
+The Edit tab is generally split into two columns, with field labels on the left, and with values on the right. This arrangement generally works well, especially for fields with compact values, but makes less sense for the body of the Note itself, especially if the text is of any significant length. So the field for the body value now appears below any label field, and spreads out over both columns, allowing more room for text entry. Additionally, if the user has turned off the Collection Settings option to include an explicit body field label, then the Body label will also be excluded on the Edit tab -- again providing more space for entry of body text.

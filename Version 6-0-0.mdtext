@@ -1,6 +1,6 @@
 Title:  Version 6.0.0
 
-Tags:   levels-outline.14 Version History.64 Version 600
+Tags:   levels-outline.14 Version History.65 Version 600
 
 Timestamp: 20210627222923
 
@@ -26,4 +26,4 @@ Use the Quick Action command beneath the File menu to open the Quick Action wind
  
 ##### Added Collection Shortcuts
 
-You can now specify a shortcut for a Collection in its Collection Prefs window.
+You can now specify a shortcut for a Collection in its Collection Settings window.

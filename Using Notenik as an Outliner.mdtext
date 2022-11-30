@@ -172,7 +172,7 @@ This view just gives you another way to navigate your outline.
 
 ## Opt for Streamlined Reading
 
-If you choose `Collection -> Preferences` *(Cmd-;)*, then you'll see a few helpful options for formatting the Display tab for your Collection. Changing these preferences is purely optional, but you might find some or all of them beneficial when viewing and navigating a Collection being used as an outline.
+If you choose `Collection -> Settings` *(Cmd-;)*, then you'll see a few helpful options for formatting the Display tab for your Collection. Changing these settings is purely optional, but you might find some or all of them beneficial when viewing and navigating a Collection being used as an outline.
 
 + `Include explicit Body field label on Display?`
 

@@ -1,6 +1,6 @@
 Title:  Version 5.8.0
 
-Tags:   levels-outline.14 Version History.67 Version 580
+Tags:   levels-outline.14 Version History.68 Version 580
 
 Timestamp: 20210627222923
 
@@ -21,7 +21,7 @@ Released on 28 Mar 2021
  
 ##### Fixed a Bug that was resulting in a double descending sort
 
-When sorting via the Scripting module, the sort was honoring both the direction specified in the script commands, as well as the direction specified most recently in the Collection preferences. If both were set to descending, then the result would be a double-negative, resulting in an ascending sort. This has been fixed. 
+When sorting via the Scripting module, the sort was honoring both the direction specified in the script commands, as well as the direction specified most recently in the Collection settings. If both were set to descending, then the result would be a double-negative, resulting in an ascending sort. This has been fixed. 
 
  
 ##### Added Page Type as an additional column for notenik-index scripting input

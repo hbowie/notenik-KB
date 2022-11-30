@@ -56,7 +56,7 @@ After saving this web page for you, Notenik will ask that it be opened by your d
 
 ##### Step 7: Adjust Settings
 
-The defaults are to arrange your favorite links into 4 columns, with each column a maximum of 32 lines long, and each column taking up a screen width of 250 pixels. I've found that these defaults work well for me but, if you'd like to adjust them, you can use the Favorites tab within Notenik's application Preferences to bump them up or down, to suit your tastes (and screen real estate).
+The defaults are to arrange your favorite links into 4 columns, with each column a maximum of 32 lines long, and each column taking up a screen width of 250 pixels. I've found that these defaults work well for me but, if you'd like to adjust them, you can use the Favorites tab within Notenik's application Settings to bump them up or down, to suit your tastes (and screen real estate).
 
 The other settings you might want to adjust are your Display Fonts. You can get to these by clicking on the appropriately named button on your toolbar, or by selecting Display Appearance beneath the Format menu. You can then change the Display font and the display size. These settings will primarily affect the appearance of your Notes on the Display tab (for all of your collections -- these settings are not collection-specific), but these same values will also be used for the webpage generated when you select Favorites to HTML beneath the File menu. 
 
@@ -66,7 +66,7 @@ After making changes to any of these settings, you will need to repeat Step 6, o
 
 Once you have the generated HTML looking the way you would like,  you will want to select the generated page's URL from your browser and copy it.
 
-Now go into the Preferences for each web browser that you use, and paste this local file address into the field identifying your homepage, or your home button. You might also want to specify that new browser windows and/or tabs will open to your homepage. 
+Now go into the Settings for each web browser that you use, and paste this local file address into the field identifying your homepage, or your home button. You might also want to specify that new browser windows and/or tabs will open to your homepage. 
 
 That's it! Now whenever you open your web browser, you'll see a nice clean page showing all of your favorite websites, without any advertising or tracking or animation or javascript or cookies or download delays. Just click on any of the titles to be taken to the corresponding website. And sites will be named and categorized and located in a way that makes sense to you, making it easy for you to find the site you are looking for and open it. 
 

@@ -1,6 +1,6 @@
 Title:  Version 6.7.0
 
-Tags:   levels-outline.14 Version History.57 Version 670
+Tags:   levels-outline.14 Version History.58 Version 670
 
 Timestamp: 20210716220208
 
@@ -23,7 +23,7 @@ Released on 19 July, 2021
 
 ##### Added MathJax Support
 
-Added an option to the Collection Preferences to enable [[MathJax Support]]. This will be disabled by default. A copy of MathJax is now included within the app, so that Internet access is not required in order for MathJax to work. 
+Added an option to the Collection Settings to enable [[MathJax Support]]. This will be disabled by default. A copy of MathJax is now included within the app, so that Internet access is not required in order for MathJax to work. 
 
 [MathJax]: https://www.mathjax.org
 

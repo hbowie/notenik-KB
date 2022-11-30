@@ -1,6 +1,6 @@
 Title:  Version 9.7.0
 
-Tags:   levels-outline.14 Version History.13 Version 970
+Tags:   levels-outline.14 Version History.14 Version 970
 
 Timestamp: 20211116184349
 
@@ -21,7 +21,7 @@ Body:
 
 ##### System Appearance Preserved in Generated CSS
 
-Beginning with [[Version 8.7.0]] the user has been able to explicitly set a light or dark appearance for Notenik, overriding whatever the System Setting might be. However, whenever Notenik was generating CSS for use outside of Notenik (or within a sample `display.css` file), that CSS would still default to the general System appearance. This change fixes that, so that the generated CSS will be based on the user's current wishes, as expressed by the **App Appearance** setting on the **General** tab of the **Notenik Preferences**. 
+Beginning with [[Version 8.7.0]] the user has been able to explicitly set a light or dark appearance for Notenik, overriding whatever the System Setting might be. However, whenever Notenik was generating CSS for use outside of Notenik (or within a sample `display.css` file), that CSS would still default to the general System appearance. This change fixes that, so that the generated CSS will be based on the user's current wishes, as expressed by the **App Appearance** setting on the **General** tab of the **Notenik Settings**. 
 
 ##### Share Menu Item Renamed
 
@@ -35,7 +35,7 @@ The HTML code produced by Notenik has been prettified a bit, with better spacing
 
 When viewing a Collection containing a [[level]] field, and when viewing the List of Notes sorted by **Seq + Title**, the title of each Note will be indented to indicate the level of each particular Note within the implied outline. 
 
-The default is to indent one space per level, but with this change the spacing can be adjusted on the **General** tab of the **Notenik Preferences**.
+The default is to indent one space per level, but with this change the spacing can be adjusted on the **General** tab of the **Notenik Settings**.
 
 ##### New Collection Title Taken from Folder Name
 

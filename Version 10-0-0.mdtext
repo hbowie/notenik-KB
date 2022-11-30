@@ -1,6 +1,6 @@
 Title:  Version 10.0.0
 
-Tags:   levels-outline.14 Version History.10 Version 1000
+Tags:   levels-outline.14 Version History.11 Version 1000
 
 Timestamp: 20211116184349
 
@@ -45,4 +45,4 @@ When using the [[Filter Module Parameters]] within [[Script Files]], the string 
 
 ##### Removed Option to Grant Access w/o Confirmation
 
-Turns out (and I now remember I had discovered this once before) that granting access doesn't work without the confirmation dialog! So I've removed this option from the Collection Preferences, and updated the section on [[Disk Access Permissions]].
+Turns out (and I now remember I had discovered this once before) that granting access doesn't work without the confirmation dialog! So I've removed this option from the Collection Settings, and updated the section on [[Disk Access Permissions]].

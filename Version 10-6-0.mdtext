@@ -1,6 +1,6 @@
 Title:  Version 10.6.0
 
-Tags:   levels-outline.14 Version History.4 Version 1060
+Tags:   levels-outline.14 Version History.5 Version 1060
 
 Timestamp: 20211116184349
 
@@ -12,20 +12,20 @@ Level:  3 - Section
 
 Teaser:
 
-Increased interoperability of Notenik by adding explicit Collection prefs allowing the user to specify their desired format for their Note files (Notenik, YAML Frontmatter, MultiMarkdown, etc.), as well as whether they wish to have tags prefixed with hash signs; added Decision (as in a judicial decision) as a new Work Type; added a new Image Slug merge variable, making it easier to format images (with optional captions) in merge templates. 
+Increased interoperability of Notenik by adding explicit Collection settings allowing the user to specify their desired format for their Note files (Notenik, YAML Frontmatter, MultiMarkdown, etc.), as well as whether they wish to have tags prefixed with hash signs; added Decision (as in a judicial decision) as a new Work Type; added a new Image Slug merge variable, making it easier to format images (with optional captions) in merge templates. 
 
 
 Class:  version
 
 Body:
 
-##### Added Explicit Collection Pref for File Format
+##### Added Explicit Collection Setting for File Format
 
-The user can now select a file format and explicitly declare that for the Collection when they [[Tailor Collection Preferences]]. This can increase interoperability of Notenik Collections when using other software.
+The user can now select a file format and explicitly declare that for the Collection when they [[Tailor Collection Settings]]. This can increase interoperability of Notenik Collections when using other software.
 
 ##### Added Explicit Hash Tag Option
 
-The user can now explicitly state their preference for saving their Tags values with hash tags ('`#`') at the start of each value when they [[Tailor Collection Preferences]]. This can increase interoperability of Notenik Collections when using other software.
+The user can now explicitly state their preference for saving their Tags values with hash tags ('`#`') at the start of each value when they [[Tailor Collection Settings]]. This can increase interoperability of Notenik Collections when using other software.
 
 ##### Added Decision as a new Work Type
 

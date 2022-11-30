@@ -22,13 +22,13 @@ I'll try to break this down into a rough sequence of separate steps, to make it 
 
 Notenik does not require Full Disk Access, and it is not set to request it. But if you want to use Notenik to its fullest as a project launcher, you might want to give it broad access to your files and folders. 
 
-Here's the way I do this. In the Notenik Application Preferences, I set the **General Pref** of **Grant Access** to the value **At Startup**. Then whenever I launch Notenik (something I usually do once at the start of each day), Notenik will prompt me to select a folder to which it should have access. I then select my top-level user folder -- *hbowie*, in my case -- and click **Grant Access**. From that point on, Notenik will have access to anything in my user folder, and I won't have to worry about any of my launch requests being thwarted due to lack of fresh permissions. 
+Here's the way I do this. In the Notenik Application Settings, I set the **General Setting** of **Grant Access** to the value **At Startup**. Then whenever I launch Notenik (something I usually do once at the start of each day), Notenik will prompt me to select a folder to which it should have access. I then select my top-level user folder -- *hbowie*, in my case -- and click **Grant Access**. From that point on, Notenik will have access to anything in my user folder, and I won't have to worry about any of my launch requests being thwarted due to lack of fresh permissions. 
 
 As an alternative to setting this as a Notenik preference, you can just use the **Grant Folder Access** menu item at any point later to accomplish the same thing. 
 
 ##### 2. Set Up Your Project Launcher 
 
-Create a **New Collection**. You can store it wherever you like, but I placed mine in the **Notenik folder within iCloud Drive**, just to make it easy to access. You can initialize it as a **Sequenced List**. However you initialize it, though, make sure the **Link**, **Seq** and **Level** fields are selected in your **Collection Preferences**, and then use **Collection > Sort** to sequence your list by **Seq + Title**. Name it however you like, but I called mine *Project Launcher*, just to show that I had no fear of the obvious. 
+Create a **New Collection**. You can store it wherever you like, but I placed mine in the **Notenik folder within iCloud Drive**, just to make it easy to access. You can initialize it as a **Sequenced List**. However you initialize it, though, make sure the **Link**, **Seq** and **Level** fields are selected in your **Collection Settings**, and then use **Collection > Sort** to sequence your list by **Seq + Title**. Name it however you like, but I called mine *Project Launcher*, just to show that I had no fear of the obvious. 
 
 ##### 3. Make the Project Launcher Essential
 

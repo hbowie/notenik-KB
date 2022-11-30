@@ -34,6 +34,6 @@ A contiguous range of Notes may be deleted from a Collection in one fell swoop b
 
 3. Then select the **Delete Range** option from the menu. 
 
-4. You will always see a Confirmation Dialog before the Notes are deleted (whether or not this App Pref is set for the normal single-Note deletion). Click OK if everything looks good, and the entire range of Notes will be removed from the Collection, and the corresponding Note files will be moved to the Trash.  
+4. You will always see a Confirmation Dialog before the Notes are deleted (whether or not this App Setting is set for the normal single-Note deletion). Click OK if everything looks good, and the entire range of Notes will be removed from the Collection, and the corresponding Note files will be moved to the Trash.  
 
 You may alter the font size used on the Edit tab through use of the commands available to you under the View menu.

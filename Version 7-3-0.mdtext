@@ -1,6 +1,6 @@
 Title:  Version 7.3.0
 
-Tags:   levels-outline.14 Version History.45 Version 730
+Tags:   levels-outline.14 Version History.46 Version 730
 
 Timestamp: 20210925232409
 
@@ -35,11 +35,11 @@ After you execute the [[Open Parent Realm]] command (either explicitly via the `
 
 ##### Streamlined New Collection process
 
-It seemed a bit confusing to have so many different options for creating a new Collection, so I've combined them. Now there is just one `File` menu option, that says `New Collection...`. This option walks you through several screens where you can pick a location, pick a name, and pick a Collection type, and then shows you the Collection Preferences screen where you can make any final adjustments to the configuration of your New Collection.
+It seemed a bit confusing to have so many different options for creating a new Collection, so I've combined them. Now there is just one `File` menu option, that says `New Collection...`. This option walks you through several screens where you can pick a location, pick a name, and pick a Collection type, and then shows you the Collection Settings screen where you can make any final adjustments to the configuration of your New Collection.
 
 ##### Saving Security-Scoped Bookmarks
 
-Notenik has been enhanced to try to extend the life of access permissions for Collections assigned Shortcuts, so as to reduce the number of times a user has to re-authorize access to a folder. See [[Tailor Collection Preferences]] for info on assigning a Shortcut to a Collection. 
+Notenik has been enhanced to try to extend the life of access permissions for Collections assigned Shortcuts, so as to reduce the number of times a user has to re-authorize access to a folder. See [[Tailor Collection Settings]] for info on assigning a Shortcut to a Collection. 
 
 ##### Undo Provided for Note Deletions
 

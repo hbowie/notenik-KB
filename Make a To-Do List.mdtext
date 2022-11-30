@@ -18,7 +18,7 @@ Name the folder 'To Do' or 'Tasks' or something similar. Locate the new folder i
 
 ### Step 2: Configure with Additional Fields
 
-Once you've selected the folder for the Collection, Notenik will present you with the Preferences for this Collection. In addition to the usual four fields (Title, Tags, Link and Body) you'll want to select the [[Status]], [[Date]] and [[Recurs]] fields by checking the boxes next to these Field names. You might also wish to include the [[Seq]] field if you'd like to identify a priority for each item. Click OK once you're done. 
+Once you've selected the folder for the Collection, Notenik will present you with the Settings for this Collection. In addition to the usual four fields (Title, Tags, Link and Body) you'll want to select the [[Status]], [[Date]] and [[Recurs]] fields by checking the boxes next to these Field names. You might also wish to include the [[Seq]] field if you'd like to identify a priority for each item. Click OK once you're done. 
 
 ### Step 3: Start Adding Some Tasks
 

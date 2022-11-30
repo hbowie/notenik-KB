@@ -1,6 +1,6 @@
 Title:  Version 5.0.0
 
-Tags:   levels-outline.14 Version History.75 Version 500
+Tags:   levels-outline.14 Version History.76 Version 500
 
 Timestamp: 20210627222923
 
@@ -27,7 +27,7 @@ This should resolve Issue # 42.
  
 ##### Fixed Bug in Persisting Custom CSS
 
-Notenik allows custom CSS to be entered in the Display Fonts Preferences, but these custom entries were being overwritten when Notenik was relaunched. This has now been corrected. This should close Issue # 41. 
+Notenik allows custom CSS to be entered in the Display Fonts Settings, but these custom entries were being overwritten when Notenik was relaunched. This has now been corrected. This should close Issue # 41. 
 
  
 ##### Fixed bug handling parentheses within Link text

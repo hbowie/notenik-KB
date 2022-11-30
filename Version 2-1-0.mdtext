@@ -1,6 +1,6 @@
 Title:  Version 2.1.0
 
-Tags:   levels-outline.14 Version History.104 Version 210
+Tags:   levels-outline.14 Version History.105 Version 210
 
 Timestamp: 20210627222923
 
@@ -22,6 +22,6 @@ Beneath the Collection menu an option has been added to perform a Tags Mass Chan
 The Menu command can be found beneath the Note menu. The keyboard shortcut is CMD-L. 
 
  
-##### Added Favorites Tab to Notenik Preferences
+##### Added Favorites Tab to Notenik Settings
 
-The user can now change the Columns per Page, the Rows per Column, and the width of each Column on the Favorites tab of the application Preferences.
+The user can now change the Columns per Page, the Rows per Column, and the width of each Column on the Favorites tab of the application Settings.

@@ -22,7 +22,7 @@ If Notenik stored your notes in a database, then establishing this bidirectional
 
 But because Notenik stores all of your Notes in text files, the mechanism for providing backlinks is a little tricky, and is also more visible to you, the user. 
 
-The first step in making backlinks visible is to select `Backlinks` as a selected field for your Collection when you [[Tailor Collection Preferences]]. When you select the `Backlinks` field, you will also automatically enable the [[Wiki Links]] field. Neither of these fields are user-editable; in fact, these two fields will not show up on the Edit tab at all. Instead, they will be automatically maintained by Notenik. They will be visible as normal Notenik fields if you use a text editor to view the files for Notes with such links. 
+The first step in making backlinks visible is to select `Backlinks` as a selected field for your Collection when you [[Tailor Collection Settings]]. When you select the `Backlinks` field, you will also automatically enable the [[Wiki Links]] field. Neither of these fields are user-editable; in fact, these two fields will not show up on the Edit tab at all. Instead, they will be automatically maintained by Notenik. They will be visible as normal Notenik fields if you use a text editor to view the files for Notes with such links. 
 
 These fields will be visible on the Display tab. If you click on the disclosure triangle preceding the field label, then the related links will appear, and you may click on any of them in order to proceed to the linked Note. 
 

@@ -1,6 +1,6 @@
 Title:  Version 10.9.0
 
-Tags:   settings
+Tags:   levels-outline.14 Version History.1 Version 1090, settings
 
 Timestamp: 20220115163704
 
@@ -12,6 +12,15 @@ Class:  version
 
 Body:
 
+##### Changing 'Preferences' to 'Settings'
+
+Changing references to `Preferences` to `Settings`, in line with the Ventura changes, including the Collection Preferences (now called Settings).
+
 ##### Fixed Collection Setting to Save Tags with Hash Signs
 
-The Collection Setting to Save Tags with a preceding `#` sign was no longer working. This has been corrected. 
+The Collection Setting to Save Tags with a preceding `#` sign was no longer working. This has been corrected.
+
+##### Improved Logic When Opening an '.nnk' File
+
+Improved Notenik logic when handling a `.nnk` file that has been double-clicked or dragged onto the Notenik icon. 
+

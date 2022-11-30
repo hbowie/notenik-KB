@@ -16,7 +16,7 @@ If you're a serious Notenik user, then you may find yourself with multiple Colle
 
 Navigating around to all of these Collections in all of these locations can be a bit challenging at times. However, it's become a bit easier with the introduction of Collection Shortcuts. 
 
-Each Collection can be assigned a shortcut in its Collection Preferences window. You can enter any brief, unique identifier for a Collection in this field. Upper-case characters will be converted to lower-case, and any spacing and punctuation will be removed. The idea is to make a shortcut easy and quick to type. 
+Each Collection can be assigned a shortcut in its Collection Settings window. You can enter any brief, unique identifier for a Collection in this field. Upper-case characters will be converted to lower-case, and any spacing and punctuation will be removed. The idea is to make a shortcut easy and quick to type. 
 
 Once you've entered some shortcuts, you can make use of them through the new Quick Action menu item, found beneath the Files menu, and easily accessed by pressing Ctrl-Q. This menu item will then bring up the new Quick Action window. 
 

@@ -14,7 +14,7 @@ Body:
 
 Notenik offers three levels of templating.
 
-At the Collection level, a special file named `template.txt` contains an overall template to be applied to every Note in that Collection. The Collection template file defines the field labels and types that will be available for the Collection, as well as allowing customization of values and formatting for some field types. This file is ordinarily updated through the Collection Preferences window, but details can be tweaked directly using your preferred text editor. 
+At the Collection level, a special file named `template.txt` contains an overall template to be applied to every Note in that Collection. The Collection template file defines the field labels and types that will be available for the Collection, as well as allowing customization of values and formatting for some field types. This file is ordinarily updated through the Collection Settings window, but details can be tweaked directly using your preferred text editor. 
 
 If you use a [[Class]] field for your Collection, then you can also supply a separate template file for each class value
 

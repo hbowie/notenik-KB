@@ -1,6 +1,6 @@
 Title:  Version 4.1.0
 
-Tags:   levels-outline.14 Version History.84 Version 410
+Tags:   levels-outline.14 Version History.85 Version 410
 
 Timestamp: 20210627222923
 
@@ -17,9 +17,9 @@ Released on 26 Jun 2020
 Fixed a bug that sometimes prevented the Body field from expanding to use all available space on the Edit Tab
 
  
-##### Added Collection Pref for displaying a Body field label
+##### Added Collection Setting for displaying a Body field label
 
-Added a check box to the Collection preferences to control display of an explicit Body field label on the Display tab. 
+Added a check box to the Collection settings to control display of an explicit Body field label on the Display tab. 
 
 This closes issue #20.
  

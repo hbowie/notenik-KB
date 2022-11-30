@@ -22,7 +22,7 @@ Notenik will then populate the frontmost Collection with information about the a
 
 This is similar to an `Import` operation, but with some key differences:
 
-+ If not already present, Notenik will add the normal App Catalog fields to the Collection Preferences. 
++ If not already present, Notenik will add the normal App Catalog fields to the Collection Settings. 
 
 + If a Note for an app does not yet exist, then one will be added; however, if such a Note already exists, then it will be updated as appropriate to reflect the latest information found in the input Applications folder.
 
