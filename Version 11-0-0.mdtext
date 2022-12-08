@@ -1,0 +1,44 @@
+Title:  Version 11.0.0
+
+Tags:   levels-outline.14 Version History.1 Version 1100
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Date:   08 Dec 2022
+
+Level:  3 - Section
+
+Teaser:
+
+Added option to format a shared Note as a Microblog post; Added option to send a shared Note to your Web browser, where it can be easily printed or saved as a PDF; Wiki link formatting now defaults more reasonably when processing with a Merge Template; Web Book navigation now available when using Merge Templates; Corrected a bug that could cause a crash with Lookup fields.
+
+
+Class:  version
+
+Body:
+
+##### Added Option to Format a Shared Note as a Microblog Post 
+
+When using the [[Share with Options]] command, a new option to format a Note for posting to social media (such as Mastodon) is now available. 
+
+##### Added Option to send a Shared Note to your Web Browser
+
+A new Destination option has been added to the [[Share with Options]] screen, allowing the formatted content to be opened in your preferred Web browser. Once you have it there, it can be easily printed or saved as a PDF. 
+
+##### Wiki Link Formatting Now Defaults More Reasonably
+
+When using a [[Merge Template]], more reasonable defaults are now assumed when formatting [[Wiki Links]]. When an [[output command]] follows a [[nextrec command]], a [[Wiki-Style Links Mod]] of '1' will be assumend; when an output command precedes a nextrec command, a mod of '2' will be assumed. 
+
+##### Web Book Navigation Now Available When Using Merge Templates
+
+When using a [[Merge Template]] to create web pages from your Notes, a number of new [[Derived Variables]] are now available that can be used to generate the same kind of navigation available when you [[Export as Web Book]].
+
++ [[Parent Slug]] -- Used to link from any page to its parent in the hierarchy. 
++ [[Children Slug]] -- Used to list children of the current page. 
++ [[Next Slug]] -- Used to provide a link to the next page in the sorted list. 
+
+##### Corrected a Bug That Could Cause a Crash with Lookup Fields
+
+When using [[Lookup]] fields, the app could sometimes crash. This has been corrected.

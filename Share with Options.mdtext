@@ -1,0 +1,42 @@
+Title:  Share with Options
+
+Tags:   levels-outline.8 Getting Data Into and Out of Notenik.1 Copy Cut Paste and Share your Notes.1 Share with Options
+
+Timestamp: 20211116184349
+
+Seq:    8.1.1
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The **Share w/Options...** command beneath the **Note** menu offers many powerful options for sharing the current Note. 
+
+These options fall into three different categories. 
+
+##### Content
+
+You can choose to share the entire Note, with all of its fields, or only the Body of the Note. 
+
+##### Destination
+
+Choose from one of the following options. 
+
++ Copy to Clipboard -- You can then paste the results anywhere else on your Mac where text is accepted. 
++ Write to a File -- You will be prompted to supply a file name and location, and the results will be written to disk. 
++ Open in Browser -- The results will be written to a disk file within a sub-folder named `browse`, using a file name generated from your Note's title, and your preferred Web browser will then be asked to open this file. Once the file is open within your browser, of course, then you can print the page, or generate a PDF from it. Note that, for this option, the format should generally be set to the **HTML Document** option.  
+
+##### Format
+
+Choose from any of the following options. 
+
++ HTML Document -- This will convert the selected content to a complete HTML document that can be displayed in a Web browser. 
++ HTML Fragment -- This will convert the selected content to a chunk of HTML suitable for insertion into an HTML document. 
++ HTLM Blockquote -- This will place the Body of the Note within `blockquote` tags, and will try to appropriately format any other fields pertinent to a citation. 
++ JSON -- This will convert the selected content (typically an Entire Note) into a block of JSON code. 
++ Markdown -- This gives you the selected content without any converstion to HTML. 
++ Markdown Quote -- Similar to HTML Blockquote, but without conversion to HTML. 
++ Notenik -- This is the same format used when saving a Note to disk. 
++ Microblog Post -- Formats your Note in a manner suitable for Mastodon (among others). Body comes first, followed by Tags, formatted with hashes and CamelCase.

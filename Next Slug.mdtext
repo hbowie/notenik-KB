@@ -1,0 +1,17 @@
+Title:  Next Slug
+
+Tags:   levels-outline.11 Merge Templates.2 Merge Variables.2 Derived Variables
+
+Timestamp: 20221207191840
+
+Seq:    11.2.2.7
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+A special variable name of `next-slug` can be used in a [[Merge Template]] in order to obtain a link that points from the current Note to the next note in the specified sort sequence. 
+
+The resulting HTML will generate something that looks much like the link to each following Note created when you [[Export as Web Book]].

@@ -1,0 +1,17 @@
+Title:  Children Slug
+
+Tags:   levels-outline.11 Merge Templates.2 Merge Variables.2 Derived Variables
+
+Timestamp: 20221207191236
+
+Seq:    11.2.2.9
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+When a [[Seq]] field is specified for a Collection, possibly in combination with a [[Level]] field, then a special variable name of `children-slug` can be used in a [[Merge Template]] in order to obtain an unordered (aka *bulleted*) list of items following the current Note, and at the next lower depth. If such children exist, then the entire list will be preceded by a horizontal rule, followed by a heading with the word 'Contents'.  
+
+The resulting HTML will generate something that looks much like the list of children created when you [[Export as Web Book]].
