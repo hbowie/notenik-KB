@@ -1,0 +1,15 @@
+Title:  Version 11.1.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Column Widths Now Retained
+
+When you resize one or more columns on the List tab, Notenik will now retain your preferred column widths and restore them for you the next time the Collection is opened. 
