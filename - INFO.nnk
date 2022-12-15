@@ -8,7 +8,7 @@ Sort Descending: false
 
 Other Fields Allowed: false
 
-Last Index Selected: 186
+Last Index Selected: 304
 
 Mirror Auto Index: false
 
@@ -30,9 +30,11 @@ Shortcut: nkb
 
 Web Book Folder: /Users/hbowie/Sites/notenik-web/knowledge-base
 
-Window Numbers: 1276.0;0.0;1280.0;1415.0;433.5;
-
 Note File Format: nnk
 
 Hash Tags: false
+
+Window Numbers: 1276.0;0.0;1280.0;1415.0;433.5;
+
+Column Widths: statusdigit: 20, 30, 50; rank: 50, 80, 250; seq: 30, 80, 250; x: 12, 20, 50; date: 80, 120, 500; title: 200, 445, 1500; klass: 60, 80, 150; author: 100, 200, 1000; tags: 50, 100, 1200; dateadded: 100, 180, 250; datemod: 100, 180, 250; 
 

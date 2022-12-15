@@ -12,4 +12,8 @@ Body:
 
 ##### Column Widths Now Retained
 
-When you resize one or more columns on the List tab, Notenik will now retain your preferred column widths and restore them for you the next time the Collection is opened. 
+When you resize one or more columns on the List tab, Notenik will now retain your preferred column widths and restore them for you the next time the Collection is opened.
+
+##### Additional Microblog Convenience Features
+
+The Notenik General Settings now provide for the entry of a Microblog domain name and a Microblog handle. Entry of a domain will provide some additional functionality when copying a formatted Microblog post to the Clipboard from the [[Share with Options]] window. Entry of a domain and a handle will enable a convenience function for viewing your Microblog profile. These new convenience features have been provided with the general intent that they be used with [Mastodon](https://en.wikipedia.org/wiki/Mastodon_(social_network)). 

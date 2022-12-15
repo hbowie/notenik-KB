@@ -40,3 +40,16 @@ Choose from any of the following options.
 + Markdown Quote -- Similar to HTML Blockquote, but without conversion to HTML. 
 + Notenik -- This is the same format used when saving a Note to disk. 
 + Microblog Post -- Formats your Note in a manner suitable for Mastodon (among others). Body comes first, followed by Tags, formatted with hashes and CamelCase.
+
+##### Posting to a Microblog
+
+On the Notenik General Settings you can set a Microblog handle and a Microblog domain for yourself. 
+
+The handle should be entered without a preceding `@` sign. 
+
+The domain should be entered without a preceding `@` sign, and without a preceding `https://`.
+
+If you have entered a domain, then if you later Share a Note with a format option of 'Microblog Post', and a destination of 'Copy to Clipboard', then Notenik will open the domain in your preferred Web browser after copying the formatted post to the clipboard. This makes it easy to paste the formatted post into a waiting text entry box.
+
+If you have entered a handle and a domain, and if the domain points to a Mastodon server, then invoking the option beneath the **Notenik** menu for **Mastodon Profile** will cause your preferred Web browser to open your profile page on your Mastodon server. 
+ 
