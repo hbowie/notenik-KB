@@ -1,0 +1,33 @@
+Title:  Import Settings
+
+Timestamp: 20221224235509
+
+Seq:    8.2.2
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+For certain types of Imports -- currently only for CSV and Tab-delimited files -- Notenik will allow the user to adjust a couple of important Import Settings. 
+
+##### Additional Fields
+
+This setting tells Notenik how to handle fields found in the Import file that do not already exist in the Collection. 
+
++ Ignore -- Additional fields are ignored. This is the default setting. 
+
++ Add -- Additional fields will be added to the Collection. 
+
++ Replace -- Additional fields will be added to the Collection and, in addition, a field named "Name" or "Full Name" will be used as the new [[Title]] field for the Collection. This option should only be used for a new Collection, and existing Notes should probably be deleted after the Import operation has been completed. 
+
+##### Rows (aka Notes)
+
+This setting tells Notenik how to handle the rows (potential Notes) found in the import file. 
+
++ Add -- All rows in the import file are added, becoming new Notes. 
+
++ Match and Add -- Before adding a new Note, Notenik will first look for a match for each imported row and, if an existing Note with a matching Title field is found, then any data found on the imported row will replace the data for the corresponding fields in the existing Note. Imported rows that do not match existing Notes will be added as new Notes. 
+
++ Match Only -- Similar to *Match and Add*, but non-matching rows will be dropped, and no new Notes will be created. 

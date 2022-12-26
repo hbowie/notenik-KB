@@ -1,0 +1,23 @@
+Title:  Version 11.2.0
+
+Timestamp: 20211116184349
+
+Seq:    14.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Additional Import Settings Added
+
+Powerful new [[Import Settings]] are now available when importing data from a CSV or tab-delimited file.
+
+##### Added a Donate Menu Item
+
+A **Donate via Ko-fi...** menu item has been added beneath the **Notenik** menu. Selecting this item will take you to the Ko-fi site, which will allow you to make a small donation to support my work.
+
+##### Improved HTML recognition
+
+Improved the ability of the [[Notenik Markdown parser]] to recognize a block of HTML. A block starting with a `script` tag was not being recognized. This has been corrected.
