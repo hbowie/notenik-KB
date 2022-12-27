@@ -22,6 +22,8 @@ The following commands are supported.
 
 ### Open 
 
+This command opens a Collection and, optionally, a specific Note within that Collection. 
+
 Following is a sample URL:  
 
 	notenik://open?shortcut=todo&id=pickupmilk
@@ -67,6 +69,31 @@ Again, let's break this down.
 +  `body=You%20gotta` - The body of the new Note. Again, this will almost always require percent encoding. 
 
 Other fields may also be specified for a new Note, using a similar *label=value* convention.
+
+### Expand
+
+This command expands the specified tag on the Tags tab of the Collection window.  
+
+Following is a sample URL:  
+
+	notenik://expand?shortcut=todo&tag=shopping
+
+Let's break this down:
+
++ `notenik://` - The custom scheme that will invoke the Notenik app. 
++ `expand` - The Notenik command to expand a tag. 
++ `?` - A question mark indicates the end of the command and the beginning of the query string. 
++ `shortcut=todo` - The shortcut identifying the Collection to be opened. Note that shortcuts are defined in such a way that they will generally *not* need to be percent encoded. 
++ `path=Users/user1/Sites/site1` - Specifying the complete path would be an alternate way of identifying the Collection to be opened. Path values generally *will* require percent encoding. 
++ `&` - An ampersand is used to separate each `label=value` parameter from the next. 
++ `tag=shopping` - The tag to be expanded. 
+
+The `expand` command accepts the following parameters following the question mark:
+
++ `shortcut` - The shortcut for the Collection to be opened. 
++ `path` - The complete path to the Collection to be opened, with percent encoding. 
++ `tag` - The tag to be expanded. 
+
 
 ### Help
 

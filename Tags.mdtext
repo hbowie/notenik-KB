@@ -25,9 +25,9 @@ Tags may be used to group related notes into categories. One or more tags may be
 
 When editing, the tags field will appear as a line of tokens, making it easier to pick from a list of tags that have already been created within the Collection. 
 
-For display purposes, tags will often appear in italics, above the title field, and without any identifying label. 
-
 Click on the Tags tab to see your Notes organized by tags, instead of appearing in a straight List. If a Note has multiple Tags assigned, then it will appear multiple times on the Tags tab, once for each Tag. By adding multiple levels to your Tags, you can effectively organize your Notes into an outline.
+
+For display purposes, tags will often appear in italics, above the title field, and without any identifying label. When tags appear in this way, they are clickable, and clicking on a tag will take you to the **Tags** tab on the left side of the Collection window, will reveal all of the Notes having that tag, and will hide any Notes that might otherwise have appeared above the selected tag. In other words, clicking on the tag for a Note will quickly show you all of the Notes with that same tag. 
 
 There is an option beneath the Sort menu to sort your list of Notes by Tags plus Title fields. 
 

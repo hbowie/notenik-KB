@@ -10,6 +10,14 @@ Class:  version
 
 Body:
 
+##### Display Tags Are Now Clickable Links
+
+For Display purposes, [[tags]] will often appear in italics, above the title field, and without any identifying label. When tags appear in this way, they are now clickable, and clicking on a tag will take you to the **Tags** tab on the left side of the Collection window, will reveal all of the Notes having that tag, and will hide any Notes that might otherwise have appeared above the selected tag. In other words, clicking on the tag for a Note will quickly show you all of the Notes with that same tag. 
+
+##### Added Custom URL Command to Expand a Tag
+
+Notenik's [[Custom URL Scheme]] now includes an *Expand* command that will expand the given tag, as shown on the **Tags** tab. 
+
 ##### Additional Import Settings Added
 
 Powerful new [[Import Settings]] are now available when importing data from a CSV or tab-delimited file.
