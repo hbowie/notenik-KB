@@ -18,6 +18,10 @@ For Display purposes, [[tags]] will often appear in italics, above the title fie
 
 Notenik's [[Custom URL Scheme]] now includes an *Expand* command that will expand the given tag, as shown on the **Tags** tab. 
 
+##### Hash Mark in the Search Field restricts Search to Tags Field
+
+When performing a simple [[search]] using the search field in the toolbar, prefixing the search text with a hash mark ('`#`') will cause Notenik to look only in the Tags field for the search string.
+
 ##### Additional Import Settings Added
 
 Powerful new [[Import Settings]] are now available when importing data from a CSV or tab-delimited file.

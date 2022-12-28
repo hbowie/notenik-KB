@@ -36,5 +36,5 @@ Hash Tags: false
 
 Window Numbers: 87.0;0.0;1280.0;1415.0;433.5;
 
-Column Widths: seq: 30, 80, 250; dateadded: 100, 180, 250; statusdigit: 20, 30, 50; x: 12, 20, 50; title: 200, 445, 1500; rank: 50, 80, 250; author: 100, 200, 1000; tags: 50, 100, 1200; klass: 60, 80, 150; date: 80, 120, 500; datemod: 100, 180, 250; 
+Column Widths: author: 100, 200, 1000; statusdigit: 20, 30, 50; x: 12, 20, 50; tags: 50, 100, 1200; dateadded: 100, 180, 250; seq: 30, 80, 250; datemod: 100, 180, 250; klass: 60, 80, 150; date: 80, 120, 500; rank: 50, 80, 250; title: 200, 445, 1500; 
 
