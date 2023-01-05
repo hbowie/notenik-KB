@@ -22,6 +22,10 @@ Notenik's [[Custom URL Scheme]] now includes an *Expand* command that will expan
 
 When performing a simple [[search]] using the search field in the toolbar, prefixing the search text with a hash mark ('`#`') will cause Notenik to look only in the Tags field for the search string.
 
+##### Note Selector Now Supports Matching on Tags
+
+When using the [[Note Selector]], the user may now start the identifying text with a hash mark, indicating that the following characters should be matched against the Tags field, rather than the Title field. 
+
 ##### Additional Import Settings Added
 
 Powerful new [[Import Settings]] are now available when importing data from a CSV or tab-delimited file.
@@ -33,3 +37,7 @@ A **Donate via Ko-fi...** menu item has been added beneath the **Notenik** menu.
 ##### Improved HTML recognition
 
 Improved the ability of the [[Notenik Markdown parser]] to recognize a block of HTML. A block starting with a `script` tag was not being recognized. This has been corrected.
+
+##### Title Field Now Checking for bad characters
+
+Notenik will now ensure that a [[Title]] field is not allowed to contain any carriage return or tab characters. 

@@ -20,9 +20,13 @@ If you exercise this command, then you will see a new window titled `Note Select
 
 At the very top of this window, you will see a dropdown menu from which you may select a Collection other than the one you are currently working in (using the [[Collection Shortcuts]] that have been assigned). Leave this blank (its initial state), and you will be selecting a Note from the current Collection. Select another Collection, however, and your subsequent Note selection will be applied to that second Collection. 
 
-Just below the `Collection Shortcut` field, you will see an invitation to `Enter 3 or more characters from a Note Title`.
+Just below the `Collection Shortcut` field, you will see an invitation to `Enter 3 or more characters to identify a Note`.
 
-If you start typing in the field just below, then, once you've entered three characters or more, you will see a list of Notes appear a little farther below. This list will be updated dynamically as you type, showing any and all Notes whose Title values (or [[AKA]] values, if you're using that field) contain the characters you've entered, in the entered sequence. Case (upper- or lower-) will be ignored for the purpose of comparison. The first Note in the dynamic list will be selected by default, but you can use your pointer to select a different Note, if desired, or use the up and down arrows on your keyboard to move through the list. 
+If you start typing in the field just below, then, once you've entered three characters or more, you will see a list of Notes appear a little farther below. This list will be updated dynamically as you type, showing any and all Notes whose Title values (or [[AKA]] values, if you're using that field) contain the characters you've entered, in the entered sequence. Case (upper- or lower-) will be ignored for the purpose of comparison. 
+
+If the first identifying character supplied is a hash mark ('`#`'), then the following characters will be used to select matching tags, rather than matching titles. An equals sign ('`=`') or a pipe symbol ('`|`') can then be used to indicate that following characters should be used to select matching titles, within the set of Notes with matching tags. If a hash mark is used to specify tag matching, then the Note identifiers in the dynamic list will include each Note's tags, followed by its title. 
+
+The first Note in the dynamic list will be selected by default, but you can use your pointer to select a different Note, if desired, or use the up and down arrows on your keyboard to move through the list. 
 
 Once you have selected your target Note, you can select any of the following actions from the menu at the bottom of the window. Alternatively, you can use the keyboard shortcut indicated below to select and then execute the desired action. Note that the normal actions associated with these shortcuts will be overridden by the ones below, so long as the `Note Selector` window is frontmost. 
 

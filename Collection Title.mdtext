@@ -1,0 +1,15 @@
+Title:  Collection Title
+
+Timestamp: 20211116184349
+
+Seq:    5.4.1
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+When you [[Tailor Collection Settings]], the first field presented to you will be the Collection Title. 
+
+A default Collection Title will be assigned by Notenik based on the name of the folder containing the Collection, as well, optionally, of one or more of its parents. 
