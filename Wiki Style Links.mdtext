@@ -1,12 +1,12 @@
 Title:  Wiki Style Links
 
-Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.3 Wiki Style Links
+Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser.3 Wiki Style Links
 
 AKA:    wiki link
 
 Timestamp: 20210607233023
 
-Seq:    9.2.3
+Seq:    10.2.3
 
 Level:  4 - Subsection
 
@@ -41,5 +41,3 @@ As an example, the following code:
 ```
 
 ... will appear as [[Backup to Zip|Zip Backup]], but will still link to [[Backup to Zip]].
-
-

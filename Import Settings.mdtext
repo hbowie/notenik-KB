@@ -1,8 +1,10 @@
 Title:  Import Settings
 
+Tags:   levels-outline.9 Getting Data Into and Out of Notenik.2 Import and Export Your Notes.2 Import Settings
+
 Timestamp: 20221224235509
 
-Seq:    8.2.2
+Seq:    9.2.2
 
 Level:  4 - Subsection
 
@@ -30,4 +32,4 @@ This setting tells Notenik how to handle the rows (potential Notes) found in the
 
 + Match and Add -- Before adding a new Note, Notenik will first look for a match for each imported row and, if an existing Note with a matching Title field is found, then any data found on the imported row will replace the data for the corresponding fields in the existing Note. Imported rows that do not match existing Notes will be added as new Notes. 
 
-+ Match Only -- Similar to *Match and Add*, but non-matching rows will be dropped, and no new Notes will be created. 
++ Match Only -- Similar to *Match and Add*, but non-matching rows will be dropped, and no new Notes will be created.

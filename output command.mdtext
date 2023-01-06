@@ -1,10 +1,10 @@
 Title:  output command
 
-Tags:   levels-outline.11 Merge Templates.4 Merge Commands.3 output command
+Tags:   levels-outline.12 Merge Templates.4 Merge Commands.3 output command
 
 Timestamp: 20210616224608
 
-Seq:    11.4.3
+Seq:    12.4.3
 
 Level:  4 - Subsection
 
@@ -17,5 +17,3 @@ An optional second operand may specify `ifnew`, meaning "only write the output f
 The `output` command would normally be the first line in your template file. Subsequent template records will be written to the output file.
 
 Note, however, that the filename can contain a [[Merge Variable]]. In this case, the output command would follow the [[nextrec command]], and a new output file would be opened for each row input.
-
-

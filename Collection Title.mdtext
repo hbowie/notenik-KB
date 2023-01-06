@@ -1,8 +1,10 @@
 Title:  Collection Title
 
+Tags:   levels-outline.6 Creating and Tailoring a Collection of Notes.4 Tailor Collection Settings.1 Collection Title
+
 Timestamp: 20211116184349
 
-Seq:    5.4.1
+Seq:    6.4.1
 
 Level:  4 - Subsection
 
@@ -12,4 +14,62 @@ Body:
 
 When you [[Tailor Collection Settings]], the first field presented to you will be the Collection Title. 
 
-A default Collection Title will be assigned by Notenik based on the name of the folder containing the Collection, as well, optionally, of one or more of its parents. 
+A default Collection Title will be assigned by Notenik based on the name of the folder containing the Collection, as well, optionally, of one or more of its parents.
+
+##### Notenik Settings
+
+Two of the *General* [[Notenik Settings]] control how these default titles are formed. 
+
+The `Folder Levels` field specifies how many levels of folder names are to be included in default Collection Titles. If you specify a value of `1`, then only the name of the folder containing the Collection will be used. If you specify `2`, then the name of the Collection's parent folder will also be included. Increasing the number will add additional parent folders, moving up the folder hierarchy to a reasonable level. 
+
+The `Sep` field specifies a string that will be used to separate each folder name from the next. 
+
+So, for example, if you specified 3 folder levels and a Sep value of '` -> `', a Collection might end up with a title of the following:
+	
+	2023 -> Project 1 -> Notes
+
+... assuming you have a Collection in a folder named 'Notes', contained in a parent folder named 'Project 1', contained in a parent folder named '2023'. 
+
+##### Collection Settings
+
+You may override the default and give your Collection some other name. 
+
+(Understand, though, that changing the Collection Title will not change the actual name of the folder in which your Notes are stored.)
+
+If you later erase the custom name, Notenik will return the title for that Collection to its default value. 
+
+A Collection's Title will often be used in lists containing titles of other Collections as well, so it is generally a good thing to ensure that each Collection Title has a unique value, different from the titles of all of your other Collections. 
+
+##### Collection Info File
+
+Each Collection's Info file, named `- INFO.nnk`, will be used to record the Collection's Title, as well as a flag indicating whether the Title was explicitly set by the user. You will not normally need to view or edit this file, but it is an ordinary text file that can be opened with pretty much any text editor (as described in [[Other Files and Subfolders]]). 
+
+##### Collection Window Title
+
+The Collection Window Title, displayed at the top of the window, should reliably display the Collection Title, as specified in the Collection Settings. 
+
+(Also, BTW, control-clicking or right-clicking on the Collection Window Title will show you the folder name, followed by a list of all its parent folders.) 
+
+##### Parent Realm
+
+When you use the **File** menu to [[Open Parent Realm]] (or open a parent realm by any other means), you will see a read-only Collection Window showing you all of the Collections contained within the Parent Realm folder. 
+
+The Title of each Collection, as shown in this window, will be each Collection's Title, as set by its Collection Settings. 
+
+##### Navigation Board
+
+Collection Titles and/or folder names may appear when using the [[Nav Board]].
+
+Notice that there are two different controls on the Nav Board, both of which list Collections that can be chosen for further action. 
+
+The Combo Box at the top invites you to `enter the partial name of a folder`. In this case, you will typically not want to have to enter several preceding folder names before getting to the significant portion of a Collection's Title. So Notenik will generally try to provide shorter identifiers in this list, assuming that each of these identifiers still provides uniqueness. 
+
+The Outline View below, on the other hand, allows you to scroll and click on a Title of interest, without having to key any characters, and so presents the full Title for each Recent Collection. 
+
+##### Open Recent Menu
+
+The Mac has a standard *Open Recent* menu that appears beneath the **File** menu, and Notenik registers recently opened Collections so that they will appear here, and can easily be reopened later. 
+
+Unfortunately, macOS controls how these "recent files" are displayed -- showing just the final folder name -- and Notenik has no way to customize the appearance of these menu items.
+
+If you have duplicative folder names in which you store your Collections, then it may be best to open these from the [[Nav Board]], as described above.

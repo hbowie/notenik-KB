@@ -1,10 +1,10 @@
 Title:  Share with Options
 
-Tags:   levels-outline.8 Getting Data Into and Out of Notenik.1 Copy Cut Paste and Share your Notes.1 Share with Options
+Tags:   levels-outline.9 Getting Data Into and Out of Notenik.1 Copy Cut Paste and Share your Notes.1 Share with Options
 
 Timestamp: 20211116184349
 
-Seq:    8.1.1
+Seq:    9.1.1
 
 Level:  4 - Subsection
 
@@ -51,5 +51,4 @@ The domain should be entered without a preceding `@` sign, and without a precedi
 
 If you have entered a domain, then if you later Share a Note with a format option of 'Microblog Post', and a destination of 'Copy to Clipboard', then Notenik will open the domain in your preferred Web browser after copying the formatted post to the clipboard. This makes it easy to paste the formatted post into a waiting text entry box.
 
-If you have entered a handle and a domain, and if the domain points to a Mastodon server, then invoking the option beneath the **Notenik** menu for **Mastodon Profile** will cause your preferred Web browser to open your profile page on your Mastodon server. 
- 
+If you have entered a handle and a domain, and if the domain points to a Mastodon server, then invoking the option beneath the **Notenik** menu for **Mastodon Profile** will cause your preferred Web browser to open your profile page on your Mastodon server.

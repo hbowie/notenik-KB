@@ -1,12 +1,12 @@
 Title:  Open Parent Realm
 
-Tags:   levels-outline.7 Files and Folders.6 Managing a Bunch of Collections.1 Open Parent Realm
+Tags:   levels-outline.8 Files and Folders.6 Managing a Bunch of Collections.1 Open Parent Realm
 
 AKA:    parent realm
 
 Timestamp: 20210619170027
 
-Seq:    7.6.1
+Seq:    8.6.1
 
 Level:  4 - Subsection
 
@@ -28,4 +28,4 @@ The following types of items will be listed in a Parent Realm Pseudo-Collection:
 
 Note that the Tags tab will organize these Collections and Scripts by folder, and also by item type.
 
-Note also that Notenik will store a file in the parent realm folder named '`- INFO-parent-realm.nnk`', in order to preserve metadata about the pseudo-collection. 
+Note also that Notenik will store a file in the parent realm folder named '`- INFO-parent-realm.nnk`', in order to preserve metadata about the pseudo-collection.

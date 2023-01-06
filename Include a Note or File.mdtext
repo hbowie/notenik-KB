@@ -1,12 +1,12 @@
 Title:  Include a Note or File
 
-Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.22 Include a Note or File
+Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser.22 Include a Note or File
 
 AKA:    transclusion, embed
 
 Timestamp: 20220110210211
 
-Seq:    9.2.22
+Seq:    10.2.22
 
 Level:  4 - Subsection
 
@@ -68,5 +68,4 @@ The following syntax is used to embed a Note:
 ![[A Second Note to be embedded]]
 ```
 
-Notenik will try to respect this alternate syntax, in addition to its native syntax, as described above. 
-
+Notenik will try to respect this alternate syntax, in addition to its native syntax, as described above.

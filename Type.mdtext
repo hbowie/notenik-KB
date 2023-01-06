@@ -1,10 +1,10 @@
 Title:  Type
 
-Tags:   levels-outline.10 Field Labels and Types.10 Fields Used to Identify Various Kinds of Notes.1 Type
+Tags:   levels-outline.11 Field Labels and Types.10 Fields Used to Identify Various Kinds of Notes.1 Type
 
 Timestamp: 20210609175110
 
-Seq:    10.10.1
+Seq:    11.10.1
 
 Level:  4 - Subsection
 
@@ -16,5 +16,4 @@ A field called `Type` can often be a useful element of a Collection.
 
 The label `Type` can often be usefully combined with a type of [[Pick From]] in order to predefine allowable types that make sense within the context of a particular Collection.
 
-BTW, if you choose to sort your Collection by one of the options that includes [[Class]], then Notenik will use an available `Type` value in place of a `Class` value, if the Collection does not define a field of type `Class`. 
-
+BTW, if you choose to sort your Collection by one of the options that includes [[Class]], then Notenik will use an available `Type` value in place of a `Class` value, if the Collection does not define a field of type `Class`.
