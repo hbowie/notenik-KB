@@ -1,0 +1,15 @@
+Title:  Version 11.3.0
+
+Timestamp: 20211116184349
+
+Seq:    15.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added macOS Shortcut Action to Open Quick Action Window
+
+With this Notenik custom action, it is very easy to create a macOS Shortcut to invoke this action outside of Notenik, using whatever keyboard shortcut makes sense to you. In other words, this enables the user to create a global keyboard shortcut to open the Quick Action window in Notenik. 
