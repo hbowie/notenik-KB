@@ -14,4 +14,4 @@ Body:
 
 Notenik supports wiki links. In other words, within the text of one note, you can type something like `[[another note]]` and then, once you view the formatted text, you will see a clickable link that will take you to the other note.
 
-When typing a wikilink, Notenik does not offer auto-completion of the target Note's title, but does offer easy keyboard access to a Note Selector that allows you to first select another Note's title by typing a few letters contained within, and then pasting that title (optionally formatted as a wikilink, with enclosing double brackets) back into the body of the Note you are editing.
+When typing a wikilink, Notenik does not offer auto-completion of the target Note's title, but does offer easy keyboard access to a [[Note Selector]] that allows you to first select another Note's title by typing a few letters contained within, and then pasting that title (optionally formatted as a wikilink, with enclosing double brackets) back into the body of the Note you are editing.

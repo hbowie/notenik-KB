@@ -22,13 +22,13 @@ The right side shows the single, currently selected Note.
 
 The left side has two tabs. 
 
-The first tab on the left shows you a simple list of the Notes in your Collection. 
+The first tab on the left shows you a simple list of the Notes in your Collection, sorted by one of several available schemes. 
 
-The second tab on the left shows you an outline view, with your Notes grouped into the tags that have been assigned to them. 
+The second tab on the left shows you an outline view, with your Notes grouped into the tags that you have assigned to them. 
 
 The right side also has two tabs. 
 
-The first tab on the right displays the selected Note, with field labels and values, and with the note itself nicely styled according to its Markdown formatting. 
+The first tab on the right displays the selected Note, with field labels and values, and with the body of the note nicely styled according to its Markdown formatting. 
 
 The second tab on the right allows you to edit all of the fields for the selected Note.
 

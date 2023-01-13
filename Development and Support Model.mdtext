@@ -14,10 +14,12 @@ Body:
 
 I'm a solo programmer who is developing Notenik for fun, as a hobby, and for my own use. 
 
-Users with questions, comments or suggestions can [email me directly](mailto:support@notenik.app) and (so far, at least), I generally respond within a day or two.
+Users with questions, comments or suggestions can [email me directly](mailto:support@notenik.app) and (so far, at least), I generally respond within a day or two. There is also a [Discourse Forum][disc] that will allow you to submit questions, bug reports and feature requests. 
 
 About half of the improvements to the app start with my own ideas, while the other half begin with input from an existing or prospective user. 
 
-The Mac-native version of Notenik had its first release a little over two years ago, and on average I've been releasing a new version, with some significant improvements, every couple of weeks. My intent is to maintain this sort of pace into the foreseeable future. 
+The Mac-native version of Notenik had its first release a little over three years ago, and on average I've been releasing a new version, with some significant improvements, every couple of weeks. My intent is to maintain this sort of pace into the foreseeable future. 
 
-As mentioned earlier, Notenik is open-source and the code is freely available for others to view and improve upon.
+As mentioned earlier, Notenik is open-source and the [code](https://github.com/hbowie/notenik-swift) is freely available for others to view and improve upon.
+
+[disc]: https://discourse.notenik.app

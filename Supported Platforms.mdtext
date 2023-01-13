@@ -12,10 +12,14 @@ Class:  non-version
 
 Body:
 
-Notenik is, rather unapologetically, a Mac App. It is available only on macOS. So if your primary note-taking device is something other than a Mac, then Notenik will not be for you. 
+Notenik is, rather unapologetically, a Mac App. It is available only on macOS, from the [Mac App Store][store]. So if your primary platform for working with your Notes is something other than a Mac, then Notenik will not be for you. 
 
-(Although I will point out that the Mac has been undergoing quite a resurgence lately, so if you were ever thinking about switching, most observers agree that [now might be a good time][apple].)
+That being said, Notenik is as open and non-proprietary as I can make it, and it integrates with other apps, such as [Drafts][], so it's entirely possible to capture your notes on other platforms, and then send them over to Notenik once you're back on your Mac. 
+
+I'll also point out that the Mac has been undergoing quite a resurgence lately, so if you were ever thinking about switching, most observers agree that [now might be a good time][apple].
 
 [apple]: https://www.apple.com/mac/
+
+[drafts]: https://getdrafts.com
 
 [store]: https://apps.apple.com/us/app/notenik/id1465997984

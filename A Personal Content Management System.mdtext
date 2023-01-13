@@ -14,7 +14,7 @@ Body:
 
 This seems as good a time as any to make a small confession. I have a lot of history working with [database][db] systems, and also with web [content management systems][cms], such as [Drupal][]. So when I originally started writing Notenik, several things seemed very natural to me:
 
-1. Thinking of a Note as an object, or an entity, or a row in a table, or a record. 
+1. Thinking of a Note as an object, or an entity, or a row in a table, or a record, depending on your preferred terminology. 
 
 2. Thinking of every value associated with a Note as having its own field name (aka label, or column heading). 
 

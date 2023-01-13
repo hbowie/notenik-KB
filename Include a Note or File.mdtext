@@ -69,3 +69,7 @@ The following syntax is used to embed a Note:
 ```
 
 Notenik will try to respect this alternate syntax, in addition to its native syntax, as described above.
+
+##### Includes Between Collections
+
+Note that the same syntax and rules used to create [[Wiki Links Between Collections]] can also be applied when including a Note or file. 

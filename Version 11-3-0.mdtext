@@ -12,4 +12,9 @@ Body:
 
 ##### Added macOS Shortcut Action to Open Quick Action Window
 
-With this Notenik custom action, it is very easy to create a macOS Shortcut to invoke this action outside of Notenik, using whatever keyboard shortcut makes sense to you. In other words, this enables the user to create a global keyboard shortcut to open the Quick Action window in Notenik. 
+With this Notenik custom action, it is very easy to create a macOS Shortcut to invoke this action outside of Notenik, using whatever keyboard shortcut makes sense to you. In other words, this enables the user to create a global keyboard shortcut to open the Quick Action window in Notenik.
+
+##### Tweaked Formatting when Includeing a Quote
+
+When you [[Include a Note or File]]. and you use the `quote` style, the formatting of the quote's attribution has been improved a bit. 
+

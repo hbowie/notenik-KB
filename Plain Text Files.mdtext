@@ -12,7 +12,7 @@ Class:  version
 
 Body:
 
-Notenik stores all of its data -- including your Notes, but also configuration info -- in plain text files stored on your Mac, in ordinary folders. 
+Notenik stores all of its data -- including your Notes, but also configuration info -- in plain text files stored visibly on your Mac, in ordinary folders. 
 
 As a practical matter, this means that Notenik data:
 

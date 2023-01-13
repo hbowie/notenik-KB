@@ -16,4 +16,6 @@ Notenik offers both a simple search and an advanced search, which allows you to 
 
 In both cases -- simple and advanced -- one Note is shown at a time, allowing you to advance to the next matching Note whenever you are ready. Occurrences of the search term or phrase are highlighted in each note's display. 
 
+If you are planning to export your Collection to HTML, for a website of some kind, then Notenik also offers an option to [[Generate a Collection Search Page]] that can be used to search the exported Collection. 
+
 Notenik also offers a [[Query Builder]] for more advanced sorting and filtering.

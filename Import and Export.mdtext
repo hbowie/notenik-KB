@@ -14,11 +14,11 @@ Body:
 
 If you already have a folder full of text files using Markdown, then you can just drag that folder and drop it onto the Notenik app icon, and the odds are very good that Notenik will simply open the folder and its files and show you your data. Your existing text files will remain in whatever format they started in, and you can typically continue to access that same folder of Notes from any of a variety of other text-based tools. 
 
-There are also special import functions for comma- or tab-delimited files, OPML and XML. 
+There are also special import functions for CSV (comma-separated values) files,  tab-delimited files, OPML and XML. 
 
 You can also export your data from Notenik into any of the following formats:
 
-+ Comma-separated
++ Comma-separated (CSV)
 + Tab-delimited
 + JSON
 + Text files using YAML frontmatter
@@ -26,3 +26,4 @@ You can also export your data from Notenik into any of the following formats:
 + Concatenated HTML
 + Concatenated Markdown
 + Web Book / Website
+
