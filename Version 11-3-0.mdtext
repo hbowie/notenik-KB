@@ -14,7 +14,10 @@ Body:
 
 With this Notenik custom action, it is very easy to create a macOS Shortcut to invoke this action outside of Notenik, using whatever keyboard shortcut makes sense to you. In other words, this enables the user to create a global keyboard shortcut to open the Quick Action window in Notenik.
 
-##### Tweaked Formatting when Includeing a Quote
+##### Improved Format for Date Column on the List Tab
 
-When you [[Include a Note or File]]. and you use the `quote` style, the formatting of the quote's attribution has been improved a bit. 
+When using a Sort selection that includes the Date field, the formatting of the field has been changed to add a 2-letter identifier for the day of the week at the end of the field, and to show the entire field in a monospaced font, so that the various date components always line up with one another within the column. 
 
+##### Tweaked Formatting when Including a Quote
+
+When you [[Include a Note or File]]. and you use the `quote` style, the formatting of the quote's attribution has been improved a bit.
