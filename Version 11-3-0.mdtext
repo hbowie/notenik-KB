@@ -21,3 +21,7 @@ When using a Sort selection that includes the Date field, the formatting of the 
 ##### Tweaked Formatting when Including a Quote
 
 When you [[Include a Note or File]]. and you use the `quote` style, the formatting of the quote's attribution has been improved a bit.
+
+##### Added Check Marks to Collection Sort Menu
+
+Added check marks to the Sort submenu beneath the Collection menu to indicate which sort option(s) (possibly including the Reverse option) are currently in effect for the frontmost Collection. 

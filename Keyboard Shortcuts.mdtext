@@ -33,6 +33,7 @@ Following are the keyboard shortcuts available within the app.
 |      | Shift | Opt | Cmd |  L  | Clean [[Link]]
 |      |       |     | Cmd |  M  | Minimize ([Mac Standard][mkeys])
 |      |       |     | Cmd |  N  | [[New Note]]
+|      |       | Opt | Cmd |  N  | [[New Note with Options]]
 |      |       |     | Cmd |  O  | Open a Collection ([Mac Standard][mkeys])
 |      |       | Opt | Cmd |  O  | Open a Parent Realm
 |      | Shift | Opt | Cmd |  O  | Open Collection Folder in the Finder
