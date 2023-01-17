@@ -1,10 +1,18 @@
 Title:  Version 11.3.0
 
+Tags:   levels-outline.15 Version History.1 Version 1130
+
 Timestamp: 20211116184349
 
 Seq:    15.1
 
+Date:   17 Jan 2023
+
 Level:  3 - Section
+
+Teaser:
+
+Added macOS Shortcut Action to Open Quick Action Window; Improved Format for Date Column on the List Tab; Tweaked Formatting when Including a Quote; Added Check Marks to Collection Sort Menu; Added Table Support for Long Cells; Added Ability to Escape Pipe Characters.
 
 Class:  version
 
@@ -24,4 +32,26 @@ When you [[Include a Note or File]]. and you use the `quote` style, the formatti
 
 ##### Added Check Marks to Collection Sort Menu
 
-Added check marks to the Sort submenu beneath the Collection menu to indicate which sort option(s) (possibly including the Reverse option) are currently in effect for the frontmost Collection. 
+Added check marks to the Sort submenu beneath the Collection menu to indicate which sort option(s) (possibly including the Reverse option) are currently in effect for the frontmost Collection.
+
+##### Added Table Support for Long Cells
+
+When using pipe characters to create an HTML [[Table]], users can now use the MultiMarkdown convention of adding additional pipes at the end of a cell to indicate columns to be spanned. 
+
+##### Added Ability to Escape Pipe Characters
+
+Pipe characters can now be escaped. This is especially useful if you wish a pipe character to appear within a [[Table]]. 
+
+For example, the following code:
+
+```
+| First Header  | Second Header             | Third Header |
+| ------------  | :-----------:             | -----------: |
+| Column 1      | Let's use an escaped '\|' | Column 3     |
+```
+
+... will be rendered as follows: 
+
+| First Header  | Second Header             | Third Header |
+| ------------  | :-----------:             | -----------: |
+| Column 1      | Let's use an escaped '\|' | Column 3     |

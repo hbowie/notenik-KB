@@ -18,4 +18,4 @@ Notenik offers three levels of templating.
 
 2. A second level of templating can be added by including the [[Class]] field for a Collection. You can then create a separate template file for each different Class of Note within a Collection. These Class template files define the particular fields to be used for that Class of Note, and can also supply any boilerplate content you wish to include for any of the fields.
 
-3. The third level involves use of [[Merge Templates]] that allow you to merge Notenik fields into an output text file -- typically, an HTML file. Such a template file can be used to generate web pages outside of Notenik, or to customize the way that Notes appear on the Display tab of a Collection. 
+3. The third level involves use of [[Merge Templates]] that allow you to merge Notenik fields into an output text file -- typically, an HTML file. Such a template file can be used to generate web pages outside of Notenik, or to customize the way that Notes appear on the Display tab of a Collection.

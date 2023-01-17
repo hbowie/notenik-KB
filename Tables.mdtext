@@ -67,3 +67,42 @@ And will still display as desired:
 | Paragraph   | Text        | + more      
 
 Leading pipes are required, however. Each table line must start with a pipe character.
+
+Pipe characters may be escaped in order to include them as part of the contents of a cell, rather than having them mark the end of the column. 
+
+Per the [MultiMarkdown](https://fletcher.github.io/MultiMarkdown-5/tables.html) convention, you can indicate that a cell should span multiple columns by simply adding additional pipes (|) at the end of the cell. The number of pipes equals the number of columns the cell should span.
+
+So the following code:
+
+```
+| First Header | Second Header | Third Header |
+| ------------ | :-----------: | -----------: |
+| Content      |          *Long Cell*        ||
+| Content       |   **Cell**   |         Cell |
+| And more      | With an escaped '\|'       || 
+```
+
+Will render as follows:
+
+| First Header | Second Header | Third Header |
+| ------------ | :-----------: | -----------: |
+| Content      |          *Long Cell*        ||
+| Content       |   **Cell**   |         Cell |
+| And more      | With an escaped '\|'       || 
+
+
+##### Unsupported MultiMarkdown Features
+
+There are several differences between [MultiMarkdown (MMD) tables](https://fletcher.github.io/MultiMarkdown-5/tables.html) and what one might call [more ordinary Markdown tables][mdguide], as currently implemented by Notenik. 
+
+Here are the more notable differences:
+
+1. MMD allows for multiple lines of table headings, where Notenik only expects one.  
+
+2. MMD is rather liberal in terms of its requirement for each line to start with a pipe character; Notenik allows a trailing pipe character to be omitted, but not the starting pipe. 
+
+3. MMD has some extra syntax to specify table captions, whereas Notenik does not. 
+
+4. Notenik does not support use of a blank line to create a new TBODY tag, as does MMD. 
+
+While these additional features are fully supported by apps such as iA Writer and Marked, Notenik does not currently support them.
