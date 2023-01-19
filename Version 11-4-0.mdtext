@@ -1,0 +1,15 @@
+Title:  Version 11.4.0
+
+Timestamp: 20211116184349
+
+Seq:    15.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### A Seq Field Can Now Be Used to Store a Time of Day
+
+The logic for the [[Seq]] field has been modified to accommodate its use as a time of day. This can be handy when used in combination with a [[Date]] field. You can then sort a Collection by Date + Seq and see things sort into the expected sequence, and displayed as expected. 
