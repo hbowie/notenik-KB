@@ -14,7 +14,7 @@ Starting in [[Version 9.9.0]], a **Query Builder** function is available beneath
 
 At the top of the window you will see a text field where you can enter a name for the query, if it is something you will want to be able to find and run later. 
 
-Beneath the name field you will see a list of all the fields defined for your Collection. For each field, you will see three accompanying fields to the right of the field label. 
+Beneath the name field you will see a list of all the fields defined for your Collection. For each field, you will see three accompanying controls to the right of the field label. 
 
 **Order** -- Select an appropriate value from the popup menu. A numeric value will set that field as a sort field, in the specified sequence. A value of '`X`' will cause the field to be included in the resulting list, but without being part of the sort key for the list. A blank value means that the field will not be included in the list, and will not participate in the sort. 
 
