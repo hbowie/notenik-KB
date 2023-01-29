@@ -4,13 +4,13 @@ Tags:   levels-outline.9 Getting Data Into and Out of Notenik.10 Query Builder
 
 Timestamp: 20220719173055
 
-Seq:    9.10
+Seq:    11.9
 
 Level:  3 - Section
 
 Body:
 
-Starting in [[Version 9.9.0]], a **Query Builder** function is available beneath the **Collection Menu**. Selecting this item will bring up a **Query Builder** window. 
+Starting in [[Version 9.9.0]], a **Query Builder** function is available beneath the **Query** menu. Selecting this item will bring up a **Query Builder** window. 
 
 At the top of the window you will see a text field where you can enter a name for the query, if it is something you will want to be able to find and run later. 
 

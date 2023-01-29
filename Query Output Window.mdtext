@@ -1,0 +1,28 @@
+Title:  Query Output Window
+
+Timestamp: 20230129185112
+
+Seq:    11.9.1
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The Query Builder sends its output to an internal Notenik window. The new Calendar function also sends its output to this same window (although with a suitably differentiated title). And the Favorites function now also sends its output to this same window. 
+
+In all cases, this window now has a pull-down button, titled `Web Page` in the lower right corner, from which any of the following actions can be selected:
+
+1. Save to Disk...
+
+	This function allows the user to select a folder and file name to which the output HTML will be saved. 
+
+2. Browse
+
+	This function saves the HTML to a temporary location, and then sends a request to macOS to open this file in the user's default Web browser. 
+
+3. Save and Browse...
+
+	This function allows the user to select a folder and file name, saves the HTML to that location, and then sends a request to macOS to open this saved file in the user's default Web browser. 
+

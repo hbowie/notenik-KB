@@ -2,7 +2,7 @@ Title:  Version 11.4.0
 
 Timestamp: 20211116184349
 
-Seq:    15.1
+Seq:    16.1
 
 Level:  3 - Section
 
@@ -12,42 +12,40 @@ Body:
 
 ##### A Seq Field Can Now Be Used to Store a Time of Day
 
-The logic for the [[Seq]] field has been modified to accommodate its use as a time of day. This can be handy when used in combination with a [[Date]] field. You can then sort a Collection by Date + Seq and see things sort into the expected sequence, and displayed as expected.
+The logic for the [[Seq]] field has been modified to accommodate its use as a time of day. This can be handy when used in combination with a [[Date]] field. You can then sort a Collection by Date + Seq and see things sort into the expected sequence, and display as expected.
 
 ##### Menu Reorganization
 
-Notenik now sports a new menu titled `Query`. This is the place to find actions that will manipulate a Collection in order to produce some sort of combined output in HTML. The output HTML can be viewed internally within a Notenik window, or viewed externally, within a Web browser. 
+Notenik now sports a new menu titled **Query**. This is the place to find actions that will manipulate a Collection in order to produce some sort of combined output in HTML. The output HTML can be viewed internally within a Notenik window, or viewed externally, within a web browser. 
 
-The `Query Builder` item has been moved here. You will also now find the `Favorites to HTML...` function here (now simply called `Favorites`). And the new `Dates to Calendar` function (see below) can also be found here. 
+The [[Query Builder]] item has been moved here. You will also now find the [[Favorites to HTML]] function here (now simply called **Favorites**). And the new [[Dates to Calendar]] function (see below) can also be found here. 
 
-Additionally, the `Transform` menu was moved to the right of the `View` menu. 
+Additionally, the **Transform** menu was moved to the right of the **View** menu. 
 
 ##### Expanded Use of Query Output Window
 
-The Query Builder previously sent its output to an internal Notenik window. The new Calendar function also sends its output to this same window (although with a suitably differentiated title). And the Favorites function now also sends its output to this same window. 
+The [[Query Builder]] previously sent its output to an internal [[Query Output Window]]. The new [[Dates to Calendar]] function also sends its output to this same window (although with a suitably differentiated title). And the [[Favorites to HTML]] function now also sends its output to this same window. 
 
-In all cases, this window now has a pull-down button, titled `Web Page` in the lower right corner, from which any of the following actions can be selected:
+In all cases, this window now has a pull-down button, titled **Web Page**, in the lower right corner, from which any of the following actions can be selected:
 
-1. Save to Disk...
+1. **Save to Disk...**
 
 	This function allows the user to select a folder and file name to which the output HTML will be saved. 
 
-2. Browse
+2. **Browse**
 
 	This function saves the HTML to a temporary location, and then sends a request to macOS to open this file in the user's default Web browser. 
 
-3. Save and Browse...
+3. **Save and Browse...**
 
 	This function allows the user to select a folder and file name, saves the HTML to that location, and then sends a request to macOS to open this saved file in the user's default Web browser. 
 
 ##### Knowledge Base Reorganization
 
+The Knowledge Base has been reorganized a bit. The section on "Getting Data Into and Out of Notenik" has been moved behind the two other sections discussing "Markdown" and "Field Labels and Types." And a new "Integration" section has been broken out. And a few other smaller changes have been made as well. 
+
 
 ##### New Function to Generate a Calendar
 
-A new item beneath the Collection menu allows you to generate a Calendar from one or more Notes within a Collection. The Collection must have a [[Date]] field and must be sorted by Date.
-
-##### Broadened Use of Query Output WIndow
-
-
+A new item beneath the **Query** menu, titled [[Dates to Calendar]], allows you to generate a traditional monthly calendar from one or more Notes within a Collection. The Collection must have a [[Date]] field and must be sorted by Date.
 

@@ -1,0 +1,23 @@
+Title:  Dates to Calendar
+
+Timestamp: 20211116184349
+
+Seq:    11.11
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+If you have a Collection of Notes containing a [[Date]] field, and sorted by Date, then you may wish to see some or all of the Notes in that Collection presented in a traditional monthly calendar format. You may obtain this sort of representation by selecting the **Dates to Calendar** command beneath the **Query** menu.
+
+Before selecting this command, you should select a single Note, or a range of Notes, on the **List** tab, that indicate the months you wish to see in the output. (To be clear, starting with any Note in a month will result in seeing all of that month in the output, and selecting an ending Note in the range will result in seeing all of that month in the output, as well as all of the Notes for any intervening months.)
+
+This function will initially send its HTML output to the [[Query Output Window]], from which it can then be saved to disk, and/or viewed in your default web browser, if desired.
+
+If your Collection also has a [[Seq]] field, then that will also be shown, before each Note's title. This field can be used to contain a time of day for each Note. 
+
+Each Note's title in the resulting display will be hyperlinked back to the full Note, as displayed in the usual Collection window. 
+
+

@@ -6,7 +6,7 @@ AKA:    transclusion, embed
 
 Timestamp: 20220110210211
 
-Seq:    10.2.22
+Seq:    9.2.22
 
 Level:  4 - Subsection
 
@@ -72,4 +72,4 @@ Notenik will try to respect this alternate syntax, in addition to its native syn
 
 ##### Includes Between Collections
 
-Note that the same syntax and rules used to create [[Wiki Links Between Collections]] can also be applied when including a Note or file. 
+Note that the same syntax and rules used to create [[Wiki Links Between Collections]] can also be applied when including a Note or file.
