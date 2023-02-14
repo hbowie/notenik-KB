@@ -1,6 +1,6 @@
 Title:  Favorites to HTML
 
-Tags:   levels-outline.9 Getting Data Into and Out of Notenik.7 Favorites to HTML
+Tags:   levels-outline.11 Getting Data Into and Out of Notenik.10 Favorites to HTML
 
 Timestamp: 20210627003224
 
@@ -18,4 +18,4 @@ If you have a Collection of Notes representing Web Bookmarks, then you may wish 
 
 Note that you can change the Columns per Page, the Rows per Column, and the width of each Column on the Favorites tab of the [[application settings]].
 
-This Favorites function will initially send its HTML output to the [[Query Output Window]], from which it can then be saved to disk, if desired. 
+This Favorites function will initially send its HTML output to the [[Query Output Window]], from which it can then be saved to disk, if desired.

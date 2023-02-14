@@ -1,5 +1,7 @@
 Title:  Query Output Window
 
+Tags:   levels-outline.11 Getting Data Into and Out of Notenik.9 Query Builder.1 Query Output Window
+
 Timestamp: 20230129185112
 
 Seq:    11.9.1
@@ -24,5 +26,4 @@ In all cases, this window now has a pull-down button, titled `Web Page` in the l
 
 3. Save and Browse...
 
-	This function allows the user to select a folder and file name, saves the HTML to that location, and then sends a request to macOS to open this saved file in the user's default Web browser. 
-
+	This function allows the user to select a folder and file name, saves the HTML to that location, and then sends a request to macOS to open this saved file in the user's default Web browser.

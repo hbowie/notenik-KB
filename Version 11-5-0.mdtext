@@ -1,0 +1,30 @@
+Title:  Version 11.5.0
+
+Timestamp: 20211116184349
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Corrected a Couple of Bugs
+
+Fixed a bug limiting the ability to create [[Wiki Links Between Collections]], and to [[Include a Note or File]] from a second Collection.
+
+Also fixed a bug that was causing wiki links to break when using [[Attribution]], and when line-wrapping the resulting attribution value.
+
+Fixed a bug that was preventing a [[Class]] entry on the [[New Note with Options]] window from being successfully loaded into the resulting Edit tab for the new Note being created.
+
+##### New Collection Setting to open External Links in New Windows
+
+Added an option available when you [[Tailor Collection Settings]] that will cause external links (links other than wiki links) to be opened in a new window or tab. 
+
+##### Added Keyboard Shortcut to Generate an Include for a Selected Note
+
+When using the command to [[Select a Note for Action]], the user can now use a keyboard shortcut of `CMD-I` to generate an Include command for the selected Note. 
+
+
+

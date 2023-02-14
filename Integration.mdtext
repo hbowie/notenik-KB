@@ -1,5 +1,7 @@
 Title:  Integration
 
+Tags:   levels-outline.12 Integration
+
 Timestamp: 20230129183922
 
 Seq:    12
@@ -11,3 +13,4 @@ Class:  non-version
 Body:
 
 Notenik exposes a number of methods for integrating the app with the macOS system and with other apps. 
+

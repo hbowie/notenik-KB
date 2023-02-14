@@ -1,10 +1,19 @@
 Title:  Version 11.4.0
 
+Tags:   levels-outline.16 Version History.1 Version 1140
+
 Timestamp: 20211116184349
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   30 Jan 2023
 
 Level:  3 - Section
+
+Teaser:
+
+A Seq field can now be used to store a Time of Day; Added a new function to lay out Notes with Dates into a monthly calendar format; Reorganized the app menus a bit; Expanded usage of the Query Output window; Added control to Query Output window to allow HTML to be saved to disk and/or sent to web browser; Reorganized the Knowledge Base a bit. 
+
 
 Class:  version
 
@@ -48,4 +57,3 @@ The Knowledge Base has been reorganized a bit. The section on "Getting Data Into
 ##### New Function to Generate a Calendar
 
 A new item beneath the **Query** menu, titled [[Dates to Calendar]], allows you to generate a traditional monthly calendar from one or more Notes within a Collection. The Collection must have a [[Date]] field and must be sorted by Date.
-
