@@ -10,7 +10,7 @@ Class:  version
 
 Body:
 
-##### Corrected a Couple of Bugs
+##### Corrected a Few Bugs
 
 Fixed a bug limiting the ability to create [[Wiki Links Between Collections]], and to [[Include a Note or File]] from a second Collection.
 
@@ -18,13 +18,12 @@ Also fixed a bug that was causing wiki links to break when using [[Attribution]]
 
 Fixed a bug that was preventing a [[Class]] entry on the [[New Note with Options]] window from being successfully loaded into the resulting Edit tab for the new Note being created.
 
+Fixed a couple of bugs related to the display of Edit fields based on the value of the [[Class]] field, and the number of [[Class Template Files]] in use. 
+
 ##### New Collection Setting to open External Links in New Windows
 
 Added an option available when you [[Tailor Collection Settings]] that will cause external links (links other than wiki links) to be opened in a new window or tab. 
 
 ##### Added Keyboard Shortcut to Generate an Include for a Selected Note
 
-When using the command to [[Select a Note for Action]], the user can now use a keyboard shortcut of `CMD-I` to generate an Include command for the selected Note. 
-
-
-
+When using the command to [[Select a Note for Action]], the user can now use a keyboard shortcut of `CMD-I` to generate an Include command for the selected Note.
