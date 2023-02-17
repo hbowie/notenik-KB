@@ -54,7 +54,7 @@ The following checkboxes are available and can be used to modify/augment the app
 
 + Create Notes for Missing Wiki Link Targets? -- This option is off by default. If you turn it on for a Collection, then whenever Notenik encounters a Note containing a wiki-style link to a second Note, and that Note does not yet exist, Notenik will create a Note with the targeted title, and with text in the body of the new Note pointing back to the referencing Note. 
 
-+ Open External Links in new Tabs/Windows? -- If this option is checked, then Markdown links other than Wiki Links will have the code `target="_blank" rel="noopener noreferrer"` included in their anchor elements, which should result in the target of the link being opened in a new browser window (or tab, depending on the user's browser settings). 
++ Open External Links in new Tabs/Windows? -- If this option is checked, then Markdown links other than Wiki Links will have the code `target="_blank" rel="noopener"` included in their anchor elements, which should result in the target of the link being opened in a new browser window (or tab, depending on the user's browser settings). 
 
 ##### List of Fields
 
