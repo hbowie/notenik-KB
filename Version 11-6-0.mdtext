@@ -1,0 +1,15 @@
+Title:  Version 11.6.0
+
+Timestamp: 20211116184349
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Markdown Command to Make a Table Sortable
+
+Implemented a new [[Make a Table Sortable]] Markdown command to allow viewers to sort a following Markdown table by its column headings. 

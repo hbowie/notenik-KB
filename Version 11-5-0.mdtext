@@ -4,7 +4,7 @@ Tags:   levels-outline.16 Version History.1 Version 1150
 
 Timestamp: 20211116184349
 
-Seq:    16.1
+Seq:    16.2
 
 Date:   17 Feb 2023
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Fixed a few bugs; added new Collection setting to open external links in a new browser tab/window; added a keyboard shortcut to generate an include command for a selected Note. 
+
 
 Class:  version
 

@@ -16,7 +16,7 @@ As an extension to the original Markdown spec from John Gruber, tables are suppo
 
 This is an extension documented in the [Markdown Guide][mdguide].
 
-[mdguide]: https://www.markdownguide.org/extended-syntax/#tables
+(Also see the [[Make a Table Sortable]] command if you'd like the user to be able to click on a column heading in order to sort the table by the values in that column.) 
 
 To create a table, use the pipe character (`|`)  to form a vertical border before, after, and/or between the columns, and use three or more consecutive dashes in each column to form a horizontal border between the header row and the start of the data rows, as in the following example: 
 
@@ -106,3 +106,5 @@ Here are the more notable differences:
 4. Notenik does not support use of a blank line to create a new TBODY tag, as does MMD. 
 
 While these additional features are fully supported by apps such as iA Writer and Marked, Notenik does not currently support them.
+
+[mdguide]: https://www.markdownguide.org/extended-syntax/#tables
