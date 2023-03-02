@@ -1,10 +1,19 @@
 Title:  Version 11.6.0
 
+Tags:   levels-outline.16 Version History.1 Version 1160
+
 Timestamp: 20211116184349
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   01 Mar 2023
 
 Level:  3 - Section
+
+Teaser:
+
+Added a new Markdown command to make a table sortable by its column headings; added a new Knowledge Base Reference page listing HTML class values assigned by Notenik; a few changes to default CSS styling, especially for links, to improve usability; extended behavior of the Collection setting to open external links in new tabs/window so that it will apply to Link fields as well; straightened out some funny business that was causing Notenik to open internal links within external web browser windows. 
+
 
 Class:  version
 
@@ -12,4 +21,20 @@ Body:
 
 ##### Added Markdown Command to Make a Table Sortable
 
-Implemented a new [[Make a Table Sortable]] Markdown command to allow viewers to sort a following Markdown table by its column headings. 
+Implemented a new [[Make a Table Sortable]] Markdown command to allow viewers to sort a following Markdown table by its column headings.
+
+##### Added new Reference Page for HTML Class Values
+
+Added a new [[Reference]] page where we can keep track of all of the [[HTML Class Values]] used by Notenik. This can be useful when seeking to override the default CSS styling. 
+
+##### Changing (Improving?) Default CSS Styling
+
+Made some changes to hopefully improve the default CSS styling. Overall line height was increased a bit, and top and bottom margins were increased around list items, to make things look less crowded. Also introduced three new [[HTML Class Values]] for wiki links, external links and navigational links, along with default CSS styling for each. Links are now underlined using a dotted bottom border, rather than straight underlining. Underlining is dropped altogether for Nav links. A special icon is used following external links, so that users can easily tell which links will take them away from the current Collection/site. All of these changes are evident within the Knowledge Base, and hopefully make the whole thing a bit more user-friendly.  
+
+##### Fixed Bug Causing Internal Page Links to Open in Browser
+
+When the user uses [[Collection Settings]] to 'Open external links in new Tabs/Windows,' Notenik was erroneously setting internal page links (includiing ones created when you [[Generate a Note Table of Contents]]) to open in an external browser. This has been corrected. 
+
+##### Extending Open External Links Behavior to Include Link Fields
+
+When the user uses [[Collection Settings]] to 'Open external links in new Tabs/Windows,' that setting will now additionally be applied to any [[Link]] fields in the Collection, so that clicking on a Link value starting with `http://` or `https://` will then open the link in the user's web browser, rather than opening the link within the Notenik Display tab.

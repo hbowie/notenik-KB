@@ -1,5 +1,7 @@
 Title:  Make a Table Sortable
 
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.24 Make a Table Sortable
+
 Timestamp: 20230223243454
 
 Seq:    9.2.24
@@ -22,6 +24,4 @@ Numbers will be sorted numerically.
 
 Other values will be sorted by their alpha values, ignoring case (upper- or lower). 
 
-Clicking again on a column will reverse the sort, so that values appear in descending sequence. 
-
-
+Clicking again on a column will reverse the sort, so that values appear in descending sequence.
