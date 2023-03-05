@@ -2,6 +2,8 @@ Title:  Tailor the Display
 
 Tags:   fields.title, levels-outline.7 Common Tasks.1 Display a Note.1 Tailor the Display
 
+AKA:    Display Settings
+
 Timestamp: 20210618164350
 
 Seq:    7.1.1
@@ -14,7 +16,37 @@ Class:  version
 
 Body:
 
-You can alter the typeface and font size used on the Display tab by selecting the Display Appearance item under the Format menu, or by clicking on the Display Fonts button on the toolbar. You may then pick a typeface and font from the displayed dropdown menus or, if you'd like, enter the CSS you'd like to be used directly, bypassing the limits of these menus. The default font list only includes a relatively short list of common fonts; by checking the box to use the long list, showing all fonts, the user may select any font family available on your Mac. 
+You can alter the appearance of your Notes on the Display tab in a number of different ways, available from a number of different windows. 
+
+##### Display Settings
+
+You can alter the appearance of your Notes on the Display tab by selecting the Display Appearance item beneath the Notenik menu, or by clicking on the Display Fonts button on the toolbar. 
+
+In either case, you will then be presented with the Display Settings window, where you may make the following adjustments, and then click OK to apply your changes, or Cancel to exit without applying your changes. 
+
+Note that the Display settings here will apply to the display of all of your Collections, not just the one you may be currently viewing. 
+
++ **Center Headings?** -- You may specify `n/a` to leave them left-justified, or specify a range of heading levels that you wish to see centered. 
+
++ **Apply Fonts to:** -- Select the Body radio button to apply the following font selections to all text in general. If you would like a different font selection for Headings, then click the Headings radio button and select the font you would like to use for headings. 
+
++ **Show All Fonts?** -- Click the check box to see a long list of fonts, including all of the fonts installed on your system. Unclick the check box to see a shorter, more manageable list of common fonts. 
+
++ **Display Font:** -- Select the font that you would like to use. The selected font will be used for either body text, or headings text, depending on the radio button currently selected above. 
+
++ **Display Size:** -- Use this control to change the size of the font. If you have selected the Body settings via the radio button above, then you will be asked to choose a point size for your text. If you have selected the Headings setting, then you will be asked to choose an em value -- essentially a multiplier applied to your body value. The headings size value you select will be applied to level 1 headings, with subsequent heading sizes being stepped down by 0.2em for each succeeding level. 
+
++ **Generate CSS** -- If you are working with the Body settings, then clicking on this button will use your choices above to generate the CSS code that will style your Note text in accordance with your wishes. It will also cause the Sample Display below to be refreshed with your settings. 
+
++ **CSS code** -- As described above, you can generate the code here from your Body settings. But you can also enter CSS code here directly. Whatever you enter here will be applied to the body element of your Note display. 
+
++ **Refresh Sample Display** -- Clicking this button will refresh the sample display below, using the latest settings you have specified above. The sample text will show you the appearance of two headings followed by a paragraph of text. 
+
++ **Cancel** -- Clicking here will close the window without saving any changes you might have made. 
+
++ **OK** -- Clicking here will save your settings and apply them to the display of your Notes. 
+
+##### Collection Settings
 
 The Collection Settings contain a couple of options for changing the way a Note is formatted on the Display tab.
 
