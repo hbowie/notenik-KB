@@ -18,6 +18,14 @@ The [[Display Settings]] can now be used to optionally center a range of heading
 
 The [[Display Settings]] can now be used to specify a font-family, and a size, to be used for all headings. Previously any headings would simply use the same font-family as body text, and a fixed set of sizes. 
 
+##### Paragraph Margins Modified
+
+The CSS styling for paragraphs was modified to reduce the top margin, so that headings can be more closely associated with paragraphs that follow. 
+
+##### Added New Derived Variable
+
+Added a new [[Derived Variable]] called [[Title Display Slug]] to wrap a Note title in the appropriate HTML code, based on the [[Collection Setting]] used to control [[Note Title Display]].
+
 ##### Startup Completion Signaled Earlier in Process
 
 Each time Notenik launches, it performs a check to ensure that its last launch was successful. If it finds that its last launch was not completed successfully, then Notenik resets its [[application settings]] to their default values, in case an errant app setting was causing a crash. 

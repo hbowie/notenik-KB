@@ -1,0 +1,28 @@
+Title:  Title Display Slug
+
+Timestamp: 20230306180706
+
+Seq:    13.2.2.10
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+This derived variable name can be used to format the title of a Note using the [[Collection Settings]] value for  [[Note Title Display]], wrapping the title value in the appropriate HTML block elements. 
+
+For example, given a title of 'Very Important Note', and a Note Title Display Collection Setting of `h1`, the following template line:
+
+```
+=$title-display-slug$=
+```
+
+Would produce the following line of HTML:
+
+```
+<h1 id="very-important-note">Very Important Note</h1>
+```
+
+
+
