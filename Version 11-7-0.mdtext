@@ -10,6 +10,10 @@ Class:  version
 
 Body:
 
+##### Added New Field Type of Display-Seq
+
+A new field type of [[Display Seq]] has been added. This can be used to complement the presence of a [[Seq]] field, allowing an author to specify an alternate numbering scheme to be displayed to readers. 
+
 ##### Heading Centering Can Now be Set in Display Settings
 
 The [[Display Settings]] can now be used to optionally center a range of heading levels. 
