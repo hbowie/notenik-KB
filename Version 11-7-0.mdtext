@@ -10,6 +10,14 @@ Class:  version
 
 Body:
 
+##### Added Web Page as a Standard Work Type
+
+The value `Web Page` has been added as a standard [[Work Type]].
+
+##### Added Command to Generate a Bibliography
+
+A new Markdown command to [[Generate a Bibliography]] has been added. 
+
 ##### Added New Field Type of Display-Seq
 
 A new field type of [[Display Seq]] has been added. This can be used to complement the presence of a [[Seq]] field, allowing an author to specify an alternate numbering scheme to be displayed to readers. 
