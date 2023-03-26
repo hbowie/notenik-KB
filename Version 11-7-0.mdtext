@@ -10,6 +10,10 @@ Class:  version
 
 Body:
 
+##### Fixed Some Problems with Backlinks
+
+Fixed a couple of problems affecting [[Back Links]], especially when combined with MultiMarkdown/YAML metadata. 
+
 ##### Added Web Page as a Standard Work Type
 
 The value `Web Page` has been added as a standard [[Work Type]].
