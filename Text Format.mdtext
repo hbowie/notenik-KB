@@ -1,0 +1,41 @@
+Title:  Text Format
+
+Timestamp: 20230327181552
+
+Seq:    10.10.4
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+A field definition may have a type of `text-format` (or `textformat`), and this type may be assigned implicitly or explicitly. 
+
+A field definition may have a label of `Text Format`, in which case its type, if unspecified, will default to `text-format`. 
+
+This sort of field can only be added to a Collection through direct editing of [[the Collection Template File]], and not through access to the [[Collection Settings]].
+
+A Collection is not expected to have more than one field of type `text-format`. 
+
+The text format field is meant to allow a Note to have its [[Body]] field treated as Plain Text, rather than Markdown. 
+
+This can be useful, for example, if some Notes have text meant to be edited using the [Bike Outliner](https://www.hogbaysoftware.com/bike/) app, or some other app that relies on leading white space on a line to indicate indentation.
+
+Such a field type can be added to a Collection by modifyings its Collection template file to include a line something like the following:
+
+```
+	Text Format: <text-format>
+```
+	
+As always, be sure to Reload the Collection after making changes to the Collection template!
+
+Note that Text Format values are not stored as metadata within a Note, but are instead reflected in each file's file extension. 
+
+Notes with a Text Format of `Markdown` are stored with whatever file extension was specified in the [[Collection Settings]] for the Collection as a whole. 
+
+Notes with a Text Format of `Plain Text` are stored with a file extension of `txt`. 
+
+(Note that, if you wish to use this sort of field, you should not specify `txt` as the general file extension to be used for the Collection as a whole.)
+
+Notes marked as Plain Text will not have their body values run through a Markdown parser, but will instead be displayed as-is, within starting and ending [pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) tags, to indicate that the text is preformatted. 

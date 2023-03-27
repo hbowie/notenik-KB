@@ -25,3 +25,5 @@ The Collection identifier can be a [[collection shortcut]], or it can simply be 
 To ensure that a related Collection is accessible for wiki links between Collections, it's best to place all related Collections within the same [[parent realm]], and to open the parent realm before opening any of the Collections. 
 
 Note that each Collection will be opened in its own window, as is usual for Notenik.
+
+

@@ -10,6 +10,19 @@ Class:  version
 
 Body:
 
+##### Added a Text Format Field Type
+
+A new [[Text Format]] field type can be used to specify that the body field for a Note is to be displayed as-is, rather than being run through a Markdown parser. This is especially useful for Notes that use leading white space on a line to indicate levels of indentation within an outline structure. 
+
+##### Upgaded Note Selector to Include Collection Shortcuts
+
+When using the [[Note Selector]] to select a Note from another Collection (using a [[collection shortcut]]), Notenik will now do a better job of including the target Collection's shortcut as part of the generated wiki link or include. 
+
+
+##### Added a Check to Prevent a Note titled 'Template' from being Added
+
+A user recently pointed out that Notenik was not preventing him from adding a Note with a title of 'Template', even though such a Note would cause [[the Collection Template File]] to be overwritten! This has been corrected such that future attempts will be treated in the same way as attempts to create other duplicates, by adding a '1' to the end of the Title field. 
+
 ##### Fixed Some Problems with Backlinks
 
 Fixed a couple of problems affecting [[Back Links]], especially when combined with MultiMarkdown/YAML metadata. 
