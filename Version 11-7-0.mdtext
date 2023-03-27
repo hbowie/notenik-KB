@@ -4,7 +4,13 @@ Timestamp: 20211116184349
 
 Seq:    16.1
 
+Date:   27 Mar 2023
+
 Level:  3 - Section
+
+Teaser:
+
+Added a Text Format Field Type; Upgraded Note Selector to Include Collection Shortcuts; Added a Check to Prevent a Note titled 'Template' from being Added; Fixed Some Problems with Backlinks; Added Web Page as a Standard Work Type; Added Command to Generate a Bibliography; Added New Field Type of Display-Seq; Heading Centering Can Now be Set in Display Settings; Font Family and Size Can Now be Separately Set for Headings; Paragraph Margins Modified; Added New Derived Variable; Startup Completion Signaled Earlier in Process.
 
 Class:  version
 
@@ -14,7 +20,7 @@ Body:
 
 A new [[Text Format]] field type can be used to specify that the body field for a Note is to be displayed as-is, rather than being run through a Markdown parser. This is especially useful for Notes that use leading white space on a line to indicate levels of indentation within an outline structure. 
 
-##### Upgaded Note Selector to Include Collection Shortcuts
+##### Upgraded Note Selector to Include Collection Shortcuts
 
 When using the [[Note Selector]] to select a Note from another Collection (using a [[collection shortcut]]), Notenik will now do a better job of including the target Collection's shortcut as part of the generated wiki link or include. 
 
