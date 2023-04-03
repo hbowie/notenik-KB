@@ -1,5 +1,7 @@
 Title:  Display Seq
 
+Tags:   levels-outline.10 Field Labels and Types.6 Fields for Sequencing and Outlining.4 Display Seq
+
 Timestamp: 20230320094153
 
 Seq:    10.6.4
@@ -28,4 +30,4 @@ See the following example for one way such a line might be inserted.
 Idea Number: <displayseq: No._XXX_&ndash;_>
 ```
 
-The text following the `<displayseq: `, if present, will be used for formatting each `display-seq` value for display. The `XXX` literal will be replaced by the `display-seq` value. Underscores will be replaced with spaces. 
+The text following the `<displayseq: `, if present, will be used for formatting each `display-seq` value for display. The `XXX` literal will be replaced by the `display-seq` value. Underscores will be replaced with spaces.

@@ -1,5 +1,7 @@
 Title:  Text Format
 
+Tags:   levels-outline.10 Field Labels and Types.10 Fields Used to Identify Various Kinds of Notes.4 Text Format
+
 Timestamp: 20230327181552
 
 Seq:    10.10.4
@@ -38,4 +40,4 @@ Notes with a Text Format of `Plain Text` are stored with a file extension of `tx
 
 (Note that, if you wish to use this sort of field, you should not specify `txt` as the general file extension to be used for the Collection as a whole.)
 
-Notes marked as Plain Text will not have their body values run through a Markdown parser, but will instead be displayed as-is, within starting and ending [pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) tags, to indicate that the text is preformatted. 
+Notes marked as Plain Text will not have their body values run through a Markdown parser, but will instead be displayed as-is, within starting and ending [pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) tags, to indicate that the text is preformatted.

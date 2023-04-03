@@ -1,5 +1,7 @@
 Title:  Generate a Bibliography
 
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.22 Generate a Bibliography
+
 Timestamp: 20230323214232
 
 Seq:    9.2.22
@@ -16,4 +18,4 @@ As an extension to the original Markdown spec from John Gruber, a bibliography m
 {:biblio}
 ```
 
-The Bibliography will gather its data about authors and works from the Notes following the Note containing the *biblio* command, and at a lower level within the hierarchy establised through use of the [[Seq]] and [[Level]] fields. 
+The Bibliography will gather its data about authors and works from the Notes following the Note containing the *biblio* command, and at a lower level within the hierarchy establised through use of the [[Seq]] and [[Level]] fields.

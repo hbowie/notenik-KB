@@ -1,8 +1,10 @@
 Title:  Version 11.7.0
 
+Tags:   levels-outline.16 Version History.1 Version 1170
+
 Timestamp: 20211116184349
 
-Seq:    16.1
+Seq:    16.2
 
 Date:   27 Mar 2023
 
@@ -11,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added a Text Format Field Type; Upgraded Note Selector to Include Collection Shortcuts; Added a Check to Prevent a Note titled 'Template' from being Added; Fixed Some Problems with Backlinks; Added Web Page as a Standard Work Type; Added Command to Generate a Bibliography; Added New Field Type of Display-Seq; Heading Centering Can Now be Set in Display Settings; Font Family and Size Can Now be Separately Set for Headings; Paragraph Margins Modified; Added New Derived Variable; Startup Completion Signaled Earlier in Process.
+
 
 Class:  version
 

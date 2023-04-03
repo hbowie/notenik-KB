@@ -1,5 +1,7 @@
 Title:  Title Display Slug
 
+Tags:   levels-outline.13 Merge Templates.2 Merge Variables.2 Derived Variables
+
 Timestamp: 20230306180706
 
 Seq:    13.2.2.10
@@ -23,6 +25,3 @@ Would produce the following line of HTML:
 ```
 <h1 id="very-important-note">Very Important Note</h1>
 ```
-
-
-

@@ -1,0 +1,15 @@
+Title:  Version 11.8.0
+
+Timestamp: 20211116184349
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Improved Author Work Slug
+
+Improved the [[Author Work Slug]] code to make it more flexible and general-purpose. Fixed a bug in the way that an author line containing multiple authors was being handled. 
