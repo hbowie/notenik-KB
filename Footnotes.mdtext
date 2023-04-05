@@ -14,6 +14,31 @@ Body:
 
 As an extension to the original Markdown spec from John Gruber, footnotes may be created using the sort of syntax documented for [MultiMarkdown][mmd] or the [Markdown Extended Syntax][ext].
 
+Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.
+
+To create a footnote reference, add a caret and an identifier inside brackets (`[^1]`). Identifiers can be numbers or words, but they can’t contain spaces or tabs. Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.
+
+Add the footnote using another caret and number inside brackets with a colon and text (`[^1]: My footnote.`). You don’t have to put footnotes at the end of the document. You can put them anywhere except inside other elements like lists, block quotes, and tables.
+
+Here's an example. 
+
+```
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
+
+```
+
+Notenik adds a special feature for Footnotes. If you include a [[Short ID]] field in a Collection, then Notenik will automatically incorporate the Short ID for each Note into the code that creates the links from the referencing text to the appropriate footnote, and then back again to the referencing text, so that the resulting IDs will be unique, even if the resulting code for multiple Notes is combined into a single page.
+
 
 [ext]: https://www.markdownguide.org/extended-syntax/
 

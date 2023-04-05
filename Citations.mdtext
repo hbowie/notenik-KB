@@ -48,4 +48,6 @@ The `Not cited` bit is case insensitive.
 
 Note that if you include a citation definition without any referencing citation at all, then that citation will not appear within the formatted display. 
 
+As with [[Footnotes]], Notenik adds a special feature for Citations. If you include a [[Short ID]] field in a Collection, then Notenik will automatically incorporate the Short ID for each Note into the code that creates the links from the referencing text to the appropriate citation, and then back again to the referencing text, so that the resulting IDs will be unique, even if the resulting code for multiple Notes is combined into a single page.
+
 [cite]: https://fletcher.github.io/MultiMarkdown-6/syntax/citation.html

@@ -10,7 +10,7 @@ Sort Descending: false
 
 Other Fields Allowed: false
 
-Last Index Selected: 172
+Last Index Selected: 121
 
 Mirror Auto Index: false
 
@@ -38,7 +38,7 @@ Note File Format: nnk
 
 Hash Tags: false
 
-Window Numbers: 1239.0;0.0;1321.0;1415.0;433.5;
+Window Numbers: 401.0;0.0;1321.0;1415.0;433.5;
 
-Column Widths: date: 80, 120, 500; x: 12, 20, 50; author: 100, 200, 1000; tags: 50, 100, 1200; klass: 60, 80, 150; statusdigit: 20, 30, 50; rank: 50, 80, 250; dateadded: 100, 180, 250; title: 200, 321, 1500; seq: 30, 80, 250; datemod: 100, 180, 250; 
+Column Widths: rank: 50, 80, 250; x: 12, 20, 50; author: 100, 200, 1000; klass: 60, 80, 150; title: 200, 321, 1500; datemod: 100, 180, 250; statusdigit: 20, 30, 50; dateadded: 100, 180, 250; tags: 50, 100, 1200; seq: 30, 80, 250; date: 80, 120, 500; 
 

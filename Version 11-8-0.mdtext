@@ -12,4 +12,8 @@ Body:
 
 ##### Improved Author Work Slug
 
-Improved the [[Author Work Slug]] code to make it more flexible and general-purpose. Fixed a bug in the way that an author line containing multiple authors was being handled. 
+Improved the [[Author Work Slug]] code to make it more flexible and general-purpose. Fixed a bug in the way that an author line containing multiple authors was being handled.
+
+##### Improved Footnotes and Citations
+
+When a Collection contains a [[Short ID]] field, Notenik will now embed each Note's short id into the HTML id fields generated for [[Footnotes]] and [[Citations]], so that these IDs will continue to have unique values, even when combining the HTML for multiple Notes into a single Web page. 

@@ -25,3 +25,6 @@ Notenik's algorithm will try to form a Short ID between four and eight character
 One potential use of a Short ID field could be the generation of HTML pages that redirect readers to the original page, with the Short ID being used to form a file name for the redirecting pages, and with the full title being used to form the file names for the pages containing the actual intended content.  
 
 Here is one such example: [practopian.org/s/ckvcb.html](https://practopian.org/s/ckvcb.html).
+
+When present, Short ID values will also be used in the generation of code for [[Footnotes]] and [[Citations]]. 
+
