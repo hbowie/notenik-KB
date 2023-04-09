@@ -22,6 +22,7 @@ You are free to use any `Class` values that make sense for you, but Notenik reco
 + preface - preface, as part of the front matter.
 + quote - quotation.
 + quotation - quotation.
++ title-page - title page
 + work - The Note identifies a particular work written by one or more authors, as might be cited within a bibliography.
 
 Frontmatter and bibliographic entries are often not shown with their sequence numbers, since these typically have less significance for this sort of content. 

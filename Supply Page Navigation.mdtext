@@ -1,0 +1,36 @@
+Title:  Supply Page Navigation
+
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.27 Supply Page Navigation
+
+Timestamp: 20230407215223
+
+Seq:    9.2.27
+
+Level:  4 - Subsection
+
+Index:  nav; 
+
+Class:  non-version
+
+Body:
+
+As an extension to the original Markdown spec from John Gruber, the content for an HTML `nav` element may be provided following the literal `{:nav}` on a line by itself, as in the following example:
+
+```
+{:nav}
++ [[Complete Table of Contents|Contents]]
++ [[Index to the Knowledge Base|Index]]
+```
+The content following this command within the body of the current Note will be used as the contents of a `nav` element that will subsequently appear at the top of the display for every Note in the Collection. 
+
+This command should appear as the first line within the body of a Note, and the remainder of the body will be used, in its entirety, as the content appearing in the `nav` element for every Note. 
+
+A Note containing this command may appear anywhere within a Collection, and be given any convenient and meaningful title. 
+
+See the [[nav-page]] within the Notenik Knowledge Base for an example. 
+
+Since a Note containing such a command is not meant to be read sequentially as part of the overall Collection, Notenik will generally skip such pages when formatting [[Streamlined Reading]] navigational elements. 
+
+Default CSS will be provided to format the nav contents, but this may of course be overridden (see [[Tailor the Display]] for more info). 
+
+If such a command is used, then Notenik will place the `nav` element after the `header` element (if one is supplied) and before the `main` element. 

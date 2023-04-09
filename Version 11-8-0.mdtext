@@ -1,5 +1,7 @@
 Title:  Version 11.8.0
 
+Tags:   levels-outline.16 Version History.1 Version 1180
+
 Timestamp: 20211116184349
 
 Seq:    16.1
@@ -16,4 +18,12 @@ Improved the [[Author Work Slug]] code to make it more flexible and general-purp
 
 ##### Improved Footnotes and Citations
 
-When a Collection contains a [[Short ID]] field, Notenik will now embed each Note's short id into the HTML id fields generated for [[Footnotes]] and [[Citations]], so that these IDs will continue to have unique values, even when combining the HTML for multiple Notes into a single Web page. 
+When a Collection contains a [[Short ID]] field, Notenik will now embed each Note's short id into the HTML id fields generated for [[Footnotes]] and [[Citations]], so that these IDs will continue to have unique values, even when combining the HTML for multiple Notes into a single Web page.
+
+##### Added Option to Supply Header, Nav and Footer Elements
+
+New Markdown commands were added that allow the user to specify elements that will be displayed on every page/note of a Collection: [[Supply a Page Header]], [[Supply Page Navigation]] and [[Supply a Page Footer]]. These are now put to use within the Notenik Knowledge Base.
+
+##### Added title-page as a Class Value
+
+Added `title-page` as one of the [[Special Class Values]] recognized by Notenik. A Note marked with this class value will not have a page header or a page nav section applied to it. 

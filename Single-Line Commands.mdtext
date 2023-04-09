@@ -20,8 +20,11 @@ Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], y
 | --------- | ------------ |
 | `{:biblio}` | *[[Generate a Bibliography]]* |
 | `{:collection-toc:2-3}` | *[[Generate a Collection Table of Contents]]* |
+| `{:footer}` | *[[Supply a Page Footer]]* |
+| `{:header}` | *[[Supply a Page Header]]* |
 | `{:include:another-file.txt}` | *[[Include a Note or File]]* |
 | `{:index}` | *[[Generate a Collection Index]]* |
+| `{:nav}` | *[[Supply Page Navigation]]* |
 | `{:search}` | *[[Generate a Collection Search Page]]* |
 | `{:sort-table:table-id}` | *[[Make a Table Sortable]]* |
 | `{:tags-cloud}` | *[[Generate a Tags Cloud]]* |

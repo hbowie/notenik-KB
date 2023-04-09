@@ -8,6 +8,8 @@ Seq:    4.3
 
 Level:  3 - Section
 
+Index:  Markdown; Textile; 
+
 Class:  version
 
 Body:
@@ -18,4 +20,4 @@ And so, soon after learning the rudiments of HTML, I began to explore what are o
 
 Eventually, though, Textile gave way to [Markdown](https://daringfireball.net/projects/markdown), and that's turned out to be the syntax that seems to hit the sweet spot, for many others as well as myself, in its ability to offer just enough formatting options to be useful, but not so many as to be overwhelming. 
 
-And so Notenik allows Notes to be written using the [Markdown syntax](https://daringfireball.net/projects/markdown/syntax), including many [popular extensions](https://www.markdownguide.org/extended-syntax/), such as the the ability to link from one Note to another using .
+And so Notenik allows Notes to be written using the [Markdown syntax](https://daringfireball.net/projects/markdown/syntax), including many [popular extensions](https://www.markdownguide.org/extended-syntax/), such as the the ability to link from one Note to another using [[Wiki Style Links]].

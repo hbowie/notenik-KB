@@ -8,11 +8,13 @@ Seq:    6.3.3
 
 Level:  4 - Subsection
 
+Index:  web links; bookmarks; 
+
 Class:  non-version
 
 Body:
 
-This is a Collection with the following [[Lists of Labels and Types|field definitions]] as provided in [[the Collection Template File]]. It is similar to the [[Basic Notes]], with the addition of a [[Link]] field. 
+This is a Collection with the following [[Lists of Labels and Types|field definitions]] as provided in [[the Collection Template File]]. It is similar to the [[Basic Notes]], with the addition of a [[Link]] field. A Collection like this can be used to store Web bookmarks. 
 
 ```
 Title: <title> 

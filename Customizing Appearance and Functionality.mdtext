@@ -8,6 +8,8 @@ Seq:    3.19
 
 Level:  3 - Section
 
+Index:  plug-ins; Javascript; customization; dark mode; 
+
 Class:  version
 
 Body:
@@ -20,4 +22,4 @@ On the other hand, the look and feel of the app can be tailored somewhat via App
 
 Both light and dark modes are supported. 
 
-If you're interested, you can also write and supply your own custom CSS to change the appearance of your Notes on the Display tab.
+If you're interested, you can also write and supply your own custom CSS to [[Tailor the Display]] of your Notes. 
