@@ -8,6 +8,8 @@ Seq:    10.10.1
 
 Level:  4 - Subsection
 
+Index:  type field; pick from field; sorting; class field; 
+
 Body:
 
 The word `Type` can be used as a label, but is not a valid field type. 

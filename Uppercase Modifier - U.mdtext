@@ -10,6 +10,8 @@ Seq:    13.3.31
 
 Level:  4 - Subsection
 
+Index:  uppercase conversion; 
+
 Body:
 
 The letter "U" will convert the letters of the variable to uppercase (capital letters). If immediately followed by 'I', then only the initial letter of the variable will be changed to uppercase.

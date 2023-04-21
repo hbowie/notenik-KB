@@ -8,6 +8,8 @@ Seq:    13.2.1
 
 Level:  4 - Subsection
 
+Index:  merge variables, system; system merge variables; dates; today; 
+
 Body:
 
 The following special variables are predefined and available for substitution, no matter what data source is being used.
@@ -40,4 +42,4 @@ templateparent
 : The entire parent path to the template file, excluding the file name itself.
 
 today
-: The current date, at the time that template output is being generated.
+: The current date, at the time that template output is being generated. Note that, if you specify a [[Formatting String]] that includes time elements, then this value will be formatted as the current date and time (rather than just the date).

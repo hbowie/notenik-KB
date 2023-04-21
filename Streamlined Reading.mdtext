@@ -18,6 +18,8 @@ When you [[Tailor Collection Settings]], one of the questions you will encounter
 
 When you check this option, it will trigger a number of different behaviors on the Notenik Display tab.
 
+In general, the Streamlined Reading option focuses attention on the major fields of each Note (title, body, etc.) and provides additional navigational elements allowing a reader to easily navigate forward, upwards, and downwards through the outline structure implied by the [[Seq]] and [[Level]] fields. 
+
 For further info, see the following entries:
 
 + The description of the [[Attribution]] field.

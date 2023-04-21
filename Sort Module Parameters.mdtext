@@ -8,6 +8,8 @@ Seq:    14.2.3
 
 Level:  4 - Subsection
 
+Index:  sorting; merge sort; 
+
 Body:
 
 Just as with the Filter module, the Sort module uses actions of 'clear', 'add' and 'set'.

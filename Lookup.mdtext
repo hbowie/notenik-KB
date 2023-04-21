@@ -8,6 +8,8 @@ Seq:    10.11.5
 
 Level:  4 - Subsection
 
+Index:  lookup field; 
+
 Body:
 
 The word `lookup` can be used as a field type, but is not intended to be used as a field label. 

@@ -8,6 +8,8 @@ Seq:    14.2.1
 
 Level:  4 - Subsection
 
+Index:  merge input; 
+
 Body:
 
 The action for an input command may be either 'set' or 'open'. The set command(s) should precede the open command to which they will apply. 

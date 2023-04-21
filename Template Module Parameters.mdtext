@@ -8,6 +8,8 @@ Seq:    14.2.4
 
 Level:  4 - Subsection
 
+Index:  merge templates; 
+
 Body:
 
 A Template command may have an action of 'webroot', 'open' or 'generate'.

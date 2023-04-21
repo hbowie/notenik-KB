@@ -8,6 +8,8 @@ Seq:    10.11.4
 
 Level:  4 - Subsection
 
+Index:  longtext field; Markdown; body field; teaser field; 
+
 Body:
 
 A field type of 'longtext' implies a multi-line text field that may be formatted using Markdown. 

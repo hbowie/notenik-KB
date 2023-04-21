@@ -1,0 +1,50 @@
+Title:  Supply EPUB Metadata
+
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.29 Supply EPUB Metadata
+
+Timestamp: 20230413224049
+
+Seq:    9.2.29
+
+Level:  4 - Subsection
+
+Index:  metadata; EPUB; today; 
+
+Class:  non-version
+
+Body:
+
+As an extension to the original Markdown spec from John Gruber, the content for the metadata section of an EPUB opf file may be provided following the literal `{:metadata}` on a line by itself, as in the following example:
+
+```
+{:metadata}
+		<dc:identifier id="pub-identifier">notenik.app/kb</dc:identifier>
+		<dc:title id="pub-title">The Notenik Knowledge Base</dc:title>
+		<dc:creator id="author">Herb Bowie</dc:creator>
+		<dc:language id="pub-language">en</dc:language>
+		<meta property="dcterms:modified">2023-04-13T12:00:00Z</meta>
+```
+
+Note that the metadata elements shown above are considered mandatory in order to create a valid EPUB. 
+
+The content following this command within the body of the current Note will be used as the publication metadata when using the [[Export as Web Book]] function to create an actual EPUB file. 
+
+This command should appear as the first line within the body of a Note, and the remainder of the body will be used, in its entirety, and without further parsting, as the content appearing in the metadata element for a generated EPUB opf file.  
+
+A Note containing this command may appear anywhere within a Collection, and be given any convenient and meaningful title. 
+
+See the [[EPUB Metadata]] Note within the Notenik Knowledge Base for an example. 
+
+Since a Note containing such a command is not meant to be read sequentially as part of the overall Collection, Notenik will generally skip such pages when formatting [[Streamlined Reading]] navigational elements.
+
+##### Varying the modified date
+
+Note that the `dcterms:modified` value is used as part of the key to form a unique identifier for an ebook. So if you have multiple copies of the same book, and this date-and-time value does not change, then e-book readers such as Apple Books will not be able to distinguish between them (and may in fact refuse to import something it considers a duplicate). 
+
+In order to avoid such duplicates, the user may wish to replace a line like the one above -- containing a fixed value -- with something like the line below:
+
+```
+	<meta property="dcterms:modified">=$today&yyyy-MM-dd'T'HH:mm:ss'Z'$=</meta>
+```
+
+Notenik will then replace the `=$today&yyyy-MM-dd'T'HH:mm:ss'Z'$=` string with the properly formatted current date and time, as part of the EPUB export operation.

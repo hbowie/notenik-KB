@@ -10,6 +10,8 @@ Seq:    13.3.15
 
 Level:  4 - Subsection
 
+Index:  tags field; 
+
 Body:
 
 Each tag found in the variable will be made into a link, linking to '=$relative$=yypathyy/xxtagxx.html', where 'xxtagxx' is the tag, and 'yypathyy' is the string of characters following the 'g'.

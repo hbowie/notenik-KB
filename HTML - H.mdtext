@@ -10,6 +10,8 @@ Seq:    13.3.16
 
 Level:  4 - Subsection
 
+Index:  HTML conversion; 
+
 Body:
 
 The letter "H" will cause selected special characters to be translated to their equivalent HTML entities.

@@ -10,6 +10,8 @@ Seq:    13.3.23
 
 Level:  4 - Subsection
 
+Index:  br tags; 
+
 Body:
 
 Remove HTML break (br) tags from the variable.

@@ -8,6 +8,8 @@ Seq:    13.4.3
 
 Level:  4 - Subsection
 
+Index:  merge output; 
+
 Body:
 
 This command names and opens the output file, where the results of the template merge will be stored. The first (or sometimes only) operand is the name of the output file. 

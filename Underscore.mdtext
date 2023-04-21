@@ -8,6 +8,8 @@ Seq:    13.3.3
 
 Level:  4 - Subsection
 
+Index:  underscores; 
+
 Body:
 
 An underscore character ("_") will cause all spaces in the variable to be replaced by underscores. This can be useful when creating a file name, for example. Leading and trailing spaces will be trimmed without replacement.

@@ -8,6 +8,8 @@ Seq:    8.9
 
 Level:  3 - Section
 
+Index:  alternate note file formats; note file formats; file formats; MultiMarkdown; YAML frontmatter; 
+
 Body:
 
 To better support users with existing collections of notes stored in text files, Notenik makes its best effort to recognize and appropriately handle the following alternate text file formats.  

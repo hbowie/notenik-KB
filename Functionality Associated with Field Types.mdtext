@@ -8,6 +8,8 @@ Seq:    10.2
 
 Level:  3 - Section
 
+Index:  field types; 
+
 Body:
 
 Several field types have special Notenik functionality associated with them. This functionality is generally associated with the Note containing that field. For these special fields, Notenik should generally only have one field of that type in a Collection; in some cases, Notenik can tolerate multiple fields of a type, but will attach its special functionality to the first field of that type. 

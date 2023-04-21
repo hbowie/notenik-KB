@@ -24,6 +24,7 @@ Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], y
 | `{:header}` | *[[Supply a Page Header]]* |
 | `{:include:another-file.txt}` | *[[Include a Note or File]]* |
 | `{:index}` | *[[Generate a Collection Index]]* |
+| `{:metadata}` | *[[Supply EPUB Metadata]]* |
 | `{:nav}` | *[[Supply Page Navigation]]* |
 | `{:search}` | *[[Generate a Collection Search Page]]* |
 | `{:sort-table:table-id}` | *[[Make a Table Sortable]]* |

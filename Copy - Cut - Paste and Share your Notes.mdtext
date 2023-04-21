@@ -8,6 +8,8 @@ Seq:    11.1
 
 Level:  3 - Section
 
+Index:  copy note; paste note; cut note; duplicate note; share via toolbar; drag and drop notes; share note with options; attachments; 
+
 Body:
 
 There are several different actions you can perform with individual notes. 
@@ -28,6 +30,8 @@ There are several different actions you can perform with individual notes.
 
 Be aware that the user should be on the **Display** Tab, and not the **Edit** tab, in order to perform cut/copy/paste functions since, when on the **Edit** tab, cut/copy/paste will typically apply to the text within a field, and not to the entire note. 
 
-Also be aware that Note Attachments will not be copied or pasted.
+When dragging a Note from one Collection, and dropping it on the List tab of another Collection, Notenik will now copy any attachments for the Note, in addition to the Note itself. 
+
+Other means of copying a Note from one Collection to another may not result in attachments being copied along with the Note. 
 
 When copying notes from one Collection to another, any fields present in the first Collection but not in the second will be dropped.

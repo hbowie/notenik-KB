@@ -8,7 +8,7 @@ Seq:    11.2.3
 
 Level:  4 - Subsection
 
-Index:  web book; 
+Index:  web books; export notes; 
 
 Class:  version
 
@@ -17,6 +17,8 @@ Body:
 The `Web Book` export format will transform an entire Collection into a series of HTML pages that can be read as if they were chapters in a book.
 
 Here's the way this feature works.
+
+##### Web Book as EPUB Folder
 
 1. Your Collection should have a  [[Seq]] field, and optionally a [[Level]] field, in addition to the usual [[Title]] and [[Body]] fields. See [[Using Notenik as an Outliner]] for further useful info on how these two fields can be used together.
 
@@ -40,10 +42,18 @@ Here's the way this feature works.
 
 11. If a file named 'header.html' is found within the output folder, at the top level, then the HTML code within this file will be included at the top of each generated page.
 
-12. You may find other files within the output folder. These are generally intended to make it easier to publish the resulting output in the [EPUB](https://en.wikipedia.org/wiki/EPUB) format, although the ability to generate such output from Notenik is still largely aspirational at this point.
+12. You may find other files within the output folder. These are generally intended to make it easier to publish the resulting output in the [EPUB](https://en.wikipedia.org/wiki/EPUB) format.
 
 13. A user may now load the Title page of the book into a Web browser -- either from a location on their local drive, or from a site on the Web -- and then navigate from there through the entire Web Book.
 
 For an example of a Web Book, see the [one on the Notenik.app website](https://notenik.app/knowledge-base/EPUB/html/notenik-knowledge-base.html) that was generated from this Notenik Knowledge Base itself.
 
+##### Web Book as Site
+
 If you select the option to export to a Web Book as a Site, then the HTML pages will be generated at the top of the output folder, instead of within an `EPUB` folder, and the other EPUB-specific outputs will be skipped. Additionally, the first page of the 'book' will be written twice, once with a file name of `index.html`.
+
+##### Web Book as EPUB
+
+With this option, an actual file with an `.epub` extension will be generated. The required metadata should be supplied via the [[Supply EPUB Metadata]] Markdown command. 
+
+The output will be in [EPUB 3](https://www.w3.org/TR/epub-overview-33/) format.

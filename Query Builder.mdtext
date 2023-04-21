@@ -8,6 +8,8 @@ Seq:    11.9
 
 Level:  3 - Section
 
+Index:  reports; queries; query builder; 
+
 Body:
 
 Starting in [[Version 9.9.0]], a **Query Builder** function is available beneath the **Query** menu. Selecting this item will bring up a **Query Builder** window. 

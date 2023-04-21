@@ -10,6 +10,8 @@ Seq:    13.3.33
 
 Level:  4 - Subsection
 
+Index:  wiki links; 
+
 Body:
 
 If your input is coming from a Collection using [[Wiki Style Links]] (links to other Notes formed by placing the Title of the target note within double square brackets), then you will probably wish to convert these to functional links in your output. 

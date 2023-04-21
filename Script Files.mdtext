@@ -8,6 +8,8 @@ Seq:    14
 
 Level:  2 - Article
 
+Index:  scripting; 
+
 Body:
 
 Notenik supports script files that can be used for executing a series of commands to transform input data sources and templates into appropriate output. 

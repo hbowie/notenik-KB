@@ -8,7 +8,7 @@ Seq:    3.21
 
 Level:  3 - Section
 
-Index:  import; export; CSV; JSON; OPML; YAML; 
+Index:  import notes; export notes; CSV; JSON; OPML; YAML; 
 
 Class:  version
 

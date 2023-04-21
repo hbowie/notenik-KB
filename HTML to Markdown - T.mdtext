@@ -10,6 +10,8 @@ Seq:    13.3.30
 
 Level:  4 - Subsection
 
+Index:  HTML to Markdown conversion; Markdown; 
+
 Body:
 
 The letter "T" will cause the variable to be treated as HTML, and converted to Markdown.

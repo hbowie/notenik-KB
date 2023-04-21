@@ -8,7 +8,7 @@ Seq:    3.18
 
 Level:  3 - Section
 
-Index:  integration; custom URLs; Hook; AppleScript; Shortcuts; 
+Index:  integration; custom URLs; Hookmark; AppleScript commands; Shortcuts; 
 
 Class:  version
 
@@ -20,8 +20,8 @@ Notenik also provides menu commands to easily generate custom URLs linking to se
 
 Notenik also has a special Link field, and you can use that to fire off custom URLs for other apps -- or, for Notenik itself, for that matter.
 
-Although Notenik is not scriptable via AppleScript in the classic sense, it does implement a number of custom AppleScript commands designed to support integration with other apps -- most notably, [Hook][]. Hook integration scripts for Notenik are now available to Hook users via their official channels.  
+Although Notenik is not scriptable via AppleScript in the classic sense, it does implement a number of custom AppleScript commands designed to support integration with other apps -- most notably, [Hookmark][]. Hookmark integration scripts for Notenik are now available to Hookmark users via their official channels.  
 
 Notenik also offers some custom actions for use with Shortcuts for the Mac. 
 
-[hook]: https://hookproductivity.com
+[hookmark]: https://hookproductivity.com

@@ -1,6 +1,6 @@
-Title:  APIs for Hook Integration
+Title:  APIs for Hookmark Integration
 
-Tags:   levels-outline.12 Integration.2 APIs for Hook Integration
+Tags:   levels-outline.12 Integration.2 APIs for Hookmark Integration
 
 Timestamp: 20211116184349
 
@@ -8,11 +8,13 @@ Seq:    12.2
 
 Level:  3 - Section
 
+Index:  Hookmark; APIs; AppleScript commands; 
+
 Class:  non-version
 
 Body:
 
-Notenik now has some minimal AppleScript support, developed specifically to allow integration with the [Hook app][hook]. 
+Notenik now has some minimal AppleScript support, developed specifically to allow integration with the [Hookmarkmark app][Hookmark]. 
 
 #### AppleScript Commands
 
@@ -28,21 +30,21 @@ The following AppleScript commands are available.
 
 #### Sample Scripts
 
-Following are examples of how these commands might be used to enable Hook integration. 
+Following are examples of how these commands might be used to enable Hookmark integration. 
 
 ##### Get Address
 
-The following script might be placed beneath the `Get Address` tab in the Scripts section of Hook Settings. 
+The following script might be placed beneath the `Get Address` tab in the Scripts section of Hookmark Settings. 
 
 ```
 tell application "Notenik"	if HasSelectedNote then		set theTitle to GetSelectedNoteTitle		set theUrl to GetSelectedNoteBacklink		return "[" & theTitle & "](" & theUrl & ")"	end ifend tell
 ```
 
-This script allows Hook to ask for the Title and the Backlink (see [[Custom URL Scheme]]) of the last Note to be selected. This information then allows Hook to later communicate with Notenik in order to pull up that same Note. 
+This script allows Hookmark to ask for the Title and the Backlink (see [[Custom URL Scheme]]) of the last Note to be selected. This information then allows Hookmark to later communicate with Notenik in order to pull up that same Note. 
 
 #### New Item
 
-The following script might be placed beneath the `New Item` tab in the Scripts section of Hook Settings. 
+The following script might be placed beneath the `New Item` tab in the Scripts section of Hookmark Settings. 
 
 ```
 tell application "Notenik"	return AddNote title "$title" link "$user_link" tags "hook"end tell
@@ -50,10 +52,10 @@ tell application "Notenik"	return AddNote title "$title" link "$user_link" tags
 
 This script also returns the backlink to the Note of interest. 
 
-#### Tips for Hook Integration
+#### Tips for Hookmark Integration
 
-You will want to make sure the [[Timestamp]] field is included on any Collection you wish to use with Hook. This field allows Hook to reference a Note even if it has been renamed. 
+You will want to make sure the [[Timestamp]] field is included on any Collection you wish to use with Hookmark. This field allows Hookmark to reference a Note even if it has been renamed. 
 
-Also note that, when Hook communicates with Notenik, it will get info and add info to the frontmost Collection, if you have more than one open. 
+Also note that, when Hookmark communicates with Notenik, it will get info and add info to the frontmost Collection, if you have more than one open. 
 
 [hook]: https://hookproductivity.com

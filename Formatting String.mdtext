@@ -8,6 +8,8 @@ Seq:    13.3.38
 
 Level:  4 - Subsection
 
+Index:  date formatting; 
+
 Body:
 
 A formatting string consists of a sequence of characters indicating how the variable is to be formatted. The formatting string, if specified, should follow any other variable modifiers. Any character other than the modifiers listed above will cause the remainder of the variable modifiers to be treated as a formatting string. Currently, a formatting string is valid only for dates -- either for the special variable `today`, or for any variable date in "mm/dd/yy" format.

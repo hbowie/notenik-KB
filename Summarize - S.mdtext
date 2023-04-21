@@ -10,6 +10,10 @@ Seq:    13.3.29
 
 Level:  4 - Subsection
 
+Teaser:
+
+summarize; teasers;
+
 Body:
 
 The letter "S" will pull the first few sentences from the field, within the first 250 characters. Specifying a number immediately following the "S" will override the default of 250 with the specified number. For the purposes of this operation, Notenik will recognize either a period or a semi-colon as the end of a sentence (but will try to ignore a period placed after a leading number on a line). 

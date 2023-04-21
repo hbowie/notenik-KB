@@ -8,6 +8,8 @@ Seq:    10.4.4
 
 Level:  4 - Subsection
 
+Index:  Launch at Startup; 
+
 Body:
 
 A special 'Launch at Startup' tag can be added to a Note with a Link if you would like that Note's Link to be launched whenever Notenik starts up. 

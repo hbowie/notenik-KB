@@ -4,9 +4,16 @@ Tags:   levels-outline.16 Version History.1 Version 1180
 
 Timestamp: 20211116184349
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   19 Apr 2023
 
 Level:  3 - Section
+
+Teaser:
+
+Added ability to export to an EPUB; added ability to supply header, nav and footer elements, to be shown throughout a Collection (and put to use within the Notenik Knowledge Base); improvements to the Knowledge Base index; improved ability to cite authors and their works; added title-page as a standard class value; improved internal identification for footnotes and citations, allowing multiple notes to be combined while still ensuring a unique identifier for each such reference.
+
 
 Class:  version
 
@@ -26,4 +33,20 @@ New Markdown commands were added that allow the user to specify elements that wi
 
 ##### Added title-page as a Class Value
 
-Added `title-page` as one of the [[Special Class Values]] recognized by Notenik. A Note marked with this class value will not have a page header or a page nav section applied to it. 
+Added `title-page` as one of the [[Special Class Values]] recognized by Notenik. A Note marked with this class value will not have a page header or a page nav section applied to it.
+
+##### Knowledge Base Index Greatly Improved
+
+Every page of the Notenik Knowledge Base now features links to the Table of Contents and to the Index on the top right of each page, making it much easier to navigate back and forth between details and these two navigational pages. The [[Index to the Knowledge Base]], in particular, has been significantly improved with this release, and should now be much more useful.
+
+##### EPUB Metadata
+
+A new Markdown command to [[Supply EPUB Metadata]] has been added, to aid in the creation of an EPUB file.
+
+##### EPUB Creation Improved 
+
+I'm sure there is still room for additional refinement here, but Notenik can now create a working e-book in the [EPUB 3](https://www.w3.org/TR/epub-overview-33/) format via the [[Export as Web Book]] function.
+
+##### Added Ability to Format Current Date and Time
+
+When using the `today` [[System Variable]], Notenik will now honor time formatting parameters, resulting in the current date and time, rather than just the date.
