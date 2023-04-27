@@ -26,6 +26,7 @@ On the other hand, if the command results in the generation of a large web page 
 | --------- | ------------ |
 | `{:collection-toc:2-3}` | *[[Generate a Collection Table of Contents]]* |
 | `{:index}` | *[[Generate a Collection Index]]* |
+| `{:random}` | [[Go To Random Note]]* |
 | `{:search}` | *[[Generate a Collection Search Page]]* |
 | `{:tags-cloud}` | *[[Generate a Tags Cloud]]* |
 | `{:tags-outline}` | *[[Generate a Tags Outline]]* |

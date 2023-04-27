@@ -1,0 +1,45 @@
+Title:  Version 8.2.0 2
+
+Tags:   levels-outline.16 Version History.44 Version 820
+
+Timestamp: 20211116184349
+
+Seq:    16.45
+
+Date:   28 Jan 2022
+
+Level:  3 - Section
+
+Teaser:
+
+Added Markdown support for the creation of tables, using pipes and dashes; added a new command beneath the File menu to Open the current Collection's Folder in the macOS FInder; 
+improved editing of Index fields; added new command to Clean a Link, removing common tracking parameters; improved the readability of the Keyboard Shortcuts Reference page in the Knowledge Base; added a new Markdown Cheat Sheet. 
+
+
+Class:  version
+
+Body:
+
+##### Added Markdown Support for Tables
+
+Pipes and dashes can now be used to create [[tables]].
+
+##### Show Folder in Finder
+
+Added a new command beneath the `File` menu to `Show Folder in Finder`, for times when you wish to access the underlying files and folders that make up the Collection.
+
+##### Improved Index Editing
+
+Updated the [[Index]] field to allow multi-line editing.
+
+##### New Command to Clean Link
+
+The `Clean Link` command beneath the `Note` menu may now be used to remove tracking parameters from a [[Link]] field.
+
+##### Improved Keyboard Shortcuts Reference
+
+Used the new Markdown support for Tables to make the [[Keyboard Shortcuts]] page more readable.
+
+##### New Markdown Cheat Sheet
+
+Added a [[Markdown Cheat Sheet]], easily accessible from the `Help` menu.

@@ -26,6 +26,7 @@ Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], y
 | `{:index}` | *[[Generate a Collection Index]]* |
 | `{:metadata}` | *[[Supply EPUB Metadata]]* |
 | `{:nav}` | *[[Supply Page Navigation]]* |
+| `{:random}` | *[[Go To Random Note]]* | 
 | `{:search}` | *[[Generate a Collection Search Page]]* |
 | `{:sort-table:table-id}` | *[[Make a Table Sortable]]* |
 | `{:tags-cloud}` | *[[Generate a Tags Cloud]]* |

@@ -2,7 +2,7 @@ Title:  Version 11.9.0
 
 Timestamp: 20211116184349
 
-Seq:    16.3
+Seq:    16.1
 
 Level:  3 - Section
 
@@ -12,4 +12,12 @@ Body:
 
 ##### Drag and Drop Now Copies Attachments
 
-When you drag a Note from one Collection, and then drop it onto the List tab of another Collection, Notenik will now copy any attached files, as well as copying the Note itself. See [[Copy, Cut, Paste and Share your Notes]] for details. 
+When you drag a Note from one Collection, and then drop it onto the List tab of another Collection, Notenik will now copy any attached files, as well as copying the Note itself. See [[Copy, Cut, Paste and Share your Notes]] for details.
+
+##### Go To a Random Note
+
+A new Markdown command has been added that will allow the user to [[Go To Random Note]] within the same Collection.
+
+##### Added Class Special Value of Exclude
+
+Notenik recognizes a number of [[Special Class Values]] when a Collection uses a [[Class]] field. The special value of `exclude` has been added to this list, and will cause Notes with this class value to be excluded from the Collection's reading list. This is most useful when using the [[Streamlined Reading]] option. 

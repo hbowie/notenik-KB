@@ -14,18 +14,22 @@ Class:  non-version
 
 Body:
 
-You are free to use any `Class` values that make sense for you, but Notenik recognizes some values as having special significanc (based on  a normal scheme of [book design][bkdsgn]), especially when using [[Streamlined Reading]] mode. 
+You are free to use any `Class` values that make sense for you, but Notenik recognizes some values as having special significance (based on  a normal scheme of [book design][bkdsgn]), especially when using [[Streamlined Reading]] mode. 
 
-+ author - The Note identifies the author of one or more works, as might be cited within a bibliography. 
-+ back - back matter of a general nature.
-+ biblio - bibliography, as part of the back matter.
-+ front - front matter of a general nature.
-+ intro - introduction, as part of the front matter.
-+ preface - preface, as part of the front matter.
-+ quote - quotation.
-+ quotation - quotation.
-+ title-page - title page
-+ work - The Note identifies a particular work written by one or more authors, as might be cited within a bibliography.
+| Class Value | Significance |
+| ---------------- | ---------------- |
+| author | The Note identifies the author of one or more works, as might be cited within a bibliography 
+| back | back matter of a general nature
+| biblio | bibliography, as part of the back matter
+| exclude | exclude from reading sequence 
+| front | front matter of a general nature
+| intro | introduction, as part of the front matter
+| preface | preface, as part of the front matter
+| quote | quotation
+| quotation | quotation
+| title-page | title page
+| work | The Note identifies a particular work written by one or more authors, as might be cited within a bibliography
+
 
 Frontmatter and bibliographic entries are often not shown with their sequence numbers, since these typically have less significance for this sort of content. 
 
