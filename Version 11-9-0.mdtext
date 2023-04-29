@@ -1,10 +1,19 @@
 Title:  Version 11.9.0
 
+Tags:   levels-outline.18 Version History.1 Version 1190
+
 Timestamp: 20211116184349
 
-Seq:    16.1
+Seq:    18.1
+
+Date:   29 Apr 2023
 
 Level:  3 - Section
+
+Teaser:
+
+Dragging and Dropping a Note from one Collection to another will now copy the Note's attachments (if any), in addition to the fields of the Note itself; a new Markdown command has been added that will allow a reader to navigate to a random Note (or to a random Note of a specific class); a new special class value of 'exclude' has been added, which will exclude Notes of that class from the normal reading sequence of a Collection. 
+
 
 Class:  version
 
@@ -20,4 +29,8 @@ A new Markdown command has been added that will allow the user to [[Go To Random
 
 ##### Added Class Special Value of Exclude
 
-Notenik recognizes a number of [[Special Class Values]] when a Collection uses a [[Class]] field. The special value of `exclude` has been added to this list, and will cause Notes with this class value to be excluded from the Collection's reading list. This is most useful when using the [[Streamlined Reading]] option. 
+Notenik recognizes a number of [[Special Class Values]] when a Collection uses a [[Class]] field. The special value of `exclude` has been added to this list, and will cause Notes with this class value to be excluded from the Collection's reading list. This is most useful when using the [[Streamlined Reading]] option.
+
+##### Some Changes to the Knowledge Base Organization
+
+The Reference section used to be at the very back of the Notenik Knowledge Base -- it has now been moved ahead of the Version History section, leaving that section at the very back, since it is so long. Also, the navigational pages (search, index, etc.) have been broken out of the Reference section, and placed into a new section, named 'Navigation', which is just in front of the Reference section. 

@@ -1,5 +1,7 @@
 Title:  Go To Random Note
 
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.22 Go To Random Note
+
 Timestamp: 20230425193351
 
 Seq:    9.2.22
@@ -29,4 +31,6 @@ If more than one class value should be eligible, then the eligible class values 
 ```
 {:random:idea,quote}
 ```
+
+See the [[Random Page]] within the Knowledge Base for an example. 
 
