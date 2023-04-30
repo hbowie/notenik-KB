@@ -20,14 +20,16 @@ A Collection should never have more than one field of this type.
 
 This field is assigned when a Note is first created, and is an alternate means of identification for a Note that will persist even if the title of the Note is later changed. 
 
-Timestamp values will be generated in a "yyyyMMddkkmmss" format, consisting of:
+Timestamp values will be generated in a "yyyyMMddHHmmss" format, consisting of:
 
 * 4-digit year
 * 2-digit month
 * 2-digit day of month
-* hour of day, using a 24-hour range
+* hour of day, using a 0 - 23 hour range
 * minute of hour
 * second of minute
+
+These codes are taken from [Unicode Technical Standard #35](http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns). 
 
 All of this is normalized to Greenwich Mean Time, and formatted without spaces or punctuation. 
 

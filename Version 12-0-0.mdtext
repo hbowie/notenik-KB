@@ -1,0 +1,15 @@
+Title:  Version 12.0.0
+
+Timestamp: 20211116184349
+
+Seq:    18.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Corrected Hour Formatting in Timestamp values
+
+Notenik had been formatting the [[Timestamp]] field using an hour range of 1 - 24, which could result in a time in the midnight hour being sorted after an hour occurring later in the same day. This has been changed to a range of 0 - 23.

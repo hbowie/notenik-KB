@@ -4,7 +4,7 @@ Tags:   levels-outline.18 Version History.1 Version 1190
 
 Timestamp: 20211116184349
 
-Seq:    18.1
+Seq:    18.2
 
 Date:   29 Apr 2023
 
@@ -33,4 +33,4 @@ Notenik recognizes a number of [[Special Class Values]] when a Collection uses a
 
 ##### Some Changes to the Knowledge Base Organization
 
-The Reference section used to be at the very back of the Notenik Knowledge Base -- it has now been moved ahead of the Version History section, leaving that section at the very back, since it is so long. Also, the navigational pages (search, index, etc.) have been broken out of the Reference section, and placed into a new section, named 'Navigation', which is just in front of the Reference section. 
+The Reference section used to be at the very back of the Notenik Knowledge Base -- it has now been moved ahead of the Version History section, leaving that section at the very back, since it is so long. Also, the navigational pages (search, index, etc.) have been broken out of the Reference section, and placed into a new section, named 'Navigation', which is just in front of the Reference section.
