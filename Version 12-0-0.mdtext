@@ -13,3 +13,8 @@ Body:
 ##### Corrected Hour Formatting in Timestamp values
 
 Notenik had been formatting the [[Timestamp]] field using an hour range of 1 - 24, which could result in a time in the midnight hour being sorted after an hour occurring later in the same day. This has been changed to a range of 0 - 23.
+
+##### Fixed a Bug involving Timestamps and Classes
+
+When both a [[Timestamp]] field and a [[Class]] field were defined for a Collection, timestamp values would sometimes fail to be newly initialized for each new instance of a Note. This has been corrected. 
+
