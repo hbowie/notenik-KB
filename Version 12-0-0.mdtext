@@ -16,5 +16,10 @@ Notenik had been formatting the [[Timestamp]] field using an hour range of 1 - 2
 
 ##### Fixed a Bug involving Timestamps and Classes
 
-When both a [[Timestamp]] field and a [[Class]] field were defined for a Collection, timestamp values would sometimes fail to be newly initialized for each new instance of a Note. This has been corrected. 
+When both a [[Timestamp]] field and a [[Class]] field were defined for a Collection, timestamp values would sometimes fail to be newly initialized for each new instance of a Note. This has been corrected.
+
+##### Fixed Some Problems with the Display Template
+
+When using a `display.html` file to [[Tailor the Display]], several potential problems could arise. I believe these have all been sorted. 
+
 
