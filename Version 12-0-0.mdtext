@@ -1,10 +1,19 @@
 Title:  Version 12.0.0
 
+Tags:   levels-outline.18 Version History.1 Version 1200
+
 Timestamp: 20211116184349
 
-Seq:    18.1
+Seq:    18.2
+
+Date:   09 May 2023
 
 Level:  3 - Section
+
+Teaser:
+
+Corrected hour formatting in Timestamp values; fixed a bug involving timestamps and classes; improved handling of the Display template. 
+
 
 Class:  version
 
@@ -20,6 +29,4 @@ When both a [[Timestamp]] field and a [[Class]] field were defined for a Collect
 
 ##### Fixed Some Problems with the Display Template
 
-When using a `display.html` file to [[Tailor the Display]], several potential problems could arise. I believe these have all been sorted. 
-
-
+When using a `display.html` file to [[Tailor the Display]], several potential problems could arise. I believe these have all been sorted.

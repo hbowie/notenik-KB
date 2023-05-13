@@ -1,0 +1,113 @@
+Title:  Using Notenik As A Trip Planner
+
+Tags:   levels-outline.15 Putting It All Together.9 Using Notenik As A Trip Planner
+
+Timestamp: 20230511161520
+
+Seq:    15.9
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+As a user of Notenik, I recently ran into a problem. 
+
+I was using Notenik to plan a vacation, and was sharing that info with other family members who would be traveling with us. 
+
+During the planning phase, it all went well. I set up a [shared iCloud folder](https://support.apple.com/guide/icloud/share-files-and-folders-mm708256356b/icloud), and my wife and I were both able to edit it and add information to it from our respective Macs. 
+
+But then, we embarked upon our vacation. I took my MacBook, but my wife did not take hers. But of course I did not take my Mac with me everywhere we went, and so we quickly found that all that carefully prepared information became very difficult to access. 
+
+And so, as the developer of Notenik, that experience got me thinking: how could our carefully curated repository of information be usefully (and somewhat privately) shared with one another?
+
+And then I came up with what turned out to be an interesting idea: what about using Notenik to publish a little "trip book" in EPUB format, emailing it to family members, and then letting everyone open it in Apple Books (which would then [sync it to all of their devices](https://support.apple.com/guide/books/books-audiobooks-devices-ibks86dab303/), including iPhones and iPads)?
+
+I wasn't really sure how this would work out. 
+
+The first problem was to make several enhancements to Notenik that would make the EPUB publication feasible. Once I had these changes working, they were released as part of [11.8.0](https://notenik.app/knowledge-base/EPUB/html/version-11.8.0.html).
+
+The next task was to test it in the field, which I did with a recently completed family trip to Santa Fe. 
+
+And I'm happy to say that it all seemed to work pretty well!
+
+So even though Apple Books and the EPUB standard were not necessarily designed with this sort of private usage in mind, it turns out they are flexible enough to allow it to happen! 
+
+Here's how it worked.
+
+##### Field Definitions
+
+Here's the `template.txt` file I used.
+
+```
+Title: <title> 
+
+Seq: <seq> 
+
+Level: <level: > 
+
+Tags: <tags> 
+
+Date: <date> 
+
+Time of Day: <seq> 
+
+Status: 0 - Idea; 1 - Proposed; 3 - Planned; 6 - Booked; 8 - Canceled; 9 - Closed;  
+
+Link: <link> 
+
+Address:  
+
+Cost:  
+
+Body:  
+
+```
+
+##### Sort Sequence
+
+I ended up sorting the Collection by `Seq + Title`. I used the first digit of the `Seq` field to indicate the day of the month, with the second digit indicating the type of activity, using the following key. I used `99` in the first position to group possible activities that were not definitely scheduled. 
+
+| Seq | Category |
+| ---- | ------|
+| x.1 | Air Travel |
+| x.2 | Ground Travel |
+| x.3 | Lodging |
+| x.4 | Breakfast |
+| x.5 | Recreation and Entertainment |
+| x.6 | Lunch / Dinner |
+
+##### EPUB Metadata
+
+At the back of the 'book' I created a Note titled `EPUB Metadata`, with the following body:
+
+```
+{:metadata}
+	<dc:identifier id="pub-identifier">hbowie.net/Santa Fe Trip Book</dc:identifier>
+	<dc:title id="pub-title">Santa Fe Trip Book</dc:title>
+	<dc:creator id="author">Herb Bowie</dc:creator>
+	<dc:language id="pub-language">en</dc:language>
+	<meta property="dcterms:modified">=$today&yyyy-MM-dd'T'HH:mm:ss'Z'$=</meta>
+```
+
+You should modify the identifier, the title and the author fields to reflect your personal usage. But the EPUB format requires entries like these, so be sure not to omit them!
+
+Note that the `modified` date is automatically set to the date and time of the EPUB generation, so that each publication will be recognized by Apple Books as a new edition (rather than another copy of the same edition that should be ignored to avoid duplicates). 
+
+##### Export to EPUB
+
+When you're ready to generate your EPUB, just use the Export function and choose an Output Format of `Web Book as EPUB`. Then double-click, or drag and drop to Apple Books to review your finished product. 
+
+##### Revisions
+
+If you revise and republish via another export to EPUB, then you and other users will probably want to delete the earlier version(s) before adding the latest version to Apple Books. 
+
+##### Sample Collection
+
+You can download a sample collection from [notenik.app/samples/trip-book-sample.zip](https://notenik.app/samples/trip-book-sample.zip).
+
+##### Bottom Line
+
+I hope this information proves useful to you. Let me know if any questions or suggestions for improvement, or if this example inspires you to come up with yet another variation of how Notenik can be put to use!
+

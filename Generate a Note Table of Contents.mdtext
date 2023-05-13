@@ -14,7 +14,7 @@ Class:  version
 
 Body:
 
-As an extension to the original Markdown spec from John Gruber, a Table of Contents for a single Note's [[body]] field can be generated dynamically. 
+As an extension to the original Markdown spec from John Gruber, a Table of Contents for a single Note's [[body]] field can be generated dynamically, using the Note's embedded [headings](https://www.markdownguide.org/basic-syntax/#headings) as the items to be listed. 
 
 The generated HTML will display the ToC using unordered list tags, nesting where appropriate. Each ToC entry will link to its corresponding heading, relying on [[Heading ID Generation]] to establish the targets for the links. 
 

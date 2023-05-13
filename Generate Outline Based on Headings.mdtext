@@ -1,0 +1,36 @@
+Title:  Generate Outline Based on Headings
+
+Timestamp: 20230512224246
+
+Seq:    9.2.17
+
+Level:  4 - Subsection
+
+Index:  outlining; headings; 
+
+Class:  non-version
+
+Body:
+
+As an extension to the original Markdown spec from John Gruber, a Note's [[body]] field can be formatted as an outline, using the Note's embedded [headings](https://www.markdownguide.org/basic-syntax/#headings) as the items in the outline. 
+
+This outline formatting is requested by placing the following command line in the body field, before the appearance of any headings. 
+
+```
+{:outline}
+```
+
+Headings can then be indicated using the usual Markdown syntax. However instead of formatting each heading line with the usual `h1` through `h6` tags, Notenik will make each heading a [summary](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) element, with the heading line and all following content -- up to the next heading at the same level -- enclosed within a [details](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) element. 
+
+The result will be that each heading line will start with a disclosure triangle, with the details following the heading line initially hidden. Clicking on the disclosure triangle will then reveal the details following the heading line (including any lower-level headings, which will in turn have their own disclosure triangles). 
+
+For example...
+
+{:outline}
+##### Styling with CSS
+
+Each `<details>` tag will have a css class assigned, in the format `heading-x-details`, where `x` is the level of the heading (normally indicated by the number of hash marks used). 
+
+Similarly, each `<summary>` tag will have a css class assigned in the format `heading-x-summary`, where `x` is again the level of the heading. 
+
+Notenik will supply default styling for these classes in order to appropriately indent each level of the outline, but this default styling can be overridden by the user to modify the appearance of the headings.

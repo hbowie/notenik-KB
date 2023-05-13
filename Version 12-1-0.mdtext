@@ -1,0 +1,15 @@
+Title:  Version 12.1.0
+
+Timestamp: 20230512225711
+
+Seq:    18.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Command to Generate Outline Based on Headings
+
+Added a new Notenik Markdown extension to [[Generate Outline Based on Headings]]. This will format the body of a Note as an outline, with the embedded headings becoming the items in the outline. 
