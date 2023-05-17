@@ -34,3 +34,18 @@ Each `<details>` tag will have a css class assigned, in the format `heading-x-de
 Similarly, each `<summary>` tag will have a css class assigned in the format `heading-x-summary`, where `x` is again the level of the heading. 
 
 Notenik will supply default styling for these classes in order to appropriately indent each level of the outline, but this default styling can be overridden by the user to modify the appearance of the headings.
+
+##### Expanding the Initial Outline Display
+
+If you wish the initial Note display to show multiple levels of headings, then place a colon and a single digit  after the command itself. A value of `0` or `1` will just show the first level of headings -- the same as the default, without any modifier. A value of '2' will result in two levels of headings being initially visible, and so on. 
+
+For an example, see the following line:
+
+```
+{:outline:3}
+```
+
+##### Heading Levels
+
+Note that this command will work just as well no matter what heading levels you choose to use. In other words, you could start with a level 1, followed by a level 2 (levels indicated by numbers of hash marks), but you could also start with a level 2 (two hash marks) followed by level 4 headings (four hash marks). 
+
