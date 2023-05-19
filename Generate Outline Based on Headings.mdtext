@@ -1,5 +1,7 @@
 Title:  Generate Outline Based on Headings
 
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.17 Generate Outline Based on Headings
+
 Timestamp: 20230512224246
 
 Seq:    9.2.17
@@ -47,5 +49,4 @@ For an example, see the following line:
 
 ##### Heading Levels
 
-Note that this command will work just as well no matter what heading levels you choose to use. In other words, you could start with a level 1, followed by a level 2 (levels indicated by numbers of hash marks), but you could also start with a level 2 (two hash marks) followed by level 4 headings (four hash marks). 
-
+Note that this command will work just as well no matter what heading levels you choose to use. In other words, you could start with a level 1, followed by a level 2 (levels indicated by numbers of hash marks), but you could also start with a level 2 (two hash marks) followed by level 4 headings (four hash marks).

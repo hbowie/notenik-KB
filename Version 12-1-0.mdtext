@@ -1,5 +1,7 @@
 Title:  Version 12.1.0
 
+Tags:   levels-outline.18 Version History.1 Version 1210
+
 Timestamp: 20230512225711
 
 Seq:    18.1
@@ -12,4 +14,4 @@ Body:
 
 ##### Added Command to Generate Outline Based on Headings
 
-Added a new Notenik Markdown extension to [[Generate Outline Based on Headings]]. This will format the body of a Note as an outline, with the embedded headings becoming the items in the outline. 
+Added a new Notenik Markdown extension to [[Generate Outline Based on Headings]]. This will format the body of a Note as an outline, with the embedded headings becoming the items in the outline.
