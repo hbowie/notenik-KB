@@ -14,4 +14,8 @@ Body:
 
 ##### Added Command to Generate Outline Based on Headings
 
-Added a new Notenik Markdown extension to [[Generate Outline Based on Headings]]. This will format the body of a Note as an outline, with the embedded headings becoming the items in the outline.
+Added a new Notenik Markdown extension to [[Generate Outline Based on Headings]]. This will format the body of a Note as an outline, with the embedded headings becoming the items in the outline. An OPML file can be dragged and dropped onto the List tab in order to add an outline note using this new extension.
+
+##### Added Some OPML Import Refinements
+
+When using the [[import]] function to import an OPML outline file, a few improvements were made to sensibly handle common outline attributes. 

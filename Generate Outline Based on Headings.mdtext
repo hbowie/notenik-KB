@@ -8,7 +8,7 @@ Seq:    9.2.17
 
 Level:  4 - Subsection
 
-Index:  outlining; headings; 
+Index:  outlining; headings; OPML; 
 
 Class:  non-version
 
@@ -50,3 +50,12 @@ For an example, see the following line:
 ##### Heading Levels
 
 Note that this command will work just as well no matter what heading levels you choose to use. In other words, you could start with a level 1, followed by a level 2 (levels indicated by numbers of hash marks), but you could also start with a level 2 (two hash marks) followed by level 4 headings (four hash marks).
+
+##### OPML Conversion
+
+[OPML](http://opml.org) stands for "Outline Processor Markup Language," and is a text-based format designed to store and exchange outlines with attributes. Most outlining applications (such as the [Bike Outiner](https://www.hogbaysoftware.com/bike/) and [OmniOutliner](https://www.omnigroup.com/omnioutliner/) can save and/or export outlines in the OPML format. 
+
+If you drag such a file (with a file extension of `.opml`) from the Finder and drop it onto the List tab of an open Notenik Collection (positioning the drop before or after an existing Note, but not directly on it), then Notenik will convert the OPML file into a Notenik Note that starts with the `{:outline}` command and has headings representing the outline items. 
+
+
+
