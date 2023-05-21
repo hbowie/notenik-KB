@@ -55,9 +55,21 @@ Following are the supported formats.
 
 	Each Note will be represented as one JSON object. 
 
-* Import/Export in [OPML][] Format
+* Export in [OPML][] Format
 
 	Each Note will be represented as an outline object. See how to [[Using Notenik as an Outliner]] for more info on outlining. 
+
+* Import OPML using Seq & Level
+
+	Each outline object will be added as a separate Note, and the Seq and Level fields will be used to indicate the sequence and depth of the items.
+
+* Import OPML using Headings
+
+	The entire outline defined in the OPML file will be loaded into the body of one new Note, using the [[Generate Outline Based on Headings]] Markdown extension. 
+
+* Import OPML using Lists
+
+	The entire outline defined in the OPML fild will be loaded into the body of one new Note, using the [[Generate Outline Based on Unordered List Items]] Markdown extension. 
 	
 * Export in Concatenated HTML or Markdown
 

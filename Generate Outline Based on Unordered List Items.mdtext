@@ -1,0 +1,46 @@
+Title:  Generate Outline Based on Unordered List Items
+
+Timestamp: 20230521181817
+
+Seq:    9.2.18
+
+Level:  4 - Subsection
+
+Index:  outlining; 
+
+Class:  non-version
+
+Body:
+
+As an extension to the original Markdown spec from John Gruber, a Note's [[body]] field can be formatted as an outline, using the Note's [unordered list items](https://www.markdownguide.org/basic-syntax/#unordered-lists) as the items in the outline. 
+
+This outline formatting is requested by placing the following command line in the body field, before the appearance of any lists. 
+
+```
+{:outline-bullets}
+```
+
+Unordered list items can then be indicated using the usual Markdown syntax. Notenik will then wrap each list item within a [summary](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) element, with the list item line and any following indented content enclosed within a [details](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) element. 
+
+The result will be that each list item will start with a disclosure triangle, with the details following the list item initially hidden. Clicking on the disclosure triangle will then reveal the details following the list item line (including any lower-level lists, whose items will in turn have their own disclosure triangles). 
+
+For example...
+
+{:outline-bullets}
++ Styling with CSS
+
+	Each `<details>` tag will have a css class assigned, in the format `list-item-x-details`, where `x` is the depth of the list, starting with `1`. 
+
+	Similarly, each `<summary>` tag will have a css class assigned in the format `list-item-x-summary`, where `x` is again the depth of the list, starting with `1`. 
+
+	Notenik will supply default styling for these classes in order to appropriately indent each level of the outline, and to suppress the normal bullets (effectively replacing them with disclosure triangles), but this default styling can be overridden by the user to modify the appearance of the headings.
+
++ Expanding the Initial Outline Display
+
+	If you wish the initial Note display to show multiple levels of lists, then place a colon and a single digit  after the command itself. A value of `0` or `1` will just show the first level of list items -- the same as the default, without any modifier. A value of '2' will result in two levels of lists being initially visible, and so on. 
+
+	For an example, see the following line:
+
+		{:outline-headings:3}
+
+

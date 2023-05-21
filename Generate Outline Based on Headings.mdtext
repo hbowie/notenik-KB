@@ -19,7 +19,7 @@ As an extension to the original Markdown spec from John Gruber, a Note's [[body]
 This outline formatting is requested by placing the following command line in the body field, before the appearance of any headings. 
 
 ```
-{:outline}
+{:outline-headings}
 ```
 
 Headings can then be indicated using the usual Markdown syntax. However instead of formatting each heading line with the usual `h1` through `h6` tags, Notenik will make each heading a [summary](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) element, with the heading line and all following content -- up to the next heading at the same level -- enclosed within a [details](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) element. 
@@ -28,7 +28,7 @@ The result will be that each heading line will start with a disclosure triangle,
 
 For example...
 
-{:outline}
+{:outline-headings}
 ##### Styling with CSS
 
 Each `<details>` tag will have a css class assigned, in the format `heading-x-details`, where `x` is the level of the heading (normally indicated by the number of hash marks used). 
@@ -44,7 +44,7 @@ If you wish the initial Note display to show multiple levels of headings, then p
 For an example, see the following line:
 
 ```
-{:outline:3}
+{:outline-headings:3}
 ```
 
 ##### Heading Levels
@@ -55,7 +55,4 @@ Note that this command will work just as well no matter what heading levels you 
 
 [OPML](http://opml.org) stands for "Outline Processor Markup Language," and is a text-based format designed to store and exchange outlines with attributes. Most outlining applications (such as the [Bike Outiner](https://www.hogbaysoftware.com/bike/) and [OmniOutliner](https://www.omnigroup.com/omnioutliner/) can save and/or export outlines in the OPML format. 
 
-If you drag such a file (with a file extension of `.opml`) from the Finder and drop it onto the List tab of an open Notenik Collection (positioning the drop before or after an existing Note, but not directly on it), then Notenik will convert the OPML file into a Notenik Note that starts with the `{:outline}` command and has headings representing the outline items. 
-
-
-
+If you drag such a file (with a file extension of `.opml`) from the Finder and drop it onto the List tab of an open Notenik Collection (positioning the drop before or after an existing Note, but not directly on it), then Notenik will convert the OPML file into a Notenik Note that starts with the `{:outline-headings}` command and has headings representing the outline items.
