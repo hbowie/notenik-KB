@@ -6,7 +6,13 @@ Timestamp: 20230512225711
 
 Seq:    18.1
 
+Date:   23 May 2023
+
 Level:  3 - Section
+
+Teaser:
+
+Added a Markdown command to generate an outline based on headings; added another command to generate an outline based on lists; made some improvements to the OPML import function using the Seq and Level fields. 
 
 Class:  version
 
@@ -23,4 +29,3 @@ Added a new Markdown extension to [[Generate Outline Based on Unordered List Ite
 ##### Added Some OPML Import Refinements
 
 When using the [[import]] function to import an OPML outline file using the Seq and Level fields, a few improvements were made to sensibly handle common outline attributes.
-

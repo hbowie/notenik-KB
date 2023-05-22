@@ -1,6 +1,6 @@
 Title:  Generate a Collection Table of Contents
 
-Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.18 Generate a Collection Table of Contents
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.19 Generate a Collection Table of Contents
 
 Timestamp: 20210713204211
 
@@ -31,5 +31,7 @@ See this Collection's [[Complete Table of Contents]] for an example.
 With options similar to those available to [[generate a Note Table of Contents]], this command may be followed by one or two digits to indicate, respectively, the lowest level to be included in the ToC, and the highest level.
 
 The Note in which the ToC appears will not itself be included in the generated Table.
+
+This command generates the table of contents using unordered list items, and placing the command to [[Generate Outline Based on Unordered List Items]] before this command will add disclosure triangles to the table of contents. 
 
 Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place.

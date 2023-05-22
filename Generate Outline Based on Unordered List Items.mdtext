@@ -1,5 +1,7 @@
 Title:  Generate Outline Based on Unordered List Items
 
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.18 Generate Outline Based on Unordered List Items
+
 Timestamp: 20230521181817
 
 Seq:    9.2.18
@@ -42,5 +44,3 @@ For example...
 	For an example, see the following line:
 
 		{:outline-headings:3}
-
-
