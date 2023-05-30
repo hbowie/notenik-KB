@@ -1,0 +1,31 @@
+Title:  Version 12.2.0
+
+Timestamp: 20230528183635
+
+Seq:    18.1
+
+Level:  3 - Section
+
+Teaser:
+
+Expanded definition of alphabetic characters, to include accented characters, when cleaning string for use in tags, and for file names (accented characters are now accepted, whereas before they were being dropped); expanded allowable sequence depth for accurate sorting -- sorting was only accurate for the first six levels before, and now it should be accurate for any number of levels; better handling of images in streamlined reading mode; improved scrolling on the list tab, to prevent unwanted horizontal scrolling. 
+
+Class:  version
+
+Body:
+
+##### Expanded Definition of Alphabetic Characters
+
+When cleaning up a string, alphabetic characters that include accents are now accepted, rather than being skipped. This affects composition of [[Tags]], and also of [[Note File Names]]. 
+
+##### Expanded Sequence Depth for Sorting
+
+Notenik would previously only accurately handle sorting for up to six levels of [[Seq]] segments; Notenik should now properly sort Seq values of any number of levels. 
+
+##### Better Handling of Images in Streamlined Reading
+
+When using an [[Image Name]] field, along with associated fields, Notenik presents a cleaner Display when using [[Streamlined Reading]]. 
+
+##### Better Scrolling on the List Tab
+
+The List tab now uses [predominant axis scrolling](https://developer.apple.com/documentation/appkit/nsscrollview/1403489-usespredominantaxisscrolling), to prevent the user from accidentally scrolling horizontally when they are trying to scroll vertically. Also, a new option has been added to the [[application settings]], allowing the user to remove the horizontal scroll bar altogether.

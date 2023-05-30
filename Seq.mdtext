@@ -36,7 +36,7 @@ When editing, the seq field will appear as a single line of editable text.
 
 When displayed, the seq field will be displayed as entered.   
 
-When used as a sort field, seq values will be padded to cause them to sort into a natural order, rather than a strict character-by-character alphanumeric order.  In other words, a value of `2` will sort before a value of `10`, a value of `b` will sort before `aa`, etc. Each segment of this field, when separated by a dot or a dash, will be padded separately, up to a maximum of six segments. (That is, you can include more than six segments, and they will be preserved, but the padding, and thus the sensible sorting, will only apply to the first six of the segments.)
+When used as a sort field, seq values will be padded to cause them to sort into a natural order, rather than a strict character-by-character alphanumeric order.  In other words, a value of `2` will sort before a value of `10`, a value of `b` will sort before `aa`, etc. Each segment of this field, when separated by a dot or a dash, will be padded separately. 
 
 A seq field can also be used to store a time of day. In this case, colons and spaces will be recognized as separator characters, and a final segment containing a value of 'AM' or 'PM' (in either upper- or lowercase) will be placed at the beginning of the derived sort key, after converting to lowercase, for purposes of normalization. The result should be that these values sort into a natural order, and are displayed in a natural format. 
 
