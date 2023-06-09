@@ -1,0 +1,19 @@
+Title:  Version 12.3.0
+
+Timestamp: 20230604231635
+
+Seq:    18.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Again Button to New with Options
+
+When using the [[New Note with Options]] window, the user may now use a button labeled `Again` to immediately add and save a Note with the specified values, and then return to the same window to immediately add another. 
+
+##### Corrected Collection Title Setting
+
+When the user uses the [[Collection Settings]] window, and then leaves the Collection title blank, or clears it out, then Notenik will use a default value for the Collection title, and will set an internal flag indicating that the user has not explicitly set a title for the Collection (and thus allowing Notenik a little leeway in terms of modifying that title before displaying it to the user in certain situations). Unfortunately, when the user cleared out the Collection title, Notenik was not properly setting the internal flag to indicate a default was being used. This has been corrected.  

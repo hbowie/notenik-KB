@@ -30,4 +30,6 @@ After selecting this option, you will be presented with a new Window containing 
 
 + Cancel -- Use this button to skip adding a new Note. 
 
++ Again -- Use this button to immediately add and save a Note with the specified values, and then return to the same window in preparation for adding another. 
+
 + OK -- Use this button to proceed to the Edit tab for your new Note, with the specified field values already populated for you on this screen.
