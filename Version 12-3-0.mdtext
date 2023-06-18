@@ -21,3 +21,8 @@ When using the [[New Note with Options]] window, the user may now use a button l
 ##### Corrected Collection Title Setting
 
 When the user uses the [[Collection Settings]] window, and then leaves the Collection title blank, or clears it out, then Notenik will use a default value for the Collection title, and will set an internal flag indicating that the user has not explicitly set a title for the Collection (and thus allowing Notenik a little leeway in terms of modifying that title before displaying it to the user in certain situations). Unfortunately, when the user cleared out the Collection title, Notenik was not properly setting the internal flag to indicate a default was being used. This has been corrected.
+
+##### Corrected Window Placement
+
+When a Collection is opened, Collection windows are now placed where they were previously relative to the *upper* left corners of the screens on which they are displayed, rather than the *lower* left corners. This change is visible when opening a Collection from a second Mac with a smaller or larger screen than the one on which the Collection was last viewed. 
+
