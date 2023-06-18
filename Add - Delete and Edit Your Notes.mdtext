@@ -18,6 +18,8 @@ Body:
 
 The Edit tab lets you make changes to the Field Values of a Note. 
 
+See the [[Inline Editing of Long Text Fields]] option to change the way long text fields (other than the Body field iteself) are presented on the Edit tab. 
+
 Use the '+' (plus) sign on the Toolbar to clear the Field Values and prepare to Add a new Note. 
 
 Use the '-' (minus) sign on the Toolbar to delete the currently selected Note. 

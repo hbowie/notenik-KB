@@ -1,0 +1,42 @@
+Title:  Inline Editing of Long Text Fields
+
+Timestamp: 20230615212315
+
+Seq:    5.1.1
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+This setting defaults to on. This setting only affects the presentation of fields on the Edit tab; it has no affect on the appearance of any fields on the Display tab. 
+
+This setting affects the editing of all "long text" (i.e., multi-line) [[field types]], other than the [[Body]] field itself, including the following:
+
++ [[Attribution]]
++ [[Code]]
++ [[Index]]
++ [[Link]]
++ [[longtext]]
++ [[Teaser]]
+
+When this option is set on, each field of this type will appear as a scrolling text view on the Edit tab, looking much like the editing presentation of the [[Body]] field itself. 
+
+When this option is set off, then each field of this type will appear on the Edit tab as a simple, single-line text field, followed by an Edit button. Clicking on the Edit button will open a scrolling text view for that field in a separate window. Click Cancel to cancel the edits without saving changes, or click OK to save the input you entered within this separate window. 
+
+Why offer two ways to edit such fields? Well, there are pros and cons to each. 
+
+Inline editing of long text fields is simpler and neater, and allows all of the input text to be viewed at once on the Edit tab, or to be accessed via scrolling the contents of that field. And traditionally, prior to [[Version 11.3.0]], this was the only way to edit such fields within Notenik. 
+
+But this option also has several disadvantages:
+
++ Recent changes from Apple seem to indicate that they would really prefer to have only one such field (an NSTextView field, to be technical) within a single window. In particular, when moving from one such field to another, the cursor tends to initially disappear. This is annoying and confusing for the user. I have no clear indication whether this is a temporary bug that will be fixed eventually, or simply something new that we all have to adapt to. 
+
++ The overall Edit tab can end up being very long, and the size of the Body field can be reduced, if a Collection has a number of such fields, possibly in combination with other field types. 
+
++ Since most such fields (with the exception of Link fields) allow tabs to be entered within the field, it is not possible to tab from one field to another. 
+
+Hence the availability of the second option, which initially presents each long text field on a single line, while still allowing a scrolling, multi-line editing option when desired. 
+
+

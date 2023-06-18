@@ -24,20 +24,3 @@ In most cases the specifics of these settings will be discussed at other points 
 
 These Notenik Settings are grouped into four different tabs. 
 
-##### General
-
-These are the most general settings. Details will be described later, on the pages documenting the functions affected by each setting. 
-
-For details on the settings pertaining to `Collection Titles`, see the [[Collection Title]] page.
-
-##### Favorites
-
-These are settings that apply when you are exporting [[Favorites to HTML]]. See that page for details. 
-
-##### Tags Export
-
-These are settings that affect the way in which tags are exported, optionally selecting some, and optionally suppressing others. 
-
-##### Markdown
-
-On this tab you can exercise your [[Choice of Markdown Parsers]].
