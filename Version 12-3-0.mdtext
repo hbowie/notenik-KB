@@ -1,10 +1,18 @@
 Title:  Version 12.3.0
 
+Tags:   levels-outline.18 Version History.1 Version 1230
+
 Timestamp: 20230604231635
 
 Seq:    18.1
 
+Date:   19 Jun 2023
+
 Level:  3 - Section
+
+Teaser:
+
+Added App Setting for alternate editing approach for Long Text fields; Added an Again button to the New with Options window, to allow multiple new Notes to be quickly added (useful for outlining); Corrected the setting of the Collection Title; Corrected window placement to align to upper left corner of screen, rather than lower left. 
 
 Class:  version
 
@@ -24,5 +32,4 @@ When the user uses the [[Collection Settings]] window, and then leaves the Colle
 
 ##### Corrected Window Placement
 
-When a Collection is opened, Collection windows are now placed where they were previously relative to the *upper* left corners of the screens on which they are displayed, rather than the *lower* left corners. This change is visible when opening a Collection from a second Mac with a smaller or larger screen than the one on which the Collection was last viewed. 
-
+When a Collection is opened, Collection windows are now placed where they were previously relative to the *upper* left corners of the screens on which they are displayed, rather than the *lower* left corners. This change is visible when opening a Collection from a second Mac with a smaller or larger screen than the one on which the Collection was last viewed.

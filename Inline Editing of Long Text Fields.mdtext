@@ -1,5 +1,7 @@
 Title:  Inline Editing of Long Text Fields
 
+Tags:   levels-outline.5 Notenik Settings.1 General Settings.1 Inline Editing of Long Text Fields
+
 Timestamp: 20230615212315
 
 Seq:    5.1.1
@@ -37,6 +39,4 @@ But this option also has several disadvantages:
 
 + Since most such fields (with the exception of Link fields) allow tabs to be entered within the field, it is not possible to tab from one field to another. 
 
-Hence the availability of the second option, which initially presents each long text field on a single line, while still allowing a scrolling, multi-line editing option when desired. 
-
-
+Hence the availability of the second option, which initially presents each long text field on a single line, while still allowing a scrolling, multi-line editing option when desired.
