@@ -23,12 +23,14 @@ Each field label/type is discussed below, grouped into logical collections.
 + [[Web-Making Fields]]
 + [[Fields Useful for Reviews, Citations and Quotations]]
 + [[Fields Used to Identify Various Kinds of Notes]]
++ [[Fields for Travel Planning]]
 + [[General-Purpose Fields]]
 + [[System-Assigned Dates and Times]]
 
 
 For ease of reference, when looking for a specific field type, here's an alphabetical index to all of them. 
 
++ [[Address]]
 + [[AKA]]
 + [[Artist]]
 + [[Attribution]]
@@ -42,6 +44,7 @@ For ease of reference, when looking for a specific field type, here's an alphabe
 + [[Date]]
 + [[Date Added]]
 + [[Date Modified]]
++ [[Directions]]
 + [[Display Seq]]
 + [[Image Name]]
 + [[Include Children]]

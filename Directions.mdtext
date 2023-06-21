@@ -1,0 +1,31 @@
+Title:  Directions
+
+Timestamp: 20230620235408
+
+Seq:    10.11.2
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The word `Directions` can be used as both a label and a type. 
+
+A Directions field will make use of two Address fields in order to generate a link that should open the navigation directions between the two within Apple Maps. 
+
+Since a Directions field uses two Address fields, on two different Notes, to generate the Directions content, there is no provision for a user to enter the starting address and the destination directly into a Directions field. 
+
+Instead, when editing or adding a Note that is to contain directions, the user indicates the request simply by checking a box.
+
+When the Note is then saved, Notenik will use the following logic to identify the from and two points for the Navigation:
+
++ To identify the starting point, Notenik will back up in the Notes List, using the current sort sequence, until it finds a non-blank Address field, or runs out of Notes;
+
+ + To identify the destination, Notenik will use the Address field on the current Note, if it is non-blank, or the first non-blank Address field it finds, moving forward from the current Note in the List. 
+
+The Note's Display will then show the from and to address fields, with a link; clicking on the link will then open the route in Apple Maps.  
+
+Note that subsequent changes to the Address fields used will not immediately affect the contents of the Directions field. In order to update the Directions field, using the latest surrounding Address fields, the user must click the Directions check box to remove the check mark and clear the field's prior contents, and then click it again to again add the check mark, and then save the Note. As part of the save process, Notenik will then re-apply the logic described above to repopulate the Directions field. 
+
+

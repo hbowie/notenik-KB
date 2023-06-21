@@ -1,0 +1,17 @@
+Title:  Address
+
+Timestamp: 20230620234713
+
+Seq:    10.11.1
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The word `Address` can be used as both a label and a type. 
+
+Add an Address field to a Collection in order to store a street address that can be recognized by [Apple Maps](https://www.apple.com/maps/). 
+
+When the field is displayed, a [custom URL for Apple Maps](https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html) will be generated, and clicking on the link should open the address in the Apple Maps app.

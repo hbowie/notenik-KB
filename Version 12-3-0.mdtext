@@ -4,7 +4,7 @@ Tags:   levels-outline.18 Version History.1 Version 1230
 
 Timestamp: 20230604231635
 
-Seq:    18.1
+Seq:    18.2
 
 Date:   19 Jun 2023
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added App Setting for alternate editing approach for Long Text fields; Added an Again button to the New with Options window, to allow multiple new Notes to be quickly added (useful for outlining); Corrected the setting of the Collection Title; Corrected window placement to align to upper left corner of screen, rather than lower left. 
+
 
 Class:  version
 
