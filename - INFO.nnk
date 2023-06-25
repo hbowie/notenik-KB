@@ -8,9 +8,11 @@ Sort Parm: 1
 
 Sort Descending: false
 
+Sort Blank Dates Last: true
+
 Other Fields Allowed: false
 
-Last Index Selected: 203
+Last Index Selected: 212
 
 Mirror Auto Index: false
 
@@ -38,9 +40,9 @@ Note File Format: nnk
 
 Hash Tags: false
 
-Window Numbers: 1325.0;0.0;1231.0;1232.0;433.5;
+Window Numbers: 627.0;0.0;1231.0;1232.0;433.5;
 
-Column Widths: statusdigit: 20, 30, 50; rank: 50, 80, 250; seq: 30, 80, 250; tags: 50, 100, 1200; datemod: 100, 180, 250; klass: 60, 80, 150; dateadded: 100, 180, 250; x: 12, 20, 50; title: 200, 321, 1500; date: 80, 120, 500; author: 100, 200, 1000; 
+Column Widths: author: 100, 200, 1000; x: 12, 20, 50; statusdigit: 20, 30, 50; seq: 30, 80, 250; title: 200, 321, 1500; rank: 50, 80, 250; tags: 50, 100, 1200; klass: 60, 80, 150; dateadded: 100, 180, 250; datemod: 100, 180, 250; date: 80, 120, 500; 
 
 footer Note ID: footerpage
 

@@ -16,5 +16,12 @@ Added a new [[Address]] field, that can be used to store the street address for 
 
 ##### Added a Directions Field
 
-Added a new [[Directions]] field, that can be used to display Apple Maps navigation directions from one Address to another. 
+Added a new [[Directions]] field, that can be used to display Apple Maps navigation directions from one Address to another.
 
+##### Added an Option to Control Sorting of Blank Dates
+
+When you [[Change the Sort Sequence for your Collection]] to select an option that includes the [[Date]] field, Notenik had previously always sorted Notes with blank dates after all non-blank dates. This update adds an option allowing the user to specify, for each Collection, whether they should sort first or last. This new option can be found at the bottom of the Sort menu. 
+
+##### Added a Markdown Calendar Command
+
+Added a command to the [[Notenik Markdown Parser]] to [[Generate a Collection Calendar]].

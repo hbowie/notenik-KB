@@ -24,6 +24,7 @@ On the other hand, if the command results in the generation of a large web page 
 
 | Syntax | Function |
 | --------- | ------------ |
+| `{:calendar}` | [[Generate a Collection Calendar]] |
 | `{:collection-toc:2-3}` | *[[Generate a Collection Table of Contents]]* |
 | `{:index}` | *[[Generate a Collection Index]]* |
 | `{:random}` | [[Go To Random Note]]* |

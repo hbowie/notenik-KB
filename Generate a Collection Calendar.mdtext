@@ -1,0 +1,31 @@
+Title:  Generate a Collection Calendar
+
+Timestamp: 20230623225543
+
+Seq:    9.2.20
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+As an extension to the original Markdown spec from John Gruber, a Calendar may be generated for some or all of the Notes in a Collection.
+
+Such a Collection must include a [[Date]] field, and the Collection must be sorted by Date.  
+
+This feature may be invoked with a line like the following:
+
+```
+{:calendar}
+```
+
+This command will generate a traditional monthly calendar layout with the Collection's Notes listed under the dates on which they are scheduled. 
+
+If you'd like to generate a calendar including only a subset of the Dates listed in the Collection, this can be done with a command such as the following:
+
+```
+{:calendar:yyyy-mm;yyyy-mm}
+
+The first `yyyy-mm` value indicates the starting year and month, and the second `yyyy-mm` indictates the desired ending year and month. 
+
