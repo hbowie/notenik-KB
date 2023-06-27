@@ -1,10 +1,18 @@
 Title:  Version 12.4.0
 
+Tags:   levels-outline.18 Version History.1 Version 1240
+
 Timestamp: 20230620232904
 
 Seq:    18.1
 
+Date:   27 Jun 2023
+
 Level:  3 - Section
+
+Teaser:
+
+Added two new field types: an Address field, for storing a street address that can be used with Apple Maps, and a Directions field, that can be used to store both a from and to address that can, again, be used with Apple Maps; Added a new Collection Setting to control the sorting of blank dates (before or after Notes with non-blank dates); Added a Markdown Calendar command that can be used to format a traditional-looking calendar using the dates in a Collection; Improved next and prior navigation within a Collection, to improve retention of prior Notes visited; Fixed a few bugs (including one sequence bug that could have caused a crash). 
 
 Class:  version
 
@@ -25,3 +33,15 @@ When you [[Change the Sort Sequence for your Collection]] to select an option th
 ##### Added a Markdown Calendar Command
 
 Added a command to the [[Notenik Markdown Parser]] to [[Generate a Collection Calendar]].
+
+##### Improved Next and Prior Navigation
+
+Made some changes to improve the way that [[Next and Prior Navigation]] works. When moving from one Note to another, Notenik will now do a better job of preserving your path, and letting you back up along it.
+
+##### Fixed a Seq Bug
+
+Fixed a bug that could cause Notenik to crash when trying to obtain a Seq value for a Collection with no [[Seq]] field defined. 
+
+##### Cleared Attachments Menu When Adding a Note
+
+If the prior Note selected had any [[File Attachments]], then the Attachments menu in the toolbar would still leave them visible when adding a new Note. This menu is now cleared before beginning the add process.

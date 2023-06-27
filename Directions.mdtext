@@ -1,5 +1,7 @@
 Title:  Directions
 
+Tags:   levels-outline.10 Field Labels and Types.11 Fields for Travel Planning.2 Directions
+
 Timestamp: 20230620235408
 
 Seq:    10.11.2
@@ -26,6 +28,4 @@ When the Note is then saved, Notenik will use the following logic to identify th
 
 The Note's Display will then show the from and to address fields, with a link; clicking on the link will then open the route in Apple Maps.  
 
-Note that subsequent changes to the Address fields used will not immediately affect the contents of the Directions field. In order to update the Directions field, using the latest surrounding Address fields, the user must click the Directions check box to remove the check mark and clear the field's prior contents, and then click it again to again add the check mark, and then save the Note. As part of the save process, Notenik will then re-apply the logic described above to repopulate the Directions field. 
-
-
+Note that subsequent changes to the Address fields used will not immediately affect the contents of the Directions field. In order to update the Directions field, using the latest surrounding Address fields, the user must click the Directions check box to remove the check mark and clear the field's prior contents, and then click it again to again add the check mark, and then save the Note. As part of the save process, Notenik will then re-apply the logic described above to repopulate the Directions field.

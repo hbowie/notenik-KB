@@ -1,5 +1,7 @@
 Title:  Generate a Collection Calendar
 
+Tags:   levels-outline.9 Markdown.2 Notenik Markdown Parser.20 Generate a Collection Calendar
+
 Timestamp: 20230623225543
 
 Seq:    9.2.20
@@ -27,5 +29,4 @@ If you'd like to generate a calendar including only a subset of the Dates listed
 ```
 {:calendar:yyyy-mm;yyyy-mm}
 
-The first `yyyy-mm` value indicates the starting year and month, and the second `yyyy-mm` indictates the desired ending year and month. 
-
+The first `yyyy-mm` value indicates the starting year and month, and the second `yyyy-mm` indictates the desired ending year and month.
