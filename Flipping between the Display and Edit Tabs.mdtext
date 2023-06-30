@@ -1,0 +1,28 @@
+Title:  Flipping between the Display and Edit Tabs
+
+Timestamp: 20230630185632
+
+Seq:    7.3
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+When working on a long Note, it is not uncommon for a user to repeatedly flip back and forth between the Edit and Display tabs, making a few changes on the Edit tab, and then viewing the Display to check the formatting of their Markdown code. 
+
+If the Note is long enough to require scrolling to see all of it, then a few questions come into play. 
+
+##### Edit Tab
+
+When returning to the Edit tab for a Note, the user will generally see the Body field already scrolled to its prior position. 
+
+##### Display Tab
+
+When returning to the Display tab for a Note, the user will generally see the display already scrolled to its prior position. 
+
+##### Resetting the Scroll Position
+
+The scroll positions will only be restored when going directly back and forth between the Edit and Display tabs for a given Note. Once the user has navigated to a different Note, then subsequent visits to the first Note will show the scroll positions back at the tops of their respective containers. 
+

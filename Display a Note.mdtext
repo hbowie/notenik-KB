@@ -16,3 +16,4 @@ Body:
 
 The Display tab shows you what your Note looks like. Your note is formatted as a web page, and displayed within Notenik using a built-in web browser. If you click on a hyperlink within the display, then the linked page will replace your Note. If you wish to get back to your Note, then click on the Refresh button in the Toolbar. If your Note has a Link value, then click on the Launch Link button in the Toolbar to see the linked page within your default web browser, instead of Notenik's internal browser.
 
+Note that the [[Tailor the Display|appearance]] and behavior of the Display tab may be modified by several of the [[Collection Settings]], as well as the [[Display Settings]], and by optional template and css files. 

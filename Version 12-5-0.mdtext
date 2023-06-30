@@ -1,0 +1,20 @@
+Title:  Version 12.5.0
+
+Timestamp: 20230629013031
+
+Seq:    18.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Web Location Files Now Appear within a Parent Realm
+
+When you use [[Open Parent Realm]], any web location (`.webloc`) files will appear and will be available to be opened via Notenik.
+
+##### Display Tab Scrolling Position
+
+When [[Flipping between the Display and Edit Tabs]], Notenik will now retain the scroll position of the Display tab. 
+

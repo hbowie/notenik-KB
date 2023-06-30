@@ -27,6 +27,7 @@ The following types of items will be listed in a Parent Realm Pseudo-Collection:
 + Notenik [[Collection Folders]]
 + Notenik [[Script Files]] (with file extensions of `.tcz`)
 + [BBEdit Project Files](https://www.barebones.com/products/bbedit/benefitscommand.html)
++ [Web Location Files](https://fileinfo.com/extension/webloc)
 
 Note that the Tags tab will organize these Collections and Scripts by folder, and also by item type.
 

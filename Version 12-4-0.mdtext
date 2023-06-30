@@ -4,7 +4,7 @@ Tags:   levels-outline.18 Version History.1 Version 1240
 
 Timestamp: 20230620232904
 
-Seq:    18.1
+Seq:    18.2
 
 Date:   27 Jun 2023
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added two new field types: an Address field, for storing a street address that can be used with Apple Maps, and a Directions field, that can be used to store both a from and to address that can, again, be used with Apple Maps; Added a new Collection Setting to control the sorting of blank dates (before or after Notes with non-blank dates); Added a Markdown Calendar command that can be used to format a traditional-looking calendar using the dates in a Collection; Improved next and prior navigation within a Collection, to improve retention of prior Notes visited; Fixed a few bugs (including one sequence bug that could have caused a crash). 
+
 
 Class:  version
 
