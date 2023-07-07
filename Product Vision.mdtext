@@ -1,0 +1,89 @@
+Title:  Product Vision
+
+Tags:   levels-outline.2 Product Vision
+
+Timestamp: 20230702184448
+
+Seq:    2
+
+Level:  2 - Article
+
+Class:  non-version
+
+Body:
+
+This document outlines the overall [Product Vision][pv] for Notenik, including both goals and constraints.
+
+{:outline-headings}
+
+## 1. Take Notes
+
+Notenik is an application for recording, storing, organizing, viewing and publishing Notes. A note is, first and foremost, some written text that can be of any length. 
+
+## 2. Developed by [Herb Bowie][hb] 
+
+I am a solo developer, working part-time on Notenik. I am certainly open to collaboration with others, should such an opportunity emerge, but I am not actively pursuing it. 
+
+## 3. Developed for Herb Bowie and for Others
+
+I am working on Notenik for multiple reasons. I enjoy crafting something that others can make use of with some degree of enjoyment and appreciation. And I enjoy programming. And I use Notenik myself, for all sorts of things, but primarily for organizing and publishing my own writing. 
+
+## 4. Free and Open Source
+
+I am comfortably retired from my former 9-5 career, so I don't really need the money, and I like the idea of giving something back, especially to the Mac community. 
+
+## 5. Ongoing Iterative and Incremental Development
+
+I'm happy to keep improving Notenik more or less indefinitely. And I like releasing new versions of the sofware every couple of weeks or so. 
+
+## 6. Based on Markdown and HTML
+
+Everything in Notenik starts with Markdown and HTML. It doesn't end there, but these are the foundations. 
+
+## 7. Written in Swift for the Mac using AppKit
+
+These are all stable, well-established technologies. 
+
+## 8. User Interaction is Primarily through a Graphic Interface
+
+And that graphic interface is based on traditional Mac GUI elements, guidelines and norms. 
+
+## 9. Presented in English
+
+The user interface and documentation are written in (mostly American) English, and both are too extensive to be easily translated into other languages. 
+
+## 10. All Data Stored in Text Files
+
+Notenik does not make use of a database, and does not store document data in any sort of proprietary format. 
+
+## 11. Some Text Editing is Likely
+
+Users are generally expected to have access to, and be somewhat comfortable with, a general-purpose text editor they they can use as an occasional companion to Notenik. Such an editor might also have some special features for Markdown editing. 
+
+## 12. Transparent and Unfettered Access to Data
+
+Text files are stored in ordinary folders, and can be located anywhere the user desires. 
+
+## 13. Interoperable
+
+The Notenik app, and the data created by Notenik, are all intended to be interoperable with other applications to as great an extent as is reasonable. 
+
+## 14. Do Stuff That Other Apps Don't
+
+Notenik is primarily intended to fill a niche, not to compete against other products that already perform common tasks reasonably well. 
+
+## 15. Support and Leverage Metadata
+
+Notenik recognizes a whole host of different field types, and provides appropriate functionality tailored to each type. In this sense Notenik can be used as a personal database system and/or a personal content management system. 
+
+## 16. Notes are Organized into Collections
+
+Different collections (i.e., folders) can have different purposes, and each Collection can have a different set of associated fields. 
+
+## 17. Leverage the Power of the Collective
+
+Notenik is focused on what can be done with a group of Notes, as much or more than what can be done with any single Note. And certainly one of the things that can be done is to generate an entire website. 
+
+[hb]: https://hbowie.net/about.html
+
+[pv]: https://www.softdevbigideas.com/craft-a-product-vision.html

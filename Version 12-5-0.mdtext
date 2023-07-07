@@ -1,8 +1,10 @@
 Title:  Version 12.5.0
 
+Tags:   levels-outline.19 Version History.1 Version 1250
+
 Timestamp: 20230629013031
 
-Seq:    18.1
+Seq:    19.1
 
 Level:  3 - Section
 
@@ -16,5 +18,4 @@ When you use [[Open Parent Realm]], any web location (`.webloc`) files will appe
 
 ##### Display Tab Scrolling Position
 
-When [[Flipping between the Display and Edit Tabs]], Notenik will now retain the scroll position of the Display tab. 
-
+When [[Flipping between the Display and Edit Tabs]], Notenik will now retain the scroll position of the Display tab.
