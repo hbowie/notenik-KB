@@ -18,6 +18,8 @@ When you use [[Open Parent Realm]], any web location (`.webloc`) files will appe
 
 ##### Scroll Position on Display and Edit Tabs
 
-A new checkbox has been added to the [[Collection Settings]] to Attempt to Sync Edit and Display Scrolling. The default is for this to be off. With the setting off, Notenik will attempt to reposition the user to their last position on each tab, when switching back and forth between the two. With the setting on, Notenik will attempt to keep the two scroll positions in sync (with varying degrees of success, depending on the natures of the Collection and the particular Note). 
+A new checkbox has been added to the [[Collection Settings]] to Attempt to Sync Edit and Display Scrolling. The default is for this to be off. With the setting off, Notenik will attempt to reposition the user to their last position on each tab, when switching back and forth between the two. With the setting on, Notenik will attempt to keep the two scroll positions in sync (with varying degrees of success, depending on the natures of the Collection and the particular Note).
 
+##### Additional Info on Static Website Generation
 
+Thanks to [Michal Rada](https://github.com/michalradacz) for contributing some new and helpful content to aid in creation of static websites! See [[Blog website creation]], [[Website with content creation]] and [[Website Generation Tips]] for his contributions!

@@ -1,0 +1,27 @@
+Title:  Website Generation Tips
+
+Tags:   levels-outline.12 Getting Data Into and Out of Notenik.13 Website Building
+
+Timestamp: 20230716151021
+
+Seq:    12.13.3
+
+Level:  4 - Subsection
+
+Index:  Website creation; drafting; publishing; 
+
+Class:  non-version
+
+Body:
+
+If you using Notenik to manage and generate websites or knowledge base sites from your notes, there are several very usefull tips to enhance output and add some functionality to your sites.
+
+First, remember that your sites are static sites. It means that some functionalities aren't supported, because site is standalone folder with files in HTML (and some simple Javascript it may contain). But you can for example:
+
+* Add Tags page to your site using [[Generate a Tags Cloud]]. Browsing content by tags is good alternative to structural browsing and with Notenik it is as simple as create one special note in collection. If you are using nested tags, best alternative is [[Generate a Tags Outline]]. Your users will love it.
+* Another way for browsing and grouping website content is making Index browsing using [[Index]] keywords and finally [[Generate a Collection Index]]. It is a super useful and cool method to quickly find relevant content in bigger sites. And with Notenik it is easy and automatic by autogenerating index page. Don't forget to add your new index page to navigation of website.
+* If you want to provide simple searching at your site, it is easy to [[Generate a Collection Search Page]] and if you add Search page link to navigation, your users can search quickly.
+* In many news sites there are special data about reading time for articles. In Notenik this is possible using [[Minutes to Read]]. You must setup it manually, but it can improve UX of your site.
+* There are two different ways to highlight and semantically give page title. First is using [[Title]] field in H1 tag at [[Merge Templates]], this is recommended method. Alternativelly you can omit this and begin each [[Note]] field with heading Manually. But you can setup and configure displaying alternate title field (for example "Heading Title" [[String]] field) and have Title for classic main title and title page and Heading Title to display as H1 in HTML article body area.
+* By editing "Factory/Includes/header.html" and "footer.html" respectivelly, you can include your own content and code (for example own JavaScripts) in each page.
+

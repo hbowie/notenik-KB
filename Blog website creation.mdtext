@@ -1,12 +1,10 @@
 Title:  Blog website creation
 
-Tags:   Revision.created by Michal Rada, levels-outline.12 Getting Data Into and Out of Notenik.13 Website Building
+Tags:   levels-outline.12 Getting Data Into and Out of Notenik.13 Website Building
 
 Timestamp: 20230716133428
 
 Seq:    12.13.1
-
-Date:   2023-07-16
 
 Level:  4 - Subsection
 
@@ -16,22 +14,21 @@ Teaser:
 
 Simple description how to create blog with NoteNik
 
+
 Class:  non-version
 
 Body:
 
-With embedded collection template you can easilly create simple personal blog with dated posts and another informations.
+With the embedded collection template you can easilly create simple personal blog with dated posts and other information.
 
-You may use Blog template when you are [[Creating and Tailoring a Collection of Notes]] and NoteNik will create simple blog. It may be divided to three important parts:
+You may use the [[Blog]] template when you are [[Creating and Tailoring a Collection of Notes]] and Notenik will create a simple blog. It may be divided to three important parts:
 
-1. Collection (content in Notes subdirectory): It contains each blog post as note with predefined fields set in MarkDown format
-2. Templates for blog website (in Mirror subdirectory) It contains simple [[Merge Templates]] for generating pages for posts
-3. Pregenerated HTML files of your blog website (in main directory) These files are generated automatically using [[Mirror Your Notes]] mechanism
+1. Collection (content in Notes subdirectory): It contains each blog post as a Note with predefined fields set in Markdown format.
+2. Templates for blog website (in Mirror subdirectory) It contains simple [[Merge Templates]] for generating pages for posts.
+3. Pregenerated HTML files of your blog website (in main directory) These files are generated automatically using the [[Mirror Your Notes]] mechanism.
 
-Creating blog using this metod is so simple, you only must [[Add, Delete and Edit Your Notes]] and mirroring mechanism will automatically generate content. Your blog is represented by posts, each post is note in collection with fields as [[Date]], [[Teaser]] as perex and [[Note]], you may add your own fields if you want. For example, you can create [[Link]] field for some or all posts and it will store links to resources in post note. You can then edit template to include your new fields to generated output HTML post file.
+Creating a blog using this method is so simple, you only must [[Add, Delete and Edit Your Notes]] and mirroring mechanism will automatically generate content. Your blog is represented by posts, each post is a note in the collection with fields as [[Date]], [[Teaser]] as introduction and [[Body]], you may add your own fields if you want. For example, you can create [[Link]] field for some or all posts and it will store links to resources in post note. You can then edit template to include your new fields to generated output HTML post file.
 
-You can make changes and mirroring will regenerate your posts automatically. Only one thing you must to do is upload your whole blog to your hosting.
+You can make changes and mirroring will regenerate your posts automatically. Only one thing you must to do is upload your whole blog to your hosting provider.
 
-If you want to alter blog design and functionality, you can edit "note_mirror.html" template placed in "Notes/Mirror/Templates" subdirectory. You can use all of [[Templates]] functions and tricks.
-
-
+If you want to alter blog design and functionality, you can edit "note_mirror.html" template placed in "Notes/Mirror/Templates" subdirectory. You can use all of [[Merge Templates]] functions and tricks.

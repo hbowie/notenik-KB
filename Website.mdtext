@@ -1,6 +1,6 @@
 Title:  Website
 
-Tags:   Revision.edited by Michal Rada, levels-outline.7 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.12 Website
+Tags:   levels-outline.7 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.12 Website
 
 Timestamp: 20221111192603
 
@@ -16,9 +16,9 @@ Body:
 
 This is a starter pack meant to be used for authoring and publishing a website of some kind. See the enclosed `README.md` file for further info. 
 
-With some editing and customizing of template files and generation scripts you are able to simply generate whole website. Sample site contains
+With some editing and customizing of template files and generation scripts you are able to simply generate an entire website. Sample site contains
 
-* Homepage (index) with welcome text and last dated posts as teasers/perexes
+* Homepage (index) with welcome text and last dated posts as teasers
 * Some blog-like posts as dated publish posts with simple navigation
 * About page as page example for standalone pages for your website
 

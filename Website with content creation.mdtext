@@ -1,6 +1,6 @@
 Title:  Website with content creation
 
-Tags:   Revision.created by Michal Rada, levels-outline.12 Getting Data Into and Out of Notenik.13 Website Building
+Tags:   levels-outline.12 Getting Data Into and Out of Notenik.13 Website Building
 
 Timestamp: 20230716135900
 
@@ -16,25 +16,19 @@ Body:
 
 With embedded collection template you can easilly create simple website with informations, pages, news and another content.
 
-You may use Website template when you are [[Creating and Tailoring a Collection of Notes]] and NoteNik will create simple blog. It may be divided to three important parts:
+You may use the [[Website]] template when you are [[Creating and Tailoring a Collection of Notes]] and Notenik will create a simple blog. It may be divided to three important parts:
 
-1. Collection with content (in Contents directory) It contains preconfigured collection with all website contents in separated notes  
-2. Necessary templates, factoring files and scripts for making website (in Factory directory) These files and templates can export notes to standalone website 
-3. Output folder with website itself (in Web directory) 
-In which you find prepared website as generation result.
+1. Collection with content (in Contents directory) It contains preconfigured collection with all website contents in separate notes.  
+2. Necessary templates, factory files and scripts for making the website (in Factory directory). These files and templates can export notes to a standalone website. 
+3. Output folder with website itself (in Web directory), in which you find prepared website as generation result.
 
-Your collection contains preconfigured [[The Collection Template File]] with initial set of [[Web-Making Fields]] and predefined [[Templates]], CSS styles for webdesign and [[Script Files]] for generating website from notes. Here is summarized description how it works:
+Your collection contains preconfigured [[The Collection Template File]] with initial set of [[Web-Making Fields]] and predefined [[Merge Templates]],  CSS styles for web design and [[Script Files]] for generating website from notes. Here is a summarized description of how it works:
 
-1. You create content by [[Add, Delete and Edit Your Notes]] in collections. There are important fields as [[Title]] as page title, [[Date]] as publish date and [[Note]] as page content. Be aware, [[Date added]] and [[Date modified]] not affect publish date of pages. 
-2. There are some prepared [[Merge Templates]] to design and generate every HTML page from origin note using [[Output]] command. You may edit these templates to suit design and contents to your needs.
+1. You create content by [[Add, Delete and Edit Your Notes]] in collections. There are important fields as [[Title]] as page title, [[Date]] as publish date and [[Note]] as page content. Be aware, [[Date added]] and [[Date modified]] do not affect publish date of pages. 
+2. There are some prepared [[Merge Templates]] to design and generate every HTML page from original notes using [[Output]] command. You may edit these templates to suit design and content to your needs.
 3. By running "web-gen.tcz" script in "Factory" subdirectory you run generating whole website. Default output directory is "Web", you may modify it by editing Output command in all desired templates in "Factory/Templates" subdirectory.
 4. Script generates HTML file for each note using desired template and include HTML and other files included in these templates. For example, there is [[include command]] to include header of site (including "Factory/Includes/header.html"), footer of site (including "Factory/Includes/footer.html") and HEAD contents and styles links for each page (including "Factory/Includes/head-links.html"). If script generates prepared parts of content, there are stored in "Factory/includes-gen" directory and these parts can by included by other templates. 
 4. You must upload whole website directory as-is to your hosting provider or you can open "index.html" file to preview it.
 
-
-
-For linking in website, you may use 
-Classic [[Wiki Links]] as simplest way to [[Connections Between Notes]]. Wiki links works as expected, but Back links does not work as referencing point in output. 
+For linking within the website, you may use Classic [[Wiki Style Links]] as the simplest way to implement [[Connections Between Notes]]. Wiki links work as expected, but Back links does not work as referencing point in output. 
 It is usefull to determine and use [[Short ID]] in some situations, for example for scripting.
-
-
