@@ -1,6 +1,6 @@
 Title:  Website
 
-Tags:   levels-outline.7 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.12 Website
+Tags:   Revision.edited by Michal Rada, levels-outline.7 Creating and Tailoring a Collection of Notes.3 Starting Collection Types.12 Website
 
 Timestamp: 20221111192603
 
@@ -15,6 +15,12 @@ Class:  non-version
 Body:
 
 This is a starter pack meant to be used for authoring and publishing a website of some kind. See the enclosed `README.md` file for further info. 
+
+With some editing and customizing of template files and generation scripts you are able to simply generate whole website. Sample site contains
+
+* Homepage (index) with welcome text and last dated posts as teasers/perexes
+* Some blog-like posts as dated publish posts with simple navigation
+* About page as page example for standalone pages for your website
 
 The top-level folder created is designed to be opened by Notenik as a [[parent realm]].
 
@@ -63,3 +69,5 @@ This is another Notenik Collection containing links to various resources that th
 ##### `web`
 
 This is the folder containing the actual contents of the website generated from the contents by the factory.
+
+You may read also [[Website Building]] for details about website creation.
