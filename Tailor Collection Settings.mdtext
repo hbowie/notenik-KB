@@ -56,6 +56,8 @@ The following checkboxes are available and can be used to modify/augment the app
 
 + Open External Links in new Tabs/Windows? -- If this option is checked, then Markdown links other than Wiki Links will have the code `target="_blank" rel="noopener"` included in their anchor elements, which should result in the target of the link being opened in a new browser window (or tab, depending on the user's browser settings). 
 
++ Attempt to Sync Display and Edit Scrolling? -- If this is off, which is the default, then Notenik will return the user to the last scroll position in their editing of the [[Body]] field, and to their last position on the Display tab, when the user is switching back and forth between the Edit and Dispay tabs while working on the same Note. When this setting if off, though, scrolling to a new position on the Display tab will not result in a change in the scroll position on the Edit tab, nor will the reverse occur. When this setting is on, then scrolling on one tab will result in Notenik *attempting* to scroll to an equivalent position on the other tab. Such attempts will tend to be imperfect, though, since the Display tab scroller is for the entire Note (all fields), and the Edit scroller is only for the Body field. This sort of synchronized scrolling may work reasonably well in some cases, but not in others, so adjust this setting accordingly. 
+
 ##### List of Fields
 
 The right side of the window allows you to choose the fields you would like to include in the Collection. Feel free to check additional ones if they seem useful to you. 

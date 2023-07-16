@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 0
+Last Index Selected: 74
 
 Mirror Auto Index: false
 
@@ -32,6 +32,8 @@ Curly Apostrophes: true
 
 Ext Links Open in New Windows: true
 
+Scrolling Sync: false
+
 Shortcut: nkb
 
 Web Book Folder: /Users/hbowie/Sites/notenik-web/knowledge-base
@@ -40,9 +42,9 @@ Note File Format: nnk
 
 Hash Tags: false
 
-Window Numbers: 1326.0;0.0;1231.0;1232.0;433.5;
+Window Numbers: 48.0;0.0;1231.0;743.0;433.5;
 
-Column Widths: author: 100, 200, 1000; klass: 60, 80, 150; x: 12, 20, 50; title: 200, 321, 1500; rank: 50, 80, 250; tags: 50, 100, 1200; date: 80, 120, 500; datemod: 100, 180, 250; statusdigit: 20, 30, 50; seq: 30, 80, 250; dateadded: 100, 180, 250; 
+Column Widths: datemod: 100, 180, 250; dateadded: 100, 180, 250; title: 200, 321, 1500; date: 80, 120, 500; author: 100, 200, 1000; klass: 60, 80, 150; seq: 30, 80, 250; statusdigit: 20, 30, 50; rank: 50, 80, 250; x: 12, 20, 50; tags: 50, 100, 1200; 
 
 footer Note ID: footerpage
 
