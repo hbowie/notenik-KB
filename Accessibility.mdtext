@@ -16,3 +16,24 @@ Body:
 
 Because Notenik uses a standard Mac [[User Interface]], and because the [[programming code]] uses Apple's own language and APIs, Notenik is "completely accessible" to visually impaired users, using the [VoiceOver](https://www.apple.com/accessibility/vision/) screen reader (as reported to the author by such a user).
 
+## VoiceOver usage
+
+There are some tips for navigating using screenreader. Whole app is fully accessible and responsible to VoiceOver labelling system, so you can use app with screenreader without any additional workarounds.
+
+Best method to use NoteNik is managing your notes as standard MultiMarkdown files and using [[Back links]] as connections between notes. More connection tips are described in [[Connections Between Notes]].
+
+⚠️ WARNING: Standard notes format isnt Markdown, but MDTEXT. This is combination of YAML fields determining and Markdown content. You cannot work with .MDTEXT as it has Markdown instead. First thing you can do for using NoteNik with screenreader with Markdown benefits, is setting notes format to MultiMarkdown in collection settings.
+
+
+## Usefull tips for screenreader users 
+
+* Main area with note content is webbrowser area if it is in display mode and form with standard text edits and combo elements if it is in edit mode. You may look at two card buttons before table of notes to determine if it is Display or Edit mode.
+* Note itself is generated as HTML output in view mode, so you can use classic navigation and quicknav hotkeys in note content, for example H key to navigate between headings. In some cases internal links does not work as expected, you can do simulate-click on it to work properly if this situacion occurs.
+* Verry usefull tip is to display note title as H1 heading for better navigation and ergonomy with screenreader. You can set this in collection settings by set "Note Title Display:" setting to "H1" in combobox, more description in [[Note Title Display:]]. After this set, you can quickly find begin of note display area by invoking next headline navigation command of your choice.
+* Because basic mechanism of display method is generating standard HTML file, you may rapidly change what and how will NoteNik display note content by your way. You can use "Collection/Generate Sample Display Template" and manually edit "display.html" file created in collection directory. You must use described [[Merge Templates]] syntax, but it is simple defining HTML content with some replacements for fields and commands using special placeholders.
+* Amazing function is [[Mirror Your Notes]] which can automatically generate HTML mirror of each note and your collection will be accessible as HTML files instead same folder, good alternative to view collection without NoteNik runing needed. It is possible to set another folder as output if you want by editing template files in "Mirror" subdirectory.
+* Because blind people loves Markdown text language, there is good idea to set collection file format to "MultiMarkdown", there are two several ways to do it.
+    1. In collection settings you can set "MultiMarkdown" in format combobox, but if it is difficult to you...
+    2. You can quit NoteNik, manually find collection directory and edit "Note File Format: mmd" in main config file "- INFO.nnk"
+* You can tricky change whole collection notes extensions to .MD by editing coresponding textbox in collection settings, or you can tricky rename "template.mdtext" to "template.md" file. Dont forget to re-run NoteNik and reload collection by CMD+OPT+J keyboard shortcut.
+* Because you may manually edit all settings of collection, manually add or change content not only in NoteNik, you must remember one important hotkey, CMD+OPT+J. It will reload whole collection and applies oll settings and external content changes.
