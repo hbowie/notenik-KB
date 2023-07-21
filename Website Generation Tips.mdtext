@@ -1,6 +1,6 @@
 Title:  Website Generation Tips
 
-Tags:   levels-outline.12 Getting Data Into and Out of Notenik.13 Website Building
+Tags:   levels-outline.12 Getting Data Into and Out of Notenik.13 Website Building.3 Website Generation Tips
 
 Timestamp: 20230716151021
 
@@ -24,4 +24,3 @@ First, remember that your sites are static sites. It means that some functionali
 * In many news sites there are special data about reading time for articles. In Notenik this is possible using [[Minutes to Read]]. You must setup it manually, but it can improve UX of your site.
 * There are two different ways to highlight and semantically give page title. First is using [[Title]] field in H1 tag at [[Merge Templates]], this is recommended method. Alternativelly you can omit this and begin each [[Note]] field with heading Manually. But you can setup and configure displaying alternate title field (for example "Heading Title" [[String]] field) and have Title for classic main title and title page and Heading Title to display as H1 in HTML article body area.
 * By editing "Factory/Includes/header.html" and "footer.html" respectivelly, you can include your own content and code (for example own JavaScripts) in each page.
-

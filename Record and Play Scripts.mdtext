@@ -22,6 +22,10 @@ Place one or more script files within the reports folder for a Collection, and t
 
 Scripts will be executed within a separate Scripter window. You can open this window directly by selecting it from the Window menu. 
 
+You may also open the Scripter window by selecting a script to be run with the Play Script command beneath the Transform menu. 
+
+You may also rerun the last script played by selecting Rerun Last Script beneath the Transform menu. There must be a previous script played during the current Notenik session, before you can perform a Rerun. Note that the Rerun command will immediately run the script, without waiting for any further commands or button presses. 
+
 The Scripter window can be used for a number of different functions. 
 
 1. Play a script file that already exists. 
@@ -31,6 +35,8 @@ The Scripter window can be used for a number of different functions.
 3. Direct execution of actions to be recorded within a new script file. 
 
 In all of these cases, the scripting actions and results will be displayed within the lower portion of the window. 
+
+
 
 The first five fields at the top of the Scripter window — Module, Action, Modifier, Object and Value — correspond directly to the columns in a Script file. These fields should generally be entered from left to right, since earlier selections will modify the options available in later fields. 
 
