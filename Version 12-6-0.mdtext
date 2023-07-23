@@ -16,5 +16,8 @@ Added a new field type of [[Email]] that can be used to hold an email address.
 
 ##### Corrected Markdown Sharing Bug
 
-When using a custom Display template to [[Tailor the Display]] for a Collection, and then requesting to  [[Share with Options]], requesting Markdown, Notenik would erroneously use the Display template for the share operation, thus generating HTML rather than Markdown. This has been corrected. 
+When using a custom Display template to [[Tailor the Display]] for a Collection, and then requesting to  [[Share with Options]], requesting Markdown, Notenik would erroneously use the Display template for the share operation, thus generating HTML rather than Markdown. This has been corrected.
 
+##### Corrected Display Heading Size Units
+
+The [[Display Settings]] now accurately indicate that heading sizes are set in units of *em*, rathern than *pt*. 
