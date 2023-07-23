@@ -1,0 +1,19 @@
+Title:  Email
+
+Timestamp: 20230722032520
+
+Seq:    11.8.1
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The word `Email` can be used as both a label and a type. 
+
+An Email field is meant to contain a single email address. 
+
+An Email field will be treated much like a [[Link]] field; the `mailto:` URI scheme will be placed before the email address itself in order to form the full link. 
+
+
