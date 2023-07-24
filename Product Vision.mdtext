@@ -84,6 +84,20 @@ Different collections (i.e., folders) can have different purposes, and each Coll
 
 Notenik is focused on what can be done with a group of Notes, as much or more than what can be done with any single Note. And certainly one of the things that can be done is to generate an entire website. 
 
+## 18. Observe Postel's Law
+
+Postel's Law, otherwise known as the [Robustness Principle](https://en.wikipedia.org/wiki/Robustness_principle), recommends:
+
+> Be conservative in what you do, be liberal in what you accept from others.
+
+In practice, this means that Notenik will try to be extremely tolerant of variations in user input. For example, blank and missing field values are almost always acceptable. As another example, date fields may consist of only a year, or only a year and a month. 
+
+## 19. Observe Alan Kay's Dictum on Simplicity and Complexity
+
+[Alan Kay observed](https://en.wikiquote.org/wiki/Alan_Kay) that: 
+
+> Simple things should be simple, complex things should be possible.
+
 [hb]: https://hbowie.net/about.html
 
 [pv]: https://www.softdevbigideas.com/craft-a-product-vision.html

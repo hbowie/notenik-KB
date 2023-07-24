@@ -20,4 +20,8 @@ When using a custom Display template to [[Tailor the Display]] for a Collection,
 
 ##### Corrected Display Heading Size Units
 
-The [[Display Settings]] now accurately indicate that heading sizes are set in units of *em*, rathern than *pt*. 
+The [[Display Settings]] now accurately indicate that heading sizes are set in units of *em*, rathern than *pt*.
+
+##### Corrected Multi-Level Tags Expansion
+
+The [[Custom URL Scheme]] to expand a Tag has been enhanced to support multi-level [[Tags]]. This means that clicking on a multi-level tag on the Display tab will now accurately reveal the corresponding row on the Tags tab. 
