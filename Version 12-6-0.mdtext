@@ -1,10 +1,19 @@
 Title:  Version 12.6.0
 
+Tags:   levels-outline.19 Version History.1 Version 1260
+
 Timestamp: 20230722031804
 
 Seq:    19.1
 
+Date:   2023-08-02
+
 Level:  3 - Section
+
+Teaser:
+
+Added New Field Type of Email; Corrected a Markdown Sharing Bug; Corrected Display Heading Size Units (to show pt instead of em); Corrected Multi-Level Tags Expansion; Starting Day of Week Setting Now Recognized. 
+
 
 Class:  version
 
@@ -24,4 +33,8 @@ The [[Display Settings]] now accurately indicate that heading sizes are set in u
 
 ##### Corrected Multi-Level Tags Expansion
 
-The [[Custom URL Scheme]] to expand a Tag has been enhanced to support multi-level [[Tags]]. This means that clicking on a multi-level tag on the Display tab will now accurately reveal the corresponding row on the Tags tab. 
+The [[Custom URL Scheme]] to expand a Tag has been enhanced to support multi-level [[Tags]]. This means that clicking on a multi-level tag on the Display tab will now accurately reveal the corresponding row on the Tags tab.
+
+##### Starting Day of Week Now Variable
+
+Notenik now respects the user's preference for the First Day of the Week when generating a calendar view of a range of dates. This preference can be changed in the macOS System Settings, under *General* and then *Language and Region*.
