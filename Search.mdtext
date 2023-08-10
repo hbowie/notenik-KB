@@ -4,7 +4,7 @@ Tags:   fields.author, levels-outline.8 Common Tasks.6 Search
 
 Timestamp: 20210618171948
 
-Seq:    8.6
+Seq:    8.7
 
 Level:  3 - Section
 
@@ -22,11 +22,13 @@ The default search options are to search (if present) the Title, AKA, Link, Tags
 
 Hit the `OK` button to initiate the Search and select the first Note in the Collection matching the search criteria. 
 
-A simpler option is to use the `Find` command to place your cursor in the `Search` field at the top of the frontmost Collection window, then type the text you wish to search for, and press `Enter` to start the search. 
+A simpler option is to use the `Search` command to place your cursor in the `Search` field at the top of the frontmost Collection window, then type the text you wish to search for, and press `Enter` to start the search. 
 
 When using this simpler option, prefixing the search text with a hash mark ('`#`') will cause Notenik to look only in the Tags field for the search string.
 
-No matter how you initiated the Search, you can use the `Find Again` command to look for the next matching Note in the Collection following the last one found. 
+No matter how you initiated the Search, you can use the `Search Next` command to look for the next matching Note in the Collection following the last one found. 
+
+After using Search Next one or more times, you may use Search Previous to back up to a previously displayed search result. 
 
 Note that, after using the Advanced Search Option, the options selected will persist until changed, or until the end of the Notenik session, even if you later initiate a search using the simpler method of specifying a new text string in the Search field at the top of the window. 
 

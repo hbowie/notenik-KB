@@ -1,16 +1,26 @@
 Title:  Navigation
 
-Tags:   levels-outline.17 Navigation
+Timestamp: 20230805231731
 
-Timestamp: 20230429160846
+Seq:    8.6
 
-Seq:    17
-
-Level:  2 - Article
+Level:  3 - Section
 
 Class:  non-version
 
 Body:
 
-This section provides some alternate means of navigating through the Knowledge Base. 
+Beneath the Nav menu you will find several different ways to navigate through your Collection. 
+
+Next in Seq and Prior in Seq will move you forward and backward through your List of Notes, using your chosen [[Sort Sequence]]. These same commands can also be accessed using the forward and backward arrows found to the left of the Toolbar.
+
+Back in History and Forward in History will move you backwards and forwards through your Collection browsing history, using the actual sequence of Notes you have visited, no matter how you arrived at each. 
+
+There is one special case here: if the user has clicked on a link within a Note, causing a web page to load in the Display tab, in place of the Note itself, then choosing Prior in Seq or Back in History will refresh the Note display, while still leaving you on the same Note. 
+
+The Nav menu also has an option to take you to a randomly selected Note within the Collection. 
+
+The Nave menu also has a series of [[Search]] commands. 
+
+
 

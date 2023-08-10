@@ -1,0 +1,16 @@
+Title:  Image Name Short
+
+Timestamp: 20230803225015
+
+Seq:    14.2.2.3
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+When the [[Image Name]] field is used, a special variable name of `image-name-short` can be used in a [[Merge Template]] in order to obtain the image name as it is displayed, and as it is saved on disk -- rather than the complete file name for the image, which is the value returned when accessing the `image-name` variable. 
+
+This can be especially useful when converting one Notenik Collection to another using a Merge Template, in order to access the image name as it needs to be written out into an actual Note file. 
+

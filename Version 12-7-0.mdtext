@@ -1,0 +1,30 @@
+Title:  Version 12.7.0
+
+Timestamp: 20230803224835
+
+Seq:    19.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Derived Merge Variable for Image Short Name
+
+A new derived variable of [[Image Name Short]] is available, to access the suffix of the image name, as it appears within Notenik, and as it is saved to disk.
+
+##### Reworked Find, Search and Nav Controls
+
+This version includes a major rework of the controls for finding, searching and Collection [[Navigation]]. 
+
+1. Enabled a find bar for the body of a Note, which had the cascading effect of enabling all of the standard functionality lurking beneath the Find submenu underneath the Edit menu. Users can now do standard Find and Replace operations within the body of a Note, while in Edit mode. Note however that the normal Find keyboard shortcuts are not available, since they are used for the Collection Search options found beneath the Nav menu. 
+
+2. Modified the [[search]] functionality accessed from the Nav menu in a few ways. 
+
+	+ The term 'search' is now used here consistently, rather than 'find', to avoid confusion with the standard Find commands located beneath the Edit menu;
+	+ Added a command to Search Previous, to complement the Search Next command.
+
+3. Added new Navigation History commands, to go Back in History, and then Forward in History (once you've gone back). These can be found beneath the Nav menu.
+
+4. Next and Prior Note functions are now called Next in Seq and Prior in Seq,
