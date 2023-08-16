@@ -1,0 +1,18 @@
+Title:  Domain Name from Link - /
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.39 Domain Name from Link - 
+
+AKA:    Domain Name from Link
+
+Timestamp: 20230814212342
+
+Seq:    14.3.39
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+A modifier of '`/`' (forward slash) can be applied to a variable containing a [[Link]] value, in order to display only the domain name of the website, rather than the entire link. 
+

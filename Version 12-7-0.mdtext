@@ -1,10 +1,18 @@
 Title:  Version 12.7.0
 
+Tags:   levels-outline.19 Version History.1 Version 1270
+
 Timestamp: 20230803224835
 
 Seq:    19.1
 
+Date:   2023-08-16
+
 Level:  3 - Section
+
+Teaser:
+
+Added a derived merge variable for Image Name Short; Added variable modifier to derive a domain name from a link; Documented a variable modifier to split a label from a number-label combination; Reworked the Find, Search and Nav controls in several useful ways, to provide greater flexibility in moving back and forth between Notes along several different paths, and to provide keyboard shortcuts that are more consistent with those used by other apps. 
 
 Class:  version
 
@@ -13,6 +21,14 @@ Body:
 ##### Added Derived Merge Variable for Image Short Name
 
 A new derived variable of [[Image Name Short]] is available, to access the suffix of the image name, as it appears within Notenik, and as it is saved to disk.
+
+##### Added Variable Modifier to Derive a Domain Name
+
+Added a new [[Variable Modifier]] of '`/`' to obtain a [[Domain Name from Link]], in order to display the simple website domain name, rather than an entire link. 
+
+##### Documented a Variable Modifier to Split a Label from a Number
+
+Added this functionality a bit ago, but neglected to document it! A [[variable modifier]] of '`>`' can be used to obtain an aphabetic label from a field containing both a letter and a number. See [[Split Label from Number]] for details. 
 
 ##### Reworked Find, Search and Nav Controls
 

@@ -1,0 +1,19 @@
+Title:  Split Label from Number - >
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.38 Split Label from Number - 
+
+AKA:    Split Label from Number
+
+Timestamp: 20230814210517
+
+Seq:    14.3.38
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+A modifier of '`>`' can be used with a field value that contains both a numeric integer and a following alphabetic label, in order to obtain the label by itself, without the preceding number, and without any intervening spacing and/or punctuation. 
+
+For example, a value of '`33 - Long Player`" would be modified to just '`Long Player`'.

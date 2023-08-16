@@ -1,5 +1,7 @@
 Title:  Navigation
 
+Tags:   levels-outline.8 Common Tasks.6 Navigation
+
 Timestamp: 20230805231731
 
 Seq:    8.6
@@ -20,7 +22,4 @@ There is one special case here: if the user has clicked on a link within a Note,
 
 The Nav menu also has an option to take you to a randomly selected Note within the Collection. 
 
-The Nave menu also has a series of [[Search]] commands. 
-
-
-
+The Nave menu also has a series of [[Search]] commands.
