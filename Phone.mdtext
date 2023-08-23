@@ -1,0 +1,22 @@
+Title:  Phone
+
+Timestamp: 20230822191228
+
+Seq:    11.8.2
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The word `Phone` can be used as both a label and a type. 
+
+A Phone field is meant to contain a single telephone number. 
+
+The user may enter a phone value with any desired spacing and punctuation. Only the plus sign, if entered, will have any significance. 
+
+When a phone field is displayed, it should result in a clickable link that will attempt to call the indicated phone number, when clicked. 
+
+When saved to disk, a phone value will be saved using the normal [Markdown link syntax](https://www.markdownguide.org/basic-syntax/#links), using the [tel URI scheme](https://www.ietf.org/rfc/rfc3966.txt). The intent here is to make the resulting phone number clickable when the Note is opened in another application (such as iA Writer). 
+

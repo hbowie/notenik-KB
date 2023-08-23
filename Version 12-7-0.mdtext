@@ -4,7 +4,7 @@ Tags:   levels-outline.19 Version History.1 Version 1270
 
 Timestamp: 20230803224835
 
-Seq:    19.1
+Seq:    19.2
 
 Date:   2023-08-16
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added a derived merge variable for Image Name Short; Added variable modifier to derive a domain name from a link; Documented a variable modifier to split a label from a number-label combination; Reworked the Find, Search and Nav controls in several useful ways, to provide greater flexibility in moving back and forth between Notes along several different paths, and to provide keyboard shortcuts that are more consistent with those used by other apps. 
+
 
 Class:  version
 
