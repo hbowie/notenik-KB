@@ -12,5 +12,10 @@ Body:
 
 ##### Added a New Phone Field
 
-Added a new [[Phone]] field that can be used to create a clickable link to make a call to the indicated number, using the `tel:` URI scheme. 
+Added a new [[Phone]] field that can be used to create a clickable link to make a call to the indicated number, using the `tel:` URI scheme.
+
+##### Improved Link Field Interoperability
+
+The [[Link]] field logic has been enhanced to improve interoperability of values with other apps, such as iA Writer. 
+
 

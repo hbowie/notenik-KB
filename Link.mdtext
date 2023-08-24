@@ -45,3 +45,5 @@ Note that you can drag a bookmark from a Web browser (such as Safari or Chrome) 
 If you add a Link value without any URL scheme, then the implicit scheme of 'https://' will be assumed. In other words, you need only enter 'Notenik.app' in the link field, but 'https://Notenik.app' is what will be passed to your Web browser when requesting Notenik to open the Link. 
 
 Remember that a link stored in its own field is a somewhat different animal from a link coded using Markdown syntax within a Note's body.
+
+In order to increase interoperability with other apps, such as iA Writer, any surrounding less than / greater than signs will be stripped off when a Link value is read from disk, and such signs will be added when saving to disk, if the link is using some sort of unusual protocol unlikely to be recognized as a link by other apps. 
