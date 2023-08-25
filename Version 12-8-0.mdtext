@@ -1,10 +1,18 @@
 Title:  Version 12.8.0
 
+Tags:   levels-outline.19 Version History.1 Version 1280
+
 Timestamp: 20230822152614
 
 Seq:    19.1
 
+Date:   2023-08-25
+
 Level:  3 - Section
+
+Teaser:
+
+Added a new field type of Phone; Improved interoperability for the Link field and for Wiki Links, especially when using iA Writer; fixed a problem when navigating backwards in a list; improved logging messages for Merge Template generation. 
 
 Class:  version
 
@@ -16,6 +24,17 @@ Added a new [[Phone]] field that can be used to create a clickable link to make 
 
 ##### Improved Link Field Interoperability
 
-The [[Link]] field logic has been enhanced to improve interoperability of values with other apps, such as iA Writer. 
+The [[Link]] field logic has been enhanced to improve interoperability of values with other apps, such as iA Writer.
 
+##### Corrected Navigation Scrolling
+
+When moving backwards through the Collection, Notenik was scrolling to two rows beyond the selected Note -- which sometimes resulted in the selected Note being offscreen. In such a case, Notenik will now scroll two rows below the selected Note -- leaving the selected Note and at least two rows of "margin" visible to the user. 
+
+##### Improved Template Generation Logging
+
+Improved the data reporting from the Template module when generating a template, to enhance the user's ability to debug template problems.
+
+##### Improved Wiki Link Interoperability
+
+When handling a [[Wiki Links Between Collections]], Notenik will now tolerate, but ignore, leading punctuation preceding a folder name.
 
