@@ -1,0 +1,23 @@
+Title:  Version 12.9.0
+
+Timestamp: 20230827230405
+
+Seq:    19.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Improvements to File Links
+
+The Set Local Link command was not working correctly to set [[File Links]]. This has been corrected. 
+
+In addition, a note with a local link can now be created by dragging a file (something like a PDF) onto the List tab for a Collection, then dropping the file after an existing row. The new Note's Title will be based on the name of the file dropped, and will contain a link to the file.  
+
+Also, a new command beneath the Note menu will Convert a Local Link to an Attachment, if the user would prefer to access the external file in that manner. 
+
+
+
+

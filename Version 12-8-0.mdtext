@@ -4,7 +4,7 @@ Tags:   levels-outline.19 Version History.1 Version 1280
 
 Timestamp: 20230822152614
 
-Seq:    19.1
+Seq:    19.2
 
 Date:   2023-08-25
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added a new field type of Phone; Improved interoperability for the Link field and for Wiki Links, especially when using iA Writer; fixed a problem when navigating backwards in a list; improved logging messages for Merge Template generation. 
+
 
 Class:  version
 
@@ -37,4 +38,3 @@ Improved the data reporting from the Template module when generating a template,
 ##### Improved Wiki Link Interoperability
 
 When handling a [[Wiki Links Between Collections]], Notenik will now tolerate, but ignore, leading punctuation preceding a folder name.
-

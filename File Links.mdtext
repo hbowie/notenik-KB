@@ -1,0 +1,21 @@
+Title:  File Links
+
+Timestamp: 20230827234920
+
+Seq:    9.4
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+You may use a [[Link]] field to store a link to a local file or folder. 
+
+Such a link would start with `file://` and would contain a complete path to the file or folder. 
+
+You may use the Set Local Link command, beneath the Note menu, to select a file or folder to be linked using the Link field. 
+
+You may also drag a file (other than a text file) from the Finder to the List tab of a Collection, and then drop it after an existing row (but not on it), in order to create a new Note pointing to the dragged file, with a Title based on the name of the file. 
+
+If you would rather have such a file stored as an attachment, you could then use the Convert Local Link to Attachment command -- again beneath the Note menu -- to convert the file link to a [[File Attachment]]. 

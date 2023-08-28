@@ -20,11 +20,11 @@ A Collection may have multiple fields of type `link`.
 
 A link field is expected to hold a single [URL](https://en.wikipedia.org/wiki/URL). Notenik will attempt to honor as many different URL schemes (`https`, `mailto`, etc.) as might usefully be referenced (including its own [[Custom URL Scheme]]), and will attempt to handle each according to its type. 
 
-When editing, a link field will appear as a three-line text field. 
+When editing, a link field will appear as an auxiliary text field. To enter a long link value,  click on the Edit button to the right. 
 
 For display purposes, links will generally be styled as a link, and will be clickable. 
 
-The first link field encountered within a Note will be considered the Note's primary link field, and will be acted upon by any special buttons/commands designed to open that Note's link. These actions will typically open the link within the user's preferred Web browser (such as Safari or Chrome). 
+The first link field encountered within a Note will be considered the Note's primary link field, and will be acted upon by any special buttons/commands designed to open or otherwise act on that Note's link. These actions will typically open the link within the user's preferred Web browser (such as Safari or Chrome). 
 
 You can easily Launch a link from within the Notenik Mac App by clicking on the Launch Link button in the Toolbar, or by selecting Launch Link under the Note menu, or by using the keyboard shortcut CMD-L, or by double-clicking on the Note's line in the List view or the Tags view. 
 
@@ -34,7 +34,7 @@ Adding a Link to a Note doesn't necessarily reduce the Note to a simple Bookmark
 
 Note that if you use a Link to point to a local folder containing another Notenik Collection, then Launching that Link will result in opening the linked Collection within Notenik (so long as you have given Notenik permission to access that folder).
 
-You may use the Set Local Link command under the Note menu to choose a file or folder to be linked; the resulting 'file:///' style of URL will then replace any value previously stored in the Link field for the current Note.
+You may use the Set Local Link command under the Note menu to choose a file or folder to be linked; the resulting 'file:///' style of URL will then replace any value previously stored in the Link field for the current Note. (Also see the [[File Links]] page.)
 
 You may use the Wikipedia Link command under the Note menu to populate the first (or only) Link field for a Note with the Note's title, converted to a link to that subject on Wikipedia. This command may be invoked while in Edit mode, or in Display mode. This conversion will not always result in a link to a valid Wikipedia page, so you should test the Link for accuracy and relevance after using this command. 
 
@@ -46,4 +46,4 @@ If you add a Link value without any URL scheme, then the implicit scheme of 'htt
 
 Remember that a link stored in its own field is a somewhat different animal from a link coded using Markdown syntax within a Note's body.
 
-In order to increase interoperability with other apps, such as iA Writer, any surrounding less than / greater than signs will be stripped off when a Link value is read from disk, and such signs will be added when saving to disk, if the link is using some sort of unusual protocol unlikely to be recognized as a link by other apps. 
+In order to increase interoperability with other apps, such as iA Writer, any surrounding less than / greater than signs will be stripped off when a Link value is read from disk, and such signs will be added when saving to disk, if the link is using some sort of unusual protocol unlikely to be recognized as a link by other apps.
