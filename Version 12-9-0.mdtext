@@ -16,8 +16,8 @@ The Set Local Link command was not working correctly to set [[File Links]]. This
 
 In addition, a note with a local link can now be created by dragging a file (something like a PDF) onto the List tab for a Collection, then dropping the file after an existing row. The new Note's Title will be based on the name of the file dropped, and will contain a link to the file.  
 
-Also, a new command beneath the Note menu will Convert a Local Link to an Attachment, if the user would prefer to access the external file in that manner. 
+Also, a new command beneath the Note menu will Convert a Local Link to an Attachment, if the user would prefer to access the external file in that manner.
 
+##### Improvements to Author Name Modifier
 
-
-
+Improved the [[Author Name Modifier]] to show all last names when multiple authors are combined into a single entry. 
