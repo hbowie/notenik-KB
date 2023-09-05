@@ -20,4 +20,17 @@ Also, a new command beneath the Note menu will Convert a Local Link to an Attach
 
 ##### Improvements to Author Name Modifier
 
-Improved the [[Author Name Modifier]] to show all last names when multiple authors are combined into a single entry. 
+Improved the [[Author Name Modifier]] to show all last names when multiple authors are combined into a single entry.
+
+##### Improvements to the Wiki Style Links Variable Modifier
+
+The [[Wiki-Style Links Mod]] has been enhanced to recognize [[Wiki Links Between Collections]], and to handle them in such a way that these links can still work reliably when generating HTML output pages for a website.
+
+##### Added Export to HTML Outline Option
+
+Added a new [[Import and Export Your Notes|Export]] option to generate a single HTML file containing an outline structure housing all of a Collection's Notes.
+
+##### Fixed a Problem with the Rank Field
+
+This bug may have been affecting some other field types as well. 
+

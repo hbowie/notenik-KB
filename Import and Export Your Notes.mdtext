@@ -74,6 +74,10 @@ Following are the supported formats.
 * Export in Concatenated HTML or Markdown
 
 	A single file will be produced, with all Notes in the Collection appearing one after another, in the selected format (HTML or Markdown). Notes will appear in whatever Sort Sequence you have currently selected for the Collection. If you've selected the Streamlined Reading option in the Collection Settings, then the focus of the content will be on the [[Seq]], Title and Body fields. The overall intent is to combine all of the Notes in your Collection into a single document. 
+
+* Export to HTML Outline
+
+	As with Concatenated HTML, a single file will be produced, with all Notes in the Collection appearing one after another. In order to use this export option effectively, the Collection should have a [[Seq]] field and a [[Level]] field, and should be sorted by the Seq field. (See [[Using Notenik as an Outliner]] for additional info.) Each Note's Title will appear with a disclosure triangle to the left, and clicking on the triangle will reveal the body of that Note, plus any additional Notes that are effectively children of the current Note in the outline. 
 	
 * Export as a Web Book
 

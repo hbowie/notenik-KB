@@ -18,7 +18,7 @@ If your input is coming from a Collection using [[Wiki Style Links]] (links to o
 
 You can accomplish this by using the letter "W" as a variable modifier to modify the Markdown code containing inter-note links. The "W" must then be followed by one of the following values. 
 
-* 1 - The digit '1' will cause the target Note title to be converted to a conventional, universal file name, changing spaces to dashes, removing any odd characters, making all letters lower-case, and converting white space to hyphens. The '.html' file extension will then be appended as a suffix. This option can be used when each note has its own page. 
+* 1 - The digit '1' will cause the target Note title to be converted to a conventional, universal file name, changing spaces to dashes, removing any odd characters, making all letters lower-case, and converting white space to hyphens. The '.html' file extension will then be appended as a suffix. This option can be used when each note has its own page. If you are using [[Wiki Links Between Collections]], then the string '`../`' will be preprended to each such link, with the assumption that cross-linking collections will each be placed in their own folder, and that these folders will all be at the same level in the resulting website. 
 
 * 2 - The digit '2' will cause the Note title to be similarly converted, but then have a '#' prepended, with no suffix added. This option can be used when each note has its own heading within the same page.
 

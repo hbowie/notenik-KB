@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 302
+Last Index Selected: 367
 
 Mirror Auto Index: false
 
@@ -32,7 +32,7 @@ Curly Apostrophes: true
 
 Ext Links Open in New Windows: true
 
-Scrolling Sync: false
+Scrolling Sync: true
 
 Shortcut: nkb
 
@@ -44,7 +44,7 @@ Hash Tags: false
 
 Window Numbers: 1313.0;0.0;1247.0;1415.0;433.5;
 
-Column Widths: statusdigit: 20, 30, 50; rank: 50, 80, 250; date: 80, 120, 500; title: 200, 321, 1500; klass: 60, 80, 150; author: 100, 200, 1000; dateadded: 100, 180, 250; tags: 50, 100, 1200; seq: 30, 80, 250; x: 12, 20, 50; datemod: 100, 180, 250; 
+Column Widths: x: 12, 20, 50; statusdigit: 20, 30, 50; dateadded: 100, 180, 250; title: 200, 321, 1500; rank: 50, 80, 250; seq: 30, 80, 250; klass: 60, 80, 150; date: 80, 120, 500; author: 100, 200, 1000; tags: 50, 100, 1200; datemod: 100, 180, 250; 
 
 footer Note ID: footerpage
 
