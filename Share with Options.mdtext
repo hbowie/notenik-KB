@@ -42,6 +42,7 @@ Choose from any of the following options.
 + Markdown Quote -- Similar to HTML Blockquote, but without conversion to HTML. 
 + Notenik -- This is the same format used when saving a Note to disk. 
 + Microblog Post -- Formats your Note in a manner suitable for Mastodon (among others). Body comes first, followed by Tags, formatted with hashes and CamelCase.
++ Using Merge Template -- Formats your Note using a [[Merge Template]] that you specify. If a `reports` subfolder is available within your Collection, then Notenik will start there. The Merge Template should start with a `nextrec` command, and end with a `loop` command. An `output` command need not be present, but will send the generated output to the specified file if it is present.
 
 ##### Posting to a Microblog
 

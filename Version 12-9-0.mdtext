@@ -32,5 +32,12 @@ Added a new [[Import and Export Your Notes|Export]] option to generate a single 
 
 ##### Fixed a Problem with the Rank Field
 
-This bug may have been affecting some other field types as well. 
+This bug may have been affecting some other field types as well.
 
+##### Added Share Using Merge Template
+
+The [[Share with Options]] command now offers an option to format the selected Note using a Merge Template specified by the user.
+
+##### Fixed Level 1 Headings Beginning with Digits
+
+The number sign ('#') can have multiple meanings. When 1 - 6 of these symbols are placed at the beginning of a line, then Markdown interprets the line as a heading. But this symbol can also be used as part of ordinary writing to indicate that a number follows. Previously, when a line started with one of these symbols, and was followed by a space, but the space was then followed by a digit, the Notenik Markdown parser interpreted this as an attempt to identify the digit(s) as a number, rather than indicating a level 1 heading. The parser has now been modified to only make this assumption (number sign rather than heading indicator) when the symbol is *not* immediately followed by a space. 
