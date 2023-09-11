@@ -14,7 +14,7 @@ Class:  version
 
 Body:
 
-All commands must be enclosed in the chosen [[Merge Delimiters]]. In addition, all commands must appear on lines by themselves. Command names can be in upper- or lower-case. Each command may have zero or more operands. Operands may be separated by any of the following delimiters: space, comma (','), semi-colon (';') or colon (':'). Operands that contain any of these delimiters must be enclosed in single or double-quotation marks.
+All commands must be enclosed in the chosen [[Merge Delimiters]]. In addition, all commands must appear on lines by themselves, and must begin in the first positions of their lines (with no preceding spaces or tabs). Command names can be in upper- or lower-case. Each command may have zero or more operands. Operands may be separated by any of the following delimiters: space, comma (','), semi-colon (';') or colon (':'). Operands that contain any of these delimiters must be enclosed in single or double-quotation marks.
 
 The following commands are recognized. They are presented in the typical sequence in which they would be used.
 

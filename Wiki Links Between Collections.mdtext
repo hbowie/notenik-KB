@@ -28,4 +28,8 @@ To ensure that a related Collection is accessible for wiki links between Collect
 
 Note that each Collection will be opened in its own window, as is usual for Notenik. 
 
-In order to increase interoperability with other apps, such as iA Writer, a leading '`/`' or '`../`' will be tolerated, but ignored. 
+In order to increase interoperability with other apps, such as iA Writer, a leading '`/`' or '`../`' will be tolerated, but ignored.
+
+If your Collection Settings request Notenik to Create Notes for Missing Wiki Link Targets, then Notenik will create the targeted Note in the targeted Collection, if the targeted Note is not already present. 
+
+
