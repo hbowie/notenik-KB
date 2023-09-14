@@ -30,6 +30,7 @@ The following HTML class values are assigned by Notenik. Click on a column headi
 | div | search-form | [[Generate a Collection Search Page]]
 | div | search-page | [[Generate a Collection Search Page]]
 | figure | notenik-quote-attrib | [[Attribution]]
+| li | checklist-item | [[Task Lists]]
 | ol | notenik-biblio-list | [[Generate a Bibliography]]
 | p | notenik-calendar-day-of-month | [[Dates to Calendar]]
 | summary | heading-x-summary | [[Generate Outline Based on Headings]]

@@ -50,3 +50,7 @@ When creating [[Wiki Links Between Collections]], the Collection Setting to Crea
 
 The apostrophe/single quote character is now allowed to remain in file names, when these are found in Note titles. These characters were previously being replaced with a space and a dash.
 
+##### Added HTML Style for Checklist Items
+
+List items for Checklists are now written out with an [[HTML class value]] of '`checklist-item`'.
+
