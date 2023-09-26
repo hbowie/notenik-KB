@@ -1,10 +1,19 @@
 Title:  Version 12.9.0
 
+Tags:   levels-outline.19 Version History.1 Version 1290
+
 Timestamp: 20230827230405
 
-Seq:    19.1
+Seq:    19.2
+
+Date:   2023-09-15
 
 Level:  3 - Section
+
+Teaser:
+
+Improvements to Local File Links; Improvements to the Author Name Variable Modifier (particularly for works having multiple authors); Improvements to the Wiki Style Link Variable Modifier, specifically for links between Collections; Added a new Option to Export a Collection to an HTML outline; Fixed a problem affecting the Rank field; Added a new Note Share option to share a single selected Note using a merge template; Fixed Level 1 Headings beginning with digits; Auto-Creation of missing Wiki Link targets improved, particularly for links between Collections; apostrophes in Titles are now preserved when forming file names; added a new HTML class for checklist items.  
+
 
 Class:  version
 
@@ -53,4 +62,3 @@ The apostrophe/single quote character is now allowed to remain in file names, wh
 ##### Added HTML Style for Checklist Items
 
 List items for Checklists are now written out with an [[HTML class value]] of '`checklist-item`'.
-

@@ -1,5 +1,7 @@
 Title:  File Links
 
+Tags:   levels-outline.9 Files and Folders.4 File Links
+
 Timestamp: 20230827234920
 
 Seq:    9.4
@@ -18,4 +20,4 @@ You may use the Set Local Link command, beneath the Note menu, to select a file 
 
 You may also drag a file (other than a text file) from the Finder to the List tab of a Collection, and then drop it after an existing row (but not on it), in order to create a new Note pointing to the dragged file, with a Title based on the name of the file. 
 
-If you would rather have such a file stored as an attachment, you could then use the Convert Local Link to Attachment command -- again beneath the Note menu -- to convert the file link to a [[File Attachment]]. 
+If you would rather have such a file stored as an attachment, you could then use the Convert Local Link to Attachment command -- again beneath the Note menu -- to convert the file link to a [[File Attachment]].

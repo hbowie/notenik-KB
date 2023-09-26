@@ -33,3 +33,5 @@ The rendered output will appear as follows on the Display tab.
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+Starting with [[Version 13.0.0]], Notenik's checklists are dynamic and functional on the Display tab, meaning that you can check and uncheck these boxes on the Display tab, and Notenik will record your changes within the Body of the Note. Note that this will only work within the [[Body]] field, and not within other fields of type [[Teaser]] or [[longtext]].

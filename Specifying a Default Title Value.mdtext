@@ -1,0 +1,42 @@
+Title:  Specifying a Default Title Value
+
+Timestamp: 20230918233743
+
+Seq:    9.1.7.1
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+When creating a [[Class Template File]] or a [[defaults class template]], the user may fill in field values in order to have those values supplied as defaults when creating a new Note. 
+
+However the [[Title]] field is obviously a special case, since each Note in a Collection must have a unique Title value, so supplying a common default value would not seem to get the user very far. 
+
+However there may be cases for which a common starting Title value might be useful, and so Notenik does allow a starting Title value to be specified.  
+
+###### Auto-Incrementing a Note Number
+
+Additionally, if the default Title value specified ends with one or more number signs, then those number signs will be replaced with an incrementing sequence number, starting with 1 for the first number assigned. 
+
+The number of number signs specified is significant, since this will determine the number of leading zeros to potentially be supplied as part of the generated number. This might be important, for example, if the user expects a sort by Title to put the Notes into ascending sequence based on the order in which they were created (so that '010' will sort after '002', for example). 
+
+And so, for example, a Class Template File might start with a line like the following:
+
+```
+Title: Note Number ###
+```
+
+The first Note created would then be titled 'Note Number 001.'
+
+The last such number assigned is stored in the Collection's '`- INFO.nnk`' file, and is then incremented continuously each time a new Note is created using the Class Template File. 
+
+Be aware that deleting a Note numbered in this fashion will not cause Notenik to reuse the number previously assigned to the deleted Note. Again, number assignment will continue forwards from the highest number so far assigned. 
+
+###### New Note with Options
+
+As with other default field values, a default Title value will only be assigned when using the [[New Note with Options]] command beneath the Note menu. This is true whether or not the default Title value ends with number signs. 
+
+The default Note Title value will not appear in the New Note with Options window, but only in the Edit tab, after completing entries in the New Note with Options window. When the New Note with Options window is invoked, the Title field within that auxiliary window should be left blank, in order to invoke the default Title value specified in the Class Template File. 
+ 

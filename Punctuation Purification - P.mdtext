@@ -14,5 +14,7 @@ Index:  punctuation;
 
 Body:
 
-The letter "P" will remove awkward punctuation characters.
+The letter "P" will remove awkward punctuation characters, replacing them with spaces.
+
+If the '`P`' is followed by an exclamation mark ('`!`'), then punctuation and spaces will be "squeezed" from the value, without any replacement.
 

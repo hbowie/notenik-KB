@@ -25,5 +25,7 @@ Here's how to make this work.
 2. After creating the requested class template file, Notenik will ask macOS to open the file within your preferred text editor. 
 
 3. The new defaults template file will have all of the Collection's field labels called out, but without any following information. You can now pecify default values for any of these field labels, to be provided whenever you create a new Note. 
+
+4. There are special rules associated with [[Specifying a Default Title Value]].
 	
 	When you're done making these changes, save the class template file within your text editor, and then Reload the Collection within Notenik.
