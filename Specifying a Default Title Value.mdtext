@@ -1,5 +1,7 @@
 Title:  Specifying a Default Title Value
 
+Tags:   levels-outline.9 Files and Folders.1 Note Files.7 The defaults Class Template
+
 Timestamp: 20230918233743
 
 Seq:    9.1.7.1
@@ -38,5 +40,4 @@ Be aware that deleting a Note numbered in this fashion will not cause Notenik to
 
 As with other default field values, a default Title value will only be assigned when using the [[New Note with Options]] command beneath the Note menu. This is true whether or not the default Title value ends with number signs. 
 
-The default Note Title value will not appear in the New Note with Options window, but only in the Edit tab, after completing entries in the New Note with Options window. When the New Note with Options window is invoked, the Title field within that auxiliary window should be left blank, in order to invoke the default Title value specified in the Class Template File. 
- 
+The default Note Title value will not appear in the New Note with Options window, but only in the Edit tab, after completing entries in the New Note with Options window. When the New Note with Options window is invoked, the Title field within that auxiliary window should be left blank, in order to invoke the default Title value specified in the Class Template File.

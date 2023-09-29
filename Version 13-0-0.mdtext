@@ -1,10 +1,18 @@
 Title:  Version 13.0.0
 
+Tags:   levels-outline.19 Version History.1 Version 1300
+
 Timestamp: 20230918183643
 
 Seq:    19.1
 
+Date:   2023-09-29
+
 Level:  3 - Section
+
+Teaser:
+
+Added Ability to Specify a Default Title Value; Added Squeeze Option for Punctuation Purification; Made Tasklists Display Dynamic and Functional; Fixed a Problem with Link Interpretation; Fix for Seq Field Formatting on Secondary Displays; Fix for Seq Field Display on List Tab; Fixed a Markdown Parser Problem with Isolated Numbers; Fixed a Problem with Blank Lines in YAML front matter; Fixed a Horizontal Rule Problem; Fixed a Title Display Problem. 
 
 Class:  version
 
@@ -26,7 +34,7 @@ The [[Punctuation Purification]] variable modifier now has an option to squeeze 
 
 Previously a valid website URL containing an '`@`' sign would be erroneously interpreted as an email address; this has been corrected. 
 
-##### Fix for Seq Field Formatting on Secondary Dispays
+##### Fix for Seq Field Formatting on Secondary Displays
 
 Formatting of the [[Seq]] field on Secondary Displays has been corrected so that, if no formatting codes are specified, the Seq field is displayed as originally input. 
 
@@ -41,3 +49,12 @@ When a lone number was appearing on a line by itself, the last digit was sometim
 ##### Fixed a Problem with Blank Lines in YAML front matter
 
 A blank line in YAML front matter was previously terminating the metadata parsing; now, so long as the front matter begins with a line of three dashes, metadata parsing will continue until another line of three dashes is encountered.
+
+##### Fixed a Horizontal Rule Problem
+
+A [horizontal rule](https://daringfireball.net/projects/markdown/syntax#hr) placed between two list items was appearing above its preceding list item; this has been corrected.
+
+##### Fixed a Title Display Problem
+
+When the Collection Settings specified the Note title to be displayed in italics, the entire Note was being displayed in italics. This has been fixed. 
+
