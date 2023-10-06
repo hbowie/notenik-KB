@@ -1,0 +1,15 @@
+Title:  Version 13.1.0
+
+Timestamp: 20231005154816
+
+Seq:    19.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added a Presentation Mode
+
+In addition to [[Streamlined Reading]], Notenik now supports a [[Presentation Mode]]. The [[Collection Settings]] have been modified to allow the selection of modes from a popup, rather than using a checkbox to select Streamlined Reading. 

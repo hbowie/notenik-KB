@@ -4,7 +4,7 @@ Tags:   levels-outline.19 Version History.1 Version 1300
 
 Timestamp: 20230918183643
 
-Seq:    19.1
+Seq:    19.2
 
 Date:   2023-09-29
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added Ability to Specify a Default Title Value; Added Squeeze Option for Punctuation Purification; Made Tasklists Display Dynamic and Functional; Fixed a Problem with Link Interpretation; Fix for Seq Field Formatting on Secondary Displays; Fix for Seq Field Display on List Tab; Fixed a Markdown Parser Problem with Isolated Numbers; Fixed a Problem with Blank Lines in YAML front matter; Fixed a Horizontal Rule Problem; Fixed a Title Display Problem. 
+
 
 Class:  version
 
@@ -56,5 +57,4 @@ A [horizontal rule](https://daringfireball.net/projects/markdown/syntax#hr) plac
 
 ##### Fixed a Title Display Problem
 
-When the Collection Settings specified the Note title to be displayed in italics, the entire Note was being displayed in italics. This has been fixed. 
-
+When the Collection Settings specified the Note title to be displayed in italics, the entire Note was being displayed in italics. This has been fixed.

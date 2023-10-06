@@ -14,9 +14,9 @@ Class:  non-version
 
 Body:
 
-When you [[Tailor Collection Settings]], one of the questions you will encounter is whether you wish to "Format Display for Streamlined Reading?"
+When you [[Tailor Collection Settings]], you will have the option to set the Display Mode to Streamlined Reading. 
 
-When you check this option, it will trigger a number of different behaviors on the Notenik Display tab.
+When you select this option, it will trigger a number of different behaviors on the Notenik Display tab.
 
 In general, the Streamlined Reading option focuses attention on the major fields of each Note (title, body, etc.) and provides additional navigational elements allowing a reader to easily navigate forward, upwards, and downwards through the outline structure implied by the [[Seq]] and [[Level]] fields. 
 

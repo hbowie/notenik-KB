@@ -40,11 +40,11 @@ Enter a shortcut for a Collection in order to easily identify and open it later.
 
 Select an option to tailor your [[Note Title Display]]. The default is a normal font size, with a bold style applied. See the separate page below for details. 
 
-The following checkboxes are available and can be used to modify/augment the appearance of Notes on the Display tab. 
+The following controls are available and can be used to modify/augment the appearance of Notes on the Display tab. 
 
 + Include Explicit Body field label for Note? -- This is checked by default, but you can uncheck it if you'd prefer to see your Notes displayed without a leading 'Body:' label.  
 
-+ Format Display for Streamlined Reading? -- This is unchecked by default. If you check it, then the Display of the Note will be streamlined so that users can focus on the reading experience. See the [[Streamlined Reading]] page for details. 
++ Display Mode -- This allows the user to select from three options: normal, streamlined reading, or presentation mode, with normal being the default. Both streamlined reading and presentation modes streamline the Display of Notes, to focus attention on the Title and Body fields. 
 
 + Rerun Mirror Indexing with every Update? -- See the [[Mirror your Notes]] page for more info. 
 
