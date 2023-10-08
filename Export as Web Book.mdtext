@@ -36,7 +36,7 @@ Here's the way this feature works.
 
 8. Each Note will be formatted for streamlined reading. (You are again referred to the instructions on how to [[Using Notenik as an Outliner]] for further explanation of what this means.)
 
-9. As with Streamlined Reading within Notenik, each page will have a link to its parent in the hierarchy, as well as links to any children. Each page will also end with a link to the next page in the Collection.
+9. As with Streamlined Reading within Notenik, each page will have a link to its parent in the hierarchy, as well as links to any children. Each page will also end with a link to the next page in the Collection. If the next page link would take you lower in the page hierarchy -- to a deeper level -- then to the right of the next page link there will also appear a "Skip to" link that can skip lower-level details and take you straight to the next Note at the same or higher level. 
 
 10. The first time a Web Book folder is populated, Notenik will create another EPUB sub-folder, this one named 'css', into which a file named 'styles.css' will be placed, containing body formatting reflecting the current Display Fonts chosen within Notenik. Once this file has been created, though, Notenik will not replace it, so you are free to modify this CSS stylesheet in any way you would like. Each HTML page generated will link to this stylesheet for its formatting.
 

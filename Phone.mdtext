@@ -16,7 +16,7 @@ The word `Phone` can be used as both a label and a type.
 
 A Phone field is meant to contain a single telephone number. 
 
-The user may enter a phone value with any desired spacing and punctuation. Only the plus sign, if entered, will have any significance. 
+The user may enter a phone value with any desired spacing and punctuation. Only the plus sign and the comma, if entered, will have any significance. 
 
 When a phone field is displayed, it should result in a clickable link that will attempt to call the indicated phone number, when clicked. 
 
