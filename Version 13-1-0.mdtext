@@ -1,10 +1,19 @@
 Title:  Version 13.1.0
 
+Tags:   levels-outline.19 Version History.1 Version 1310
+
 Timestamp: 20231005154816
 
 Seq:    19.1
 
+Date:   2023-10-13
+
 Level:  3 - Section
+
+Teaser:
+
+Added a Presentation Mode; Added 'Skip To' navigation option to skip lower-level detail when using Streamlined Reading; the Phone field now preserves embedded commas. 
+
 
 Class:  version
 
@@ -20,7 +29,4 @@ When using [[Streamlined Reading]], or when you [[Export as Web Book]], Notenik 
 
 ##### Phone Field Supports Commas
 
-The [[Phone]] field now preserves commas in the field, which can be used to indicate that an extension follows. 
-
-
-
+The [[Phone]] field now preserves commas in the field, which can be used to indicate that an extension follows.

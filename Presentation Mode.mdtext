@@ -1,5 +1,7 @@
 Title:  Presentation Mode
 
+Tags:   levels-outline.7 Creating and Tailoring a Collection of Notes.4 Tailor Collection Settings.4 Presentation Mode
+
 Timestamp: 20231005155618
 
 Seq:    7.4.4
@@ -20,5 +22,4 @@ The rationale for this behavior is that, if you are using a Notenik Collection t
 
 Note that the `Collection` menu also contains a separate item to `Toggle Presentation Mode`, to allow a user to quickly toggle the Display between one mode and another.
 
-When making a presentation, you will typically also want to use CMD-Y to toggle the display of the List/Tabs views to the left of the Display. 
-
+When making a presentation, you will typically also want to use CMD-Y to toggle the display of the List/Tabs views to the left of the Display.
