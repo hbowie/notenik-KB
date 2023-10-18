@@ -1,0 +1,47 @@
+Title:  Import vCards
+
+Tags:   levels-outline.12 Getting Data Into and Out of Notenik.2 Import and Export Your Notes.3 Import vCards
+
+Timestamp: 20231017214309
+
+Seq:    12.2.3
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+[vCard][]s are virtual contact cards used to store and exchange contact info for individuals and groups. 
+
+A vCard file is an ordinary text file formated according to the this [IETF Specification][IETF].
+
+A vCard file may contain one or more contact cards, and typically has a file extension of `.vcf`. 
+
+One way to create a vCard file is by exporting one or more contacts from the Apple Contacts app for the Mac. 
+
+Both the Apple Contacts app and the vCard spec provide for a lot of flexibility, and the intent behind Notenik's support for this spec as an import option is not to provide a perfect translation of every possible field. 
+
+The following table shows the support provided by Notenik for various field types. 
+
+| vCard Parm | Notenik Label | Notes |
+| ---------- | ------------- | ----- |
+| ADR        | [[Address]]   | The [vCard spec](https://www.rfc-editor.org/rfc/rfc6350#section-6.3.1) calls for a street address (or a delivery address) to be specified as a strict series of positional values, separated by semi-colons. It turns out that Apple Maps will accept these sorts of values with no problem, so Notenik will not attempt any reformatting of this field into a more conventional-looking value. |
+| BDAY       | Birthday     | This will become a [[Date]] field type. |
+| EMAIL      | [[Email]]        | |
+| FN         | Full Name    | This will be stored with a label of `Full Name`, but with the [[Title]] field type, and the Note's file name will be based on this value. |
+| NICKNAME   | Nickname     | This will be stored as an ordinary [[String]]. |
+| NOTE       | Note/Body    | This will be stored as the [[body]] of the Note. |
+| ORG        | Organization | This will be stored as an ordinary String field. |
+| TEL        | Phone        | This will be stored as a [[Phone]] field. 
+| TITLE      | Job Title    | Another ordinary string. |
+| URL        | Link         | This will become a clickable [[Link]]. |
+| X-ABShowAs | Kind         | If the input value is "COMPANY", then this [[Pick From]] field will be set to "org"; otherwise it will be assumed to be an individual. This will become a [[Pick From]] field, with the following allowable values: family, individual, group, org. |
+
+Note that you may wish to use the [[Contacts]] starter pack to initialize your Collection before importing a vCard file, in which case the Title field will have a label of `Full Name`, and the Body field will have a label of `Note`. However use of this starter pack is not required. 
+
+When performing a vCard import, Notenik will unlock the Collection dictionary so that any missing fields may be added, to avoid data loss. So even if you start with [[Basic Notes]], the import will add the needed field definitions. 
+
+[IETF]: https://www.rfc-editor.org/rfc/rfc6350
+
+[vCard]: https://en.wikipedia.org/wiki/VCard

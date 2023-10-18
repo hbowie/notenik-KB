@@ -33,3 +33,5 @@ After using Search Next one or more times, you may use Search Previous to back u
 Note that, after using the Advanced Search Option, the options selected will persist until changed, or until the end of the Notenik session, even if you later initiate a search using the simpler method of specifying a new text string in the Search field at the top of the window. 
 
 Each visible occurrence of the search text will be highlighted on the Display tab, for each matching Note.
+
+There is also an option beneath the `Nav` menu to `Tag Search Results...`. This command can assign the user-specified [[Tags|tag]] to all Notes matching the search criteria. Of course, after assigning such a tag, the list of Notes containing that tag can be easily referenced on the Tags tab.

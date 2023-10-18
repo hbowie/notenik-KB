@@ -70,6 +70,10 @@ Following are the supported formats.
 * Import OPML using Lists
 
 	The entire outline defined in the OPML fild will be loaded into the body of one new Note, using the [[Generate Outline Based on Unordered List Items]] Markdown extension. 
+
+* Import vCards
+
+	This can be used to import a standard vCard file (with the extension of `.vcf`) in order to create Notes representing contact cards. This is probably easier if you start with the [[Contacts]] starter pack when creating a new Collection (although it is not necessary). See the [[Import vCards]] section for further information. 
 	
 * Export in Concatenated HTML or Markdown
 
