@@ -23,3 +23,13 @@ Sorting by Title is the most common, but you can also choose to sort your Collec
 You can reverse any of the sorts by selecting Reverse near the bottom of the Sort menu. 
 
 You can change the sort position of blank dates, to see them before or after non-blank dates, by selecting Blank Dates Last at the very bottom of the Sort menu.
+
+##### Last Name First
+
+One Sort Option that requires some explanation is the `Last Name First` option. This will have slightly different effects depending on the nature of the Collection. 
+
++ If the Collection is configured to track [[Contacts]], and used after a [[vCard Import]], then the sort will be done using the [[Person]] field. 
++ If the Collection is configured with an [[Author]] field, then that field will be used. 
++ In all other cases, the Title field will be assumed to contain the name of a person. 
+
+In all of these cases, an attempt will be made to extract the last name of an individual and then sort by that name, rather than sorting first name first. 

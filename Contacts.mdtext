@@ -13,3 +13,6 @@ Body:
 This is a starter pack meant to be used for keeping track of contact information for individuals and other entities. 
 
 The Title field gets the label of "Full Name" and is expected to store the full name of an individual or organization.
+
+See the [[Import vCards]] page for more info on use of Notenik to track info about contacts. 
+

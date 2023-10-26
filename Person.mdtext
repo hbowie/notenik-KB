@@ -1,0 +1,24 @@
+Title:  Person
+
+Timestamp: 20231026171506
+
+Seq:    11.8.3
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The word `Person` can be used as both a label and a type. 
+
+A Person field is meant to contain an individual's complete name. 
+
+A Person field is especially useful for storing the Name field from a  [[vCard Import]]. 
+
+In order to reliably identify the various possible components of a name, the field is best formatted according to this [vCard spec](https://www.rfc-editor.org/rfc/rfc6350#section-6.2.2).
+
+> The structured property value corresponds, in sequence, to the Family Names (also known as surnames), Given Names, Additional Names, Honorific Prefixes, and Honorific Suffixes.  The text components are separated by the SEMICOLON character (U+003B). 
+
+
+
