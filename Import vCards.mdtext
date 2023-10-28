@@ -52,6 +52,8 @@ Note that both the Apple Contacts app and the vCard spec support multiple values
 When multiple values are found for one of these fields, on a single Note, then the Notenik import will handle these in the following ways, depending on the type of field. 
 
 + EMAIL - The first email found for a contact will become the `Email` field; additional ones will be labeled `Email-2`, `Email-3`, etc. 
++ ADR - The first address found for a contact will become the `Address` field; additional ones will be labeled `Address-2`, `Address-3`, etc. 
++ TEL - The first telephone number found for a contact will become the `Phone` field; additional ones will be differentiated by a suffix: either `-cell`, `-home`, or `-work`, of using a trailing integer suffix if there are no other distinguising qualifiers. 
 
 [IETF]: https://www.rfc-editor.org/rfc/rfc6350
 
