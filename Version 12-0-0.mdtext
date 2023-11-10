@@ -1,18 +1,16 @@
 Title:  Version 12.0.0
 
-Tags:   levels-outline.19 Version History.13 Version 1200
+Tags:   levels-outline.19 Version History.14 Version 1200
 
 Timestamp: 20211116184349
 
-Seq:    19.14
+Seq:    19.15
 
 Date:   2023-05-09
 
 Level:  3 - Section
 
-Teaser:
-
-Corrected hour formatting in Timestamp values; fixed a bug involving timestamps and classes; improved handling of the Display template. 
+Teaser: Corrected hour formatting in Timestamp values; fixed a bug involving timestamps and classes; improved handling of the Display template. 
 
 
 Class:  version

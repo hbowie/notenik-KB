@@ -1,18 +1,16 @@
 Title:  Version 11.3.0
 
-Tags:   levels-outline.19 Version History.20 Version 1130
+Tags:   levels-outline.19 Version History.21 Version 1130
 
 Timestamp: 20211116184349
 
-Seq:    19.21
+Seq:    19.22
 
 Date:   2023-01-17
 
 Level:  3 - Section
 
-Teaser:
-
-Added macOS Shortcut Action to Open Quick Action Window; Improved Format for Date Column on the List Tab; Tweaked Formatting when Including a Quote; Added Check Marks to Collection Sort Menu; Added Table Support for Long Cells; Added Ability to Escape Pipe Characters.
+Teaser: Added macOS Shortcut Action to Open Quick Action Window; Improved Format for Date Column on the List Tab; Tweaked Formatting when Including a Quote; Added Check Marks to Collection Sort Menu; Added Table Support for Long Cells; Added Ability to Escape Pipe Characters.
 
 
 Class:  version

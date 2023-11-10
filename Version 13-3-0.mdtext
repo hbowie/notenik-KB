@@ -1,16 +1,17 @@
 Title:  Version 13.3.0
 
+Tags:   levels-outline.19 Version History.1 Version 1330
+
 Timestamp: 20231019215209
 
-Seq:    19.1
+Seq:    19.2
 
 Date:   2023-10-28
 
 Level:  3 - Section
 
-Teaser:
+Teaser: Added a new field type of Person, that can be used to store the various pieces of an individual's name, in a semi-structured fashion; Improved the vCard import function; Added an option to sort various things last-name-first, instead of first-name-first. 
 
-Added a new field type of Person, that can be used to store the various pieces of an individual's name, in a semi-structured fashion; Improved the vCard import function; Added an option to sort various things last-name-first, instead of first-name-first. 
 
 Class:  version
 
@@ -32,4 +33,3 @@ The [[vCard Import]] has been improved in several ways:
 ##### Added Option to Sort by Last Name First
 
 A new Collection [[Sort Sequence]] has been added, which can be used, with Authors and with ordinary Persons, to sort a Collection using the last name followed by first name, instead of the usual first name first.
-

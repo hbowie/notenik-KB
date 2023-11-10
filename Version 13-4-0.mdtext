@@ -1,0 +1,83 @@
+Title:  Version 13.4.0
+
+Timestamp: 20231106012609
+
+Seq:    19.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Show in Finder for Notes
+
+At the top of the contextual menu for Notes on the List tab, you will now find an option to `Show in Finder`. Selecting this option will reveal the file in the macOS Finder. 
+
+##### Improved Display for Link Fields
+
+This version makes a couple of changes to the display of [[Link]] fields. 
+
+First, link fields are new styled with the `ext-link` class, which is an existing class defined on the [[HTML Class Values]] page. This will generally make the styling of links here consistent with the appearance of links within the [[Body]] of the note. 
+
+Second, the contents of the display string shown for a link field can now be modified using a special set of values to be placed in the [[the Collection Template File]].
+
+See the following for an example.
+
+```
+Ref Link: <link: x|s|s|x|x > 
+```
+
+Notice there are five separate single-character values separated by pipe characters. 
+
+Each position can have one of the following values:
+
++ a - Display this part of the link as-is, without any modification. 
++ x - Exclude this component of the link.
++ s - Simplify the representation of this component of the link (see explanation below). 
+
+And the five positions represent the following five [components of a URL](https://www.tutorialrepublic.com/html-tutorial/html-url.php):
+
++ Scheme (as in `http://` or `https://`)
++ Host (as in `en.wikipedia.org`)
++ Path (as in `/wiki/Main_Page`)
++ Query (as in `?what-the-heck`)
++ Fragment (as in `#section-3`)
+
+A couple of things to note:
+
++ Such a formatting string will only be applied to links that appear to be valid URLs with a scheme of `http` or `https`. Anything else will simply be displayed as-is.
++ If you fail to supply any formatting string, then the default will be to display all links as-is. 
+
+And now, to explain what we mean by simplifying the presentation of a component. 
+
+First, this only applies to the Host and the Path. There are no simplification algorithms for the other three parts, so they will be displayed as-is, unless they are excluded. 
+
+For the Host, the following rules will be applied:
+
++ Any leading characters followed by a period (such as `www`) will be dropped, along with the following period. 
++ If the last part of the host -- the Top Level Domain -- is `.com` or `.org`, then it will be dropped. Other TLDs will be included in the display. 
++ The first character of the second-level domain will be capitalized. 
+
+For the Path, the following rules will be applied:
+
++ If the path ends with a file extension (such as `.html` or `.php`, then that will be dropped. 
++ Any elements of the path other than the last will be dropped. 
++ Spaces will replace any dashes or underscores.
+
+And then, if the host and/or the path were simplified, then the two will be separated by a colon and a space, rather than a slash. 
+
+So, for example, given the formatting string above, this URL:
+
+```
+https://en.wikipedia.org/wiki/Comparison_of_note-taking_software
+```
+...would be displayed like this:
+
+```
+Wikipedia: Comparison of note-taking software
+```
+
+Depending on what you are using a Collection for, and what sort of links you are recording, this sort of formatting may or may not be useful to you. 
+
+In some cases, though, it can make the text of the link much easier to read for humans trying to parse all the pieces.

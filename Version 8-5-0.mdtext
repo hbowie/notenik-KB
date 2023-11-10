@@ -1,18 +1,16 @@
 Title:  Version 8.5.0
 
-Tags:   levels-outline.19 Version History.53 Version 850
+Tags:   levels-outline.19 Version History.54 Version 850
 
 Timestamp: 20211116184349
 
-Seq:    19.54
+Seq:    19.55
 
 Date:   2022-02-20
 
 Level:  3 - Section
 
-Teaser:
-
-Improved handling of hash marks when prepended to tags; export with YAML frontmatter now available; the Status field now tolerates unexpected values; display of local images can now be enabled in the Collection Settings; the default CSS for the Display tab now set img max-width to 100%. 
+Teaser: Improved handling of hash marks when prepended to tags; export with YAML frontmatter now available; the Status field now tolerates unexpected values; display of local images can now be enabled in the Collection Settings; the default CSS for the Display tab now set img max-width to 100%. 
 
 
 Class:  version

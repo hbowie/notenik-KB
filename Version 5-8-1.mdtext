@@ -1,18 +1,16 @@
 Title:  Version 5.8.1
 
-Tags:   levels-outline.19 Version History.91 Version 581
+Tags:   levels-outline.19 Version History.92 Version 581
 
 Timestamp: 20210627222923
 
-Seq:    19.92
+Seq:    19.93
 
 Date:   2021-04-07
 
 Level:  3 - Section
 
-Teaser:
-
-Fixed a bug that caused a crash when the user attempted to run a script.
+Teaser: Fixed a bug that caused a crash when the user attempted to run a script.
 
 
 Body:

@@ -1,18 +1,16 @@
 Title:  Version 9.7.0
 
-Tags:   levels-outline.19 Version History.37 Version 970
+Tags:   levels-outline.19 Version History.38 Version 970
 
 Timestamp: 20211116184349
 
-Seq:    19.38
+Seq:    19.39
 
 Date:   2022-07-05
 
 Level:  3 - Section
 
-Teaser:
-
-Prettified the HTML produced by Notenik; opened up the spaces per level indentation for outlines so that this can be set as a preference; changed new Collection logic to set initial Collection name to match the folder name; when importing a folder full of Notes, addition of fields found is now more liberal, accepting whatever is present in the import folder; plus a few minor changes. 
+Teaser: Prettified the HTML produced by Notenik; opened up the spaces per level indentation for outlines so that this can be set as a preference; changed new Collection logic to set initial Collection name to match the folder name; when importing a folder full of Notes, addition of fields found is now more liberal, accepting whatever is present in the import folder; plus a few minor changes. 
 
 
 Class:  version

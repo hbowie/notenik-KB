@@ -1,18 +1,16 @@
 Title:  Version 6.9.2
 
-Tags:   levels-outline.19 Version History.75 Version 692
+Tags:   levels-outline.19 Version History.76 Version 692
 
 Timestamp: 20210813202014
 
-Seq:    19.76
+Seq:    19.77
 
 Date:   2021-08-13
 
 Level:  3 - Section
 
-Teaser:
-
-Straightened out a couple of Markdown parsing problems. 
+Teaser: Straightened out a couple of Markdown parsing problems. 
 
 
 Class:  version

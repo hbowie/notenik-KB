@@ -1,18 +1,16 @@
 Title:  Version 6.7.2
 
-Tags:   levels-outline.19 Version History.80 Version 672
+Tags:   levels-outline.19 Version History.81 Version 672
 
 Timestamp: 20210724211745
 
-Seq:    19.81
+Seq:    19.82
 
 Date:   2021-07-24
 
 Level:  3 - Section
 
-Teaser:
-
-Corrected a couple of significant deficiencies in the MathJax support. 
+Teaser: Corrected a couple of significant deficiencies in the MathJax support. 
 
 
 Class:  version

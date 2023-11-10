@@ -1,18 +1,16 @@
 Title:  Version 6.6.0
 
-Tags:   levels-outline.19 Version History.83 Version 660
+Tags:   levels-outline.19 Version History.84 Version 660
 
 Timestamp: 20210709201525
 
-Seq:    19.84
+Seq:    19.85
 
 Date:   2021-07-14
 
 Level:  3 - Section
 
-Teaser:
-
-Added a new Markdown extension to generate a Table of Contents for an entire Collection; added another new Markdown extension to generate an Index for an entire Collection; added another new Markdown extensions to generate a Tags Outline; added a new command to Generate a Web Book from a Collection; updated the Notenik Knowledge Base to make use of all of these new features. 
+Teaser: Added a new Markdown extension to generate a Table of Contents for an entire Collection; added another new Markdown extension to generate an Index for an entire Collection; added another new Markdown extensions to generate a Tags Outline; added a new command to Generate a Web Book from a Collection; updated the Notenik Knowledge Base to make use of all of these new features. 
 
 
 Class:  version

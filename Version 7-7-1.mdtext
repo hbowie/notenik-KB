@@ -1,18 +1,16 @@
 Title:  Version 7.7.1
 
-Tags:   levels-outline.19 Version History.64 Version 771
+Tags:   levels-outline.19 Version History.65 Version 771
 
 Timestamp: 20211116184349
 
-Seq:    19.65
+Seq:    19.66
 
 Date:   2021-12-05
 
 Level:  3 - Section
 
-Teaser:
-
-A couple of important bug fixes affecting usage of the new Class templates, and of the Wikilinks/Backlinks fields. 
+Teaser: A couple of important bug fixes affecting usage of the new Class templates, and of the Wikilinks/Backlinks fields. 
 
 
 Class:  version

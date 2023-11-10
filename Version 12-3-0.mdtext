@@ -1,18 +1,16 @@
 Title:  Version 12.3.0
 
-Tags:   levels-outline.19 Version History.10 Version 1230
+Tags:   levels-outline.19 Version History.11 Version 1230
 
 Timestamp: 20230604231635
 
-Seq:    19.11
+Seq:    19.12
 
 Date:   2023-06-19
 
 Level:  3 - Section
 
-Teaser:
-
-Added App Setting for alternate editing approach for Long Text fields; Added an Again button to the New with Options window, to allow multiple new Notes to be quickly added (useful for outlining); Corrected the setting of the Collection Title; Corrected window placement to align to upper left corner of screen, rather than lower left. 
+Teaser: Added App Setting for alternate editing approach for Long Text fields; Added an Again button to the New with Options window, to allow multiple new Notes to be quickly added (useful for outlining); Corrected the setting of the Collection Title; Corrected window placement to align to upper left corner of screen, rather than lower left. 
 
 
 Class:  version

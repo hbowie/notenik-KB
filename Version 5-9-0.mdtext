@@ -1,18 +1,16 @@
 Title:  Version 5.9.0
 
-Tags:   levels-outline.19 Version History.90 Version 590
+Tags:   levels-outline.19 Version History.91 Version 590
 
 Timestamp: 20210627222923
 
-Seq:    19.91
+Seq:    19.92
 
 Date:   2021-05-10
 
 Level:  3 - Section
 
-Teaser:
-
-Merge templates no longer write unmodified files; customization of the display tab for a specific collection can now be done via a display.css file or a display.html file; added an allfields command for merge templates.
+Teaser: Merge templates no longer write unmodified files; customization of the display tab for a specific collection can now be done via a display.css file or a display.html file; added an allfields command for merge templates.
 
 
 Body:

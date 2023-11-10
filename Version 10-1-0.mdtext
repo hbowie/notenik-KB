@@ -1,18 +1,16 @@
 Title:  Version 10.1.0
 
-Tags:   levels-outline.19 Version History.33 Version 1010
+Tags:   levels-outline.19 Version History.34 Version 1010
 
 Timestamp: 20211116184349
 
-Seq:    19.34
+Seq:    19.35
 
 Date:   2022-08-11
 
 Level:  3 - Section
 
-Teaser:
-
-Query Output Window size and location now remembered and restored; New merge variable of display-css added, allowing Notenik's internal CSS to be used as a default when generating output via a merge template; New ifnew option for output merge command added, to tell Notenik to create the output file only if it does not already exist (as when generating a default css file); BBEdit project files now show up in parent realm collections, and can be opened from Notenik; Deleted notes are now moved to the trash, rather than being immediately erased; Modified notes no longer generate file deletes and adds; A new option has been added allowing a range of Notes to be deleted; Collection shortcuts are now loaded after the startup permissions grant, if that option is selected; A new Help menu item was added to allow the user to view the Notenik 101 video on YouTube. 
+Teaser: Query Output Window size and location now remembered and restored; New merge variable of display-css added, allowing Notenik's internal CSS to be used as a default when generating output via a merge template; New ifnew option for output merge command added, to tell Notenik to create the output file only if it does not already exist (as when generating a default css file); BBEdit project files now show up in parent realm collections, and can be opened from Notenik; Deleted notes are now moved to the trash, rather than being immediately erased; Modified notes no longer generate file deletes and adds; A new option has been added allowing a range of Notes to be deleted; Collection shortcuts are now loaded after the startup permissions grant, if that option is selected; A new Help menu item was added to allow the user to view the Notenik 101 video on YouTube. 
 
 
 Class:  version

@@ -1,18 +1,16 @@
 Title:  Version 6.9.3
 
-Tags:   levels-outline.19 Version History.74 Version 693
+Tags:   levels-outline.19 Version History.75 Version 693
 
 Timestamp: 20210815174353
 
-Seq:    19.75
+Seq:    19.76
 
 Date:   2021-08-15
 
 Level:  3 - Section
 
-Teaser:
-
-Fixed a bug affecting parsing of Math following a footnote definition. 
+Teaser: Fixed a bug affecting parsing of Math following a footnote definition. 
 
 
 Class:  version

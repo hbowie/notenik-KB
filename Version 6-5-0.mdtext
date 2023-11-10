@@ -1,18 +1,16 @@
 Title:  Version 6.5.0
 
-Tags:   levels-outline.19 Version History.84 Version 650
+Tags:   levels-outline.19 Version History.85 Version 650
 
 Timestamp: 20210703232615
 
-Seq:    19.85
+Seq:    19.86
 
 Date:   2021-07-07
 
 Level:  3 - Section
 
-Teaser:
-
-Added an option to backup an entire Collection to a compressed Zip file; made improvements to Streamlined Reading, to focus only on Seq, Title and Body fields; expanded the custom URL help command to allow an ID to be included, to point to a specific Note to be initially displayed; added a What's New command beneath the Help menu to show the user the latest changes to the app. 
+Teaser: Added an option to backup an entire Collection to a compressed Zip file; made improvements to Streamlined Reading, to focus only on Seq, Title and Body fields; expanded the custom URL help command to allow an ID to be included, to point to a specific Note to be initially displayed; added a What's New command beneath the Help menu to show the user the latest changes to the app. 
 
 
 Class:  version

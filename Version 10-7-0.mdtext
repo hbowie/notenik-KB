@@ -1,18 +1,16 @@
 Title:  Version 10.7.0
 
-Tags:   levels-outline.19 Version History.27 Version 1070
+Tags:   levels-outline.19 Version History.28 Version 1070
 
 Timestamp: 20211116184349
 
-Seq:    19.28
+Seq:    19.29
 
 Date:   2022-11-03
 
 Level:  3 - Section
 
-Teaser:
-
-Added Rank as a new field type, combining a number for sorting with a label for understanding; added a new merge template variable modifier to extract the text from the right side of a field such as Rank; eliminated CMD Right Arrow as a Notenik-specific keyboard shortcut, freeing it up for its normal usage to move the cursor to the end of a line of text; vertical bars (aka pipe symbols) may now be used to supply visible text for a wiki link that is different from the title of the target note; enabled an alternate syntax for note/file inclusion, to increase note interoperability with other software packages; a field label of 'Category' no longer forces the field to a Tags type; implemented a fix for image paths that included note titles that included question marks, since these were no longer working in Ventura without percent sign URL encoding. 
+Teaser: Added Rank as a new field type, combining a number for sorting with a label for understanding; added a new merge template variable modifier to extract the text from the right side of a field such as Rank; eliminated CMD Right Arrow as a Notenik-specific keyboard shortcut, freeing it up for its normal usage to move the cursor to the end of a line of text; vertical bars (aka pipe symbols) may now be used to supply visible text for a wiki link that is different from the title of the target note; enabled an alternate syntax for note/file inclusion, to increase note interoperability with other software packages; a field label of 'Category' no longer forces the field to a Tags type; implemented a fix for image paths that included note titles that included question marks, since these were no longer working in Ventura without percent sign URL encoding. 
 
 
 Class:  version

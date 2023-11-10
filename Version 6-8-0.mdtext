@@ -1,18 +1,16 @@
 Title:  Version 6.8.0
 
-Tags:   levels-outline.19 Version History.77 Version 680
+Tags:   levels-outline.19 Version History.78 Version 680
 
 Timestamp: 20210731170715
 
-Seq:    19.78
+Seq:    19.79
 
 Date:   2021-08-02
 
 Level:  3 - Section
 
-Teaser:
-
-Added Short ID to the list of available field labels and types, to help with URL shortening; added new option to export an entire Collection into a single HTML or Markdown document; fixed a bug affecting automatic links in footnotes. 
+Teaser: Added Short ID to the list of available field labels and types, to help with URL shortening; added new option to export an entire Collection into a single HTML or Markdown document; fixed a bug affecting automatic links in footnotes. 
 
 
 Class:  version

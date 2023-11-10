@@ -1,18 +1,16 @@
 Title:  Version 13.0.0
 
-Tags:   levels-outline.19 Version History.3 Version 1300
+Tags:   levels-outline.19 Version History.4 Version 1300
 
 Timestamp: 20230918183643
 
-Seq:    19.4
+Seq:    19.5
 
 Date:   2023-09-29
 
 Level:  3 - Section
 
-Teaser:
-
-Added Ability to Specify a Default Title Value; Added Squeeze Option for Punctuation Purification; Made Tasklists Display Dynamic and Functional; Fixed a Problem with Link Interpretation; Fix for Seq Field Formatting on Secondary Displays; Fix for Seq Field Display on List Tab; Fixed a Markdown Parser Problem with Isolated Numbers; Fixed a Problem with Blank Lines in YAML front matter; Fixed a Horizontal Rule Problem; Fixed a Title Display Problem. 
+Teaser: Added Ability to Specify a Default Title Value; Added Squeeze Option for Punctuation Purification; Made Tasklists Display Dynamic and Functional; Fixed a Problem with Link Interpretation; Fix for Seq Field Formatting on Secondary Displays; Fix for Seq Field Display on List Tab; Fixed a Markdown Parser Problem with Isolated Numbers; Fixed a Problem with Blank Lines in YAML front matter; Fixed a Horizontal Rule Problem; Fixed a Title Display Problem. 
 
 
 Class:  version

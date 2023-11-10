@@ -1,5 +1,7 @@
 Title:  Person
 
+Tags:   levels-outline.11 Field Labels and Types.8 Fields for Contacts.3 Person
+
 Timestamp: 20231026171506
 
 Seq:    11.8.3
@@ -18,7 +20,4 @@ A Person field is especially useful for storing the Name field from a  [[vCard I
 
 In order to reliably identify the various possible components of a name, the field is best formatted according to this [vCard spec](https://www.rfc-editor.org/rfc/rfc6350#section-6.2.2).
 
-> The structured property value corresponds, in sequence, to the Family Names (also known as surnames), Given Names, Additional Names, Honorific Prefixes, and Honorific Suffixes.  The text components are separated by the SEMICOLON character (U+003B). 
-
-
-
+> The structured property value corresponds, in sequence, to the Family Names (also known as surnames), Given Names, Additional Names, Honorific Prefixes, and Honorific Suffixes.  The text components are separated by the SEMICOLON character (U+003B).

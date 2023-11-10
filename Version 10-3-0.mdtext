@@ -1,18 +1,16 @@
 Title:  Version 10.3.0
 
-Tags:   levels-outline.19 Version History.31 Version 1030
+Tags:   levels-outline.19 Version History.32 Version 1030
 
 Timestamp: 20211116184349
 
-Seq:    19.32
+Seq:    19.33
 
 Date:   2022-09-09
 
 Level:  3 - Section
 
-Teaser:
-
-Added support for wikilinks between Collections; parent realm window size and position are now retained and restored, where possible; files with extensions of '.svg' are now recognized as valid image files; a new merge template variable modifier of 'Z' adds a new option for adding links to tags; fixed a potential problem with citation numbering. 
+Teaser: Added support for wikilinks between Collections; parent realm window size and position are now retained and restored, where possible; files with extensions of '.svg' are now recognized as valid image files; a new merge template variable modifier of 'Z' adds a new option for adding links to tags; fixed a potential problem with citation numbering. 
 
 
 Class:  version

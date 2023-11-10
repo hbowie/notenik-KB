@@ -1,18 +1,16 @@
 Title:  Version 8.4.0
 
-Tags:   levels-outline.19 Version History.54 Version 840
+Tags:   levels-outline.19 Version History.55 Version 840
 
 Timestamp: 20211116184349
 
-Seq:    19.55
+Seq:    19.56
 
 Date:   2022-02-15
 
 Level:  3 - Section
 
-Teaser:
-
-Added support for YAML frontmatter, and increased tolerance for diverse existing text file formats. 
+Teaser: Added support for YAML frontmatter, and increased tolerance for diverse existing text file formats. 
 
 
 Class:  version

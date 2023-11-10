@@ -16,7 +16,7 @@ Level: <level: 1 - Collection; 2 - Article; 3 - Section; 4 - Subsection; 5 - Det
 
 Index: <index> 
 
-Teaser: <longtext> 
+Teaser: <teaser> 
 
 Class: <class:  non-version, title-page, version > 
 

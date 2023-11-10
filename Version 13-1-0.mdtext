@@ -1,18 +1,16 @@
 Title:  Version 13.1.0
 
-Tags:   levels-outline.19 Version History.2 Version 1310
+Tags:   levels-outline.19 Version History.3 Version 1310
 
 Timestamp: 20231005154816
 
-Seq:    19.3
+Seq:    19.4
 
 Date:   2023-10-13
 
 Level:  3 - Section
 
-Teaser:
-
-Added a Presentation Mode; Added 'Skip To' navigation option to skip lower-level detail when using Streamlined Reading; the Phone field now preserves embedded commas. 
+Teaser: Added a Presentation Mode; Added 'Skip To' navigation option to skip lower-level detail when using Streamlined Reading; the Phone field now preserves embedded commas. 
 
 
 Class:  version

@@ -1,18 +1,16 @@
 Title:  Version 8.7.0
 
-Tags:   levels-outline.19 Version History.51 Version 870
+Tags:   levels-outline.19 Version History.52 Version 870
 
 Timestamp: 20211116184349
 
-Seq:    19.52
+Seq:    19.53
 
 Date:   2022-03-11
 
 Level:  3 - Section
 
-Teaser:
-
-Improved handling of folders and packages; added option to exclude untagged Notes from a generated tags outline; added seq formatting options to exclude/format sequence numbers differently at different levels of numbering; added new App setting allowing Notenik to always use light mode, or always use dark mode, no matter how System appearance settings are set; added ability to select multiple Notes whose links are to be launched, and to launch them from the Tags tab, as well as the List tab; added new File menu command to grant Notenik access to a selected folder. 
+Teaser: Improved handling of folders and packages; added option to exclude untagged Notes from a generated tags outline; added seq formatting options to exclude/format sequence numbers differently at different levels of numbering; added new App setting allowing Notenik to always use light mode, or always use dark mode, no matter how System appearance settings are set; added ability to select multiple Notes whose links are to be launched, and to launch them from the Tags tab, as well as the List tab; added new File menu command to grant Notenik access to a selected folder. 
 
 
 Class:  version

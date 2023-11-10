@@ -1,18 +1,16 @@
 Title:  Version 12.5.0
 
-Tags:   levels-outline.19 Version History.8 Version 1250
+Tags:   levels-outline.19 Version History.9 Version 1250
 
 Timestamp: 20230629013031
 
-Seq:    19.9
+Seq:    19.10
 
 Date:   2023-07-21
 
 Level:  3 - Section
 
-Teaser:
-
-Web Location Files Now Appear within a Parent Realm; Scroll Positions on Display and Edit Tabs can now be optionally synchronized; Tab Spacing has been Adjusted in Edit Mode so that tabs should now be as wide as four characters; Added a Menu Command to Rerun Last Script; Additional Info on Static Website Generation is now available in the Knowledge Base; Additional Tips for Visually Impaired Users are also available now. 
+Teaser: Web Location Files Now Appear within a Parent Realm; Scroll Positions on Display and Edit Tabs can now be optionally synchronized; Tab Spacing has been Adjusted in Edit Mode so that tabs should now be as wide as four characters; Added a Menu Command to Rerun Last Script; Additional Info on Static Website Generation is now available in the Knowledge Base; Additional Tips for Visually Impaired Users are also available now. 
 
 
 Class:  version
