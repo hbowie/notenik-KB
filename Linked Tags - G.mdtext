@@ -14,18 +14,35 @@ Index:  tags field;
 
 Body:
 
-Each tag found in the variable will be made into a link, linking to '=$relative$=yypathyy/xxtagxx.html', where 'xxtagxx' is the tag, and 'yypathyy' is the string of characters following the 'g'.
+This modifer is meant to be used specifically with the [[Tags]] field. 
 
-The contents of the class attribute for the anchor tag generated for each link can be supplied following the path, with an intervening semicolon to separate the two. 
+This modifier is similar to [[Linked Tags - Z]], but works slightly differently. 
+
+Linked Tags - G works well when each tag will have a separate page listing posts/notes containing that tag. 
+
+[[Linked Tags - Z]] works best when each tag will have a separate section within a single shared page. 
+
+ Each tag found in the variable will be made into a link, linking to *tagfile.html*. 
+
+The file name will be derived from the tag, converting upper-case characters to lower-case, replacing spaces with dashes, and so forth. 
+
+Up to three positional parameters may be specified following the modifier of `g`, with semicolons separating/terminating the three. 
+
+1. The path to the linked tag file, starting from the *web root* (see [[Template Module Parameters]] for more info). . 
+
+2. A class name to be applied to the generated anchor tags, for styling purposes. 
+
+3. A separator to be used between tags, if there are more than one. This defaults to a comma followed by a space. 
 
 Consider the following example. 
 
-	=$tags&gtags/;btn btn-secondary mx-1 pr-topic$=
+	=$tags&gtags/;tag-class; | $=
 
 Where:
 
 + `tags` is the variable name;
 + `tags/` is the path, starting from the web root;
-+ `btn btn-secondary mx-1 pr-topic` are classes to be applied to each link (`<a `) HTML tag.
++ `tag-class` is the class to be applied to each link (`<a `) HTML tag.
++ '` | `' is the separator to be used between the links, for multiple tags. 
 
-Also see [[Linked Tags - Z]].
+

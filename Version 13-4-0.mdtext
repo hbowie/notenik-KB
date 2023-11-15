@@ -14,6 +14,10 @@ Body:
 
 At the top of the contextual menu for Notes on the List tab, you will now find an option to `Show in Finder`. Selecting this option will reveal the file in the macOS Finder. 
 
+##### Added Optional Separator for Linked Tags
+
+When using the [[Linked Tags - G]] variable modifier, an optional third parameter may now be specified, in order to use a separator between tags of something other than a comma. 
+
 ##### Improved Display for Link Fields
 
 This version makes a couple of changes to the display of [[Link]] fields. 
