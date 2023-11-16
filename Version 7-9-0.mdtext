@@ -1,6 +1,6 @@
 Title:  Version 7.9.0
 
-Tags:   levels-outline.19 Version History.63 Version 790
+Tags:   levels-outline.19 Version History.64 Version 790
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2022-01-03
 
 Level:  3 - Section
 
-Teaser: Added a new Modify Seq context menu option, to modify the Seq number for a range of Notes; added indent/outdent commands, for use with Seq and Level fields; reworked Web Book publication to make it another File Export option. 
-
+Teaser: Added a new Modify Seq context menu option, to modify the Seq number for a range of Notes; added indent/outdent commands, for use with Seq and Level fields; reworked Web Book publication to make it another File Export option.
 
 Class:  version
 

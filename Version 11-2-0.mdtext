@@ -1,6 +1,6 @@
 Title:  Version 11.2.0
 
-Tags:   levels-outline.19 Version History.22 Version 1120
+Tags:   levels-outline.19 Version History.23 Version 1120
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2023-01-06
 
 Level:  3 - Section
 
-Teaser: Tags on the Display Tab are now clickable links; Added a Custom URL command to expand a tag, on the Tags tab; A Hash Mark in the Search field now restricts the search to the Tags field; the 'Select a Note...' window now also recognizes a leading hash mark as an indication that the user wants to search the Tags field; Powerful new Import Settings were added for CSV imports, allowing the user to control potential merging of imported data with existing data; improved HTML block recognition, now including a starting script tag; the Title field is now checked to ensure that no unreasonable characters (such as carriage returns) are included; improved handling of Collection titles, including new settings to control how default ones are formed. 
-
+Teaser: Tags on the Display Tab are now clickable links; Added a Custom URL command to expand a tag, on the Tags tab; A Hash Mark in the Search field now restricts the search to the Tags field; the 'Select a Note...' window now also recognizes a leading hash mark as an indication that the user wants to search the Tags field; Powerful new Import Settings were added for CSV imports, allowing the user to control potential merging of imported data with existing data; improved HTML block recognition, now including a starting script tag; the Title field is now checked to ensure that no unreasonable characters (such as carriage returns) are included; improved handling of Collection titles, including new settings to control how default ones are formed.
 
 Class:  version
 

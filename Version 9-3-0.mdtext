@@ -1,6 +1,6 @@
 Title:  Version 9.3.0
 
-Tags:   levels-outline.19 Version History.42 Version 930
+Tags:   levels-outline.19 Version History.43 Version 930
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2022-05-09
 
 Level:  3 - Section
 
-Teaser: Expanded Note Selector to allow selection from other Collections; added an import option for a folder full of text files; modified the defaults for a new Level field to avoid values of zero; added a command to populate an app catalog; improved editing of the Status field. 
-
+Teaser: Expanded Note Selector to allow selection from other Collections; added an import option for a folder full of text files; modified the defaults for a new Level field to avoid values of zero; added a command to populate an app catalog; improved editing of the Status field.
 
 Class:  version
 

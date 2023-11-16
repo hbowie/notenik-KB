@@ -1,6 +1,6 @@
 Title:  Version 9.1.0
 
-Tags:   levels-outline.19 Version History.45 Version 910
+Tags:   levels-outline.19 Version History.46 Version 910
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2022-04-15
 
 Level:  3 - Section
 
-Teaser: Added import option for a single text file (or simply drag and drop from the Finder); modified Discard of Edits to use a less common keyboard shortcut (Shift-CMD-D) and to provide a confirmation alert before proceeding; added a new Markdown command to produce a simple Tags Cloud; and added an option to remove all previously assigned tags based on level. 
-
+Teaser: Added import option for a single text file (or simply drag and drop from the Finder); modified Discard of Edits to use a less common keyboard shortcut (Shift-CMD-D) and to provide a confirmation alert before proceeding; added a new Markdown command to produce a simple Tags Cloud; and added an option to remove all previously assigned tags based on level.
 
 Class:  version
 

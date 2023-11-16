@@ -1,6 +1,6 @@
 Title:  Version 9.4.0
 
-Tags:   levels-outline.19 Version History.41 Version 940
+Tags:   levels-outline.19 Version History.42 Version 940
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2022-05-31
 
 Level:  3 - Section
 
-Teaser: Improved the new command to Populate an App Catalog; improved operation of the Combo Box for Lookup fields; improved Wiki Link Support when scripting, to honor AKA fields; added a new Combo field type, to populate the dropdown for a Combo Box with a dynamic list of current values; added a new Teaser field type, to allow a teaser field to be assigned some other sort of label; added a new Markdown command to display the teasers for the current Note's children; improved the Note Import functionality to ensure the same value didn't get assigned to more than one field. 
-
+Teaser: Improved the new command to Populate an App Catalog; improved operation of the Combo Box for Lookup fields; improved Wiki Link Support when scripting, to honor AKA fields; added a new Combo field type, to populate the dropdown for a Combo Box with a dynamic list of current values; added a new Teaser field type, to allow a teaser field to be assigned some other sort of label; added a new Markdown command to display the teasers for the current Note's children; improved the Note Import functionality to ensure the same value didn't get assigned to more than one field.
 
 Class:  version
 

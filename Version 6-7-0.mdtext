@@ -1,6 +1,6 @@
 Title:  Version 6.7.0
 
-Tags:   levels-outline.19 Version History.83 Version 670
+Tags:   levels-outline.19 Version History.84 Version 670
 
 Timestamp: 20210716220208
 
@@ -11,7 +11,6 @@ Date:   2021-07-19
 Level:  3 - Section
 
 Teaser: Added support for Mathjax; enhanced Table of Contents generation for a single Note; enhanced Table of Contents generation for an entire Collection.
-
 
 Class:  version
 

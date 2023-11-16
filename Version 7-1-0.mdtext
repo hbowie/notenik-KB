@@ -1,6 +1,6 @@
 Title:  Version 7.1.0
 
-Tags:   levels-outline.19 Version History.73 Version 710
+Tags:   levels-outline.19 Version History.74 Version 710
 
 Timestamp: 20210828014730
 
@@ -10,8 +10,7 @@ Date:   2021-08-31
 
 Level:  3 - Section
 
-Teaser: Added some cosmetic improvements, including dark mode on the Display tab, and highlighting of search results within the Display tab; also added a utility function to convert a Note's title into a link to Wikipedia. 
-
+Teaser: Added some cosmetic improvements, including dark mode on the Display tab, and highlighting of search results within the Display tab; also added a utility function to convert a Note's title into a link to Wikipedia.
 
 Class:  version
 

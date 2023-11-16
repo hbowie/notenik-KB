@@ -1,6 +1,6 @@
 Title:  Version 9.0.0
 
-Tags:   levels-outline.19 Version History.48 Version 900
+Tags:   levels-outline.19 Version History.49 Version 900
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2022-03-29
 
 Level:  3 - Section
 
-Teaser: Fixed a problem with saving the initial Timestamp value, when a new Note is created; enhanced to allow opening of a Note within its Collection when a Note file is dragged and dropped onto the app; fixed Markdown parser problem when handling a series of unadorned numbers, one per line; added an option to make apostrophes curly; added new Copy options to List tab contextual menu, for title and timestamp; added a Note Selector option to copy the timestamp for a Note; added additional AppleScript command to return a Note's file path; modified behavior of a Link field so that a tab character will skip to the next field. 
-
+Teaser: Fixed a problem with saving the initial Timestamp value, when a new Note is created; enhanced to allow opening of a Note within its Collection when a Note file is dragged and dropped onto the app; fixed Markdown parser problem when handling a series of unadorned numbers, one per line; added an option to make apostrophes curly; added new Copy options to List tab contextual menu, for title and timestamp; added a Note Selector option to copy the timestamp for a Note; added additional AppleScript command to return a Note's file path; modified behavior of a Link field so that a tab character will skip to the next field.
 
 Class:  version
 

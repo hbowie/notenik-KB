@@ -1,6 +1,6 @@
 Title:  Version 10.4.0
 
-Tags:   levels-outline.19 Version History.31 Version 1040
+Tags:   levels-outline.19 Version History.32 Version 1040
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2022-09-19
 
 Level:  3 - Section
 
-Teaser: Added a Move option (as opposed to a Copy) when adding file attachments; added a new Markdown command to create a site search page; added a one-line table of contents (based on initial letter) for a Collection Index, allowing user to click on a letter to see terms beginning with that letter; made some changes to the way window size and coordinate adjustments are made when opening a Collection. 
-
+Teaser: Added a Move option (as opposed to a Copy) when adding file attachments; added a new Markdown command to create a site search page; added a one-line table of contents (based on initial letter) for a Collection Index, allowing user to click on a letter to see terms beginning with that letter; made some changes to the way window size and coordinate adjustments are made when opening a Collection.
 
 Class:  version
 

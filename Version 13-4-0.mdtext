@@ -1,10 +1,16 @@
 Title:  Version 13.4.0
 
+Tags:   levels-outline.19 Version History.1 Version 1340
+
 Timestamp: 20231106012609
 
 Seq:    19.1
 
+Date:   2023-11-16
+
 Level:  3 - Section
+
+Teaser: Added Show in Finder for note files; Added an optional separator for the Linked Tags Variable Modifier; Added the ability to include a secondary script within a primary script; Adding a Script Lognoise setting; Improved the appearance of Link fields on the Display tab. 
 
 Class:  version
 
@@ -17,6 +23,14 @@ At the top of the contextual menu for Notes on the List tab, you will now find a
 ##### Added Optional Separator for Linked Tags
 
 When using the [[Linked Tags - G]] variable modifier, an optional third parameter may now be specified, in order to use a separator between tags of something other than a comma. 
+
+##### Added Script Include Option
+
+One [[Script File]] may now include another, by specifying the name of a second file as a [[Script Module parameter]]. 
+
+##### Added Script Lognoise Setting
+
+The [[Script Module Parameter]] of `lognoise` can be used to suppress some common error messages. 
 
 ##### Improved Display for Link Fields
 

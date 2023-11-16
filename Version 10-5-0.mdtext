@@ -1,6 +1,6 @@
 Title:  Version 10.5.0
 
-Tags:   levels-outline.19 Version History.30 Version 1050
+Tags:   levels-outline.19 Version History.31 Version 1050
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2022-10-09
 
 Level:  3 - Section
 
-Teaser: Wiki Links will now look for a singular variation, as well as a plural variation; slight variations in AKA values will now be suppressed from a list of contents; duplicate windows for a parent realm will no longer be opened; added a merge variable modifier to prep a value for JSON storage; added several new derived variables for ease of formatting attributions and citations; added a new menu command to forget about all Collection shortcuts, so that Notenik's memory of these can be cleared and restarted; the Page Type field obtained when generating an Index has been expanded to make it more generally useful; several other small improvements were made. 
-
+Teaser: Wiki Links will now look for a singular variation, as well as a plural variation; slight variations in AKA values will now be suppressed from a list of contents; duplicate windows for a parent realm will no longer be opened; added a merge variable modifier to prep a value for JSON storage; added several new derived variables for ease of formatting attributions and citations; added a new menu command to forget about all Collection shortcuts, so that Notenik's memory of these can be cleared and restarted; the Page Type field obtained when generating an Index has been expanded to make it more generally useful; several other small improvements were made.
 
 Class:  version
 

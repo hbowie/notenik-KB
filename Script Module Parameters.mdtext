@@ -1,0 +1,29 @@
+Title:  Script Module Parameters
+
+Tags:   levels-outline.15 Script Files.2 Scripting Modules.7 Script Module Parameters
+
+Timestamp: 20231116011050
+
+Seq:    15.2.7
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The following actions are allowed. 
+
+#### Include
+
+The value field should specify the name of the file to be included. It must be in the same directory as the script being executed, and its file extension must be '`.tcz`'. The file extension may be omitted. 
+
+Note that one include may not be nested within another.
+
+#### Set
+
+When using 'set', the variable to be set would be named in the object column, and the value to which it should be set would be supplied in the value column. 
+
+The following variables may be set.
+
+* lognoise - Specify a value of either `quiet` or `noisy`.  A value of `quiet` will suppress some common error messages, such as a template variable with no value.

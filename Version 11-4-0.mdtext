@@ -1,6 +1,6 @@
 Title:  Version 11.4.0
 
-Tags:   levels-outline.19 Version History.20 Version 1140
+Tags:   levels-outline.19 Version History.21 Version 1140
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2023-01-30
 
 Level:  3 - Section
 
-Teaser: A Seq field can now be used to store a Time of Day; Added a new function to lay out Notes with Dates into a monthly calendar format; Reorganized the app menus a bit; Expanded usage of the Query Output window; Added control to Query Output window to allow HTML to be saved to disk and/or sent to web browser; Reorganized the Knowledge Base a bit. 
-
+Teaser: A Seq field can now be used to store a Time of Day; Added a new function to lay out Notes with Dates into a monthly calendar format; Reorganized the app menus a bit; Expanded usage of the Query Output window; Added control to Query Output window to allow HTML to be saved to disk and/or sent to web browser; Reorganized the Knowledge Base a bit.
 
 Class:  version
 

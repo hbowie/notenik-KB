@@ -24,4 +24,6 @@ The module column may contain any of the following values.
 
 * browse - Open the specified URL in your preferred Web browser. 
 
+* script - Include another file while playing a script. 
+
 The associated parameters for each of these modules are described in detail below.

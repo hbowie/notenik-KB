@@ -1,6 +1,6 @@
 Title:  Version 5.6.0
 
-Tags:   levels-outline.19 Version History.95 Version 560
+Tags:   levels-outline.19 Version History.96 Version 560
 
 Timestamp: 20210627222923
 
@@ -11,7 +11,6 @@ Date:   2021-02-12
 Level:  3 - Section
 
 Teaser: Added an option to sort a Collection by Date Added; added a streamlined method for creating a new collection; enabled updating of all file extensions for all notes when the preferred file extension is changed in the collection settings.
-
 
 Body:
 

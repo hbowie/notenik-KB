@@ -1,6 +1,6 @@
 Title:  Version 7.2.0
 
-Tags:   levels-outline.19 Version History.72 Version 720
+Tags:   levels-outline.19 Version History.73 Version 720
 
 Timestamp: 20210914010654
 
@@ -10,8 +10,7 @@ Date:   2021-09-20
 
 Level:  3 - Section
 
-Teaser: Website address updated to point to Notenik.app; wiki links now will try to pluralize a reference, if it is not found in singular form; the Merge template Set command now allows a variable to be used as part or all of a global variable name; Markdown quote sharing corrected to respect lookup links; added a Quick Export and Open command. 
-
+Teaser: Website address updated to point to Notenik.app; wiki links now will try to pluralize a reference, if it is not found in singular form; the Merge template Set command now allows a variable to be used as part or all of a global variable name; Markdown quote sharing corrected to respect lookup links; added a Quick Export and Open command.
 
 Class:  version
 

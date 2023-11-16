@@ -1,6 +1,6 @@
 Title:  Version 8.9.0
 
-Tags:   levels-outline.19 Version History.49 Version 890
+Tags:   levels-outline.19 Version History.50 Version 890
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2022-03-25
 
 Level:  3 - Section
 
-Teaser: Added AppleScript APIs for integration with the Hook app; expanded the Notenik Custom URL scheme to allow opening a Note by specifing a Note's full file path, or by specifying a Note's timestamp. 
-
+Teaser: Added AppleScript APIs for integration with the Hook app; expanded the Notenik Custom URL scheme to allow opening a Note by specifing a Note's full file path, or by specifying a Note's timestamp.
 
 Class:  version
 

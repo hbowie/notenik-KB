@@ -1,6 +1,6 @@
 Title:  Version 8.6.0
 
-Tags:   levels-outline.19 Version History.53 Version 860
+Tags:   levels-outline.19 Version History.54 Version 860
 
 Timestamp: 20211116184349
 
@@ -10,8 +10,7 @@ Date:   2022-02-26
 
 Level:  3 - Section
 
-Teaser: Added support for Markdown task lists; auto-creation of missing wiki-link targets is now optional, and can be toggled within the Collection Settings; added additional options for formatting Note Titles, so that they can be generated with varying heading levels; improved the default styling for heading levels; slight improvement in the arrangement of the File menu. 
-
+Teaser: Added support for Markdown task lists; auto-creation of missing wiki-link targets is now optional, and can be toggled within the Collection Settings; added additional options for formatting Note Titles, so that they can be generated with varying heading levels; improved the default styling for heading levels; slight improvement in the arrangement of the File menu.
 
 Class:  version
 

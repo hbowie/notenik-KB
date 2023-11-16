@@ -1,6 +1,6 @@
 Title:  Version 8.1.0
 
-Tags:   levels-outline.19 Version History.61 Version 810
+Tags:   levels-outline.19 Version History.62 Version 810
 
 Timestamp: 20220118223537
 
@@ -10,8 +10,7 @@ Date:   2022-01-22
 
 Level:  3 - Section
 
-Teaser: Sorted out some problems with model Collections, including what happens when Notenik is launched for the first time; added an include-quote-body option for Markdown inclusion, to include only the body of the referenced Note, but place it within blockquote tags; excluded included Notes from list of Included Children; excluded the Table of Contents page itself when generating a Collection Table of Contents; for a Collection sorted by Seq, the Seq value will now precede the tile of a Note on the Tabs tab; 
-
+Teaser: Sorted out some problems with model Collections, including what happens when Notenik is launched for the first time; added an include-quote-body option for Markdown inclusion, to include only the body of the referenced Note, but place it within blockquote tags; excluded included Notes from list of Included Children; excluded the Table of Contents page itself when generating a Collection Table of Contents; for a Collection sorted by Seq, the Seq value will now precede the tile of a Note on the Tabs tab;
 
 Class:  version
 
