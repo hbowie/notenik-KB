@@ -22,6 +22,10 @@ This feature may be invoked with a line like the following:
 {:collection-toc}
 ```
 
+This makes the most sense for a Collection that has a [[Seq]] field. 
+
+The order of the table of contents will be determined by the currently selected [[Sort Sequence]] for the Collection. This command will typically make the most sense for a Collection sorted by `Seq + Title`. 
+
 If the Collection has a [[Level]] field, then the contents of the level field will be used to control indentation and the nesting of lists, so that the table of contents will appear in an indented outline format. 
 
 The generated Table of Contents will support direct linking from any ToC entry to the represented Note itself. 
@@ -35,3 +39,6 @@ The Note in which the ToC appears will not itself be included in the generated T
 This command generates the table of contents using unordered list items, and placing the command to [[Generate Outline Based on Unordered List Items]] before this command will add disclosure triangles to the table of contents. 
 
 Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place.
+
+If the Collection is sorted by `Date + Seq`, then an outline item will be generated for each Date, and then lower-level outline items will be generated for each Note, showing the Seq field followed by the Title field. 
+

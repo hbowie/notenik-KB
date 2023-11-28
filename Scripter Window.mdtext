@@ -1,0 +1,36 @@
+Title:  Scripter Window
+
+Timestamp: 20231123171901
+
+Seq:    15.1
+
+Level:  3 - Section
+
+Body:
+
+The Scripter window allows the user to record or play a script file. It does not allow editing of an existing script file, which must be done using your trusty text editor. 
+
+The Scripter window will open automatically when you play a script file, as when you double-click a script file found when opening a [[Parent Realm]].
+
+To record a new script, use the menu item beneath the Window menu. 
+
+The Scripter window allows the user to build and then execute one line at a time. 
+
+The top of the window provides one input control for each of the five [[Script File Columns]].
+
+The first three controls, for the first three columns, are drop-down menus. The other two are simple text input boxes. 
+
+If you select the drop-downs from left to right, starting with the Module value, then the later drop-downs will be tailored based on your earlier choices. 
+
+Clicking on the `@` button, to the right, will allow the user to select a file/folder to fill in the Value column. 
+
+Once all of the desired values have been input, click on the `Go` button to actually execute the line. 
+
+In order to record a script, you must start with the `Script` module. Execute an `open output` command, followed by a `record` command, in order to start recording. 
+
+At this point, following lines will be executed, and also recorded in the designated script file. 
+
+When you have finished entering all of your desired script commands that you wish to become part of the script, you must execute a `script stop` command in order for your script to be saved.
+
+
+

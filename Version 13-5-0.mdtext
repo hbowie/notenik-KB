@@ -1,0 +1,31 @@
+Title:  Version 13.5.0
+
+Timestamp: 20231123181114
+
+Seq:    19.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Expanded Collection ToC Command
+
+The Markdown command to [[Generate a Collection Table of Contents]] has been expanded so that it does a reasonable job of handling a Collection sorted by `Date + Seq`. 
+
+##### Added a Travel Planner
+
+Added a [[Starting Collection Type]] for a [[Travel Planner]]. 
+
+##### Added Code Snippets
+
+Added a [[Starting Collection Type]] for [[Code Snippets]].
+
+##### Fixed Note Line Parser Bug
+
+Found a bug in the Note file parser that could prematurely send the parser into body parsing when an indented line was found in a multi-line field, if that happened to be the first field following the Title for a Note. This has been corrected. 
+
+##### Scripter Window Documentation
+
+Added some documentation for the [[Scripter Window]].
