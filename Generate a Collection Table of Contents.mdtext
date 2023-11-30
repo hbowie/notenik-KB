@@ -1,10 +1,10 @@
 Title:  Generate a Collection Table of Contents
 
-Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser.19 Generate a Collection Table of Contents
+Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser.18 Generate a Collection Table of Contents
 
 Timestamp: 20210713204211
 
-Seq:    10.2.19
+Seq:    10.2.18
 
 Level:  4 - Subsection
 
@@ -40,5 +40,4 @@ This command generates the table of contents using unordered list items, and pla
 
 Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place.
 
-If the Collection is sorted by `Date + Seq`, then an outline item will be generated for each Date, and then lower-level outline items will be generated for each Note, showing the Seq field followed by the Title field. 
-
+If the Collection is sorted by `Date + Seq`, then an outline item will be generated for each Date, and then lower-level outline items will be generated for each Note, showing the Seq field followed by the Title field.

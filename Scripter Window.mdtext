@@ -1,5 +1,7 @@
 Title:  Scripter Window
 
+Tags:   levels-outline.15 Script Files.1 Scripter Window
+
 Timestamp: 20231123171901
 
 Seq:    15.1
@@ -31,6 +33,3 @@ In order to record a script, you must start with the `Script` module. Execute an
 At this point, following lines will be executed, and also recorded in the designated script file. 
 
 When you have finished entering all of your desired script commands that you wish to become part of the script, you must execute a `script stop` command in order for your script to be saved.
-
-
-
