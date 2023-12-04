@@ -28,7 +28,7 @@ Note that the u/l/a indicator can be specified three different times.
 
 For example, if the template file contained the following:
 
-	=$name&cuul$=
+	=$name&cuul $=
 
 And the name variable was equal to:
 
@@ -37,3 +37,16 @@ And the name variable was equal to:
 Then the resulting name in the output text file would be:
 
 	Herb Bowie
+
+As another example, if the template contained the following:
+
+```
+=$name&cuul&nbsp;$=
+```
+
+Then the resulting name in the output text file would be:
+
+	Herb&nbsp;Bowie
+
+No other variable modifiers may follow this one. 
+

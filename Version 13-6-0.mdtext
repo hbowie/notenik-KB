@@ -1,0 +1,16 @@
+Title:  Version 13.6.0
+
+Timestamp: 20231203185752
+
+Seq:    19.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Fixed Variable Modifier Bug
+
+There was a problem with the way the [[Word Demarcation - C]] template variable was working. This has been corrected. 
+
