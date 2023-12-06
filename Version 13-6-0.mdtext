@@ -12,5 +12,8 @@ Body:
 
 ##### Fixed Variable Modifier Bug
 
-There was a problem with the way the [[Word Demarcation - C]] template variable was working. This has been corrected. 
+There was a problem with the way the [[Word Demarcation - C]] template variable was working. This has been corrected.
 
+##### Fixed Date-Time Formatting Bug
+
+There was a problem applying a [[Formatting String]] to a [[Date Added]] or [[Date Modified]] value that prevented the time portion from being displayed. This has been corrected. 
