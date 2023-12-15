@@ -1,0 +1,41 @@
+Title:  Rename a Field
+
+Timestamp: 20231213205152
+
+Seq:    7.5
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+Starting with [[Version 13.6.0]], the user can select `Rename, Add or Remove a Field` beneath the Collection menu in order to access an auxiliary window that supports renaming an existing field. 
+
+The same window can also be used to delete a field, although this can typically be done just as easily be deselecting the field in the [[Collection Settings]] window. 
+
+The same window can also be used to add a new field, although this can also be done by selecting a common field name in the [[Collection Settings]] window, or by text editing the [[The Collection Template File]] to add a field directly. 
+
+Renaming an existing field can be complicated, though, because all of the Notes containing that field must also be modified to rename the fields within the Notes. This is where this special window can be particularly useful. 
+
+The window allows the user to specify the following fields:
+
++ Specify a Field Action of `Rename`, `Add` or `Remove`. The default is `Rename`. 
+
++ Select an existing field label, if you are adding or removing. 
+
++ The existing field type will be displayed. 
+
++ Type in a new field label, if you are adding or renaming. 
+
++ Select a new field type, if the one displayed is not the one you wish. 
+
++ If the new field type is one that accepts a configuration string of some kind, then you can enter it in the Config field. 
+
++ Hit the `Cancel` button to leave without making any updates. 
+
++ Hit the `OK` button to proceed with your requested action. 
+
+
+
+

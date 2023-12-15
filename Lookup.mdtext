@@ -34,4 +34,6 @@ When viewing a `lookup` field on the Display tab, you will notice a couple of sp
 
 + If there are additional non-blank fields found on the referenced Note in the second Collection, then the lookup value will appear following a disclosure triangle, and clicking on the triangle will disclose the additional available fields from the second Collection.
 
+Note that, when using a Lookup field in a [[Merge Template]], and the lookup field for a particular note is populated, and the "looked up" note can be found in the Lookup collection, then all of the fields in the "looked up" note become available for use in the template, so long as those "looked up" fields have unique field labels, that do not duplicate any of those defined in the primary Collection. No special syntax is required for these template variables. 
+
 See [[Create a Commonplace Book with Lookup Fields]] for an example of how `lookup` fields might be used.

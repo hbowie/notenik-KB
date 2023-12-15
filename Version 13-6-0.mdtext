@@ -10,6 +10,12 @@ Class:  version
 
 Body:
 
+##### Added Field Renamer Utility
+
+The user may now [[Rename a Field]] from within Notenik, without having to resort to manual text editing. 
+
+Beneath the Collection menu one can now find and item to `Rename, Add or Remove a Field...`. Selecting this option will bring up a new window allowing the user to enter their desired parameters for the operation. 
+
 ##### Fixed Variable Modifier Bug
 
 There was a problem with the way the [[Word Demarcation - C]] template variable was working. This has been corrected.
@@ -22,5 +28,4 @@ There was a problem applying a [[Formatting String]] to a [[Date Added]] or [[Da
 
 Dynamic [[Task Lists]] weren't working when a user chose to [[Tailor the Display]] by using a [[Merge Template]]. This has been fixed.
 
-Dynamic [[Task Lists]] weren't working properly when a list contained more than ten items. This has been fixed. 
-
+Dynamic [[Task Lists]] weren't working properly when a list contained more than ten items. This has been fixed.

@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 376
+Last Index Selected: 377
 
 Mirror Auto Index: false
 
@@ -44,7 +44,7 @@ Hash Tags: false
 
 Window Numbers: 1251.0;0.0;1247.0;1307.0;434.0;
 
-Column Widths: rank: 50, 80, 250; statusdigit: 20, 30, 50; seq: 30, 80, 250; date: 80, 120, 500; datemod: 100, 180, 250; x: 12, 20, 50; dateadded: 100, 180, 250; klass: 60, 80, 150; author: 100, 200, 1000; title: 200, 321, 1500; tags: 50, 100, 1200; 
+Column Widths: datemod: 100, 180, 250; title: 200, 321, 1500; tags: 50, 100, 1200; seq: 30, 80, 250; klass: 60, 80, 150; dateadded: 100, 180, 250; date: 80, 120, 500; statusdigit: 20, 30, 50; x: 12, 20, 50; author: 100, 200, 1000; rank: 50, 80, 250; 
 
 footer Note ID: footerpage
 
