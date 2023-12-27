@@ -1,0 +1,16 @@
+Title:  Version 13.7.0
+
+Timestamp: 20231226233301
+
+Seq:    19.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Improved Collection Table of Contents
+
+When you [[Generate a Collection Table of Contents]], and precede it with a command to [[Generate Outline Based on Unordered List Items]], the resulting HTML has been improved to make it more usable. 
+

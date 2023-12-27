@@ -31,6 +31,7 @@ The following HTML class values are assigned by Notenik. Click on a column headi
 | div | search-page | [[Generate a Collection Search Page]]
 | figure | notenik-quote-attrib | [[Attribution]]
 | li | checklist-item | [[Task Lists]]
+| li | outline-li-bullet | [[Generate a Collection Table of Contents]]
 | ol | notenik-biblio-list | [[Generate a Bibliography]]
 | p | notenik-calendar-day-of-month | [[Dates to Calendar]]
 | summary | heading-x-summary | [[Generate Outline Based on Headings]]
@@ -39,6 +40,8 @@ The following HTML class values are assigned by Notenik. Click on a column headi
 | td | notenik-calendar-day-data | [[Dates to Calendar]]
 | ul | checklist | [[Task Lists]]
 | ul | notenik-toc | [[Streamlined Reading]] 
+| ul | outline-ul | [[Generate a Collection Table of Contents]]
+| ul | outline-ul-within-details | [[Generate a Collection Table of Contents]] 
 | ul | tags-cloud | [[Generate a Tags Cloud]]
 | ul | tags-contents | [[Generate a Tags Cloud]]
 |  ul          | tags-list | [[Generate a Tags Outline]] |

@@ -28,6 +28,7 @@ You are free to use any `Class` values that make sense for you, but Notenik reco
 | quote | quotation
 | quotation | quotation
 | title-page | title page
+| toc | table of contents, as part of the front matter 
 | work | The Note identifies a particular work written by one or more authors, as might be cited within a bibliography
 
 
