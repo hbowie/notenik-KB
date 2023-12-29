@@ -1,0 +1,25 @@
+Title:  Generate a List of Attachments
+
+Timestamp: 20231229001345
+
+Seq:    10.2.27
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+A command in the following format can be used to generate a clickable list of the files attached to the current Note. 
+
+```
+{:attachments}
+```
+
+If the Note has no attachments, then nothing will be generated. 
+
+If one or more [[File Attachments]] are present for the Note, then a paragraph will be produced saying "See attached files:", followed by an unordered list, with one list item for each attachment. 
+
+The name of each attachment will be clickable, using Notenik's [[Custom URL Scheme]] to trigger the opening of the appropriate attachment. 
+
+

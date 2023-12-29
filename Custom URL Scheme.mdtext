@@ -24,7 +24,7 @@ The following commands are supported.
 
 ### Open 
 
-This command opens a Collection and, optionally, a specific Note within that Collection. 
+This command opens a Collection and, optionally, a specific Note within that Collection and. optionally, at attachment for that Note. 
 
 Following is a sample URL:  
 
@@ -47,6 +47,7 @@ The `open` command accepts the following parameters following the question mark:
 + `id` - The ID identifying the Note to be selected for display, which is generally the Note's title, with spaces and punctuation removed, and converted to lowercase. 
 + `timestamp` - A [[timestamp]] for a Note can be supplied, as an alternate to `id`, as a means of identifying a specific Note to be selected for display. 
 + `notepath` - A complete file system path to a specific Note can be specified, as a means of specifying both a Collection and a Note within the Collection; again, the path will need to be percent encoded. 
++ `attachment` - The name of an attachment can be specified, in which case the attachment will be opened. The name should only consist of the portion of the filename following the title of the Note ad the pipe separator, and should not include the file extension. 
 
 An easy way to obtain a complete URL that can be used to later open a specific Note is to right-click the Note's row on the List tab within Notenik, and then select `Copy Notenik URL` from the contextual menu that will pop up. This will copy a complete Notenik URL to the clipboard, from which it can then be pasted into another location. 
 

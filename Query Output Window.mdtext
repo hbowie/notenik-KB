@@ -14,7 +14,7 @@ Class:  non-version
 
 Body:
 
-The Query Builder sends its output to an internal Notenik window. The new Calendar function also sends its output to this same window (although with a suitably differentiated title). And the Favorites function now also sends its output to this same window. 
+The [[Query Builder]] sends its output to an internal Notenik window. The [[Dates to Calendar]] function also sends its output to this same window (although with a suitably differentiated title). And the[[Favorites to HTML]] function also sends its output to this same window. 
 
 In all cases, this window now has a pull-down button, titled `Web Page` in the lower right corner, from which any of the following actions can be selected:
 
@@ -29,3 +29,5 @@ In all cases, this window now has a pull-down button, titled `Web Page` in the l
 3. Save and Browse...
 
 	This function allows the user to select a folder and file name, saves the HTML to that location, and then sends a request to macOS to open this saved file in the user's default Web browser.
+
+Starting with [[Version 13.7.0]], this window also contains a `Refresh` button in the lower left corner. Pressing this button will refresh the display with the Collection's current data. 

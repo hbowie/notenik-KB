@@ -12,5 +12,19 @@ Body:
 
 ##### Improved Collection Table of Contents
 
-When you [[Generate a Collection Table of Contents]], and precede it with a command to [[Generate Outline Based on Unordered List Items]], the resulting HTML has been improved to make it more usable. 
+When you [[Generate a Collection Table of Contents]], and precede it with a command to [[Generate Outline Based on Unordered List Items]], the resulting HTML has been improved to make it more usable.
+
+##### Added a Query Refresh
+
+Added a Refresh button to the [[Query Output Window]].
+
+##### Added a Custom URL to Open an Attachment
+
+The Notenik [[Custom URL Scheme]] has been updated to allow the opening of a file attachment. 
+
+##### Added a Markdown Command to Generate a List of Attachments
+
+The Notenik Markdown parser now supports a special command to [[Generate a List of Attachments]], making use of the improved Custom URL Scheme described above. 
+
+
 

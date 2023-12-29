@@ -37,3 +37,5 @@ The window allows the user to specify the following fields:
 + Hit the `Cancel` button to leave without making any updates. 
 
 + Hit the `OK` button to proceed with your requested action.
+
+Note that the scope of this command is limited to [[the Collection Template File]] and the Note files stored within the Collection. If the user has created [[Script Files]] and/or other sorts of Template Files, then these will need to updated manually, using a text editor. 
