@@ -16,7 +16,7 @@ Body:
 
 In addition to [[Wiki Style Links]] *within* a Collection, the Notenik Markdown parser now supports Wiki links *between* Collections. 
 
-In order to link to a Note in another Collection, prefix the usual Note Title with a Collection identifier, followed by a forward slash, as in the following example, where `authors` is a Collection identifier:
+In order to link to a Note in another Collection, prefix the usual Note Title with a [[Collection identifier]], followed by a forward slash, as in the following example, where `authors` is a Collection identifier:
 
 ```
 Author: [[authors/Abraham Lincoln]]
@@ -30,6 +30,4 @@ Note that each Collection will be opened in its own window, as is usual for Note
 
 In order to increase interoperability with other apps, such as iA Writer, a leading '`/`' or '`../`' will be tolerated, but ignored.
 
-If your Collection Settings request Notenik to Create Notes for Missing Wiki Link Targets, then Notenik will create the targeted Note in the targeted Collection, if the targeted Note is not already present. 
-
-
+If your Collection Settings request Notenik to Create Notes for Missing Wiki Link Targets, then Notenik will create the targeted Note in the targeted Collection, if the targeted Note is not already present.

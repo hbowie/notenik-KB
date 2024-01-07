@@ -20,7 +20,7 @@ Beneath the `Nav` menu you will see a command to `Select a Note...`.
 
 If you exercise this command, then you will see a new window titled `Note Selector`. 
 
-At the very top of this window, you will see a dropdown menu from which you may select a Collection other than the one you are currently working in (using the [[Collection Shortcuts]] that have been assigned). Leave this blank (its initial state), and you will be selecting a Note from the current Collection. Select another Collection, however, and your subsequent Note selection will be applied to that second Collection. 
+At the very top of this window, you will see a dropdown menu from which you may select a Collection other than the one you are currently working in (using a [[Collection Identifier]]). Leave this blank (its initial state), and you will be selecting a Note from the current Collection. Select another Collection, however, and your subsequent Note selection will be applied to that second Collection. 
 
 Just below the `Collection Shortcut` field, you will see an invitation to `Enter 3 or more characters to identify a Note`.
 

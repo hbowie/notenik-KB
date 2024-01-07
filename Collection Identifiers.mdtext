@@ -1,0 +1,39 @@
+Title:  Collection Identifiers
+
+AKA:    Collection IDs
+
+Timestamp: 20231231204208
+
+Seq:    9.7.1
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+When using multiple Collections -- especially Collections that are in some way related to one another -- you may find it useful to be able to refer to a particular Collection via some brief handle. 
+
+Such a handle should generally consist of all lowercase letters, possibly with digits, but without spaces or punctuation. 
+
+Such a Collection ID may be specified in either of two ways:
+
++ Via a Collection Shortcut, assigned as part of the [[Collection Settings]];
+
++ Via a [[Collection Folder]] name, fashioned following the rules above. 
+
+Note that, in order for a Collection Identifier to be available for use, Notenik must have gained awareness of the ID during its current session. This awarenes can come about in multiple ways:
+
++ Notenik may recall a Collection shortcut used in a previous session;
++ The Collection may have been opened during the current session;
++ The Collection may have been opened as part of a [[parent realm]]. 
+
+The most reliable way to make use of a Collection ID is:
+
+1. Name the folder according to the specifications above;
+2. Place the folder within the same parent as other folders, at the same level;
+3. Start accessing any of the related folders by first opening the parent folder as a [[parent realm]].
+
+
+
+

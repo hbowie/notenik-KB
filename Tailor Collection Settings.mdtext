@@ -36,7 +36,7 @@ Also beginning with [[Version 10.6.0]], you may explicitly set the option to sav
 
 Note that, if you change the `Preferred File Format`, or the hash tags option, then Notenik will reformat all of the Notes in your Collection to use the new format. Data loss is possible when doing this, so you may wish to backup your Notes before making such a change. 
 
-Enter a shortcut for a Collection in order to easily identify and open it later. (See the article [[Take Quick Action]] for further info.)
+Enter a shortcut for a Collection as one way to reference it later, via a [[Collection Identifier]].
 
 Select an option to tailor your [[Note Title Display]]. The default is a normal font size, with a bold style applied. See the separate page below for details. 
 

@@ -1,0 +1,37 @@
+Title:  Lookback
+
+Timestamp: 20240103181900
+
+Seq:    11.13.6
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The word `lookback` can be used as a field type, but is not intended to be used as a field label. 
+
+It is intended to be used in conjunction with a [[Lookup]] field in another Collection. 
+
+For example, if a Collection stored in a folder titled `quotes` had a lookup field to another Collection titled `authors`, then the authors collection could have a lookback field pointing back to the quotes collection. This lookback field would then display all of the quotes attributed to each author. 
+
+Both Collections must be identifiable via a [[Collection ID]]. 
+
+A `lookback` field can only be added to a Collection by editing [[the Collection Template file]]. 
+
+Here is an example of how a lookback field might be specified. 
+
+```
+Author Quotes: <lookback: quotes> 
+```
+
+The identifier for the Collection to be referenced must be specified following the colon. In the example above, 'quotes' is the identifier for the second Collection.
+
+Note that a lookback field is similar to a [[Back Links]] field, with the difference that Backlinks are used for [[Wiki Links Between Collections]], while lookbacks are used for lookups within Collections. 
+
+One must be mindful of [[Disk Access Permissions]] when using a field with type `lookback`. This can probably best be handled by putting the second Collection alongside of the first, within the same parent folder. You can then use the [[Open Parent Realm]] command to first open the parent, and then from there open either of the Collections. 
+
+Note that lookback values are calculated dynamically when a Collection is opened, and so no lookback values are stored within a Note's disk file. 
+
+When viewing a `lookback` field on the Display tab, the lookback values will be formatted as links, using Notenik's own [[Custom URL Scheme]].

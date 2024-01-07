@@ -24,7 +24,13 @@ The Notenik [[Custom URL Scheme]] has been updated to allow the opening of a fil
 
 ##### Added a Markdown Command to Generate a List of Attachments
 
-The Notenik Markdown parser now supports a special command to [[Generate a List of Attachments]], making use of the improved Custom URL Scheme described above. 
+The Notenik Markdown parser now supports a special command to [[Generate a List of Attachments]], making use of the improved Custom URL Scheme described above.
 
+##### Clarified Use of Collection Identifiers
 
+Clarified the use of [[Collection Identifiers]].
+
+##### Added a Lookback Field Type
+
+Added a new field type of [[Lookback]], which can be used in conjunction with lookup fields in another Collection. 
 
