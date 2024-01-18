@@ -1,0 +1,20 @@
+Title:  Version 13.8.0
+
+Timestamp: 20240118195846
+
+Seq:    19.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Option to Change Font Settings for List Tab
+
+The [[Display Settings]] have been modified to allow changing the font setting for the List Tab. 
+
+##### Fixed Field Renaming Bug
+
+When using the option to [[Rename a Field]], Notenik would sometimes erase the field from the Note being currently displayed, rather than renaming it. This has been corrected. 
+

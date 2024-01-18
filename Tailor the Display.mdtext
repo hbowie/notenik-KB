@@ -28,15 +28,15 @@ Note that the Display settings here will apply to the display of all of your Col
 
 + **Center Headings?** -- You may specify `n/a` to leave them left-justified, or specify a range of heading levels that you wish to see centered. 
 
-+ **Apply Fonts to:** -- Select the Body radio button to apply the following font selections to all text in general. If you would like a different font selection for Headings, then click the Headings radio button and select the font you would like to use for headings. 
++ **Apply Fonts to:** -- Select the Body radio button to apply the following font selections to all text in general. If you would like a different font selection for Headings, then click the Headings radio button and select the font you would like to use for headings. If you would like to change the font settings for the List Tab, then click the List button before proceeding to the font settings. 
 
 + **Show All Fonts?** -- Click the check box to see a long list of fonts, including all of the fonts installed on your system. Unclick the check box to see a shorter, more manageable list of common fonts. 
 
-+ **Display Font:** -- Select the font that you would like to use. The selected font will be used for either body text, or headings text, depending on the radio button currently selected above. 
++ **Display Font:** -- Select the font that you would like to use. The selected font will be used for either body text, or headings text, or the List Tab, depending on the radio button currently selected above. For the List Tab only, you can revert to the default system font by specifying a value of '`- System Font -`'. 
 
-+ **Display Size:** -- Use this control to change the size of the font. If you have selected the Body settings via the radio button above, then you will be asked to choose a point size for your text. If you have selected the Headings setting, then you will be asked to choose an em value -- essentially a multiplier applied to your body value. The headings size value you select will be applied to level 1 headings, with subsequent heading sizes being stepped down by 0.2em for each succeeding level. 
++ **Display Size:** -- Use this control to change the size of the font. If you have selected the Body settings via the radio button above, then you will be asked to choose a point size for your text. If you have selected the Headings setting, then you will be asked to choose an em value -- essentially a multiplier applied to your body value. The headings size value you select will be applied to level 1 headings, with subsequent heading sizes being stepped down by 0.2em for each succeeding level. If you have selected the List Tab settings via the radio button above, then you will be asked to specify a point size for your text. 
 
-+ **Generate CSS** -- If you are working with the Body settings, then clicking on this button will use your choices above to generate the CSS code that will style your Note text in accordance with your wishes. It will also cause the Sample Display below to be refreshed with your settings. 
++ **Generate CSS** -- If you are working with the Body or Headings settings, then clicking on this button will use your choices above to generate the CSS code that will style your Note text in accordance with your wishes. It will also cause the Sample Display below to be refreshed with your settings. 
 
 + **CSS code** -- As described above, you can generate the code here from your Body settings. But you can also enter CSS code here directly. Whatever you enter here will be applied to the body element of your Note display. 
 
@@ -44,7 +44,7 @@ Note that the Display settings here will apply to the display of all of your Col
 
 + **Cancel** -- Clicking here will close the window without saving any changes you might have made. 
 
-+ **OK** -- Clicking here will save your settings and apply them to the display of your Notes. 
++ **OK** -- Clicking here will save your settings and apply them to the display of your Notes, and optionally to the List Tab. 
 
 ##### Collection Settings
 
