@@ -1,14 +1,31 @@
 Title:  Version 13.8.0
 
+Tags:   levels-outline.19 Version History.1 Version 1380
+
 Timestamp: 20240118195846
 
 Seq:    19.1
 
+Date:   2024-01-22
+
 Level:  3 - Section
+
+Teaser: - Changed the default font for the List tab to use a macOS system font with monospaced digits (but proportionally spaced letters).
+
+- Added an option to change the font settings for the List tab.
+
+- Fixed a Field Renaming Bug
+
+- Fixed a Query Refresh Bug
+
 
 Class:  version
 
 Body:
+
+##### Changed Default Font for List Tab
+
+The List tab now defaults to an Apple System font with monospaced digits (but proportionally spaced letters and other characters). 
 
 ##### Added Option to Change Font Settings for List Tab
 
@@ -16,5 +33,8 @@ The [[Display Settings]] have been modified to allow changing the font setting f
 
 ##### Fixed Field Renaming Bug
 
-When using the option to [[Rename a Field]], Notenik would sometimes erase the field from the Note being currently displayed, rather than renaming it. This has been corrected. 
+When using the option to [[Rename a Field]], Notenik would sometimes erase the field from the Note being currently displayed, rather than renaming it. This has been corrected.
 
+##### Fixed Query Refresh Bug
+
+When requesting a refresh from the [[Query Output Window]], two new queries were being generated, instead of one, resulting in duplicate Query windows. This has been fixed.
